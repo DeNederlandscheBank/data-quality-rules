@@ -1,0 +1,31 @@
+========
+BV1039-4
+========
+
+Rule definition
+---------------
+
+BV1039-4: if ({{S.01.02.01.01, r0180,c0010}} = [s2c_AP:x7]) then {{S.22.01.01.01, r0010,c0070}} gt 0
+
+
+Template references
+-------------------
+
+S.01.02.01.01 Basic Information - General
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.01.01,r0180,c0010 [nan]
+
+S.22.01.01.01,r0010,c0070 [Technical provisions , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of volatility adjustment set to zero]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x7]

@@ -1,0 +1,40 @@
+=========
+BV724-4_W
+=========
+
+Rule definition
+---------------
+
+BV724-4_W: {{S.02.01.07.01, r0570,c0010}} = {{S.17.01.01.01, r0010,c0020}} + {{S.17.01.01.01, r0010,c0030}} + {{S.17.01.01.01, r0010,c0040}} + {{S.17.01.01.01, r0010,c0140}} + {{S.17.01.01.01, r0290,c0020}} + {{S.17.01.01.01, r0290,c0030}} + {{S.17.01.01.01, r0290,c0040}} + {{S.17.01.01.01, r0290,c0140}}
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0570,c0010 [unknown label]
+S.17.01.01.01,r0010,c0020 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Medical expense insurance]
+
+S.17.01.01.01,r0010,c0030 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Income protection insurance]
+
+S.17.01.01.01,r0010,c0040 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+
+S.17.01.01.01,r0010,c0140 [Technical provisions calculated as a whole , accepted non-proportional reinsurance|Non-proportional health reinsurance]
+
+S.17.01.01.01,r0290,c0020 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Medical expense insurance]
+
+S.17.01.01.01,r0290,c0030 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Income protection insurance]
+
+S.17.01.01.01,r0290,c0040 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+
+S.17.01.01.01,r0290,c0140 [Amount of the transitional on Technical Provisions|TP as a whole , accepted non-proportional reinsurance|Non-proportional health reinsurance]
+
+
+

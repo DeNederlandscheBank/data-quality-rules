@@ -1,0 +1,26 @@
+=========
+BV139-7_W
+=========
+
+Rule definition
+---------------
+
+BV139-7_W: {{S.02.01.02.01, r0870,c0010}} = {{S.23.01.13.01, r0140,c0010}}
+
+
+Template references
+-------------------
+
+S.02.01.02.01 Balance sheet
+
+S.23.01.13.01 Own funds
+
+
+Datapoints
+----------
+
+S.02.01.02.01,r0870,c0010 [Liabilities|Subordinated liabilities|Subordinated liabilities in Basic Own Funds , Solvency II value]
+
+S.23.01.13.01,r0140,c0010 [unknown label]
+
+

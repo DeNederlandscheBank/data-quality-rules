@@ -1,0 +1,45 @@
+===========
+BV568_1-2-5
+===========
+
+Rule definition
+---------------
+
+BV568_1-2-5: if ({{S.01.01.04.01,r0500,c0010}}=[s2c_CN:x60] or {{S.01.01.04.01,r0500,c0010}}=[s2c_CN:x71]) and {{S.26.01.04.03,r0020,c0010}}=[s2c_AP:x34] then {{S.26.01.04.02,r0120,c0080}}=MAX(0,({{S.26.01.04.01,r0120,c0020}}-{{S.26.01.04.01,r0120,c0030}})-({{S.26.01.04.01,r0120,c0040}}-{{S.26.01.04.01,r0120,c0070}})) where ExDimVal({{S.26.01.04.03,r0020,c0010}},AO)=x1 and ExDimVal({{S.26.01.04.02,r0120,c0080}},AO)=x1 and ExDimVal({{S.26.01.04.01,r0120,c0020}},AO)=x1 and ExDimVal({{S.26.01.04.01,r0120,c0030}},AO)=x1 and ExDimVal({{S.26.01.04.01,r0120,c0040}},AO)=x1 and ExDimVal({{S.26.01.04.01,r0120,c0070}},AO)=x1
+
+
+Template references
+-------------------
+
+S.01.01.04.01 Content of the submission
+
+S.26.01.04.01 Market risk - basic information, part 1
+
+S.26.01.04.02 Market risk - basic information, part 2
+
+S.26.01.04.03 Simplifications used
+
+
+Datapoints
+----------
+
+S.01.01.04.01,r0500,c0010 [nan]
+
+S.26.01.04.01,r0120,c0020 [Interest rate risk|interest rate up shock , Initial absolute values before shock|Assets]
+
+S.26.01.04.01,r0120,c0030 [Interest rate risk|interest rate up shock , Initial absolute values before shock|Liabilities]
+
+S.26.01.04.01,r0120,c0040 [Interest rate risk|interest rate up shock , Absolute values after shock|Assets]
+
+S.26.01.04.01,r0120,c0070 [Interest rate risk|interest rate up shock , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.01.04.02,r0120,c0080 [Interest rate risk|interest rate up shock , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.01.04.03,r0020,c0010 [Captives simplifications - interest rate risk , Simplifications used]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x60] or {{S.01.01.04.01,r0500,c0010}}=[s2c_CN:x71]) and {{S.26.01.04.03,r0020,c0010}}=[s2c_AP:x34]

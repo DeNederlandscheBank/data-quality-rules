@@ -1,0 +1,26 @@
+=========
+BV402-2_W
+=========
+
+Rule definition
+---------------
+
+BV402-2_W: {{S.02.01.01.01, r0270,c0010}} le sum({{S.31.01.04.01, c0100, snnn}})
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.31.01.04.01 Share of reinsurers
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0270,c0010 [Assets|Reinsurance recoverables from: , Solvency II value]
+
+S.31.01.04.01,c0100,snnn [unknown label]
+
+

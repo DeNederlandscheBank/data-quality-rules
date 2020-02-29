@@ -1,0 +1,24 @@
+=======
+BV433-4
+=======
+
+Rule definition
+---------------
+
+BV433-4: if (not(empty({{S.06.03.01.01, c0060}}))) then not(empty({{SE.06.02.18.02, c0290}}))
+
+
+Template references
+-------------------
+
+S.06.03.01.01 Collective investment undertakings - look-through approach
+
+
+Datapoints
+----------
+
+S.06.03.01.01,c0060 [URI|S.06.03.zz.01 line identification , Total amount]
+
+SE.06.02.18.02,c0290 [unknown label]
+
+

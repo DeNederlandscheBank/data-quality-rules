@@ -1,0 +1,33 @@
+=======
+BV368-5
+=======
+
+Rule definition
+---------------
+
+BV368-5: {{S.02.01.07.01,r0150,c0010}}=sum({{S.06.02.07.01,c0170,snnn}}) where matches({{S.06.02.07.02,c0290}},"^..2.$") and {{S.06.02.07.01,c0090}}=[s2c_LB:x91]
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+S.06.02.07.01 Information on positions held
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0150,c0010 [unknown label]
+S.06.02.07.01,c0090 [unknown label]
+S.06.02.07.01,c0170,snnn [unknown label]
+S.06.02.07.02,c0290 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_LB:x91]

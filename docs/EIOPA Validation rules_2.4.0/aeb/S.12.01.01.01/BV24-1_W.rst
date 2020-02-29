@@ -1,0 +1,29 @@
+========
+BV24-1_W
+========
+
+Rule definition
+---------------
+
+BV24-1_W: [ (c0020;0090;0100;0150;0190;0200;0210)] {{S.12.01.01.01, r0210}} = {{S.12.01.01.01, r0200}} - {{S.12.01.01.01, r0080}} - {{S.12.01.01.01, r0020}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0020 [unknown label]
+S.12.01.01.01,r0080 [unknown label]
+S.12.01.01.01,r0200 [unknown label]
+S.12.01.01.01,r0210 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020;0090;0100;0150;0190;0200;0210)]

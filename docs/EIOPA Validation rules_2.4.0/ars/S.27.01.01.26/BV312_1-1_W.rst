@@ -1,0 +1,28 @@
+===========
+BV312_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV312_1-1_W: [ (c1370;1400)] {{S.27.01.01.26,r4030}}={{S.27.01.01.26,r4040}}-{{S.27.01.01.26,r4020}} where ExDimVal({{S.27.01.01.26,r4030}},AO)=x0 and ExDimVal({{S.27.01.01.26,r4040}},AO)=x0 and ExDimVal({{S.27.01.01.26,r4020}},AO)=x0
+
+
+Template references
+-------------------
+
+S.27.01.01.26 Health Catastrophe risk - Concentration accident
+
+
+Datapoints
+----------
+
+S.27.01.01.26,r4020 [unknown label]
+S.27.01.01.26,r4030 [unknown label]
+S.27.01.01.26,r4040 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c1370;1400)]

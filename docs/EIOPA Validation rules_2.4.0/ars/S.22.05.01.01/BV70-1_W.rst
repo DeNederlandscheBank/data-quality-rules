@@ -1,0 +1,30 @@
+========
+BV70-1_W
+========
+
+Rule definition
+---------------
+
+BV70-1_W: [ (c0010)] {{S.22.05.01.01, r0080}} = {{S.22.05.01.01, r0020}} + {{S.22.05.01.01, r0030}} + {{S.22.05.01.01, r0040}} - {{S.22.05.01.01, r0070}}
+
+
+Template references
+-------------------
+
+S.22.05.01.01 Overall calculation of the transitional on technical provisions
+
+
+Datapoints
+----------
+
+S.22.05.01.01,r0020 [unknown label]
+S.22.05.01.01,r0030 [unknown label]
+S.22.05.01.01,r0040 [unknown label]
+S.22.05.01.01,r0070 [unknown label]
+S.22.05.01.01,r0080 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010)]

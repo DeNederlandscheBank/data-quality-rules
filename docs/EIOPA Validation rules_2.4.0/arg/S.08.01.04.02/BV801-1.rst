@@ -1,0 +1,27 @@
+=======
+BV801-1
+=======
+
+Rule definition
+---------------
+
+BV801-1: empty({{S.08.01.04.01,c0190}})  where not(matches({{S.08.01.04.02,c0380}},"^..F.$"))
+
+
+Template references
+-------------------
+
+S.08.01.04.01 Information on positions held
+
+S.08.01.04.02 Information on derivatives
+
+
+Datapoints
+----------
+
+S.08.01.04.01,c0190 [Identification code of entity|Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Maximum loss under unwinding event]
+
+S.08.01.04.02,c0380 [URI , CIC]
+
+
+

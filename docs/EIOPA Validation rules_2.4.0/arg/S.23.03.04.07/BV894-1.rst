@@ -1,0 +1,30 @@
+=======
+BV894-1
+=======
+
+Rule definition
+---------------
+
+BV894-1: [(r1000-1100)] if (not(empty({{S.23.03.04.07,c0060}})) and (not(empty({{S.23.03.04.07,c0070}})) or not(empty({{S.23.03.04.07,c0080}})) or not(empty({{S.23.03.04.07,c0090}})))) then not(empty({{S.23.03.04.07,c0010}}))
+
+
+Template references
+-------------------
+
+S.23.03.04.07 Other items approved by supervisory authority as basic own funds not specified above - movements in the reporting period
+
+
+Datapoints
+----------
+
+S.23.03.04.07,c0010 [unknown label]
+S.23.03.04.07,c0060 [unknown label]
+S.23.03.04.07,c0070 [unknown label]
+S.23.03.04.07,c0080 [unknown label]
+S.23.03.04.07,c0090 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[(r1000-1100)]

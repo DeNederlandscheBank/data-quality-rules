@@ -1,0 +1,23 @@
+=========
+BV955-2_W
+=========
+
+Rule definition
+---------------
+
+BV955-2_W: not(empty({{S.06.02.07.02,c0310}})) where matches({{S.06.02.07.02,c0290}},"^..((3)|(4)).$")
+
+
+Template references
+-------------------
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.07.02,c0290 [unknown label]
+S.06.02.07.02,c0310 [unknown label]
+
+

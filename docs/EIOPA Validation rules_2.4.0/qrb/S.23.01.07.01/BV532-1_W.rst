@@ -1,0 +1,27 @@
+=========
+BV532-1_W
+=========
+
+Rule definition
+---------------
+
+BV532-1_W: [ (r0340)] {{S.23.01.07.01, c0010}} = {{S.23.01.07.01, c0040}}
+
+
+Template references
+-------------------
+
+S.23.01.07.01 Own funds
+
+
+Datapoints
+----------
+
+S.23.01.07.01,c0010 [unknown label]
+S.23.01.07.01,c0040 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0340)]

@@ -1,0 +1,27 @@
+=======
+BV840-1
+=======
+
+Rule definition
+---------------
+
+BV840-1: [(c0020-0180 )] (not(empty({{S.17.01.02.01,r0260}})) and not(empty({{S.17.01.02.01,r0280}}))) or (empty({{S.17.01.02.01,r0260}}) and empty({{S.17.01.02.01,r0280}}))
+
+
+Template references
+-------------------
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.02.01,r0260 [unknown label]
+S.17.01.02.01,r0280 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[(c0020-0180 )]

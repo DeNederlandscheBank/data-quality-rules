@@ -1,0 +1,29 @@
+======
+BV63-2
+======
+
+Rule definition
+---------------
+
+BV63-2: [ (c0010-0100)] {{S.22.01.04.01, r0050}} = {{S.22.01.04.01, r0060}} + {{S.22.01.04.01, r0070}} + {{S.22.01.04.01, r0080}}
+
+
+Template references
+-------------------
+
+S.22.01.04.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.22.01.04.01,r0050 [unknown label]
+S.22.01.04.01,r0060 [unknown label]
+S.22.01.04.01,r0070 [unknown label]
+S.22.01.04.01,r0080 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010-0100)]

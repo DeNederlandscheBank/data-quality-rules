@@ -1,0 +1,30 @@
+========
+BV1036-2
+========
+
+Rule definition
+---------------
+
+BV1036-2: if ({{S.01.02.07.01, r0200,c0010}} = [s2c_AP:x11]) then {{S.22.01.01.01, r0020,c0030}} lt 0
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0200,c0010 [unknown label]
+S.22.01.01.01,r0020,c0030 [Basic own funds , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of transitional on technical provisions]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x11]

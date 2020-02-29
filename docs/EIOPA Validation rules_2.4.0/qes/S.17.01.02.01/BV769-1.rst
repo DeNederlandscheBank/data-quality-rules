@@ -1,0 +1,27 @@
+=======
+BV769-1
+=======
+
+Rule definition
+---------------
+
+BV769-1: if (not(empty({{S.05.01.02.01, r0200,c0010}}))) then not(empty({{S.17.01.02.01, r0320,c0020}}))
+
+
+Template references
+-------------------
+
+S.05.01.02.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.05.01.02.01,r0200,c0010 [Premiums written|Net , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Medical expense insurance]
+
+S.17.01.02.01,r0320,c0020 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Medical expense insurance]
+
+
+

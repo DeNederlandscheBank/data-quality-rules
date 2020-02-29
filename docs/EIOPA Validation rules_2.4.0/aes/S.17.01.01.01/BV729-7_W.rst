@@ -1,0 +1,46 @@
+=========
+BV729-7_W
+=========
+
+Rule definition
+---------------
+
+BV729-7_W: {{SE.02.01.16.01, r0290,c0010}} = {{S.17.01.01.01, r0330,c0050}} + {{S.17.01.01.01, r0330,c0060}} + {{S.17.01.01.01, r0330,c0070}} + {{S.17.01.01.01, r0330,c0080}} + {{S.17.01.01.01, r0330,c0090}} + {{S.17.01.01.01, r0330,c0100}} + {{S.17.01.01.01, r0330,c0110}} + {{S.17.01.01.01, r0330,c0120}} + {{S.17.01.01.01, r0330,c0130}} + {{S.17.01.01.01, r0330,c0150}} + {{S.17.01.01.01, r0330,c0160}} + {{S.17.01.01.01, r0330,c0170}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.01.01,r0330,c0050 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+
+S.17.01.01.01,r0330,c0060 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , Direct business and accepted proportional reinsurance|Other motor insurance]
+
+S.17.01.01.01,r0330,c0070 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+
+S.17.01.01.01,r0330,c0080 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , Direct business and accepted proportional reinsurance|Fire and other damage to property insurance]
+
+S.17.01.01.01,r0330,c0090 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , Direct business and accepted proportional reinsurance|General liability insurance]
+
+S.17.01.01.01,r0330,c0100 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+
+S.17.01.01.01,r0330,c0110 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+
+S.17.01.01.01,r0330,c0120 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , Direct business and accepted proportional reinsurance|Assistance]
+
+S.17.01.01.01,r0330,c0130 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , Direct business and accepted proportional reinsurance|Miscellaneous financial loss]
+
+S.17.01.01.01,r0330,c0150 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , accepted non-proportional reinsurance|Non-proportional casualty reinsurance]
+
+S.17.01.01.01,r0330,c0160 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , accepted non-proportional reinsurance|Non-proportional marine, aviation and transport reinsurance]
+
+S.17.01.01.01,r0330,c0170 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , accepted non-proportional reinsurance|Non-proportional property reinsurance]
+
+SE.02.01.16.01,r0290,c0010 [unknown label]
+
+

@@ -1,0 +1,31 @@
+=======
+BV705-1
+=======
+
+Rule definition
+---------------
+
+BV705-1: if ({{S.01.02.07.01,r0170,c0010}}=[s2c_PU:x51]) then {{SR.01.01.07.01,r0830,c0010}}=[s2c_CN:x1] where {{S.01.03.01.01,c0060}}=[s2c_PU:x53]
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.01.03.01.01 List of all RFF/MAP (overlaps allowed)
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0170,c0010 [unknown label]
+S.01.03.01.01,c0060 [Fund/Matching portfolio Number , RFF/MAP/Remaining part of a fund]
+
+SR.01.01.07.01,r0830,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x51]) then {{SR.01.01.07.01,r0830,c0010}}=[s2c_CN:x1] where {{S.01.03.01.01,c0060}}=[s2c_PU:x53]

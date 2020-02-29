@@ -1,0 +1,73 @@
+=========
+BV723-6_W
+=========
+
+Rule definition
+---------------
+
+BV723-6_W: {{S.02.01.02.01, r0530,c0010}} = {{S.17.01.02.01, r0010,c0050}} + {{S.17.01.02.01, r0010,c0060}} + {{S.17.01.02.01, r0010,c0070}} + {{S.17.01.02.01, r0010,c0080}} + {{S.17.01.02.01, r0010,c0090}} + {{S.17.01.02.01, r0010,c0100}} + {{S.17.01.02.01, r0010,c0110}} + {{S.17.01.02.01, r0010,c0120}} + {{S.17.01.02.01, r0010,c0130}} + {{S.17.01.02.01, r0010,c0150}} + {{S.17.01.02.01, r0010,c0160}} + {{S.17.01.02.01, r0010,c0170}} + {{S.17.01.02.01, r0290,c0050}} + {{S.17.01.02.01, r0290,c0060}} + {{S.17.01.02.01, r0290,c0070}} + {{S.17.01.02.01, r0290,c0080}} + {{S.17.01.02.01, r0290,c0090}} + {{S.17.01.02.01, r0290,c0100}} + {{S.17.01.02.01, r0290,c0110}} + {{S.17.01.02.01, r0290,c0120}} + {{S.17.01.02.01, r0290,c0130}} + {{S.17.01.02.01, r0290,c0150}} + {{S.17.01.02.01, r0290,c0160}} + {{S.17.01.02.01, r0290,c0170}}
+
+
+Template references
+-------------------
+
+S.02.01.02.01 Balance sheet
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.02.01,r0530,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life|Technical provisions Ã¢ÂÂ non-life (excluding health)|Technical provisions calculated as a whole , Solvency II value]
+
+S.17.01.02.01,r0010,c0050 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+
+S.17.01.02.01,r0010,c0060 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Other motor insurance]
+
+S.17.01.02.01,r0010,c0070 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+
+S.17.01.02.01,r0010,c0080 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Fire and other damage to property insurance]
+
+S.17.01.02.01,r0010,c0090 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|General liability insurance]
+
+S.17.01.02.01,r0010,c0100 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+
+S.17.01.02.01,r0010,c0110 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+
+S.17.01.02.01,r0010,c0120 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Assistance]
+
+S.17.01.02.01,r0010,c0130 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Miscellaneous financial loss]
+
+S.17.01.02.01,r0010,c0150 [Technical provisions calculated as a whole , Accepted non-proportional reinsurance|Non-proportional casualty reinsurance]
+
+S.17.01.02.01,r0010,c0160 [Technical provisions calculated as a whole , Accepted non-proportional reinsurance|Non-proportional marine, aviation and transport reinsurance]
+
+S.17.01.02.01,r0010,c0170 [Technical provisions calculated as a whole , Accepted non-proportional reinsurance|Non-proportional property reinsurance]
+
+S.17.01.02.01,r0290,c0050 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+
+S.17.01.02.01,r0290,c0060 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|Other motor insurance]
+
+S.17.01.02.01,r0290,c0070 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+
+S.17.01.02.01,r0290,c0080 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|Fire and other damage to property insurance]
+
+S.17.01.02.01,r0290,c0090 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|General liability insurance]
+
+S.17.01.02.01,r0290,c0100 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+
+S.17.01.02.01,r0290,c0110 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+
+S.17.01.02.01,r0290,c0120 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|Assistance]
+
+S.17.01.02.01,r0290,c0130 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|Miscellaneous financial loss]
+
+S.17.01.02.01,r0290,c0150 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Accepted non-proportional reinsurance|Non-proportional casualty reinsurance]
+
+S.17.01.02.01,r0290,c0160 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Accepted non-proportional reinsurance|Non-proportional marine, aviation and transport reinsurance]
+
+S.17.01.02.01,r0290,c0170 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Accepted non-proportional reinsurance|Non-proportional property reinsurance]
+
+
+

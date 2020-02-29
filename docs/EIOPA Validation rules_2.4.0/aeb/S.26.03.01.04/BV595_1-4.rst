@@ -1,0 +1,41 @@
+=========
+BV595_1-4
+=========
+
+Rule definition
+---------------
+
+BV595_1-4: if ({{S.26.03.01.03, r0030,c0010}} = [s2c_AP:x34]) then {{S.26.03.01.04, r0300,c0080}} = max(0, ({{S.26.03.01.01, r0300,c0020}} - {{S.26.03.01.01, r0300,c0030}}) - ({{S.26.03.01.01, r0300,c0040}} - {{S.26.03.01.01, r0300,c0070}}))
+
+
+Template references
+-------------------
+
+S.26.03.01.01 Life underwriting risk
+
+S.26.03.01.03 Simplifications used
+
+S.26.03.01.04 Life underwriting risk
+
+
+Datapoints
+----------
+
+S.26.03.01.01,r0300,c0020 [Disability-morbidity risk , Initial absolute values before shock|Assets]
+
+S.26.03.01.01,r0300,c0030 [Disability-morbidity risk , Initial absolute values before shock|Liabilities]
+
+S.26.03.01.01,r0300,c0040 [Disability-morbidity risk , Absolute values after shock|Assets]
+
+S.26.03.01.01,r0300,c0070 [Disability-morbidity risk , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.03.01.03,r0030,c0010 [Simplifications - disability-morbidity risk , Simplifications used]
+
+S.26.03.01.04,r0300,c0080 [Disability-morbidity risk , Absolute values after shock|Gross solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x34]

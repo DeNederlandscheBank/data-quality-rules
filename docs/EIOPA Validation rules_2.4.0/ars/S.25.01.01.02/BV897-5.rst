@@ -1,0 +1,39 @@
+=======
+BV897-5
+=======
+
+Rule definition
+---------------
+
+BV897-5: if ({{S.01.01.01.01,r0460,c0010}}=[s2c_CN:x59]) then {{S.25.01.01.02,r0140,c0100}}>=-max(min({{S.25.01.01.01,r0100,c0040}}-{{S.25.01.01.01,r0100,c0030}},{{S.25.01.01.02,r0460,c0100}}),0) where ExDimVal({{S.25.01.01.01,r0100,c0030}},AO)=x0 and ExDimVal({{S.25.01.01.01,r0100,c0040}},AO)=x0 and ExDimVal({{S.25.01.01.02,r0140,c0100}},AO)=x0 and ExDimVal({{S.25.01.01.02,r0460,c0100}},AO)=x0
+
+
+Template references
+-------------------
+
+S.01.01.01.01 Content of the submission
+
+S.25.01.01.01 Basic Solvency Capital Requirement
+
+S.25.01.01.02 Calculation of Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.01.01.01.01,r0460,c0010 [nan]
+
+S.25.01.01.01,r0100,c0030 [Basic Solvency Capital Requirement , Net solvency capital requirement]
+
+S.25.01.01.01,r0100,c0040 [Basic Solvency Capital Requirement , Gross solvency capital requirement]
+
+S.25.01.01.02,r0140,c0100 [Loss-absorbing capacity of technical provisions , Value]
+
+S.25.01.01.02,r0460,c0100 [Other information on SCR|Net future discretionary benefits , Value]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x59]

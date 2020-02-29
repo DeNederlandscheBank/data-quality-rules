@@ -1,0 +1,23 @@
+=======
+BV716-8
+=======
+
+Rule definition
+---------------
+
+BV716-8: {{S.02.01.01.01, r0410,c0010}} gt 0
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0410,c0010 [Assets|Cash and cash equivalents , Solvency II value]
+
+
+

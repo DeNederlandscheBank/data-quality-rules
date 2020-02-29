@@ -1,0 +1,26 @@
+=========
+BV384_1-5
+=========
+
+Rule definition
+---------------
+
+BV384_1-5: {{SE.02.01.19.01, r0640,c0010}} = {{S.12.01.02.01, r0100,c0210}} + {{S.12.01.02.01, r0130,c0210}}
+
+
+Template references
+-------------------
+
+S.12.01.02.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.02.01,r0100,c0210 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Total (Health similar to life insurance)]
+
+S.12.01.02.01,r0130,c0210 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Total (Health similar to life insurance)]
+
+SE.02.01.19.01,r0640,c0010 [unknown label]
+
+

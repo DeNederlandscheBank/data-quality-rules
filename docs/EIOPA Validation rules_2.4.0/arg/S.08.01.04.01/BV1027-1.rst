@@ -1,0 +1,23 @@
+========
+BV1027-1
+========
+
+Rule definition
+---------------
+
+BV1027-1: {{S.08.01.04.01, c0190}} ge 0
+
+
+Template references
+-------------------
+
+S.08.01.04.01 Information on positions held
+
+
+Datapoints
+----------
+
+S.08.01.04.01,c0190 [Identification code of entity|Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Maximum loss under unwinding event]
+
+
+

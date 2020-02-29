@@ -1,0 +1,33 @@
+===========
+BV589_1-4_W
+===========
+
+Rule definition
+---------------
+
+BV589_1-4_W: {{S.26.03.01.04, r0430,c0060}} = max(0, ({{S.26.03.01.01, r0430,c0020}} - {{S.26.03.01.01, r0430,c0030}}) - ({{S.26.03.01.01, r0430,c0040}} - {{S.26.03.01.01, r0430,c0050}}))
+
+
+Template references
+-------------------
+
+S.26.03.01.01 Life underwriting risk
+
+S.26.03.01.04 Life underwriting risk
+
+
+Datapoints
+----------
+
+S.26.03.01.01,r0430,c0020 [Lapse risk|mass lapse risk , Initial absolute values before shock|Assets]
+
+S.26.03.01.01,r0430,c0030 [Lapse risk|mass lapse risk , Initial absolute values before shock|Liabilities]
+
+S.26.03.01.01,r0430,c0040 [Lapse risk|mass lapse risk , Absolute values after shock|Assets]
+
+S.26.03.01.01,r0430,c0050 [Lapse risk|mass lapse risk , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+
+S.26.03.01.04,r0430,c0060 [Lapse risk|mass lapse risk , Absolute values after shock|Net solvency capital requirement]
+
+
+

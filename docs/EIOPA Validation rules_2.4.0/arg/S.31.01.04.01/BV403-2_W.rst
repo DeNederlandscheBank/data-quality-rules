@@ -1,0 +1,28 @@
+=========
+BV403-2_W
+=========
+
+Rule definition
+---------------
+
+BV403-2_W: {{S.02.01.01.01, r0370,c0010}} - {{S.02.01.01.01, r0830,c0010}} = sum({{S.31.01.04.01, c0110, snnn}})
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.31.01.04.01 Share of reinsurers
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0370,c0010 [Assets|Reinsurance receivables , Solvency II value]
+
+S.02.01.01.01,r0830,c0010 [Liabilities|Reinsurance payables , Solvency II value]
+
+S.31.01.04.01,c0110,snnn [unknown label]
+
+

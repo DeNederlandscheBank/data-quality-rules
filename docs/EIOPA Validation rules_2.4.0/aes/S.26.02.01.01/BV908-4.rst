@@ -1,0 +1,32 @@
+=======
+BV908-4
+=======
+
+Rule definition
+---------------
+
+BV908-4: if ({{SE.01.01.16.01,r0510,c0010}}=[s2c_CN:x1]) then {{S.26.02.01.01,r0400,c0080}}=exp({{S.26.02.01.01,r0100,c0080}}*({{S.26.02.01.01,r0100,c0080}}+0.75*{{S.26.02.01.01,r0300,c0080}})+{{S.26.02.01.01,r0300,c0080}}*(0.75*{{S.26.02.01.01,r0100,c0080}}+{{S.26.02.01.01,r0300,c0080}}),1,2) where ExDimVal({{S.26.02.01.01,r0100,c0080}},AO)=x0 and ExDimVal({{S.26.02.01.01,r0300,c0080}},AO)=x0 and ExDimVal({{S.26.02.01.01,r0400,c0080}},AO)=x0
+
+
+Template references
+-------------------
+
+S.26.02.01.01 Counterparty default risk - basic information
+
+
+Datapoints
+----------
+
+S.26.02.01.01,r0100,c0080 [Type 1 exposures , Gross solvency capital requirement]
+
+S.26.02.01.01,r0300,c0080 [Type 2 exposures , Gross solvency capital requirement]
+
+S.26.02.01.01,r0400,c0080 [Total counterparty default risk , Gross solvency capital requirement]
+
+SE.01.01.16.01,r0510,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1]

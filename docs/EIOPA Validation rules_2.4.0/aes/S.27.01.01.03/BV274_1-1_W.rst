@@ -1,0 +1,28 @@
+===========
+BV274_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV274_1-1_W: [ (c0170-c0200)] {{S.27.01.01.03, r1230}} = {{S.27.01.01.03, r1030}} + {{S.27.01.01.03, r1220}}
+
+
+Template references
+-------------------
+
+S.27.01.01.03 Natural Catastrophe risk - Earthquake
+
+
+Datapoints
+----------
+
+S.27.01.01.03,r1030 [unknown label]
+S.27.01.01.03,r1220 [unknown label]
+S.27.01.01.03,r1230 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0170-c0200)]

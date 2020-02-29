@@ -1,0 +1,26 @@
+=======
+BV876-1
+=======
+
+Rule definition
+---------------
+
+BV876-1: sum({{S.23.04.01.03, c0280, snnn}}) = {{S.23.01.01.01, r0140,c0010}}
+
+
+Template references
+-------------------
+
+S.23.01.01.01 Own funds
+
+S.23.04.01.03 Subordinated liability
+
+
+Datapoints
+----------
+
+S.23.01.01.01,r0140,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Subordinated liabilities , Total]
+
+S.23.04.01.03,c0280,snnn [unknown label]
+
+

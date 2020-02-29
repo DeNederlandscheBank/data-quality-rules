@@ -1,0 +1,32 @@
+=========
+BV385-4_W
+=========
+
+Rule definition
+---------------
+
+BV385-4_W: {{SE.02.01.16.01, r0660,c0010}} ge {{S.12.01.01.01, r0010,c0150}} - {{S.12.01.01.01, r0010,c0030}} - {{S.12.01.01.01, r0010,c0120}} + {{S.12.01.01.01, r0110,c0150}} - {{S.12.01.01.01, r0110,c0030}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0010,c0030 [Technical provisions calculated as a whole , Index-linked and unit-linked insurance|]
+
+S.12.01.01.01,r0010,c0120 [Technical provisions calculated as a whole , Accepted reinsurance|Index-linked and unit-linked insurance]
+
+S.12.01.01.01,r0010,c0150 [Technical provisions calculated as a whole , Total (Life other than health insurance, incl. Unit-Linked)]
+
+S.12.01.01.01,r0110,c0030 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Index-linked and unit-linked insurance|]
+
+S.12.01.01.01,r0110,c0150 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Total (Life other than health insurance, incl. Unit-Linked)]
+
+SE.02.01.16.01,r0660,c0010 [unknown label]
+
+

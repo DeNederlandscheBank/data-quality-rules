@@ -1,0 +1,38 @@
+=========
+BV364-3_W
+=========
+
+Rule definition
+---------------
+
+BV364-3_W: {{S.02.01.02.01,r0090,c0010}}=sum({{S.06.02.01.01,c0170,snnn}}) where matches({{S.06.02.01.02,c0290}},"^..((3)|(4)).$") and {{S.06.02.01.02,c0310}} != [s2c_PU:x16] and {{S.06.02.01.01,c0090}}=[s2c_LB:x91]
+
+
+Template references
+-------------------
+
+S.02.01.02.01 Balance sheet
+
+S.06.02.01.01 Information on positions held
+
+S.06.02.01.02 Information on assets
+
+
+Datapoints
+----------
+
+S.02.01.02.01,r0090,c0010 [Assets|Investments (other than assets held for index-linked and unit-linked contracts)|Holdings in related undertakings, including participations , Solvency II value]
+
+S.06.02.01.01,c0090 [Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Asset held in unit linked and index linked contracts]
+
+S.06.02.01.01,c0170,snnn [unknown label]
+S.06.02.01.02,c0290 [URI , CIC]
+
+S.06.02.01.02,c0310 [URI , Holdings in related undertakings, including participations]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x16] and {{S.06.02.01.01,c0090}}=[s2c_LB:x91]

@@ -1,0 +1,33 @@
+=========
+BV631_1-2
+=========
+
+Rule definition
+---------------
+
+BV631_1-2: [ (c0060;0080)] {{S.26.04.04.01, r0700}} = {{S.26.04.04.01, r0800}} - {{S.26.04.04.01, r0100}} - {{S.26.04.04.01, r0200}} - {{S.26.04.04.01, r0300}} - {{S.26.04.04.01, r0400}} - {{S.26.04.04.01, r0500}} - {{S.26.04.04.01, r0600}}
+
+
+Template references
+-------------------
+
+S.26.04.04.01 SLT health underwriting risk
+
+
+Datapoints
+----------
+
+S.26.04.04.01,r0100 [unknown label]
+S.26.04.04.01,r0200 [unknown label]
+S.26.04.04.01,r0300 [unknown label]
+S.26.04.04.01,r0400 [unknown label]
+S.26.04.04.01,r0500 [unknown label]
+S.26.04.04.01,r0600 [unknown label]
+S.26.04.04.01,r0700 [unknown label]
+S.26.04.04.01,r0800 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0060;0080)]

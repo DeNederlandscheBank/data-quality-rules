@@ -1,0 +1,33 @@
+=========
+BV891-2_W
+=========
+
+Rule definition
+---------------
+
+BV891-2_W: {{S.23.02.01.03, r0650,c0110}} = {{S.23.02.01.03, r0600,c0110}} - {{S.23.02.01.03, r0610,c0110}} - {{S.23.02.01.03, r0620,c0110}} + {{S.23.02.01.03, r0630,c0110}} + {{S.23.02.01.03, r0640,c0110}}
+
+
+Template references
+-------------------
+
+S.23.02.01.03 Excess of assets over liabilities - attribution of valuation differences
+
+
+Datapoints
+----------
+
+S.23.02.01.03,r0600,c0110 [Excess of assets over liabilities - attribution of valuation differences|Difference in the valuation of assets , Total]
+
+S.23.02.01.03,r0610,c0110 [Excess of assets over liabilities - attribution of valuation differences|Difference in the valuation of technical provisions , Total]
+
+S.23.02.01.03,r0620,c0110 [Excess of assets over liabilities - attribution of valuation differences|Difference in the valuation of other liabilities , Total]
+
+S.23.02.01.03,r0630,c0110 [Excess of assets over liabilities - attribution of valuation differences|Total of reserves and retained earnings from financial statements , Total]
+
+S.23.02.01.03,r0640,c0110 [Excess of assets over liabilities - attribution of valuation differences|Other, please explain why you need to use this line , Total]
+
+S.23.02.01.03,r0650,c0110 [Excess of assets over liabilities - attribution of valuation differences|Reserves from financial statements adjusted for Solvency II valuation differences , Total]
+
+
+

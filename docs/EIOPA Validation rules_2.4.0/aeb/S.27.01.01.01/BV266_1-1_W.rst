@@ -1,0 +1,28 @@
+===========
+BV266_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV266_1-1_W: [ (c0010;0030)] {{S.27.01.01.01,r0340}}={{S.27.01.01.01,r0300}}-sum({{S.27.01.01.01,r0310-0330}}) where ExDimVal({{S.27.01.01.01,r0340}},AO)=x0 and ExDimVal({{S.27.01.01.01,r0300}},AO)=x0 and ExDimVal({{S.27.01.01.01,r0310-0330}},AO)=x0
+
+
+Template references
+-------------------
+
+S.27.01.01.01 Non-life and Health catastrophe risk - Summary
+
+
+Datapoints
+----------
+
+S.27.01.01.01,r0300 [unknown label]
+S.27.01.01.01,r0310-0330 [unknown label]
+S.27.01.01.01,r0340 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010;0030)]

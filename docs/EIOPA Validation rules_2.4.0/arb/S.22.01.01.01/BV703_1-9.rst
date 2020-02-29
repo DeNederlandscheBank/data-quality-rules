@@ -1,0 +1,35 @@
+=========
+BV703_1-9
+=========
+
+Rule definition
+---------------
+
+BV703_1-9: if ({{S.01.02.07.01, r0200,c0010}} = [s2c_AP:x12] and {{S.01.02.07.01, r0190,c0010}} = [s2c_AP:x10] and {{S.01.02.07.01, r0180,c0010}} = [s2c_AP:x7] and {{S.01.02.07.01, r0170,c0010}} = [s2c_PU:x52]) then {{S.22.01.01.01, r0030,c0100}} = {{S.22.01.01.01, r0030,c0070}}
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0170,c0010 [unknown label]
+S.01.02.07.01,r0180,c0010 [unknown label]
+S.01.02.07.01,r0190,c0010 [unknown label]
+S.01.02.07.01,r0200,c0010 [unknown label]
+S.22.01.01.01,r0030,c0070 [Basic own funds|Excess of assets over liabilities , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of volatility adjustment set to zero]
+
+S.22.01.01.01,r0030,c0100 [Basic own funds|Excess of assets over liabilities , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of all LTG measures and transitionals]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x12] and {{S.01.02.07.01, r0190,c0010}} = [s2c_AP:x10] and {{S.01.02.07.01, r0180,c0010}} = [s2c_AP:x7] and {{S.01.02.07.01, r0170,c0010}} = [s2c_PU:x52]

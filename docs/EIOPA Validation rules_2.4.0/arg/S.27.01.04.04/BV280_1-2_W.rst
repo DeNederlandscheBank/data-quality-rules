@@ -1,0 +1,29 @@
+===========
+BV280_1-2_W
+===========
+
+Rule definition
+---------------
+
+BV280_1-2_W: [ (r1260-1400;1590;1600)] {{S.27.01.04.04, c0290}} = {{S.27.01.04.04, c0260}} - {{S.27.01.04.04, c0270}} + {{S.27.01.04.04, c0280}}
+
+
+Template references
+-------------------
+
+S.27.01.04.04 Natural Catastrophe risk - Flood
+
+
+Datapoints
+----------
+
+S.27.01.04.04,c0260 [unknown label]
+S.27.01.04.04,c0270 [unknown label]
+S.27.01.04.04,c0280 [unknown label]
+S.27.01.04.04,c0290 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r1260-1400;1590;1600)]

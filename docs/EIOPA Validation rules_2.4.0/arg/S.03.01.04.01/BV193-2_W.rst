@@ -1,0 +1,28 @@
+=========
+BV193-2_W
+=========
+
+Rule definition
+---------------
+
+BV193-2_W: [ (c0010)] {{S.03.01.04.01, r0400}} = {{S.03.01.04.01, r0310}} + {{S.03.01.04.01, r0330}}
+
+
+Template references
+-------------------
+
+S.03.01.04.01 Value of guarantee / collateral / contingent liabilities
+
+
+Datapoints
+----------
+
+S.03.01.04.01,r0310 [unknown label]
+S.03.01.04.01,r0330 [unknown label]
+S.03.01.04.01,r0400 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010)]

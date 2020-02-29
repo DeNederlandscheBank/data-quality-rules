@@ -1,0 +1,27 @@
+=======
+BV799-2
+=======
+
+Rule definition
+---------------
+
+BV799-2: empty({{S.08.01.01.01,c0120}})  where not(matches({{S.08.01.01.02,c0380}},"^..((B)|(C)).$"))
+
+
+Template references
+-------------------
+
+S.08.01.01.01 Information on positions held
+
+S.08.01.01.02 Information on derivatives
+
+
+Datapoints
+----------
+
+S.08.01.01.01,c0120 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Delta]
+
+S.08.01.01.02,c0380 [URI , CIC]
+
+
+

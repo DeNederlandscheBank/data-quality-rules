@@ -1,0 +1,39 @@
+=========
+BV904_2-5
+=========
+
+Rule definition
+---------------
+
+BV904_2-5: if ({{S.01.01.01.01,r0500,c0010}}=[s2c_CN:x1]) then {{S.26.01.01.02,r0200,c0080}}=exp({{S.26.01.01.02,r0210,c0080}}*{{S.26.01.01.02,r0210,c0080}}+2*0.75*{{S.26.01.01.02,r0210,c0080}}*({{S.26.01.01.02,r0250,c0080}}+{{S.26.01.01.02,r0291,c0080}}+{{S.26.01.01.02,r0292,c0080}})+({{S.26.01.01.02,r0250,c0080}}+{{S.26.01.01.02,r0291,c0080}}+{{S.26.01.01.02,r0292,c0080}})*({{S.26.01.01.02,r0250,c0080}}+{{S.26.01.01.02,r0291,c0080}}+{{S.26.01.01.02,r0292,c0080}}),1,2) where ExDimVal({{S.26.01.01.02,r0200,c0080}},AO)=x0 and ExDimVal({{S.26.01.01.02,r0210,c0080}},AO)=x0 and ExDimVal({{S.26.01.01.02,r0250,c0080}},AO)=x0 and ExDimVal({{S.26.01.01.02,r0291,c0080}},AO)=x0 and ExDimVal({{S.26.01.01.02,r0292,c0080}},AO)=x0
+
+
+Template references
+-------------------
+
+S.01.01.01.01 Content of the submission
+
+S.26.01.01.02 Market risk - basic information, part 2
+
+
+Datapoints
+----------
+
+S.01.01.01.01,r0500,c0010 [nan]
+
+S.26.01.01.02,r0200,c0080 [Equity risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.01.01.02,r0210,c0080 [Equity risk|type 1 equities , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.01.01.02,r0250,c0080 [Equity risk|type 2 equities , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.01.01.02,r0291,c0080 [Equity risk|qualifying infrastructure corporate equities , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.01.01.02,r0292,c0080 [Equity risk|qualifying infrastructure equities other than corporate , Absolute values after shock|Gross solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1]

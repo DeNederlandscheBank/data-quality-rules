@@ -1,0 +1,28 @@
+=========
+BV839-1_W
+=========
+
+Rule definition
+---------------
+
+BV839-1_W: [ (c0020-0180)] {{S.17.01.02.01, r0260}} = {{S.17.01.02.01, r0060}} + {{S.17.01.02.01, r0160}}
+
+
+Template references
+-------------------
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.02.01,r0060 [unknown label]
+S.17.01.02.01,r0160 [unknown label]
+S.17.01.02.01,r0260 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020-0180)]

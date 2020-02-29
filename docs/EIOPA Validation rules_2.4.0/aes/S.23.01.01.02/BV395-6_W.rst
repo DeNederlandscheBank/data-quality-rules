@@ -1,0 +1,24 @@
+=========
+BV395-6_W
+=========
+
+Rule definition
+---------------
+
+BV395-6_W: {{SE.02.01.16.01, r0390,c0010}} le {{S.23.01.01.02, r0710,c0060}}
+
+
+Template references
+-------------------
+
+S.23.01.01.02 Reconciliation reserve
+
+
+Datapoints
+----------
+
+S.23.01.01.02,r0710,c0060 [nan]
+
+SE.02.01.16.01,r0390,c0010 [unknown label]
+
+

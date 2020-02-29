@@ -1,0 +1,28 @@
+========
+BV1086-1
+========
+
+Rule definition
+---------------
+
+BV1086-1: [ (c0110;0120)] {{S.25.01.01.04, r0600}} = {{S.25.01.01.04, r0610}} + {{S.25.01.01.04, r0620}}
+
+
+Template references
+-------------------
+
+S.25.01.01.04 Calculation of loss absorbing capacity of deferred taxes
+
+
+Datapoints
+----------
+
+S.25.01.01.04,r0600 [unknown label]
+S.25.01.01.04,r0610 [unknown label]
+S.25.01.01.04,r0620 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0110;0120)]

@@ -1,0 +1,26 @@
+=========
+BV206-2-1
+=========
+
+Rule definition
+---------------
+
+BV206-2-1: [ (r0020)] not(empty({{S.01.02.04.01, c0010}}))
+
+
+Template references
+-------------------
+
+S.01.02.04.01 Basic Information - General
+
+
+Datapoints
+----------
+
+S.01.02.04.01,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0020)]

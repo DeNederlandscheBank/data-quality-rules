@@ -1,0 +1,29 @@
+=========
+BV396-1_W
+=========
+
+Rule definition
+---------------
+
+BV396-1_W: {{S.02.01.01.01, r0400,c0010}} = {{S.23.02.01.01, r0020,c0010}} + {{S.23.02.01.01, r0120,c0010}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.23.02.01.01 Basic own funds
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0400,c0010 [Assets|Amounts due in respect of own fund items or initial fund called up but not yet paid in , Solvency II value]
+
+S.23.02.01.01,r0020,c0010 [Ordinary share capital|Called up but not yet paid in , Total]
+
+S.23.02.01.01,r0120,c0010 [Initial funds, members' contributions or the equivalent basic own - fund item for mutual and mutual type undertakings|Called up but not yet paid in , Total]
+
+
+

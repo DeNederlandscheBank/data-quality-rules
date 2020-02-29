@@ -1,0 +1,41 @@
+===========
+BV585_1-4_W
+===========
+
+Rule definition
+---------------
+
+BV585_1-4_W: if ({{S.26.03.01.03, r0020,c0010}} = [s2c_AP:x34]) then {{S.26.03.01.04, r0200,c0060}} = max(0, ({{S.26.03.01.01, r0200,c0020}} - {{S.26.03.01.01, r0200,c0030}}) - ({{S.26.03.01.01, r0200,c0040}} - {{S.26.03.01.01, r0200,c0050}}))
+
+
+Template references
+-------------------
+
+S.26.03.01.01 Life underwriting risk
+
+S.26.03.01.03 Simplifications used
+
+S.26.03.01.04 Life underwriting risk
+
+
+Datapoints
+----------
+
+S.26.03.01.01,r0200,c0020 [Longevity risk , Initial absolute values before shock|Assets]
+
+S.26.03.01.01,r0200,c0030 [Longevity risk , Initial absolute values before shock|Liabilities]
+
+S.26.03.01.01,r0200,c0040 [Longevity risk , Absolute values after shock|Assets]
+
+S.26.03.01.01,r0200,c0050 [Longevity risk , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+
+S.26.03.01.03,r0020,c0010 [Simplifications - longevity risk , Simplifications used]
+
+S.26.03.01.04,r0200,c0060 [Longevity risk , Absolute values after shock|Net solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x34]

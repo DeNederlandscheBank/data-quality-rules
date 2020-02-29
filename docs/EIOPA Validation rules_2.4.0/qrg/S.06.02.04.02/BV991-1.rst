@@ -1,0 +1,29 @@
+=======
+BV991-1
+=======
+
+Rule definition
+---------------
+
+BV991-1: {{S.06.02.04.02,c0210}}  != {{S.01.02.04.01,r0020,c0010}} where matches({{S.06.02.04.02,c0290}},"^..8.$")
+
+
+Template references
+-------------------
+
+S.01.02.04.01 Basic Information - General
+
+S.06.02.04.02 Information on assets
+
+
+Datapoints
+----------
+
+S.01.02.04.01,r0020,c0010 [nan]
+
+S.06.02.04.02,c0210 [URI , Issuer Code and Type of code]
+
+S.06.02.04.02,c0290 [URI , CIC]
+
+
+

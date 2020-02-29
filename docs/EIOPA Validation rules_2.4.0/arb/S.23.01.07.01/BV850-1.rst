@@ -1,0 +1,27 @@
+=======
+BV850-1
+=======
+
+Rule definition
+---------------
+
+BV850-1: {{S.22.01.01.01, r0060,c0010}} = {{S.23.01.07.01, r0540,c0020}} + {{S.23.01.07.01, r0540,c0030}}
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+S.23.01.07.01 Own funds
+
+
+Datapoints
+----------
+
+S.22.01.01.01,r0060,c0010 [Eligible own funds to meet Solvency Capital Requirement|Tier 1 , Amount with Long Term Guarantee measures and transitionals]
+
+S.23.01.07.01,r0540,c0020 [unknown label]
+S.23.01.07.01,r0540,c0030 [unknown label]
+
+

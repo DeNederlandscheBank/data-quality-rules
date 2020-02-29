@@ -1,0 +1,23 @@
+========
+BV1025-1
+========
+
+Rule definition
+---------------
+
+BV1025-1: {{S.08.01.04.01, c0170}} gt 0
+
+
+Template references
+-------------------
+
+S.08.01.04.01 Information on positions held
+
+
+Datapoints
+----------
+
+S.08.01.04.01,c0170 [Identification code of entity|Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Number of contracts]
+
+
+

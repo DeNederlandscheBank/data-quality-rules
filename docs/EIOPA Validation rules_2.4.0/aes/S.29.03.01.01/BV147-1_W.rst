@@ -1,0 +1,28 @@
+=========
+BV147-1_W
+=========
+
+Rule definition
+---------------
+
+BV147-1_W: [ (c0010-0020)] {{S.29.03.01.01, r0110}} = {{S.29.03.01.01, r0120}} - sum({{S.29.03.01.01, r0010-0100}})
+
+
+Template references
+-------------------
+
+S.29.03.01.01 Excess of Assets over Liabilities - explained by technical provisions
+
+
+Datapoints
+----------
+
+S.29.03.01.01,r0010-0100 [unknown label]
+S.29.03.01.01,r0110 [unknown label]
+S.29.03.01.01,r0120 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010-0020)]

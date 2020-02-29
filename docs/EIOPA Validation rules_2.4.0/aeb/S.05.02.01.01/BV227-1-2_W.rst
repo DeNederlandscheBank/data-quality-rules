@@ -1,0 +1,30 @@
+===========
+BV227-1-2_W
+===========
+
+Rule definition
+---------------
+
+BV227-1-2_W: [ (c0080)] {{S.05.02.01.01, r0300}} = {{S.05.02.01.01, r0210}} + {{S.05.02.01.01, r0220}} + {{S.05.02.01.01, r0230}} - {{S.05.02.01.01, r0240}}
+
+
+Template references
+-------------------
+
+S.05.02.01.01 Home Country - non-life obligations
+
+
+Datapoints
+----------
+
+S.05.02.01.01,r0210 [unknown label]
+S.05.02.01.01,r0220 [unknown label]
+S.05.02.01.01,r0230 [unknown label]
+S.05.02.01.01,r0240 [unknown label]
+S.05.02.01.01,r0300 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0080)]

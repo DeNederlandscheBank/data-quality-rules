@@ -1,0 +1,40 @@
+=========
+BV693-1_W
+=========
+
+Rule definition
+---------------
+
+BV693-1_W: if ({{SE.02.01.18.01, r0620,c0010}} + {{SE.02.01.18.01, r0630,c0010}} + {{SE.02.01.18.01, r0660,c0010}} + {{SE.02.01.18.01, r0670,c0010}} + {{SE.02.01.18.01, r0700,c0010}} + {{SE.02.01.18.01, r0710,c0010}} gt 0 and {{SE.01.01.18.01, r0230,c0010}} = [s2c_CN:x1]) then {{S.12.02.01.01, r0010,c0210}} + sum({{S.12.02.01.02, r0040, c0210, snnn}}) + {{S.12.02.01.01, r0010,c0150}} + sum({{S.12.02.01.02, r0040, c0150, snnn}}) gt 0.9 * ({{SE.02.01.18.01, r0620,c0010}} + {{SE.02.01.18.01, r0630,c0010}} + {{SE.02.01.18.01, r0660,c0010}} + {{SE.02.01.18.01, r0670,c0010}} + {{SE.02.01.18.01, r0700,c0010}} + {{SE.02.01.18.01, r0710,c0010}})
+
+
+Template references
+-------------------
+
+S.12.02.01.01 Gross TP calculated as a whole and Gross BE for different countries - Home country and countries outside the materiality threshold
+
+S.12.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
+
+
+Datapoints
+----------
+
+S.12.02.01.01,r0010,c0150 [Home country , Total (Life other than health insurance, including Unit-Linked)]
+
+S.12.02.01.01,r0010,c0210 [Home country , Total (Health similar to life insurance)]
+
+S.12.02.01.02,r0040,c0150,snnn [unknown label]
+S.12.02.01.02,r0040,c0210,snnn [unknown label]
+SE.01.01.18.01,r0230,c0010 [unknown label]
+SE.02.01.18.01,r0620,c0010 [unknown label]
+SE.02.01.18.01,r0630,c0010 [unknown label]
+SE.02.01.18.01,r0660,c0010 [unknown label]
+SE.02.01.18.01,r0670,c0010 [unknown label]
+SE.02.01.18.01,r0700,c0010 [unknown label]
+SE.02.01.18.01,r0710,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1]

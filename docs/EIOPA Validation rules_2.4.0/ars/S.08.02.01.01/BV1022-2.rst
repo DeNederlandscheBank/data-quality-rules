@@ -1,0 +1,23 @@
+========
+BV1022-2
+========
+
+Rule definition
+---------------
+
+BV1022-2: {{S.08.02.01.01, c0200}} ge 0
+
+
+Template references
+-------------------
+
+S.08.02.01.01 Information on positions held
+
+
+Datapoints
+----------
+
+S.08.02.01.01,c0200 [Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Swap outflow amount]
+
+
+

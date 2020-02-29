@@ -1,0 +1,39 @@
+=========
+BV246_1-2
+=========
+
+Rule definition
+---------------
+
+BV246_1-2: {{S.12.01.02.01, r0200,c0030}} = {{S.12.01.02.01, r0010,c0030}} + {{S.12.01.02.01, r0030,c0040}} + {{S.12.01.02.01, r0030,c0050}} + {{S.12.01.02.01, r0100,c0030}} + {{S.12.01.02.01, r0110,c0030}} + {{S.12.01.02.01, r0120,c0040}} + {{S.12.01.02.01, r0120,c0050}} + {{S.12.01.02.01, r0130,c0030}}
+
+
+Template references
+-------------------
+
+S.12.01.02.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.02.01,r0010,c0030 [Technical provisions calculated as a whole , Index-linked and unit-linked insurance|]
+
+S.12.01.02.01,r0030,c0040 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Index-linked and unit-linked insurance|Contracts without options and guarantees]
+
+S.12.01.02.01,r0030,c0050 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Index-linked and unit-linked insurance|Contracts with options or guarantees]
+
+S.12.01.02.01,r0100,c0030 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Index-linked and unit-linked insurance|]
+
+S.12.01.02.01,r0110,c0030 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Index-linked and unit-linked insurance|]
+
+S.12.01.02.01,r0120,c0040 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Best estimate , Index-linked and unit-linked insurance|Contracts without options and guarantees]
+
+S.12.01.02.01,r0120,c0050 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Best estimate , Index-linked and unit-linked insurance|Contracts with options or guarantees]
+
+S.12.01.02.01,r0130,c0030 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Index-linked and unit-linked insurance|]
+
+S.12.01.02.01,r0200,c0030 [Technical provisions - total , Index-linked and unit-linked insurance|]
+
+
+

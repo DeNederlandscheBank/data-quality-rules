@@ -1,0 +1,32 @@
+=======
+BV443-1
+=======
+
+Rule definition
+---------------
+
+BV443-1: {{S.12.01.01.01, r0020,c0150}} + {{S.12.01.01.01, r0020,c0210}} + {{S.12.01.01.01, r0040,c0150}} + {{S.12.01.01.01, r0040,c0210}} le sum({{S.31.01.01.01, c0080, snnn}})
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+S.31.01.01.01 Share of reinsurers
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0020,c0150 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Total (Life other than health insurance, incl. Unit-Linked)]
+
+S.12.01.01.01,r0020,c0210 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Total (Health similar to life insurance)]
+
+S.12.01.01.01,r0040,c0150 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total recoverables from reinsurance/SPV and Finite Re before the adjustment for expected losses due to counterparty default , Total (Life other than health insurance, incl. Unit-Linked)]
+
+S.12.01.01.01,r0040,c0210 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total recoverables from reinsurance/SPV and Finite Re before the adjustment for expected losses due to counterparty default , Total (Health similar to life insurance)]
+
+S.31.01.01.01,c0080,snnn [unknown label]
+
+

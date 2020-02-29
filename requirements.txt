@@ -1,0 +1,15 @@
+jupyter
+pandas==0.23.4
+numpy==1.14.2
+lxml>=3.4.4
+cx_Freeze==6.1
+openpyxl==2.3.3
+isodate==0.5.4
+aniso8601
+regex==2018.08.29
+tabulate
+click
+python-dotenv>=0.5.1
+xlrd>=0.9.0
+#-e git+https://git@github.com/arelle/arelle.git@master#egg=Arelle
+-e .

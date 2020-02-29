@@ -1,0 +1,27 @@
+=======
+BV890-1
+=======
+
+Rule definition
+---------------
+
+BV890-1: {{S.23.02.04.03, r0700,c0110}} = {{S.23.02.04.03, r0650,c0110}} + {{S.23.02.04.03, r0660,c0110}}
+
+
+Template references
+-------------------
+
+S.23.02.04.03 Excess of assets over liabilities - attribution of valuation differences
+
+
+Datapoints
+----------
+
+S.23.02.04.03,r0650,c0110 [Excess of assets over liabilities - attribution of valuation differences|Reserves from financial statements adjusted for Solvency II valuation differences , Total]
+
+S.23.02.04.03,r0660,c0110 [Excess of assets over liabilities - attribution of valuation differences|Excess of assets over liabilities attributable to basic own fund items (excluding the reconciliation reserve) , Total]
+
+S.23.02.04.03,r0700,c0110 [Excess of assets over liabilities - attribution of valuation differences|Excess of assets over liabilities , Total]
+
+
+

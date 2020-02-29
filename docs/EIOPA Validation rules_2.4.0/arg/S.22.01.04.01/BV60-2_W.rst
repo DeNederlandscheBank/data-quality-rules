@@ -1,0 +1,28 @@
+========
+BV60-2_W
+========
+
+Rule definition
+---------------
+
+BV60-2_W: [ (r0010-0090)] {{S.22.01.04.01, c0030}} = {{S.22.01.04.01, c0020}} - {{S.22.01.04.01, c0010}}
+
+
+Template references
+-------------------
+
+S.22.01.04.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.22.01.04.01,c0010 [unknown label]
+S.22.01.04.01,c0020 [unknown label]
+S.22.01.04.01,c0030 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0010-0090)]

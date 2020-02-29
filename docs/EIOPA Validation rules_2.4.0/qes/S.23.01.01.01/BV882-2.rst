@@ -1,0 +1,25 @@
+=======
+BV882-2
+=======
+
+Rule definition
+---------------
+
+BV882-2: {{S.23.01.01.01, r0540,c0030}} le 0.2 * ({{S.23.01.01.01, r0540,c0030}} + {{S.23.01.01.01, r0540,c0020}})
+
+
+Template references
+-------------------
+
+S.23.01.01.01 Own funds
+
+
+Datapoints
+----------
+
+S.23.01.01.01,r0540,c0020 [Available and eligible own funds|Total eligible own funds to meet the SCR , Tier 1 - unrestricted]
+
+S.23.01.01.01,r0540,c0030 [Available and eligible own funds|Total eligible own funds to meet the SCR , Tier 1 - restricted]
+
+
+

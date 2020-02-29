@@ -1,0 +1,26 @@
+========
+BV1031-1
+========
+
+Rule definition
+---------------
+
+BV1031-1: sum({{S.23.04.04.07, c0710, snnn}}) = {{S.22.01.04.01, r0040,c0010}}
+
+
+Template references
+-------------------
+
+S.22.01.04.01 Impact of long term guarantees measures and transitionals
+
+S.23.04.04.07 Adjustment for ring fenced funds and matching adjustment portfolios
+
+
+Datapoints
+----------
+
+S.22.01.04.01,r0040,c0010 [Basic own funds|Restricted own funds due to ring-fencing and matching portfolio , Amount with Long Term Guarantee measures and transitionals]
+
+S.23.04.04.07,c0710,snnn [unknown label]
+
+

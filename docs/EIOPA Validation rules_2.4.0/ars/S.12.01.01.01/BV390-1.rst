@@ -1,0 +1,35 @@
+=======
+BV390-1
+=======
+
+Rule definition
+---------------
+
+BV390-1: {{S.02.01.01.01, r0710,c0010}} le {{S.12.01.01.01, r0030,c0040}} + {{S.12.01.01.01, r0030,c0050}} + {{S.12.01.01.01, r0030,c0120}} + {{S.12.01.01.01, r0120,c0040}} + {{S.12.01.01.01, r0120,c0050}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0710,c0010 [Liabilities|Technical provisions Ã¢ÂÂ index-linked and unit-linked|Best Estimate , Solvency II value]
+
+S.12.01.01.01,r0030,c0040 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Index-linked and unit-linked insurance|Contracts without options and guarantees]
+
+S.12.01.01.01,r0030,c0050 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Index-linked and unit-linked insurance|Contracts with options or guarantees]
+
+S.12.01.01.01,r0030,c0120 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Accepted reinsurance|Index-linked and unit-linked insurance]
+
+S.12.01.01.01,r0120,c0040 [Amount of the transitional on Technical Provisions|Best estimate , Index-linked and unit-linked insurance|Contracts without options and guarantees]
+
+S.12.01.01.01,r0120,c0050 [Amount of the transitional on Technical Provisions|Best estimate , Index-linked and unit-linked insurance|Contracts with options or guarantees]
+
+
+

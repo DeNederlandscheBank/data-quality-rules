@@ -1,0 +1,31 @@
+======
+BV23-1
+======
+
+Rule definition
+---------------
+
+BV23-1: {{S.12.01.01.01, r0210,c0160}} = {{S.12.01.01.01, r0200,c0160}} - {{S.12.01.01.01, r0080,c0170}} - {{S.12.01.01.01, r0080,c0180}} - {{S.12.01.01.01, r0020,c0160}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0020,c0160 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Health insurance (direct business)|]
+
+S.12.01.01.01,r0080,c0170 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Health insurance (direct business)|Contracts without options and guarantees]
+
+S.12.01.01.01,r0080,c0180 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Health insurance (direct business)|Contracts with options or guarantees]
+
+S.12.01.01.01,r0200,c0160 [Technical provisions - total , Health insurance (direct business)|]
+
+S.12.01.01.01,r0210,c0160 [Technical provisions minus recoverables from reinsurance/SPV and Finite Re - total , Health insurance (direct business)|]
+
+
+

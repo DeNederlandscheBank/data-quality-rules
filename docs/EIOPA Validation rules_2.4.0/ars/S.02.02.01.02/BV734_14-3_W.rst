@@ -1,0 +1,27 @@
+============
+BV734_14-3_W
+============
+
+Rule definition
+---------------
+
+BV734_14-3_W: empty({{S.02.02.01.02,r0170,c0050}}) where ExDimVal({{S.02.02.01.02,r0170,c0050}},OC) = {{S.01.02.01.01,r0110,c0010}}
+
+
+Template references
+-------------------
+
+S.01.02.01.01 Basic Information - General
+
+S.02.02.01.02 Material currencies
+
+
+Datapoints
+----------
+
+S.01.02.01.01,r0110,c0010 [nan]
+
+S.02.02.01.02,r0170,c0050 [Liabilities|Any other liabilities , Value of material currencies|Original/exposure currency]
+
+
+

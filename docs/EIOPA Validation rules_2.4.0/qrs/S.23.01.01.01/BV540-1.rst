@@ -1,0 +1,25 @@
+=======
+BV540-1
+=======
+
+Rule definition
+---------------
+
+BV540-1: {{S.23.01.01.01, r0540,c0020}} = {{S.23.01.01.01, r0500,c0020}}
+
+
+Template references
+-------------------
+
+S.23.01.01.01 Own funds
+
+
+Datapoints
+----------
+
+S.23.01.01.01,r0500,c0020 [Available and eligible own funds|Total available own funds to meet the SCR , Tier 1 - unrestricted]
+
+S.23.01.01.01,r0540,c0020 [Available and eligible own funds|Total eligible own funds to meet the SCR , Tier 1 - unrestricted]
+
+
+

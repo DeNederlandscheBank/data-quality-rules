@@ -1,0 +1,29 @@
+=========
+BV300_1-1
+=========
+
+Rule definition
+---------------
+
+BV300_1-1: [ (r2900;2910;2920)] {{S.27.01.01.16, c1040}} = {{S.27.01.01.16, c1010}} - {{S.27.01.01.16, c1020}} + {{S.27.01.01.16, c1030}}
+
+
+Template references
+-------------------
+
+S.27.01.01.16 Man made catastrophe risk - Credit & Suretyship - Large Credit Default
+
+
+Datapoints
+----------
+
+S.27.01.01.16,c1010 [unknown label]
+S.27.01.01.16,c1020 [unknown label]
+S.27.01.01.16,c1030 [unknown label]
+S.27.01.01.16,c1040 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r2900;2910;2920)]

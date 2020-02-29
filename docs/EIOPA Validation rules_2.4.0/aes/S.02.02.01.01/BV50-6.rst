@@ -1,0 +1,30 @@
+======
+BV50-6
+======
+
+Rule definition
+---------------
+
+BV50-6: {{SE.02.01.16.01, r0030,c0010}} + {{SE.02.01.16.01, r0040,c0010}} + {{SE.02.01.16.01, r0050,c0010}} + {{SE.02.01.16.01, r0380,c0010}} + {{SE.02.01.16.01, r0390,c0010}} + {{SE.02.01.16.01, r0400,c0010}} + {{SE.02.01.16.01, r0420,c0010}} = {{S.02.02.01.01, r0070,c0020}}
+
+
+Template references
+-------------------
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.02.01.01,r0070,c0020 [Assets|Any other assets , Total value of all currencies]
+
+SE.02.01.16.01,r0030,c0010 [unknown label]
+SE.02.01.16.01,r0040,c0010 [unknown label]
+SE.02.01.16.01,r0050,c0010 [unknown label]
+SE.02.01.16.01,r0380,c0010 [unknown label]
+SE.02.01.16.01,r0390,c0010 [unknown label]
+SE.02.01.16.01,r0400,c0010 [unknown label]
+SE.02.01.16.01,r0420,c0010 [unknown label]
+
+

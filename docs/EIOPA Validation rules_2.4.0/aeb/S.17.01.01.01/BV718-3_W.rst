@@ -1,0 +1,25 @@
+=========
+BV718-3_W
+=========
+
+Rule definition
+---------------
+
+BV718-3_W: {{SE.02.01.18.01, r0520,c0010}} + {{SE.02.01.18.01, r0560,c0010}} = {{S.17.01.01.01, r0320,c0180}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.01.01,r0320,c0180 [Technical provisions - total|Technical provisions - total , Total Non-Life obligation]
+
+SE.02.01.18.01,r0520,c0010 [unknown label]
+SE.02.01.18.01,r0560,c0010 [unknown label]
+
+

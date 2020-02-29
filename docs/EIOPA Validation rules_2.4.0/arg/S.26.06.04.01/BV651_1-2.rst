@@ -1,0 +1,28 @@
+=========
+BV651_1-2
+=========
+
+Rule definition
+---------------
+
+BV651_1-2: [ (c0020)] {{S.26.06.04.01, r0320}} = min({{S.26.06.04.01, r0300}}, {{S.26.06.04.01, r0310}})
+
+
+Template references
+-------------------
+
+S.26.06.04.01 Operational risk - basic information
+
+
+Datapoints
+----------
+
+S.26.06.04.01,r0300 [unknown label]
+S.26.06.04.01,r0310 [unknown label]
+S.26.06.04.01,r0320 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020)]

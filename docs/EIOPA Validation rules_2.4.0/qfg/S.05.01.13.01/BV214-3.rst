@@ -1,0 +1,28 @@
+=======
+BV214-3
+=======
+
+Rule definition
+---------------
+
+BV214-3: [ (c0200)] {{S.05.01.13.01, r1300}} = {{S.05.01.13.01, r0550}} + {{S.05.01.13.01, r1200}}
+
+
+Template references
+-------------------
+
+S.05.01.13.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+
+Datapoints
+----------
+
+S.05.01.13.01,r0550 [unknown label]
+S.05.01.13.01,r1200 [unknown label]
+S.05.01.13.01,r1300 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0200)]

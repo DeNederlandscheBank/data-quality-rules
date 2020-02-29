@@ -1,0 +1,28 @@
+=========
+BV516-2_W
+=========
+
+Rule definition
+---------------
+
+BV516-2_W: {{SE.02.01.18.01, r0750,c0010}} + {{SE.02.01.18.01, r0760,c0010}} + {{SE.02.01.18.01, r0780,c0010}} + {{SE.02.01.18.01, r0840,c0010}} + {{SE.02.01.18.01, r0880,c0010}} = {{S.02.02.01.01, r0170,c0020}}
+
+
+Template references
+-------------------
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.02.01.01,r0170,c0020 [Liabilities|Any other liabilities , Total value of all currencies]
+
+SE.02.01.18.01,r0750,c0010 [unknown label]
+SE.02.01.18.01,r0760,c0010 [unknown label]
+SE.02.01.18.01,r0780,c0010 [unknown label]
+SE.02.01.18.01,r0840,c0010 [unknown label]
+SE.02.01.18.01,r0880,c0010 [unknown label]
+
+

@@ -1,0 +1,33 @@
+============
+BV575_1-34_W
+============
+
+Rule definition
+---------------
+
+BV575_1-34_W: {{S.26.01.01.02, r0410,c0080}} = max(0, ({{S.26.01.01.01, r0410,c0020}} - {{S.26.01.01.01, r0410,c0030}}) - ({{S.26.01.01.01, r0410,c0040}} - {{S.26.01.01.01, r0410,c0070}}))
+
+
+Template references
+-------------------
+
+S.26.01.01.01 Market risk - basic information, part 1
+
+S.26.01.01.02 Market risk - basic information, part 2
+
+
+Datapoints
+----------
+
+S.26.01.01.01,r0410,c0020 [Spread risk|bonds and loans , Initial absolute values before shock|Assets]
+
+S.26.01.01.01,r0410,c0030 [Spread risk|bonds and loans , Initial absolute values before shock|Liabilities]
+
+S.26.01.01.01,r0410,c0040 [Spread risk|bonds and loans , Absolute values after shock|Assets]
+
+S.26.01.01.01,r0410,c0070 [Spread risk|bonds and loans , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.01.01.02,r0410,c0080 [Spread risk|bonds and loans , Absolute values after shock|Gross solvency capital requirement]
+
+
+

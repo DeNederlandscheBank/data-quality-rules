@@ -1,0 +1,39 @@
+===========
+BV247_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV247_1-1_W: {{S.12.01.01.01, r0200,c0060}} = {{S.12.01.01.01, r0010,c0060}} + {{S.12.01.01.01, r0030,c0070}} + {{S.12.01.01.01, r0030,c0080}} + {{S.12.01.01.01, r0100,c0060}} + {{S.12.01.01.01, r0110,c0060}} + {{S.12.01.01.01, r0120,c0070}} + {{S.12.01.01.01, r0120,c0080}} + {{S.12.01.01.01, r0130,c0060}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0010,c0060 [Technical provisions calculated as a whole , Other life insurance|]
+
+S.12.01.01.01,r0030,c0070 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Other life insurance|Contracts without options and guarantees]
+
+S.12.01.01.01,r0030,c0080 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Other life insurance|Contracts with options or guarantees]
+
+S.12.01.01.01,r0100,c0060 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Other life insurance|]
+
+S.12.01.01.01,r0110,c0060 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Other life insurance|]
+
+S.12.01.01.01,r0120,c0070 [Amount of the transitional on Technical Provisions|Best estimate , Other life insurance|Contracts without options and guarantees]
+
+S.12.01.01.01,r0120,c0080 [Amount of the transitional on Technical Provisions|Best estimate , Other life insurance|Contracts with options or guarantees]
+
+S.12.01.01.01,r0130,c0060 [Amount of the transitional on Technical Provisions|Risk margin , Other life insurance|]
+
+S.12.01.01.01,r0200,c0060 [Technical provisions - total , Other life insurance|]
+
+
+

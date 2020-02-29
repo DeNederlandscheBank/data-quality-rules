@@ -1,0 +1,33 @@
+=======
+BV144-1
+=======
+
+Rule definition
+---------------
+
+BV144-1: [ (c0030)] {{S.29.01.01.02, r0250}} = {{S.29.01.01.02, r0130}} - {{S.29.01.01.02, r0190}} - {{S.29.01.01.02, r0200}} - {{S.29.01.01.02, r0210}} - {{S.29.01.01.02, r0220}} - {{S.29.01.01.02, r0230}} - {{S.29.01.01.02, r0240}}
+
+
+Template references
+-------------------
+
+S.29.01.01.02 Variation of components of reconciliation reserve - Items reported in "Own funds"
+
+
+Datapoints
+----------
+
+S.29.01.01.02,r0130 [unknown label]
+S.29.01.01.02,r0190 [unknown label]
+S.29.01.01.02,r0200 [unknown label]
+S.29.01.01.02,r0210 [unknown label]
+S.29.01.01.02,r0220 [unknown label]
+S.29.01.01.02,r0230 [unknown label]
+S.29.01.01.02,r0240 [unknown label]
+S.29.01.01.02,r0250 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0030)]

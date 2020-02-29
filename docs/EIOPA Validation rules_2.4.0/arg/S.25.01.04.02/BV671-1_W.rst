@@ -1,0 +1,31 @@
+=========
+BV671-1_W
+=========
+
+Rule definition
+---------------
+
+BV671-1_W: [ (c0100)] {{S.25.01.04.02, r0220}} = {{S.25.01.04.02, r0200}} + {{S.25.01.04.02, r0210}} + {{S.25.01.04.02, r0500}} + {{S.25.01.04.02, r0540}} + {{S.25.01.04.02, r0550}}
+
+
+Template references
+-------------------
+
+S.25.01.04.02 Calculation of Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.25.01.04.02,r0200 [unknown label]
+S.25.01.04.02,r0210 [unknown label]
+S.25.01.04.02,r0220 [unknown label]
+S.25.01.04.02,r0500 [unknown label]
+S.25.01.04.02,r0540 [unknown label]
+S.25.01.04.02,r0550 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0100)]

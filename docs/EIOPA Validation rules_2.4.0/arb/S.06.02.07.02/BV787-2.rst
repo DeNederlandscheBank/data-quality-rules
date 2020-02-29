@@ -1,0 +1,24 @@
+=======
+BV787-2
+=======
+
+Rule definition
+---------------
+
+BV787-2: not(not(empty({{S.06.02.07.02,c0370}})) and not(empty({{S.06.02.07.02,c0380}}))) where not(matches({{S.06.02.07.02,c0290}},"^..((71)|(9.)|(09))$"))
+
+
+Template references
+-------------------
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.07.02,c0290 [unknown label]
+S.06.02.07.02,c0370 [unknown label]
+S.06.02.07.02,c0380 [unknown label]
+
+

@@ -1,0 +1,25 @@
+=======
+BV541-1
+=======
+
+Rule definition
+---------------
+
+BV541-1: {{S.23.01.04.01, r0560,c0020}} = {{S.23.01.04.01, r0520,c0020}}
+
+
+Template references
+-------------------
+
+S.23.01.04.01 Own funds
+
+
+Datapoints
+----------
+
+S.23.01.04.01,r0520,c0020 [Own funds when using the D& A, exclusively or in combination of method 1|Total available own funds to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D& A ) , Tier 1 - unrestricted]
+
+S.23.01.04.01,r0560,c0020 [Own funds when using the D& A, exclusively or in combination of method 1|Total eligible own funds to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D& A ) , Tier 1 - unrestricted]
+
+
+

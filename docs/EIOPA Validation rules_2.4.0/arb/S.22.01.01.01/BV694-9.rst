@@ -1,0 +1,30 @@
+=======
+BV694-9
+=======
+
+Rule definition
+---------------
+
+BV694-9: if ({{S.01.02.07.01, r0200,c0010}} = [s2c_AP:x12]) then {{S.22.01.01.01, r0010,c0030}} = 0
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0200,c0010 [unknown label]
+S.22.01.01.01,r0010,c0030 [Technical provisions , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of transitional on technical provisions]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x12]

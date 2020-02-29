@@ -1,0 +1,40 @@
+========
+BV1017-5
+========
+
+Rule definition
+---------------
+
+BV1017-5: if (sum({{S.06.02.01.01,c0170,snnn}})gt (0.3 *({{S.02.01.01.01,r0070,c0010}}+{{S.02.01.01.01,r0220,c0010}}))) then {{S.01.01.01.01,r0150,c0010}} = [s2c_CN:x1] or {{S.01.01.01.01,r0150,c0010}} = [s2c_CN:x23] where matches({{S.06.02.01.02,c0290}},"^..4.$")
+
+
+Template references
+-------------------
+
+S.01.01.01.01 Content of the submission
+
+S.02.01.01.01 Balance sheet
+
+S.06.02.01.01 Information on positions held
+
+S.06.02.01.02 Information on assets
+
+
+Datapoints
+----------
+
+S.01.01.01.01,r0150,c0010 [nan]
+
+S.02.01.01.01,r0070,c0010 [Assets|Investments (other than assets held for index-linked and unit-linked contracts) , Solvency II value]
+
+S.02.01.01.01,r0220,c0010 [Assets|Assets held for index-linked and unit-linked contracts , Solvency II value]
+
+S.06.02.01.01,c0170,snnn [unknown label]
+S.06.02.01.02,c0290 [URI , CIC]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1] or {{S.01.01.01.01,r0150,c0010}} = [s2c_CN:x23]

@@ -1,0 +1,44 @@
+===========
+BV602_1-2-6
+===========
+
+Rule definition
+---------------
+
+BV602_1-2-6: if ({{SE.01.01.16.01,r0520,c0010}}=[s2c_CN:x1] or {{SE.01.01.16.01,r0520,c0010}}=[s2c_CN:x71]) then {{S.26.03.01.04,r0800,c0080}}={{S.26.03.01.04,r0900,c0080}}-({{S.26.03.01.04,r0100,c0080}}+{{S.26.03.01.04,r0200,c0080}}+{{S.26.03.01.04,r0300,c0080}}+{{S.26.03.01.04,r0400,c0080}}+{{S.26.03.01.04,r0500,c0080}}+{{S.26.03.01.04,r0600,c0080}}+{{S.26.03.01.04,r0700,c0080}}) where ExDimVal({{SE.01.01.16.01,r0520,c0010}},AO)=x0 and ExDimVal({{S.26.03.01.04,r0800,c0080}},AO)=x0 and ExDimVal({{S.26.03.01.04,r0900,c0080}},AO)=x0 and ExDimVal({{S.26.03.01.04,r0100,c0080}},AO)=x0 and ExDimVal({{S.26.03.01.04,r0200,c0080}},AO)=x0 and ExDimVal({{S.26.03.01.04,r0300,c0080}},AO)=x0 and ExDimVal({{S.26.03.01.04,r0400,c0080}},AO)=x0 and ExDimVal({{S.26.03.01.04,r0500,c0080}},AO)=x0 and ExDimVal({{S.26.03.01.04,r0600,c0080}},AO)=x0 and ExDimVal({{S.26.03.01.04,r0700,c0080}},AO)=x0
+
+
+Template references
+-------------------
+
+S.26.03.01.04 Life underwriting risk
+
+
+Datapoints
+----------
+
+S.26.03.01.04,r0100,c0080 [Mortality risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.03.01.04,r0200,c0080 [Longevity risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.03.01.04,r0300,c0080 [Disability-morbidity risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.03.01.04,r0400,c0080 [Lapse risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.03.01.04,r0500,c0080 [Life expense risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.03.01.04,r0600,c0080 [Revision risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.03.01.04,r0700,c0080 [Life catastrophe risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.03.01.04,r0800,c0080 [Diversification within life underwriting risk module , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.03.01.04,r0900,c0080 [Total life underwriting risk , Absolute values after shock|Gross solvency capital requirement]
+
+SE.01.01.16.01,r0520,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1] or {{SE.01.01.16.01,r0520,c0010}}=[s2c_CN:x71]

@@ -1,0 +1,27 @@
+=======
+BV978-1
+=======
+
+Rule definition
+---------------
+
+BV978-1: if (not(empty({{S.05.01.02.02, r1500,c0270}}))) then not(empty({{S.12.01.02.01, r0200,c0200}}))
+
+
+Template references
+-------------------
+
+S.05.01.02.02 Life
+
+S.12.01.02.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.05.01.02.02,r1500,c0270 [Premiums written|Net , Life reinsurance obligations|Health reinsurance]
+
+S.12.01.02.01,r0200,c0200 [Technical provisions - total , Health reinsurance (reinsurance accepted)]
+
+
+

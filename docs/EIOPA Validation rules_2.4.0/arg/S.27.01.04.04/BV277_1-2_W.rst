@@ -1,0 +1,27 @@
+===========
+BV277_1-2_W
+===========
+
+Rule definition
+---------------
+
+BV277_1-2_W: [ (c0220-0230;0260-0290)] {{S.27.01.04.04, r1400}} = sum({{S.27.01.04.04, r1260-1390}})
+
+
+Template references
+-------------------
+
+S.27.01.04.04 Natural Catastrophe risk - Flood
+
+
+Datapoints
+----------
+
+S.27.01.04.04,r1260-1390 [unknown label]
+S.27.01.04.04,r1400 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0220-0230;0260-0290)]

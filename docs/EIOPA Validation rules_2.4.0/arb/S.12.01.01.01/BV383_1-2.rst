@@ -1,0 +1,28 @@
+=========
+BV383_1-2
+=========
+
+Rule definition
+---------------
+
+BV383_1-2: {{S.02.01.07.01, r0630,c0010}} = {{S.12.01.01.01, r0030,c0210}} + {{S.12.01.01.01, r0120,c0210}}
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0630,c0010 [unknown label]
+S.12.01.01.01,r0030,c0210 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Total (Health similar to life insurance)]
+
+S.12.01.01.01,r0120,c0210 [Amount of the transitional on Technical Provisions|Best estimate , Total (Health similar to life insurance)]
+
+
+

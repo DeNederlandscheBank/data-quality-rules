@@ -1,0 +1,30 @@
+=========
+BV898-2_W
+=========
+
+Rule definition
+---------------
+
+BV898-2_W: if ({{S.01.01.07.01,r0460,c0010}}=[s2c_CN:x59]) then {{S.25.01.01.01,r0060,c0030}}le0 where ExDimVal({{S.25.01.01.01,r0060,c0030}},AO)=x0
+
+
+Template references
+-------------------
+
+S.01.01.07.01 Content of the submission
+
+S.25.01.01.01 Basic Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.01.01.07.01,r0460,c0010 [unknown label]
+S.25.01.01.01,r0060,c0030 [Diversification , Net solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x59]

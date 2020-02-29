@@ -1,0 +1,27 @@
+=======
+BV849-2
+=======
+
+Rule definition
+---------------
+
+BV849-2: {{S.22.01.01.01, r0020,c0010}} = {{S.23.01.01.01, r0290,c0010}}
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+S.23.01.01.01 Own funds
+
+
+Datapoints
+----------
+
+S.22.01.01.01,r0020,c0010 [Basic own funds , Amount with Long Term Guarantee measures and transitionals]
+
+S.23.01.01.01,r0290,c0010 [Total basic own funds after deductions , Total]
+
+
+

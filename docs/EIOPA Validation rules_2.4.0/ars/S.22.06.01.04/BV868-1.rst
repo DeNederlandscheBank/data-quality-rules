@@ -1,0 +1,29 @@
+=======
+BV868-1
+=======
+
+Rule definition
+---------------
+
+BV868-1: [ (r0040)] sum({{S.22.06.01.04, c0050, snnn}}) le {{S.22.06.01.03, c0030}}
+
+
+Template references
+-------------------
+
+S.22.06.01.03 Best estimate subject to country and currency volatility adjustment - Total and home country by currency (other than home country)
+
+S.22.06.01.04 Best estimate subject to country and currency volatility adjustment - Total and home country by currency by country (other than home country) and by currency (other than reporting currency)
+
+
+Datapoints
+----------
+
+S.22.06.01.03,c0030 [unknown label]
+S.22.06.01.04,c0050,snnn [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0040)]

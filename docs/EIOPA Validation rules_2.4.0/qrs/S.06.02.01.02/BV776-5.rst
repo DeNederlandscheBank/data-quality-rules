@@ -1,0 +1,25 @@
+=======
+BV776-5
+=======
+
+Rule definition
+---------------
+
+BV776-5: empty({{S.06.02.01.02,c0200}}) where matches({{S.06.02.01.02,c0290}},"^..((71)|(75)|(9.))$")
+
+
+Template references
+-------------------
+
+S.06.02.01.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.01.02,c0200 [URI , Issuer Name]
+
+S.06.02.01.02,c0290 [URI , CIC]
+
+
+

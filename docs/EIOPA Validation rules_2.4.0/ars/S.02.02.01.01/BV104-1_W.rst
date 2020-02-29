@@ -1,0 +1,29 @@
+=========
+BV104-1_W
+=========
+
+Rule definition
+---------------
+
+BV104-1_W: {{S.02.01.01.01, r0800,c0010}} + {{S.02.01.01.01, r0810,c0010}} = {{S.02.02.01.01, r0150,c0020}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0800,c0010 [Liabilities|Debts owed to credit institutions , Solvency II value]
+
+S.02.01.01.01,r0810,c0010 [Liabilities|Financial liabilities other than debts owed to credit institutions , Solvency II value]
+
+S.02.02.01.01,r0150,c0020 [Liabilities|Financial liabilities , Total value of all currencies]
+
+
+

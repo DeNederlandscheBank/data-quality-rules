@@ -1,0 +1,37 @@
+=======
+BV489-2
+=======
+
+Rule definition
+---------------
+
+BV489-2: {{S.28.02.01.02, r0170,c0030}} + {{S.28.02.01.02, r0170,c0050}} ge {{S.17.01.02.01, r0010,c0170}} - {{S.17.01.02.01, r0050,c0170}} + {{S.17.01.02.01, r0270,c0170}} + {{S.17.01.02.01, r0290,c0170}} + {{S.17.01.02.01, r0300,c0170}}
+
+
+Template references
+-------------------
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+S.28.02.01.02 Background information
+
+
+Datapoints
+----------
+
+S.17.01.02.01,r0010,c0170 [Technical provisions calculated as a whole , Accepted non-proportional reinsurance|Non-proportional property reinsurance]
+
+S.17.01.02.01,r0050,c0170 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Accepted non-proportional reinsurance|Non-proportional property reinsurance]
+
+S.17.01.02.01,r0270,c0170 [Technical provisions calculated as a sum of BE and RM|Total Best estimate - net , Accepted non-proportional reinsurance|Non-proportional property reinsurance]
+
+S.17.01.02.01,r0290,c0170 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Accepted non-proportional reinsurance|Non-proportional property reinsurance]
+
+S.17.01.02.01,r0300,c0170 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Best estimate , Accepted non-proportional reinsurance|Non-proportional property reinsurance]
+
+S.28.02.01.02,r0170,c0030 [Non-proportional property reinsurance , Background information|Non-life activities|Net (of reinsurance/ SPV) best estimate and TP calculated as a whole]
+
+S.28.02.01.02,r0170,c0050 [Non-proportional property reinsurance , Background information|Life activities|Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+
+
+

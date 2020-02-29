@@ -1,0 +1,28 @@
+=======
+BV146-1
+=======
+
+Rule definition
+---------------
+
+BV146-1: [ (c0100-0110)] {{S.29.03.01.06, r0340}} = {{S.29.03.01.06, r0310}} - sum({{S.29.03.01.06, r0320-0330}})
+
+
+Template references
+-------------------
+
+S.29.03.01.06 Technical flows affecting Technical provisions
+
+
+Datapoints
+----------
+
+S.29.03.01.06,r0310 [unknown label]
+S.29.03.01.06,r0320-0330 [unknown label]
+S.29.03.01.06,r0340 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0100-0110)]

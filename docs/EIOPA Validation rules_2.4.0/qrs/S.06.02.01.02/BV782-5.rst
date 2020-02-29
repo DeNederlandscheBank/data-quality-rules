@@ -1,0 +1,27 @@
+=======
+BV782-5
+=======
+
+Rule definition
+---------------
+
+BV782-5: empty({{S.06.02.01.01,c0160}}) where matches({{S.06.02.01.02,c0290}},"^..((7)|(8)).$")
+
+
+Template references
+-------------------
+
+S.06.02.01.01 Information on positions held
+
+S.06.02.01.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.01.01,c0160 [Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Acquisition value]
+
+S.06.02.01.02,c0290 [URI , CIC]
+
+
+

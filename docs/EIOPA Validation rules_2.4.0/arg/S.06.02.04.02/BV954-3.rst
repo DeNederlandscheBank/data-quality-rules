@@ -1,0 +1,27 @@
+=======
+BV954-3
+=======
+
+Rule definition
+---------------
+
+BV954-3: not(empty({{S.06.02.04.01,c0160}})) where not(matches({{S.06.02.04.02,c0290}},"^..((7.)|(8.)|(09))$") )
+
+
+Template references
+-------------------
+
+S.06.02.04.01 Information on positions held
+
+S.06.02.04.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.04.01,c0160 [Identification code of entity|Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Acquisition value]
+
+S.06.02.04.02,c0290 [URI , CIC]
+
+
+

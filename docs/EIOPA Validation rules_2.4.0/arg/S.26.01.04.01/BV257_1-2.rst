@@ -1,0 +1,30 @@
+=========
+BV257_1-2
+=========
+
+Rule definition
+---------------
+
+BV257_1-2: [ (c0020;0040)] {{S.26.01.04.01, r0250}} = {{S.26.01.04.01, r0261}} + {{S.26.01.04.01, r0270}} + {{S.26.01.04.01, r0271}} + {{S.26.01.04.01, r0280}}
+
+
+Template references
+-------------------
+
+S.26.01.04.01 Market risk - basic information, part 1
+
+
+Datapoints
+----------
+
+S.26.01.04.01,r0250 [unknown label]
+S.26.01.04.01,r0261 [unknown label]
+S.26.01.04.01,r0270 [unknown label]
+S.26.01.04.01,r0271 [unknown label]
+S.26.01.04.01,r0280 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020;0040)]

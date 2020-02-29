@@ -1,0 +1,28 @@
+===========
+BV283_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV283_1-1_W: [ (c0350-0380)] {{S.27.01.01.05, r1920}} = {{S.27.01.01.05, r1720}} + {{S.27.01.01.05, r1910}}
+
+
+Template references
+-------------------
+
+S.27.01.01.05 Natural Catastrophe risk - Hail
+
+
+Datapoints
+----------
+
+S.27.01.01.05,r1720 [unknown label]
+S.27.01.01.05,r1910 [unknown label]
+S.27.01.01.05,r1920 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0350-0380)]

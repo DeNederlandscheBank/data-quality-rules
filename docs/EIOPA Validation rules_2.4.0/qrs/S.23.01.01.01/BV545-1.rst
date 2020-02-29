@@ -1,0 +1,29 @@
+=======
+BV545-1
+=======
+
+Rule definition
+---------------
+
+BV545-1: {{S.23.01.01.01,r0540,c0050}}=min(0.5*{{S.23.01.01.01,r0580,c0010}}-{{S.23.01.01.01,r0540,c0040}},0.15*{{S.23.01.01.01,r0580,c0010}},{{S.23.01.01.01,r0500,c0050}})
+
+
+Template references
+-------------------
+
+S.23.01.01.01 Own funds
+
+
+Datapoints
+----------
+
+S.23.01.01.01,r0500,c0050 [Available and eligible own funds|Total available own funds to meet the SCR , Tier 3]
+
+S.23.01.01.01,r0540,c0040 [Available and eligible own funds|Total eligible own funds to meet the SCR , Tier 2]
+
+S.23.01.01.01,r0540,c0050 [Available and eligible own funds|Total eligible own funds to meet the SCR , Tier 3]
+
+S.23.01.01.01,r0580,c0010 [SCR , Total]
+
+
+

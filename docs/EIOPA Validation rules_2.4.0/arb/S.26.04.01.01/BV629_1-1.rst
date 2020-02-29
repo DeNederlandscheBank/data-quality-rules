@@ -1,0 +1,30 @@
+=========
+BV629_1-1
+=========
+
+Rule definition
+---------------
+
+BV629_1-1: [ (r0600)] {{S.26.04.01.01, c0080}} = max(0, ({{S.26.04.01.01, c0020}} - {{S.26.04.01.01, c0030}}) - ({{S.26.04.01.01, c0040}} - {{S.26.04.01.01, c0070}}))
+
+
+Template references
+-------------------
+
+S.26.04.01.01 SLT health underwriting risk
+
+
+Datapoints
+----------
+
+S.26.04.01.01,c0020 [unknown label]
+S.26.04.01.01,c0030 [unknown label]
+S.26.04.01.01,c0040 [unknown label]
+S.26.04.01.01,c0070 [unknown label]
+S.26.04.01.01,c0080 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0600)]

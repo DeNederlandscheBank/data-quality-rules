@@ -1,0 +1,27 @@
+=======
+BV338-4
+=======
+
+Rule definition
+---------------
+
+BV338-4: if ({{S.01.02.07.01, r0170,c0010}} = [s2c_PU:x51]) then {{SE.01.01.18.01, r0370,c0010}} = [s2c_CN:x1]
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0170,c0010 [unknown label]
+SE.01.01.18.01,r0370,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x51]) then {{SE.01.01.18.01, r0370,c0010}} = [s2c_CN:x1]

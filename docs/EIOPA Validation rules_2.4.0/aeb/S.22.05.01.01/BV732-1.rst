@@ -1,0 +1,26 @@
+=======
+BV732-1
+=======
+
+Rule definition
+---------------
+
+BV732-1: {{S.22.05.01.01, r0080,c0010}} le {{SE.02.01.18.01, r0510,c0010}} + {{SE.02.01.18.01, r0600,c0010}} + {{SE.02.01.18.01, r0690,c0010}}
+
+
+Template references
+-------------------
+
+S.22.05.01.01 Overall calculation of the transitional on technical provisions
+
+
+Datapoints
+----------
+
+S.22.05.01.01,r0080,c0010 [nan]
+
+SE.02.01.18.01,r0510,c0010 [unknown label]
+SE.02.01.18.01,r0600,c0010 [unknown label]
+SE.02.01.18.01,r0690,c0010 [unknown label]
+
+

@@ -1,0 +1,25 @@
+=======
+BV707-2
+=======
+
+Rule definition
+---------------
+
+BV707-2: {{S.01.02.07.01, r0090,c0010}} le {{S.06.02.07.02, c0390}}
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0090,c0010 [unknown label]
+S.06.02.07.02,c0390 [unknown label]
+
+

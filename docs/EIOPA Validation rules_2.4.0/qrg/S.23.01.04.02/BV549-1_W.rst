@@ -1,0 +1,45 @@
+=========
+BV549-1_W
+=========
+
+Rule definition
+---------------
+
+BV549-1_W: {{S.23.01.04.02, r0730,c0060}} = {{S.23.01.04.01, r0010,c0010}} + {{S.23.01.04.01, r0030,c0010}} + {{S.23.01.04.01, r0040,c0010}} + {{S.23.01.04.01, r0050,c0010}} + {{S.23.01.04.01, r0070,c0010}} + {{S.23.01.04.01, r0090,c0010}} + {{S.23.01.04.01, r0110,c0010}} + {{S.23.01.04.01, r0160,c0010}} + {{S.23.01.04.01, r0180,c0010}} + {{S.23.01.04.01, r0200,c0010}}
+
+
+Template references
+-------------------
+
+S.23.01.04.01 Own funds
+
+S.23.01.04.02 Reconciliation reserve
+
+
+Datapoints
+----------
+
+S.23.01.04.01,r0010,c0010 [Basic own funds before deduction for participations in other financial sector|Ordinary share capital (gross of own shares) , Total]
+
+S.23.01.04.01,r0030,c0010 [Basic own funds before deduction for participations in other financial sector|Share premium account related to ordinary share capital , Total]
+
+S.23.01.04.01,r0040,c0010 [Basic own funds before deduction for participations in other financial sector|Initial funds, members' contributions or the equivalent basic own - fund item for mutual and mutual-type undertakings , Total]
+
+S.23.01.04.01,r0050,c0010 [Basic own funds before deduction for participations in other financial sector|Subordinated mutual member accounts , Total]
+
+S.23.01.04.01,r0070,c0010 [Basic own funds before deduction for participations in other financial sector|Surplus funds , Total]
+
+S.23.01.04.01,r0090,c0010 [Basic own funds before deduction for participations in other financial sector|Preference shares , Total]
+
+S.23.01.04.01,r0110,c0010 [Basic own funds before deduction for participations in other financial sector|Share premium account related to preference shares , Total]
+
+S.23.01.04.01,r0160,c0010 [Basic own funds before deduction for participations in other financial sector|An amount equal to the value of net deferred tax assets , Total]
+
+S.23.01.04.01,r0180,c0010 [Basic own funds before deduction for participations in other financial sector|Other items approved by supervisory authority as basic own funds not specified above , Total]
+
+S.23.01.04.01,r0200,c0010 [Basic own funds before deduction for participations in other financial sector|Minority interests (if not reported as part of a specific own fund item) , Total]
+
+S.23.01.04.02,r0730,c0060 [nan]
+
+
+

@@ -1,0 +1,37 @@
+=========
+BV588_1-4
+=========
+
+Rule definition
+---------------
+
+BV588_1-4: if (matches({{S.26.03.01.03, r0040,c0010}},"^9$")) then {{S.26.03.01.04, r0420,c0060}} = max(0, ({{S.26.03.01.01, r0420,c0020}} - {{S.26.03.01.01, r0420,c0030}}) - ({{S.26.03.01.01, r0420,c0040}} - {{S.26.03.01.01, r0420,c0050}}))
+
+
+Template references
+-------------------
+
+S.26.03.01.01 Life underwriting risk
+
+S.26.03.01.03 Simplifications used
+
+S.26.03.01.04 Life underwriting risk
+
+
+Datapoints
+----------
+
+S.26.03.01.01,r0420,c0020 [Lapse risk|risk of decrease in lapse rates , Initial absolute values before shock|Assets]
+
+S.26.03.01.01,r0420,c0030 [Lapse risk|risk of decrease in lapse rates , Initial absolute values before shock|Liabilities]
+
+S.26.03.01.01,r0420,c0040 [Lapse risk|risk of decrease in lapse rates , Absolute values after shock|Assets]
+
+S.26.03.01.01,r0420,c0050 [Lapse risk|risk of decrease in lapse rates , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+
+S.26.03.01.03,r0040,c0010 [Simplifications - lapse risk , Simplifications used]
+
+S.26.03.01.04,r0420,c0060 [Lapse risk|risk of decrease in lapse rates , Absolute values after shock|Net solvency capital requirement]
+
+
+

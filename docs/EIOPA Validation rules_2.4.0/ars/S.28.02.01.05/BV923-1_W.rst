@@ -1,0 +1,23 @@
+=========
+BV923-1_W
+=========
+
+Rule definition
+---------------
+
+BV923-1_W: {{S.28.02.01.05, r0350,c0130}} gt 0
+
+
+Template references
+-------------------
+
+S.28.02.01.05 Overall MCR calculation
+
+
+Datapoints
+----------
+
+S.28.02.01.05,r0350,c0130 [nan]
+
+
+

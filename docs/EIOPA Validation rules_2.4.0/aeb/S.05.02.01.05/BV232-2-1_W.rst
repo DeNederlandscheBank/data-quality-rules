@@ -1,0 +1,28 @@
+===========
+BV232-2-1_W
+===========
+
+Rule definition
+---------------
+
+BV232-2-1_W: [ (c0230)] {{S.05.02.01.05, r1600}} = {{S.05.02.01.05, r1510}} - {{S.05.02.01.05, r1520}}
+
+
+Template references
+-------------------
+
+S.05.02.01.05 Top 5 countries (by amount of gross premiums written) - life obligations
+
+
+Datapoints
+----------
+
+S.05.02.01.05,r1510 [unknown label]
+S.05.02.01.05,r1520 [unknown label]
+S.05.02.01.05,r1600 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0230)]

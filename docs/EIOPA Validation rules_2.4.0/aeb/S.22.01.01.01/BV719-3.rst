@@ -1,0 +1,26 @@
+=======
+BV719-3
+=======
+
+Rule definition
+---------------
+
+BV719-3: {{S.22.01.01.01, r0010,c0010}} = {{SE.02.01.18.01, r0510,c0010}} + {{SE.02.01.18.01, r0600,c0010}} + {{SE.02.01.18.01, r0690,c0010}}
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.22.01.01.01,r0010,c0010 [Technical provisions , Amount with Long Term Guarantee measures and transitionals]
+
+SE.02.01.18.01,r0510,c0010 [unknown label]
+SE.02.01.18.01,r0600,c0010 [unknown label]
+SE.02.01.18.01,r0690,c0010 [unknown label]
+
+

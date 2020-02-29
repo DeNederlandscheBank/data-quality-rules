@@ -1,0 +1,27 @@
+=========
+BV272_1-2
+=========
+
+Rule definition
+---------------
+
+BV272_1-2: [ (c0140-0150;0170-0200)] {{S.27.01.04.03, r1030}} = sum({{S.27.01.04.03, r0830-1020}})
+
+
+Template references
+-------------------
+
+S.27.01.04.03 Natural Catastrophe risk - Earthquake
+
+
+Datapoints
+----------
+
+S.27.01.04.03,r0830-1020 [unknown label]
+S.27.01.04.03,r1030 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0140-0150;0170-0200)]

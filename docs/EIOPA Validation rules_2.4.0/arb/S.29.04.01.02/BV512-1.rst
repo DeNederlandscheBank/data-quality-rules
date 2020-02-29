@@ -1,0 +1,28 @@
+=======
+BV512-1
+=======
+
+Rule definition
+---------------
+
+BV512-1: sum({{S.29.04.01.02, r0110, c0030, snnn}}) = {{S.29.03.01.03, r0190,c0050}} + {{S.29.03.01.03, r0190,c0060}}
+
+
+Template references
+-------------------
+
+S.29.03.01.03 Analysis of movements affecting Excess of Assets over Liabilities
+
+S.29.04.01.02 Detailed analysis per period - Technical flows versus Technical provisions - AY
+
+
+Datapoints
+----------
+
+S.29.03.01.03,r0190,c0050 [Variation of Best Estimate on risk covered after the period , LIFE - Gross of reinsurance]
+
+S.29.03.01.03,r0190,c0060 [Variation of Best Estimate on risk covered after the period , NON LIFE - Gross of reinsurance]
+
+S.29.04.01.02,r0110,c0030,snnn [unknown label]
+
+

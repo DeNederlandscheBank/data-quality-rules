@@ -1,0 +1,28 @@
+===========
+BV307_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV307_1-1_W: [ (c1140;1160)] {{S.27.01.01.19, r3260}} = {{S.27.01.01.19, r3270}} - {{S.27.01.01.19, r3250}}
+
+
+Template references
+-------------------
+
+S.27.01.01.19 Man made catastrophe risk - Other non-life catastrophe risk
+
+
+Datapoints
+----------
+
+S.27.01.01.19,r3250 [unknown label]
+S.27.01.01.19,r3260 [unknown label]
+S.27.01.01.19,r3270 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c1140;1160)]

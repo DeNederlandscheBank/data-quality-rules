@@ -1,0 +1,27 @@
+=========
+BV434-2_W
+=========
+
+Rule definition
+---------------
+
+BV434-2_W: if (not(empty({{S.06.02.04.02, c0290}})) and not(empty({{S.06.03.04.01, c0060}}))) then matches({{S.06.02.04.02, c0290}},"^..4.$")
+
+
+Template references
+-------------------
+
+S.06.02.04.02 Information on assets
+
+S.06.03.04.01 Collective investment undertakings - look-through approach
+
+
+Datapoints
+----------
+
+S.06.02.04.02,c0290 [URI , CIC]
+
+S.06.03.04.01,c0060 [URI|S.06.03.zz.01 line identification , Total amount]
+
+
+

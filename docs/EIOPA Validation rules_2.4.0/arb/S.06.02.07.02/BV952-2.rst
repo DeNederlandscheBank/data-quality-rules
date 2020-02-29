@@ -1,0 +1,26 @@
+=======
+BV952-2
+=======
+
+Rule definition
+---------------
+
+BV952-2: empty({{S.06.02.07.01,c0130}})  where not(matches({{S.06.02.07.02,c0290}},"^..((71)|(9.)|(09))$")) and not(isfallback({{S.06.02.07.01,c0140}}))
+
+
+Template references
+-------------------
+
+S.06.02.07.01 Information on positions held
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.07.01,c0130 [unknown label]
+S.06.02.07.01,c0140 [unknown label]
+S.06.02.07.02,c0290 [unknown label]
+
+

@@ -1,0 +1,27 @@
+=======
+BV975-1
+=======
+
+Rule definition
+---------------
+
+BV975-1: if (not(empty({{S.05.01.02.02, r1500,c0240}}))) then not(empty({{S.12.01.02.01, r0200,c0060}}))
+
+
+Template references
+-------------------
+
+S.05.01.02.02 Life
+
+S.12.01.02.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.05.01.02.02,r1500,c0240 [Premiums written|Net , Line of Business for: life insurance obligations|Other life insurance]
+
+S.12.01.02.01,r0200,c0060 [Technical provisions - total , Other life insurance|]
+
+
+

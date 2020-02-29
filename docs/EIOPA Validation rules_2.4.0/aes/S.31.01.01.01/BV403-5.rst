@@ -1,0 +1,24 @@
+=======
+BV403-5
+=======
+
+Rule definition
+---------------
+
+BV403-5: {{SE.02.01.16.01, r0370,c0010}} - {{SE.02.01.16.01, r0830,c0010}} = sum({{S.31.01.01.01, c0110, snnn}})
+
+
+Template references
+-------------------
+
+S.31.01.01.01 Share of reinsurers
+
+
+Datapoints
+----------
+
+S.31.01.01.01,c0110,snnn [unknown label]
+SE.02.01.16.01,r0370,c0010 [unknown label]
+SE.02.01.16.01,r0830,c0010 [unknown label]
+
+

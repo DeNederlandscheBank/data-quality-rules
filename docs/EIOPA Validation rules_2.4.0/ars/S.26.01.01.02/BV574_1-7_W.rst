@@ -1,0 +1,33 @@
+===========
+BV574_1-7_W
+===========
+
+Rule definition
+---------------
+
+BV574_1-7_W: {{S.26.01.01.02, r0430,c0060}} = max(0, ({{S.26.01.01.01, r0430,c0020}} - {{S.26.01.01.01, r0430,c0030}}) - ({{S.26.01.01.01, r0430,c0040}} - {{S.26.01.01.01, r0430,c0050}}))
+
+
+Template references
+-------------------
+
+S.26.01.01.01 Market risk - basic information, part 1
+
+S.26.01.01.02 Market risk - basic information, part 2
+
+
+Datapoints
+----------
+
+S.26.01.01.01,r0430,c0020 [Spread risk|credit derivatives|downward shock on credit derivatives , Initial absolute values before shock|Assets]
+
+S.26.01.01.01,r0430,c0030 [Spread risk|credit derivatives|downward shock on credit derivatives , Initial absolute values before shock|Liabilities]
+
+S.26.01.01.01,r0430,c0040 [Spread risk|credit derivatives|downward shock on credit derivatives , Absolute values after shock|Assets]
+
+S.26.01.01.01,r0430,c0050 [Spread risk|credit derivatives|downward shock on credit derivatives , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+
+S.26.01.01.02,r0430,c0060 [Spread risk|credit derivatives|downward shock on credit derivatives , Absolute values after shock|Net solvency capital requirement]
+
+
+

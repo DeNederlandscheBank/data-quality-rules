@@ -1,0 +1,28 @@
+=========
+BV233-1-2
+=========
+
+Rule definition
+---------------
+
+BV233-1-2: [ (c0220)] {{S.05.02.01.04, r1700}} = {{S.05.02.01.04, r1610}} - {{S.05.02.01.04, r1620}}
+
+
+Template references
+-------------------
+
+S.05.02.01.04 Home Country - life obligations
+
+
+Datapoints
+----------
+
+S.05.02.01.04,r1610 [unknown label]
+S.05.02.01.04,r1620 [unknown label]
+S.05.02.01.04,r1700 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0220)]

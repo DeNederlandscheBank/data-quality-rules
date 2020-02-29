@@ -1,0 +1,26 @@
+=======
+BV140-1
+=======
+
+Rule definition
+---------------
+
+BV140-1: {{S.02.01.01.01, r0770,c0010}} ge sum({{S.31.01.01.01, c0140, snnn}})
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.31.01.01.01 Share of reinsurers
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0770,c0010 [Liabilities|Deposits from reinsurers , Solvency II value]
+
+S.31.01.01.01,c0140,snnn [unknown label]
+
+

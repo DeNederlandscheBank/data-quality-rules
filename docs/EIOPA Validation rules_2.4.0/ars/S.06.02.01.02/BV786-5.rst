@@ -1,0 +1,25 @@
+=======
+BV786-5
+=======
+
+Rule definition
+---------------
+
+BV786-5: empty({{S.06.02.01.02,c0310}})  where not(matches({{S.06.02.01.02,c0290}},"^..((3.)|(4.)|(09))$"))
+
+
+Template references
+-------------------
+
+S.06.02.01.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.01.02,c0290 [URI , CIC]
+
+S.06.02.01.02,c0310 [URI , Holdings in related undertakings, including participations]
+
+
+

@@ -1,0 +1,33 @@
+============
+BV574_1-16_W
+============
+
+Rule definition
+---------------
+
+BV574_1-16_W: {{S.26.01.04.02, r0300,c0060}} = max(0, ({{S.26.01.04.01, r0300,c0020}} - {{S.26.01.04.01, r0300,c0030}}) - ({{S.26.01.04.01, r0300,c0040}} - {{S.26.01.04.01, r0300,c0050}}))
+
+
+Template references
+-------------------
+
+S.26.01.04.01 Market risk - basic information, part 1
+
+S.26.01.04.02 Market risk - basic information, part 2
+
+
+Datapoints
+----------
+
+S.26.01.04.01,r0300,c0020 [Property risk , Initial absolute values before shock|Assets]
+
+S.26.01.04.01,r0300,c0030 [Property risk , Initial absolute values before shock|Liabilities]
+
+S.26.01.04.01,r0300,c0040 [Property risk , Absolute values after shock|Assets]
+
+S.26.01.04.01,r0300,c0050 [Property risk , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+
+S.26.01.04.02,r0300,c0060 [Property risk , Absolute values after shock|Net solvency capital requirement]
+
+
+

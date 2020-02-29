@@ -1,0 +1,36 @@
+=========
+BV374-1_W
+=========
+
+Rule definition
+---------------
+
+BV374-1_W: {{S.02.01.01.01,r0240,c0010}}=sum({{S.06.02.01.01,c0170,snnn}}) where matches({{S.06.02.01.02,c0290}},"^..86$") and {{S.06.02.01.01,c0090}}=[s2c_LB:x91]
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.06.02.01.01 Information on positions held
+
+S.06.02.01.02 Information on assets
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0240,c0010 [Assets|Loans and mortgages|Loans on policies , Solvency II value]
+
+S.06.02.01.01,c0090 [Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Asset held in unit linked and index linked contracts]
+
+S.06.02.01.01,c0170,snnn [unknown label]
+S.06.02.01.02,c0290 [URI , CIC]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_LB:x91]

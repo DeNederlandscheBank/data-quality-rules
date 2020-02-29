@@ -1,0 +1,31 @@
+=======
+BV149-1
+=======
+
+Rule definition
+---------------
+
+BV149-1: [ (c0030-0050)] {{S.29.04.01.02, r0140}} = {{S.29.04.01.02, r0080}} - {{S.29.04.01.02, r0090}} - {{S.29.04.01.02, r0100}} - {{S.29.04.01.02, r0110}} - {{S.29.04.01.02, r0120}}
+
+
+Template references
+-------------------
+
+S.29.04.01.02 Detailed analysis per period - Technical flows versus Technical provisions - AY
+
+
+Datapoints
+----------
+
+S.29.04.01.02,r0080 [unknown label]
+S.29.04.01.02,r0090 [unknown label]
+S.29.04.01.02,r0100 [unknown label]
+S.29.04.01.02,r0110 [unknown label]
+S.29.04.01.02,r0120 [unknown label]
+S.29.04.01.02,r0140 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0030-0050)]

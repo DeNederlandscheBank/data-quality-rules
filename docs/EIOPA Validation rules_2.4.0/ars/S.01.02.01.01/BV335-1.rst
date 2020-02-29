@@ -1,0 +1,31 @@
+=======
+BV335-1
+=======
+
+Rule definition
+---------------
+
+BV335-1: if ({{S.01.02.01.01, r0130,c0010}} = [s2c_AP:x2]) then {{S.01.01.01.01, r0470,c0010}} = [s2c_CN:x1]
+
+
+Template references
+-------------------
+
+S.01.01.01.01 Content of the submission
+
+S.01.02.01.01 Basic Information - General
+
+
+Datapoints
+----------
+
+S.01.01.01.01,r0470,c0010 [nan]
+
+S.01.02.01.01,r0130,c0010 [nan]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x2]) then {{S.01.01.01.01, r0470,c0010}} = [s2c_CN:x1]

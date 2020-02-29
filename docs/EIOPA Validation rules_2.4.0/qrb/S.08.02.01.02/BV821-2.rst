@@ -1,0 +1,27 @@
+=======
+BV821-2
+=======
+
+Rule definition
+---------------
+
+BV821-2: not(empty({{S.08.02.01.01,c0130}}))  where not(matches({{S.08.02.01.02,c0320}},"^..((E.)|(D1)|(D3)|(D4)|(D5)|(D7)|(D8)|(D9))$"))
+
+
+Template references
+-------------------
+
+S.08.02.01.01 Information on positions held
+
+S.08.02.01.02 Information on derivatives
+
+
+Datapoints
+----------
+
+S.08.02.01.01,c0130 [Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Buyer / Seller]
+
+S.08.02.01.02,c0320 [URI , CIC]
+
+
+

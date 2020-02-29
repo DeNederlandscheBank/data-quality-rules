@@ -1,0 +1,42 @@
+=========
+BV910_2-2
+=========
+
+Rule definition
+---------------
+
+BV910_2-2: if ({{S.01.01.07.01,r0530,c0010}}=[s2c_CN:x1]) then {{S.26.04.01.01,r0800,c0080}}=exp({{S.26.04.01.01,r0100,c0080}}*({{S.26.04.01.01,r0100,c0080}}-0.25*{{S.26.04.01.01,r0200,c0080}}+0.25*{{S.26.04.01.01,r0300,c0080}}+0.25*{{S.26.04.01.01,r0500,c0080}})+{{S.26.04.01.01,r0200,c0080}}*(-0.25*{{S.26.04.01.01,r0100,c0080}}+{{S.26.04.01.01,r0200,c0080}}+0.25*{{S.26.04.01.01,r0500,c0080}}+0.25*{{S.26.04.01.01,r0600,c0080}}+0.25*{{S.26.04.01.01,r0400,c0080}})+{{S.26.04.01.01,r0300,c0080}}*(0.25*{{S.26.04.01.01,r0100,c0080}}+{{S.26.04.01.01,r0300,c0080}}+0.5*{{S.26.04.01.01,r0500,c0080}})+{{S.26.04.01.01,r0500,c0080}}*(0.25*{{S.26.04.01.01,r0100,c0080}}+0.25*{{S.26.04.01.01,r0200,c0080}}+0.5*{{S.26.04.01.01,r0300,c0080}}+{{S.26.04.01.01,r0500,c0080}}+0.5*{{S.26.04.01.01,r0600,c0080}}+0.5*{{S.26.04.01.01,r0400,c0080}})+{{S.26.04.01.01,r0600,c0080}}*(0.25*{{S.26.04.01.01,r0200,c0080}}+0.5*{{S.26.04.01.01,r0500,c0080}}+{{S.26.04.01.01,r0600,c0080}})+{{S.26.04.01.01,r0400,c0080}}*(0.25*{{S.26.04.01.01,r0200,c0080}}+0.5*{{S.26.04.01.01,r0500,c0080}}+{{S.26.04.01.01,r0400,c0080}}),1,2) where ExDimVal({{S.01.01.07.01,r0530,c0010}},AO)=x0 and ExDimVal({{S.26.04.01.01,r0800,c0080}},AO)=x0 and ExDimVal({{S.26.04.01.01,r0100,c0080}},AO)=x0 and ExDimVal({{S.26.04.01.01,r0200,c0080}},AO)=x0 and ExDimVal({{S.26.04.01.01,r0300,c0080}},AO)=x0 and ExDimVal({{S.26.04.01.01,r0500,c0080}},AO)=x0 and ExDimVal({{S.26.04.01.01,r0600,c0080}},AO)=x0 and ExDimVal({{S.26.04.01.01,r0400,c0080}},AO)=x0
+
+
+Template references
+-------------------
+
+S.01.01.07.01 Content of the submission
+
+S.26.04.01.01 SLT health underwriting risk
+
+
+Datapoints
+----------
+
+S.01.01.07.01,r0530,c0010 [unknown label]
+S.26.04.01.01,r0100,c0080 [Health mortality risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.04.01.01,r0200,c0080 [Health longevity risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.04.01.01,r0300,c0080 [Health disability-morbidity risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.04.01.01,r0400,c0080 [SLT health lapse risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.04.01.01,r0500,c0080 [Health expense risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.04.01.01,r0600,c0080 [Health revision risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.04.01.01,r0800,c0080 [Total SLT health underwriting risk , Absolute values after shock|Gross solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1]

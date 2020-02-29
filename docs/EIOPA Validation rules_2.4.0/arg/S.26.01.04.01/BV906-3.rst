@@ -1,0 +1,33 @@
+=======
+BV906-3
+=======
+
+Rule definition
+---------------
+
+BV906-3: if ({{S.01.01.04.01,r0500,c0010}}=[s2c_CN:x1] and not(empty({{S.26.01.04.01,r0440,c0020}}))) then not(empty({{S.26.01.04.01,r0430,c0020}})) where ExDimVal({{S.26.01.04.01,r0430,c0020}},AO)=x0 and ExDimVal({{S.26.01.04.01,r0440,c0020}},AO)=x0
+
+
+Template references
+-------------------
+
+S.01.01.04.01 Content of the submission
+
+S.26.01.04.01 Market risk - basic information, part 1
+
+
+Datapoints
+----------
+
+S.01.01.04.01,r0500,c0010 [nan]
+
+S.26.01.04.01,r0430,c0020 [Spread risk|credit derivatives|downward shock on credit derivatives , Initial absolute values before shock|Assets]
+
+S.26.01.04.01,r0440,c0020 [Spread risk|credit derivatives|upward shock on credit derivatives , Initial absolute values before shock|Assets]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1]

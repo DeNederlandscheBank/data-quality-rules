@@ -1,0 +1,25 @@
+=======
+BV708-8
+=======
+
+Rule definition
+---------------
+
+BV708-8: if ({{S.02.01.01.01, r0540,c0010}} != 0) then {{S.02.01.01.01, r0550,c0010}} gt 0
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0540,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life|Technical provisions Ã¢ÂÂ non-life (excluding health)|Best Estimate , Solvency II value]
+
+S.02.01.01.01,r0550,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life|Technical provisions Ã¢ÂÂ non-life (excluding health)|Risk margin , Solvency II value]
+
+
+

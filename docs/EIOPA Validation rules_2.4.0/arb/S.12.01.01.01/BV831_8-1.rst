@@ -1,0 +1,23 @@
+=========
+BV831_8-1
+=========
+
+Rule definition
+---------------
+
+BV831_8-1: {{S.12.01.01.01, r0100,c0130}} ge 0
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0100,c0130 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Accepted reinsurance|Other life insurance]
+
+
+

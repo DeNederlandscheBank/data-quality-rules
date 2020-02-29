@@ -1,0 +1,32 @@
+=========
+BV262_1-2
+=========
+
+Rule definition
+---------------
+
+BV262_1-2: [ (c0010;0030)] {{S.27.01.04.01, r0070}} = {{S.27.01.04.01, r0010}} - ({{S.27.01.04.01, r0020}} + {{S.27.01.04.01, r0030}} + {{S.27.01.04.01, r0040}} + {{S.27.01.04.01, r0050}} + {{S.27.01.04.01, r0060}})
+
+
+Template references
+-------------------
+
+S.27.01.04.01 Non-life and Health catastrophe risk - Summary
+
+
+Datapoints
+----------
+
+S.27.01.04.01,r0010 [unknown label]
+S.27.01.04.01,r0020 [unknown label]
+S.27.01.04.01,r0030 [unknown label]
+S.27.01.04.01,r0040 [unknown label]
+S.27.01.04.01,r0050 [unknown label]
+S.27.01.04.01,r0060 [unknown label]
+S.27.01.04.01,r0070 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010;0030)]

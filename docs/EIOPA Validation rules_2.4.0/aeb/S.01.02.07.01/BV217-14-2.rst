@@ -1,0 +1,26 @@
+==========
+BV217-14-2
+==========
+
+Rule definition
+---------------
+
+BV217-14-2: [ (r0150)] not(empty({{S.01.02.07.01, c0010}}))
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+
+Datapoints
+----------
+
+S.01.02.07.01,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0150)]

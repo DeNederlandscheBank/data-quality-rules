@@ -1,0 +1,28 @@
+=======
+BV101-1
+=======
+
+Rule definition
+---------------
+
+BV101-1: [ (c0010)] {{S.23.01.04.01, r0650}} * {{S.23.01.04.01, r0610}} = {{S.23.01.04.01, r0570}}
+
+
+Template references
+-------------------
+
+S.23.01.04.01 Own funds
+
+
+Datapoints
+----------
+
+S.23.01.04.01,r0570 [unknown label]
+S.23.01.04.01,r0610 [unknown label]
+S.23.01.04.01,r0650 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010)]

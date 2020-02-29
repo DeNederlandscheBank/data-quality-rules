@@ -1,0 +1,28 @@
+===========
+BV269_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV269_1-1_W: [ (r0400-0600)] {{S.27.01.01.02, c0070}} * {{S.27.01.01.02, c0050}} = {{S.27.01.01.02, c0060}}
+
+
+Template references
+-------------------
+
+S.27.01.01.02 Natural Catastrophe risk - Windstorm
+
+
+Datapoints
+----------
+
+S.27.01.01.02,c0050 [unknown label]
+S.27.01.01.02,c0060 [unknown label]
+S.27.01.01.02,c0070 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0400-0600)]

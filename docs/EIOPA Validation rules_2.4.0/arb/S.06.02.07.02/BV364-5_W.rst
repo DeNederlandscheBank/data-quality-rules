@@ -1,0 +1,34 @@
+=========
+BV364-5_W
+=========
+
+Rule definition
+---------------
+
+BV364-5_W: {{S.02.01.07.01,r0090,c0010}}=sum({{S.06.02.07.01,c0170,snnn}}) where matches({{S.06.02.07.02,c0290}},"^..((3)|(4)).$") and {{S.06.02.07.02,c0310}} != [s2c_PU:x16] and {{S.06.02.07.01,c0090}}=[s2c_LB:x91]
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+S.06.02.07.01 Information on positions held
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0090,c0010 [unknown label]
+S.06.02.07.01,c0090 [unknown label]
+S.06.02.07.01,c0170,snnn [unknown label]
+S.06.02.07.02,c0290 [unknown label]
+S.06.02.07.02,c0310 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x16] and {{S.06.02.07.01,c0090}}=[s2c_LB:x91]

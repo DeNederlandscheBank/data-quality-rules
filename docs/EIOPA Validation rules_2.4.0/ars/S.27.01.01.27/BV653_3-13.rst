@@ -1,0 +1,45 @@
+==========
+BV653_3-13
+==========
+
+Rule definition
+---------------
+
+BV653_3-13: if ({{S.26.04.01.09, r0010,c0010}} = [s2c_AP:x33] or {{S.26.04.01.09, r0020,c0010}} = [s2c_AP:x33] or {{S.26.04.01.09, r0030,c0010}} = [s2c_AP:x33] or {{S.26.04.01.09, r0040,c0010}} = [s2c_AP:x33] or matches({{S.26.04.01.09, r0050,c0010}},"^((1)|(2)|(1,2))$") or {{S.26.04.01.09, r0060,c0010}} = [s2c_AP:x33] or matches({{S.27.01.01.27, r0002,c0001}},"^((1)|(2)|(3)|(4)|(5)|(1,2)|(1,3)|(1,4)|(1,5)|(2,3)|(2,4)|(2,5)|(3,4)|(3,5)|(4,5)|(1,2,3)|(1,2,4)|(1,2,5)|(1,3,4)|(1,3,5)|(1,4,5)|(2,3,4)|(2,3,5)|(2,4,5)|(3,4,5)|(1,2,3,4)|(1,2,3,5)|(1,2,4,5)|(1,3,4,5)|(2,3,4,5)|(1,2,3,4,5))$")) then {{S.01.01.01.01, r0560,c0010}} = [s2c_CN:x1] or {{S.01.01.01.01, r0560,c0010}} = [s2c_CN:x60] or {{S.01.01.01.01, r0560,c0010}} = [s2c_CN:x71]
+
+
+Template references
+-------------------
+
+S.01.01.01.01 Content of the submission
+
+S.26.04.01.09 Simplifications used
+
+S.27.01.01.27 Simplifications used
+
+
+Datapoints
+----------
+
+S.01.01.01.01,r0560,c0010 [nan]
+
+S.26.04.01.09,r0010,c0010 [Simplifications - health mortality risk , Simplifications used]
+
+S.26.04.01.09,r0020,c0010 [Simplifications - health longevity risk , Simplifications used]
+
+S.26.04.01.09,r0030,c0010 [Simplifications - health disability-morbidity risk-medical expenses , Simplifications used]
+
+S.26.04.01.09,r0040,c0010 [Simplifications - health disability-morbidity risk-income protection , Simplifications used]
+
+S.26.04.01.09,r0050,c0010 [Simplifications - SLT lapse risk , Simplifications used]
+
+S.26.04.01.09,r0060,c0010 [Simplifications - health expense risk , Simplifications used]
+
+S.27.01.01.27,r0002,c0001 [r0002c0001]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x33] or {{S.26.04.01.09, r0020,c0010}} = [s2c_AP:x33] or {{S.26.04.01.09, r0030,c0010}} = [s2c_AP:x33] or {{S.26.04.01.09, r0040,c0010}} = [s2c_AP:x33] or matches({{S.26.04.01.09, r0050,c0010}},"^((1)|(2)|(1,2))$") or {{S.26.04.01.09, r0060,c0010}} = [s2c_AP:x33] or matches({{S.27.01.01.27, r0002,c0001}},"^((1)|(2)|(3)|(4)|(5)|(1,2)|(1,3)|(1,4)|(1,5)|(2,3)|(2,4)|(2,5)|(3,4)|(3,5)|(4,5)|(1,2,3)|(1,2,4)|(1,2,5)|(1,3,4)|(1,3,5)|(1,4,5)|(2,3,4)|(2,3,5)|(2,4,5)|(3,4,5)|(1,2,3,4)|(1,2,3,5)|(1,2,4,5)|(1,3,4,5)|(2,3,4,5)|(1,2,3,4,5))$")) then {{S.01.01.01.01, r0560,c0010}} = [s2c_CN:x1] or {{S.01.01.01.01, r0560,c0010}} = [s2c_CN:x60] or {{S.01.01.01.01, r0560,c0010}} = [s2c_CN:x71]

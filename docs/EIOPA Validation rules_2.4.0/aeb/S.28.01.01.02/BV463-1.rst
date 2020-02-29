@@ -1,0 +1,35 @@
+=======
+BV463-1
+=======
+
+Rule definition
+---------------
+
+BV463-1: {{S.28.01.01.02, r0070,c0020}} ge {{S.17.01.01.01, r0010,c0070}} - {{S.17.01.01.01, r0050,c0070}} + {{S.17.01.01.01, r0270,c0070}} + {{S.17.01.01.01, r0290,c0070}} + {{S.17.01.01.01, r0300,c0070}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+S.28.01.01.02 Background information
+
+
+Datapoints
+----------
+
+S.17.01.01.01,r0010,c0070 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+
+S.17.01.01.01,r0050,c0070 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+
+S.17.01.01.01,r0270,c0070 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - net , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+
+S.17.01.01.01,r0290,c0070 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+
+S.17.01.01.01,r0300,c0070 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+
+S.28.01.01.02,r0070,c0020 [Marine, aviation and transport insurance and proportional reinsurance , Background information|Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+
+
+

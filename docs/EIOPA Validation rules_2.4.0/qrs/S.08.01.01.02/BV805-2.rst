@@ -1,0 +1,31 @@
+=======
+BV805-2
+=======
+
+Rule definition
+---------------
+
+BV805-2: not(matches({{S.08.01.01.02,c0380}},"^((XT)|(XL))..$")) where {{S.08.01.01.01,c0250}}=[s2c_VM:x43]
+
+
+Template references
+-------------------
+
+S.08.01.01.01 Information on positions held
+
+S.08.01.01.02 Information on derivatives
+
+
+Datapoints
+----------
+
+S.08.01.01.01,c0250 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Valuation method]
+
+S.08.01.01.02,c0380 [URI , CIC]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_VM:x43]

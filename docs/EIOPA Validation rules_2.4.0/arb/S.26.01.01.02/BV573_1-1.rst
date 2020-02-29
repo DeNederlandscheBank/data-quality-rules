@@ -1,0 +1,29 @@
+=========
+BV573_1-1
+=========
+
+Rule definition
+---------------
+
+BV573_1-1: [ (c0060;0080)] {{S.26.01.01.02, r0400}} = max(0, ({{S.26.01.01.02, r0410}} + {{S.26.01.01.02, r0420}} + {{S.26.01.01.02, r0450}}))
+
+
+Template references
+-------------------
+
+S.26.01.01.02 Market risk - basic information, part 2
+
+
+Datapoints
+----------
+
+S.26.01.01.02,r0400 [unknown label]
+S.26.01.01.02,r0410 [unknown label]
+S.26.01.01.02,r0420 [unknown label]
+S.26.01.01.02,r0450 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0060;0080)]

@@ -1,0 +1,29 @@
+=======
+BV797-2
+=======
+
+Rule definition
+---------------
+
+BV797-2: {{S.06.03.01.01,c0060}}gt 0  where {{S.06.03.01.01,c0030}}=[s2c_MC:x195]
+
+
+Template references
+-------------------
+
+S.06.03.01.01 Collective investment undertakings - look-through approach
+
+
+Datapoints
+----------
+
+S.06.03.01.01,c0030 [URI|S.06.03.zz.01 line identification , Underlying asset category]
+
+S.06.03.01.01,c0060 [URI|S.06.03.zz.01 line identification , Total amount]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_MC:x195]

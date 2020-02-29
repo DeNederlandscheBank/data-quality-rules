@@ -1,0 +1,45 @@
+=============
+BV632_1-1-4_W
+=============
+
+Rule definition
+---------------
+
+BV632_1-1-4_W: if ({{S.01.01.04.01,r0530,c0010}}=[s2c_CN:x1] or {{S.01.01.04.01,r0530,c0010}}=[s2c_CN:x71]) then {{S.26.04.04.08,r1600,c0270}}={{S.26.04.04.08,r1700,c0270}}-{{S.26.04.04.01,r0800,c0060}}-{{S.26.04.04.06,r1400,c0240}}-{{S.26.04.04.07,r1540,c0250}} where ExDimVal({{S.01.01.04.01,r0530,c0010}},AO)=x0 and ExDimVal({{S.26.04.04.08,r1600,c0270}},AO)=x0 and ExDimVal({{S.26.04.04.08,r1700,c0270}},AO)=x0 and ExDimVal({{S.26.04.04.01,r0800,c0060}},AO)=x0 and ExDimVal({{S.26.04.04.06,r1400,c0240}},AO)=x0 and ExDimVal({{S.26.04.04.07,r1540,c0250}},AO)=x0
+
+
+Template references
+-------------------
+
+S.01.01.04.01 Content of the submission
+
+S.26.04.04.01 SLT health underwriting risk
+
+S.26.04.04.06 Total NSLT health underwriting risk
+
+S.26.04.04.07 Health catastrophe risk - basic information
+
+S.26.04.04.08 Total health underwriting risk
+
+
+Datapoints
+----------
+
+S.01.01.04.01,r0530,c0010 [nan]
+
+S.26.04.04.01,r0800,c0060 [Total SLT health underwriting risk , Absolute values after shock|Net solvency capital requirement]
+
+S.26.04.04.06,r1400,c0240 [Total NSLT health underwriting risk , Solvency capital requirement]
+
+S.26.04.04.07,r1540,c0250 [Total health catastrophe risk , Net solvency capital requirement]
+
+S.26.04.04.08,r1600,c0270 [Diversification within health underwriting risk module , Net solvency capital requirement]
+
+S.26.04.04.08,r1700,c0270 [Total health underwriting risk , Net solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1] or {{S.01.01.04.01,r0530,c0010}}=[s2c_CN:x71]

@@ -1,0 +1,22 @@
+=======
+BV716-4
+=======
+
+Rule definition
+---------------
+
+BV716-4: {{S.02.01.07.01, r0410,c0010}} gt 0
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0410,c0010 [unknown label]
+
+

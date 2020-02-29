@@ -1,0 +1,37 @@
+=======
+BV481-2
+=======
+
+Rule definition
+---------------
+
+BV481-2: {{S.28.02.01.02, r0090,c0030}} + {{S.28.02.01.02, r0090,c0050}} ge {{S.17.01.02.01, r0010,c0090}} - {{S.17.01.02.01, r0050,c0090}} + {{S.17.01.02.01, r0270,c0090}} + {{S.17.01.02.01, r0290,c0090}} + {{S.17.01.02.01, r0300,c0090}}
+
+
+Template references
+-------------------
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+S.28.02.01.02 Background information
+
+
+Datapoints
+----------
+
+S.17.01.02.01,r0010,c0090 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|General liability insurance]
+
+S.17.01.02.01,r0050,c0090 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Direct business and accepted proportional reinsurance|General liability insurance]
+
+S.17.01.02.01,r0270,c0090 [Technical provisions calculated as a sum of BE and RM|Total Best estimate - net , Direct business and accepted proportional reinsurance|General liability insurance]
+
+S.17.01.02.01,r0290,c0090 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|General liability insurance]
+
+S.17.01.02.01,r0300,c0090 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|General liability insurance]
+
+S.28.02.01.02,r0090,c0030 [General liability insurance and proportional reinsurance , Background information|Non-life activities|Net (of reinsurance/ SPV) best estimate and TP calculated as a whole]
+
+S.28.02.01.02,r0090,c0050 [General liability insurance and proportional reinsurance , Background information|Life activities|Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+
+
+

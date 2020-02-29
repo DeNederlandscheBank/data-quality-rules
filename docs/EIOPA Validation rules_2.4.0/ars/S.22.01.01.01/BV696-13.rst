@@ -1,0 +1,31 @@
+========
+BV696-13
+========
+
+Rule definition
+---------------
+
+BV696-13: if ({{S.01.02.01.01, r0190,c0010}} = [s2c_AP:x10]) then {{S.22.01.01.01, r0060,c0050}} = 0
+
+
+Template references
+-------------------
+
+S.01.02.01.01 Basic Information - General
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.01.01,r0190,c0010 [nan]
+
+S.22.01.01.01,r0060,c0050 [Eligible own funds to meet Solvency Capital Requirement|Tier 1 , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of transitional on interest rate]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x10]

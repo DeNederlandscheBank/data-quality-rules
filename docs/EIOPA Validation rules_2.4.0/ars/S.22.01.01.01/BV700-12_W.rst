@@ -1,0 +1,31 @@
+==========
+BV700-12_W
+==========
+
+Rule definition
+---------------
+
+BV700-12_W: if ({{S.01.02.01.01, r0170,c0010}} = [s2c_PU:x52]) then {{S.22.01.01.01, r0070,c0090}} = 0
+
+
+Template references
+-------------------
+
+S.01.02.01.01 Basic Information - General
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.01.01,r0170,c0010 [nan]
+
+S.22.01.01.01,r0070,c0090 [Eligible own funds to meet Solvency Capital Requirement|Tier 2 , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of matching adjustment set to zero]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x52]

@@ -1,0 +1,26 @@
+=======
+BV491-1
+=======
+
+Rule definition
+---------------
+
+BV491-1: {{S.17.01.01.01, r0200,c0180}} = sum({{S.31.01.01.01, c0070, snnn}})
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+S.31.01.01.01 Share of reinsurers
+
+
+Datapoints
+----------
+
+S.17.01.01.01,r0200,c0180 [Technical provisions calculated as a sum of BE and RM|Best estimate|Claims provisions|Total recoverable from reinsurance/SPV and Finite Re before the adjustment for expected losses due to counterparty default , Total Non-Life obligation]
+
+S.31.01.01.01,c0070,snnn [unknown label]
+
+

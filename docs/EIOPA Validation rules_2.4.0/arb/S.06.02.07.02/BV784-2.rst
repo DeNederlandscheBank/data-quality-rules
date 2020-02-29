@@ -1,0 +1,28 @@
+=======
+BV784-2
+=======
+
+Rule definition
+---------------
+
+BV784-2: if (not(empty({{S.06.02.07.01,c0140}}))) then {{S.06.02.07.01,c0170}} = {{S.06.02.07.01,c0140}} * {{S.06.02.07.02,c0380}} + {{S.06.02.07.01,c0180}} where not(matches({{S.06.02.07.02,c0290}},"^..((71)|(9.)|(09))$"))
+
+
+Template references
+-------------------
+
+S.06.02.07.01 Information on positions held
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.07.01,c0140 [unknown label]
+S.06.02.07.01,c0170 [unknown label]
+S.06.02.07.01,c0180 [unknown label]
+S.06.02.07.02,c0290 [unknown label]
+S.06.02.07.02,c0380 [unknown label]
+
+

@@ -1,0 +1,29 @@
+===========
+BV294_1-2_W
+===========
+
+Rule definition
+---------------
+
+BV294_1-2_W: [ (r2500)] {{S.27.01.04.12, c0840}} = {{S.27.01.04.12, c0810}} - {{S.27.01.04.12, c0820}} + {{S.27.01.04.12, c0830}}
+
+
+Template references
+-------------------
+
+S.27.01.04.12 Man made catastrophe risk - Aviation
+
+
+Datapoints
+----------
+
+S.27.01.04.12,c0810 [unknown label]
+S.27.01.04.12,c0820 [unknown label]
+S.27.01.04.12,c0830 [unknown label]
+S.27.01.04.12,c0840 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r2500)]

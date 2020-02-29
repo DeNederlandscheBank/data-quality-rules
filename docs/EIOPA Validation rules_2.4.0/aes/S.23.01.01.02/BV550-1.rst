@@ -1,0 +1,28 @@
+=======
+BV550-1
+=======
+
+Rule definition
+---------------
+
+BV550-1: [ (c0060)] {{S.23.01.01.02, r0790}} = {{S.23.01.01.02, r0770}} + {{S.23.01.01.02, r0780}}
+
+
+Template references
+-------------------
+
+S.23.01.01.02 Reconciliation reserve
+
+
+Datapoints
+----------
+
+S.23.01.01.02,r0770 [unknown label]
+S.23.01.01.02,r0780 [unknown label]
+S.23.01.01.02,r0790 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0060)]

@@ -1,0 +1,36 @@
+=========
+BV774-1_W
+=========
+
+Rule definition
+---------------
+
+BV774-1_W: sum({{S.14.01.01.01, c0060, snnn}}) = {{S.05.01.01.02, r1410,c0210}} + {{S.05.01.01.02, r1410,c0220}} + {{S.05.01.01.02, r1410,c0230}} + {{S.05.01.01.02, r1410,c0240}} + {{S.05.01.01.02, r1410,c0270}} + {{S.05.01.01.02, r1410,c0280}}
+
+
+Template references
+-------------------
+
+S.05.01.01.02 Life
+
+S.14.01.01.01 Portfolio
+
+
+Datapoints
+----------
+
+S.05.01.01.02,r1410,c0210 [Premiums written|Gross , Line of Business for: life insurance obligations|Health insurance]
+
+S.05.01.01.02,r1410,c0220 [Premiums written|Gross , Line of Business for: life insurance obligations|Insurance with profit participation]
+
+S.05.01.01.02,r1410,c0230 [Premiums written|Gross , Line of Business for: life insurance obligations|Index-linked and unit-linked insurance]
+
+S.05.01.01.02,r1410,c0240 [Premiums written|Gross , Line of Business for: life insurance obligations|Other life insurance]
+
+S.05.01.01.02,r1410,c0270 [Premiums written|Gross , Life reinsurance obligations|Health reinsurance]
+
+S.05.01.01.02,r1410,c0280 [Premiums written|Gross , Life reinsurance obligations|Life reinsurance]
+
+S.14.01.01.01,c0060,snnn [unknown label]
+
+

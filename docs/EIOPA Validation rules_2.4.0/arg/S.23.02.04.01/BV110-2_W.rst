@@ -1,0 +1,27 @@
+=========
+BV110-2_W
+=========
+
+Rule definition
+---------------
+
+BV110-2_W: [ (r0020)] {{S.23.02.04.01, c0010}} = {{S.23.02.04.01, c0040}}
+
+
+Template references
+-------------------
+
+S.23.02.04.01 Basic own funds
+
+
+Datapoints
+----------
+
+S.23.02.04.01,c0010 [unknown label]
+S.23.02.04.01,c0040 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0020)]

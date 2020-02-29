@@ -1,0 +1,35 @@
+=======
+BV349-1
+=======
+
+Rule definition
+---------------
+
+BV349-1: if ({{S.01.01.04.01, r0470,c0010}} = [s2c_CN:x1]) then {{S.23.01.04.01, r0610,c0010}} = {{S.25.02.04.02, r0470,c0100}}
+
+
+Template references
+-------------------
+
+S.01.01.04.01 Content of the submission
+
+S.23.01.04.01 Own funds
+
+S.25.02.04.02 Calculation of Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.01.01.04.01,r0470,c0010 [nan]
+
+S.23.01.04.01,r0610,c0010 [Minimum consolidated Group SCR , Total]
+
+S.25.02.04.02,r0470,c0100 [nan]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1]

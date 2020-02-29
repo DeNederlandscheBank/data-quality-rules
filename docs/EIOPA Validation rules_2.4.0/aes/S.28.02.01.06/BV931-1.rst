@@ -1,0 +1,27 @@
+=======
+BV931-1
+=======
+
+Rule definition
+---------------
+
+BV931-1: {{S.28.02.01.06, r0560,c0140}} = max({{S.28.02.01.06, r0540,c0140}}, {{S.28.02.01.06, r0550,c0140}})
+
+
+Template references
+-------------------
+
+S.28.02.01.06 Notional non-life and life MCR calculation
+
+
+Datapoints
+----------
+
+S.28.02.01.06,r0540,c0140 [Notional Combined MCR , Non-life activities]
+
+S.28.02.01.06,r0550,c0140 [Absolute floor of the notional MCR , Non-life activities]
+
+S.28.02.01.06,r0560,c0140 [Notional MCR , Non-life activities]
+
+
+

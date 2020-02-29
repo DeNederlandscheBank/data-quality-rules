@@ -1,0 +1,27 @@
+=========
+BV306_1-1
+=========
+
+Rule definition
+---------------
+
+BV306_1-1: [ (c1140)] {{S.27.01.01.19, r3250}} = sum({{S.27.01.01.19, r3200-3240}})
+
+
+Template references
+-------------------
+
+S.27.01.01.19 Man made catastrophe risk - Other non-life catastrophe risk
+
+
+Datapoints
+----------
+
+S.27.01.01.19,r3200-3240 [unknown label]
+S.27.01.01.19,r3250 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c1140)]

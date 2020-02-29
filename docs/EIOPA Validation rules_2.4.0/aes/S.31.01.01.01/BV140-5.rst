@@ -1,0 +1,23 @@
+=======
+BV140-5
+=======
+
+Rule definition
+---------------
+
+BV140-5: {{SE.02.01.16.01, r0770,c0010}} ge sum({{S.31.01.01.01, c0140, snnn}})
+
+
+Template references
+-------------------
+
+S.31.01.01.01 Share of reinsurers
+
+
+Datapoints
+----------
+
+S.31.01.01.01,c0140,snnn [unknown label]
+SE.02.01.16.01,r0770,c0010 [unknown label]
+
+

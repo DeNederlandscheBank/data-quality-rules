@@ -1,0 +1,26 @@
+=========
+BV919_1-1
+=========
+
+Rule definition
+---------------
+
+BV919_1-1: [ (r0020-0170)] {{S.28.02.01.02, c0040}} ge 0
+
+
+Template references
+-------------------
+
+S.28.02.01.02 Background information
+
+
+Datapoints
+----------
+
+S.28.02.01.02,c0040 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0020-0170)]

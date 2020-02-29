@@ -1,0 +1,39 @@
+==========
+BV1012-1_W
+==========
+
+Rule definition
+---------------
+
+BV1012-1_W: if ({{S.01.02.07.01, r0100,c0010}} = [s2c_CS:x45]) then {{SE.01.01.19.01, r0010,c0010}} = [s2c_CN:x1] and {{SE.01.01.19.01, er0030,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0110,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, er0140,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0150,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0170,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0180,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0220,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0290,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0410,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0580,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0590,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, er1000,c0010}} != [s2c_CN:x1]
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0100,c0010 [unknown label]
+SE.01.01.19.01,er0030,c0010 [unknown label]
+SE.01.01.19.01,er0140,c0010 [unknown label]
+SE.01.01.19.01,er1000,c0010 [unknown label]
+SE.01.01.19.01,r0010,c0010 [unknown label]
+SE.01.01.19.01,r0110,c0010 [unknown label]
+SE.01.01.19.01,r0150,c0010 [unknown label]
+SE.01.01.19.01,r0170,c0010 [unknown label]
+SE.01.01.19.01,r0180,c0010 [unknown label]
+SE.01.01.19.01,r0220,c0010 [unknown label]
+SE.01.01.19.01,r0290,c0010 [unknown label]
+SE.01.01.19.01,r0410,c0010 [unknown label]
+SE.01.01.19.01,r0580,c0010 [unknown label]
+SE.01.01.19.01,r0590,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_CS:x45]) then {{SE.01.01.19.01, r0010,c0010}} = [s2c_CN:x1] and {{SE.01.01.19.01, er0030,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0110,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, er0140,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0150,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0170,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0180,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0220,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0290,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0410,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0580,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, r0590,c0010}} != [s2c_CN:x1] and {{SE.01.01.19.01, er1000,c0010}} != [s2c_CN:x1]

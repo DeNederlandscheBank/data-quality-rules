@@ -1,0 +1,31 @@
+========
+BV700-24
+========
+
+Rule definition
+---------------
+
+BV700-24: if ({{S.01.02.04.01, r0170,c0010}} = [s2c_PU:x52]) then {{S.22.01.04.01, r0040,c0090}} = 0
+
+
+Template references
+-------------------
+
+S.01.02.04.01 Basic Information - General
+
+S.22.01.04.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.04.01,r0170,c0010 [nan]
+
+S.22.01.04.01,r0040,c0090 [Basic own funds|Restricted own funds due to ring-fencing and matching portfolio , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of matching adjustment set to zero]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x52]

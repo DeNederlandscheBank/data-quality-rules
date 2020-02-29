@@ -1,0 +1,47 @@
+==========
+BV1013_1-4
+==========
+
+Rule definition
+---------------
+
+BV1013_1-4: if({{S.01.01.04.01,r0500,c0010}}=[s2c_CN:x1]and{{S.26.01.04.02,r0110,c0060}}>={{S.26.01.04.02,r0120,c0060}}) then {{S.26.01.04.02,r0800,c0060}}=exp({{S.26.01.04.02,r0100,c0060}}*({{S.26.01.04.02,r0100,c0060}}+0.5*{{S.26.01.04.02,r0200,c0060}}+0.5*{{S.26.01.04.02,r0300,c0060}}+0.5*{{S.26.01.04.02,r0400,c0060}}+0.25*{{S.26.01.04.02,r0600,c0060}})+{{S.26.01.04.02,r0200,c0060}}*(0.5*{{S.26.01.04.02,r0100,c0060}}+{{S.26.01.04.02,r0200,c0060}}+0.75*{{S.26.01.04.02,r0300,c0060}}+0.75*{{S.26.01.04.02,r0400,c0060}}+0.25*{{S.26.01.04.02,r0600,c0060}})+{{S.26.01.04.02,r0300,c0060}}*(0.5*{{S.26.01.04.02,r0100,c0060}}+0.75*{{S.26.01.04.02,r0200,c0060}}+{{S.26.01.04.02,r0300,c0060}}+0.5*{{S.26.01.04.02,r0400,c0060}}+0.25*{{S.26.01.04.02,r0600,c0060}})+{{S.26.01.04.02,r0400,c0060}}*(0.5*{{S.26.01.04.02,r0100,c0060}}+0.75*{{S.26.01.04.02,r0200,c0060}}+0.5*{{S.26.01.04.02,r0300,c0060}}+{{S.26.01.04.02,r0400,c0060}}+0.25*{{S.26.01.04.02,r0600,c0060}})+{{S.26.01.04.02,r0500,c0060}}*{{S.26.01.04.02,r0500,c0060}}+{{S.26.01.04.02,r0600,c0060}}*(0.25*{{S.26.01.04.02,r0100,c0060}}+0.25*{{S.26.01.04.02,r0200,c0060}}+0.25*{{S.26.01.04.02,r0300,c0060}}+0.25*{{S.26.01.04.02,r0400,c0060}}+{{S.26.01.04.02,r0600,c0060}}),1,2) where ExDimVal({{S.26.01.04.02, r0110,c0060}},AO)=x0 and ExDimVal({{S.26.01.04.02, r0120,c0060}},AO)=x0 and ExDimVal({{S.26.01.04.02, r0800,c0060}},AO)=x0 and ExDimVal({{S.26.01.04.02, r0100,c0060}},AO)=x0 and ExDimVal({{S.26.01.04.02, r0600,c0060}},AO)=x0 and ExDimVal({{S.26.01.04.02, r0200,c0060}},AO)=x0 and ExDimVal({{S.26.01.04.02, r0300,c0060}},AO)=x0 and ExDimVal({{S.26.01.04.02, r0400,c0060}},AO)=x0 and ExDimVal({{S.26.01.04.02, r0500,c0060}},AO)=x0
+
+
+Template references
+-------------------
+
+S.01.01.04.01 Content of the submission
+
+S.26.01.04.02 Market risk - basic information, part 2
+
+
+Datapoints
+----------
+
+S.01.01.04.01,r0500,c0010 [nan]
+
+S.26.01.04.02,r0100,c0060 [Interest rate risk , Absolute values after shock|Net solvency capital requirement]
+
+S.26.01.04.02,r0110,c0060 [Interest rate risk|interest rate down shock , Absolute values after shock|Net solvency capital requirement]
+
+S.26.01.04.02,r0120,c0060 [Interest rate risk|interest rate up shock , Absolute values after shock|Net solvency capital requirement]
+
+S.26.01.04.02,r0200,c0060 [Equity risk , Absolute values after shock|Net solvency capital requirement]
+
+S.26.01.04.02,r0300,c0060 [Property risk , Absolute values after shock|Net solvency capital requirement]
+
+S.26.01.04.02,r0400,c0060 [Spread risk , Absolute values after shock|Net solvency capital requirement]
+
+S.26.01.04.02,r0500,c0060 [Market risk concentrations , Absolute values after shock|Net solvency capital requirement]
+
+S.26.01.04.02,r0600,c0060 [Currency risk , Absolute values after shock|Net solvency capital requirement]
+
+S.26.01.04.02,r0800,c0060 [Total market risk , Absolute values after shock|Net solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1]

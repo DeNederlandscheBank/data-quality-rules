@@ -1,0 +1,27 @@
+=======
+BV965-2
+=======
+
+Rule definition
+---------------
+
+BV965-2: if (not(empty({{S.05.01.01.01, r0200,c0100}}))) then not(empty({{S.17.01.01.01, r0320,c0110}}))
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.05.01.01.01,r0200,c0100 [Premiums written|Net , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Legal expenses insurance]
+
+S.17.01.01.01,r0320,c0110 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+
+
+

@@ -1,0 +1,29 @@
+=======
+BV953-3
+=======
+
+Rule definition
+---------------
+
+BV953-3: if (not(empty({{S.06.02.04.02,c0370}}))) then not(empty({{S.06.02.04.01,c0130}}))  where not(matches({{S.06.02.04.02,c0290}},"^..((71)|(9.)|(09))$"))
+
+
+Template references
+-------------------
+
+S.06.02.04.01 Information on positions held
+
+S.06.02.04.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.04.01,c0130 [Identification code of entity|Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Quantity]
+
+S.06.02.04.02,c0290 [URI , CIC]
+
+S.06.02.04.02,c0370 [URI , Unit Solvency II price]
+
+
+

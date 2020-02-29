@@ -1,0 +1,42 @@
+===========
+BV134-1-5_W
+===========
+
+Rule definition
+---------------
+
+BV134-1-5_W: if ({{SE.01.01.16.01,r0460,c0010}}=[s2c_CN:x59]) then {{S.25.01.01.02,r0200,c0100}}={{S.25.01.01.01,r0100,c0040}}+{{S.25.01.01.02,r0120,c0100}}+{{S.25.01.01.02,r0130,c0100}}+{{S.25.01.01.02,r0140,c0100}}+{{S.25.01.01.02,r0150,c0100}}+{{S.25.01.01.02,r0160,c0100}} where ExDimVal({{SE.01.01.16.01,r0460,c0010}},AO)=x0 and ExDimVal({{S.25.01.01.02,r0200,c0100}},AO)=x0 and ExDimVal({{S.25.01.01.01,r0100,c0040}},AO)=x0 and ExDimVal({{S.25.01.01.02,r0120,c0100}},AO)=x0 and ExDimVal({{S.25.01.01.02,r0130,c0100}},AO)=x0 and ExDimVal({{S.25.01.01.02,r0140,c0100}},AO)=x0 and ExDimVal({{S.25.01.01.02,r0150,c0100}},AO)=x0 and ExDimVal({{S.25.01.01.02,r0160,c0100}},AO)=x0
+
+
+Template references
+-------------------
+
+S.25.01.01.01 Basic Solvency Capital Requirement
+
+S.25.01.01.02 Calculation of Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.25.01.01.01,r0100,c0040 [Basic Solvency Capital Requirement , Gross solvency capital requirement]
+
+S.25.01.01.02,r0120,c0100 [Adjustment due to RFF/MAP nSCR aggregation , Value]
+
+S.25.01.01.02,r0130,c0100 [Operational risk , Value]
+
+S.25.01.01.02,r0140,c0100 [Loss-absorbing capacity of technical provisions , Value]
+
+S.25.01.01.02,r0150,c0100 [Loss-absorbing capacity of deferred taxes , Value]
+
+S.25.01.01.02,r0160,c0100 [Capital requirement for business operated in accordance with Art. 4 of Directive 2003/41/EC , Value]
+
+S.25.01.01.02,r0200,c0100 [Solvency Capital Requirement excluding capital add-on , Value]
+
+SE.01.01.16.01,r0460,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x59]

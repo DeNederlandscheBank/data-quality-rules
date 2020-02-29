@@ -1,0 +1,29 @@
+=========
+BV314_1-3
+=========
+
+Rule definition
+---------------
+
+BV314_1-3: [ (c0010)] {{S.02.01.02.01, r0270}} = {{S.02.01.02.01, r0280}} + {{S.02.01.02.01, r0310}} + {{S.02.01.02.01, r0340}}
+
+
+Template references
+-------------------
+
+S.02.01.02.01 Balance sheet
+
+
+Datapoints
+----------
+
+S.02.01.02.01,r0270 [unknown label]
+S.02.01.02.01,r0280 [unknown label]
+S.02.01.02.01,r0310 [unknown label]
+S.02.01.02.01,r0340 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010)]

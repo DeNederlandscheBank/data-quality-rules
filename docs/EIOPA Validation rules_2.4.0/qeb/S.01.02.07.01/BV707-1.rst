@@ -1,0 +1,23 @@
+=======
+BV707-1
+=======
+
+Rule definition
+---------------
+
+BV707-1: {{S.01.02.07.01, r0090,c0010}} le {{SE.06.02.18.02, c0390}}
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0090,c0010 [unknown label]
+SE.06.02.18.02,c0390 [unknown label]
+
+

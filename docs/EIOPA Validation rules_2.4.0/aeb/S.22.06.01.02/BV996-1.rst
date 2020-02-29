@@ -1,0 +1,27 @@
+=======
+BV996-1
+=======
+
+Rule definition
+---------------
+
+BV996-1: [ (c0050)] {{S.22.06.01.02, r0030}} le {{S.22.06.01.02, r0020}}
+
+
+Template references
+-------------------
+
+S.22.06.01.02 Best estimate subject to country and currency volatility adjustment - Total and home country by currency by currency (other than reporting currency)
+
+
+Datapoints
+----------
+
+S.22.06.01.02,r0020 [unknown label]
+S.22.06.01.02,r0030 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0050)]

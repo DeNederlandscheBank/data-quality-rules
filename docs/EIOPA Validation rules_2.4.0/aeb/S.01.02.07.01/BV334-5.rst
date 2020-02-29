@@ -1,0 +1,27 @@
+=======
+BV334-5
+=======
+
+Rule definition
+---------------
+
+BV334-5: if ({{S.01.02.07.01, r0130,c0010}} = [s2c_AP:x3]) then {{SE.01.01.18.01, r0460,c0010}} = [s2c_CN:x59] or {{SE.01.01.18.01, r0460,c0010}} = [s2c_CN:x17]
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0130,c0010 [unknown label]
+SE.01.01.18.01,r0460,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x3]) then {{SE.01.01.18.01, r0460,c0010}} = [s2c_CN:x59] or {{SE.01.01.18.01, r0460,c0010}} = [s2c_CN:x17]

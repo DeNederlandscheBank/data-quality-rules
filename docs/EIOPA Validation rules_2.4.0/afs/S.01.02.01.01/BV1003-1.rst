@@ -1,0 +1,33 @@
+========
+BV1003-1
+========
+
+Rule definition
+---------------
+
+BV1003-1: if ({{S.01.02.01.01, r0100,c0010}} = [s2c_CS:x45]) then {{S.01.01.10.01, r0010,c0010}} = [s2c_CN:x1] and {{S.01.01.10.01, r0250,c0010}} != [s2c_CN:x1] and {{S.01.01.10.01, r0950,c0010}} != [s2c_CN:x1] and {{S.01.01.10.01, r0970,c0010}} != [s2c_CN:x1]
+
+
+Template references
+-------------------
+
+S.01.01.10.01 Content of the submission
+
+S.01.02.01.01 Basic Information - General
+
+
+Datapoints
+----------
+
+S.01.01.10.01,r0010,c0010 [unknown label]
+S.01.01.10.01,r0250,c0010 [unknown label]
+S.01.01.10.01,r0950,c0010 [unknown label]
+S.01.01.10.01,r0970,c0010 [unknown label]
+S.01.02.01.01,r0100,c0010 [nan]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CS:x45]) then {{S.01.01.10.01, r0010,c0010}} = [s2c_CN:x1] and {{S.01.01.10.01, r0250,c0010}} != [s2c_CN:x1] and {{S.01.01.10.01, r0950,c0010}} != [s2c_CN:x1] and {{S.01.01.10.01, r0970,c0010}} != [s2c_CN:x1]

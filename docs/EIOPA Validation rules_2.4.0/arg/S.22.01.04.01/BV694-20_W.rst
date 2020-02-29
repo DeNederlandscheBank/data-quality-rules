@@ -1,0 +1,31 @@
+==========
+BV694-20_W
+==========
+
+Rule definition
+---------------
+
+BV694-20_W: if ({{S.01.02.04.01, r0200,c0010}} = [s2c_AP:x12]) then {{S.22.01.04.01, r0080,c0030}} = 0
+
+
+Template references
+-------------------
+
+S.01.02.04.01 Basic Information - General
+
+S.22.01.04.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.04.01,r0200,c0010 [nan]
+
+S.22.01.04.01,r0080,c0030 [Eligible own funds to meet Solvency Capital Requirement|Tier 3 , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of transitional on technical provisions]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x12]

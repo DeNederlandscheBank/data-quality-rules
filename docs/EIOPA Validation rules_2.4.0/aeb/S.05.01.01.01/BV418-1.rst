@@ -1,0 +1,30 @@
+=======
+BV418-1
+=======
+
+Rule definition
+---------------
+
+BV418-1: [ (c0200)] {{S.05.01.01.01, r0800}} = {{S.05.01.01.01, r0710}} + {{S.05.01.01.01, r0720}} + {{S.05.01.01.01, r0730}} - {{S.05.01.01.01, r0740}}
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+
+Datapoints
+----------
+
+S.05.01.01.01,r0710 [unknown label]
+S.05.01.01.01,r0720 [unknown label]
+S.05.01.01.01,r0730 [unknown label]
+S.05.01.01.01,r0740 [unknown label]
+S.05.01.01.01,r0800 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0200)]

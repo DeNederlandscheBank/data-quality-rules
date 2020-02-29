@@ -1,0 +1,29 @@
+=========
+BV892_1-1
+=========
+
+Rule definition
+---------------
+
+BV892_1-1: [ (r0010;0020;0030;0100;0110;0120;0200;0210;0220;0300)] {{S.23.03.04.01, c0060}} = {{S.23.03.04.01, c0010}} + {{S.23.03.04.01, c0020}} - {{S.23.03.04.01, c0030}}
+
+
+Template references
+-------------------
+
+S.23.03.04.01 Ordinary share capital and related share premium, initial fund members' contributions or the equivalent basic own - movements in the reporting period
+
+
+Datapoints
+----------
+
+S.23.03.04.01,c0010 [unknown label]
+S.23.03.04.01,c0020 [unknown label]
+S.23.03.04.01,c0030 [unknown label]
+S.23.03.04.01,c0060 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0010;0020;0030;0100;0110;0120;0200;0210;0220;0300)]

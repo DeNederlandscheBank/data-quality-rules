@@ -1,0 +1,28 @@
+=========
+BV386_1-3
+=========
+
+Rule definition
+---------------
+
+BV386_1-3: {{SE.02.01.18.01, r0700,c0010}} le {{S.12.01.01.01, r0010,c0030}} + {{S.12.01.01.01, r0010,c0120}} + {{S.12.01.01.01, r0110,c0030}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0010,c0030 [Technical provisions calculated as a whole , Index-linked and unit-linked insurance|]
+
+S.12.01.01.01,r0010,c0120 [Technical provisions calculated as a whole , Accepted reinsurance|Index-linked and unit-linked insurance]
+
+S.12.01.01.01,r0110,c0030 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Index-linked and unit-linked insurance|]
+
+SE.02.01.18.01,r0700,c0010 [unknown label]
+
+

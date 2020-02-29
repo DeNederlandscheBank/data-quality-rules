@@ -1,0 +1,25 @@
+=======
+BV104-3
+=======
+
+Rule definition
+---------------
+
+BV104-3: {{SE.02.01.18.01, r0800,c0010}} + {{SE.02.01.18.01, r0810,c0010}} = {{S.02.02.01.01, r0150,c0020}}
+
+
+Template references
+-------------------
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.02.01.01,r0150,c0020 [Liabilities|Financial liabilities , Total value of all currencies]
+
+SE.02.01.18.01,r0800,c0010 [unknown label]
+SE.02.01.18.01,r0810,c0010 [unknown label]
+
+

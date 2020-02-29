@@ -1,0 +1,26 @@
+=======
+BV992-2
+=======
+
+Rule definition
+---------------
+
+BV992-2: {{S.06.02.07.02,c0210}} != {{S.01.02.07.01,r0050,c0010}} where matches({{S.06.02.07.02,c0290}},"^..8.$")
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0050,c0010 [unknown label]
+S.06.02.07.02,c0210 [unknown label]
+S.06.02.07.02,c0290 [unknown label]
+
+

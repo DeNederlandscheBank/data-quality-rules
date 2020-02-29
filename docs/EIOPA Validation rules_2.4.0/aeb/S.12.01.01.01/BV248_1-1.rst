@@ -1,0 +1,39 @@
+=========
+BV248_1-1
+=========
+
+Rule definition
+---------------
+
+BV248_1-1: {{S.12.01.01.01, r0200,c0160}} = {{S.12.01.01.01, r0010,c0160}} + {{S.12.01.01.01, r0030,c0170}} + {{S.12.01.01.01, r0030,c0180}} + {{S.12.01.01.01, r0100,c0160}} + {{S.12.01.01.01, r0110,c0160}} + {{S.12.01.01.01, r0120,c0170}} + {{S.12.01.01.01, r0120,c0180}} + {{S.12.01.01.01, r0130,c0160}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0010,c0160 [Technical provisions calculated as a whole , Health insurance (direct business)|]
+
+S.12.01.01.01,r0030,c0170 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Health insurance (direct business)|Contracts without options and guarantees]
+
+S.12.01.01.01,r0030,c0180 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Health insurance (direct business)|Contracts with options or guarantees]
+
+S.12.01.01.01,r0100,c0160 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Health insurance (direct business)|]
+
+S.12.01.01.01,r0110,c0160 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Health insurance (direct business)|]
+
+S.12.01.01.01,r0120,c0170 [Amount of the transitional on Technical Provisions|Best estimate , Health insurance (direct business)|Contracts without options and guarantees]
+
+S.12.01.01.01,r0120,c0180 [Amount of the transitional on Technical Provisions|Best estimate , Health insurance (direct business)|Contracts with options or guarantees]
+
+S.12.01.01.01,r0130,c0160 [Amount of the transitional on Technical Provisions|Risk margin , Health insurance (direct business)|]
+
+S.12.01.01.01,r0200,c0160 [Technical provisions - total , Health insurance (direct business)|]
+
+
+

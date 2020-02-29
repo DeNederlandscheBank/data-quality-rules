@@ -1,0 +1,37 @@
+=========
+BV641_1-1
+=========
+
+Rule definition
+---------------
+
+BV641_1-1: if ({{S.26.05.01.05, r0010,c0010}} = [s2c_AP:x34]) then {{S.26.05.01.01, r0160,c0090}} = ({{S.26.05.01.01, r0160,c0060}} + {{S.26.05.01.01, r0160,c0070}}) * (0.75 + 0.25 * {{S.26.05.01.01, r0160,c0080}})
+
+
+Template references
+-------------------
+
+S.26.05.01.01 Non-life premium and reserve Risk
+
+S.26.05.01.05 Simplifications used
+
+
+Datapoints
+----------
+
+S.26.05.01.01,r0160,c0060 [Legal expenses , Volume measure for premium and reserve risk|Vprem]
+
+S.26.05.01.01,r0160,c0070 [Legal expenses , Volume measure for premium and reserve risk|Vres]
+
+S.26.05.01.01,r0160,c0080 [Legal expenses , Volume measure for premium and reserve risk|Geographical Diversification]
+
+S.26.05.01.01,r0160,c0090 [Legal expenses , Volume measure for premium and reserve risk|V]
+
+S.26.05.01.05,r0010,c0010 [Captives simplifications - premium and reserve risk , Simplifications used]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x34]

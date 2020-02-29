@@ -1,0 +1,28 @@
+=======
+BV186-1
+=======
+
+Rule definition
+---------------
+
+BV186-1: [ (c0020)] {{S.02.01.01.01, r1000}} = {{S.02.01.01.01, r0500}} - {{S.02.01.01.01, r0900}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0500 [unknown label]
+S.02.01.01.01,r0900 [unknown label]
+S.02.01.01.01,r1000 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020)]

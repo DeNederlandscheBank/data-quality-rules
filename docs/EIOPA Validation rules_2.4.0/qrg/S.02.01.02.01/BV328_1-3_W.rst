@@ -1,0 +1,28 @@
+===========
+BV328_1-3_W
+===========
+
+Rule definition
+---------------
+
+BV328_1-3_W: [ (c0010)] {{S.02.01.02.01, r0850}} = {{S.02.01.02.01, r0860}} + {{S.02.01.02.01, r0870}}
+
+
+Template references
+-------------------
+
+S.02.01.02.01 Balance sheet
+
+
+Datapoints
+----------
+
+S.02.01.02.01,r0850 [unknown label]
+S.02.01.02.01,r0860 [unknown label]
+S.02.01.02.01,r0870 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010)]

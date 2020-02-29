@@ -1,0 +1,33 @@
+=========
+BV340-1_W
+=========
+
+Rule definition
+---------------
+
+BV340-1_W: if ({{S.01.02.01.01, r0200,c0010}} = [s2c_AP:x11]) then {{S.01.01.01.01, r0370,c0010}} = [s2c_CN:x1] and {{S.01.01.01.01, r0390,c0010}} = [s2c_CN:x1]
+
+
+Template references
+-------------------
+
+S.01.01.01.01 Content of the submission
+
+S.01.02.01.01 Basic Information - General
+
+
+Datapoints
+----------
+
+S.01.01.01.01,r0370,c0010 [nan]
+
+S.01.01.01.01,r0390,c0010 [nan]
+
+S.01.02.01.01,r0200,c0010 [nan]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x11]) then {{S.01.01.01.01, r0370,c0010}} = [s2c_CN:x1] and {{S.01.01.01.01, r0390,c0010}} = [s2c_CN:x1]

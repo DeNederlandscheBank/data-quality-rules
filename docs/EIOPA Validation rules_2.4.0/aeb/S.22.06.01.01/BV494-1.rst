@@ -1,0 +1,29 @@
+=======
+BV494-1
+=======
+
+Rule definition
+---------------
+
+BV494-1: {{S.22.06.01.01,r0020,c0030}} = {{S.12.01.01.01,r0330,c0150}} + {{S.12.01.01.01,r0330,c0210}} where ExDimVal({{S.22.06.01.01,r0020,c0030}},BL)=x65
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+S.22.06.01.01 Best estimate subject to country and currency volatility adjustment - Total and home country by currency (including home country in reporting currency)
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0330,c0150 [Best estimate subject to volatility adjustment , Total (Life other than health insurance, incl. Unit-Linked)]
+
+S.12.01.01.01,r0330,c0210 [Best estimate subject to volatility adjustment , Total (Health similar to life insurance)]
+
+S.22.06.01.01,r0020,c0030 [Total value of Best Estimate subject to volatility adjustment in all countries , Total value of Best Estimate subject to volatility adjustment (for all currencies)]
+
+
+

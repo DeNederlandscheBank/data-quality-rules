@@ -1,0 +1,27 @@
+=======
+BV395-3
+=======
+
+Rule definition
+---------------
+
+BV395-3: {{S.02.01.01.01, r0390,c0010}} le {{S.23.01.04.02, r0710,c0060}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.23.01.04.02 Reconciliation reserve
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0390,c0010 [Assets|Own shares (held directly) , Solvency II value]
+
+S.23.01.04.02,r0710,c0060 [nan]
+
+
+

@@ -1,0 +1,27 @@
+=======
+BV969-2
+=======
+
+Rule definition
+---------------
+
+BV969-2: if (not(empty({{S.05.01.01.01, r0200,c0140}}))) then not(empty({{S.17.01.01.01, r0320,c0150}}))
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.05.01.01.01,r0200,c0140 [Premiums written|Net , Line of Business for: accepted non-proportional reinsurance|Casualty]
+
+S.17.01.01.01,r0320,c0150 [Technical provisions - total|Technical provisions - total , accepted non-proportional reinsurance|Non-proportional casualty reinsurance]
+
+
+

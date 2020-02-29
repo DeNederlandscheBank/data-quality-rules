@@ -1,0 +1,24 @@
+=======
+BV992-1
+=======
+
+Rule definition
+---------------
+
+BV992-1: {{SE.06.02.18.02,c0210}} != {{S.01.02.07.01,r0050,c0010}} where matches({{SE.06.02.18.02,c0290}},"^..8.$")
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0050,c0010 [unknown label]
+SE.06.02.18.02,c0210 [unknown label]
+SE.06.02.18.02,c0290 [unknown label]
+
+

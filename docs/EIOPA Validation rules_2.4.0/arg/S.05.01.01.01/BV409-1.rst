@@ -1,0 +1,28 @@
+=======
+BV409-1
+=======
+
+Rule definition
+---------------
+
+BV409-1: [ (c0130-0160)] {{S.05.01.01.01, r0400}} = {{S.05.01.01.01, r0330}} - {{S.05.01.01.01, r0340}}
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+
+Datapoints
+----------
+
+S.05.01.01.01,r0330 [unknown label]
+S.05.01.01.01,r0340 [unknown label]
+S.05.01.01.01,r0400 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0130-0160)]

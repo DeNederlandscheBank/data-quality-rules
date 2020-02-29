@@ -1,0 +1,27 @@
+========
+BV49-1_W
+========
+
+Rule definition
+---------------
+
+BV49-1_W: [ (c0140-0170)] {{S.17.01.01.01, r0160}} = {{S.17.01.01.01, r0190}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.01.01,r0160 [unknown label]
+S.17.01.01.01,r0190 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0140-0170)]

@@ -1,0 +1,27 @@
+========
+BV61-3_W
+========
+
+Rule definition
+---------------
+
+BV61-3_W: {{S.02.02.01.01, r0110,c0020}} = {{SE.02.01.18.01, r0520,c0010}} + {{SE.02.01.18.01, r0560,c0010}} + {{SE.02.01.18.01, r0610,c0010}} + {{SE.02.01.18.01, r0650,c0010}}
+
+
+Template references
+-------------------
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.02.01.01,r0110,c0020 [Liabilities|Technical provisions (excluding index-linked and unit-linked contracts) , Total value of all currencies]
+
+SE.02.01.18.01,r0520,c0010 [unknown label]
+SE.02.01.18.01,r0560,c0010 [unknown label]
+SE.02.01.18.01,r0610,c0010 [unknown label]
+SE.02.01.18.01,r0650,c0010 [unknown label]
+
+

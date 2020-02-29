@@ -1,0 +1,23 @@
+=========
+BV402-4_W
+=========
+
+Rule definition
+---------------
+
+BV402-4_W: {{SE.02.01.18.01, r0270,c0010}} le sum({{S.31.01.01.01, c0100, snnn}})
+
+
+Template references
+-------------------
+
+S.31.01.01.01 Share of reinsurers
+
+
+Datapoints
+----------
+
+S.31.01.01.01,c0100,snnn [unknown label]
+SE.02.01.18.01,r0270,c0010 [unknown label]
+
+

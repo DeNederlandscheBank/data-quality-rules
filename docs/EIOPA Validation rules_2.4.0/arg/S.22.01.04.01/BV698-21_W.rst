@@ -1,0 +1,31 @@
+==========
+BV698-21_W
+==========
+
+Rule definition
+---------------
+
+BV698-21_W: if ({{S.01.02.04.01, r0180,c0010}} = [s2c_AP:x8]) then {{S.22.01.04.01, r0070,c0070}} = 0
+
+
+Template references
+-------------------
+
+S.01.02.04.01 Basic Information - General
+
+S.22.01.04.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.04.01,r0180,c0010 [nan]
+
+S.22.01.04.01,r0070,c0070 [Eligible own funds to meet Solvency Capital Requirement|Tier 2 , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of volatility adjustment set to zero]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x8]

@@ -1,0 +1,38 @@
+=========
+BV387_1-2
+=========
+
+Rule definition
+---------------
+
+BV387_1-2: {{S.02.01.07.01, r0670,c0010}} ge {{S.12.01.01.01, r0030,c0150}} - {{S.12.01.01.01, r0030,c0040}} - {{S.12.01.01.01, r0030,c0050}} - {{S.12.01.01.01, r0030,c0120}} + {{S.12.01.01.01, r0120,c0150}} - {{S.12.01.01.01, r0120,c0040}} - {{S.12.01.01.01, r0120,c0050}}
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0670,c0010 [unknown label]
+S.12.01.01.01,r0030,c0040 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Index-linked and unit-linked insurance|Contracts without options and guarantees]
+
+S.12.01.01.01,r0030,c0050 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Index-linked and unit-linked insurance|Contracts with options or guarantees]
+
+S.12.01.01.01,r0030,c0120 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Accepted reinsurance|Index-linked and unit-linked insurance]
+
+S.12.01.01.01,r0030,c0150 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Total (Life other than health insurance, incl. Unit-Linked)]
+
+S.12.01.01.01,r0120,c0040 [Amount of the transitional on Technical Provisions|Best estimate , Index-linked and unit-linked insurance|Contracts without options and guarantees]
+
+S.12.01.01.01,r0120,c0050 [Amount of the transitional on Technical Provisions|Best estimate , Index-linked and unit-linked insurance|Contracts with options or guarantees]
+
+S.12.01.01.01,r0120,c0150 [Amount of the transitional on Technical Provisions|Best estimate , Total (Life other than health insurance, incl. Unit-Linked)]
+
+
+

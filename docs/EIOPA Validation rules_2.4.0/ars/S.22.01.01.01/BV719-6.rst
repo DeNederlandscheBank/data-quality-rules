@@ -1,0 +1,31 @@
+=======
+BV719-6
+=======
+
+Rule definition
+---------------
+
+BV719-6: {{S.22.01.01.01, r0010,c0010}} = {{S.02.01.01.01, r0510,c0010}} + {{S.02.01.01.01, r0600,c0010}} + {{S.02.01.01.01, r0690,c0010}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0510,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life , Solvency II value]
+
+S.02.01.01.01,r0600,c0010 [Liabilities|Technical provisions - life (excluding index-linked and unit-linked) , Solvency II value]
+
+S.02.01.01.01,r0690,c0010 [Liabilities|Technical provisions Ã¢ÂÂ index-linked and unit-linked , Solvency II value]
+
+S.22.01.01.01,r0010,c0010 [Technical provisions , Amount with Long Term Guarantee measures and transitionals]
+
+
+

@@ -1,0 +1,31 @@
+=========
+BV893_1-2
+=========
+
+Rule definition
+---------------
+
+BV893_1-2: [(r0310;0320;0330;0400)] if (not(empty({{S.23.03.01.02,c0060}})) and (not(empty({{S.23.03.01.02,c0070}})) or not(empty({{S.23.03.01.02,c0080}})) or not(empty({{S.23.03.01.02,c0090}})) or not(empty({{S.23.03.01.02,c0100}})))) then not(empty({{S.23.03.01.02,c0010}}))
+
+
+Template references
+-------------------
+
+S.23.03.01.02 Subordinated mutual members accounts - movements in the reporting period
+
+
+Datapoints
+----------
+
+S.23.03.01.02,c0010 [unknown label]
+S.23.03.01.02,c0060 [unknown label]
+S.23.03.01.02,c0070 [unknown label]
+S.23.03.01.02,c0080 [unknown label]
+S.23.03.01.02,c0090 [unknown label]
+S.23.03.01.02,c0100 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[(r0310;0320;0330;0400)]

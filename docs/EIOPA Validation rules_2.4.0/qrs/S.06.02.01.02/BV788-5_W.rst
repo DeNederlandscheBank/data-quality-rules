@@ -1,0 +1,25 @@
+=========
+BV788-5_W
+=========
+
+Rule definition
+---------------
+
+BV788-5_W: not(empty({{S.06.02.01.02,c0190}})) where not(matches({{S.06.02.01.02,c0290}},"^..((71)|(75)|(95)|(09))$"))
+
+
+Template references
+-------------------
+
+S.06.02.01.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.01.02,c0190 [URI , Item Title]
+
+S.06.02.01.02,c0290 [URI , CIC]
+
+
+

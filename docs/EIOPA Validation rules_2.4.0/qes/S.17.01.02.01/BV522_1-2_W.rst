@@ -1,0 +1,32 @@
+===========
+BV522_1-2_W
+===========
+
+Rule definition
+---------------
+
+BV522_1-2_W: [ (c0020-0180)] {{S.17.01.02.01, r0320}} = {{S.17.01.02.01, r0010}} + {{S.17.01.02.01, r0260}} + {{S.17.01.02.01, r0280}} + {{S.17.01.02.01, r0290}} + {{S.17.01.02.01, r0300}} + {{S.17.01.02.01, r0310}}
+
+
+Template references
+-------------------
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.02.01,r0010 [unknown label]
+S.17.01.02.01,r0260 [unknown label]
+S.17.01.02.01,r0280 [unknown label]
+S.17.01.02.01,r0290 [unknown label]
+S.17.01.02.01,r0300 [unknown label]
+S.17.01.02.01,r0310 [unknown label]
+S.17.01.02.01,r0320 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020-0180)]

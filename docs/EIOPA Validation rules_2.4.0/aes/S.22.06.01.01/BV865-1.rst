@@ -1,0 +1,27 @@
+=======
+BV865-1
+=======
+
+Rule definition
+---------------
+
+BV865-1: [ (r0020-0030)] {{S.22.06.01.01, c0040}} le {{S.22.06.01.01, c0030}}
+
+
+Template references
+-------------------
+
+S.22.06.01.01 Best estimate subject to country and currency volatility adjustment - Total and home country by currency (including home country in reporting currency)
+
+
+Datapoints
+----------
+
+S.22.06.01.01,c0030 [unknown label]
+S.22.06.01.01,c0040 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0020-0030)]

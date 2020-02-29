@@ -1,0 +1,31 @@
+========
+BV1049-2
+========
+
+Rule definition
+---------------
+
+BV1049-2: if ({{S.01.02.01.01, r0170,c0010}} = [s2c_PU:x51]) then {{S.22.01.01.01, r0110,c0090}} gt 0
+
+
+Template references
+-------------------
+
+S.01.02.01.01 Basic Information - General
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.01.01,r0170,c0010 [nan]
+
+S.22.01.01.01,r0110,c0090 [Minimum Capital Requirement , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of matching adjustment set to zero]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x51]

@@ -1,0 +1,29 @@
+===========
+BV295_1-2_W
+===========
+
+Rule definition
+---------------
+
+BV295_1-2_W: [ (r2600)] {{S.27.01.04.13, c0880}} = {{S.27.01.04.13, c0850}} - {{S.27.01.04.13, c0860}} + {{S.27.01.04.13, c0870}}
+
+
+Template references
+-------------------
+
+S.27.01.04.13 Man made catastrophe risk - Fire
+
+
+Datapoints
+----------
+
+S.27.01.04.13,c0850 [unknown label]
+S.27.01.04.13,c0860 [unknown label]
+S.27.01.04.13,c0870 [unknown label]
+S.27.01.04.13,c0880 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r2600)]

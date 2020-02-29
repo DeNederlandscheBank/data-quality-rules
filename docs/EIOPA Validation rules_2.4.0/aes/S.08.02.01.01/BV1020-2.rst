@@ -1,0 +1,23 @@
+========
+BV1020-2
+========
+
+Rule definition
+---------------
+
+BV1020-2: {{S.08.02.01.01, c0180}} gt 0
+
+
+Template references
+-------------------
+
+S.08.02.01.01 Information on positions held
+
+
+Datapoints
+----------
+
+S.08.02.01.01,c0180 [Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Contract size]
+
+
+

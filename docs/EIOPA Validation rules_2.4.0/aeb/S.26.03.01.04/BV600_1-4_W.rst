@@ -1,0 +1,41 @@
+===========
+BV600_1-4_W
+===========
+
+Rule definition
+---------------
+
+BV600_1-4_W: if ({{S.26.03.01.03, r0060,c0010}} = [s2c_AP:x34]) then {{S.26.03.01.04, r0700,c0080}} = max(0, ({{S.26.03.01.01, r0700,c0020}} - {{S.26.03.01.01, r0700,c0040}}) - ({{S.26.03.01.01, r0700,c0030}} - {{S.26.03.01.01, r0700,c0070}}))
+
+
+Template references
+-------------------
+
+S.26.03.01.01 Life underwriting risk
+
+S.26.03.01.03 Simplifications used
+
+S.26.03.01.04 Life underwriting risk
+
+
+Datapoints
+----------
+
+S.26.03.01.01,r0700,c0020 [Life catastrophe risk , Initial absolute values before shock|Assets]
+
+S.26.03.01.01,r0700,c0030 [Life catastrophe risk , Initial absolute values before shock|Liabilities]
+
+S.26.03.01.01,r0700,c0040 [Life catastrophe risk , Absolute values after shock|Assets]
+
+S.26.03.01.01,r0700,c0070 [Life catastrophe risk , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.03.01.03,r0060,c0010 [Simplifications - life catastrophe risk , Simplifications used]
+
+S.26.03.01.04,r0700,c0080 [Life catastrophe risk , Absolute values after shock|Gross solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x34]

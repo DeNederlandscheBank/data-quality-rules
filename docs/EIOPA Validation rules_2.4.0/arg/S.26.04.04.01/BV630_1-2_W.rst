@@ -1,0 +1,28 @@
+===========
+BV630_1-2_W
+===========
+
+Rule definition
+---------------
+
+BV630_1-2_W: [ (c0060;0080)] {{S.26.04.04.01, r0300}} = {{S.26.04.04.01, r0310}} + {{S.26.04.04.01, r0340}}
+
+
+Template references
+-------------------
+
+S.26.04.04.01 SLT health underwriting risk
+
+
+Datapoints
+----------
+
+S.26.04.04.01,r0300 [unknown label]
+S.26.04.04.01,r0310 [unknown label]
+S.26.04.04.01,r0340 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0060;0080)]

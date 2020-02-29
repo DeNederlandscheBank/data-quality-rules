@@ -1,0 +1,28 @@
+=========
+BV265_1-2
+=========
+
+Rule definition
+---------------
+
+BV265_1-2: [ (c0010;0030)] {{S.27.01.04.01,r0200}}={{S.27.01.04.01,r0210}}-{{S.27.01.04.01,r0190}} where ExDimVal({{S.27.01.04.01,r0200}},AO)=x0 and ExDimVal({{S.27.01.04.01,r0210}},AO)=x0 and ExDimVal({{S.27.01.04.01,r0190}},AO)=x0
+
+
+Template references
+-------------------
+
+S.27.01.04.01 Non-life and Health catastrophe risk - Summary
+
+
+Datapoints
+----------
+
+S.27.01.04.01,r0190 [unknown label]
+S.27.01.04.01,r0200 [unknown label]
+S.27.01.04.01,r0210 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010;0030)]

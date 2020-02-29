@@ -1,0 +1,29 @@
+=========
+BV201-1_W
+=========
+
+Rule definition
+---------------
+
+BV201-1_W: [ (r0020)] {{S.04.01.01.01, c0020}} + {{S.04.01.01.01, c0050}} = {{S.04.01.01.01, c0060}} + {{S.04.01.01.01, c0030}}
+
+
+Template references
+-------------------
+
+S.04.01.01.01 Undertaking and all branches
+
+
+Datapoints
+----------
+
+S.04.01.01.01,c0020 [unknown label]
+S.04.01.01.01,c0030 [unknown label]
+S.04.01.01.01,c0050 [unknown label]
+S.04.01.01.01,c0060 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0020)]

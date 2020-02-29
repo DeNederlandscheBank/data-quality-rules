@@ -1,0 +1,26 @@
+=========
+BV878-1_W
+=========
+
+Rule definition
+---------------
+
+BV878-1_W: sum({{S.23.04.01.05, c0580, snnn}}) = {{S.23.01.01.01, r0220,c0010}}
+
+
+Template references
+-------------------
+
+S.23.01.01.01 Own funds
+
+S.23.04.01.05 Own funds from the financial statements that shall not be represented by the reconciliation reserve and do not meet the criteria to be classified as Solvency II own funds
+
+
+Datapoints
+----------
+
+S.23.01.01.01,r0220,c0010 [Own funds from the financial statements that should not be represented by the reconciliation reserve and do not meet the criteria to be classified as Solvency II own funds|Own funds from the financial statements that should not be represented by the reconciliation reserve and do not meet the criteria to be classified as Solvency II own funds , Total]
+
+S.23.04.01.05,c0580,snnn [unknown label]
+
+

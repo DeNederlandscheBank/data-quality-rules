@@ -1,0 +1,28 @@
+===========
+BV287_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV287_1-1_W: [ (r1950)] {{S.27.01.01.06, c0420}} * {{S.27.01.01.06, c0400}} = {{S.27.01.01.06, c0410}}
+
+
+Template references
+-------------------
+
+S.27.01.01.06 Natural Catastrophe risk -Subsidence
+
+
+Datapoints
+----------
+
+S.27.01.01.06,c0400 [unknown label]
+S.27.01.01.06,c0410 [unknown label]
+S.27.01.01.06,c0420 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r1950)]

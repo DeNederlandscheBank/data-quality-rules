@@ -1,0 +1,28 @@
+===========
+BV492_1-2_W
+===========
+
+Rule definition
+---------------
+
+BV492_1-2_W: [ (c0020-0180)] {{S.17.01.02.01, r0270}} = {{S.17.01.02.01, r0150}} + {{S.17.01.02.01, r0250}}
+
+
+Template references
+-------------------
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.02.01,r0150 [unknown label]
+S.17.01.02.01,r0250 [unknown label]
+S.17.01.02.01,r0270 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020-0180)]

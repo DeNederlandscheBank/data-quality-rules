@@ -1,0 +1,25 @@
+=======
+BV830-1
+=======
+
+Rule definition
+---------------
+
+BV830-1: (not(empty({{S.12.01.02.01,r0030,c0200}})) and not(empty({{S.12.01.02.01,r0100,c0200}}))) or (empty({{S.12.01.02.01,r0030,c0200}}) and empty({{S.12.01.02.01,r0100,c0200}}))
+
+
+Template references
+-------------------
+
+S.12.01.02.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.02.01,r0030,c0200 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Health reinsurance (reinsurance accepted)]
+
+S.12.01.02.01,r0100,c0200 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Health reinsurance (reinsurance accepted)]
+
+
+

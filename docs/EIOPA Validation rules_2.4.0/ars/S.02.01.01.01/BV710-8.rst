@@ -1,0 +1,25 @@
+=======
+BV710-8
+=======
+
+Rule definition
+---------------
+
+BV710-8: if ({{S.02.01.01.01, r0630,c0010}} != 0) then {{S.02.01.01.01, r0640,c0010}} gt 0
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0630,c0010 [Liabilities|Technical provisions - life (excluding index-linked and unit-linked)|Technical provisions - health (similar to life)|Best Estimate , Solvency II value]
+
+S.02.01.01.01,r0640,c0010 [Liabilities|Technical provisions - life (excluding index-linked and unit-linked)|Technical provisions - health (similar to life)|Risk margin , Solvency II value]
+
+
+

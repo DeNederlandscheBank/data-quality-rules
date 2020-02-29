@@ -1,0 +1,28 @@
+=======
+BV143-1
+=======
+
+Rule definition
+---------------
+
+BV143-1: [ (r0010-0120)] {{S.29.01.01.01, c0030}} = {{S.29.01.01.01, c0010}} - {{S.29.01.01.01, c0020}}
+
+
+Template references
+-------------------
+
+S.29.01.01.01 Reconciliation with Own funds - Items reported in "Own funds"
+
+
+Datapoints
+----------
+
+S.29.01.01.01,c0010 [unknown label]
+S.29.01.01.01,c0020 [unknown label]
+S.29.01.01.01,c0030 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0010-0120)]

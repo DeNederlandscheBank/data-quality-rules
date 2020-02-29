@@ -1,0 +1,28 @@
+===========
+BV261_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV261_1-1_W: [ (c0020)] {{S.26.06.01.01, r0300}} = max({{S.26.06.01.01, r0130}}, {{S.26.06.01.01, r0260}})
+
+
+Template references
+-------------------
+
+S.26.06.01.01 Operational risk - basic information
+
+
+Datapoints
+----------
+
+S.26.06.01.01,r0130 [unknown label]
+S.26.06.01.01,r0260 [unknown label]
+S.26.06.01.01,r0300 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020)]

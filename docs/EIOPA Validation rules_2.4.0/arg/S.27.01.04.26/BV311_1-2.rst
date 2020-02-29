@@ -1,0 +1,62 @@
+=========
+BV311_1-2
+=========
+
+Rule definition
+---------------
+
+BV311_1-2: [ (c1370;1380;1390;1400)] {{S.27.01.04.26, r4020}} = {{S.27.01.04.21, r3700}} + {{S.27.01.04.21, r3710}} + {{S.27.01.04.21, r3720}} + {{S.27.01.04.21, r3730}} + {{S.27.01.04.21, r3740}} + {{S.27.01.04.21, r3750}} + {{S.27.01.04.21, r3760}} + {{S.27.01.04.21, r3770}} + {{S.27.01.04.21, r3780}} + {{S.27.01.04.21, r3790}} + {{S.27.01.04.21, r3800}} + {{S.27.01.04.21, r3810}} + {{S.27.01.04.21, r3820}} + {{S.27.01.04.21, r3830}} + {{S.27.01.04.21, r3840}} + {{S.27.01.04.21, r3850}} + {{S.27.01.04.21, r3860}} + {{S.27.01.04.21, r3870}} + {{S.27.01.04.21, r3880}} + {{S.27.01.04.21, r3890}} + {{S.27.01.04.21, r3900}} + {{S.27.01.04.21, r3910}} + {{S.27.01.04.21, r3920}} + {{S.27.01.04.21, r3930}} + {{S.27.01.04.21, r3940}} + {{S.27.01.04.21, r3950}} + {{S.27.01.04.21, r3960}} + {{S.27.01.04.21, r3970}} + {{S.27.01.04.21, r3980}} + {{S.27.01.04.21, r3990}} + {{S.27.01.04.21, r4000}} + sum({{S.27.01.04.23, r4010, snnn}})
+
+
+Template references
+-------------------
+
+S.27.01.04.21 Health Catastrophe risk - Concentration accident
+
+S.27.01.04.23 Health Catastrophe risk - Concentration accident
+
+S.27.01.04.26 Health Catastrophe risk - Concentration accident
+
+
+Datapoints
+----------
+
+S.27.01.04.21,r3700 [unknown label]
+S.27.01.04.21,r3710 [unknown label]
+S.27.01.04.21,r3720 [unknown label]
+S.27.01.04.21,r3730 [unknown label]
+S.27.01.04.21,r3740 [unknown label]
+S.27.01.04.21,r3750 [unknown label]
+S.27.01.04.21,r3760 [unknown label]
+S.27.01.04.21,r3770 [unknown label]
+S.27.01.04.21,r3780 [unknown label]
+S.27.01.04.21,r3790 [unknown label]
+S.27.01.04.21,r3800 [unknown label]
+S.27.01.04.21,r3810 [unknown label]
+S.27.01.04.21,r3820 [unknown label]
+S.27.01.04.21,r3830 [unknown label]
+S.27.01.04.21,r3840 [unknown label]
+S.27.01.04.21,r3850 [unknown label]
+S.27.01.04.21,r3860 [unknown label]
+S.27.01.04.21,r3870 [unknown label]
+S.27.01.04.21,r3880 [unknown label]
+S.27.01.04.21,r3890 [unknown label]
+S.27.01.04.21,r3900 [unknown label]
+S.27.01.04.21,r3910 [unknown label]
+S.27.01.04.21,r3920 [unknown label]
+S.27.01.04.21,r3930 [unknown label]
+S.27.01.04.21,r3940 [unknown label]
+S.27.01.04.21,r3950 [unknown label]
+S.27.01.04.21,r3960 [unknown label]
+S.27.01.04.21,r3970 [unknown label]
+S.27.01.04.21,r3980 [unknown label]
+S.27.01.04.21,r3990 [unknown label]
+S.27.01.04.21,r4000 [unknown label]
+S.27.01.04.23,r4010,snnn [unknown label]
+S.27.01.04.26,r4020 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c1370;1380;1390;1400)]

@@ -1,0 +1,29 @@
+========
+BV34-1_W
+========
+
+Rule definition
+---------------
+
+BV34-1_W: [ (r0040-0200)] {{S.16.01.01.02, c0080}} = {{S.16.01.01.02, c0020}} - {{S.16.01.01.02, c0040}} - {{S.16.01.01.02, c0050}}
+
+
+Template references
+-------------------
+
+S.16.01.01.02 Annuities information
+
+
+Datapoints
+----------
+
+S.16.01.01.02,c0020 [unknown label]
+S.16.01.01.02,c0040 [unknown label]
+S.16.01.01.02,c0050 [unknown label]
+S.16.01.01.02,c0080 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0040-0200)]

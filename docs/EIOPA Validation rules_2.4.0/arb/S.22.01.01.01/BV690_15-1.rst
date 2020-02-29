@@ -1,0 +1,23 @@
+==========
+BV690_15-1
+==========
+
+Rule definition
+---------------
+
+BV690_15-1: {{S.22.01.01.01, r0050,c0060}} != 0
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.22.01.01.01,r0050,c0060 [Eligible own funds to meet Solvency Capital Requirement , Impact of the LTG measures and transitionals (Step-by-step approach)|Without volatility adjustment and without other transitional measures]
+
+
+

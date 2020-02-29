@@ -1,0 +1,30 @@
+=======
+BV895-3
+=======
+
+Rule definition
+---------------
+
+BV895-3: [(r1110-1200)] if (not(empty({{S.23.03.01.08,c0060}})) and (not(empty({{S.23.03.01.08,c0110}})) or not(empty({{S.23.03.01.08,c0120}})) or not(empty({{S.23.03.01.08,c0130}})))) then not(empty({{S.23.03.01.08,c0010}}))
+
+
+Template references
+-------------------
+
+S.23.03.01.08 Ancillary own funds - movements in the reporting period
+
+
+Datapoints
+----------
+
+S.23.03.01.08,c0010 [unknown label]
+S.23.03.01.08,c0060 [unknown label]
+S.23.03.01.08,c0110 [unknown label]
+S.23.03.01.08,c0120 [unknown label]
+S.23.03.01.08,c0130 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[(r1110-1200)]

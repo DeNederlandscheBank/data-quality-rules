@@ -1,0 +1,32 @@
+=========
+BV137-3_W
+=========
+
+Rule definition
+---------------
+
+BV137-3_W: {{S.02.01.07.01,r0190,c0010}}-{{S.02.01.07.01,r0790,c0010}}=sum({{S.08.01.01.01,c0240,snnn}}) where {{S.08.01.01.01,c0080}}=[s2c_LB:x91]
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+S.08.01.01.01 Information on positions held
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0190,c0010 [unknown label]
+S.02.01.07.01,r0790,c0010 [unknown label]
+S.08.01.01.01,c0080 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Derivatives held in index-linked and unit-linked contracts]
+
+S.08.01.01.01,c0240,snnn [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_LB:x91]

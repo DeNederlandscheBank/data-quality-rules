@@ -1,0 +1,23 @@
+==========
+BV841_10-2
+==========
+
+Rule definition
+---------------
+
+BV841_10-2: {{S.17.01.01.01, r0280,c0110}} ge 0
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.01.01,r0280,c0110 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+
+
+

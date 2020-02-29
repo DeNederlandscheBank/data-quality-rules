@@ -1,0 +1,29 @@
+===========
+BV892_2-1_W
+===========
+
+Rule definition
+---------------
+
+BV892_2-1_W: [ (r0510;0520;0530;0600;0610;0620;0630;0700)] {{S.23.03.04.04, c0060}} = {{S.23.03.04.04, c0010}} + {{S.23.03.04.04, c0020}} - {{S.23.03.04.04, c0030}}
+
+
+Template references
+-------------------
+
+S.23.03.04.04 Preference shares and related share premium - movements in the reporting period
+
+
+Datapoints
+----------
+
+S.23.03.04.04,c0010 [unknown label]
+S.23.03.04.04,c0020 [unknown label]
+S.23.03.04.04,c0030 [unknown label]
+S.23.03.04.04,c0060 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0510;0520;0530;0600;0610;0620;0630;0700)]

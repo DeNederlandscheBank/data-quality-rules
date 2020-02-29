@@ -1,0 +1,26 @@
+========
+BV82-3_W
+========
+
+Rule definition
+---------------
+
+BV82-3_W: {{SE.02.01.18.01, r0770,c0010}} + {{SE.02.01.18.01, r0820,c0010}} + {{SE.02.01.18.01, r0830,c0010}} = {{S.02.02.01.01, r0130,c0020}}
+
+
+Template references
+-------------------
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.02.01.01,r0130,c0020 [Liabilities|Deposits from reinsurers and insurance, intermediaries and reinsurance payables , Total value of all currencies]
+
+SE.02.01.18.01,r0770,c0010 [unknown label]
+SE.02.01.18.01,r0820,c0010 [unknown label]
+SE.02.01.18.01,r0830,c0010 [unknown label]
+
+

@@ -1,0 +1,30 @@
+=======
+BV353-5
+=======
+
+Rule definition
+---------------
+
+BV353-5: if ({{S.01.02.01.01, r0150,c0010}} = [s2c_PU:x4] or {{S.01.02.01.01, r0170,c0010}} = [s2c_PU:x51]) then {{SE.01.01.16.01, r0020,c0010}} = [s2c_CN:x1]
+
+
+Template references
+-------------------
+
+S.01.02.01.01 Basic Information - General
+
+
+Datapoints
+----------
+
+S.01.02.01.01,r0150,c0010 [nan]
+
+S.01.02.01.01,r0170,c0010 [nan]
+
+SE.01.01.16.01,r0020,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x4] or {{S.01.02.01.01, r0170,c0010}} = [s2c_PU:x51]) then {{SE.01.01.16.01, r0020,c0010}} = [s2c_CN:x1]

@@ -1,0 +1,27 @@
+=========
+BV259_1-2
+=========
+
+Rule definition
+---------------
+
+BV259_1-2: [ (c0170)] {{S.26.04.04.03, r1040}} = sum({{S.26.04.04.03, r1000-1030}})
+
+
+Template references
+-------------------
+
+S.26.04.04.03 NSLT Health premium and reserve risk
+
+
+Datapoints
+----------
+
+S.26.04.04.03,r1000-1030 [unknown label]
+S.26.04.04.03,r1040 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0170)]

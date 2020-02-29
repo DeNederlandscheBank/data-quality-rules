@@ -1,0 +1,26 @@
+===========
+BV382_1-8_W
+===========
+
+Rule definition
+---------------
+
+BV382_1-8_W: {{SE.02.01.16.01, r0620,c0010}} = {{S.12.01.01.01, r0010,c0210}} + {{S.12.01.01.01, r0110,c0210}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0010,c0210 [Technical provisions calculated as a whole , Total (Health similar to life insurance)]
+
+S.12.01.01.01,r0110,c0210 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Total (Health similar to life insurance)]
+
+SE.02.01.16.01,r0620,c0010 [unknown label]
+
+

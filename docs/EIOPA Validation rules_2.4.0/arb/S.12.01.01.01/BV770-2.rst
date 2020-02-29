@@ -1,0 +1,27 @@
+=======
+BV770-2
+=======
+
+Rule definition
+---------------
+
+BV770-2: if (not(empty({{S.05.01.01.02, r1500,c0210}}))) then not(empty({{S.12.01.01.01, r0200,c0160}}))
+
+
+Template references
+-------------------
+
+S.05.01.01.02 Life
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.05.01.01.02,r1500,c0210 [Premiums written|Net , Line of Business for: life insurance obligations|Health insurance]
+
+S.12.01.01.01,r0200,c0160 [Technical provisions - total , Health insurance (direct business)|]
+
+
+

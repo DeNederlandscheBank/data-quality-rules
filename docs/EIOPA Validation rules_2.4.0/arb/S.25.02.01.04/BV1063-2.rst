@@ -1,0 +1,26 @@
+========
+BV1063-2
+========
+
+Rule definition
+---------------
+
+BV1063-2: {{S.25.02.01.04, r0630,c0110}} = {{S.02.01.07.01, r0780,c0010}}
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+S.25.02.01.04 Calculation of loss absorbing capacity of deferred taxes
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0780,c0010 [unknown label]
+S.25.02.01.04,r0630,c0110 [r0630c0110]
+
+
+

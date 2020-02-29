@@ -1,0 +1,38 @@
+===========
+BV380_1-2_W
+===========
+
+Rule definition
+---------------
+
+BV380_1-2_W: {{S.02.01.07.01, r0330,c0010}} = {{S.12.01.01.01, r0020,c0150}} + {{S.12.01.01.01, r0080,c0150}} - {{S.12.01.01.01, r0020,c0030}} - {{S.12.01.01.01, r0080,c0040}} - {{S.12.01.01.01, r0080,c0050}} - {{S.12.01.01.01, r0020,c0120}} - {{S.12.01.01.01, r0080,c0120}}
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0330,c0010 [unknown label]
+S.12.01.01.01,r0020,c0030 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Index-linked and unit-linked insurance|]
+
+S.12.01.01.01,r0020,c0120 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Accepted reinsurance|Index-linked and unit-linked insurance]
+
+S.12.01.01.01,r0020,c0150 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Total (Life other than health insurance, incl. Unit-Linked)]
+
+S.12.01.01.01,r0080,c0040 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Index-linked and unit-linked insurance|Contracts without options and guarantees]
+
+S.12.01.01.01,r0080,c0050 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Index-linked and unit-linked insurance|Contracts with options or guarantees]
+
+S.12.01.01.01,r0080,c0120 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Accepted reinsurance|Index-linked and unit-linked insurance]
+
+S.12.01.01.01,r0080,c0150 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Total (Life other than health insurance, incl. Unit-Linked)]
+
+
+

@@ -1,0 +1,24 @@
+===========
+S.27.01_204
+===========
+
+Rule definition
+---------------
+
+IF {S.27.01.01.05,c0310} >0.00 THEN {S.27.01.01.05,c0330}=({S.27.01.01.05,c0320}/{S.27.01.01.05,c0310})
+
+
+Template references
+-------------------
+
+S.27.01.01.05 Natural Catastrophe risk - Hail
+
+
+Datapoints
+----------
+
+S.27.01.01.05,c0310 [unknown label]
+S.27.01.01.05,c0320 [unknown label]
+S.27.01.01.05,c0330 [unknown label]
+
+

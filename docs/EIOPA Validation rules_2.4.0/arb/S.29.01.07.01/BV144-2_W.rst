@@ -1,0 +1,33 @@
+=========
+BV144-2_W
+=========
+
+Rule definition
+---------------
+
+BV144-2_W: [ (c0030)] {{S.29.01.07.01, r0250}} = {{S.29.01.07.01, r0130}} - {{S.29.01.07.01, r0190}} - {{S.29.01.07.01, r0200}} - {{S.29.01.07.01, r0210}} - {{S.29.01.07.01, r0220}} - {{S.29.01.07.01, r0230}} - {{S.29.01.07.01, r0240}}
+
+
+Template references
+-------------------
+
+S.29.01.07.01 Reconciliation with Own funds - Items reported in "Own funds"
+
+
+Datapoints
+----------
+
+S.29.01.07.01,r0130 [unknown label]
+S.29.01.07.01,r0190 [unknown label]
+S.29.01.07.01,r0200 [unknown label]
+S.29.01.07.01,r0210 [unknown label]
+S.29.01.07.01,r0220 [unknown label]
+S.29.01.07.01,r0230 [unknown label]
+S.29.01.07.01,r0240 [unknown label]
+S.29.01.07.01,r0250 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0030)]

@@ -1,0 +1,28 @@
+=========
+BV136-1_W
+=========
+
+Rule definition
+---------------
+
+BV136-1_W: [ (c0100)] {{S.25.01.01.02, r0220}} = {{S.25.01.01.02, r0200}} + {{S.25.01.01.02, r0210}}
+
+
+Template references
+-------------------
+
+S.25.01.01.02 Calculation of Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.25.01.01.02,r0200 [unknown label]
+S.25.01.01.02,r0210 [unknown label]
+S.25.01.01.02,r0220 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0100)]

@@ -1,0 +1,28 @@
+=======
+BV847-1
+=======
+
+Rule definition
+---------------
+
+BV847-1: [ (r0100;0110)] {{S.22.01.01.01, c0090}} = {{S.22.01.01.01, c0080}} - {{S.22.01.01.01, c0060}}
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.22.01.01.01,c0060 [unknown label]
+S.22.01.01.01,c0080 [unknown label]
+S.22.01.01.01,c0090 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0100;0110)]

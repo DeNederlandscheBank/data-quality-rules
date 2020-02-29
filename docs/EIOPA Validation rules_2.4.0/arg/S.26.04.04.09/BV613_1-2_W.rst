@@ -1,0 +1,39 @@
+===========
+BV613_1-2_W
+===========
+
+Rule definition
+---------------
+
+BV613_1-2_W: if ({{S.26.04.04.09, r0030,c0010}} = [s2c_AP:x34]) then {{S.26.04.04.01, r0330,c0060}} = max(0, ({{S.26.04.04.01, r0330,c0020}} - {{S.26.04.04.01, r0330,c0030}}) - ({{S.26.04.04.01, r0330,c0040}} - {{S.26.04.04.01, r0330,c0050}}))
+
+
+Template references
+-------------------
+
+S.26.04.04.01 SLT health underwriting risk
+
+S.26.04.04.09 Simplifications used
+
+
+Datapoints
+----------
+
+S.26.04.04.01,r0330,c0020 [Health disability-morbidity risk|Medical expense|decrease of medical payments , Initial absolute values before shock|Assets]
+
+S.26.04.04.01,r0330,c0030 [Health disability-morbidity risk|Medical expense|decrease of medical payments , Initial absolute values before shock|Liabilities]
+
+S.26.04.04.01,r0330,c0040 [Health disability-morbidity risk|Medical expense|decrease of medical payments , Absolute values after shock|Assets]
+
+S.26.04.04.01,r0330,c0050 [Health disability-morbidity risk|Medical expense|decrease of medical payments , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+
+S.26.04.04.01,r0330,c0060 [Health disability-morbidity risk|Medical expense|decrease of medical payments , Absolute values after shock|Net solvency capital requirement]
+
+S.26.04.04.09,r0030,c0010 [Simplifications - health disability-morbidity risk-medical expenses , Simplifications used]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x34]

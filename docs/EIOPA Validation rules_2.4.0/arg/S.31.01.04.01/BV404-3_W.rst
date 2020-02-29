@@ -1,0 +1,26 @@
+=========
+BV404-3_W
+=========
+
+Rule definition
+---------------
+
+BV404-3_W: {{S.03.01.04.01, r0120,c0020}} ge sum({{S.31.01.04.01, c0120, snnn}})
+
+
+Template references
+-------------------
+
+S.03.01.04.01 Value of guarantee / collateral / contingent liabilities
+
+S.31.01.04.01 Share of reinsurers
+
+
+Datapoints
+----------
+
+S.03.01.04.01,r0120,c0020 [Collateral held|Assets pledged by reinsurers for ceded technical provisions , Value of guarantee / collateral / contingent liabilities]
+
+S.31.01.04.01,c0120,snnn [unknown label]
+
+

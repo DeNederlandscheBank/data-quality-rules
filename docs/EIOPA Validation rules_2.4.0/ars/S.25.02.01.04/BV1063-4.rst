@@ -1,0 +1,27 @@
+========
+BV1063-4
+========
+
+Rule definition
+---------------
+
+BV1063-4: {{S.25.02.01.04, r0630,c0110}} = {{S.02.01.01.01, r0780,c0010}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.25.02.01.04 Calculation of loss absorbing capacity of deferred taxes
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0780,c0010 [Liabilities|Deferred tax liabilities , Solvency II value]
+
+S.25.02.01.04,r0630,c0110 [r0630c0110]
+
+
+

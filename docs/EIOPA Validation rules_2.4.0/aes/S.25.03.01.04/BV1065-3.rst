@@ -1,0 +1,24 @@
+========
+BV1065-3
+========
+
+Rule definition
+---------------
+
+BV1065-3: {{S.25.03.01.04, r0600,c0110}} = {{SE.02.01.16.01, r0040,c0010}}
+
+
+Template references
+-------------------
+
+S.25.03.01.04 Calculation of loss absorbing capacity of deferred taxes
+
+
+Datapoints
+----------
+
+S.25.03.01.04,r0600,c0110 [r0600c0110]
+
+SE.02.01.16.01,r0040,c0010 [unknown label]
+
+

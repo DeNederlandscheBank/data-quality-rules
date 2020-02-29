@@ -1,0 +1,31 @@
+======
+BV82-1
+======
+
+Rule definition
+---------------
+
+BV82-1: {{S.02.01.01.01, r0770,c0010}} + {{S.02.01.01.01, r0820,c0010}} + {{S.02.01.01.01, r0830,c0010}} = {{S.02.02.01.01, r0130,c0020}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0770,c0010 [Liabilities|Deposits from reinsurers , Solvency II value]
+
+S.02.01.01.01,r0820,c0010 [Liabilities|Insurance & intermediaries payables , Solvency II value]
+
+S.02.01.01.01,r0830,c0010 [Liabilities|Reinsurance payables , Solvency II value]
+
+S.02.02.01.01,r0130,c0020 [Liabilities|Deposits from reinsurers and insurance, intermediaries and reinsurance payables , Total value of all currencies]
+
+
+

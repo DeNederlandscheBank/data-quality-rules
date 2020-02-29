@@ -1,0 +1,35 @@
+=======
+BV757-1
+=======
+
+Rule definition
+---------------
+
+BV757-1: {{S.04.01.01.01,r0020,c0010}}+{{S.04.01.01.01,r0020,c0020}}+{{S.04.01.01.01,r0020,c0040}}+{{S.04.01.01.01,r0020,c0050}}+{{S.04.01.01.01,r0020,c0070}}={{S.05.01.01.01,r0120,c0100}} where ExDimVal({{S.04.01.01.01,r0020,c0010}},BL)=x157 and ExDimVal({{S.04.01.01.01,r0020,c0020}},BL)=x157 and ExDimVal({{S.04.01.01.01,r0020,c0040}},BL)=x157 and ExDimVal({{S.04.01.01.01,r0020,c0050}},BL)=x157 and ExDimVal({{S.04.01.01.01,r0020,c0070}},BL)=x157
+
+
+Template references
+-------------------
+
+S.04.01.01.01 Undertaking and all branches
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+
+Datapoints
+----------
+
+S.04.01.01.01,r0020,c0010 [Premiums written , Undertaking|Business underwritten in the home country, by the undertaking]
+
+S.04.01.01.01,r0020,c0020 [Premiums written , Undertaking|Business underwritten through FPS, by the undertaking in the EEA countries different from the home country]
+
+S.04.01.01.01,r0020,c0040 [Premiums written , All EEA members|Total business underwritten by all EEA branches in the country where they are established]
+
+S.04.01.01.01,r0020,c0050 [Premiums written , All EEA members|Total business underwritten through FPS, by all EEA branches]
+
+S.04.01.01.01,r0020,c0070 [Premiums written , Total business underwritten by all non-EEA branches]
+
+S.05.01.01.01,r0120,c0100 [Premiums written|Gross - Proportional reinsurance accepted , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Legal expenses insurance]
+
+
+

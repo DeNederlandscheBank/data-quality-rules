@@ -1,0 +1,29 @@
+======
+BV29-1
+======
+
+Rule definition
+---------------
+
+BV29-1: [ (r0040)] {{S.12.02.01.02, c0210}} = {{S.12.02.01.02, c0160}} + {{S.12.02.01.02, c0190}} + {{S.12.02.01.02, c0200}}
+
+
+Template references
+-------------------
+
+S.12.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
+
+
+Datapoints
+----------
+
+S.12.02.01.02,c0160 [unknown label]
+S.12.02.01.02,c0190 [unknown label]
+S.12.02.01.02,c0200 [unknown label]
+S.12.02.01.02,c0210 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0040)]

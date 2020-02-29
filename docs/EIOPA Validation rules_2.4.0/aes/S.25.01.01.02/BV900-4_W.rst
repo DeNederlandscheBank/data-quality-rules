@@ -1,0 +1,28 @@
+=========
+BV900-4_W
+=========
+
+Rule definition
+---------------
+
+BV900-4_W: if ({{SE.01.01.16.01,r0460,c0010}}=[s2c_CN:x59]) then {{S.25.01.01.02,r0150,c0100}}le0 where ExDimVal({{S.25.01.01.02,r0150,c0100}},AO)=x0
+
+
+Template references
+-------------------
+
+S.25.01.01.02 Calculation of Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.25.01.01.02,r0150,c0100 [Loss-absorbing capacity of deferred taxes , Value]
+
+SE.01.01.16.01,r0460,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x59]

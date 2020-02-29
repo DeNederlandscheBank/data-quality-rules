@@ -1,0 +1,32 @@
+=========
+BV722-2_W
+=========
+
+Rule definition
+---------------
+
+BV722-2_W: {{S.02.01.08.01, r0560,c0010}} = {{S.17.01.02.01, r0320,c0020}} + {{S.17.01.02.01, r0320,c0030}} + {{S.17.01.02.01, r0320,c0040}} + {{S.17.01.02.01, r0320,c0140}}
+
+
+Template references
+-------------------
+
+S.02.01.08.01 Balance sheet
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.08.01,r0560,c0010 [unknown label]
+S.17.01.02.01,r0320,c0020 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Medical expense insurance]
+
+S.17.01.02.01,r0320,c0030 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Income protection insurance]
+
+S.17.01.02.01,r0320,c0040 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+
+S.17.01.02.01,r0320,c0140 [Technical provisions - total|Technical provisions - total , Accepted non-proportional reinsurance|Non-proportional health reinsurance]
+
+
+

@@ -1,0 +1,25 @@
+=======
+BV789-3
+=======
+
+Rule definition
+---------------
+
+BV789-3: not(empty({{S.06.02.04.02,c0360}})) where matches({{S.06.02.04.02,c0290}},"^..((1.)|(2.)|(42)|(5.)|(6.))$")
+
+
+Template references
+-------------------
+
+S.06.02.04.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.04.02,c0290 [URI , CIC]
+
+S.06.02.04.02,c0360 [URI , Duration]
+
+
+

@@ -1,0 +1,27 @@
+=======
+BV542-1
+=======
+
+Rule definition
+---------------
+
+BV542-1: {{S.23.01.01.01, r0540,c0030}} = min(max({{S.23.01.01.01, r0540,c0020}}, 0) * 0.25, {{S.23.01.01.01, r0500,c0030}})
+
+
+Template references
+-------------------
+
+S.23.01.01.01 Own funds
+
+
+Datapoints
+----------
+
+S.23.01.01.01,r0500,c0030 [Available and eligible own funds|Total available own funds to meet the SCR , Tier 1 - restricted]
+
+S.23.01.01.01,r0540,c0020 [Available and eligible own funds|Total eligible own funds to meet the SCR , Tier 1 - unrestricted]
+
+S.23.01.01.01,r0540,c0030 [Available and eligible own funds|Total eligible own funds to meet the SCR , Tier 1 - restricted]
+
+
+

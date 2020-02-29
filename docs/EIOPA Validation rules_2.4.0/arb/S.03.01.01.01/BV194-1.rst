@@ -1,0 +1,27 @@
+=======
+BV194-1
+=======
+
+Rule definition
+---------------
+
+BV194-1: [ (c0010;0020)] {{S.03.01.01.01, r0020}} le {{S.03.01.01.01, r0010}}
+
+
+Template references
+-------------------
+
+S.03.01.01.01 Value of guarantee / collateral / contingent liabilities
+
+
+Datapoints
+----------
+
+S.03.01.01.01,r0010 [unknown label]
+S.03.01.01.01,r0020 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010;0020)]

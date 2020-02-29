@@ -1,0 +1,33 @@
+=======
+BV389-1
+=======
+
+Rule definition
+---------------
+
+BV389-1: {{S.02.01.02.01, r0680,c0010}} le {{S.12.01.02.01, r0100,c0150}} - {{S.12.01.02.01, r0100,c0030}} + {{S.12.01.02.01, r0130,c0150}} - {{S.12.01.02.01, r0130,c0030}}
+
+
+Template references
+-------------------
+
+S.02.01.02.01 Balance sheet
+
+S.12.01.02.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.02.01,r0680,c0010 [Liabilities|Technical provisions - life (excluding index-linked and unit-linked)|Technical provisions Ã¢ÂÂ life (excluding health and index-linked and unit-linked)|Risk margin , Solvency II value]
+
+S.12.01.02.01,r0100,c0030 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Index-linked and unit-linked insurance|]
+
+S.12.01.02.01,r0100,c0150 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Total (Life other than health insurance, incl. Unit-Linked)]
+
+S.12.01.02.01,r0130,c0030 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Index-linked and unit-linked insurance|]
+
+S.12.01.02.01,r0130,c0150 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Total (Life other than health insurance, incl. Unit-Linked)]
+
+
+

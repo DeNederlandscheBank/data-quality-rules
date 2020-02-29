@@ -1,0 +1,27 @@
+=======
+BV779-5
+=======
+
+Rule definition
+---------------
+
+BV779-5: empty({{S.06.02.01.01,c0110}}) where matches({{S.06.02.01.02,c0290}},"^..((71)|(75)|(8.)|(95))$")
+
+
+Template references
+-------------------
+
+S.06.02.01.01 Information on positions held
+
+S.06.02.01.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.01.01,c0110 [Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Country of custody]
+
+S.06.02.01.02,c0290 [URI , CIC]
+
+
+

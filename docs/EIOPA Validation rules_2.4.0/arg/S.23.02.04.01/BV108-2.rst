@@ -1,0 +1,27 @@
+=======
+BV108-2
+=======
+
+Rule definition
+---------------
+
+BV108-2: {{S.23.02.04.01, r0500,c0020}} = {{S.23.01.04.01, r0140,c0030}}
+
+
+Template references
+-------------------
+
+S.23.01.04.01 Own funds
+
+S.23.02.04.01 Basic own funds
+
+
+Datapoints
+----------
+
+S.23.01.04.01,r0140,c0030 [Basic own funds before deduction for participations in other financial sector|Subordinated liabilities , Tier 1 - restricted]
+
+S.23.02.04.01,r0500,c0020 [Total subordinated liabilities , Tier 1|]
+
+
+

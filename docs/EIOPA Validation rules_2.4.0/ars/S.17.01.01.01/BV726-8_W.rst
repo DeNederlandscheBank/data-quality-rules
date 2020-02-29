@@ -1,0 +1,41 @@
+=========
+BV726-8_W
+=========
+
+Rule definition
+---------------
+
+BV726-8_W: {{S.02.01.01.01, r0580,c0010}} = {{S.17.01.01.01, r0260,c0020}} + {{S.17.01.01.01, r0260,c0030}} + {{S.17.01.01.01, r0260,c0040}} + {{S.17.01.01.01, r0260,c0140}} + {{S.17.01.01.01, r0300,c0020}} + {{S.17.01.01.01, r0300,c0030}} + {{S.17.01.01.01, r0300,c0040}} + {{S.17.01.01.01, r0300,c0140}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0580,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life|Technical provisions - health (similar to non-life)|Best Estimate , Solvency II value]
+
+S.17.01.01.01,r0260,c0020 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , Direct business and accepted proportional reinsurance|Medical expense insurance]
+
+S.17.01.01.01,r0260,c0030 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , Direct business and accepted proportional reinsurance|Income protection insurance]
+
+S.17.01.01.01,r0260,c0040 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+
+S.17.01.01.01,r0260,c0140 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , accepted non-proportional reinsurance|Non-proportional health reinsurance]
+
+S.17.01.01.01,r0300,c0020 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Medical expense insurance]
+
+S.17.01.01.01,r0300,c0030 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Income protection insurance]
+
+S.17.01.01.01,r0300,c0040 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+
+S.17.01.01.01,r0300,c0140 [Amount of the transitional on Technical Provisions|Best estimate , accepted non-proportional reinsurance|Non-proportional health reinsurance]
+
+
+

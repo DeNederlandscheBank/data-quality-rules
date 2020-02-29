@@ -1,0 +1,27 @@
+=======
+BV989-3
+=======
+
+Rule definition
+---------------
+
+BV989-3: {{S.06.02.04.01,c0170}}ge 0 where matches({{S.06.02.04.02,c0290}},"^..7.$")
+
+
+Template references
+-------------------
+
+S.06.02.04.01 Information on positions held
+
+S.06.02.04.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.04.01,c0170 [Identification code of entity|Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Total Solvency II amount]
+
+S.06.02.04.02,c0290 [URI , CIC]
+
+
+

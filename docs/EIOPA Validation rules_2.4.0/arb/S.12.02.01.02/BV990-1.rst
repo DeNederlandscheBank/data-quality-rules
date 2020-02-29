@@ -1,0 +1,35 @@
+=======
+BV990-1
+=======
+
+Rule definition
+---------------
+
+BV990-1: [ (c0020;0090;0100;0150;0190;0200;0210)] {{S.12.02.01.01, r0010}} + sum({{S.12.02.01.02, r0040, snnn}}) ge 0.9 * ({{S.12.01.01.01, r0010}} + {{S.12.01.01.01, r0030}} + {{S.12.01.01.01, r0110}} + {{S.12.01.01.01, r0120}})
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+S.12.02.01.01 Gross TP calculated as a whole and Gross BE for different countries - Home country and countries outside the materiality threshold
+
+S.12.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0010 [unknown label]
+S.12.01.01.01,r0030 [unknown label]
+S.12.01.01.01,r0110 [unknown label]
+S.12.01.01.01,r0120 [unknown label]
+S.12.02.01.01,r0010 [unknown label]
+S.12.02.01.02,r0040,snnn [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020;0090;0100;0150;0190;0200;0210)]

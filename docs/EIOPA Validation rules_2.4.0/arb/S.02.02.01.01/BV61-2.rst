@@ -1,0 +1,29 @@
+======
+BV61-2
+======
+
+Rule definition
+---------------
+
+BV61-2: {{S.02.02.01.01, r0110,c0020}} = {{S.02.01.07.01, r0520,c0010}} + {{S.02.01.07.01, r0560,c0010}} + {{S.02.01.07.01, r0610,c0010}} + {{S.02.01.07.01, r0650,c0010}}
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0520,c0010 [unknown label]
+S.02.01.07.01,r0560,c0010 [unknown label]
+S.02.01.07.01,r0610,c0010 [unknown label]
+S.02.01.07.01,r0650,c0010 [unknown label]
+S.02.02.01.01,r0110,c0020 [Liabilities|Technical provisions (excluding index-linked and unit-linked contracts) , Total value of all currencies]
+
+
+

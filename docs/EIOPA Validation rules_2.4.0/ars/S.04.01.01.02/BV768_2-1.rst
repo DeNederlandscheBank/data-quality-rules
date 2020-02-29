@@ -1,0 +1,27 @@
+=========
+BV768_2-1
+=========
+
+Rule definition
+---------------
+
+BV768_2-1: empty({{S.04.01.01.02,r0030,c0080}}) where ExDimVal({{S.04.01.01.02,r0030,c0080}},LR) = {{S.01.02.01.01,r0050,c0010}}
+
+
+Template references
+-------------------
+
+S.01.02.01.01 Basic Information - General
+
+S.04.01.01.02 By EEA member (location of the branch)
+
+
+Datapoints
+----------
+
+S.01.02.01.01,r0050,c0010 [nan]
+
+S.04.01.01.02,r0030,c0080 [Claims incurred , By EEA member|Business underwritten in the considered country, by the EEA branch established in this country|Location of the branch]
+
+
+

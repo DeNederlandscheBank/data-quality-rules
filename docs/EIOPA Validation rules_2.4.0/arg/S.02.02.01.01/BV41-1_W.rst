@@ -1,0 +1,31 @@
+========
+BV41-1_W
+========
+
+Rule definition
+---------------
+
+BV41-1_W: {{S.02.01.01.01, r0350,c0010}} + {{S.02.01.01.01, r0360,c0010}} + {{S.02.01.01.01, r0370,c0010}} = {{S.02.02.01.01, r0060,c0020}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0350,c0010 [Assets|Deposits to cedants , Solvency II value]
+
+S.02.01.01.01,r0360,c0010 [Assets|Insurance and intermediaries receivables , Solvency II value]
+
+S.02.01.01.01,r0370,c0010 [Assets|Reinsurance receivables , Solvency II value]
+
+S.02.02.01.01,r0060,c0020 [Assets|Deposits to cedants, insurance and intermediaries receivables and reinsurance receivables , Total value of all currencies]
+
+
+

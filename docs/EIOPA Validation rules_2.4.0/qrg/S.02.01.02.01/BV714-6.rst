@@ -1,0 +1,23 @@
+=======
+BV714-6
+=======
+
+Rule definition
+---------------
+
+BV714-6: {{S.02.01.02.01, r0500,c0010}} gt 0
+
+
+Template references
+-------------------
+
+S.02.01.02.01 Balance sheet
+
+
+Datapoints
+----------
+
+S.02.01.02.01,r0500,c0010 [Assets|Total assets , Solvency II value]
+
+
+

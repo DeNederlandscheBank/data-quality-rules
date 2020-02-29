@@ -1,0 +1,26 @@
+=======
+BV396-3
+=======
+
+Rule definition
+---------------
+
+BV396-3: {{SE.02.01.16.01, r0400,c0010}} = {{S.23.02.01.01, r0020,c0010}} + {{S.23.02.01.01, r0120,c0010}}
+
+
+Template references
+-------------------
+
+S.23.02.01.01 Basic own funds
+
+
+Datapoints
+----------
+
+S.23.02.01.01,r0020,c0010 [Ordinary share capital|Called up but not yet paid in , Total]
+
+S.23.02.01.01,r0120,c0010 [Initial funds, members' contributions or the equivalent basic own - fund item for mutual and mutual type undertakings|Called up but not yet paid in , Total]
+
+SE.02.01.16.01,r0400,c0010 [unknown label]
+
+

@@ -1,0 +1,23 @@
+========
+BV1070-2
+========
+
+Rule definition
+---------------
+
+BV1070-2: empty({{S.06.02.07.02,c0292}}) where not(matches({{S.06.02.07.02,c0290}},"^..4.$"))
+
+
+Template references
+-------------------
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.07.02,c0290 [unknown label]
+S.06.02.07.02,c0292 [unknown label]
+
+

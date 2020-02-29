@@ -1,0 +1,29 @@
+======
+BV44-1
+======
+
+Rule definition
+---------------
+
+BV44-1: [ (c0180)] {{S.17.01.01.01, r0010}} = {{S.17.01.01.01, r0020}} + {{S.17.01.01.01, r0030}} + {{S.17.01.01.01, r0040}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.01.01,r0010 [unknown label]
+S.17.01.01.01,r0020 [unknown label]
+S.17.01.01.01,r0030 [unknown label]
+S.17.01.01.01,r0040 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0180)]

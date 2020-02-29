@@ -1,0 +1,25 @@
+=======
+BV807-1
+=======
+
+Rule definition
+---------------
+
+BV807-1: empty({{S.08.01.04.02,c0390}})  where matches({{S.08.01.04.02,c0380}},"^..(D3)$")
+
+
+Template references
+-------------------
+
+S.08.01.04.02 Information on derivatives
+
+
+Datapoints
+----------
+
+S.08.01.04.02,c0380 [URI , CIC]
+
+S.08.01.04.02,c0390 [URI , Trigger value]
+
+
+

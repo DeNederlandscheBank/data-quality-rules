@@ -1,0 +1,27 @@
+=======
+BV514-1
+=======
+
+Rule definition
+---------------
+
+BV514-1: if (not(empty({{S.37.01.04.01, c0150}}))) then not(empty({{S.32.01.04.01, c0040}}))
+
+
+Template references
+-------------------
+
+S.32.01.04.01 Undertakings in the scope of the group
+
+S.37.01.04.01 Risk concentration
+
+
+Datapoints
+----------
+
+S.32.01.04.01,c0040 [Identification code of entity , Legal Name of the undertaking]
+
+S.37.01.04.01,c0150 [Identification code of entity|Counterparty Group ID|URI|S.37.01.zz.01 line identification , Value of the exposure]
+
+
+

@@ -1,0 +1,23 @@
+==========
+BV841_14-2
+==========
+
+Rule definition
+---------------
+
+BV841_14-2: {{S.17.01.01.01, r0280,c0150}} ge 0
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.01.01,r0280,c0150 [Technical provisions calculated as a sum of BE and RM|Risk margin , accepted non-proportional reinsurance|Non-proportional casualty reinsurance]
+
+
+

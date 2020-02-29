@@ -1,0 +1,26 @@
+===========
+BV379_1-8_W
+===========
+
+Rule definition
+---------------
+
+BV379_1-8_W: {{SE.02.01.16.01, r0320,c0010}} = {{S.12.01.01.01, r0020,c0210}} + {{S.12.01.01.01, r0080,c0210}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0020,c0210 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Total (Health similar to life insurance)]
+
+S.12.01.01.01,r0080,c0210 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Total (Health similar to life insurance)]
+
+SE.02.01.16.01,r0320,c0010 [unknown label]
+
+

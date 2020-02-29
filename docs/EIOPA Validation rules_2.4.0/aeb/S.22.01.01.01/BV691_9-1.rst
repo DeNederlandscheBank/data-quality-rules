@@ -1,0 +1,23 @@
+=========
+BV691_9-1
+=========
+
+Rule definition
+---------------
+
+BV691_9-1: {{S.22.01.01.01, r0090,c0080}} gt 0
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.22.01.01.01,r0090,c0080 [Solvency Capital Requirement , Impact of the LTG measures and transitionals (Step-by-step approach)|Without matching adjustment and without all the others]
+
+
+

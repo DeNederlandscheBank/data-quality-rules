@@ -1,0 +1,39 @@
+=========
+BV610_1-2
+=========
+
+Rule definition
+---------------
+
+BV610_1-2: if ({{S.26.04.04.09, r0010,c0010}} = [s2c_AP:x34]) then {{S.26.04.04.01, r0100,c0060}} = max(0, ({{S.26.04.04.01, r0100,c0020}} - {{S.26.04.04.01, r0100,c0030}}) - ({{S.26.04.04.01, r0100,c0040}} - {{S.26.04.04.01, r0100,c0050}}))
+
+
+Template references
+-------------------
+
+S.26.04.04.01 SLT health underwriting risk
+
+S.26.04.04.09 Simplifications used
+
+
+Datapoints
+----------
+
+S.26.04.04.01,r0100,c0020 [Health mortality risk , Initial absolute values before shock|Assets]
+
+S.26.04.04.01,r0100,c0030 [Health mortality risk , Initial absolute values before shock|Liabilities]
+
+S.26.04.04.01,r0100,c0040 [Health mortality risk , Absolute values after shock|Assets]
+
+S.26.04.04.01,r0100,c0050 [Health mortality risk , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+
+S.26.04.04.01,r0100,c0060 [Health mortality risk , Absolute values after shock|Net solvency capital requirement]
+
+S.26.04.04.09,r0010,c0010 [Simplifications - health mortality risk , Simplifications used]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x34]

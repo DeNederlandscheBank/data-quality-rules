@@ -1,0 +1,28 @@
+=======
+BV846-1
+=======
+
+Rule definition
+---------------
+
+BV846-1: [ (c0020-0180)] {{S.17.01.02.01, r0340}} = {{S.17.01.02.01, r0320}} - {{S.17.01.02.01, r0330}}
+
+
+Template references
+-------------------
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.02.01,r0320 [unknown label]
+S.17.01.02.01,r0330 [unknown label]
+S.17.01.02.01,r0340 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020-0180)]

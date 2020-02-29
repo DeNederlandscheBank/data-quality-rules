@@ -1,0 +1,25 @@
+=======
+BV995-2
+=======
+
+Rule definition
+---------------
+
+BV995-2: not(empty({{S.08.01.01.02,c0420}})) where matches({{S.08.01.01.02,c0380}},"^..((D2)|(D3))$")
+
+
+Template references
+-------------------
+
+S.08.01.01.02 Information on derivatives
+
+
+Datapoints
+----------
+
+S.08.01.01.02,c0380 [URI , CIC]
+
+S.08.01.01.02,c0420 [URI , Swap received currency]
+
+
+

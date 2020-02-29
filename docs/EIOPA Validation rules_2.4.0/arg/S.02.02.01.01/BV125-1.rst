@@ -1,0 +1,39 @@
+=======
+BV125-1
+=======
+
+Rule definition
+---------------
+
+BV125-1: {{S.02.01.01.01, r0750,c0010}} + {{S.02.01.01.01, r0760,c0010}} + {{S.02.01.01.01, r0780,c0010}} + {{S.02.01.01.01, r0840,c0010}} + {{S.02.01.01.01, r0860,c0010}} + {{S.02.01.01.01, r0870,c0010}} + {{S.02.01.01.01, r0880,c0010}} = {{S.02.02.01.01, r0170,c0020}}
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0750,c0010 [Liabilities|Provisions other than technical provisions , Solvency II value]
+
+S.02.01.01.01,r0760,c0010 [Liabilities|Pension benefit obligations , Solvency II value]
+
+S.02.01.01.01,r0780,c0010 [Liabilities|Deferred tax liabilities , Solvency II value]
+
+S.02.01.01.01,r0840,c0010 [Liabilities|Payables (trade, not insurance) , Solvency II value]
+
+S.02.01.01.01,r0860,c0010 [Liabilities|Subordinated liabilities|Subordinated liabilities not in Basic Own Funds , Solvency II value]
+
+S.02.01.01.01,r0870,c0010 [Liabilities|Subordinated liabilities|Subordinated liabilities in Basic Own Funds , Solvency II value]
+
+S.02.01.01.01,r0880,c0010 [Liabilities|Any other liabilities, not elsewhere shown , Solvency II value]
+
+S.02.02.01.01,r0170,c0020 [Liabilities|Any other liabilities , Total value of all currencies]
+
+
+

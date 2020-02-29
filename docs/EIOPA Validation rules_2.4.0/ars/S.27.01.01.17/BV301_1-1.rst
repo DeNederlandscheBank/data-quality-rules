@@ -1,0 +1,29 @@
+=========
+BV301_1-1
+=========
+
+Rule definition
+---------------
+
+BV301_1-1: [ (r3000)] {{S.27.01.01.17, c1090}} = {{S.27.01.01.17, c1060}} - {{S.27.01.01.17, c1070}} + {{S.27.01.01.17, c1080}}
+
+
+Template references
+-------------------
+
+S.27.01.01.17 Man made catastrophe risk - Credit & Suretyship - Recession Risk
+
+
+Datapoints
+----------
+
+S.27.01.01.17,c1060 [unknown label]
+S.27.01.01.17,c1070 [unknown label]
+S.27.01.01.17,c1080 [unknown label]
+S.27.01.01.17,c1090 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r3000)]

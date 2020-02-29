@@ -1,0 +1,42 @@
+=============
+BV648_1-2-4_W
+=============
+
+Rule definition
+---------------
+
+BV648_1-2-4_W: if ({{S.01.01.07.01,r0540,c0010}}=[s2c_CN:x60] or {{S.01.01.07.01,r0540,c0010}}=[s2c_CN:x71]) then {{S.26.05.01.04,r0600,c0160}}={{S.26.05.01.04,r0700,c0160}}-{{S.26.05.01.02,r0300,c0100}}-{{S.26.05.01.03,r0400,c0150}}-{{S.26.05.01.04,r0500,c0160}} where ExDimVal({{S.26.05.01.04,r0600,c0160}},AO)=x1 and ExDimVal({{S.26.05.01.04,r0700,c0160}},AO)=x1 and ExDimVal({{S.26.05.01.02,r0300,c0100}},AO)=x1 and ExDimVal({{S.26.05.01.03,r0400,c0150}},AO)=x1 and ExDimVal({{S.26.05.01.04,r0500,c0160}},AO)=x1
+
+
+Template references
+-------------------
+
+S.01.01.07.01 Content of the submission
+
+S.26.05.01.02 Non-life premium and reserve risk
+
+S.26.05.01.03 Non-Life lapse risk
+
+S.26.05.01.04 Non-life catastrophe risk and total non-life underwriting risk
+
+
+Datapoints
+----------
+
+S.01.01.07.01,r0540,c0010 [unknown label]
+S.26.05.01.02,r0300,c0100 [Non-life premium and reserve risk , Solvency capital requirement]
+
+S.26.05.01.03,r0400,c0150 [Non-life lapse risk , Absolute values after shock|Solvency capital requirement]
+
+S.26.05.01.04,r0500,c0160 [Non-life catastrophe risk , Solvency capital requirement]
+
+S.26.05.01.04,r0600,c0160 [Diversification within non - life underwriting risk module , Solvency capital requirement]
+
+S.26.05.01.04,r0700,c0160 [Total non-life underwriting risk , Solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x60] or {{S.01.01.07.01,r0540,c0010}}=[s2c_CN:x71]

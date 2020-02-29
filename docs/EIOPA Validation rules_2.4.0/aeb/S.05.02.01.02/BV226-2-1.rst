@@ -1,0 +1,30 @@
+=========
+BV226-2-1
+=========
+
+Rule definition
+---------------
+
+BV226-2-1: [ (c0090)] {{S.05.02.01.02, r0200}} = {{S.05.02.01.02, r0110}} + {{S.05.02.01.02, r0120}} + {{S.05.02.01.02, r0130}} - {{S.05.02.01.02, r0140}}
+
+
+Template references
+-------------------
+
+S.05.02.01.02 Top 5 countries (by amount of gross premiums written) - non-life obligations
+
+
+Datapoints
+----------
+
+S.05.02.01.02,r0110 [unknown label]
+S.05.02.01.02,r0120 [unknown label]
+S.05.02.01.02,r0130 [unknown label]
+S.05.02.01.02,r0140 [unknown label]
+S.05.02.01.02,r0200 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0090)]

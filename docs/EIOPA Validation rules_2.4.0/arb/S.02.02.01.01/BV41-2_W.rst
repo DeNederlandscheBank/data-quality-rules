@@ -1,0 +1,28 @@
+========
+BV41-2_W
+========
+
+Rule definition
+---------------
+
+BV41-2_W: {{S.02.01.07.01, r0350,c0010}} + {{S.02.01.07.01, r0360,c0010}} + {{S.02.01.07.01, r0370,c0010}} = {{S.02.02.01.01, r0060,c0020}}
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+S.02.02.01.01 All currencies
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0350,c0010 [unknown label]
+S.02.01.07.01,r0360,c0010 [unknown label]
+S.02.01.07.01,r0370,c0010 [unknown label]
+S.02.02.01.01,r0060,c0020 [Assets|Deposits to cedants, insurance and intermediaries receivables and reinsurance receivables , Total value of all currencies]
+
+
+

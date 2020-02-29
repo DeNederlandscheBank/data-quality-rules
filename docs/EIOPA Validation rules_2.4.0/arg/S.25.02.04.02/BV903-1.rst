@@ -1,0 +1,23 @@
+=======
+BV903-1
+=======
+
+Rule definition
+---------------
+
+BV903-1: {{S.25.02.04.02, r0310,c0100}} le 0
+
+
+Template references
+-------------------
+
+S.25.02.04.02 Calculation of Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.25.02.04.02,r0310,c0100 [nan]
+
+
+

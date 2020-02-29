@@ -1,0 +1,30 @@
+========
+BV1037-2
+========
+
+Rule definition
+---------------
+
+BV1037-2: if ({{S.01.02.07.01, r0190,c0010}} = [s2c_AP:x9]) then {{S.22.01.01.01, r0010,c0050}} gt 0
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints
+----------
+
+S.01.02.07.01,r0190,c0010 [unknown label]
+S.22.01.01.01,r0010,c0050 [Technical provisions , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of transitional on interest rate]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x9]

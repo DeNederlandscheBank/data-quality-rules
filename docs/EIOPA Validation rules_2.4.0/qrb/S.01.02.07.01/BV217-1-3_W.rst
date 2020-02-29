@@ -1,0 +1,26 @@
+===========
+BV217-1-3_W
+===========
+
+Rule definition
+---------------
+
+BV217-1-3_W: [ (r0010)] not(empty({{S.01.02.07.01, c0010}}))
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+
+Datapoints
+----------
+
+S.01.02.07.01,c0010 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0010)]

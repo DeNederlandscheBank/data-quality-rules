@@ -1,0 +1,35 @@
+=========
+BV627_1-1
+=========
+
+Rule definition
+---------------
+
+BV627_1-1: if (matches({{S.26.04.01.09, r0050,c0010}},"^9$")) then {{S.26.04.01.01, r0430,c0080}} = max(0, ({{S.26.04.01.01, r0430,c0020}} - {{S.26.04.01.01, r0430,c0030}}) - ({{S.26.04.01.01, r0430,c0040}} - {{S.26.04.01.01, r0430,c0070}}))
+
+
+Template references
+-------------------
+
+S.26.04.01.01 SLT health underwriting risk
+
+S.26.04.01.09 Simplifications used
+
+
+Datapoints
+----------
+
+S.26.04.01.01,r0430,c0020 [SLT health lapse risk|mass lapse risk , Initial absolute values before shock|Assets]
+
+S.26.04.01.01,r0430,c0030 [SLT health lapse risk|mass lapse risk , Initial absolute values before shock|Liabilities]
+
+S.26.04.01.01,r0430,c0040 [SLT health lapse risk|mass lapse risk , Absolute values after shock|Assets]
+
+S.26.04.01.01,r0430,c0070 [SLT health lapse risk|mass lapse risk , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.04.01.01,r0430,c0080 [SLT health lapse risk|mass lapse risk , Absolute values after shock|Gross solvency capital requirement]
+
+S.26.04.01.09,r0050,c0010 [Simplifications - SLT lapse risk , Simplifications used]
+
+
+

@@ -1,0 +1,27 @@
+=========
+BV505-2_W
+=========
+
+Rule definition
+---------------
+
+BV505-2_W: {{S.23.02.04.03, r0660,c0110}} = {{S.23.01.04.02, r0730,c0060}}
+
+
+Template references
+-------------------
+
+S.23.01.04.02 Reconciliation reserve
+
+S.23.02.04.03 Excess of assets over liabilities - attribution of valuation differences
+
+
+Datapoints
+----------
+
+S.23.01.04.02,r0730,c0060 [nan]
+
+S.23.02.04.03,r0660,c0110 [Excess of assets over liabilities - attribution of valuation differences|Excess of assets over liabilities attributable to basic own fund items (excluding the reconciliation reserve) , Total]
+
+
+

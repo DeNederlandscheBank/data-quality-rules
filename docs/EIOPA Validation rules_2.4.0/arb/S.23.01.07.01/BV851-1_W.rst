@@ -1,0 +1,26 @@
+=========
+BV851-1_W
+=========
+
+Rule definition
+---------------
+
+BV851-1_W: {{S.22.01.01.01, r0100,c0010}} = {{S.23.01.07.01, r0550,c0010}}
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+S.23.01.07.01 Own funds
+
+
+Datapoints
+----------
+
+S.22.01.01.01,r0100,c0010 [Eligible own funds to meet Minimum Capital Requirement , Amount with Long Term Guarantee measures and transitionals]
+
+S.23.01.07.01,r0550,c0010 [unknown label]
+
+

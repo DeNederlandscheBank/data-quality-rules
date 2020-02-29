@@ -1,0 +1,24 @@
+========
+BV1059-3
+========
+
+Rule definition
+---------------
+
+BV1059-3: {{S.25.01.01.04,r0630,c0110}}={{SE.02.01.16.01,r0780,c0010}} where ExDimVal({{SE.02.01.16.01,r0780,c0010}},AO)=x0 and ExDimVal({{S.25.01.01.04,r0630,c0110}},AO)=x0
+
+
+Template references
+-------------------
+
+S.25.01.01.04 Calculation of loss absorbing capacity of deferred taxes
+
+
+Datapoints
+----------
+
+S.25.01.01.04,r0630,c0110 [r0630c0110]
+
+SE.02.01.16.01,r0780,c0010 [unknown label]
+
+

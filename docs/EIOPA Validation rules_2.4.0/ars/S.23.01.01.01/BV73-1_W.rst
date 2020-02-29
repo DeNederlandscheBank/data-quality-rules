@@ -1,0 +1,27 @@
+========
+BV73-1_W
+========
+
+Rule definition
+---------------
+
+BV73-1_W: [ (c0020;0030)] {{S.23.01.01.01, r0500}} = {{S.23.01.01.01, r0290}}
+
+
+Template references
+-------------------
+
+S.23.01.01.01 Own funds
+
+
+Datapoints
+----------
+
+S.23.01.01.01,r0290 [unknown label]
+S.23.01.01.01,r0500 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020;0030)]

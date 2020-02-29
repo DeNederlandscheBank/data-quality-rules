@@ -1,0 +1,25 @@
+=======
+BV989-2
+=======
+
+Rule definition
+---------------
+
+BV989-2: {{S.06.02.07.01,c0170}}ge 0 where matches({{S.06.02.07.02,c0290}},"^..7.$")
+
+
+Template references
+-------------------
+
+S.06.02.07.01 Information on positions held
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.07.01,c0170 [unknown label]
+S.06.02.07.02,c0290 [unknown label]
+
+

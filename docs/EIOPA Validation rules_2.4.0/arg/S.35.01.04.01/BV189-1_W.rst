@@ -1,0 +1,36 @@
+=========
+BV189-1_W
+=========
+
+Rule definition
+---------------
+
+BV189-1_W: {{S.02.01.01.01,r0510,c0010}}+{{S.02.01.01.01,r0600,c0010}}+{{S.02.01.01.01,r0690,c0010}}=sum({{S.35.01.04.01,c0060,snnn}}) where {{S.35.01.04.01,c0040}}=[s2c_CS:x2]
+
+
+Template references
+-------------------
+
+S.02.01.01.01 Balance sheet
+
+S.35.01.04.01 Contribution to group Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.01.01,r0510,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life , Solvency II value]
+
+S.02.01.01.01,r0600,c0010 [Liabilities|Technical provisions - life (excluding index-linked and unit-linked) , Solvency II value]
+
+S.02.01.01.01,r0690,c0010 [Liabilities|Technical provisions Ã¢ÂÂ index-linked and unit-linked , Solvency II value]
+
+S.35.01.04.01,c0040 [Identification code of entity , Method of group solvency calculation used]
+
+S.35.01.04.01,c0060,snnn [unknown label]
+
+
+Datapoint references
+--------------------
+
+[s2c_CS:x2]

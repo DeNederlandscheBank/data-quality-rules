@@ -1,0 +1,32 @@
+===========
+BV254_1-1-6
+===========
+
+Rule definition
+---------------
+
+BV254_1-1-6: if ({{S.01.01.01.01,r0460,c0010}}=[s2c_CN:x59]) then {{S.25.01.01.01,r0100,c0030}}=sum({{S.25.01.01.01,r0010-0070,c0030}}) where ExDimVal({{S.01.01.01.01,r0460,c0010}},AO)=x0 and ExDimVal({{S.25.01.01.01,r0100,c0030}},AO)=x0 and ExDimVal({{S.25.01.01.01,r0010-0070,c0030}},AO)=x0
+
+
+Template references
+-------------------
+
+S.01.01.01.01 Content of the submission
+
+S.25.01.01.01 Basic Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.01.01.01.01,r0460,c0010 [nan]
+
+S.25.01.01.01,r0010-0070,c0030 [unknown label]
+S.25.01.01.01,r0100,c0030 [Basic Solvency Capital Requirement , Net solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x59]

@@ -1,0 +1,38 @@
+=======
+BV204-1
+=======
+
+Rule definition
+---------------
+
+BV204-1: [ (r0110;0120;0210;0220;0310;0320;0410;0420)] {{S.05.01.01.01, c0200}} = {{S.05.01.01.01, c0010}} + {{S.05.01.01.01, c0020}} + {{S.05.01.01.01, c0030}} + {{S.05.01.01.01, c0040}} + {{S.05.01.01.01, c0050}} + {{S.05.01.01.01, c0060}} + {{S.05.01.01.01, c0070}} + {{S.05.01.01.01, c0080}} + {{S.05.01.01.01, c0090}} + {{S.05.01.01.01, c0100}} + {{S.05.01.01.01, c0110}} + {{S.05.01.01.01, c0120}}
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+
+Datapoints
+----------
+
+S.05.01.01.01,c0010 [unknown label]
+S.05.01.01.01,c0020 [unknown label]
+S.05.01.01.01,c0030 [unknown label]
+S.05.01.01.01,c0040 [unknown label]
+S.05.01.01.01,c0050 [unknown label]
+S.05.01.01.01,c0060 [unknown label]
+S.05.01.01.01,c0070 [unknown label]
+S.05.01.01.01,c0080 [unknown label]
+S.05.01.01.01,c0090 [unknown label]
+S.05.01.01.01,c0100 [unknown label]
+S.05.01.01.01,c0110 [unknown label]
+S.05.01.01.01,c0120 [unknown label]
+S.05.01.01.01,c0200 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0110;0120;0210;0220;0310;0320;0410;0420)]

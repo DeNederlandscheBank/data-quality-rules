@@ -1,0 +1,25 @@
+=========
+BV888-2_W
+=========
+
+Rule definition
+---------------
+
+BV888-2_W: {{S.23.01.01.01, r0290,c0020}} = {{S.23.01.01.01, r0550,c0020}}
+
+
+Template references
+-------------------
+
+S.23.01.01.01 Own funds
+
+
+Datapoints
+----------
+
+S.23.01.01.01,r0290,c0020 [Total basic own funds after deductions , Tier 1 - unrestricted]
+
+S.23.01.01.01,r0550,c0020 [Available and eligible own funds|Total eligible own funds to meet the MCR , Tier 1 - unrestricted]
+
+
+

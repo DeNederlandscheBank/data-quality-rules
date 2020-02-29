@@ -1,0 +1,57 @@
+=========
+BV656-2_W
+=========
+
+Rule definition
+---------------
+
+BV656-2_W: {{S.05.01.02.01, r1300,c0200}} = {{S.05.01.02.01, r0550,c0010}} + {{S.05.01.02.01, r0550,c0020}} + {{S.05.01.02.01, r0550,c0030}} + {{S.05.01.02.01, r0550,c0040}} + {{S.05.01.02.01, r0550,c0050}} + {{S.05.01.02.01, r0550,c0060}} + {{S.05.01.02.01, r0550,c0070}} + {{S.05.01.02.01, r0550,c0080}} + {{S.05.01.02.01, r0550,c0090}} + {{S.05.01.02.01, r0550,c0100}} + {{S.05.01.02.01, r0550,c0110}} + {{S.05.01.02.01, r0550,c0120}} + {{S.05.01.02.01, r0550,c0130}} + {{S.05.01.02.01, r0550,c0140}} + {{S.05.01.02.01, r0550,c0150}} + {{S.05.01.02.01, r0550,c0160}} + {{S.05.01.02.01, r1200,c0200}}
+
+
+Template references
+-------------------
+
+S.05.01.02.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+
+Datapoints
+----------
+
+S.05.01.02.01,r0550,c0010 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Medical expense insurance]
+
+S.05.01.02.01,r0550,c0020 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Income protection insurance]
+
+S.05.01.02.01,r0550,c0030 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Workers' compensation insurance]
+
+S.05.01.02.01,r0550,c0040 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Motor vehicle liability insurance]
+
+S.05.01.02.01,r0550,c0050 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Other motor insurance]
+
+S.05.01.02.01,r0550,c0060 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Marine, aviation and transport insurance]
+
+S.05.01.02.01,r0550,c0070 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Fire and other damage to property insurance]
+
+S.05.01.02.01,r0550,c0080 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|General liability insurance]
+
+S.05.01.02.01,r0550,c0090 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Credit and suretyship insurance]
+
+S.05.01.02.01,r0550,c0100 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Legal expenses insurance]
+
+S.05.01.02.01,r0550,c0110 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Assistance]
+
+S.05.01.02.01,r0550,c0120 [Expenses incurred , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Miscellaneous financial loss]
+
+S.05.01.02.01,r0550,c0130 [Expenses incurred , Line of Business for: accepted non-proportional reinsurance|Health]
+
+S.05.01.02.01,r0550,c0140 [Expenses incurred , Line of Business for: accepted non-proportional reinsurance|Casualty]
+
+S.05.01.02.01,r0550,c0150 [Expenses incurred , Line of Business for: accepted non-proportional reinsurance|Marine, aviation, transport]
+
+S.05.01.02.01,r0550,c0160 [Expenses incurred , Line of Business for: accepted non-proportional reinsurance|Property]
+
+S.05.01.02.01,r1200,c0200 [Other expenses , Total]
+
+S.05.01.02.01,r1300,c0200 [Total expenses , Total]
+
+
+

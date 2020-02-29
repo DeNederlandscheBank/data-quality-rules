@@ -1,0 +1,27 @@
+===========
+BV309_1-2_W
+===========
+
+Rule definition
+---------------
+
+BV309_1-2_W: [ (c1270-1300)] {{S.27.01.04.20, r3610}} = sum({{S.27.01.04.20, r3300-3600}})
+
+
+Template references
+-------------------
+
+S.27.01.04.20 Health Catastrophe risk - Mass accident
+
+
+Datapoints
+----------
+
+S.27.01.04.20,r3300-3600 [unknown label]
+S.27.01.04.20,r3610 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c1270-1300)]

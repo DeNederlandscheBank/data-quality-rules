@@ -1,0 +1,29 @@
+=========
+BV164-2_W
+=========
+
+Rule definition
+---------------
+
+BV164-2_W: {{S.31.01.04.01, c0150}} = {{S.31.01.04.01, c0120}} + {{S.31.01.04.01, c0130}} + {{S.31.01.04.01, c0140}}
+
+
+Template references
+-------------------
+
+S.31.01.04.01 Share of reinsurers
+
+
+Datapoints
+----------
+
+S.31.01.04.01,c0120 [Identification code of entity|Code reinsurer , Assets pledged by reinsurer]
+
+S.31.01.04.01,c0130 [Identification code of entity|Code reinsurer , Financial guarantees]
+
+S.31.01.04.01,c0140 [Identification code of entity|Code reinsurer , Cash deposits]
+
+S.31.01.04.01,c0150 [Identification code of entity|Code reinsurer , Total guarantees received]
+
+
+

@@ -1,0 +1,22 @@
+=======
+BV773-1
+=======
+
+Rule definition
+---------------
+
+BV773-1: {{S.05.01.13.01, r1300,c0200}} ge 0
+
+
+Template references
+-------------------
+
+S.05.01.13.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+
+Datapoints
+----------
+
+S.05.01.13.01,r1300,c0200 [unknown label]
+
+

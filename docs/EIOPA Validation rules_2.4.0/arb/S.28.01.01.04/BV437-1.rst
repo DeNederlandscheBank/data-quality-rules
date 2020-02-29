@@ -1,0 +1,49 @@
+=======
+BV437-1
+=======
+
+Rule definition
+---------------
+
+BV437-1: {{S.28.01.01.04, r0210,c0050}} + {{S.28.01.01.04, r0220,c0050}} ge {{S.12.01.01.01, r0010,c0020}} - {{S.12.01.01.01, r0020,c0020}} + {{S.12.01.01.01, r0090,c0020}} + {{S.12.01.01.01, r0110,c0020}} + {{S.12.01.01.01, r0120,c0020}} + {{S.12.01.01.01, r0010,c0110}} - {{S.12.01.01.01, r0020,c0110}} + {{S.12.01.01.01, r0030,c0110}} - {{S.12.01.01.01, r0080,c0110}} + {{S.12.01.01.01, r0110,c0100}} + {{S.12.01.01.01, r0120,c0100}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+S.28.01.01.04 Total capital at risk for all life (re)insurance obligations
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0010,c0020 [Technical provisions calculated as a whole , Insurance with profit participation]
+
+S.12.01.01.01,r0010,c0110 [Technical provisions calculated as a whole , Accepted reinsurance|Insurance with profit participation]
+
+S.12.01.01.01,r0020,c0020 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Insurance with profit participation]
+
+S.12.01.01.01,r0020,c0110 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Accepted reinsurance|Insurance with profit participation]
+
+S.12.01.01.01,r0030,c0110 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Accepted reinsurance|Insurance with profit participation]
+
+S.12.01.01.01,r0080,c0110 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Accepted reinsurance|Insurance with profit participation]
+
+S.12.01.01.01,r0090,c0020 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Best estimate minus recoverables from reinsurance/SPV and Finite Re , Insurance with profit participation]
+
+S.12.01.01.01,r0110,c0020 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Insurance with profit participation]
+
+S.12.01.01.01,r0110,c0100 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Accepted reinsurance|]
+
+S.12.01.01.01,r0120,c0020 [Amount of the transitional on Technical Provisions|Best estimate , Insurance with profit participation]
+
+S.12.01.01.01,r0120,c0100 [Amount of the transitional on Technical Provisions|Best estimate , Accepted reinsurance|]
+
+S.28.01.01.04,r0210,c0050 [Obligations with profit participation - guaranteed benefits , Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+
+S.28.01.01.04,r0220,c0050 [Obligations with profit participation - future discretionary benefits , Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+
+
+

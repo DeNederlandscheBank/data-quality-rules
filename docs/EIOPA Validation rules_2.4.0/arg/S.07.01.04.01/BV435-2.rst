@@ -1,0 +1,27 @@
+=======
+BV435-2
+=======
+
+Rule definition
+---------------
+
+BV435-2: if (not(empty({{S.07.01.04.01, c0060}}))) then not(empty({{S.06.02.04.02, c0290}}))
+
+
+Template references
+-------------------
+
+S.06.02.04.02 Information on assets
+
+S.07.01.04.01 Structured products
+
+
+Datapoints
+----------
+
+S.06.02.04.02,c0290 [URI , CIC]
+
+S.07.01.04.01,c0060 [Identification code of entity|URI|S.07.01.zz.01 line identification , Collateral type]
+
+
+

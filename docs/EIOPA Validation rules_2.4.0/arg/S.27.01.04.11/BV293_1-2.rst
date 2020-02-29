@@ -1,0 +1,28 @@
+=========
+BV293_1-2
+=========
+
+Rule definition
+---------------
+
+BV293_1-2: [ (r2400)] {{S.27.01.04.11, c0770}} = {{S.27.01.04.11, c0760}} - {{S.27.01.04.11, c0780}}
+
+
+Template references
+-------------------
+
+S.27.01.04.11 Man made catastrophe risk - Marine
+
+
+Datapoints
+----------
+
+S.27.01.04.11,c0760 [unknown label]
+S.27.01.04.11,c0770 [unknown label]
+S.27.01.04.11,c0780 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r2400)]

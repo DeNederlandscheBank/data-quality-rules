@@ -1,0 +1,33 @@
+=========
+BV508-1_W
+=========
+
+Rule definition
+---------------
+
+BV508-1_W: {{S.29.01.01.02, r0200,c0030}} = {{S.29.03.01.07, r0360,c0120}} + {{S.29.03.01.07, r0370,c0120}} + {{S.29.03.01.07, r0360,c0130}} + {{S.29.03.01.07, r0370,c0130}}
+
+
+Template references
+-------------------
+
+S.29.01.01.02 Variation of components of reconciliation reserve - Items reported in "Own funds"
+
+S.29.03.01.07 Variation in Excess of Assets over Liabilities explained by Technical provisions
+
+
+Datapoints
+----------
+
+S.29.01.01.02,r0200,c0030 [Summary Analysis of Variation of Excess of Assets over Liabilities|Variations due to net technical provisions , Variation]
+
+S.29.03.01.07,r0360,c0120 [Gross Technical Provisions , LIFE]
+
+S.29.03.01.07,r0360,c0130 [Gross Technical Provisions , NON LIFE]
+
+S.29.03.01.07,r0370,c0120 [Reinsurance recoverables , LIFE]
+
+S.29.03.01.07,r0370,c0130 [Reinsurance recoverables , NON LIFE]
+
+
+

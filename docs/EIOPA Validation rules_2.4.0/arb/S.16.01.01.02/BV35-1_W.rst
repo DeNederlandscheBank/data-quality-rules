@@ -1,0 +1,27 @@
+========
+BV35-1_W
+========
+
+Rule definition
+---------------
+
+BV35-1_W: [ (c0020-0080)] {{S.16.01.01.02, r0200}} = sum({{S.16.01.01.02, r0040-0190}})
+
+
+Template references
+-------------------
+
+S.16.01.01.02 Annuities information
+
+
+Datapoints
+----------
+
+S.16.01.01.02,r0040-0190 [unknown label]
+S.16.01.01.02,r0200 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020-0080)]

@@ -1,0 +1,29 @@
+=======
+BV862-1
+=======
+
+Rule definition
+---------------
+
+BV862-1: [ (c0010)] {{S.22.05.01.01, r0070}} le ({{S.22.05.01.01, r0010}} - {{S.22.05.01.01, r0050}}) * {{S.22.05.01.01, r0060}}
+
+
+Template references
+-------------------
+
+S.22.05.01.01 Overall calculation of the transitional on technical provisions
+
+
+Datapoints
+----------
+
+S.22.05.01.01,r0010 [unknown label]
+S.22.05.01.01,r0050 [unknown label]
+S.22.05.01.01,r0060 [unknown label]
+S.22.05.01.01,r0070 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0010)]

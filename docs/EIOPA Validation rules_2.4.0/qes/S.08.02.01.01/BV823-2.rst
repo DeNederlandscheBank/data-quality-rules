@@ -1,0 +1,23 @@
+=======
+BV823-2
+=======
+
+Rule definition
+---------------
+
+BV823-2: {{S.08.02.01.01, c0140}} gt 0
+
+
+Template references
+-------------------
+
+S.08.02.01.01 Information on positions held
+
+
+Datapoints
+----------
+
+S.08.02.01.01,c0140 [Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Premium paid to date]
+
+
+

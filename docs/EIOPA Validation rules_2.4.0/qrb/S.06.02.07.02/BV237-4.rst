@@ -1,0 +1,23 @@
+=======
+BV237-4
+=======
+
+Rule definition
+---------------
+
+BV237-4: empty({{S.06.02.07.02,c0280}}) where matches({{S.06.02.07.02,c0290}},"^..((75)|(95))$")
+
+
+Template references
+-------------------
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.07.02,c0280 [unknown label]
+S.06.02.07.02,c0290 [unknown label]
+
+

@@ -1,0 +1,41 @@
+========
+BV90-1_W
+========
+
+Rule definition
+---------------
+
+BV90-1_W: {{S.23.01.04.01, r0290,c0020}} = {{S.23.01.04.01, r0010,c0020}} + {{S.23.01.04.01, r0030,c0020}} + {{S.23.01.04.01, r0040,c0020}} + {{S.23.01.04.01, r0070,c0020}} + {{S.23.01.04.01, r0130,c0020}} + {{S.23.01.04.01, r0180,c0020}} + {{S.23.01.04.01, r0200,c0020}} - {{S.23.01.04.01, r0220,c0010}} - {{S.23.01.04.01, r0280,c0020}}
+
+
+Template references
+-------------------
+
+S.23.01.04.01 Own funds
+
+
+Datapoints
+----------
+
+S.23.01.04.01,r0010,c0020 [Basic own funds before deduction for participations in other financial sector|Ordinary share capital (gross of own shares) , Tier 1 - unrestricted]
+
+S.23.01.04.01,r0030,c0020 [Basic own funds before deduction for participations in other financial sector|Share premium account related to ordinary share capital , Tier 1 - unrestricted]
+
+S.23.01.04.01,r0040,c0020 [Basic own funds before deduction for participations in other financial sector|Initial funds, members' contributions or the equivalent basic own - fund item for mutual and mutual-type undertakings , Tier 1 - unrestricted]
+
+S.23.01.04.01,r0070,c0020 [Basic own funds before deduction for participations in other financial sector|Surplus funds , Tier 1 - unrestricted]
+
+S.23.01.04.01,r0130,c0020 [Basic own funds before deduction for participations in other financial sector|Reconciliation reserve , Tier 1 - unrestricted]
+
+S.23.01.04.01,r0180,c0020 [Basic own funds before deduction for participations in other financial sector|Other items approved by supervisory authority as basic own funds not specified above , Tier 1 - unrestricted]
+
+S.23.01.04.01,r0200,c0020 [Basic own funds before deduction for participations in other financial sector|Minority interests (if not reported as part of a specific own fund item) , Tier 1 - unrestricted]
+
+S.23.01.04.01,r0220,c0010 [Own funds from the financial statements that should not be represented by the reconciliation reserve and do not meet the criteria to be classified as Solvency II own funds|Own funds from the financial statements that should not be represented by the reconciliation reserve and do not meet the criteria to be classified as Solvency II own funds , Total]
+
+S.23.01.04.01,r0280,c0020 [Total deductions , Tier 1 - unrestricted]
+
+S.23.01.04.01,r0290,c0020 [Total basic own funds after deductions , Tier 1 - unrestricted]
+
+
+

@@ -1,0 +1,23 @@
+========
+BV1023-1
+========
+
+Rule definition
+---------------
+
+BV1023-1: {{S.08.02.04.01, c0210}} ge 0
+
+
+Template references
+-------------------
+
+S.08.02.04.01 Information on positions held
+
+
+Datapoints
+----------
+
+S.08.02.04.01,c0210 [Identification code of entity|Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Swap inflow amount]
+
+
+

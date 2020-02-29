@@ -1,0 +1,25 @@
+=========
+BV548-1_W
+=========
+
+Rule definition
+---------------
+
+BV548-1_W: {{S.23.01.07.02, r0730,c0060}} = {{S.23.01.07.01, r0160,c0010}}
+
+
+Template references
+-------------------
+
+S.23.01.07.01 Own funds
+
+S.23.01.07.02 Reconciliation reserve
+
+
+Datapoints
+----------
+
+S.23.01.07.01,r0160,c0010 [unknown label]
+S.23.01.07.02,r0730,c0060 [unknown label]
+
+

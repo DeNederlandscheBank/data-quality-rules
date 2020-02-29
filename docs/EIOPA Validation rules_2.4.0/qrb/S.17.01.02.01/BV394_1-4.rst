@@ -1,0 +1,29 @@
+=========
+BV394_1-4
+=========
+
+Rule definition
+---------------
+
+BV394_1-4: {{S.02.01.08.01, r0550,c0010}} + {{S.02.01.08.01, r0590,c0010}} = {{S.17.01.02.01, r0280,c0180}} + {{S.17.01.02.01, r0310,c0180}}
+
+
+Template references
+-------------------
+
+S.02.01.08.01 Balance sheet
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.02.01.08.01,r0550,c0010 [unknown label]
+S.02.01.08.01,r0590,c0010 [unknown label]
+S.17.01.02.01,r0280,c0180 [Technical provisions calculated as a sum of BE and RM|Risk margin , Total Non-Life obligation]
+
+S.17.01.02.01,r0310,c0180 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Total Non-Life obligation]
+
+
+

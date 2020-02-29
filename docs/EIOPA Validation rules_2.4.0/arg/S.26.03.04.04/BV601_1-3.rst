@@ -1,0 +1,32 @@
+=========
+BV601_1-3
+=========
+
+Rule definition
+---------------
+
+BV601_1-3: [ (r0600)] {{S.26.03.04.04, c0080}} = max(0, ({{S.26.03.04.01, c0020}} - {{S.26.03.04.01, c0040}} - ({{S.26.03.04.01, c0030}} - {{S.26.03.04.01, c0070}})))
+
+
+Template references
+-------------------
+
+S.26.03.04.01 Life underwriting risk
+
+S.26.03.04.04 Life underwriting risk
+
+
+Datapoints
+----------
+
+S.26.03.04.01,c0020 [unknown label]
+S.26.03.04.01,c0030 [unknown label]
+S.26.03.04.01,c0040 [unknown label]
+S.26.03.04.01,c0070 [unknown label]
+S.26.03.04.04,c0080 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0600)]

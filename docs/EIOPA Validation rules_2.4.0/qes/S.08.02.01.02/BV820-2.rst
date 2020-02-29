@@ -1,0 +1,29 @@
+=======
+BV820-2
+=======
+
+Rule definition
+---------------
+
+BV820-2: empty({{S.08.02.01.01,c0140}}) and empty({{S.08.02.01.01,c0150}})  where matches({{S.08.02.01.02,c0320}},"^..((A)|(E)).$")
+
+
+Template references
+-------------------
+
+S.08.02.01.01 Information on positions held
+
+S.08.02.01.02 Information on derivatives
+
+
+Datapoints
+----------
+
+S.08.02.01.01,c0140 [Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Premium paid to date]
+
+S.08.02.01.01,c0150 [Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Premium received to date]
+
+S.08.02.01.02,c0320 [URI , CIC]
+
+
+

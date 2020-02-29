@@ -1,0 +1,31 @@
+===========
+BV302_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV302_1-1_W: {{S.27.01.01.18, r3100,c1100}} = {{S.27.01.01.16, r2920,c1010}} + {{S.27.01.01.17, r3000,c1060}}
+
+
+Template references
+-------------------
+
+S.27.01.01.16 Man made catastrophe risk - Credit & Suretyship - Large Credit Default
+
+S.27.01.01.17 Man made catastrophe risk - Credit & Suretyship - Recession Risk
+
+S.27.01.01.18 Man made catastrophe risk - Credit & Suretyship
+
+
+Datapoints
+----------
+
+S.27.01.01.16,r2920,c1010 [Total , Man made catastrophe risk - Credit & Suretyship - Large Credit Default|Catastrophe Risk Charge Credit & Surety before risk mitigation - Large Credit Default]
+
+S.27.01.01.17,r3000,c1060 [Total , Man made catastrophe risk - Credit & Suretyship - Recession Risk|Catastrophe Risk Charge Credit & Suretyship before risk mitigation - Recession Risk]
+
+S.27.01.01.18,r3100,c1100 [Total before diversification , Man made catastrophe risk - Credit & Suretyship|Catastrophe Risk Charge Credit & Suretyship before risk mitigation]
+
+
+

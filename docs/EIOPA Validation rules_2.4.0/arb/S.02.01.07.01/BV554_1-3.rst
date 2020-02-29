@@ -1,0 +1,28 @@
+=========
+BV554_1-3
+=========
+
+Rule definition
+---------------
+
+BV554_1-3: [ (c0020)] if (not(empty({{S.02.01.07.01, r0610}})) or not(empty({{S.02.01.07.01, r0650}}))) then {{S.02.01.07.01, r0600}} = {{S.02.01.07.01, r0610}} + {{S.02.01.07.01, r0650}}
+
+
+Template references
+-------------------
+
+S.02.01.07.01 Balance sheet
+
+
+Datapoints
+----------
+
+S.02.01.07.01,r0600 [unknown label]
+S.02.01.07.01,r0610 [unknown label]
+S.02.01.07.01,r0650 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020)]

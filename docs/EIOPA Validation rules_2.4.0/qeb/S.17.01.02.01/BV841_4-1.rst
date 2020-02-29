@@ -1,0 +1,23 @@
+=========
+BV841_4-1
+=========
+
+Rule definition
+---------------
+
+BV841_4-1: {{S.17.01.02.01, r0280,c0050}} ge 0
+
+
+Template references
+-------------------
+
+S.17.01.02.01 Non-Life Technical Provisions
+
+
+Datapoints
+----------
+
+S.17.01.02.01,r0280,c0050 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+
+
+

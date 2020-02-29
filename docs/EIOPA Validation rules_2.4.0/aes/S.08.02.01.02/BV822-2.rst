@@ -1,0 +1,27 @@
+=======
+BV822-2
+=======
+
+Rule definition
+---------------
+
+BV822-2: empty({{S.08.02.01.01,c0130}}) where matches({{S.08.02.01.02,c0320}},"^..E.$")
+
+
+Template references
+-------------------
+
+S.08.02.01.01 Information on positions held
+
+S.08.02.01.02 Information on derivatives
+
+
+Datapoints
+----------
+
+S.08.02.01.01,c0130 [Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Buyer / Seller]
+
+S.08.02.01.02,c0320 [URI , CIC]
+
+
+

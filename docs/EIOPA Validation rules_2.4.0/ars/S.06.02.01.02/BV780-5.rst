@@ -1,0 +1,23 @@
+=======
+BV780-5
+=======
+
+Rule definition
+---------------
+
+BV780-5: matches({{S.06.02.01.02,c0290}},"^((XL)|(XT))..$") where matches(ftdv({{S.06.02.01.02,c0290}},"s2c_dim:UI"),"^CAU/.*") and not(matches(ftdv({{S.06.02.01.02,c0290}},"s2c_dim:UI"),"^CAU/(ISIN/.*)|(INDEX/.*)"))
+
+
+Template references
+-------------------
+
+S.06.02.01.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.01.02,c0290 [URI , CIC]
+
+
+

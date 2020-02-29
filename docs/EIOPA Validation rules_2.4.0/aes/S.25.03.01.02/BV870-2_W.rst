@@ -1,0 +1,27 @@
+=========
+BV870-2_W
+=========
+
+Rule definition
+---------------
+
+BV870-2_W: {{S.23.01.01.01, r0580,c0010}} = {{S.25.03.01.02, r0220,c0100}}
+
+
+Template references
+-------------------
+
+S.23.01.01.01 Own funds
+
+S.25.03.01.02 Calculation of Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.23.01.01.01,r0580,c0010 [SCR , Total]
+
+S.25.03.01.02,r0220,c0100 [nan]
+
+
+

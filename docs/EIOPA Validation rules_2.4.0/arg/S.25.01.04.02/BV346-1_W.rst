@@ -1,0 +1,35 @@
+=========
+BV346-1_W
+=========
+
+Rule definition
+---------------
+
+BV346-1_W: if ({{S.01.01.04.01,r0460,c0010}}=[s2c_CN:x59]) then {{S.23.01.04.01,r0670,c0010}}={{S.25.01.04.02,r0560,c0100}} where ExDimVal({{S.25.01.04.02,r0560,c0100}},AO)=x0
+
+
+Template references
+-------------------
+
+S.01.01.04.01 Content of the submission
+
+S.23.01.04.01 Own funds
+
+S.25.01.04.02 Calculation of Solvency Capital Requirement
+
+
+Datapoints
+----------
+
+S.01.01.04.01,r0460,c0010 [nan]
+
+S.23.01.04.01,r0670,c0010 [SCR for entities included with D& A method , Total]
+
+S.25.01.04.02,r0560,c0100 [Overall SCR|SCR for undertakings included via D and A , Value]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x59]

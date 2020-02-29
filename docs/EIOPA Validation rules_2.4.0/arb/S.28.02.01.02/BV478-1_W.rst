@@ -1,0 +1,37 @@
+=========
+BV478-1_W
+=========
+
+Rule definition
+---------------
+
+BV478-1_W: {{S.28.02.01.02, r0060,c0030}} + {{S.28.02.01.02, r0060,c0050}} ge {{S.17.01.01.01, r0010,c0060}} - {{S.17.01.01.01, r0050,c0060}} + {{S.17.01.01.01, r0270,c0060}} + {{S.17.01.01.01, r0290,c0060}} + {{S.17.01.01.01, r0300,c0060}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+S.28.02.01.02 Background information
+
+
+Datapoints
+----------
+
+S.17.01.01.01,r0010,c0060 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Other motor insurance]
+
+S.17.01.01.01,r0050,c0060 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Direct business and accepted proportional reinsurance|Other motor insurance]
+
+S.17.01.01.01,r0270,c0060 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - net , Direct business and accepted proportional reinsurance|Other motor insurance]
+
+S.17.01.01.01,r0290,c0060 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Other motor insurance]
+
+S.17.01.01.01,r0300,c0060 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Other motor insurance]
+
+S.28.02.01.02,r0060,c0030 [Other motor insurance and proportional reinsurance , Background information|Non-life activities|Net (of reinsurance/ SPV) best estimate and TP calculated as a whole]
+
+S.28.02.01.02,r0060,c0050 [Other motor insurance and proportional reinsurance , Background information|Life activities|Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+
+
+

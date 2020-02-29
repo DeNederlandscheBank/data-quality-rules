@@ -1,0 +1,28 @@
+===========
+BV391_1-3_W
+===========
+
+Rule definition
+---------------
+
+BV391_1-3_W: {{SE.02.01.18.01, r0720,c0010}} le {{S.12.01.01.01, r0100,c0030}} + {{S.12.01.01.01, r0100,c0120}} + {{S.12.01.01.01, r0130,c0030}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,r0100,c0030 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Index-linked and unit-linked insurance|]
+
+S.12.01.01.01,r0100,c0120 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Accepted reinsurance|Index-linked and unit-linked insurance]
+
+S.12.01.01.01,r0130,c0030 [Amount of the transitional on Technical Provisions|Risk margin , Index-linked and unit-linked insurance|]
+
+SE.02.01.18.01,r0720,c0010 [unknown label]
+
+

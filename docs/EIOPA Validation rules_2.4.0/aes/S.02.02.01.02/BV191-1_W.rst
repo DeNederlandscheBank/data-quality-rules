@@ -1,0 +1,31 @@
+=========
+BV191-1_W
+=========
+
+Rule definition
+---------------
+
+BV191-1_W: [ (r0020-0200)] {{S.02.02.01.01, c0020}} = {{S.02.02.01.01, c0030}} + {{S.02.02.01.01, c0040}} + sum({{S.02.02.01.02, c0050, snnn}})
+
+
+Template references
+-------------------
+
+S.02.02.01.01 All currencies
+
+S.02.02.01.02 Material currencies
+
+
+Datapoints
+----------
+
+S.02.02.01.01,c0020 [unknown label]
+S.02.02.01.01,c0030 [unknown label]
+S.02.02.01.01,c0040 [unknown label]
+S.02.02.01.02,c0050,snnn [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0020-0200)]

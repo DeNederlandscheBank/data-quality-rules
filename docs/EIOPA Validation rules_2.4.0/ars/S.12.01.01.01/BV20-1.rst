@@ -1,0 +1,30 @@
+======
+BV20-1
+======
+
+Rule definition
+---------------
+
+BV20-1: [ (r0040;0050;0060;0070)] {{S.12.01.01.01, c0210}} = {{S.12.01.01.01, c0170}} + {{S.12.01.01.01, c0180}} + {{S.12.01.01.01, c0190}} + {{S.12.01.01.01, c0200}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints
+----------
+
+S.12.01.01.01,c0170 [unknown label]
+S.12.01.01.01,c0180 [unknown label]
+S.12.01.01.01,c0190 [unknown label]
+S.12.01.01.01,c0200 [unknown label]
+S.12.01.01.01,c0210 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r0040;0050;0060;0070)]

@@ -1,0 +1,23 @@
+=======
+BV715-6
+=======
+
+Rule definition
+---------------
+
+BV715-6: {{S.02.01.02.01, r0900,c0010}} gt 0
+
+
+Template references
+-------------------
+
+S.02.01.02.01 Balance sheet
+
+
+Datapoints
+----------
+
+S.02.01.02.01,r0900,c0010 [Liabilities|Total liabilities , Solvency II value]
+
+
+

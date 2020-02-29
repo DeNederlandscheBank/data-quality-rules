@@ -1,0 +1,29 @@
+===========
+BV290_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV290_1-1_W: [ (r2000)] {{S.27.01.01.07, c0510}} = {{S.27.01.01.07, c0480}} - {{S.27.01.01.07, c0490}} + {{S.27.01.01.07, c0500}}
+
+
+Template references
+-------------------
+
+S.27.01.01.07 Catastrophe risk - Non-proportional property reinsurance
+
+
+Datapoints
+----------
+
+S.27.01.01.07,c0480 [unknown label]
+S.27.01.01.07,c0490 [unknown label]
+S.27.01.01.07,c0500 [unknown label]
+S.27.01.01.07,c0510 [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (r2000)]

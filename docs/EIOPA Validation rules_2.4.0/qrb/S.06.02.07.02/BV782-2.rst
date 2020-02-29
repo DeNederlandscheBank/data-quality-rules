@@ -1,0 +1,25 @@
+=======
+BV782-2
+=======
+
+Rule definition
+---------------
+
+BV782-2: empty({{S.06.02.07.01,c0160}}) where matches({{S.06.02.07.02,c0290}},"^..((7)|(8)).$")
+
+
+Template references
+-------------------
+
+S.06.02.07.01 Information on positions held
+
+S.06.02.07.02 Information on assets
+
+
+Datapoints
+----------
+
+S.06.02.07.01,c0160 [unknown label]
+S.06.02.07.02,c0290 [unknown label]
+
+
