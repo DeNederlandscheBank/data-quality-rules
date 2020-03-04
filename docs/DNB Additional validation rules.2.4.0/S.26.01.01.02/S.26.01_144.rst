@@ -16,18 +16,18 @@ S.26.01.01.01 Market risk - basic information, part 1
 S.26.01.01.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.01.01,r0412,c0020 [Spread risk|bonds and loans|loans and bonds (other than qualifying investment infrastructure and infrastructure corporate) , Initial absolute values before shock|Assets]
+S.26.01.01.01,r0412,c0020 [loans and bonds (other than qualifying investment infrastructure and infrastructure corporate), assets]
 
-S.26.01.01.01,r0412,c0030 [Spread risk|bonds and loans|loans and bonds (other than qualifying investment infrastructure and infrastructure corporate) , Initial absolute values before shock|Liabilities]
+S.26.01.01.01,r0412,c0030 [loans and bonds (other than qualifying investment infrastructure and infrastructure corporate), liabilities]
 
-S.26.01.01.01,r0412,c0040 [Spread risk|bonds and loans|loans and bonds (other than qualifying investment infrastructure and infrastructure corporate) , Absolute values after shock|Assets]
+S.26.01.01.01,r0412,c0040 [loans and bonds (other than qualifying investment infrastructure and infrastructure corporate), assets]
 
-S.26.01.01.01,r0412,c0050 [Spread risk|bonds and loans|loans and bonds (other than qualifying investment infrastructure and infrastructure corporate) , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+S.26.01.01.01,r0412,c0050 [loans and bonds (other than qualifying investment infrastructure and infrastructure corporate), liabilities (after the loss absorbing capacity of technical provisions)]
 
-S.26.01.01.02,r0412,c0060 [Spread risk|bonds and loans|loans and bonds (other than qualifying investment infrastructure and infrastructure corporate) , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0412,c0060 [loans and bonds (other than qualifying investment infrastructure and infrastructure corporate), net solvency capital requirement]
 
 
 

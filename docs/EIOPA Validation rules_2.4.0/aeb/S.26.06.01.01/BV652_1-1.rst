@@ -14,14 +14,19 @@ Template references
 S.26.06.01.01 Operational risk - basic information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.06.01.01,r0200 [unknown label]
-S.26.06.01.01,r0220 [unknown label]
-S.26.06.01.01,r0230 [unknown label]
-S.26.06.01.01,r0250 [unknown label]
-S.26.06.01.01,r0260 [unknown label]
+S.26.06.01.01,r0200 [earned life gross premiums (previous 12 months)]
+
+S.26.06.01.01,r0220 [earned non-life gross premiums (previous 12 months)]
+
+S.26.06.01.01,r0230 [earned life gross premiums (12 months prior to the previous 12 months)]
+
+S.26.06.01.01,r0250 [earned non-life gross premiums (12 months prior to the previous 12 months)]
+
+S.26.06.01.01,r0260 [capital requirement for operational risk based on earned premiums]
+
 
 
 Datapoint references

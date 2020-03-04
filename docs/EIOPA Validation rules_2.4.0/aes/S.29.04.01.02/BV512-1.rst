@@ -16,12 +16,12 @@ S.29.03.01.03 Analysis of movements affecting Excess of Assets over Liabilities
 S.29.04.01.02 Detailed analysis per period - Technical flows versus Technical provisions - AY
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.29.03.01.03,r0190,c0050 [Variation of Best Estimate on risk covered after the period , LIFE - Gross of reinsurance]
+S.29.03.01.03,r0190,c0050 [variation of best estimate on risk covered after the period, life - gross of reinsurance]
 
-S.29.03.01.03,r0190,c0060 [Variation of Best Estimate on risk covered after the period , NON LIFE - Gross of reinsurance]
+S.29.03.01.03,r0190,c0060 [variation of best estimate on risk covered after the period, non life - gross of reinsurance]
 
 S.29.04.01.02,r0110,c0030,snnn [unknown label]
 

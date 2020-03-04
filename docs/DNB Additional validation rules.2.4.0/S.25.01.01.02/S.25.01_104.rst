@@ -14,10 +14,10 @@ Template references
 S.25.01.01.02 Calculation of Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.01.01.02,r0140,c0100 [Loss-absorbing capacity of technical provisions , Value]
+S.25.01.01.02,r0140,c0100 [loss-absorbing capacity of technical provisions, value]
 
 
 

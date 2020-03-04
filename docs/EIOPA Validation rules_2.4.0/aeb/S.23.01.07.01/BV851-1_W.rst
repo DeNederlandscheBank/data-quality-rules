@@ -16,11 +16,12 @@ S.22.01.01.01 Impact of long term guarantees measures and transitionals
 S.23.01.07.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.01.01.01,r0100,c0010 [Eligible own funds to meet Minimum Capital Requirement , Amount with Long Term Guarantee measures and transitionals]
+S.22.01.01.01,r0100,c0010 [eligible own funds to meet minimum capital requirement, amount with long term guarantee measures and transitionals]
 
-S.23.01.07.01,r0550,c0010 [unknown label]
+S.23.01.07.01,r0550,c0010 [total eligible own funds to meet the mcr, total]
+
 
 

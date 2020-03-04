@@ -14,9 +14,10 @@ Template references
 S.27.01.01.05 Natural Catastrophe risk - Hail
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.05,r1930 [unknown label]
+S.27.01.01.05,r1930 [diversification effect between regions]
+
 
 

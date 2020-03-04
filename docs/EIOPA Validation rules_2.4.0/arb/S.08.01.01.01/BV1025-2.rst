@@ -14,10 +14,10 @@ Template references
 S.08.01.01.01 Information on positions held
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.01.01.01,c0170 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Number of contracts]
+S.08.01.01.01,c0170 [number of contracts]
 
 
 

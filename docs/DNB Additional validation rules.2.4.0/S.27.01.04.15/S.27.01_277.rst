@@ -11,11 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.15
+S.27.01.04.15 Man made catastrophe risk - Liability
 
-Datapoints
-----------
 
-S.27.01.04.15,r2810 [unknown label]
+Datapoints labels
+-----------------
+
+S.27.01.04.15,r2810 [diversification between type of cover]
+
 
 

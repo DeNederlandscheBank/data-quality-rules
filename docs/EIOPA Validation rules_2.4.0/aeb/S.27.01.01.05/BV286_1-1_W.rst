@@ -14,13 +14,17 @@ Template references
 S.27.01.01.05 Natural Catastrophe risk - Hail
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.05,c0350 [unknown label]
-S.27.01.01.05,c0360 [unknown label]
-S.27.01.01.05,c0370 [unknown label]
-S.27.01.01.05,c0380 [unknown label]
+S.27.01.01.05,c0350 [catastrophe risk charge before risk mitigation]
+
+S.27.01.01.05,c0360 [estimated risk mitigation]
+
+S.27.01.01.05,c0370 [estimated reinstatement premiums]
+
+S.27.01.01.05,c0380 [catastrophe risk charge after risk mitigation]
+
 
 
 Datapoint references

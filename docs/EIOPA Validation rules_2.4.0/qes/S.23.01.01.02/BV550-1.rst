@@ -14,12 +14,15 @@ Template references
 S.23.01.01.02 Reconciliation reserve
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.01.02,r0770 [unknown label]
-S.23.01.01.02,r0780 [unknown label]
-S.23.01.01.02,r0790 [unknown label]
+S.23.01.01.02,r0770 [expected profits included in future premiums (epifp) - life business]
+
+S.23.01.01.02,r0780 [expected profits included in future premiums (epifp) - non-life business]
+
+S.23.01.01.02,r0790 [total expected profits included in future premiums (epifp)]
+
 
 
 Datapoint references

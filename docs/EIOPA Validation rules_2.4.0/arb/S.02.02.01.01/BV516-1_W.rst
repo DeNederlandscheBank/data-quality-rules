@@ -16,15 +16,20 @@ S.02.01.07.01 Balance sheet
 S.02.02.01.01 All currencies
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0750,c0010 [unknown label]
-S.02.01.07.01,r0760,c0010 [unknown label]
-S.02.01.07.01,r0780,c0010 [unknown label]
-S.02.01.07.01,r0840,c0010 [unknown label]
-S.02.01.07.01,r0880,c0010 [unknown label]
-S.02.02.01.01,r0170,c0020 [Liabilities|Any other liabilities , Total value of all currencies]
+S.02.01.07.01,r0750,c0010 [provisions other than technical provisions, solvency ii value]
+
+S.02.01.07.01,r0760,c0010 [pension benefit obligations, solvency ii value]
+
+S.02.01.07.01,r0780,c0010 [deferred tax liabilities, solvency ii value]
+
+S.02.01.07.01,r0840,c0010 [payables (trade, not insurance), solvency ii value]
+
+S.02.01.07.01,r0880,c0010 [any other liabilities, not elsewhere shown, solvency ii value]
+
+S.02.02.01.01,r0170,c0020 [any other liabilities, total value of all currencies]
 
 
 

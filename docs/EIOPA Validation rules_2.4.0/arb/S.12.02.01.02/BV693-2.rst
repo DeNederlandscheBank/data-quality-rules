@@ -20,19 +20,26 @@ S.12.02.01.01 Gross TP calculated as a whole and Gross BE for different countrie
 S.12.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.07.01,r0230,c0010 [unknown label]
-S.02.01.07.01,r0620,c0010 [unknown label]
-S.02.01.07.01,r0630,c0010 [unknown label]
-S.02.01.07.01,r0660,c0010 [unknown label]
-S.02.01.07.01,r0670,c0010 [unknown label]
-S.02.01.07.01,r0700,c0010 [unknown label]
-S.02.01.07.01,r0710,c0010 [unknown label]
-S.12.02.01.01,r0010,c0150 [Home country , Total (Life other than health insurance, including Unit-Linked)]
+S.01.01.07.01,r0230,c0010 [s.12.02.01 - life and health slt technical provisions - by country, none]
 
-S.12.02.01.01,r0010,c0210 [Home country , Total (Health similar to life insurance)]
+S.02.01.07.01,r0620,c0010 [technical provisions calculated as a whole, solvency ii value]
+
+S.02.01.07.01,r0630,c0010 [best estimate, solvency ii value]
+
+S.02.01.07.01,r0660,c0010 [technical provisions calculated as a whole, solvency ii value]
+
+S.02.01.07.01,r0670,c0010 [best estimate, solvency ii value]
+
+S.02.01.07.01,r0700,c0010 [technical provisions calculated as a whole, solvency ii value]
+
+S.02.01.07.01,r0710,c0010 [best estimate, solvency ii value]
+
+S.12.02.01.01,r0010,c0150 [home country, total (life other than health insurance, including unit-linked)]
+
+S.12.02.01.01,r0010,c0210 [home country, total (health similar to life insurance)]
 
 S.12.02.01.02,r0040,c0150,snnn [unknown label]
 S.12.02.01.02,r0040,c0210,snnn [unknown label]

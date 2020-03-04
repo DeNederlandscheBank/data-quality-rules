@@ -16,12 +16,12 @@ S.15.01.04.01 Description of the guarantees of variable annuities
 S.15.02.04.01 Hedging of guarantees of variable annuities
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.15.01.04.01,c0090 [Identification code of entity|ID code of product , Type of guarantee]
+S.15.01.04.01,c0090 [type of guarantee]
 
-S.15.02.04.01,c0060 [Identification code of entity|ID code of product , Type of hedging]
+S.15.02.04.01,c0060 [type of hedging]
 
 
 

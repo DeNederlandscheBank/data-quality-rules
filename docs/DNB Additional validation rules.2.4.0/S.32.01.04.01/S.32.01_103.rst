@@ -11,14 +11,15 @@ IF {S.32.01.04.01,c0020} <> " " THEN {S.32.01.04.01,c0060} <> " "
 Template references
 -------------------
 
-S.32.01.04.01
+S.32.01.04.01 Undertakings in the scope of the group
 
-Datapoints
-----------
 
-S.32.01.04.01,c0020 [Y-axis (CE): Identification code of entity , Y-axis (CE): Identification code and type of code of the undertaking]
+Datapoints labels
+-----------------
 
-S.32.01.04.01,c0060 [Identification code of entity , Legal form]
+S.32.01.04.01,c0020 [*natural key*|"mandatory"]
+
+S.32.01.04.01,c0060 [legal form]
 
 
 

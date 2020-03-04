@@ -14,14 +14,19 @@ Template references
 S.26.04.04.01 SLT health underwriting risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.04.04.01,c0020 [unknown label]
-S.26.04.04.01,c0030 [unknown label]
-S.26.04.04.01,c0040 [unknown label]
-S.26.04.04.01,c0070 [unknown label]
-S.26.04.04.01,c0080 [unknown label]
+S.26.04.04.01,c0020 [assets]
+
+S.26.04.04.01,c0030 [liabilities]
+
+S.26.04.04.01,c0040 [assets]
+
+S.26.04.04.01,c0070 [liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.04.04.01,c0080 [gross solvency capital requirement]
+
 
 
 Datapoint references

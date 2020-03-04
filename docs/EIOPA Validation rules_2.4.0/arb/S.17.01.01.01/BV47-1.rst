@@ -14,13 +14,17 @@ Template references
 S.17.01.01.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0060 [unknown label]
-S.17.01.01.01,r0070 [unknown label]
-S.17.01.01.01,r0080 [unknown label]
-S.17.01.01.01,r0090 [unknown label]
+S.17.01.01.01,r0060 [gross - total]
+
+S.17.01.01.01,r0070 [gross - direct business]
+
+S.17.01.01.01,r0080 [gross - accepted proportional reinsurance business]
+
+S.17.01.01.01,r0090 [gross - accepted non-proportional reinsurance business]
+
 
 
 Datapoint references

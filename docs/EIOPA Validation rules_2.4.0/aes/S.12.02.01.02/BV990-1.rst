@@ -18,14 +18,19 @@ S.12.02.01.01 Gross TP calculated as a whole and Gross BE for different countrie
 S.12.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0010 [unknown label]
-S.12.01.01.01,r0030 [unknown label]
-S.12.01.01.01,r0110 [unknown label]
-S.12.01.01.01,r0120 [unknown label]
-S.12.02.01.01,r0010 [unknown label]
+S.12.01.01.01,r0010 [technical provisions calculated as a whole]
+
+S.12.01.01.01,r0030 [gross best estimate]
+
+S.12.01.01.01,r0110 [technical provisions calculated as a whole]
+
+S.12.01.01.01,r0120 [best estimate]
+
+S.12.02.01.01,r0010 [home country]
+
 S.12.02.01.02,r0040,snnn [unknown label]
 
 

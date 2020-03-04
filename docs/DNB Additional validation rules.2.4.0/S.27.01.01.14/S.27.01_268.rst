@@ -14,14 +14,14 @@ Template references
 S.27.01.01.14 Man made catastrophe risk - Liability
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.14,r2740,c0890 [Non-proportional reinsurance , Man made catastrophe risk - Liability|Earned premium following 12 months]
+S.27.01.01.14,r2740,c0890 [non-proportional reinsurance, earned premium following 12 months]
 
-S.27.01.01.14,r2740,c0900 [Non-proportional reinsurance , Man made catastrophe risk - Liability|Largest liability limit provided]
+S.27.01.01.14,r2740,c0900 [non-proportional reinsurance, largest liability limit provided]
 
-S.27.01.01.14,r2740,c0910 [Non-proportional reinsurance , Man made catastrophe risk - Liability|Number of claims]
+S.27.01.01.14,r2740,c0910 [non-proportional reinsurance, number of claims]
 
 
 

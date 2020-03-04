@@ -16,11 +16,14 @@ S.06.02.07.01 Information on positions held
 S.06.02.07.02 Information on assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.02.07.01,c0130 [unknown label]
-S.06.02.07.02,c0290 [unknown label]
-S.06.02.07.02,c0370 [unknown label]
+S.06.02.07.01,c0130 [quantity]
+
+S.06.02.07.02,c0290 [cic]
+
+S.06.02.07.02,c0370 [unit solvency ii price]
+
 
 

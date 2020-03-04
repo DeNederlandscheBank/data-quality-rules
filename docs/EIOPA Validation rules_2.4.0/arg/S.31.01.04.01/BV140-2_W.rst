@@ -16,10 +16,10 @@ S.02.01.01.01 Balance sheet
 S.31.01.04.01 Share of reinsurers
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.01.01,r0770,c0010 [Liabilities|Deposits from reinsurers , Solvency II value]
+S.02.01.01.01,r0770,c0010 [deposits from reinsurers, solvency ii value]
 
 S.31.01.04.01,c0140,snnn [unknown label]
 

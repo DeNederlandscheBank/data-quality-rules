@@ -14,11 +14,12 @@ Template references
 S.01.02.01.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0090,c0010 [nan]
+S.01.02.01.01,r0090,c0010 [reporting reference date, none]
 
-SE.06.02.16.02,c0390 [unknown label]
+SE.06.02.16.02,c0390 [maturity date]
+
 
 

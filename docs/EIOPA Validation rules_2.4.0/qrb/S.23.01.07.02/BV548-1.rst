@@ -16,10 +16,12 @@ S.23.01.07.01 Own funds
 S.23.01.07.02 Reconciliation reserve
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.07.01,r0160,c0010 [unknown label]
-S.23.01.07.02,r0730,c0060 [unknown label]
+S.23.01.07.01,r0160,c0010 [an amount equal to the value of net deferred tax assets, total]
+
+S.23.01.07.02,r0730,c0060 [other basic own fund items, none]
+
 
 

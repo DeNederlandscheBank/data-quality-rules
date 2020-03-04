@@ -14,14 +14,16 @@ Template references
 S.17.01.01.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0280,c0180 [Technical provisions calculated as a sum of BE and RM|Risk margin , Total Non-Life obligation]
+S.17.01.01.01,r0280,c0180 [risk margin, total non-life obligation]
 
-S.17.01.01.01,r0310,c0180 [Amount of the transitional on Technical Provisions|Risk margin , Total Non-Life obligation]
+S.17.01.01.01,r0310,c0180 [risk margin, total non-life obligation]
 
-SE.02.01.16.01,r0550,c0010 [unknown label]
-SE.02.01.16.01,r0590,c0010 [unknown label]
+SE.02.01.16.01,r0550,c0010 [risk margin, solvency ii value]
+
+SE.02.01.16.01,r0590,c0010 [risk margin, solvency ii value]
+
 
 

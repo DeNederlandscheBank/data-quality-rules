@@ -14,11 +14,14 @@ Template references
 S.27.01.01.16 Man made catastrophe risk - Credit & Suretyship - Large Credit Default
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.16,c0990 [unknown label]
-S.27.01.01.16,c1000 [unknown label]
-S.27.01.01.16,c1010 [unknown label]
+S.27.01.01.16,c0990 [exposure (individual or group)]
+
+S.27.01.01.16,c1000 [proportion of damage caused by scenario]
+
+S.27.01.01.16,c1010 [catastrophe risk charge credit & surety before risk mitigation - large credit default]
+
 
 

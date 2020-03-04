@@ -14,12 +14,15 @@ Template references
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.02.01,r0060 [unknown label]
-S.17.01.02.01,r0160 [unknown label]
-S.17.01.02.01,r0260 [unknown label]
+S.17.01.02.01,r0060 [gross]
+
+S.17.01.02.01,r0160 [gross]
+
+S.17.01.02.01,r0260 [total best estimate - gross]
+
 
 
 Datapoint references

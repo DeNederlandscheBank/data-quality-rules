@@ -11,14 +11,15 @@ IF {S.35.01.04.01,c0020} <> " " AND {S.35.01.04.01,c0040}<>"DEDUCTION AND AGGREG
 Template references
 -------------------
 
-S.35.01.04.01
+S.35.01.04.01 Contribution to group Technical Provisions
 
-Datapoints
-----------
 
-S.35.01.04.01,c0020 [Y-axis (CE): Identification code of entity , Y-axis (CE): Identification code and type of code of the undertaking]
+Datapoints labels
+-----------------
 
-S.35.01.04.01,c0040 [Identification code of entity , Method of group solvency calculation used]
+S.35.01.04.01,c0020 [*natural key*|"mandatory"]
+
+S.35.01.04.01,c0040 [method of group solvency calculation used]
 
 
 

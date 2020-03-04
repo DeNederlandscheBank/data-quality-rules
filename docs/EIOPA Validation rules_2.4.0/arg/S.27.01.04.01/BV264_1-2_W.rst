@@ -14,14 +14,19 @@ Template references
 S.27.01.04.01 Non-life and Health catastrophe risk - Summary
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.04.01,r0010 [unknown label]
-S.27.01.04.01,r0080 [unknown label]
-S.27.01.04.01,r0090 [unknown label]
-S.27.01.04.01,r0170 [unknown label]
-S.27.01.04.01,r0190 [unknown label]
+S.27.01.04.01,r0010 [natural catastrophe risk]
+
+S.27.01.04.01,r0080 [catastrophe risk non-proportional property reinsurance]
+
+S.27.01.04.01,r0090 [man-made catastrophe risk]
+
+S.27.01.04.01,r0170 [other non-life catastrophe risk]
+
+S.27.01.04.01,r0190 [total non-life catastrophe risk before diversification]
+
 
 
 Datapoint references

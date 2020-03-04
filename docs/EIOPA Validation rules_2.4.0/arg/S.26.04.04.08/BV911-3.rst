@@ -22,18 +22,18 @@ S.26.04.04.07 Health catastrophe risk - basic information
 S.26.04.04.08 Total health underwriting risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0530,c0010 [nan]
+S.01.01.04.01,r0530,c0010 [s.26.04.04 - solvency capital requirement - health underwriting risk, none]
 
-S.26.04.04.01,r0800,c0060 [Total SLT health underwriting risk , Absolute values after shock|Net solvency capital requirement]
+S.26.04.04.01,r0800,c0060 [total slt health underwriting risk, net solvency capital requirement]
 
-S.26.04.04.06,r1400,c0240 [Total NSLT health underwriting risk , Solvency capital requirement]
+S.26.04.04.06,r1400,c0240 [total nslt health underwriting risk, solvency capital requirement]
 
-S.26.04.04.07,r1540,c0250 [Total health catastrophe risk , Net solvency capital requirement]
+S.26.04.04.07,r1540,c0250 [total health catastrophe risk, net solvency capital requirement]
 
-S.26.04.04.08,r1700,c0270 [Total health underwriting risk , Net solvency capital requirement]
+S.26.04.04.08,r1700,c0270 [total health underwriting risk, net solvency capital requirement]
 
 
 

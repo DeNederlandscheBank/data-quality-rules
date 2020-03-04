@@ -11,15 +11,17 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.01
-S.27.01.04.26
+S.27.01.04.01 Non-life and Health catastrophe risk - Summary
 
-Datapoints
-----------
+S.27.01.04.26 Health Catastrophe risk - Concentration accident
 
-S.27.01.04.01,r0320,c0030 [Health catastrophe risk - Summary|Health catastrophe risk|Accident concentration , SCR after risk mitigation]
 
-S.27.01.04.26,r4040,c1400 [Health Catastrophe risk - Concentration accident|Total Concentration accident all countries after diversification , Catastrophe Risk Charge after risk mitigation]
+Datapoints labels
+-----------------
+
+S.27.01.04.01,r0320,c0030 [accident concentration, scr after risk mitigation]
+
+S.27.01.04.26,r4040,c1400 [total concentration accident all countries after diversification, catastrophe risk charge after risk mitigation]
 
 
 

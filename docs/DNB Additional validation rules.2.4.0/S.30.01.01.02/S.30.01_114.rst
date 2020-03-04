@@ -14,12 +14,12 @@ Template references
 S.30.01.01.02 Facultative covers life (10 most important risks in terms of reinsured exposure)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.30.01.01.02,c0220 [Facultative reinsurance placement identification code|Risk identification code|Reinsurance program code , Finite reinsurance or similar arrangements]
+S.30.01.01.02,c0220 [finite reinsurance or similar arrangements]
 
-S.30.01.01.02,c0230 [Facultative reinsurance placement identification code|Risk identification code|Reinsurance program code , Proportional]
+S.30.01.01.02,c0230 [proportional]
 
 
 

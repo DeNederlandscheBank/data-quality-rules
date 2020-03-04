@@ -11,14 +11,15 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.07
+S.27.01.04.07 Catastrophe risk - Non-proportional property reinsurance
 
-Datapoints
-----------
 
-S.27.01.04.07,r2000,c0470 [Non-proportional property reinsurance , Catastrophe risk - Non-proportional property reinsurance|Estimation of the premiums to be earned]
+Datapoints labels
+-----------------
 
-S.27.01.04.07,r2000,c0480 [Non-proportional property reinsurance , Catastrophe risk - Non-proportional property reinsurance|Catastrophe Risk Charge before risk mitigation]
+S.27.01.04.07,r2000,c0470 [non-proportional property reinsurance, estimation of the premiums to be earned]
+
+S.27.01.04.07,r2000,c0480 [non-proportional property reinsurance, catastrophe risk charge before risk mitigation]
 
 
 

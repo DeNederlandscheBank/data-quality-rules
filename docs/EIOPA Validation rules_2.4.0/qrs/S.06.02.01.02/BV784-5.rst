@@ -16,18 +16,18 @@ S.06.02.01.01 Information on positions held
 S.06.02.01.02 Information on assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.02.01.01,c0140 [Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Par amount]
+S.06.02.01.01,c0140 [par amount]
 
-S.06.02.01.01,c0170 [Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Total Solvency II amount]
+S.06.02.01.01,c0170 [total solvency ii amount]
 
-S.06.02.01.01,c0180 [Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Accrued interest]
+S.06.02.01.01,c0180 [accrued interest]
 
-S.06.02.01.02,c0290 [URI , CIC]
+S.06.02.01.02,c0290 [cic]
 
-S.06.02.01.02,c0380 [URI , Unit percentage of par amount Solvency II price]
+S.06.02.01.02,c0380 [unit percentage of par amount solvency ii price]
 
 
 

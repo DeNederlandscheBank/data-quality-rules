@@ -14,11 +14,13 @@ Template references
 S.01.02.07.01 Basic Information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.07.01,r0130,c0010 [unknown label]
-SE.01.01.18.01,r0480,c0010 [unknown label]
+S.01.02.07.01,r0130,c0010 [method of calculation of the scr, none]
+
+SE.01.01.18.01,r0480,c0010 [s.25.03.01 - solvency capital requirement - for undertakings on full internal models, none]
+
 
 
 Datapoint references

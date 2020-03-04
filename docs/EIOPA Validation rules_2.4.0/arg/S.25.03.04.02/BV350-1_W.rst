@@ -18,14 +18,14 @@ S.23.01.04.01 Own funds
 S.25.03.04.02 Calculation of Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0480,c0010 [nan]
+S.01.01.04.01,r0480,c0010 [s.25.03.04 - solvency capital requirement - for groups on full internal models, none]
 
-S.23.01.04.01,r0610,c0010 [Minimum consolidated Group SCR , Total]
+S.23.01.04.01,r0610,c0010 [minimum consolidated group scr, total]
 
-S.25.03.04.02,r0470,c0100 [nan]
+S.25.03.04.02,r0470,c0100 [minimum consolidated group solvency capital requirement, none]
 
 
 

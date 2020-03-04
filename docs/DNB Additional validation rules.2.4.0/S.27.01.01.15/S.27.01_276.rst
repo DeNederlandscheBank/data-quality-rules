@@ -14,9 +14,10 @@ Template references
 S.27.01.01.15 Man made catastrophe risk - Liability
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.15,r2810 [unknown label]
+S.27.01.01.15,r2810 [diversification between type of cover]
+
 
 

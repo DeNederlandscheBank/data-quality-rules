@@ -11,15 +11,17 @@ IF {S.26.02.04.01,r0100,c0080} > 0 THEN ({S.26.02.04.02,r0010,c0010} = "SIMPLIFI
 Template references
 -------------------
 
-S.26.02.04.01
-S.26.02.04.02
+S.26.02.04.01 Counterparty default risk - basic information
 
-Datapoints
-----------
+S.26.02.04.02 Simplifications used
 
-S.26.02.04.01,r0100,c0080 [Type 1 exposures , Gross solvency capital requirement]
 
-S.26.02.04.02,r0010,c0010 [Simplifications , Simplifications used]
+Datapoints labels
+-----------------
+
+S.26.02.04.01,r0100,c0080 [type 1 exposures, gross solvency capital requirement]
+
+S.26.02.04.02,r0010,c0010 [simplifications, simplifications used]
 
 
 

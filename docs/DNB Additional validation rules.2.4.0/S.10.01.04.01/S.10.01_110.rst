@@ -11,13 +11,14 @@ IF {S.10.01.04.01,C0180} <>" " THEN {S.10.01.04.01,c0120} <> " "
 Template references
 -------------------
 
-S.10.01.04.01
+S.10.01.04.01 Securities lending and repos
 
-Datapoints
-----------
+
+Datapoints labels
+-----------------
 
 S.10.01.04.01,C0180 [unknown label]
-S.10.01.04.01,c0120 [Identification code of entity|Number of fund|S.10.01.zz.01 line identification , Position in the Contract]
+S.10.01.04.01,c0120 [position in the contract]
 
 
 

@@ -14,12 +14,12 @@ Template references
 S.23.04.01.06 Ancillary own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.04.01.06,c0585 [Y-axis (YL): S.23.04.zz.06 line identification , Y-axis (YL): Line identification]
+S.23.04.01.06,c0585 [*artificial key*|"mandatory"]
 
-S.23.04.01.06,c0610 [S.23.04.zz.06 line identification , Counterpart]
+S.23.04.01.06,c0610 [counterpart]
 
 
 

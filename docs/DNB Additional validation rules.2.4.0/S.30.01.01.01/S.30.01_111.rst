@@ -14,12 +14,12 @@ Template references
 S.30.01.01.01 Facultative covers non-life (10 most important risks in terms of reinsured exposure)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.30.01.01.01,c0050 [Facultative reinsurance placement identification code|Risk identification code|Reinsurance program code , Finite reinsurance or similar arrangements]
+S.30.01.01.01,c0050 [finite reinsurance or similar arrangements]
 
-S.30.01.01.01,c0160 [Facultative reinsurance placement identification code|Risk identification code|Reinsurance program code , Sum reinsured on a facultative basis, with all reinsurers]
+S.30.01.01.01,c0160 [sum reinsured on a facultative basis, with all reinsurers]
 
 
 

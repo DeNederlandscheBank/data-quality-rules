@@ -11,14 +11,15 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.16
+S.27.01.04.16 Man made catastrophe risk - Credit & Suretyship - Large Credit Default
 
-Datapoints
-----------
 
-S.27.01.04.16,r2920,c0990 [Total , Man made catastrophe risk - Credit & Suretyship - Large Credit Default|Exposure (individual or group)]
+Datapoints labels
+-----------------
 
-S.27.01.04.16,r2920,c1010 [Total , Man made catastrophe risk - Credit & Suretyship - Large Credit Default|Catastrophe Risk Charge Credit & Surety before risk mitigation - Large Credit Default]
+S.27.01.04.16,r2920,c0990 [total, exposure (individual or group)]
+
+S.27.01.04.16,r2920,c1010 [total, catastrophe risk charge credit & surety before risk mitigation - large credit default]
 
 
 

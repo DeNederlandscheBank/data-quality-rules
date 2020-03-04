@@ -14,12 +14,15 @@ Template references
 S.23.01.07.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.07.01,r0290 [unknown label]
-S.23.01.07.01,r0400 [unknown label]
-S.23.01.07.01,r0500 [unknown label]
+S.23.01.07.01,r0290 [total basic own funds after deductions]
+
+S.23.01.07.01,r0400 [total ancillary own funds]
+
+S.23.01.07.01,r0500 [total available own funds to meet the scr]
+
 
 
 Datapoint references

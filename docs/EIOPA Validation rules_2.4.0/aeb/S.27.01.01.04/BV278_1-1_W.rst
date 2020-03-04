@@ -14,12 +14,15 @@ Template references
 S.27.01.01.04 Natural Catastrophe risk - Flood
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.04,r1400 [unknown label]
-S.27.01.01.04,r1590 [unknown label]
-S.27.01.01.04,r1600 [unknown label]
+S.27.01.01.04,r1400 [total flood specified regions before diversification]
+
+S.27.01.01.04,r1590 [total flood other regions before diversifications]
+
+S.27.01.01.04,r1600 [total flood all regions before diversification]
+
 
 
 Datapoint references

@@ -14,25 +14,26 @@ Template references
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.02.01,r0280,c0020 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Medical expense insurance]
+S.17.01.02.01,r0280,c0020 [risk margin, medical expense insurance]
 
-S.17.01.02.01,r0280,c0030 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Income protection insurance]
+S.17.01.02.01,r0280,c0030 [risk margin, income protection insurance]
 
-S.17.01.02.01,r0280,c0040 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+S.17.01.02.01,r0280,c0040 [risk margin, workers' compensation insurance]
 
-S.17.01.02.01,r0280,c0140 [Technical provisions calculated as a sum of BE and RM|Risk margin , Accepted non-proportional reinsurance|Non-proportional health reinsurance]
+S.17.01.02.01,r0280,c0140 [risk margin, non-proportional health reinsurance]
 
-S.17.01.02.01,r0310,c0020 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Medical expense insurance]
+S.17.01.02.01,r0310,c0020 [risk margin, medical expense insurance]
 
-S.17.01.02.01,r0310,c0030 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Income protection insurance]
+S.17.01.02.01,r0310,c0030 [risk margin, income protection insurance]
 
-S.17.01.02.01,r0310,c0040 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+S.17.01.02.01,r0310,c0040 [risk margin, workers' compensation insurance]
 
-S.17.01.02.01,r0310,c0140 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Accepted non-proportional reinsurance|Non-proportional health reinsurance]
+S.17.01.02.01,r0310,c0140 [risk margin, non-proportional health reinsurance]
 
-SE.02.01.19.01,r0590,c0010 [unknown label]
+SE.02.01.19.01,r0590,c0010 [risk margin, solvency ii value]
+
 
 

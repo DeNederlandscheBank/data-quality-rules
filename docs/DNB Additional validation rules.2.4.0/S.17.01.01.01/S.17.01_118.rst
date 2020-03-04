@@ -14,12 +14,16 @@ Template references
 S.17.01.01.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0050 [unknown label]
-S.17.01.01.01,r0140 [unknown label]
-S.17.01.01.01,r0240 [unknown label]
-S.17.01.01.01,r0330 [unknown label]
+S.17.01.01.01,r0050 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole]
+
+S.17.01.01.01,r0140 [total recoverable from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default]
+
+S.17.01.01.01,r0240 [total recoverable from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default]
+
+S.17.01.01.01,r0330 [recoverable from reinsurance contract/spv and finite re after the adjustment for expected losses due to counterparty default - total]
+
 
 

@@ -14,12 +14,12 @@ Template references
 S.28.01.01.05 Overall MCR calculation
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.28.01.01.05,r0310,c0070 [nan]
+S.28.01.01.05,r0310,c0070 [scr, none]
 
-S.28.01.01.05,r0330,c0070 [nan]
+S.28.01.01.05,r0330,c0070 [mcr floor, none]
 
 
 

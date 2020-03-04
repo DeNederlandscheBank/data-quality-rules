@@ -11,12 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.01.02.04.01
+S.01.02.04.01 Basic Information - General
 
-Datapoints
-----------
 
-S.01.02.04.01,r0070,c0010 [nan]
+Datapoints labels
+-----------------
+
+S.01.02.04.01,r0070,c0010 [language of reporting, none]
 
 
 

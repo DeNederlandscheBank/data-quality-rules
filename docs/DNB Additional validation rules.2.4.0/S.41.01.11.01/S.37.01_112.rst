@@ -11,11 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.41.01.11.01
+S.41.01.11.01 Lapses
 
-Datapoints
-----------
 
-S.41.01.11.01,c0010 [unknown label]
+Datapoints labels
+-----------------
+
+S.41.01.11.01,c0010 [none]
+
 
 

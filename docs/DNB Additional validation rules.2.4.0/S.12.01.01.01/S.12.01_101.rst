@@ -14,10 +14,12 @@ Template references
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0030 [unknown label]
-S.12.01.01.01,r0100 [unknown label]
+S.12.01.01.01,r0030 [gross best estimate]
+
+S.12.01.01.01,r0100 [risk margin]
+
 
 

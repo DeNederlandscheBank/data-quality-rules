@@ -14,14 +14,19 @@ Template references
 S.05.02.01.01 Home Country - non-life obligations
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.02.01.01,r0410 [unknown label]
-S.05.02.01.01,r0420 [unknown label]
-S.05.02.01.01,r0430 [unknown label]
-S.05.02.01.01,r0440 [unknown label]
-S.05.02.01.01,r0500 [unknown label]
+S.05.02.01.01,r0410 [gross - direct business]
+
+S.05.02.01.01,r0420 [gross - proportional reinsurance accepted]
+
+S.05.02.01.01,r0430 [gross - non-proportional reinsurance accepted]
+
+S.05.02.01.01,r0440 [reinsurers' share]
+
+S.05.02.01.01,r0500 [net]
+
 
 
 Datapoint references

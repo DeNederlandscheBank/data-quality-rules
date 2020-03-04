@@ -14,13 +14,17 @@ Template references
 S.23.01.07.02 Reconciliation reserve
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.07.02,r0700 [unknown label]
-S.23.01.07.02,r0730 [unknown label]
-S.23.01.07.02,r0740 [unknown label]
-S.23.01.07.02,r0760 [unknown label]
+S.23.01.07.02,r0700 [excess of assets over liabilities]
+
+S.23.01.07.02,r0730 [other basic own fund items]
+
+S.23.01.07.02,r0740 [adjustment for restricted own fund items in respect of matching adjustment portfolios and ring fenced funds]
+
+S.23.01.07.02,r0760 [reconciliation reserve]
+
 
 
 Datapoint references

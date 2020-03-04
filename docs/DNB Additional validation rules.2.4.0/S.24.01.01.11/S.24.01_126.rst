@@ -11,16 +11,17 @@ Rule definition
 Template references
 -------------------
 
-S.02.01.01.01
+S.02.01.01.01 Balance sheet
+
 S.24.01.01.11 Total all participations
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.01.01,r0090,c0010 [Assets|Investments (other than assets held for index-linked and unit-linked contracts)|Holdings in related undertakings, including participations , Solvency II value]
+S.02.01.01.01,r0090,c0010 [holdings in related undertakings, including participations, solvency ii value]
 
-S.24.01.01.11,r0100,c0620 [Total all participations , Total]
+S.24.01.01.11,r0100,c0620 [total all participations, total]
 
 
 

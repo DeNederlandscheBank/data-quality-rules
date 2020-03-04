@@ -14,12 +14,15 @@ Template references
 S.23.01.07.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.07.01,r0540 [unknown label]
-S.23.01.07.01,r0580 [unknown label]
-S.23.01.07.01,r0620 [unknown label]
+S.23.01.07.01,r0540 [total eligible own funds to meet the scr]
+
+S.23.01.07.01,r0580 [scr]
+
+S.23.01.07.01,r0620 [ratio of eligible own funds to scr]
+
 
 
 Datapoint references

@@ -14,18 +14,27 @@ Template references
 S.02.01.08.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.08.01,r0070 [unknown label]
-S.02.01.08.01,r0080 [unknown label]
-S.02.01.08.01,r0090 [unknown label]
-S.02.01.08.01,r0100 [unknown label]
-S.02.01.08.01,r0130 [unknown label]
-S.02.01.08.01,r0180 [unknown label]
-S.02.01.08.01,r0190 [unknown label]
-S.02.01.08.01,r0200 [unknown label]
-S.02.01.08.01,r0210 [unknown label]
+S.02.01.08.01,r0070 [investments (other than assets held for index-linked and unit-linked contracts)]
+
+S.02.01.08.01,r0080 [property (other than for own use)]
+
+S.02.01.08.01,r0090 [holdings in related undertakings, including participations]
+
+S.02.01.08.01,r0100 [equities]
+
+S.02.01.08.01,r0130 [bonds]
+
+S.02.01.08.01,r0180 [collective investments undertakings]
+
+S.02.01.08.01,r0190 [derivatives]
+
+S.02.01.08.01,r0200 [deposits other than cash equivalents]
+
+S.02.01.08.01,r0210 [other investments]
+
 
 
 Datapoint references

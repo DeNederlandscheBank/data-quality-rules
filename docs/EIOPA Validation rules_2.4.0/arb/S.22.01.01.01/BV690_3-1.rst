@@ -14,10 +14,10 @@ Template references
 S.22.01.01.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.01.01.01,r0050,c0010 [Eligible own funds to meet Solvency Capital Requirement , Amount with Long Term Guarantee measures and transitionals]
+S.22.01.01.01,r0050,c0010 [eligible own funds to meet solvency capital requirement, amount with long term guarantee measures and transitionals]
 
 
 

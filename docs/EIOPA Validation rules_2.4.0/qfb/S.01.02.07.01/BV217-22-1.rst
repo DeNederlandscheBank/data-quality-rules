@@ -14,10 +14,11 @@ Template references
 S.01.02.07.01 Basic Information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.07.01,c0010 [unknown label]
+S.01.02.07.01,c0010 [none]
+
 
 
 Datapoint references

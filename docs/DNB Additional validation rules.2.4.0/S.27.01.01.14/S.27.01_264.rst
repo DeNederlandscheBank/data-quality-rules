@@ -14,14 +14,14 @@ Template references
 S.27.01.01.14 Man made catastrophe risk - Liability
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.14,r2720,c0890 [Directors and officers liability , Man made catastrophe risk - Liability|Earned premium following 12 months]
+S.27.01.01.14,r2720,c0890 [directors and officers liability, earned premium following 12 months]
 
-S.27.01.01.14,r2720,c0900 [Directors and officers liability , Man made catastrophe risk - Liability|Largest liability limit provided]
+S.27.01.01.14,r2720,c0900 [directors and officers liability, largest liability limit provided]
 
-S.27.01.01.14,r2720,c0910 [Directors and officers liability , Man made catastrophe risk - Liability|Number of claims]
+S.27.01.01.14,r2720,c0910 [directors and officers liability, number of claims]
 
 
 

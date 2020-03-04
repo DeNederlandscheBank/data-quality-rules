@@ -16,11 +16,11 @@ S.25.02.01.01 Component-specific information
 S.25.02.01.02 Calculation of Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
 S.25.02.01.01,rNNN,c0030 [unknown label]
-S.25.02.01.02,r0110,c0100 [nan]
+S.25.02.01.02,r0110,c0100 [total undiversified components, none]
 
 
 

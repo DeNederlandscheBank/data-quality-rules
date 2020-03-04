@@ -14,14 +14,19 @@ Template references
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,c0100 [unknown label]
-S.12.01.01.01,c0110 [unknown label]
-S.12.01.01.01,c0120 [unknown label]
-S.12.01.01.01,c0130 [unknown label]
-S.12.01.01.01,c0140 [unknown label]
+S.12.01.01.01,c0100 [life and annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations]
+
+S.12.01.01.01,c0110 [insurance with profit participation]
+
+S.12.01.01.01,c0120 [index-linked and unit-linked insurance]
+
+S.12.01.01.01,c0130 [other life insurance]
+
+S.12.01.01.01,c0140 [annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
+
 
 
 Datapoint references

@@ -16,33 +16,34 @@ S.02.01.08.01 Balance sheet
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.08.01,r0520,c0010 [unknown label]
-S.17.01.02.01,r0320,c0050 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.02.01.08.01,r0520,c0010 [technical provisions – non-life (excluding health), solvency ii value]
 
-S.17.01.02.01,r0320,c0060 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Other motor insurance]
+S.17.01.02.01,r0320,c0050 [technical provisions - total, motor vehicle liability insurance]
 
-S.17.01.02.01,r0320,c0070 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+S.17.01.02.01,r0320,c0060 [technical provisions - total, other motor insurance]
 
-S.17.01.02.01,r0320,c0080 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Fire and other damage to property insurance]
+S.17.01.02.01,r0320,c0070 [technical provisions - total, marine, aviation and transport insurance]
 
-S.17.01.02.01,r0320,c0090 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|General liability insurance]
+S.17.01.02.01,r0320,c0080 [technical provisions - total, fire and other damage to property insurance]
 
-S.17.01.02.01,r0320,c0100 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+S.17.01.02.01,r0320,c0090 [technical provisions - total, general liability insurance]
 
-S.17.01.02.01,r0320,c0110 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+S.17.01.02.01,r0320,c0100 [technical provisions - total, credit and suretyship insurance]
 
-S.17.01.02.01,r0320,c0120 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Assistance]
+S.17.01.02.01,r0320,c0110 [technical provisions - total, legal expenses insurance]
 
-S.17.01.02.01,r0320,c0130 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Miscellaneous financial loss]
+S.17.01.02.01,r0320,c0120 [technical provisions - total, assistance]
 
-S.17.01.02.01,r0320,c0150 [Technical provisions - total|Technical provisions - total , Accepted non-proportional reinsurance|Non-proportional casualty reinsurance]
+S.17.01.02.01,r0320,c0130 [technical provisions - total, miscellaneous financial loss]
 
-S.17.01.02.01,r0320,c0160 [Technical provisions - total|Technical provisions - total , Accepted non-proportional reinsurance|Non-proportional marine, aviation and transport reinsurance]
+S.17.01.02.01,r0320,c0150 [technical provisions - total, non-proportional casualty reinsurance]
 
-S.17.01.02.01,r0320,c0170 [Technical provisions - total|Technical provisions - total , Accepted non-proportional reinsurance|Non-proportional property reinsurance]
+S.17.01.02.01,r0320,c0160 [technical provisions - total, non-proportional marine, aviation and transport reinsurance]
+
+S.17.01.02.01,r0320,c0170 [technical provisions - total, non-proportional property reinsurance]
 
 
 

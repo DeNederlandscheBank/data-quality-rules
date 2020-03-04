@@ -14,12 +14,14 @@ Template references
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.02.01,r0320,c0180 [Technical provisions - total|Technical provisions - total , Total Non-Life obligation]
+S.17.01.02.01,r0320,c0180 [technical provisions - total, total non-life obligation]
 
-SE.02.01.17.01,r0520,c0010 [unknown label]
-SE.02.01.17.01,r0560,c0010 [unknown label]
+SE.02.01.17.01,r0520,c0010 [technical provisions – non-life (excluding health), solvency ii value]
+
+SE.02.01.17.01,r0560,c0010 [technical provisions - health (similar to non-life), solvency ii value]
+
 
 

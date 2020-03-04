@@ -18,18 +18,18 @@ S.26.01.04.03 Simplifications used
 S.27.01.04.27 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0560,c0010 [nan]
+S.01.01.04.01,r0560,c0010 [s.26.07.04 - solvency capital requirement - simplifications, none]
 
-S.26.01.04.03,r0012,c0010 [r0012c0010]
+S.26.01.04.03,r0012,c0010 [simplifications spread risk – bonds and loans, simplifications used]
 
-S.26.01.04.03,r0020,c0010 [Captives simplifications - interest rate risk , Simplifications used]
+S.26.01.04.03,r0020,c0010 [captives simplifications - interest rate risk, simplifications used]
 
-S.26.01.04.03,r0030,c0010 [Captives simplifications - spread risk on bonds and loans , Simplifications used]
+S.26.01.04.03,r0030,c0010 [captives simplifications - spread risk on bonds and loans, simplifications used]
 
-S.27.01.04.27,r0002,c0001 [r0002c0001]
+S.27.01.04.27,r0002,c0001 [simplifications used – natural catastrophe risk, simplifications used]
 
 
 

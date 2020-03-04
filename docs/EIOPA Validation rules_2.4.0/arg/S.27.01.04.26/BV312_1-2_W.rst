@@ -14,12 +14,15 @@ Template references
 S.27.01.04.26 Health Catastrophe risk - Concentration accident
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.04.26,r4020 [unknown label]
-S.27.01.04.26,r4030 [unknown label]
-S.27.01.04.26,r4040 [unknown label]
+S.27.01.04.26,r4020 [total concentration accident all countries before diversification]
+
+S.27.01.04.26,r4030 [diversification effect between countries]
+
+S.27.01.04.26,r4040 [total concentration accident all countries after diversification]
+
 
 
 Datapoint references

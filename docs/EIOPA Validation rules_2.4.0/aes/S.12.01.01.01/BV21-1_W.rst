@@ -14,18 +14,18 @@ Template references
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0020,c0030 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Index-linked and unit-linked insurance|]
+S.12.01.01.01,r0020,c0030 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, none]
 
-S.12.01.01.01,r0080,c0040 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Index-linked and unit-linked insurance|Contracts without options and guarantees]
+S.12.01.01.01,r0080,c0040 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, contracts without options and guarantees]
 
-S.12.01.01.01,r0080,c0050 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Index-linked and unit-linked insurance|Contracts with options or guarantees]
+S.12.01.01.01,r0080,c0050 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, contracts with options or guarantees]
 
-S.12.01.01.01,r0200,c0030 [Technical provisions - total , Index-linked and unit-linked insurance|]
+S.12.01.01.01,r0200,c0030 [technical provisions - total, none]
 
-S.12.01.01.01,r0210,c0030 [Technical provisions minus recoverables from reinsurance/SPV and Finite Re - total , Index-linked and unit-linked insurance|]
+S.12.01.01.01,r0210,c0030 [technical provisions minus recoverables from reinsurance/spv and finite re - total, none]
 
 
 

@@ -14,12 +14,12 @@ Template references
 S.23.04.01.01 Subordinated MMA
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.04.01.01,c0005 [Y-axis (YG): S.23.04.zz.01 line identification , Y-axis (YG): Line identification]
+S.23.04.01.01,c0005 [*artificial key*|"mandatory"]
 
-S.23.04.01.01,c0040 [S.23.04.zz.01 line identification , Currency Code]
+S.23.04.01.01,c0040 [currency code]
 
 
 

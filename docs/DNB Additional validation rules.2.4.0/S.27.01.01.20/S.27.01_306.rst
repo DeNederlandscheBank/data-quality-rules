@@ -14,10 +14,10 @@ Template references
 S.27.01.01.20 Health Catastrophe risk - Mass accident
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.20,r3620,c1300 [Health Catastrophe risk - Mass accident|Diversification effect between countries , Catastrophe Risk Charge after risk mitigation]
+S.27.01.01.20,r3620,c1300 [diversification effect between countries, catastrophe risk charge after risk mitigation]
 
 
 

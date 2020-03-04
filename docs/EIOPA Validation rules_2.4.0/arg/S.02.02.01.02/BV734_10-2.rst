@@ -16,12 +16,12 @@ S.01.02.04.01 Basic Information - General
 S.02.02.01.02 Material currencies
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.04.01,r0110,c0010 [nan]
+S.01.02.04.01,r0110,c0010 [currency used for reporting, none]
 
-S.02.02.01.02,r0130,c0050 [Liabilities|Deposits from reinsurers and insurance, intermediaries and reinsurance payables , Value of material currencies|Original/exposure currency]
+S.02.02.01.02,r0130,c0050 [deposits from reinsurers and insurance, intermediaries and reinsurance payables, temporary identifier for currency 2]
 
 
 

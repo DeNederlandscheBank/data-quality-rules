@@ -16,22 +16,22 @@ S.17.01.01.01 Non-Life Technical Provisions
 S.28.02.01.02 Background information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0010,c0090 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|General liability insurance]
+S.17.01.01.01,r0010,c0090 [technical provisions calculated as a whole, general liability insurance]
 
-S.17.01.01.01,r0050,c0090 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Direct business and accepted proportional reinsurance|General liability insurance]
+S.17.01.01.01,r0050,c0090 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, general liability insurance]
 
-S.17.01.01.01,r0270,c0090 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - net , Direct business and accepted proportional reinsurance|General liability insurance]
+S.17.01.01.01,r0270,c0090 [total best estimate - net, general liability insurance]
 
-S.17.01.01.01,r0290,c0090 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|General liability insurance]
+S.17.01.01.01,r0290,c0090 [tp as a whole, general liability insurance]
 
-S.17.01.01.01,r0300,c0090 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|General liability insurance]
+S.17.01.01.01,r0300,c0090 [best estimate, general liability insurance]
 
-S.28.02.01.02,r0090,c0030 [General liability insurance and proportional reinsurance , Background information|Non-life activities|Net (of reinsurance/ SPV) best estimate and TP calculated as a whole]
+S.28.02.01.02,r0090,c0030 [general liability insurance and proportional reinsurance, net (of reinsurance/ spv) best estimate and tp calculated as a whole]
 
-S.28.02.01.02,r0090,c0050 [General liability insurance and proportional reinsurance , Background information|Life activities|Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+S.28.02.01.02,r0090,c0050 [general liability insurance and proportional reinsurance, net (of reinsurance/spv) best estimate and tp calculated as a whole]
 
 
 

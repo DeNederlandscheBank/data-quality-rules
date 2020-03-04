@@ -16,13 +16,14 @@ S.02.01.07.01 Balance sheet
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0630,c0010 [unknown label]
-S.12.01.01.01,r0030,c0210 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Total (Health similar to life insurance)]
+S.02.01.07.01,r0630,c0010 [best estimate, solvency ii value]
 
-S.12.01.01.01,r0120,c0210 [Amount of the transitional on Technical Provisions|Best estimate , Total (Health similar to life insurance)]
+S.12.01.01.01,r0030,c0210 [gross best estimate, total (health similar to life insurance)]
+
+S.12.01.01.01,r0120,c0210 [best estimate, total (health similar to life insurance)]
 
 
 

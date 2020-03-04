@@ -16,14 +16,14 @@ S.26.04.01.01 SLT health underwriting risk
 S.26.04.01.09 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.04.01.01,r0400,c0060 [SLT health lapse risk , Absolute values after shock|Net solvency capital requirement]
+S.26.04.01.01,r0400,c0060 [slt health lapse risk, net solvency capital requirement]
 
-S.26.04.01.01,r0400,c0080 [SLT health lapse risk , Absolute values after shock|Gross solvency capital requirement]
+S.26.04.01.01,r0400,c0080 [slt health lapse risk, gross solvency capital requirement]
 
-S.26.04.01.09,r0050,c0010 [Simplifications - SLT lapse risk , Simplifications used]
+S.26.04.01.09,r0050,c0010 [simplifications - slt lapse risk, simplifications used]
 
 
 

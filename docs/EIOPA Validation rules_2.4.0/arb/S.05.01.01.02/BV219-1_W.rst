@@ -14,12 +14,15 @@ Template references
 S.05.01.01.02 Life
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.01.02,r2010 [unknown label]
-S.05.01.01.02,r2020 [unknown label]
-S.05.01.01.02,r2100 [unknown label]
+S.05.01.01.02,r2010 [gross]
+
+S.05.01.01.02,r2020 [reinsurers' share]
+
+S.05.01.01.02,r2100 [net]
+
 
 
 Datapoint references

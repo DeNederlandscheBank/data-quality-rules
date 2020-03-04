@@ -18,22 +18,22 @@ S.17.02.01.01 Gross TP calculated as a whole and Gross BE for different countrie
 S.17.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0010,c0040 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+S.17.01.01.01,r0010,c0040 [technical provisions calculated as a whole, workers' compensation insurance]
 
-S.17.01.01.01,r0260,c0040 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+S.17.01.01.01,r0260,c0040 [total best estimate - gross, workers' compensation insurance]
 
-S.17.01.01.01,r0290,c0040 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+S.17.01.01.01,r0290,c0040 [tp as a whole, workers' compensation insurance]
 
-S.17.01.01.01,r0300,c0040 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+S.17.01.01.01,r0300,c0040 [best estimate, workers' compensation insurance]
 
-S.17.02.01.01,r0010,c0040 [Home country , Direct business|Workers' compensation insurance]
+S.17.02.01.01,r0010,c0040 [home country, workers' compensation insurance]
 
-S.17.02.01.01,r0020,c0040 [EEA countries outside the materiality threshold - not reported by country , Direct business|Workers' compensation insurance]
+S.17.02.01.01,r0020,c0040 [eea countries outside the materiality threshold - not reported by country, workers' compensation insurance]
 
-S.17.02.01.01,r0030,c0040 [Non-EEA countries outside the materiality threshold - not reported by country , Direct business|Workers' compensation insurance]
+S.17.02.01.01,r0030,c0040 [non-eea countries outside the materiality threshold - not reported by country, workers' compensation insurance]
 
 S.17.02.01.02,r0040,c0040,snnn [unknown label]
 

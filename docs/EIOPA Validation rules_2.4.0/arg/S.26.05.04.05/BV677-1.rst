@@ -18,18 +18,18 @@ S.26.05.04.01 Non-life premium and reserve Risk
 S.26.05.04.05 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.01.01,r0200,c0090 [Premiums written|Net , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Credit and suretyship insurance]
+S.05.01.01.01,r0200,c0090 [net, credit and suretyship insurance]
 
-S.26.05.04.01,r0150,c0060 [Credit and suretyship , Volume measure for premium and reserve risk|Vprem]
+S.26.05.04.01,r0150,c0060 [credit and suretyship, vprem]
 
-S.26.05.04.01,r0150,c0070 [Credit and suretyship , Volume measure for premium and reserve risk|Vres]
+S.26.05.04.01,r0150,c0070 [credit and suretyship, vres]
 
-S.26.05.04.01,r0150,c0090 [Credit and suretyship , Volume measure for premium and reserve risk|V]
+S.26.05.04.01,r0150,c0090 [credit and suretyship, v]
 
-S.26.05.04.05,r0010,c0010 [Captives simplifications - premium and reserve risk , Simplifications used]
+S.26.05.04.05,r0010,c0010 [captives simplifications - premium and reserve risk, simplifications used]
 
 
 

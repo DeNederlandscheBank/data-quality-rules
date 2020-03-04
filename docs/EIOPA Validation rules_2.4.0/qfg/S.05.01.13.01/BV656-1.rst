@@ -14,26 +14,44 @@ Template references
 S.05.01.13.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.13.01,r0550,c0010 [unknown label]
-S.05.01.13.01,r0550,c0020 [unknown label]
-S.05.01.13.01,r0550,c0030 [unknown label]
-S.05.01.13.01,r0550,c0040 [unknown label]
-S.05.01.13.01,r0550,c0050 [unknown label]
-S.05.01.13.01,r0550,c0060 [unknown label]
-S.05.01.13.01,r0550,c0070 [unknown label]
-S.05.01.13.01,r0550,c0080 [unknown label]
-S.05.01.13.01,r0550,c0090 [unknown label]
-S.05.01.13.01,r0550,c0100 [unknown label]
-S.05.01.13.01,r0550,c0110 [unknown label]
-S.05.01.13.01,r0550,c0120 [unknown label]
-S.05.01.13.01,r0550,c0130 [unknown label]
-S.05.01.13.01,r0550,c0140 [unknown label]
-S.05.01.13.01,r0550,c0150 [unknown label]
-S.05.01.13.01,r0550,c0160 [unknown label]
-S.05.01.13.01,r1200,c0200 [unknown label]
-S.05.01.13.01,r1300,c0200 [unknown label]
+S.05.01.13.01,r0550,c0010 [expenses incurred, medical expense insurance]
+
+S.05.01.13.01,r0550,c0020 [expenses incurred, income protection insurance]
+
+S.05.01.13.01,r0550,c0030 [expenses incurred, workers' compensation insurance]
+
+S.05.01.13.01,r0550,c0040 [expenses incurred, motor vehicle liability insurance]
+
+S.05.01.13.01,r0550,c0050 [expenses incurred, other motor insurance]
+
+S.05.01.13.01,r0550,c0060 [expenses incurred, marine, aviation and transport insurance]
+
+S.05.01.13.01,r0550,c0070 [expenses incurred, fire and other damage to property insurance]
+
+S.05.01.13.01,r0550,c0080 [expenses incurred, general liability insurance]
+
+S.05.01.13.01,r0550,c0090 [expenses incurred, credit and suretyship insurance]
+
+S.05.01.13.01,r0550,c0100 [expenses incurred, legal expenses insurance]
+
+S.05.01.13.01,r0550,c0110 [expenses incurred, assistance]
+
+S.05.01.13.01,r0550,c0120 [expenses incurred, miscellaneous financial loss]
+
+S.05.01.13.01,r0550,c0130 [expenses incurred, health]
+
+S.05.01.13.01,r0550,c0140 [expenses incurred, casualty]
+
+S.05.01.13.01,r0550,c0150 [expenses incurred, marine, aviation, transport]
+
+S.05.01.13.01,r0550,c0160 [expenses incurred, property]
+
+S.05.01.13.01,r1200,c0200 [other expenses, total]
+
+S.05.01.13.01,r1300,c0200 [total expenses, total]
+
 
 

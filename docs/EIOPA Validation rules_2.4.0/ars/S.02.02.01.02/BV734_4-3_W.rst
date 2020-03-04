@@ -16,12 +16,12 @@ S.01.02.01.01 Basic Information - General
 S.02.02.01.02 Material currencies
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0110,c0010 [nan]
+S.01.02.01.01,r0110,c0010 [currency used for reporting, none]
 
-S.02.02.01.02,r0050,c0050 [Assets|Reinsurance recoverables , Value of material currencies|Original/exposure currency]
+S.02.02.01.02,r0050,c0050 [reinsurance recoverables, temporary identifier for currency 2]
 
 
 

@@ -14,10 +14,11 @@ Template references
 S.29.02.01.01 Excess of Assets over Liabilities - explained by investments and financial liabilities
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.29.02.01.01,r0040 [unknown label]
+S.29.02.01.01,r0040 [investment revenues]
+
 S.29.02.01.01,r0070-0100 [unknown label]
 
 

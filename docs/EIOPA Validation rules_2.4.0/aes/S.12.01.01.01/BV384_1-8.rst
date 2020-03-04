@@ -14,13 +14,14 @@ Template references
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0100,c0210 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Total (Health similar to life insurance)]
+S.12.01.01.01,r0100,c0210 [risk margin, total (health similar to life insurance)]
 
-S.12.01.01.01,r0130,c0210 [Amount of the transitional on Technical Provisions|Risk margin , Total (Health similar to life insurance)]
+S.12.01.01.01,r0130,c0210 [risk margin, total (health similar to life insurance)]
 
-SE.02.01.16.01,r0640,c0010 [unknown label]
+SE.02.01.16.01,r0640,c0010 [risk margin, solvency ii value]
+
 
 

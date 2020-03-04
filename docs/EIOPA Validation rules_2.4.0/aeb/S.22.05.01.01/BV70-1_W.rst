@@ -14,14 +14,19 @@ Template references
 S.22.05.01.01 Overall calculation of the transitional on technical provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.05.01.01,r0020 [unknown label]
-S.22.05.01.01,r0030 [unknown label]
-S.22.05.01.01,r0040 [unknown label]
-S.22.05.01.01,r0070 [unknown label]
-S.22.05.01.01,r0080 [unknown label]
+S.22.05.01.01,r0020 [tp calculated as a whole]
+
+S.22.05.01.01,r0030 [best estimate]
+
+S.22.05.01.01,r0040 [risk magin]
+
+S.22.05.01.01,r0070 [limitation applied in accordance to article 308d(4)]
+
+S.22.05.01.01,r0080 [technical provision after transitional on technical provisions]
+
 
 
 Datapoint references

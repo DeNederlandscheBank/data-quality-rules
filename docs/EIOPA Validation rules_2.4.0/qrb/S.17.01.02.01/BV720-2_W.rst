@@ -16,12 +16,14 @@ S.02.01.08.01 Balance sheet
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.08.01,r0290,c0010 [unknown label]
-S.02.01.08.01,r0300,c0010 [unknown label]
-S.17.01.02.01,r0330,c0180 [Technical provisions - total|Recoverable from reinsurance contract/SPV and Finite Re after the adjustment for expected losses due to counterparty default - total , Total Non-Life obligation]
+S.02.01.08.01,r0290,c0010 [non-life excluding health, solvency ii value]
+
+S.02.01.08.01,r0300,c0010 [health similar to non-life, solvency ii value]
+
+S.17.01.02.01,r0330,c0180 [recoverable from reinsurance contract/spv and finite re after the adjustment for expected losses due to counterparty default - total, total non-life obligation]
 
 
 

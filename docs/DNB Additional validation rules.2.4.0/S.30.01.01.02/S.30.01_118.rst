@@ -14,12 +14,11 @@ Template references
 S.30.01.01.02 Facultative covers life (10 most important risks in terms of reinsured exposure)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.30.01.01.02,c0200 [Y-axis (RD): Facultative reinsurance placement identification code|Risk identification code|Reinsurance program code , Y-axis (RD): Risk identification code]
-
-S.30.01.01.02,c0270 [Facultative reinsurance placement identification code|Risk identification code|Reinsurance program code , Validity period (expiry date)]
+S.30.01.01.02,c0200 [unknown label]
+S.30.01.01.02,c0270 [validity period (expiry date)]
 
 
 

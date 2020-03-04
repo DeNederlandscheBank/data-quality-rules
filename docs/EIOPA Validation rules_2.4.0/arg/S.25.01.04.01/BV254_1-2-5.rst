@@ -16,13 +16,13 @@ S.01.01.04.01 Content of the submission
 S.25.01.04.01 Basic Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0460,c0010 [nan]
+S.01.01.04.01,r0460,c0010 [s.25.01.04 - solvency capital requirement - for groups on standard formula, none]
 
 S.25.01.04.01,r0010-0070,c0040 [unknown label]
-S.25.01.04.01,r0100,c0040 [Basic Solvency Capital Requirement , Gross solvency capital requirement]
+S.25.01.04.01,r0100,c0040 [basic solvency capital requirement, gross solvency capital requirement]
 
 
 

@@ -11,11 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.03
+S.27.01.04.03 Natural Catastrophe risk - Earthquake
 
-Datapoints
-----------
 
-S.27.01.04.03,r1240 [unknown label]
+Datapoints labels
+-----------------
+
+S.27.01.04.03,r1240 [diversification effect between regions]
+
 
 

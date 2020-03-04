@@ -11,17 +11,19 @@ Rule definition
 Template references
 -------------------
 
-S.26.01.04.01
-S.26.01.04.02
+S.26.01.04.01 Market risk - basic information, part 1
 
-Datapoints
-----------
+S.26.01.04.02 Market risk - basic information, part 2
+
+
+Datapoints labels
+-----------------
 
 S.26.01.04.01,r0420,c0020 [unknown label]
 S.26.01.04.01,r0420,c0030 [unknown label]
 S.26.01.04.01,r0420,c0040 [unknown label]
 S.26.01.04.01,r0420,c0070 [unknown label]
-S.26.01.04.02,r0420,c0080 [Spread risk|credit derivatives , Absolute values after shock|Gross solvency capital requirement]
+S.26.01.04.02,r0420,c0080 [credit derivatives, gross solvency capital requirement]
 
 
 

@@ -18,24 +18,24 @@ S.12.01.01.01 Life and Health SLT Technical Provisions
 S.17.01.01.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.01.01,r0270,c0010 [Assets|Reinsurance recoverables from: , Solvency II value]
+S.02.01.01.01,r0270,c0010 [reinsurance recoverables from:, solvency ii value]
 
-S.12.01.01.01,r0020,c0150 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Total (Life other than health insurance, incl. Unit-Linked)]
+S.12.01.01.01,r0020,c0150 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, total (life other than health insurance, incl. unit-linked)]
 
-S.12.01.01.01,r0020,c0210 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Total (Health similar to life insurance)]
+S.12.01.01.01,r0020,c0210 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, total (health similar to life insurance)]
 
-S.12.01.01.01,r0080,c0150 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Total (Life other than health insurance, incl. Unit-Linked)]
+S.12.01.01.01,r0080,c0150 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, total (life other than health insurance, incl. unit-linked)]
 
-S.12.01.01.01,r0080,c0210 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Total (Health similar to life insurance)]
+S.12.01.01.01,r0080,c0210 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, total (health similar to life insurance)]
 
-S.17.01.01.01,r0050,c0180 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Total Non-Life obligation]
+S.17.01.01.01,r0050,c0180 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, total non-life obligation]
 
-S.17.01.01.01,r0140,c0180 [Technical provisions calculated as a sum of BE and RM|Best estimate|Premium provisions|Total recoverable from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Total Non-Life obligation]
+S.17.01.01.01,r0140,c0180 [total recoverable from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, total non-life obligation]
 
-S.17.01.01.01,r0240,c0180 [Technical provisions calculated as a sum of BE and RM|Best estimate|Claims provisions|Total recoverable from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Total Non-Life obligation]
+S.17.01.01.01,r0240,c0180 [total recoverable from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, total non-life obligation]
 
 
 

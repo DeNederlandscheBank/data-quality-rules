@@ -16,11 +16,12 @@ S.01.02.07.01 Basic Information
 S.22.01.01.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.07.01,r0170,c0010 [unknown label]
-S.22.01.01.01,r0060,c0090 [Eligible own funds to meet Solvency Capital Requirement|Tier 1 , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of matching adjustment set to zero]
+S.01.02.07.01,r0170,c0010 [matching adjustment, none]
+
+S.22.01.01.01,r0060,c0090 [tier 1, impact of matching adjustment set to zero]
 
 
 

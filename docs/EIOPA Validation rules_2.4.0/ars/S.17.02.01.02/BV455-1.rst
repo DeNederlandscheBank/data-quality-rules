@@ -18,22 +18,22 @@ S.17.02.01.01 Gross TP calculated as a whole and Gross BE for different countrie
 S.17.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0010,c0110 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+S.17.01.01.01,r0010,c0110 [technical provisions calculated as a whole, legal expenses insurance]
 
-S.17.01.01.01,r0260,c0110 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+S.17.01.01.01,r0260,c0110 [total best estimate - gross, legal expenses insurance]
 
-S.17.01.01.01,r0290,c0110 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+S.17.01.01.01,r0290,c0110 [tp as a whole, legal expenses insurance]
 
-S.17.01.01.01,r0300,c0110 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+S.17.01.01.01,r0300,c0110 [best estimate, legal expenses insurance]
 
-S.17.02.01.01,r0010,c0110 [Home country , Direct business|Legal expenses insurance]
+S.17.02.01.01,r0010,c0110 [home country, legal expenses insurance]
 
-S.17.02.01.01,r0020,c0110 [EEA countries outside the materiality threshold - not reported by country , Direct business|Legal expenses insurance]
+S.17.02.01.01,r0020,c0110 [eea countries outside the materiality threshold - not reported by country, legal expenses insurance]
 
-S.17.02.01.01,r0030,c0110 [Non-EEA countries outside the materiality threshold - not reported by country , Direct business|Legal expenses insurance]
+S.17.02.01.01,r0030,c0110 [non-eea countries outside the materiality threshold - not reported by country, legal expenses insurance]
 
 S.17.02.01.02,r0040,c0110,snnn [unknown label]
 

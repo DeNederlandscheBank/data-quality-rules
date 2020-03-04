@@ -14,19 +14,29 @@ Template references
 S.23.01.01.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.01.01,r0010 [unknown label]
-S.23.01.01.01,r0030 [unknown label]
-S.23.01.01.01,r0040 [unknown label]
-S.23.01.01.01,r0050 [unknown label]
-S.23.01.01.01,r0090 [unknown label]
-S.23.01.01.01,r0110 [unknown label]
-S.23.01.01.01,r0140 [unknown label]
-S.23.01.01.01,r0180 [unknown label]
-S.23.01.01.01,r0230 [unknown label]
-S.23.01.01.01,r0290 [unknown label]
+S.23.01.01.01,r0010 [ordinary share capital (gross of own shares)]
+
+S.23.01.01.01,r0030 [share premium account related to ordinary share capital]
+
+S.23.01.01.01,r0040 [initial funds, members' contributions or the equivalent basic own - fund item for mutual and mutual-type undertakings]
+
+S.23.01.01.01,r0050 [subordinated mutual member accounts]
+
+S.23.01.01.01,r0090 [preference shares]
+
+S.23.01.01.01,r0110 [share premium account related to preference shares]
+
+S.23.01.01.01,r0140 [subordinated liabilities]
+
+S.23.01.01.01,r0180 [other own fund items approved by the supervisory authority as basic own funds not specified above]
+
+S.23.01.01.01,r0230 [deductions for participations in financial and credit institutions]
+
+S.23.01.01.01,r0290 [total basic own funds after deductions]
+
 
 
 Datapoint references

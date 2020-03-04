@@ -14,13 +14,17 @@ Template references
 S.26.01.01.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.01.02,r0400 [unknown label]
-S.26.01.01.02,r0410 [unknown label]
-S.26.01.01.02,r0420 [unknown label]
-S.26.01.01.02,r0450 [unknown label]
+S.26.01.01.02,r0400 [spread risk]
+
+S.26.01.01.02,r0410 [bonds and loans]
+
+S.26.01.01.02,r0420 [credit derivatives]
+
+S.26.01.01.02,r0450 [securitisation positions]
+
 
 
 Datapoint references

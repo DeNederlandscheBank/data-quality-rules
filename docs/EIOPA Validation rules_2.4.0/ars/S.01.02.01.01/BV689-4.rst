@@ -16,24 +16,24 @@ S.01.01.01.01 Content of the submission
 S.01.02.01.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.01.01,r0370,c0010 [nan]
+S.01.01.01.01,r0370,c0010 [s.22.01.01 - impact of long term guarantees measures and transitionals, none]
 
-S.01.01.01.01,r0380,c0010 [nan]
+S.01.01.01.01,r0380,c0010 [s.22.04.01 - information on the transitional on interest rates calculation, none]
 
-S.01.01.01.01,r0390,c0010 [nan]
+S.01.01.01.01,r0390,c0010 [s.22.05.01 - overall calculation of the transitional on technical provisions, none]
 
-S.01.01.01.01,r0400,c0010 [nan]
+S.01.01.01.01,r0400,c0010 [s.22.06.01 - best estimate subject to volatility adjustment by country and currency, none]
 
-S.01.02.01.01,r0170,c0010 [nan]
+S.01.02.01.01,r0170,c0010 [matching adjustment, none]
 
-S.01.02.01.01,r0180,c0010 [nan]
+S.01.02.01.01,r0180,c0010 [volatility adjustment, none]
 
-S.01.02.01.01,r0190,c0010 [nan]
+S.01.02.01.01,r0190,c0010 [transitional measure on the risk-free interest rate, none]
 
-S.01.02.01.01,r0200,c0010 [nan]
+S.01.02.01.01,r0200,c0010 [transitional measure on technical provisions, none]
 
 
 

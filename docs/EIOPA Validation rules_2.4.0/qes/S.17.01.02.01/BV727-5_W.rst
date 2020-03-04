@@ -14,57 +14,58 @@ Template references
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.02.01,r0280,c0050 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.02.01,r0280,c0050 [risk margin, motor vehicle liability insurance]
 
-S.17.01.02.01,r0280,c0060 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Other motor insurance]
+S.17.01.02.01,r0280,c0060 [risk margin, other motor insurance]
 
-S.17.01.02.01,r0280,c0070 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+S.17.01.02.01,r0280,c0070 [risk margin, marine, aviation and transport insurance]
 
-S.17.01.02.01,r0280,c0080 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Fire and other damage to property insurance]
+S.17.01.02.01,r0280,c0080 [risk margin, fire and other damage to property insurance]
 
-S.17.01.02.01,r0280,c0090 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|General liability insurance]
+S.17.01.02.01,r0280,c0090 [risk margin, general liability insurance]
 
-S.17.01.02.01,r0280,c0100 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+S.17.01.02.01,r0280,c0100 [risk margin, credit and suretyship insurance]
 
-S.17.01.02.01,r0280,c0110 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+S.17.01.02.01,r0280,c0110 [risk margin, legal expenses insurance]
 
-S.17.01.02.01,r0280,c0120 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Assistance]
+S.17.01.02.01,r0280,c0120 [risk margin, assistance]
 
-S.17.01.02.01,r0280,c0130 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Miscellaneous financial loss]
+S.17.01.02.01,r0280,c0130 [risk margin, miscellaneous financial loss]
 
-S.17.01.02.01,r0280,c0150 [Technical provisions calculated as a sum of BE and RM|Risk margin , Accepted non-proportional reinsurance|Non-proportional casualty reinsurance]
+S.17.01.02.01,r0280,c0150 [risk margin, non-proportional casualty reinsurance]
 
-S.17.01.02.01,r0280,c0160 [Technical provisions calculated as a sum of BE and RM|Risk margin , Accepted non-proportional reinsurance|Non-proportional marine, aviation and transport reinsurance]
+S.17.01.02.01,r0280,c0160 [risk margin, non-proportional marine, aviation and transport reinsurance]
 
-S.17.01.02.01,r0280,c0170 [Technical provisions calculated as a sum of BE and RM|Risk margin , Accepted non-proportional reinsurance|Non-proportional property reinsurance]
+S.17.01.02.01,r0280,c0170 [risk margin, non-proportional property reinsurance]
 
-S.17.01.02.01,r0310,c0050 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.02.01,r0310,c0050 [risk margin, motor vehicle liability insurance]
 
-S.17.01.02.01,r0310,c0060 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Other motor insurance]
+S.17.01.02.01,r0310,c0060 [risk margin, other motor insurance]
 
-S.17.01.02.01,r0310,c0070 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+S.17.01.02.01,r0310,c0070 [risk margin, marine, aviation and transport insurance]
 
-S.17.01.02.01,r0310,c0080 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Fire and other damage to property insurance]
+S.17.01.02.01,r0310,c0080 [risk margin, fire and other damage to property insurance]
 
-S.17.01.02.01,r0310,c0090 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|General liability insurance]
+S.17.01.02.01,r0310,c0090 [risk margin, general liability insurance]
 
-S.17.01.02.01,r0310,c0100 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+S.17.01.02.01,r0310,c0100 [risk margin, credit and suretyship insurance]
 
-S.17.01.02.01,r0310,c0110 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+S.17.01.02.01,r0310,c0110 [risk margin, legal expenses insurance]
 
-S.17.01.02.01,r0310,c0120 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Assistance]
+S.17.01.02.01,r0310,c0120 [risk margin, assistance]
 
-S.17.01.02.01,r0310,c0130 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Direct business and accepted proportional reinsurance|Miscellaneous financial loss]
+S.17.01.02.01,r0310,c0130 [risk margin, miscellaneous financial loss]
 
-S.17.01.02.01,r0310,c0150 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Accepted non-proportional reinsurance|Non-proportional casualty reinsurance]
+S.17.01.02.01,r0310,c0150 [risk margin, non-proportional casualty reinsurance]
 
-S.17.01.02.01,r0310,c0160 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Accepted non-proportional reinsurance|Non-proportional marine, aviation and transport reinsurance]
+S.17.01.02.01,r0310,c0160 [risk margin, non-proportional marine, aviation and transport reinsurance]
 
-S.17.01.02.01,r0310,c0170 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Accepted non-proportional reinsurance|Non-proportional property reinsurance]
+S.17.01.02.01,r0310,c0170 [risk margin, non-proportional property reinsurance]
 
-SE.02.01.17.01,r0550,c0010 [unknown label]
+SE.02.01.17.01,r0550,c0010 [risk margin, solvency ii value]
+
 
 

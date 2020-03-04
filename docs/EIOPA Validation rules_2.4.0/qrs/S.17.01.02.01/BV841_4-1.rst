@@ -14,10 +14,10 @@ Template references
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.02.01,r0280,c0050 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.02.01,r0280,c0050 [risk margin, motor vehicle liability insurance]
 
 
 

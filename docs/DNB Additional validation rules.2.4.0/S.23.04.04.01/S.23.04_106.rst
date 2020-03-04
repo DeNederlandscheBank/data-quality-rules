@@ -11,14 +11,15 @@ IF {S.23.04.04.01,c0020} > 0 THEN {S.23.04.04.01,c0030} <> " "
 Template references
 -------------------
 
-S.23.04.04.01
+S.23.04.04.01 Subordinated MMA
 
-Datapoints
-----------
 
-S.23.04.04.01,c0020 [S.23.04.zz.01 line identification , Amount]
+Datapoints labels
+-----------------
 
-S.23.04.04.01,c0030 [S.23.04.zz.01 line identification , Tier]
+S.23.04.04.01,c0020 [amount]
+
+S.23.04.04.01,c0030 [tier]
 
 
 

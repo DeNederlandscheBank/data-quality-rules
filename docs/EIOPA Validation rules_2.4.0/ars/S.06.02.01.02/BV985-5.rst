@@ -14,12 +14,12 @@ Template references
 S.06.02.01.02 Information on assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.02.01.02,c0270 [URI , Issuer Country]
+S.06.02.01.02,c0270 [issuer country]
 
-S.06.02.01.02,c0290 [URI , CIC]
+S.06.02.01.02,c0290 [cic]
 
 
 

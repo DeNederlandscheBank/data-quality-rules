@@ -14,13 +14,17 @@ Template references
 S.27.01.04.07 Catastrophe risk - Non-proportional property reinsurance
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.04.07,c0480 [unknown label]
-S.27.01.04.07,c0490 [unknown label]
-S.27.01.04.07,c0500 [unknown label]
-S.27.01.04.07,c0510 [unknown label]
+S.27.01.04.07,c0480 [catastrophe risk charge before risk mitigation]
+
+S.27.01.04.07,c0490 [estimated risk mitigation]
+
+S.27.01.04.07,c0500 [estimated reinstatement premiums]
+
+S.27.01.04.07,c0510 [catastrophe risk charge after risk mitigation]
+
 
 
 Datapoint references

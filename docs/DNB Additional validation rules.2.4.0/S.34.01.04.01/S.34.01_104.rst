@@ -11,14 +11,15 @@ IF {S.34.01.04.01,c0050} <> "NO CAPITAL REQUIREMENT" THEN SUM({S.34.01.04.01,c00
 Template references
 -------------------
 
-S.34.01.04.01
+S.34.01.04.01 Other regulated and non-regulated financial undertakings including insurance holding companies and mixed financial holding company individual requirements
 
-Datapoints
-----------
 
-S.34.01.04.01,c0050 [Identification code of entity , Type of capital requirement]
+Datapoints labels
+-----------------
 
-S.34.01.04.01,c0080 [Identification code of entity , Notional or Sectoral Eligible Own Funds]
+S.34.01.04.01,c0050 [type of capital requirement]
+
+S.34.01.04.01,c0080 [notional or sectoral eligible own funds]
 
 
 

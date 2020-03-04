@@ -16,11 +16,12 @@ S.02.01.07.01 Balance sheet
 S.03.01.01.01 Value of guarantee / collateral / contingent liabilities
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0740,c0010 [unknown label]
-S.03.01.01.01,r0330,c0020 [Contingent liabilities|Contingent liabilities in Solvency II Balance Sheet , Value of guarantee / collateral / contingent liabilities]
+S.02.01.07.01,r0740,c0010 [contingent liabilities, solvency ii value]
+
+S.03.01.01.01,r0330,c0020 [contingent liabilities in solvency ii balance sheet, value of guarantee / collateral / contingent liabilities]
 
 
 

@@ -14,10 +14,10 @@ Template references
 S.02.01.01.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.01.01,r0410,c0010 [Assets|Cash and cash equivalents , Solvency II value]
+S.02.01.01.01,r0410,c0010 [cash and cash equivalents, solvency ii value]
 
 
 

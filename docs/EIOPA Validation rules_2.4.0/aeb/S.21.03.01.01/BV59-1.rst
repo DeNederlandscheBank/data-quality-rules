@@ -14,11 +14,12 @@ Template references
 S.21.03.01.01 Non-life underwriting mass risks
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
 S.21.03.01.01,r0010-0210 [unknown label]
-S.21.03.01.01,r0220 [unknown label]
+S.21.03.01.01,r0220 [total]
+
 
 
 Datapoint references

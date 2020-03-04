@@ -11,18 +11,21 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.16
-S.27.01.04.17
-S.27.01.04.18
+S.27.01.04.16 Man made catastrophe risk - Credit & Suretyship - Large Credit Default
 
-Datapoints
-----------
+S.27.01.04.17 Man made catastrophe risk - Credit & Suretyship - Recession Risk
 
-S.27.01.04.16,r2920,c1010 [Total , Man made catastrophe risk - Credit & Suretyship - Large Credit Default|Catastrophe Risk Charge Credit & Surety before risk mitigation - Large Credit Default]
+S.27.01.04.18 Man made catastrophe risk - Credit & Suretyship
 
-S.27.01.04.17,r3000,c1060 [Total , Man made catastrophe risk - Credit & Suretyship - Recession Risk|Catastrophe Risk Charge Credit & Suretyship before risk mitigation - Recession Risk]
 
-S.27.01.04.18,r3120,c1100 [Total after diversification , Man made catastrophe risk - Credit & Suretyship|Catastrophe Risk Charge Credit & Suretyship before risk mitigation]
+Datapoints labels
+-----------------
+
+S.27.01.04.16,r2920,c1010 [total, catastrophe risk charge credit & surety before risk mitigation - large credit default]
+
+S.27.01.04.17,r3000,c1060 [total, catastrophe risk charge credit & suretyship before risk mitigation - recession risk]
+
+S.27.01.04.18,r3120,c1100 [total after diversification, catastrophe risk charge credit & suretyship before risk mitigation]
 
 
 

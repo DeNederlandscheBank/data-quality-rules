@@ -14,12 +14,13 @@ Template references
 S.01.02.01.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0190,c0010 [nan]
+S.01.02.01.01,r0190,c0010 [transitional measure on the risk-free interest rate, none]
 
-SE.01.01.16.01,r0380,c0010 [unknown label]
+SE.01.01.16.01,r0380,c0010 [s.22.04.01 - information on the transitional on interest rates calculation, none]
+
 
 
 Datapoint references

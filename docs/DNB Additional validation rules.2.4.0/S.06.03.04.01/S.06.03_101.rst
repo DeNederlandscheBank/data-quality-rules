@@ -11,14 +11,14 @@ IF {S.06.03.04.01,c0010}<>" " THEN {S.06.03.04.01,c0030}<>" "
 Template references
 -------------------
 
-S.06.03.04.01
+S.06.03.04.01 Collective investment undertakings - look-through approach
 
-Datapoints
-----------
 
-S.06.03.04.01,c0010 [Y-axis (UI): URI|S.06.03.zz.01 line identification , Y-axis (UI): Collective Investments Undertaking ID Code and Type of code]
+Datapoints labels
+-----------------
 
-S.06.03.04.01,c0030 [URI|S.06.03.zz.01 line identification , Underlying asset category]
+S.06.03.04.01,c0010 [unknown label]
+S.06.03.04.01,c0030 [underlying asset category]
 
 
 

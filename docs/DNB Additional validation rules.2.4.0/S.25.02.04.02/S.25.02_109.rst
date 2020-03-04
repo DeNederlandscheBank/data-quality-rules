@@ -11,12 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.25.02.04.02
+S.25.02.04.02 Calculation of Solvency Capital Requirement
 
-Datapoints
-----------
 
-S.25.02.04.02,r0060,c0100 [nan]
+Datapoints labels
+-----------------
+
+S.25.02.04.02,r0060,c0100 [diversification, none]
 
 
 

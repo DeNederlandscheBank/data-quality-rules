@@ -16,12 +16,15 @@ S.01.01.07.01 Content of the submission
 S.01.02.07.01 Basic Information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.07.01,r0020,c0010 [unknown label]
-S.01.02.07.01,r0150,c0010 [unknown label]
-S.01.02.07.01,r0170,c0010 [unknown label]
+S.01.01.07.01,r0020,c0010 [s.01.03.01 - basic information - rff and matching adjustment portfolios, none]
+
+S.01.02.07.01,r0150,c0010 [ring-fenced funds, none]
+
+S.01.02.07.01,r0170,c0010 [matching adjustment, none]
+
 
 
 Datapoint references

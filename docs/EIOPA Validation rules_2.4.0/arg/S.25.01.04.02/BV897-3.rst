@@ -18,18 +18,18 @@ S.25.01.04.01 Basic Solvency Capital Requirement
 S.25.01.04.02 Calculation of Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0460,c0010 [nan]
+S.01.01.04.01,r0460,c0010 [s.25.01.04 - solvency capital requirement - for groups on standard formula, none]
 
-S.25.01.04.01,r0100,c0030 [Basic Solvency Capital Requirement , Net solvency capital requirement]
+S.25.01.04.01,r0100,c0030 [basic solvency capital requirement, net solvency capital requirement]
 
-S.25.01.04.01,r0100,c0040 [Basic Solvency Capital Requirement , Gross solvency capital requirement]
+S.25.01.04.01,r0100,c0040 [basic solvency capital requirement, gross solvency capital requirement]
 
-S.25.01.04.02,r0140,c0100 [Loss-absorbing capacity of technical provisions , Value]
+S.25.01.04.02,r0140,c0100 [loss-absorbing capacity of technical provisions, value]
 
-S.25.01.04.02,r0460,c0100 [Other information on SCR|Net future discretionary benefits , Value]
+S.25.01.04.02,r0460,c0100 [net future discretionary benefits, value]
 
 
 

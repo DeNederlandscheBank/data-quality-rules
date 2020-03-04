@@ -16,12 +16,12 @@ S.01.02.01.01 Basic Information - General
 S.22.01.01.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0180,c0010 [nan]
+S.01.02.01.01,r0180,c0010 [volatility adjustment, none]
 
-S.22.01.01.01,r0030,c0070 [Basic own funds|Excess of assets over liabilities , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of volatility adjustment set to zero]
+S.22.01.01.01,r0030,c0070 [excess of assets over liabilities, impact of volatility adjustment set to zero]
 
 
 

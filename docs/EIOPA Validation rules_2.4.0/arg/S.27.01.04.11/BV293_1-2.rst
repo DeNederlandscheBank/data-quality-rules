@@ -14,12 +14,15 @@ Template references
 S.27.01.04.11 Man made catastrophe risk - Marine
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.04.11,c0760 [unknown label]
-S.27.01.04.11,c0770 [unknown label]
-S.27.01.04.11,c0780 [unknown label]
+S.27.01.04.11,c0760 [catastrophe risk charge marine before risk mitigation]
+
+S.27.01.04.11,c0770 [estimated total risk mitigation]
+
+S.27.01.04.11,c0780 [catastrophe risk charge marine after risk mitigation]
+
 
 
 Datapoint references

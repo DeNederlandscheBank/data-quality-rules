@@ -14,26 +14,43 @@ Template references
 S.05.01.02.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.02.01,c0010 [unknown label]
-S.05.01.02.01,c0020 [unknown label]
-S.05.01.02.01,c0030 [unknown label]
-S.05.01.02.01,c0040 [unknown label]
-S.05.01.02.01,c0050 [unknown label]
-S.05.01.02.01,c0060 [unknown label]
-S.05.01.02.01,c0070 [unknown label]
-S.05.01.02.01,c0080 [unknown label]
-S.05.01.02.01,c0090 [unknown label]
-S.05.01.02.01,c0100 [unknown label]
-S.05.01.02.01,c0110 [unknown label]
-S.05.01.02.01,c0120 [unknown label]
-S.05.01.02.01,c0130 [unknown label]
-S.05.01.02.01,c0140 [unknown label]
-S.05.01.02.01,c0150 [unknown label]
-S.05.01.02.01,c0160 [unknown label]
-S.05.01.02.01,c0200 [unknown label]
+S.05.01.02.01,c0010 [medical expense insurance]
+
+S.05.01.02.01,c0020 [income protection insurance]
+
+S.05.01.02.01,c0030 [workers' compensation insurance]
+
+S.05.01.02.01,c0040 [motor vehicle liability insurance]
+
+S.05.01.02.01,c0050 [other motor insurance]
+
+S.05.01.02.01,c0060 [marine, aviation and transport insurance]
+
+S.05.01.02.01,c0070 [fire and other damage to property insurance]
+
+S.05.01.02.01,c0080 [general liability insurance]
+
+S.05.01.02.01,c0090 [credit and suretyship insurance]
+
+S.05.01.02.01,c0100 [legal expenses insurance]
+
+S.05.01.02.01,c0110 [assistance]
+
+S.05.01.02.01,c0120 [miscellaneous financial loss]
+
+S.05.01.02.01,c0130 [health]
+
+S.05.01.02.01,c0140 [casualty]
+
+S.05.01.02.01,c0150 [marine, aviation, transport]
+
+S.05.01.02.01,c0160 [property]
+
+S.05.01.02.01,c0200 [total]
+
 
 
 Datapoint references

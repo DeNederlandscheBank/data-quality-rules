@@ -20,22 +20,22 @@ S.26.01.04.02 Market risk - basic information, part 2
 S.26.01.04.03 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0500,c0010 [nan]
+S.01.01.04.01,r0500,c0010 [s.26.01.04 - solvency capital requirement - market risk, none]
 
-S.26.01.04.01,r0110,c0020 [Interest rate risk|interest rate down shock , Initial absolute values before shock|Assets]
+S.26.01.04.01,r0110,c0020 [interest rate down shock, assets]
 
-S.26.01.04.01,r0110,c0030 [Interest rate risk|interest rate down shock , Initial absolute values before shock|Liabilities]
+S.26.01.04.01,r0110,c0030 [interest rate down shock, liabilities]
 
-S.26.01.04.01,r0110,c0040 [Interest rate risk|interest rate down shock , Absolute values after shock|Assets]
+S.26.01.04.01,r0110,c0040 [interest rate down shock, assets]
 
-S.26.01.04.01,r0110,c0070 [Interest rate risk|interest rate down shock , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+S.26.01.04.01,r0110,c0070 [interest rate down shock, liabilities (before the loss-absorbing capacity of technical provisions)]
 
-S.26.01.04.02,r0110,c0080 [Interest rate risk|interest rate down shock , Absolute values after shock|Gross solvency capital requirement]
+S.26.01.04.02,r0110,c0080 [interest rate down shock, gross solvency capital requirement]
 
-S.26.01.04.03,r0020,c0010 [Captives simplifications - interest rate risk , Simplifications used]
+S.26.01.04.03,r0020,c0010 [captives simplifications - interest rate risk, simplifications used]
 
 
 

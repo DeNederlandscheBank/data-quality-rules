@@ -14,12 +14,12 @@ Template references
 S.07.01.01.01 Structured products
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.07.01.01.01,c0130 [URI|S.07.01.zz.01 line identification , Collateral value]
+S.07.01.01.01,c0130 [collateral value]
 
-S.07.01.01.01,c0140 [URI|S.07.01.zz.01 line identification , Collateral portfolio]
+S.07.01.01.01,c0140 [collateral portfolio]
 
 
 

@@ -16,14 +16,14 @@ S.26.03.01.03 Simplifications used
 S.26.03.01.04 Life underwriting risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.03.01.03,r0040,c0010 [Simplifications - lapse risk , Simplifications used]
+S.26.03.01.03,r0040,c0010 [simplifications - lapse risk, simplifications used]
 
-S.26.03.01.04,r0400,c0060 [Lapse risk , Absolute values after shock|Net solvency capital requirement]
+S.26.03.01.04,r0400,c0060 [lapse risk, net solvency capital requirement]
 
-S.26.03.01.04,r0400,c0080 [Lapse risk , Absolute values after shock|Gross solvency capital requirement]
+S.26.03.01.04,r0400,c0080 [lapse risk, gross solvency capital requirement]
 
 
 

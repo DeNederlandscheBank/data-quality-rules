@@ -11,18 +11,19 @@ IF {S.32.01.04.01,c0020} <> " " AND ({S.32.01.04.01,c0050}<>"LIFE UNDERTAKINGS" 
 Template references
 -------------------
 
-S.32.01.04.01
+S.32.01.04.01 Undertakings in the scope of the group
 
-Datapoints
-----------
 
-S.32.01.04.01,c0020 [Y-axis (CE): Identification code of entity , Y-axis (CE): Identification code and type of code of the undertaking]
+Datapoints labels
+-----------------
 
-S.32.01.04.01,c0050 [Identification code of entity , Type of undertaking]
+S.32.01.04.01,c0020 [*natural key*|"mandatory"]
 
-S.32.01.04.01,c0100 [Identification code of entity , Ranking criteria (in the group currency)|Total Balance Sheet (for other regulated undertakings)]
+S.32.01.04.01,c0050 [type of undertaking]
 
-S.32.01.04.01,c0110 [Identification code of entity , Ranking criteria (in the group currency)|Total Balance Sheet (non-regulated undertakings)]
+S.32.01.04.01,c0100 [total balance sheet (for other regulated undertakings)]
+
+S.32.01.04.01,c0110 [total balance sheet (non-regulated undertakings)]
 
 
 

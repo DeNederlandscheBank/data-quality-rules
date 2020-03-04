@@ -14,12 +14,15 @@ Template references
 S.27.01.01.05 Natural Catastrophe risk - Hail
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.05,c0310 [unknown label]
-S.27.01.01.05,c0320 [unknown label]
-S.27.01.01.05,c0330 [unknown label]
+S.27.01.01.05,c0310 [exposure]
+
+S.27.01.01.05,c0320 [specified gross loss]
+
+S.27.01.01.05,c0330 [catastrophe risk charge factor before risk mitigation]
+
 
 
 Datapoint references

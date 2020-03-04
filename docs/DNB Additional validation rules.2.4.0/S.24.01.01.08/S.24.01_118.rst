@@ -14,12 +14,12 @@ Template references
 S.24.01.01.08 Table 6 - Other strategic participations not in financial and credit institution
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.24.01.01.08,c0440 [URI , Name of related undertaking]
+S.24.01.01.08,c0440 [name of related undertaking]
 
-S.24.01.01.08,c0450 [Y-axis (UI): URI , Y-axis (UI): Asset ID Code and Type of code]
+S.24.01.01.08,c0450 [*natural key*|"mandatory"]
 
 
 

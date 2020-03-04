@@ -16,13 +16,16 @@ S.02.01.07.01 Balance sheet
 S.22.01.01.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0510,c0010 [unknown label]
-S.02.01.07.01,r0600,c0010 [unknown label]
-S.02.01.07.01,r0690,c0010 [unknown label]
-S.22.01.01.01,r0010,c0010 [Technical provisions , Amount with Long Term Guarantee measures and transitionals]
+S.02.01.07.01,r0510,c0010 [technical provisions – non-life, solvency ii value]
+
+S.02.01.07.01,r0600,c0010 [technical provisions - life (excluding index-linked and unit-linked), solvency ii value]
+
+S.02.01.07.01,r0690,c0010 [technical provisions – index-linked and unit-linked, solvency ii value]
+
+S.22.01.01.01,r0010,c0010 [technical provisions, amount with long term guarantee measures and transitionals]
 
 
 

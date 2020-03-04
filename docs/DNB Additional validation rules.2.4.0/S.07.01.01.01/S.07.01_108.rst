@@ -14,12 +14,11 @@ Template references
 S.07.01.01.01 Structured products
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.07.01.01.01,c0040 [Y-axis (UI): URI|S.07.01.zz.01 line identification , Y-axis (UI): Asset ID Code and Type of code]
-
-S.07.01.01.01,c0110 [URI|S.07.01.zz.01 line identification , Synthetic structured product]
+S.07.01.01.01,c0040 [unknown label]
+S.07.01.01.01,c0110 [synthetic structured product]
 
 
 

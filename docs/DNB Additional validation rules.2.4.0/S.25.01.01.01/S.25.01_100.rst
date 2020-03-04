@@ -14,9 +14,10 @@ Template references
 S.25.01.01.01 Basic Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.01.01.01,r0060 [unknown label]
+S.25.01.01.01,r0060 [diversification]
+
 
 

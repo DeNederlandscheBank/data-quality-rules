@@ -11,29 +11,31 @@ IF {S.01.01.04.01,r0140,c0010}="NOT DUE IN ACCORDANCE WITH ARTICLE 35" THEN {S.0
 Template references
 -------------------
 
-S.01.01.04.01
-S.02.01.01.01
+S.01.01.04.01 Content of the submission
+
+S.02.01.01.01 Balance sheet
+
 S.06.01.01.01 Summary of assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0140,c0010 [nan]
+S.01.01.04.01,r0140,c0010 [s.06.02.04 - list of assets, none]
 
-S.02.01.01.01,r0180,c0010 [Assets|Investments (other than assets held for index-linked and unit-linked contracts)|Collective Investments Undertakings , Solvency II value]
+S.02.01.01.01,r0180,c0010 [collective investments undertakings, solvency ii value]
 
-S.06.01.01.01,r0090,c0010 [By category|Collateralised securities , Life]
+S.06.01.01.01,r0090,c0010 [collateralised securities, life]
 
-S.06.01.01.01,r0090,c0020 [By category|Collateralised securities , Non-life]
+S.06.01.01.01,r0090,c0020 [collateralised securities, non-life]
 
-S.06.01.01.01,r0090,c0030 [By category|Collateralised securities , Ring-fenced funds]
+S.06.01.01.01,r0090,c0030 [collateralised securities, ring-fenced funds]
 
-S.06.01.01.01,r0090,c0040 [By category|Collateralised securities , Other internal funds]
+S.06.01.01.01,r0090,c0040 [collateralised securities, other internal funds]
 
-S.06.01.01.01,r0090,c0050 [By category|Collateralised securities , Shareholders' funds]
+S.06.01.01.01,r0090,c0050 [collateralised securities, shareholders' funds]
 
-S.06.01.01.01,r0090,c0060 [By category|Collateralised securities , General]
+S.06.01.01.01,r0090,c0060 [collateralised securities, general]
 
 
 

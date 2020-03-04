@@ -14,12 +14,15 @@ Template references
 S.02.01.08.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.08.01,r0280 [unknown label]
-S.02.01.08.01,r0290 [unknown label]
-S.02.01.08.01,r0300 [unknown label]
+S.02.01.08.01,r0280 [non-life and health similar to non-life]
+
+S.02.01.08.01,r0290 [non-life excluding health]
+
+S.02.01.08.01,r0300 [health similar to non-life]
+
 
 
 Datapoint references

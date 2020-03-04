@@ -16,11 +16,12 @@ S.01.02.07.01 Basic Information
 S.22.06.01.04 Best estimate subject to country and currency volatility adjustment - Total and home country by currency by country (other than home country) and by currency (other than reporting currency)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.07.01,r0110,c0010 [unknown label]
-S.22.06.01.04,r0040,c0050 [Total value of Best Estimate subject to volatility adjustment in countries other than home country|Localization of activity , Part of the Best Estimate subject to volatility adjustment written in currencies|Original/exposure currency]
+S.01.02.07.01,r0110,c0010 [currency used for reporting, none]
+
+S.22.06.01.04,r0040,c0050 [temporary identifier for country 2, temporary identifier for currency 2]
 
 
 

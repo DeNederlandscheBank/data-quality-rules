@@ -16,14 +16,14 @@ S.08.01.01.01 Information on positions held
 S.08.01.01.02 Information on derivatives
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.01.01.01,c0150 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Premium paid to date]
+S.08.01.01.01,c0150 [premium paid to date]
 
-S.08.01.01.01,c0160 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Premium received to date]
+S.08.01.01.01,c0160 [premium received to date]
 
-S.08.01.01.02,c0380 [URI , CIC]
+S.08.01.01.02,c0380 [cic]
 
 
 

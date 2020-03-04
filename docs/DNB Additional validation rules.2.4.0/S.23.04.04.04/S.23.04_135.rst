@@ -11,14 +11,15 @@ IF {S.23.04.04.04,c0460} > 0 THEN {S.23.04.04.04,c0470} <> " "
 Template references
 -------------------
 
-S.23.04.04.04
+S.23.04.04.04 Items approved by supervisory authority as basic own funds
 
-Datapoints
-----------
 
-S.23.04.04.04,c0460 [S.23.04.zz.04 line identification , Amount]
+Datapoints labels
+-----------------
 
-S.23.04.04.04,c0470 [S.23.04.zz.04 line identification , Currency Code]
+S.23.04.04.04,c0460 [amount]
+
+S.23.04.04.04,c0470 [currency code]
 
 
 

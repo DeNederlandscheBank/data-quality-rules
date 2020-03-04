@@ -16,16 +16,16 @@ S.02.01.02.01 Balance sheet
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.02.01,r0550,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life|Technical provisions Ã¢ÂÂ non-life (excluding health)|Risk margin , Solvency II value]
+S.02.01.02.01,r0550,c0010 [risk margin, solvency ii value]
 
-S.02.01.02.01,r0590,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life|Technical provisions - health (similar to non-life)|Risk margin , Solvency II value]
+S.02.01.02.01,r0590,c0010 [risk margin, solvency ii value]
 
-S.17.01.02.01,r0280,c0180 [Technical provisions calculated as a sum of BE and RM|Risk margin , Total Non-Life obligation]
+S.17.01.02.01,r0280,c0180 [risk margin, total non-life obligation]
 
-S.17.01.02.01,r0310,c0180 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Total Non-Life obligation]
+S.17.01.02.01,r0310,c0180 [risk margin, total non-life obligation]
 
 
 

@@ -14,12 +14,12 @@ Template references
 S.05.01.01.02 Life
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.01.02,r1900,c0300 [Expenses incurred , Total]
+S.05.01.01.02,r1900,c0300 [expenses incurred, total]
 
-S.05.01.01.02,r2000,c0300 [Expenses incurred|Administrative expenses|Net , Total]
+S.05.01.01.02,r2000,c0300 [net, total]
 
 
 

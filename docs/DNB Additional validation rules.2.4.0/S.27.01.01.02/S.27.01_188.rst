@@ -14,12 +14,12 @@ Template references
 S.27.01.01.02 Natural Catastrophe risk - Windstorm
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.02,r0500,c0090 [Natural Catastrophe risk - Windstorm|Kingdom of the Netherlands , Catastrophe Risk Charge before risk mitigation]
+S.27.01.01.02,r0500,c0090 [kingdom of the netherlands, catastrophe risk charge before risk mitigation]
 
-S.27.01.01.02,r0820,c0090 [Natural Catastrophe risk - Windstorm|Total Windstorm after diversification , Catastrophe Risk Charge before risk mitigation]
+S.27.01.01.02,r0820,c0090 [total windstorm after diversification, catastrophe risk charge before risk mitigation]
 
 
 

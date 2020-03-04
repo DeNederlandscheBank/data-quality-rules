@@ -14,14 +14,14 @@ Template references
 S.27.01.01.06 Natural Catastrophe risk -Subsidence
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.06,r1950,c0400 [Natural Catastrophe risk -Subsidence|Total Subsidence before diversification , Exposure]
+S.27.01.01.06,r1950,c0400 [total subsidence before diversification, exposure]
 
-S.27.01.01.06,r1950,c0410 [Natural Catastrophe risk -Subsidence|Total Subsidence before diversification , Specified Gross Loss]
+S.27.01.01.06,r1950,c0410 [total subsidence before diversification, specified gross loss]
 
-S.27.01.01.06,r1950,c0420 [Natural Catastrophe risk -Subsidence|Total Subsidence before diversification , Catastrophe Risk Charge Factor before risk mitigation]
+S.27.01.01.06,r1950,c0420 [total subsidence before diversification, catastrophe risk charge factor before risk mitigation]
 
 
 

@@ -16,20 +16,20 @@ S.28.01.01.03 Linear formula component for life insurance and reinsurance obliga
 S.28.01.01.04 Total capital at risk for all life (re)insurance obligations
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.28.01.01.03,r0200,c0040 [nan]
+S.28.01.01.03,r0200,c0040 [mcrl result, none]
 
-S.28.01.01.04,r0210,c0050 [Obligations with profit participation - guaranteed benefits , Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+S.28.01.01.04,r0210,c0050 [obligations with profit participation - guaranteed benefits, net (of reinsurance/spv) best estimate and tp calculated as a whole]
 
-S.28.01.01.04,r0220,c0050 [Obligations with profit participation - future discretionary benefits , Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+S.28.01.01.04,r0220,c0050 [obligations with profit participation - future discretionary benefits, net (of reinsurance/spv) best estimate and tp calculated as a whole]
 
-S.28.01.01.04,r0230,c0050 [Index-linked and unit-linked insurance obligations , Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+S.28.01.01.04,r0230,c0050 [index-linked and unit-linked insurance obligations, net (of reinsurance/spv) best estimate and tp calculated as a whole]
 
-S.28.01.01.04,r0240,c0050 [Other life (re)insurance and health (re)insurance obligations , Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+S.28.01.01.04,r0240,c0050 [other life (re)insurance and health (re)insurance obligations, net (of reinsurance/spv) best estimate and tp calculated as a whole]
 
-S.28.01.01.04,r0250,c0060 [Total capital at risk for all life (re)insurance obligations , Net (of reinsurance/SPV) total capital at risk]
+S.28.01.01.04,r0250,c0060 [total capital at risk for all life (re)insurance obligations, net (of reinsurance/spv) total capital at risk]
 
 
 

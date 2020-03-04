@@ -14,14 +14,19 @@ Template references
 S.26.01.01.01 Market risk - basic information, part 1
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.01.01,r0210 [unknown label]
-S.26.01.01.01,r0221 [unknown label]
-S.26.01.01.01,r0230 [unknown label]
-S.26.01.01.01,r0231 [unknown label]
-S.26.01.01.01,r0240 [unknown label]
+S.26.01.01.01,r0210 [type 1 equities]
+
+S.26.01.01.01,r0221 [type 1 equity other than long-term]
+
+S.26.01.01.01,r0230 [strategic participations (type 1 equities)]
+
+S.26.01.01.01,r0231 [long-term equity investments (type 1 equities)]
+
+S.26.01.01.01,r0240 [duration-based (type 1 equities)]
+
 
 
 Datapoint references

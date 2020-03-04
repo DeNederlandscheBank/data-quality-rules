@@ -14,11 +14,12 @@ Template references
 S.06.03.01.01 Collective investment undertakings - look-through approach
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.03.01.01,c0060 [URI|S.06.03.zz.01 line identification , Total amount]
+S.06.03.01.01,c0060 [total amount]
 
-SE.06.02.16.02,c0290 [unknown label]
+SE.06.02.16.02,c0290 [cic]
+
 
 

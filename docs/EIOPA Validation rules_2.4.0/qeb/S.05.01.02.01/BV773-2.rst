@@ -14,10 +14,10 @@ Template references
 S.05.01.02.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.02.01,r1300,c0200 [Total expenses , Total]
+S.05.01.02.01,r1300,c0200 [total expenses, total]
 
 
 

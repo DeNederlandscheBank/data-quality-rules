@@ -16,22 +16,22 @@ S.17.01.01.01 Non-Life Technical Provisions
 S.28.02.01.02 Background information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0010,c0140 [Technical provisions calculated as a whole , accepted non-proportional reinsurance|Non-proportional health reinsurance]
+S.17.01.01.01,r0010,c0140 [technical provisions calculated as a whole, non-proportional health reinsurance]
 
-S.17.01.01.01,r0050,c0140 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , accepted non-proportional reinsurance|Non-proportional health reinsurance]
+S.17.01.01.01,r0050,c0140 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, non-proportional health reinsurance]
 
-S.17.01.01.01,r0270,c0140 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - net , accepted non-proportional reinsurance|Non-proportional health reinsurance]
+S.17.01.01.01,r0270,c0140 [total best estimate - net, non-proportional health reinsurance]
 
-S.17.01.01.01,r0290,c0140 [Amount of the transitional on Technical Provisions|TP as a whole , accepted non-proportional reinsurance|Non-proportional health reinsurance]
+S.17.01.01.01,r0290,c0140 [tp as a whole, non-proportional health reinsurance]
 
-S.17.01.01.01,r0300,c0140 [Amount of the transitional on Technical Provisions|Best estimate , accepted non-proportional reinsurance|Non-proportional health reinsurance]
+S.17.01.01.01,r0300,c0140 [best estimate, non-proportional health reinsurance]
 
-S.28.02.01.02,r0140,c0030 [Non-proportional health reinsurance , Background information|Non-life activities|Net (of reinsurance/ SPV) best estimate and TP calculated as a whole]
+S.28.02.01.02,r0140,c0030 [non-proportional health reinsurance, net (of reinsurance/ spv) best estimate and tp calculated as a whole]
 
-S.28.02.01.02,r0140,c0050 [Non-proportional health reinsurance , Background information|Life activities|Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+S.28.02.01.02,r0140,c0050 [non-proportional health reinsurance, net (of reinsurance/spv) best estimate and tp calculated as a whole]
 
 
 

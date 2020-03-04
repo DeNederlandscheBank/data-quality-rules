@@ -14,12 +14,15 @@ Template references
 S.27.01.01.02 Natural Catastrophe risk - Windstorm
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.02,r0800 [unknown label]
-S.27.01.01.02,r0810 [unknown label]
-S.27.01.01.02,r0820 [unknown label]
+S.27.01.01.02,r0800 [total windstorm all regions before diversification]
+
+S.27.01.01.02,r0810 [diversification effect between regions]
+
+S.27.01.01.02,r0820 [total windstorm after diversification]
+
 
 
 Datapoint references

@@ -16,11 +16,12 @@ S.01.01.07.01 Content of the submission
 S.25.01.01.02 Calculation of Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.07.01,r0460,c0010 [unknown label]
-S.25.01.01.02,r0150,c0100 [Loss-absorbing capacity of deferred taxes , Value]
+S.01.01.07.01,r0460,c0010 [s.25.01.01 - solvency capital requirement - for undertakings on standard formula, none]
+
+S.25.01.01.02,r0150,c0100 [loss-absorbing capacity of deferred taxes, value]
 
 
 

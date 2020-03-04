@@ -14,10 +14,12 @@ Template references
 S.23.01.07.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.07.01,r0290,c0020 [unknown label]
-S.23.01.07.01,r0540,c0020 [unknown label]
+S.23.01.07.01,r0290,c0020 [total basic own funds after deductions, tier 1 - unrestricted]
+
+S.23.01.07.01,r0540,c0020 [total eligible own funds to meet the scr, tier 1 - unrestricted]
+
 
 

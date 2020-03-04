@@ -14,26 +14,43 @@ Template references
 S.02.01.02.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.02.01,r0030 [unknown label]
-S.02.01.02.01,r0040 [unknown label]
-S.02.01.02.01,r0050 [unknown label]
-S.02.01.02.01,r0060 [unknown label]
-S.02.01.02.01,r0070 [unknown label]
-S.02.01.02.01,r0220 [unknown label]
-S.02.01.02.01,r0230 [unknown label]
-S.02.01.02.01,r0270 [unknown label]
-S.02.01.02.01,r0350 [unknown label]
-S.02.01.02.01,r0360 [unknown label]
-S.02.01.02.01,r0370 [unknown label]
-S.02.01.02.01,r0380 [unknown label]
-S.02.01.02.01,r0390 [unknown label]
-S.02.01.02.01,r0400 [unknown label]
-S.02.01.02.01,r0410 [unknown label]
-S.02.01.02.01,r0420 [unknown label]
-S.02.01.02.01,r0500 [unknown label]
+S.02.01.02.01,r0030 [intangible assets]
+
+S.02.01.02.01,r0040 [deferred tax assets]
+
+S.02.01.02.01,r0050 [pension benefit surplus]
+
+S.02.01.02.01,r0060 [property, plant & equipment held for own use]
+
+S.02.01.02.01,r0070 [investments (other than assets held for index-linked and unit-linked contracts)]
+
+S.02.01.02.01,r0220 [assets held for index-linked and unit-linked contracts]
+
+S.02.01.02.01,r0230 [loans and mortgages]
+
+S.02.01.02.01,r0270 [reinsurance recoverables from:]
+
+S.02.01.02.01,r0350 [deposits to cedants]
+
+S.02.01.02.01,r0360 [insurance and intermediaries receivables]
+
+S.02.01.02.01,r0370 [reinsurance receivables]
+
+S.02.01.02.01,r0380 [receivables (trade, not insurance)]
+
+S.02.01.02.01,r0390 [own shares (held directly)]
+
+S.02.01.02.01,r0400 [amounts due in respect of own fund items or initial fund called up but not yet paid in]
+
+S.02.01.02.01,r0410 [cash and cash equivalents]
+
+S.02.01.02.01,r0420 [any other assets, not elsewhere shown]
+
+S.02.01.02.01,r0500 [total assets]
+
 
 
 Datapoint references

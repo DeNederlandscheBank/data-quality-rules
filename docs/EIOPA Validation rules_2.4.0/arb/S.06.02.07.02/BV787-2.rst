@@ -14,11 +14,14 @@ Template references
 S.06.02.07.02 Information on assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.02.07.02,c0290 [unknown label]
-S.06.02.07.02,c0370 [unknown label]
-S.06.02.07.02,c0380 [unknown label]
+S.06.02.07.02,c0290 [cic]
+
+S.06.02.07.02,c0370 [unit solvency ii price]
+
+S.06.02.07.02,c0380 [unit percentage of par amount solvency ii price]
+
 
 

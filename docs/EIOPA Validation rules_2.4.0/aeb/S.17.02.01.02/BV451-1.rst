@@ -18,22 +18,22 @@ S.17.02.01.01 Gross TP calculated as a whole and Gross BE for different countrie
 S.17.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0010,c0070 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+S.17.01.01.01,r0010,c0070 [technical provisions calculated as a whole, marine, aviation and transport insurance]
 
-S.17.01.01.01,r0260,c0070 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+S.17.01.01.01,r0260,c0070 [total best estimate - gross, marine, aviation and transport insurance]
 
-S.17.01.01.01,r0290,c0070 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+S.17.01.01.01,r0290,c0070 [tp as a whole, marine, aviation and transport insurance]
 
-S.17.01.01.01,r0300,c0070 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Marine, aviation and transport insurance]
+S.17.01.01.01,r0300,c0070 [best estimate, marine, aviation and transport insurance]
 
-S.17.02.01.01,r0010,c0070 [Home country , Direct business|Marine, aviation and transport insurance]
+S.17.02.01.01,r0010,c0070 [home country, marine, aviation and transport insurance]
 
-S.17.02.01.01,r0020,c0070 [EEA countries outside the materiality threshold - not reported by country , Direct business|Marine, aviation and transport insurance]
+S.17.02.01.01,r0020,c0070 [eea countries outside the materiality threshold - not reported by country, marine, aviation and transport insurance]
 
-S.17.02.01.01,r0030,c0070 [Non-EEA countries outside the materiality threshold - not reported by country , Direct business|Marine, aviation and transport insurance]
+S.17.02.01.01,r0030,c0070 [non-eea countries outside the materiality threshold - not reported by country, marine, aviation and transport insurance]
 
 S.17.02.01.02,r0040,c0070,snnn [unknown label]
 

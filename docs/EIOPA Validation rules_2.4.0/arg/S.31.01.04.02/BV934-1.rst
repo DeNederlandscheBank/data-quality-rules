@@ -16,12 +16,12 @@ S.31.01.04.01 Share of reinsurers
 S.31.01.04.02 Information on reinsurers
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.31.01.04.01,c0100 [Identification code of entity|Code reinsurer , Reinsurance recoverables: Total reinsurance recoverables]
+S.31.01.04.01,c0100 [reinsurance recoverables: total reinsurance recoverables]
 
-S.31.01.04.02,c0200 [Code reinsurer , Country of residency]
+S.31.01.04.02,c0200 [country of residency]
 
 
 

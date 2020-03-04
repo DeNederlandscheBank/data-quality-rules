@@ -16,12 +16,12 @@ S.01.01.04.01 Content of the submission
 S.01.02.04.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0430,c0010 [nan]
+S.01.01.04.01,r0430,c0010 [s.23.03.04 - annual movements on own funds, none]
 
-S.01.02.04.01,r0160,c0010 [nan]
+S.01.02.04.01,r0160,c0010 [method of group solvency calculation, none]
 
 
 

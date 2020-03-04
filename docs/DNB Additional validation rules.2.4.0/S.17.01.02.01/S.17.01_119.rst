@@ -11,14 +11,19 @@ Rule definition
 Template references
 -------------------
 
-S.17.01.02.01
+S.17.01.02.01 Non-Life Technical Provisions
 
-Datapoints
-----------
 
-S.17.01.02.01,r0050 [unknown label]
-S.17.01.02.01,r0140 [unknown label]
-S.17.01.02.01,r0240 [unknown label]
-S.17.01.02.01,r0330 [unknown label]
+Datapoints labels
+-----------------
+
+S.17.01.02.01,r0050 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole]
+
+S.17.01.02.01,r0140 [total recoverable from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default]
+
+S.17.01.02.01,r0240 [total recoverable from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default]
+
+S.17.01.02.01,r0330 [recoverable from reinsurance contract/spv and finite re after the adjustment for expected losses due to counterparty default - total]
+
 
 

@@ -11,12 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.25.01.04.02
+S.25.01.04.02 Calculation of Solvency Capital Requirement
 
-Datapoints
-----------
 
-S.25.01.04.02,r0120,c0100 [Adjustment due to RFF/MAP nSCR aggregation , Value]
+Datapoints labels
+-----------------
+
+S.25.01.04.02,r0120,c0100 [adjustment due to rff/map nscr aggregation, value]
 
 
 

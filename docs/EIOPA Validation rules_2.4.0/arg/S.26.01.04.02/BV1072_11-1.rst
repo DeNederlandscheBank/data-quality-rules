@@ -14,16 +14,23 @@ Template references
 S.26.01.04.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.04.02,r0450 [unknown label]
-S.26.01.04.02,r0461 [unknown label]
-S.26.01.04.02,r0462 [unknown label]
-S.26.01.04.02,r0480 [unknown label]
-S.26.01.04.02,r0481 [unknown label]
-S.26.01.04.02,r0482 [unknown label]
-S.26.01.04.02,r0483 [unknown label]
+S.26.01.04.02,r0450 [securitisation positions]
+
+S.26.01.04.02,r0461 [senior sts securitisation]
+
+S.26.01.04.02,r0462 [non-senior sts securitisation]
+
+S.26.01.04.02,r0480 [resecuritisations]
+
+S.26.01.04.02,r0481 [other securitisation]
+
+S.26.01.04.02,r0482 [transitional type 1 securitisation]
+
+S.26.01.04.02,r0483 [guaranteed sts securitisation]
+
 
 
 Datapoint references

@@ -14,12 +14,12 @@ Template references
 S.27.01.01.07 Catastrophe risk - Non-proportional property reinsurance
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.07,r2000,c0470 [Non-proportional property reinsurance , Catastrophe risk - Non-proportional property reinsurance|Estimation of the premiums to be earned]
+S.27.01.01.07,r2000,c0470 [non-proportional property reinsurance, estimation of the premiums to be earned]
 
-S.27.01.01.07,r2000,c0480 [Non-proportional property reinsurance , Catastrophe risk - Non-proportional property reinsurance|Catastrophe Risk Charge before risk mitigation]
+S.27.01.01.07,r2000,c0480 [non-proportional property reinsurance, catastrophe risk charge before risk mitigation]
 
 
 

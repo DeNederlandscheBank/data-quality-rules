@@ -14,11 +14,13 @@ Template references
 S.05.01.13.02 Life
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.13.02,r1410 [unknown label]
-S.05.01.13.02,r1500 [unknown label]
+S.05.01.13.02,r1410 [gross]
+
+S.05.01.13.02,r1500 [net]
+
 
 
 Datapoint references

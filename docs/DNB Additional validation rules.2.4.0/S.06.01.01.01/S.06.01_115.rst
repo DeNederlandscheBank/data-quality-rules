@@ -11,29 +11,31 @@ IF {S.01.01.04.01,r0140,c0010}="NOT DUE IN ACCORDANCE WITH ARTICLE 35"  THEN {S.
 Template references
 -------------------
 
-S.01.01.04.01
-S.02.01.01.01
+S.01.01.04.01 Content of the submission
+
+S.02.01.01.01 Balance sheet
+
 S.06.01.01.01 Summary of assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0140,c0010 [nan]
+S.01.01.04.01,r0140,c0010 [s.06.02.04 - list of assets, none]
 
-S.02.01.01.01,r0230,c0010 [Assets|Loans and mortgages , Solvency II value]
+S.02.01.01.01,r0230,c0010 [loans and mortgages, solvency ii value]
 
-S.06.01.01.01,r0110,c0010 [By category|Mortgages and loans , Life]
+S.06.01.01.01,r0110,c0010 [mortgages and loans, life]
 
-S.06.01.01.01,r0110,c0020 [By category|Mortgages and loans , Non-life]
+S.06.01.01.01,r0110,c0020 [mortgages and loans, non-life]
 
-S.06.01.01.01,r0110,c0030 [By category|Mortgages and loans , Ring-fenced funds]
+S.06.01.01.01,r0110,c0030 [mortgages and loans, ring-fenced funds]
 
-S.06.01.01.01,r0110,c0040 [By category|Mortgages and loans , Other internal funds]
+S.06.01.01.01,r0110,c0040 [mortgages and loans, other internal funds]
 
-S.06.01.01.01,r0110,c0050 [By category|Mortgages and loans , Shareholders' funds]
+S.06.01.01.01,r0110,c0050 [mortgages and loans, shareholders' funds]
 
-S.06.01.01.01,r0110,c0060 [By category|Mortgages and loans , General]
+S.06.01.01.01,r0110,c0060 [mortgages and loans, general]
 
 
 

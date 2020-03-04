@@ -18,14 +18,14 @@ S.23.01.04.01 Own funds
 S.25.01.04.02 Calculation of Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0460,c0010 [nan]
+S.01.01.04.01,r0460,c0010 [s.25.01.04 - solvency capital requirement - for groups on standard formula, none]
 
-S.23.01.04.01,r0670,c0010 [SCR for entities included with D& A method , Total]
+S.23.01.04.01,r0670,c0010 [scr for entities included with d&a method, total]
 
-S.25.01.04.02,r0560,c0100 [Overall SCR|SCR for undertakings included via D and A , Value]
+S.25.01.04.02,r0560,c0100 [scr for undertakings included via d and a, value]
 
 
 

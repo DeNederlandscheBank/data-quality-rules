@@ -14,24 +14,24 @@ Template references
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0230,c0030 [Gross BE for Cash flow|Cash out-flows|Future guaranteed and discretionary benefits , Index-linked and unit-linked insurance|]
+S.12.01.01.01,r0230,c0030 [future guaranteed and discretionary benefits, none]
 
-S.12.01.01.01,r0230,c0060 [Gross BE for Cash flow|Cash out-flows|Future guaranteed and discretionary benefits , Other life insurance|]
+S.12.01.01.01,r0230,c0060 [future guaranteed and discretionary benefits, none]
 
-S.12.01.01.01,r0230,c0090 [Gross BE for Cash flow|Cash out-flows|Future guaranteed and discretionary benefits , Annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0230,c0090 [future guaranteed and discretionary benefits, annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
 
-S.12.01.01.01,r0230,c0150 [Gross BE for Cash flow|Cash out-flows|Future guaranteed and discretionary benefits , Total (Life other than health insurance, incl. Unit-Linked)]
+S.12.01.01.01,r0230,c0150 [future guaranteed and discretionary benefits, total (life other than health insurance, incl. unit-linked)]
 
-S.12.01.01.01,r0240,c0020 [Gross BE for Cash flow|Cash out-flows|Future guaranteed and discretionary benefits|Future guaranteed benefits , Insurance with profit participation]
+S.12.01.01.01,r0240,c0020 [future guaranteed benefits, insurance with profit participation]
 
-S.12.01.01.01,r0240,c0100 [Gross BE for Cash flow|Cash out-flows|Future guaranteed and discretionary benefits|Future guaranteed benefits , Accepted reinsurance|]
+S.12.01.01.01,r0240,c0100 [future guaranteed benefits, life and annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations]
 
-S.12.01.01.01,r0250,c0020 [Gross BE for Cash flow|Cash out-flows|Future guaranteed and discretionary benefits|Future discretionary benefits , Insurance with profit participation]
+S.12.01.01.01,r0250,c0020 [future discretionary benefits, insurance with profit participation]
 
-S.12.01.01.01,r0250,c0100 [Gross BE for Cash flow|Cash out-flows|Future guaranteed and discretionary benefits|Future discretionary benefits , Accepted reinsurance|]
+S.12.01.01.01,r0250,c0100 [future discretionary benefits, life and annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations]
 
 
 

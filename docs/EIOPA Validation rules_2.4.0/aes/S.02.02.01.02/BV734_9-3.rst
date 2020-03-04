@@ -16,12 +16,12 @@ S.01.02.01.01 Basic Information - General
 S.02.02.01.02 Material currencies
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0110,c0010 [nan]
+S.01.02.01.01,r0110,c0010 [currency used for reporting, none]
 
-S.02.02.01.02,r0120,c0050 [Liabilities|Technical provisions - index-linked and unit-linked contracts , Value of material currencies|Original/exposure currency]
+S.02.02.01.02,r0120,c0050 [technical provisions - index-linked and unit-linked contracts, temporary identifier for currency 2]
 
 
 

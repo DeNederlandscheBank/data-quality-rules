@@ -14,10 +14,11 @@ Template references
 S.24.01.01.04 Own funds deductions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.24.01.01.04,r0010 [unknown label]
+S.24.01.01.04,r0010 [article 68 (1) deduction]
+
 S.24.01.01.04,r0040 [unknown label]
 
 

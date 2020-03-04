@@ -14,12 +14,15 @@ Template references
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.02.01,r0160 [unknown label]
-S.17.01.02.01,r0240 [unknown label]
-S.17.01.02.01,r0250 [unknown label]
+S.17.01.02.01,r0160 [gross]
+
+S.17.01.02.01,r0240 [total recoverable from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default]
+
+S.17.01.02.01,r0250 [net best estimate of claims provisions]
+
 
 
 Datapoint references

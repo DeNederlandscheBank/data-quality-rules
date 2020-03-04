@@ -14,11 +14,13 @@ Template references
 S.23.02.01.01 Basic own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.02.01.01,r0110 [unknown label]
-S.23.02.01.01,r0200 [unknown label]
+S.23.02.01.01,r0110 [paid in]
+
+S.23.02.01.01,r0200 [total initial fund members' contributions or the equivalent basic own fund item for mutual and mutual type undertakings]
+
 
 
 Datapoint references

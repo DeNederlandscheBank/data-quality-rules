@@ -14,13 +14,17 @@ Template references
 S.27.01.04.14 Man made catastrophe risk - Liability
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.04.14,c0920 [unknown label]
-S.27.01.04.14,c0930 [unknown label]
-S.27.01.04.14,c0940 [unknown label]
-S.27.01.04.14,c0950 [unknown label]
+S.27.01.04.14,c0920 [catastrophe risk charge liability before risk mitigation]
+
+S.27.01.04.14,c0930 [estimated risk mitigation]
+
+S.27.01.04.14,c0940 [estimated reinstatement premiums]
+
+S.27.01.04.14,c0950 [catastrophe risk charge liability after risk mitigation]
+
 
 
 Datapoint references

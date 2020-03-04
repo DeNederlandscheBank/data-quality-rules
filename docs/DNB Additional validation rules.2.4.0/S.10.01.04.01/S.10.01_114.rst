@@ -11,13 +11,14 @@ IF({S.10.01.04.01,C0120} = "BUYER IN A REPO" OR {S.10.01.04.01,C0120} = "SELLER 
 Template references
 -------------------
 
-S.10.01.04.01
+S.10.01.04.01 Securities lending and repos
 
-Datapoints
-----------
+
+Datapoints labels
+-----------------
 
 S.10.01.04.01,C0120 [unknown label]
-S.10.01.04.01,c0140 [Identification code of entity|Number of fund|S.10.01.zz.01 line identification , Far leg amount]
+S.10.01.04.01,c0140 [far leg amount]
 
 
 

@@ -14,12 +14,12 @@ Template references
 S.09.01.01.01 Income/gains and losses in the period
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.09.01.01.01,c0001 [Y-axis (XD): S.09.01.zz.01 line identification , Y-axis (XD): Line identification]
+S.09.01.01.01,c0001 [*artificial key*|"mandatory"]
 
-S.09.01.01.01,c0040 [S.09.01.zz.01 line identification , Asset category]
+S.09.01.01.01,c0040 [asset category]
 
 
 

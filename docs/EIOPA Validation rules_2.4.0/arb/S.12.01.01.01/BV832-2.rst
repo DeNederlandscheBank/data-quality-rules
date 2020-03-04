@@ -14,12 +14,12 @@ Template references
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0030,c0020 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Insurance with profit participation]
+S.12.01.01.01,r0030,c0020 [gross best estimate, insurance with profit participation]
 
-S.12.01.01.01,r0100,c0020 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Insurance with profit participation]
+S.12.01.01.01,r0100,c0020 [risk margin, insurance with profit participation]
 
 
 

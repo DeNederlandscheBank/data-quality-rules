@@ -11,14 +11,15 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.05
+S.27.01.04.05 Natural Catastrophe risk - Hail
 
-Datapoints
-----------
 
-S.27.01.04.05,r1720,c0320 [Natural Catastrophe risk - Hail|Total Hail specified Regions before diversification , Specified Gross Loss]
+Datapoints labels
+-----------------
 
-S.27.01.04.05,r1720,c0350 [Natural Catastrophe risk - Hail|Total Hail specified Regions before diversification , Catastrophe Risk Charge before risk mitigation]
+S.27.01.04.05,r1720,c0320 [total hail specified regions before diversification, specified gross loss]
+
+S.27.01.04.05,r1720,c0350 [total hail specified regions before diversification, catastrophe risk charge before risk mitigation]
 
 
 

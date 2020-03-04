@@ -14,12 +14,12 @@ Template references
 S.08.01.04.02 Information on derivatives
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.01.04.02,c0380 [URI , CIC]
+S.08.01.04.02,c0380 [cic]
 
-S.08.01.04.02,c0420 [URI , Swap received currency]
+S.08.01.04.02,c0420 [swap received currency]
 
 
 

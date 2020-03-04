@@ -16,12 +16,12 @@ S.01.01.02.01 Content of the submission
 S.01.02.01.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.02.01,r0580,c0010 [nan]
+S.01.01.02.01,r0580,c0010 [s.28.01.01 - minimum capital requirement - only life or only non-life insurance or reinsurance activity, none]
 
-S.01.02.01.01,r0040,c0010 [nan]
+S.01.02.01.01,r0040,c0010 [type of undertaking, none]
 
 
 

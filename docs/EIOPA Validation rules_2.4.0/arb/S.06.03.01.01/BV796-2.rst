@@ -14,12 +14,12 @@ Template references
 S.06.03.01.01 Collective investment undertakings - look-through approach
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.03.01.01,c0030 [URI|S.06.03.zz.01 line identification , Underlying asset category]
+S.06.03.01.01,c0030 [underlying asset category]
 
-S.06.03.01.01,c0040 [URI|S.06.03.zz.01 line identification , Country of issue]
+S.06.03.01.01,c0040 [country of issue]
 
 
 

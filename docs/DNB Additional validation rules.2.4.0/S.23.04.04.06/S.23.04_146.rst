@@ -11,14 +11,15 @@ IF {S.23.04.04.06,c0600} > 0 THEN {S.23.04.04.06,c0590} <> " "
 Template references
 -------------------
 
-S.23.04.04.06
+S.23.04.04.06 Ancillary own funds
 
-Datapoints
-----------
 
-S.23.04.04.06,c0590 [S.23.04.zz.06 line identification , Description of ancillary own funds]
+Datapoints labels
+-----------------
 
-S.23.04.04.06,c0600 [S.23.04.zz.06 line identification , Amount]
+S.23.04.04.06,c0590 [description of ancillary own funds]
+
+S.23.04.04.06,c0600 [amount]
 
 
 

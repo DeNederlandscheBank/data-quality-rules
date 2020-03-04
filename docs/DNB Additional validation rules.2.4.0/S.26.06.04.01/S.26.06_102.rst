@@ -11,15 +11,17 @@ Rule definition
 Template references
 -------------------
 
-S.25.01.04.01
-S.26.06.04.01
+S.25.01.04.01 Basic Solvency Capital Requirement
 
-Datapoints
-----------
+S.26.06.04.01 Operational risk - basic information
 
-S.25.01.04.01,r0100,c0040 [Basic Solvency Capital Requirement , Gross solvency capital requirement]
 
-S.26.06.04.01,r0310,c0020 [Operational risk - calculation of the SCR|Percentage of Basic Solvency Capital Requirement , Capital requirement]
+Datapoints labels
+-----------------
+
+S.25.01.04.01,r0100,c0040 [basic solvency capital requirement, gross solvency capital requirement]
+
+S.26.06.04.01,r0310,c0020 [percentage of basic solvency capital requirement, capital requirement]
 
 
 

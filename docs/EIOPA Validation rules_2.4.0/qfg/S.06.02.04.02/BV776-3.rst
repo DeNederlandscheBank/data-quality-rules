@@ -14,12 +14,12 @@ Template references
 S.06.02.04.02 Information on assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.02.04.02,c0200 [URI , Issuer Name]
+S.06.02.04.02,c0200 [issuer name]
 
-S.06.02.04.02,c0290 [URI , CIC]
+S.06.02.04.02,c0290 [cic]
 
 
 

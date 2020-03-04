@@ -14,12 +14,12 @@ Template references
 S.25.02.01.01 Component-specific information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.02.01.01,c0010 [Y-axis (NX): Code of component , Y-axis (NX): Unique number of component]
+S.25.02.01.01,c0010 [*natural key*|"mandatory"]
 
-S.25.02.01.01,c0060 [Code of component , Consideration of the future management actions regarding technical provisions and/or deferred taxes]
+S.25.02.01.01,c0060 [consideration of the future management actions regarding technical provisions and/or deferred taxes]
 
 
 

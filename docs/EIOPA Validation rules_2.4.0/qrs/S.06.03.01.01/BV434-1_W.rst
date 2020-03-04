@@ -16,12 +16,12 @@ S.06.02.01.02 Information on assets
 S.06.03.01.01 Collective investment undertakings - look-through approach
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.02.01.02,c0290 [URI , CIC]
+S.06.02.01.02,c0290 [cic]
 
-S.06.03.01.01,c0060 [URI|S.06.03.zz.01 line identification , Total amount]
+S.06.03.01.01,c0060 [total amount]
 
 
 

@@ -14,12 +14,12 @@ Template references
 S.08.02.04.02 Information on derivatives
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.02.04.02,c0320 [URI , CIC]
+S.08.02.04.02,c0320 [cic]
 
-S.08.02.04.02,c0330 [URI , Trigger value]
+S.08.02.04.02,c0330 [trigger value]
 
 
 

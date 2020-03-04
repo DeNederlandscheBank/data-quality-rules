@@ -14,22 +14,21 @@ Template references
 S.27.01.01.21 Health Catastrophe risk - Concentration accident
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.21,r3900,c1310 [Health Catastrophe risk - Concentration accident|Kingdom of the Netherlands , Largest known accident risk concentration]
+S.27.01.01.21,r3900,c1310 [kingdom of the netherlands, largest known accident risk concentration]
 
-S.27.01.01.21,r3900,c1320 [Health Catastrophe risk - Concentration accident|Kingdom of the Netherlands , Average sum insured|Accidental death]
+S.27.01.01.21,r3900,c1320 [kingdom of the netherlands, accidental death]
 
-S.27.01.01.21,r3900,c1330 [Health Catastrophe risk - Concentration accident|Kingdom of the Netherlands , Average sum insured|Permanent disability]
+S.27.01.01.21,r3900,c1330 [kingdom of the netherlands, permanent disability]
 
-S.27.01.01.21,r3900,c1340 [Health Catastrophe risk - Concentration accident|Kingdom of the Netherlands , Average sum insured|Disability 10 years]
+S.27.01.01.21,r3900,c1340 [unknown label]
+S.27.01.01.21,r3900,c1350 [kingdom of the netherlands, disability 12 months]
 
-S.27.01.01.21,r3900,c1350 [Health Catastrophe risk - Concentration accident|Kingdom of the Netherlands , Average sum insured|Disability 12 months]
+S.27.01.01.21,r3900,c1360 [kingdom of the netherlands, medical treatment]
 
-S.27.01.01.21,r3900,c1360 [Health Catastrophe risk - Concentration accident|Kingdom of the Netherlands , Average sum insured|Medical treatment]
-
-S.27.01.01.21,r3900,c1370 [Health Catastrophe risk - Concentration accident|Kingdom of the Netherlands , Catastrophe Risk Charge before risk mitigation]
+S.27.01.01.21,r3900,c1370 [kingdom of the netherlands, catastrophe risk charge before risk mitigation]
 
 
 

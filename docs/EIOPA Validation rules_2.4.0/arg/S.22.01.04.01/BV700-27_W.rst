@@ -16,12 +16,12 @@ S.01.02.04.01 Basic Information - General
 S.22.01.04.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.04.01,r0170,c0010 [nan]
+S.01.02.04.01,r0170,c0010 [matching adjustment, none]
 
-S.22.01.04.01,r0010,c0090 [Technical provisions , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of matching adjustment set to zero]
+S.22.01.04.01,r0010,c0090 [technical provisions, impact of matching adjustment set to zero]
 
 
 

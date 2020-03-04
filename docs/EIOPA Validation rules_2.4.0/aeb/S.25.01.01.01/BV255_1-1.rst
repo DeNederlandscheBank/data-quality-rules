@@ -14,11 +14,13 @@ Template references
 S.25.01.01.01 Basic Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.01.01.01,c0030 [unknown label]
-S.25.01.01.01,c0040 [unknown label]
+S.25.01.01.01,c0030 [net solvency capital requirement]
+
+S.25.01.01.01,c0040 [gross solvency capital requirement]
+
 
 
 Datapoint references

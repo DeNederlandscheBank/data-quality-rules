@@ -16,22 +16,22 @@ S.17.01.02.01 Non-Life Technical Provisions
 S.28.02.01.02 Background information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.02.01,r0010,c0050 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.02.01,r0010,c0050 [technical provisions calculated as a whole, motor vehicle liability insurance]
 
-S.17.01.02.01,r0050,c0050 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.02.01,r0050,c0050 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, motor vehicle liability insurance]
 
-S.17.01.02.01,r0270,c0050 [Technical provisions calculated as a sum of BE and RM|Total Best estimate - net , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.02.01,r0270,c0050 [total best estimate - net, motor vehicle liability insurance]
 
-S.17.01.02.01,r0290,c0050 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.02.01,r0290,c0050 [technical provisions calculated as a whole, motor vehicle liability insurance]
 
-S.17.01.02.01,r0300,c0050 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.02.01,r0300,c0050 [best estimate, motor vehicle liability insurance]
 
-S.28.02.01.02,r0050,c0030 [Motor vehicle liability insurance and proportional reinsurance , Background information|Non-life activities|Net (of reinsurance/ SPV) best estimate and TP calculated as a whole]
+S.28.02.01.02,r0050,c0030 [motor vehicle liability insurance and proportional reinsurance, net (of reinsurance/ spv) best estimate and tp calculated as a whole]
 
-S.28.02.01.02,r0050,c0050 [Motor vehicle liability insurance and proportional reinsurance , Background information|Life activities|Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+S.28.02.01.02,r0050,c0050 [motor vehicle liability insurance and proportional reinsurance, net (of reinsurance/spv) best estimate and tp calculated as a whole]
 
 
 

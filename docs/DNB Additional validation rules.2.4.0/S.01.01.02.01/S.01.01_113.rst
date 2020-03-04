@@ -11,12 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.01.01.02.01
+S.01.01.02.01 Content of the submission
 
-Datapoints
-----------
 
-S.01.01.02.01,r0590,c0010 [nan]
+Datapoints labels
+-----------------
+
+S.01.01.02.01,r0590,c0010 [s.28.02.01 - minimum capital requirement - both life and non-life insurance activity, none]
 
 
 

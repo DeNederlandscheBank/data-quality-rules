@@ -14,14 +14,14 @@ Template references
 S.27.01.01.12 Man made catastrophe risk - Aviation
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.12,r2500,c0790 [Gross Catastrophe Risk Charge Aviation , Man made catastrophe risk - Aviation|Catastrophe risk Charge Aviation hull before risk mitigation]
+S.27.01.01.12,r2500,c0790 [gross catastrophe risk charge aviation, catastrophe risk charge aviation hull before risk mitigation]
 
-S.27.01.01.12,r2500,c0800 [Gross Catastrophe Risk Charge Aviation , Man made catastrophe risk - Aviation|Catastrophe risk Charge Aviation liability before risk mitigation]
+S.27.01.01.12,r2500,c0800 [gross catastrophe risk charge aviation, catastrophe risk charge aviation liability before risk mitigation]
 
-S.27.01.01.12,r2500,c0810 [Gross Catastrophe Risk Charge Aviation , Man made catastrophe risk - Aviation|Catastrophe Risk Charge Aviation before risk mitigation]
+S.27.01.01.12,r2500,c0810 [gross catastrophe risk charge aviation, catastrophe risk charge aviation before risk mitigation]
 
 
 

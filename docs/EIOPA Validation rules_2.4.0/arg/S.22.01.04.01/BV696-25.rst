@@ -16,12 +16,12 @@ S.01.02.04.01 Basic Information - General
 S.22.01.04.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.04.01,r0190,c0010 [nan]
+S.01.02.04.01,r0190,c0010 [transitional measure on the risk-free interest rate, none]
 
-S.22.01.04.01,r0030,c0050 [Basic own funds|Excess of assets over liabilities , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of transitional on interest rate]
+S.22.01.04.01,r0030,c0050 [excess of assets over liabilities, impact of transitional on interest rate]
 
 
 

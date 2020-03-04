@@ -16,10 +16,10 @@ S.03.01.01.01 Value of guarantee / collateral / contingent liabilities
 S.11.01.01.01 Information on positions held
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.03.01.01.01,r0200,c0020 [Collateral held|Total collateral held , Value of guarantee / collateral / contingent liabilities]
+S.03.01.01.01,r0200,c0020 [total collateral held, value of guarantee / collateral / contingent liabilities]
 
 S.11.01.01.01,c0120,snnn [unknown label]
 

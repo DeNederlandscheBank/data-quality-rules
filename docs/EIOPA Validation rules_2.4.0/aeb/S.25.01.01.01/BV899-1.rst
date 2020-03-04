@@ -14,12 +14,13 @@ Template references
 S.25.01.01.01 Basic Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.01.01.01,r0060,c0040 [Diversification , Gross solvency capital requirement]
+S.25.01.01.01,r0060,c0040 [diversification, gross solvency capital requirement]
 
-SE.01.01.18.01,r0460,c0010 [unknown label]
+SE.01.01.18.01,r0460,c0010 [s.25.01.01 - solvency capital requirement - for undertakings on standard formula, none]
+
 
 
 Datapoint references

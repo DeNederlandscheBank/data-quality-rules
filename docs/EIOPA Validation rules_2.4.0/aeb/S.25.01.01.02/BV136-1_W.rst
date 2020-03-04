@@ -14,12 +14,15 @@ Template references
 S.25.01.01.02 Calculation of Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.01.01.02,r0200 [unknown label]
-S.25.01.01.02,r0210 [unknown label]
-S.25.01.01.02,r0220 [unknown label]
+S.25.01.01.02,r0200 [solvency capital requirement excluding capital add-on]
+
+S.25.01.01.02,r0210 [capital add-on already set]
+
+S.25.01.01.02,r0220 [solvency capital requirement]
+
 
 
 Datapoint references

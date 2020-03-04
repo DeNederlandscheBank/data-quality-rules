@@ -14,12 +14,12 @@ Template references
 S.01.03.01.02 List of RFF/MAP with sub RFF/MAP
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.03.01.02,c0100 [Y-axis (FN): Fund/Matching portfolio Number|Sub Fund/Portfolio Number , Y-axis (FN): Number of RFF/MAP with sub RFF/MAP]
+S.01.03.01.02,c0100 [*natural key*|*foreign key to s.01.03.01.01*|"mandatory"]
 
-S.01.03.01.02,c0120 [Fund/Matching portfolio Number|Sub Fund/Portfolio Number , Sub RFF/MAP]
+S.01.03.01.02,c0120 [sub rff/map]
 
 
 

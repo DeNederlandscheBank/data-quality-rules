@@ -16,16 +16,16 @@ S.02.01.01.01 Balance sheet
 S.35.01.04.01 Contribution to group Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.01.01,r0510,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life , Solvency II value]
+S.02.01.01.01,r0510,c0010 [technical provisions – non-life, solvency ii value]
 
-S.02.01.01.01,r0600,c0010 [Liabilities|Technical provisions - life (excluding index-linked and unit-linked) , Solvency II value]
+S.02.01.01.01,r0600,c0010 [technical provisions - life (excluding index-linked and unit-linked), solvency ii value]
 
-S.02.01.01.01,r0690,c0010 [Liabilities|Technical provisions Ã¢ÂÂ index-linked and unit-linked , Solvency II value]
+S.02.01.01.01,r0690,c0010 [technical provisions – index-linked and unit-linked, solvency ii value]
 
-S.35.01.04.01,c0040 [Identification code of entity , Method of group solvency calculation used]
+S.35.01.04.01,c0040 [method of group solvency calculation used]
 
 S.35.01.04.01,c0060,snnn [unknown label]
 

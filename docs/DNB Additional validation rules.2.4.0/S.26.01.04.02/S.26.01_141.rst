@@ -11,21 +11,23 @@ Rule definition
 Template references
 -------------------
 
-S.26.01.04.01
-S.26.01.04.02
+S.26.01.04.01 Market risk - basic information, part 1
 
-Datapoints
-----------
+S.26.01.04.02 Market risk - basic information, part 2
 
-S.26.01.04.01,r0414,c0020 [Spread risk|bonds and loans|loans and bonds (qualifying infrastructure corporate investment) , Initial absolute values before shock|Assets]
 
-S.26.01.04.01,r0414,c0030 [Spread risk|bonds and loans|loans and bonds (qualifying infrastructure corporate investment) , Initial absolute values before shock|Liabilities]
+Datapoints labels
+-----------------
 
-S.26.01.04.01,r0414,c0040 [Spread risk|bonds and loans|loans and bonds (qualifying infrastructure corporate investment) , Absolute values after shock|Assets]
+S.26.01.04.01,r0414,c0020 [loans and bonds (qualifying infrastructure corporate investment), assets]
 
-S.26.01.04.01,r0414,c0050 [Spread risk|bonds and loans|loans and bonds (qualifying infrastructure corporate investment) , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+S.26.01.04.01,r0414,c0030 [loans and bonds (qualifying infrastructure corporate investment), liabilities]
 
-S.26.01.04.02,r0414,c0060 [Spread risk|bonds and loans|loans and bonds (qualifying infrastructure corporate investment) , Absolute values after shock|Net solvency capital requirement]
+S.26.01.04.01,r0414,c0040 [loans and bonds (qualifying infrastructure corporate investment), assets]
+
+S.26.01.04.01,r0414,c0050 [loans and bonds (qualifying infrastructure corporate investment), liabilities (after the loss absorbing capacity of technical provisions)]
+
+S.26.01.04.02,r0414,c0060 [loans and bonds (qualifying infrastructure corporate investment), net solvency capital requirement]
 
 
 

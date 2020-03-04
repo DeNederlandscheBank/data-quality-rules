@@ -11,14 +11,15 @@ IF {S.31.01.04.02,c0160} <> " " THEN {S.31.01.04.02,c0180} <>" "
 Template references
 -------------------
 
-S.31.01.04.02
+S.31.01.04.02 Information on reinsurers
 
-Datapoints
-----------
 
-S.31.01.04.02,c0160 [Y-axis (RF): Code reinsurer , Y-axis (RF): Code and type of code of the reinsurer]
+Datapoints labels
+-----------------
 
-S.31.01.04.02,c0180 [Code reinsurer , Legal name reinsurer]
+S.31.01.04.02,c0160 [*natural key*|"mandatory"]
+
+S.31.01.04.02,c0180 [legal name reinsurer]
 
 
 

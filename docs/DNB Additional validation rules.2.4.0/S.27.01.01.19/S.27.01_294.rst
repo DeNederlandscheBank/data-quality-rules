@@ -14,12 +14,12 @@ Template references
 S.27.01.01.19 Man made catastrophe risk - Other non-life catastrophe risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.19,r3220,c1130 [Miscellaneous financial loss , Man made catastrophe risk - Other non-life catastrophe risk|Estimation of the gross premiums to be earned]
+S.27.01.01.19,r3220,c1130 [miscellaneous financial loss, estimation of the gross premiums to be earned]
 
-S.27.01.01.19,r3220,c1140 [Miscellaneous financial loss , Man made catastrophe risk - Other non-life catastrophe risk|Catastrophe Risk Charge Other non-life catastrophe risk before risk mitigation]
+S.27.01.01.19,r3220,c1140 [miscellaneous financial loss, catastrophe risk charge other non-life catastrophe risk before risk mitigation]
 
 
 

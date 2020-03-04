@@ -14,11 +14,12 @@ Template references
 S.27.01.01.05 Natural Catastrophe risk - Hail
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
 S.27.01.01.05,r1730-1900 [unknown label]
-S.27.01.01.05,r1910 [unknown label]
+S.27.01.01.05,r1910 [total hail other regions before diversifications]
+
 
 
 Datapoint references

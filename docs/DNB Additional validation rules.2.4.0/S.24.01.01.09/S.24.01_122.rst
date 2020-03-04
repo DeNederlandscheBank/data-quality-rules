@@ -14,12 +14,12 @@ Template references
 S.24.01.01.09 Table 7 - Other non-strategic participations not in financial and credit institution
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.24.01.01.09,c0520 [Y-axis (UI): URI , Y-axis (UI): Asset ID Code and Type of code]
+S.24.01.01.09,c0520 [*natural key*|"mandatory"]
 
-S.24.01.01.09,c0540 [URI , Total]
+S.24.01.01.09,c0540 [total]
 
 
 

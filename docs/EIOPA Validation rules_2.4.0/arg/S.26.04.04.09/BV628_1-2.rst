@@ -16,20 +16,20 @@ S.26.04.04.01 SLT health underwriting risk
 S.26.04.04.09 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.04.04.01,r0500,c0020 [Health expense risk , Initial absolute values before shock|Assets]
+S.26.04.04.01,r0500,c0020 [health expense risk, assets]
 
-S.26.04.04.01,r0500,c0030 [Health expense risk , Initial absolute values before shock|Liabilities]
+S.26.04.04.01,r0500,c0030 [health expense risk, liabilities]
 
-S.26.04.04.01,r0500,c0040 [Health expense risk , Absolute values after shock|Assets]
+S.26.04.04.01,r0500,c0040 [health expense risk, assets]
 
-S.26.04.04.01,r0500,c0070 [Health expense risk , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+S.26.04.04.01,r0500,c0070 [health expense risk, liabilities (before the loss-absorbing capacity of technical provisions)]
 
-S.26.04.04.01,r0500,c0080 [Health expense risk , Absolute values after shock|Gross solvency capital requirement]
+S.26.04.04.01,r0500,c0080 [health expense risk, gross solvency capital requirement]
 
-S.26.04.04.09,r0060,c0010 [Simplifications - health expense risk , Simplifications used]
+S.26.04.04.09,r0060,c0010 [simplifications - health expense risk, simplifications used]
 
 
 

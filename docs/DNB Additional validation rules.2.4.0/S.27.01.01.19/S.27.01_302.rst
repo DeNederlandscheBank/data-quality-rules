@@ -14,20 +14,20 @@ Template references
 S.27.01.01.19 Man made catastrophe risk - Other non-life catastrophe risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.19,r3200,c1140 [MAT other than Marine and Aviation , Man made catastrophe risk - Other non-life catastrophe risk|Catastrophe Risk Charge Other non-life catastrophe risk before risk mitigation]
+S.27.01.01.19,r3200,c1140 [mat other than marine and aviation, catastrophe risk charge other non-life catastrophe risk before risk mitigation]
 
-S.27.01.01.19,r3210,c1140 [Non-proportional MAT reinsurance other than Marine and Aviation , Man made catastrophe risk - Other non-life catastrophe risk|Catastrophe Risk Charge Other non-life catastrophe risk before risk mitigation]
+S.27.01.01.19,r3210,c1140 [non-proportional mat reinsurance other than marine and aviation, catastrophe risk charge other non-life catastrophe risk before risk mitigation]
 
-S.27.01.01.19,r3220,c1140 [Miscellaneous financial loss , Man made catastrophe risk - Other non-life catastrophe risk|Catastrophe Risk Charge Other non-life catastrophe risk before risk mitigation]
+S.27.01.01.19,r3220,c1140 [miscellaneous financial loss, catastrophe risk charge other non-life catastrophe risk before risk mitigation]
 
-S.27.01.01.19,r3230,c1140 [Non-proportional Casualty reinsurance other than General liability , Man made catastrophe risk - Other non-life catastrophe risk|Catastrophe Risk Charge Other non-life catastrophe risk before risk mitigation]
+S.27.01.01.19,r3230,c1140 [non-proportional casualty reinsurance other than general liability, catastrophe risk charge other non-life catastrophe risk before risk mitigation]
 
-S.27.01.01.19,r3240,c1140 [Non-proportional Credit & Surety reinsurance , Man made catastrophe risk - Other non-life catastrophe risk|Catastrophe Risk Charge Other non-life catastrophe risk before risk mitigation]
+S.27.01.01.19,r3240,c1140 [non-proportional credit & surety reinsurance, catastrophe risk charge other non-life catastrophe risk before risk mitigation]
 
-S.27.01.01.19,r3270,c1140 [Total after diversification , Man made catastrophe risk - Other non-life catastrophe risk|Catastrophe Risk Charge Other non-life catastrophe risk before risk mitigation]
+S.27.01.01.19,r3270,c1140 [total after diversification, catastrophe risk charge other non-life catastrophe risk before risk mitigation]
 
 
 

@@ -14,12 +14,12 @@ Template references
 S.23.04.01.04 Items approved by supervisory authority as basic own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.04.01.04,c0445 [Y-axis (YJ): S.23.04.zz.04 line identification , Y-axis (YJ): Line identification]
+S.23.04.01.04,c0445 [*artificial key*|"mandatory"]
 
-S.23.04.01.04,c0510 [S.23.04.zz.04 line identification , Date of authorisation]
+S.23.04.01.04,c0510 [date of authorisation]
 
 
 

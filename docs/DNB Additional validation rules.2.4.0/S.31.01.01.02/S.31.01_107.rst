@@ -14,12 +14,12 @@ Template references
 S.31.01.01.02 Information on reinsurers
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.31.01.01.02,c0160 [Y-axis (RF): Code reinsurer , Y-axis (RF): Code and type of code of the reinsurer]
+S.31.01.01.02,c0160 [*natural key*|"mandatory"]
 
-S.31.01.01.02,c0190 [Code reinsurer , Type of reinsurer]
+S.31.01.01.02,c0190 [type of reinsurer]
 
 
 

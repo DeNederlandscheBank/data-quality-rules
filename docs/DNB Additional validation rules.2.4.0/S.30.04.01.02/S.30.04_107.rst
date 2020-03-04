@@ -14,14 +14,14 @@ Template references
 S.30.04.01.02 Information on reinsurers
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.30.04.01.02,c0180 [Y-axis (RF): Code reinsurer , Y-axis (RF): Code and type of code of the reinsurer]
+S.30.04.01.02,c0180 [*natural key*|"mandatory"]
 
-S.30.04.01.02,c0230 [Code reinsurer , External rating assessment by nominated ECAI]
+S.30.04.01.02,c0230 [external rating assessment by nominated ecai]
 
-S.30.04.01.02,c0250 [Code reinsurer , Credit quality step]
+S.30.04.01.02,c0250 [credit quality step]
 
 
 

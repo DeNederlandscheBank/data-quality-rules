@@ -16,18 +16,18 @@ S.26.01.04.01 Market risk - basic information, part 1
 S.26.01.04.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.04.01,r0410,c0020 [Spread risk|bonds and loans , Initial absolute values before shock|Assets]
+S.26.01.04.01,r0410,c0020 [bonds and loans, assets]
 
-S.26.01.04.01,r0410,c0030 [Spread risk|bonds and loans , Initial absolute values before shock|Liabilities]
+S.26.01.04.01,r0410,c0030 [bonds and loans, liabilities]
 
-S.26.01.04.01,r0410,c0040 [Spread risk|bonds and loans , Absolute values after shock|Assets]
+S.26.01.04.01,r0410,c0040 [bonds and loans, assets]
 
-S.26.01.04.01,r0410,c0050 [Spread risk|bonds and loans , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+S.26.01.04.01,r0410,c0050 [bonds and loans, liabilities (after the loss absorbing capacity of technical provisions)]
 
-S.26.01.04.02,r0410,c0060 [Spread risk|bonds and loans , Absolute values after shock|Net solvency capital requirement]
+S.26.01.04.02,r0410,c0060 [bonds and loans, net solvency capital requirement]
 
 
 

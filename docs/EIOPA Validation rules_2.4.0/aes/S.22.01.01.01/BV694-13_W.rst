@@ -16,12 +16,12 @@ S.01.02.01.01 Basic Information - General
 S.22.01.01.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0200,c0010 [nan]
+S.01.02.01.01,r0200,c0010 [transitional measure on technical provisions, none]
 
-S.22.01.01.01,r0060,c0030 [Eligible own funds to meet Solvency Capital Requirement|Tier 1 , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of transitional on technical provisions]
+S.22.01.01.01,r0060,c0030 [tier 1, impact of transitional on technical provisions]
 
 
 

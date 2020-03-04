@@ -14,16 +14,16 @@ Template references
 S.31.01.01.01 Share of reinsurers
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.31.01.01.01,c0120 [Code reinsurer , Assets pledged by reinsurer]
+S.31.01.01.01,c0120 [assets pledged by reinsurer]
 
-S.31.01.01.01,c0130 [Code reinsurer , Financial guarantees]
+S.31.01.01.01,c0130 [financial guarantees]
 
-S.31.01.01.01,c0140 [Code reinsurer , Cash deposits]
+S.31.01.01.01,c0140 [cash deposits]
 
-S.31.01.01.01,c0150 [Code reinsurer , Total guarantees received]
+S.31.01.01.01,c0150 [total guarantees received]
 
 
 

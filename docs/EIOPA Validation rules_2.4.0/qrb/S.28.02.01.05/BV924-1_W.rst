@@ -14,14 +14,14 @@ Template references
 S.28.02.01.05 Overall MCR calculation
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.28.02.01.05,r0340,c0130 [nan]
+S.28.02.01.05,r0340,c0130 [combined mcr, none]
 
-S.28.02.01.05,r0350,c0130 [nan]
+S.28.02.01.05,r0350,c0130 [absolute floor of the mcr, none]
 
-S.28.02.01.05,r0400,c0130 [nan]
+S.28.02.01.05,r0400,c0130 [minimum capital requirement, none]
 
 
 

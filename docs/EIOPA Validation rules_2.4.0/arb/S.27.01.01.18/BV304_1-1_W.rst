@@ -14,12 +14,15 @@ Template references
 S.27.01.01.18 Man made catastrophe risk - Credit & Suretyship
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.18,c1100 [unknown label]
-S.27.01.01.18,c1110 [unknown label]
-S.27.01.01.18,c1120 [unknown label]
+S.27.01.01.18,c1100 [catastrophe risk charge credit & suretyship before risk mitigation]
+
+S.27.01.01.18,c1110 [estimated total risk mitigation]
+
+S.27.01.01.18,c1120 [catastrophe risk charge credit & suretyship after risk mitigation]
+
 
 
 Datapoint references

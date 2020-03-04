@@ -18,22 +18,22 @@ S.17.02.01.01 Gross TP calculated as a whole and Gross BE for different countrie
 S.17.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0010,c0020 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Medical expense insurance]
+S.17.01.01.01,r0010,c0020 [technical provisions calculated as a whole, medical expense insurance]
 
-S.17.01.01.01,r0260,c0020 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , Direct business and accepted proportional reinsurance|Medical expense insurance]
+S.17.01.01.01,r0260,c0020 [total best estimate - gross, medical expense insurance]
 
-S.17.01.01.01,r0290,c0020 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Medical expense insurance]
+S.17.01.01.01,r0290,c0020 [tp as a whole, medical expense insurance]
 
-S.17.01.01.01,r0300,c0020 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Medical expense insurance]
+S.17.01.01.01,r0300,c0020 [best estimate, medical expense insurance]
 
-S.17.02.01.01,r0010,c0020 [Home country , Direct business|Medical expense insurance]
+S.17.02.01.01,r0010,c0020 [home country, medical expense insurance]
 
-S.17.02.01.01,r0020,c0020 [EEA countries outside the materiality threshold - not reported by country , Direct business|Medical expense insurance]
+S.17.02.01.01,r0020,c0020 [eea countries outside the materiality threshold - not reported by country, medical expense insurance]
 
-S.17.02.01.01,r0030,c0020 [Non-EEA countries outside the materiality threshold - not reported by country , Direct business|Medical expense insurance]
+S.17.02.01.01,r0030,c0020 [non-eea countries outside the materiality threshold - not reported by country, medical expense insurance]
 
 S.17.02.01.02,r0040,c0020,snnn [unknown label]
 

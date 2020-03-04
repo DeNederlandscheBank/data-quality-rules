@@ -14,10 +14,10 @@ Template references
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0100,c0140 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Accepted reinsurance|Annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0100,c0140 [risk margin, annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
 
 
 

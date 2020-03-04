@@ -14,11 +14,12 @@ Template references
 S.23.01.01.02 Reconciliation reserve
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.01.02,r0710,c0060 [nan]
+S.23.01.01.02,r0710,c0060 [own shares (held directly and indirectly), none]
 
-SE.02.01.17.01,r0390,c0010 [unknown label]
+SE.02.01.17.01,r0390,c0010 [own shares (held directly), solvency ii value]
+
 
 

@@ -14,10 +14,11 @@ Template references
 S.31.01.01.01 Share of reinsurers
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
 S.31.01.01.01,c0100,snnn [unknown label]
-SE.02.01.18.01,r0270,c0010 [unknown label]
+SE.02.01.18.01,r0270,c0010 [reinsurance recoverables from:, solvency ii value]
+
 
 

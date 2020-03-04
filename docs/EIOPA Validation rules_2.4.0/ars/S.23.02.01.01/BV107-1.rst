@@ -16,12 +16,12 @@ S.23.01.01.01 Own funds
 S.23.02.01.01 Basic own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.01.01,r0090,c0030 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Preference shares , Tier 1 - restricted]
+S.23.01.01.01,r0090,c0030 [preference shares, tier 1 - restricted]
 
-S.23.02.01.01,r0400,c0020 [Total preference shares , Tier 1|]
+S.23.02.01.01,r0400,c0020 [total preference shares, none]
 
 
 

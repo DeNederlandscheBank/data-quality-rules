@@ -14,12 +14,15 @@ Template references
 S.05.02.01.05 Top 5 countries (by amount of gross premiums written) - life obligations
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.02.01.05,r1410 [unknown label]
-S.05.02.01.05,r1420 [unknown label]
-S.05.02.01.05,r1500 [unknown label]
+S.05.02.01.05,r1410 [gross]
+
+S.05.02.01.05,r1420 [reinsurers' share]
+
+S.05.02.01.05,r1500 [net]
+
 
 
 Datapoint references

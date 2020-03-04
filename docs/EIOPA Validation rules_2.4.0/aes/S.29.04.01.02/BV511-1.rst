@@ -18,10 +18,10 @@ S.29.04.01.01 Detailed analysis per period - Technical flows versus Technical pr
 S.29.04.01.02 Detailed analysis per period - Technical flows versus Technical provisions - AY
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.29.03.01.05,r0300,c0090 [Net variation for index-linked and unit-linked business , LIFE]
+S.29.03.01.05,r0300,c0090 [net variation for index-linked and unit-linked business, life]
 
 S.29.04.01.01,r0060,c0010,snnn [unknown label]
 S.29.04.01.01,r0060,c0020,snnn [unknown label]

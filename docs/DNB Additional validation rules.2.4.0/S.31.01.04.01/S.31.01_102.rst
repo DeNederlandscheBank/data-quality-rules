@@ -11,12 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.31.01.04.01
+S.31.01.04.01 Share of reinsurers
 
-Datapoints
-----------
 
-S.31.01.04.01,c0090 [Identification code of entity|Code reinsurer , Adjustment for expected losses due to counterparty default]
+Datapoints labels
+-----------------
+
+S.31.01.04.01,c0090 [adjustment for expected losses due to counterparty default]
 
 
 

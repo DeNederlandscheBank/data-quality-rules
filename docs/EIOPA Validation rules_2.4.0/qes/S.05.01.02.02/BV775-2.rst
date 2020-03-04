@@ -14,10 +14,10 @@ Template references
 S.05.01.02.02 Life
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.02.02,r2600,c0300 [Total expenses , Total]
+S.05.01.02.02,r2600,c0300 [total expenses, total]
 
 
 

@@ -18,12 +18,12 @@ S.29.04.01.01 Detailed analysis per period - Technical flows versus Technical pr
 S.29.04.01.02 Detailed analysis per period - Technical flows versus Technical provisions - AY
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.29.03.01.06,r0320,c0100 [Claims and Benefits during the period, net of salvages and subrogations , LIFE]
+S.29.03.01.06,r0320,c0100 [claims and benefits during the period, net of salvages and subrogations, life]
 
-S.29.03.01.06,r0320,c0110 [Claims and Benefits during the period, net of salvages and subrogations , NON LIFE]
+S.29.03.01.06,r0320,c0110 [claims and benefits during the period, net of salvages and subrogations, non life]
 
 S.29.04.01.01,r0020,c0010,snnn [unknown label]
 S.29.04.01.01,r0020,c0020,snnn [unknown label]

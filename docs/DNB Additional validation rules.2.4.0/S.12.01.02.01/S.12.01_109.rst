@@ -11,12 +11,15 @@ IF {S.12.01.02.01,r0030} <> 0 THEN {S.12.01.02.01,r0100} >= 0
 Template references
 -------------------
 
-S.12.01.02.01
+S.12.01.02.01 Life and Health SLT Technical Provisions
 
-Datapoints
-----------
 
-S.12.01.02.01,r0030 [unknown label]
-S.12.01.02.01,r0100 [unknown label]
+Datapoints labels
+-----------------
+
+S.12.01.02.01,r0030 [gross best estimate]
+
+S.12.01.02.01,r0100 [risk margin]
+
 
 

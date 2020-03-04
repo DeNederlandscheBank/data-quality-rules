@@ -16,12 +16,12 @@ S.05.01.02.01 Non-Life (direct business/accepted proportional reinsurance and ac
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.02.01,r0200,c0070 [Premiums written|Net , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Fire and other damage to property insurance]
+S.05.01.02.01,r0200,c0070 [net, fire and other damage to property insurance]
 
-S.17.01.02.01,r0320,c0080 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Fire and other damage to property insurance]
+S.17.01.02.01,r0320,c0080 [technical provisions - total, fire and other damage to property insurance]
 
 
 

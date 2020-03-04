@@ -16,20 +16,20 @@ S.26.04.01.01 SLT health underwriting risk
 S.26.04.01.09 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.04.01.01,r0430,c0020 [SLT health lapse risk|mass lapse risk , Initial absolute values before shock|Assets]
+S.26.04.01.01,r0430,c0020 [mass lapse risk, assets]
 
-S.26.04.01.01,r0430,c0030 [SLT health lapse risk|mass lapse risk , Initial absolute values before shock|Liabilities]
+S.26.04.01.01,r0430,c0030 [mass lapse risk, liabilities]
 
-S.26.04.01.01,r0430,c0040 [SLT health lapse risk|mass lapse risk , Absolute values after shock|Assets]
+S.26.04.01.01,r0430,c0040 [mass lapse risk, assets]
 
-S.26.04.01.01,r0430,c0050 [SLT health lapse risk|mass lapse risk , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+S.26.04.01.01,r0430,c0050 [mass lapse risk, liabilities (after the loss absorbing capacity of technical provisions)]
 
-S.26.04.01.01,r0430,c0060 [SLT health lapse risk|mass lapse risk , Absolute values after shock|Net solvency capital requirement]
+S.26.04.01.01,r0430,c0060 [mass lapse risk, net solvency capital requirement]
 
-S.26.04.01.09,r0050,c0010 [Simplifications - SLT lapse risk , Simplifications used]
+S.26.04.01.09,r0050,c0010 [simplifications - slt lapse risk, simplifications used]
 
 
 

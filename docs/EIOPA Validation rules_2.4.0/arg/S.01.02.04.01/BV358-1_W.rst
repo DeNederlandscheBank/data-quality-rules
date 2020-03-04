@@ -16,14 +16,14 @@ S.01.01.04.01 Content of the submission
 S.01.02.04.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0460,c0010 [nan]
+S.01.01.04.01,r0460,c0010 [s.25.01.04 - solvency capital requirement - for groups on standard formula, none]
 
-S.01.02.04.01,r0130,c0010 [nan]
+S.01.02.04.01,r0130,c0010 [method of calculation of the group scr, none]
 
-S.01.02.04.01,r0160,c0010 [nan]
+S.01.02.04.01,r0160,c0010 [method of group solvency calculation, none]
 
 
 

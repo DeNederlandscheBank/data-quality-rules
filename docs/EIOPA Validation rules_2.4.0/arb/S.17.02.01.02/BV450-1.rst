@@ -18,22 +18,22 @@ S.17.02.01.01 Gross TP calculated as a whole and Gross BE for different countrie
 S.17.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0010,c0060 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Other motor insurance]
+S.17.01.01.01,r0010,c0060 [technical provisions calculated as a whole, other motor insurance]
 
-S.17.01.01.01,r0260,c0060 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , Direct business and accepted proportional reinsurance|Other motor insurance]
+S.17.01.01.01,r0260,c0060 [total best estimate - gross, other motor insurance]
 
-S.17.01.01.01,r0290,c0060 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Other motor insurance]
+S.17.01.01.01,r0290,c0060 [tp as a whole, other motor insurance]
 
-S.17.01.01.01,r0300,c0060 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Other motor insurance]
+S.17.01.01.01,r0300,c0060 [best estimate, other motor insurance]
 
-S.17.02.01.01,r0010,c0060 [Home country , Direct business|Other motor insurance]
+S.17.02.01.01,r0010,c0060 [home country, other motor insurance]
 
-S.17.02.01.01,r0020,c0060 [EEA countries outside the materiality threshold - not reported by country , Direct business|Other motor insurance]
+S.17.02.01.01,r0020,c0060 [eea countries outside the materiality threshold - not reported by country, other motor insurance]
 
-S.17.02.01.01,r0030,c0060 [Non-EEA countries outside the materiality threshold - not reported by country , Direct business|Other motor insurance]
+S.17.02.01.01,r0030,c0060 [non-eea countries outside the materiality threshold - not reported by country, other motor insurance]
 
 S.17.02.01.02,r0040,c0060,snnn [unknown label]
 

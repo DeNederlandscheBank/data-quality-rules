@@ -14,12 +14,16 @@ Template references
 S.23.01.13.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.13.01,r0570,c0010 [unknown label]
-S.23.01.13.01,r0570,c0020 [unknown label]
-S.23.01.13.01,r0570,c0030 [unknown label]
-S.23.01.13.01,r0570,c0040 [unknown label]
+S.23.01.13.01,r0570,c0010 [total eligible own funds to meet the minimum consolidated group scr, total]
+
+S.23.01.13.01,r0570,c0020 [total eligible own funds to meet the minimum consolidated group scr, tier 1 - unrestricted]
+
+S.23.01.13.01,r0570,c0030 [total eligible own funds to meet the minimum consolidated group scr, tier 1 - restricted]
+
+S.23.01.13.01,r0570,c0040 [total eligible own funds to meet the minimum consolidated group scr, tier 2]
+
 
 

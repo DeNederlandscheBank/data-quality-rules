@@ -14,13 +14,17 @@ Template references
 S.27.01.01.04 Natural Catastrophe risk - Flood
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.04,c0260 [unknown label]
-S.27.01.01.04,c0270 [unknown label]
-S.27.01.01.04,c0280 [unknown label]
-S.27.01.01.04,c0290 [unknown label]
+S.27.01.01.04,c0260 [catastrophe risk charge before risk mitigation]
+
+S.27.01.01.04,c0270 [estimated risk mitigation]
+
+S.27.01.01.04,c0280 [estimated reinstatement premiums]
+
+S.27.01.01.04,c0290 [catastrophe risk charge after risk mitigation]
+
 
 
 Datapoint references

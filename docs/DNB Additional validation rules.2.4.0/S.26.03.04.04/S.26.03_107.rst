@@ -11,17 +11,19 @@ IF ({S.26.03.04.04,r0400,c0060}>0 OR {S.26.03.04.04,r0400,c0080}>0) THEN ({S.26.
 Template references
 -------------------
 
-S.26.03.04.03
-S.26.03.04.04
+S.26.03.04.03 Simplifications used
 
-Datapoints
-----------
+S.26.03.04.04 Life underwriting risk
 
-S.26.03.04.03,r0040,c0010 [Simplifications - lapse risk , Simplifications used]
 
-S.26.03.04.04,r0400,c0060 [Lapse risk , Absolute values after shock|Net solvency capital requirement]
+Datapoints labels
+-----------------
 
-S.26.03.04.04,r0400,c0080 [Lapse risk , Absolute values after shock|Gross solvency capital requirement]
+S.26.03.04.03,r0040,c0010 [simplifications - lapse risk, simplifications used]
+
+S.26.03.04.04,r0400,c0060 [lapse risk, net solvency capital requirement]
+
+S.26.03.04.04,r0400,c0080 [lapse risk, gross solvency capital requirement]
 
 
 

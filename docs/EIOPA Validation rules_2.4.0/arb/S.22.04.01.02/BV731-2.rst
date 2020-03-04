@@ -16,11 +16,13 @@ S.02.01.07.01 Balance sheet
 S.22.04.01.02 Solvency I Interest rate
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0630,c0010 [unknown label]
-S.02.01.07.01,r0670,c0010 [unknown label]
+S.02.01.07.01,r0630,c0010 [best estimate, solvency ii value]
+
+S.02.01.07.01,r0670,c0010 [best estimate, solvency ii value]
+
 S.22.04.01.02,r0100,c0020,snnn [unknown label]
 S.22.04.01.02,r0110,c0020,snnn [unknown label]
 S.22.04.01.02,r0120,c0020,snnn [unknown label]

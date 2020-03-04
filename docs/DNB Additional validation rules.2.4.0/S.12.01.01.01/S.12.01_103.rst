@@ -14,14 +14,14 @@ Template references
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0030,c0070 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Other life insurance|Contracts without options and guarantees]
+S.12.01.01.01,r0030,c0070 [gross best estimate, contracts without options and guarantees]
 
-S.12.01.01.01,r0030,c0080 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Other life insurance|Contracts with options or guarantees]
+S.12.01.01.01,r0030,c0080 [gross best estimate, contracts with options or guarantees]
 
-S.12.01.01.01,r0100,c0060 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Other life insurance|]
+S.12.01.01.01,r0100,c0060 [risk margin, none]
 
 
 

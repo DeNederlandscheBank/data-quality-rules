@@ -14,19 +14,20 @@ Template references
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0010,c0030 [Technical provisions calculated as a whole , Index-linked and unit-linked insurance|]
+S.12.01.01.01,r0010,c0030 [technical provisions calculated as a whole, none]
 
-S.12.01.01.01,r0010,c0120 [Technical provisions calculated as a whole , Accepted reinsurance|Index-linked and unit-linked insurance]
+S.12.01.01.01,r0010,c0120 [technical provisions calculated as a whole, index-linked and unit-linked insurance]
 
-S.12.01.01.01,r0010,c0150 [Technical provisions calculated as a whole , Total (Life other than health insurance, incl. Unit-Linked)]
+S.12.01.01.01,r0010,c0150 [technical provisions calculated as a whole, total (life other than health insurance, incl. unit-linked)]
 
-S.12.01.01.01,r0110,c0030 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Index-linked and unit-linked insurance|]
+S.12.01.01.01,r0110,c0030 [technical provisions calculated as a whole, none]
 
-S.12.01.01.01,r0110,c0150 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Total (Life other than health insurance, incl. Unit-Linked)]
+S.12.01.01.01,r0110,c0150 [technical provisions calculated as a whole, total (life other than health insurance, incl. unit-linked)]
 
-SE.02.01.18.01,r0660,c0010 [unknown label]
+SE.02.01.18.01,r0660,c0010 [technical provisions calculated as a whole, solvency ii value]
+
 
 

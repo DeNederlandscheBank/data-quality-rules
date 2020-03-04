@@ -16,12 +16,12 @@ S.01.02.01.01 Basic Information - General
 S.22.01.01.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0190,c0010 [nan]
+S.01.02.01.01,r0190,c0010 [transitional measure on the risk-free interest rate, none]
 
-S.22.01.01.01,r0080,c0050 [Eligible own funds to meet Solvency Capital Requirement|Tier 3 , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of transitional on interest rate]
+S.22.01.01.01,r0080,c0050 [tier 3, impact of transitional on interest rate]
 
 
 

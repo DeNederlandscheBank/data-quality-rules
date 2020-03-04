@@ -16,10 +16,11 @@ S.02.01.07.01 Balance sheet
 S.31.01.01.01 Share of reinsurers
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0270,c0010 [unknown label]
+S.02.01.07.01,r0270,c0010 [reinsurance recoverables from:, solvency ii value]
+
 S.31.01.01.01,c0100,snnn [unknown label]
 
 

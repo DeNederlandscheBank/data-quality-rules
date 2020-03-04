@@ -14,11 +14,13 @@ Template references
 S.23.01.04.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.04.01,r0290 [unknown label]
-S.23.01.04.01,r0520 [unknown label]
+S.23.01.04.01,r0290 [total basic own funds after deductions]
+
+S.23.01.04.01,r0520 [total available own funds to meet the consolidated group scr (excluding own funds from other financial sector and from the undertakings included via d&a )]
+
 
 
 Datapoint references

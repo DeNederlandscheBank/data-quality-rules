@@ -14,12 +14,12 @@ Template references
 S.27.01.01.19 Man made catastrophe risk - Other non-life catastrophe risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.19,r3210,c1130 [Non-proportional MAT reinsurance other than Marine and Aviation , Man made catastrophe risk - Other non-life catastrophe risk|Estimation of the gross premiums to be earned]
+S.27.01.01.19,r3210,c1130 [non-proportional mat reinsurance other than marine and aviation, estimation of the gross premiums to be earned]
 
-S.27.01.01.19,r3210,c1140 [Non-proportional MAT reinsurance other than Marine and Aviation , Man made catastrophe risk - Other non-life catastrophe risk|Catastrophe Risk Charge Other non-life catastrophe risk before risk mitigation]
+S.27.01.01.19,r3210,c1140 [non-proportional mat reinsurance other than marine and aviation, catastrophe risk charge other non-life catastrophe risk before risk mitigation]
 
 
 

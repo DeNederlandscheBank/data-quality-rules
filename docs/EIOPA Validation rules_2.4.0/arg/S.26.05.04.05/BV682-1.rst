@@ -18,18 +18,18 @@ S.26.05.04.01 Non-life premium and reserve Risk
 S.26.05.04.05 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.01.01,r0200,c0140 [Premiums written|Net , Line of Business for: accepted non-proportional reinsurance|Casualty]
+S.05.01.01.01,r0200,c0140 [net, casualty]
 
-S.26.05.04.01,r0200,c0060 [Non-proportional reinsurance - casualty , Volume measure for premium and reserve risk|Vprem]
+S.26.05.04.01,r0200,c0060 [non-proportional reinsurance - casualty, vprem]
 
-S.26.05.04.01,r0200,c0070 [Non-proportional reinsurance - casualty , Volume measure for premium and reserve risk|Vres]
+S.26.05.04.01,r0200,c0070 [non-proportional reinsurance - casualty, vres]
 
-S.26.05.04.01,r0200,c0090 [Non-proportional reinsurance - casualty , Volume measure for premium and reserve risk|V]
+S.26.05.04.01,r0200,c0090 [non-proportional reinsurance - casualty, v]
 
-S.26.05.04.05,r0010,c0010 [Captives simplifications - premium and reserve risk , Simplifications used]
+S.26.05.04.05,r0010,c0010 [captives simplifications - premium and reserve risk, simplifications used]
 
 
 

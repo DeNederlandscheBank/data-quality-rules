@@ -16,36 +16,36 @@ S.08.01.01.01 Information on positions held
 S.08.01.01.02 Information on derivatives
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.01.01.01,c0060 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Portfolio]
+S.08.01.01.01,c0060 [portfolio]
 
-S.08.01.01.01,c0080 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Derivatives held in index-linked and unit-linked contracts]
+S.08.01.01.01,c0080 [derivatives held in index-linked and unit-linked contracts]
 
-S.08.01.01.01,c0110 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Use of derivative]
+S.08.01.01.01,c0110 [use of derivative]
 
-S.08.01.01.01,c0130 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Notional amount of the derivative]
+S.08.01.01.01,c0130 [notional amount of the derivative]
 
-S.08.01.01.01,c0220 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Initial date]
+S.08.01.01.01,c0220 [initial date]
 
-S.08.01.01.01,c0240 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Solvency II value]
+S.08.01.01.01,c0240 [solvency ii value]
 
-S.08.01.01.01,c0250 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Valuation method]
+S.08.01.01.01,c0250 [valuation method]
 
-S.08.01.01.02,c0260 [URI , Counterparty Name]
+S.08.01.01.02,c0260 [counterparty name]
 
-S.08.01.01.02,c0330 [URI , Counterparty Group]
+S.08.01.01.02,c0330 [counterparty group]
 
-S.08.01.01.02,c0360 [URI , Contract name]
+S.08.01.01.02,c0360 [contract name]
 
-S.08.01.01.02,c0370 [URI , Currency]
+S.08.01.01.02,c0370 [currency]
 
-S.08.01.01.02,c0380 [URI , CIC]
+S.08.01.01.02,c0380 [cic]
 
-S.08.01.01.02,c0400 [URI , Unwind trigger of contract]
+S.08.01.01.02,c0400 [unwind trigger of contract]
 
-S.08.01.01.02,c0430 [URI , Maturity date]
+S.08.01.01.02,c0430 [maturity date]
 
 
 

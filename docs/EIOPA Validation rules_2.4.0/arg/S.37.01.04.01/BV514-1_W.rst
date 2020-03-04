@@ -16,12 +16,12 @@ S.32.01.04.01 Undertakings in the scope of the group
 S.37.01.04.01 Risk concentration
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.32.01.04.01,c0040 [Identification code of entity , Legal Name of the undertaking]
+S.32.01.04.01,c0040 [legal name of the undertaking]
 
-S.37.01.04.01,c0150 [Identification code of entity|Counterparty Group ID|URI|S.37.01.zz.01 line identification , Value of the exposure]
+S.37.01.04.01,c0150 [value of the exposure]
 
 
 

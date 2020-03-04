@@ -14,15 +14,21 @@ Template references
 S.12.02.01.01 Gross TP calculated as a whole and Gross BE for different countries - Home country and countries outside the materiality threshold
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.02.01.01,c0020 [unknown label]
-S.12.02.01.01,c0030 [unknown label]
-S.12.02.01.01,c0060 [unknown label]
-S.12.02.01.01,c0090 [unknown label]
-S.12.02.01.01,c0100 [unknown label]
-S.12.02.01.01,c0150 [unknown label]
+S.12.02.01.01,c0020 [insurance with profit participation]
+
+S.12.02.01.01,c0030 [index-linked and unit-linked insurance]
+
+S.12.02.01.01,c0060 [other life insurance]
+
+S.12.02.01.01,c0090 [annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
+
+S.12.02.01.01,c0100 [accepted reinsurance]
+
+S.12.02.01.01,c0150 [total (life other than health insurance, including unit-linked)]
+
 
 
 Datapoint references

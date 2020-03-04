@@ -18,22 +18,22 @@ S.17.02.01.01 Gross TP calculated as a whole and Gross BE for different countrie
 S.17.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0010,c0050 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.01.01,r0010,c0050 [technical provisions calculated as a whole, motor vehicle liability insurance]
 
-S.17.01.01.01,r0260,c0050 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.01.01,r0260,c0050 [total best estimate - gross, motor vehicle liability insurance]
 
-S.17.01.01.01,r0290,c0050 [Amount of the transitional on Technical Provisions|TP as a whole , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.01.01,r0290,c0050 [tp as a whole, motor vehicle liability insurance]
 
-S.17.01.01.01,r0300,c0050 [Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Motor vehicle liability insurance]
+S.17.01.01.01,r0300,c0050 [best estimate, motor vehicle liability insurance]
 
-S.17.02.01.01,r0010,c0050 [Home country , Direct business|Motor vehicle liability insurance]
+S.17.02.01.01,r0010,c0050 [home country, motor vehicle liability insurance]
 
-S.17.02.01.01,r0020,c0050 [EEA countries outside the materiality threshold - not reported by country , Direct business|Motor vehicle liability insurance]
+S.17.02.01.01,r0020,c0050 [eea countries outside the materiality threshold - not reported by country, motor vehicle liability insurance]
 
-S.17.02.01.01,r0030,c0050 [Non-EEA countries outside the materiality threshold - not reported by country , Direct business|Motor vehicle liability insurance]
+S.17.02.01.01,r0030,c0050 [non-eea countries outside the materiality threshold - not reported by country, motor vehicle liability insurance]
 
 S.17.02.01.02,r0040,c0050,snnn [unknown label]
 

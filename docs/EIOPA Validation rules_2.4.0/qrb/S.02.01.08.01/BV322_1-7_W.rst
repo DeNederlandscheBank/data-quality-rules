@@ -14,13 +14,17 @@ Template references
 S.02.01.08.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.08.01,r0520 [unknown label]
-S.02.01.08.01,r0530 [unknown label]
-S.02.01.08.01,r0540 [unknown label]
-S.02.01.08.01,r0550 [unknown label]
+S.02.01.08.01,r0520 [technical provisions – non-life (excluding health)]
+
+S.02.01.08.01,r0530 [technical provisions calculated as a whole]
+
+S.02.01.08.01,r0540 [best estimate]
+
+S.02.01.08.01,r0550 [risk margin]
+
 
 
 Datapoint references

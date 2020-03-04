@@ -16,104 +16,104 @@ S.01.01.04.01 Content of the submission
 S.01.02.04.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0010,c0010 [nan]
+S.01.01.04.01,r0010,c0010 [s.01.02.04 - basic information - general, none]
 
-S.01.01.04.01,r0020,c0010 [nan]
+S.01.01.04.01,r0020,c0010 [s.01.03.04 - basic information - rff and matching adjustment portfolios, none]
 
-S.01.01.04.01,r0030,c0010 [nan]
+S.01.01.04.01,r0030,c0010 [s.02.01.01 - balance sheet, none]
 
-S.01.01.04.01,r0040,c0010 [nan]
+S.01.01.04.01,r0040,c0010 [s.02.02.01 - assets and liabilities by currency, none]
 
-S.01.01.04.01,r0060,c0010 [nan]
+S.01.01.04.01,r0060,c0010 [s.03.01.04 - off-balance sheet items - general, none]
 
-S.01.01.04.01,r0070,c0010 [nan]
+S.01.01.04.01,r0070,c0010 [s.03.02.04 - off-balance sheet items - list of unlimited guarantees received by the group, none]
 
-S.01.01.04.01,r0080,c0010 [nan]
+S.01.01.04.01,r0080,c0010 [s.03.03.04 - off-balance sheet items - list of unlimited guarantees provided by the group, none]
 
-S.01.01.04.01,r0110,c0010 [nan]
+S.01.01.04.01,r0110,c0010 [s.05.01.01 - premiums, claims and expenses by line of business, none]
 
-S.01.01.04.01,r0120,c0010 [nan]
+S.01.01.04.01,r0120,c0010 [s.05.02.01 - premiums, claims and expenses by country, none]
 
-S.01.01.04.01,r0130,c0010 [nan]
+S.01.01.04.01,r0130,c0010 [s.06.01.01 - summary of assets, none]
 
-S.01.01.04.01,r0140,c0010 [nan]
+S.01.01.04.01,r0140,c0010 [s.06.02.04 - list of assets, none]
 
-S.01.01.04.01,r0150,c0010 [nan]
+S.01.01.04.01,r0150,c0010 [s.06.03.04 - collective investment undertakings - look-through approach, none]
 
-S.01.01.04.01,r0160,c0010 [nan]
+S.01.01.04.01,r0160,c0010 [s.07.01.04 - structured products, none]
 
-S.01.01.04.01,r0170,c0010 [nan]
+S.01.01.04.01,r0170,c0010 [s.08.01.04 - open derivatives, none]
 
-S.01.01.04.01,r0180,c0010 [nan]
+S.01.01.04.01,r0180,c0010 [s.08.02.04 - derivatives transactions, none]
 
-S.01.01.04.01,r0190,c0010 [nan]
+S.01.01.04.01,r0190,c0010 [s.09.01.04 - income/gains and losses in the period, none]
 
-S.01.01.04.01,r0200,c0010 [nan]
+S.01.01.04.01,r0200,c0010 [s.10.01.04 - securities lending and repos, none]
 
-S.01.01.04.01,r0210,c0010 [nan]
+S.01.01.04.01,r0210,c0010 [s.11.01.04 - assets held as collateral, none]
 
-S.01.01.04.01,r0260,c0010 [nan]
+S.01.01.04.01,r0260,c0010 [s.15.01.04 - description of the guarantees of variable annuities, none]
 
-S.01.01.04.01,r0270,c0010 [nan]
+S.01.01.04.01,r0270,c0010 [s.15.02.04 - hedging of guarantees of variable annuities, none]
 
-S.01.01.04.01,r0370,c0010 [nan]
+S.01.01.04.01,r0370,c0010 [s.22.01.04 - impact of long term guarantees measures and transitionals, none]
 
-S.01.01.04.01,r0410,c0010 [nan]
+S.01.01.04.01,r0410,c0010 [s.23.01.04 - own funds, none]
 
-S.01.01.04.01,r0420,c0010 [nan]
+S.01.01.04.01,r0420,c0010 [s.23.02.04 - detailed information by tiers on own funds, none]
 
-S.01.01.04.01,r0430,c0010 [nan]
+S.01.01.04.01,r0430,c0010 [s.23.03.04 - annual movements on own funds, none]
 
-S.01.01.04.01,r0440,c0010 [nan]
+S.01.01.04.01,r0440,c0010 [s.23.04.04 - list of items on own funds, none]
 
-S.01.01.04.01,r0460,c0010 [nan]
+S.01.01.04.01,r0460,c0010 [s.25.01.04 - solvency capital requirement - for groups on standard formula, none]
 
-S.01.01.04.01,r0470,c0010 [nan]
+S.01.01.04.01,r0470,c0010 [s.25.02.04 - solvency capital requirement - for groups using the standard formula and partial internal model, none]
 
-S.01.01.04.01,r0480,c0010 [nan]
+S.01.01.04.01,r0480,c0010 [s.25.03.04 - solvency capital requirement - for groups on full internal models, none]
 
-S.01.01.04.01,r0500,c0010 [nan]
+S.01.01.04.01,r0500,c0010 [s.26.01.04 - solvency capital requirement - market risk, none]
 
-S.01.01.04.01,r0510,c0010 [nan]
+S.01.01.04.01,r0510,c0010 [s.26.02.04 - solvency capital requirement - counterparty default risk, none]
 
-S.01.01.04.01,r0520,c0010 [nan]
+S.01.01.04.01,r0520,c0010 [s.26.03.04 - solvency capital requirement - life underwriting risk, none]
 
-S.01.01.04.01,r0530,c0010 [nan]
+S.01.01.04.01,r0530,c0010 [s.26.04.04 - solvency capital requirement - health underwriting risk, none]
 
-S.01.01.04.01,r0540,c0010 [nan]
+S.01.01.04.01,r0540,c0010 [s.26.05.04 - solvency capital requirement - non-life underwriting risk, none]
 
-S.01.01.04.01,r0550,c0010 [nan]
+S.01.01.04.01,r0550,c0010 [s.26.06.04 - solvency capital requirement - operational risk, none]
 
-S.01.01.04.01,r0560,c0010 [nan]
+S.01.01.04.01,r0560,c0010 [s.26.07.04 - solvency capital requirement - simplifications, none]
 
-S.01.01.04.01,r0570,c0010 [nan]
+S.01.01.04.01,r0570,c0010 [s.27.01.04 - solvency capital requirement - non-life and health catastrophe risk, none]
 
-S.01.01.04.01,r0680,c0010 [nan]
+S.01.01.04.01,r0680,c0010 [s.31.01.04 - share of reinsurers (including finite reinsurance and spv's), none]
 
-S.01.01.04.01,r0690,c0010 [nan]
+S.01.01.04.01,r0690,c0010 [s.31.02.04 - special purpose vehicles, none]
 
-S.01.01.04.01,r0700,c0010 [nan]
+S.01.01.04.01,r0700,c0010 [s.32.01.04 - undertakings in the scope of the group, none]
 
-S.01.01.04.01,r0710,c0010 [nan]
+S.01.01.04.01,r0710,c0010 [s.33.01.04 - insurance and reinsurance individual requirements, none]
 
-S.01.01.04.01,r0720,c0010 [nan]
+S.01.01.04.01,r0720,c0010 [s.34.01.04 - other regulated and non-regulated financial undertakings including insurance holding companies and mixed financial holding company individual requirements, none]
 
-S.01.01.04.01,r0730,c0010 [nan]
+S.01.01.04.01,r0730,c0010 [s.35.01.04 - contribution to group technical provisions, none]
 
-S.01.01.04.01,r0740,c0010 [nan]
+S.01.01.04.01,r0740,c0010 [s.36.01.01 - igt - equity-type transactions, debt and asset transfer, none]
 
-S.01.01.04.01,r0750,c0010 [nan]
+S.01.01.04.01,r0750,c0010 [s.36.02.01 - igt - derivatives, none]
 
-S.01.01.04.01,r0760,c0010 [nan]
+S.01.01.04.01,r0760,c0010 [s.36.03.01 - igt - internal reinsurance, none]
 
-S.01.01.04.01,r0770,c0010 [nan]
+S.01.01.04.01,r0770,c0010 [s.36.04.01 - igt - cost sharing, contingent liabilities, off bs and other items, none]
 
-S.01.01.04.01,r0780,c0010 [nan]
+S.01.01.04.01,r0780,c0010 [s.37.01.04 - risk concentration, none]
 
-S.01.02.04.01,r0100,c0010 [nan]
+S.01.02.04.01,r0100,c0010 [regular/ad-hoc submission, none]
 
 
 

@@ -11,14 +11,15 @@ IF {S.15.01.04.01,c0040}<>" " THEN {S.15.01.04.01,c0060} <> " "
 Template references
 -------------------
 
-S.15.01.04.01
+S.15.01.04.01 Description of the guarantees of variable annuities
 
-Datapoints
-----------
 
-S.15.01.04.01,c0040 [Y-axis (IP): Identification code of entity|ID code of product , Y-axis (IP): Product ID code]
+Datapoints labels
+-----------------
 
-S.15.01.04.01,c0060 [Identification code of entity|ID code of product , Description of the product]
+S.15.01.04.01,c0040 [*natural key*|"mandatory"]
+
+S.15.01.04.01,c0060 [description of the product]
 
 
 

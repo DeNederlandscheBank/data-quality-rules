@@ -14,13 +14,17 @@ Template references
 S.27.01.04.06 Natural Catastrophe risk -Subsidence
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.04.06,c0430 [unknown label]
-S.27.01.04.06,c0440 [unknown label]
-S.27.01.04.06,c0450 [unknown label]
-S.27.01.04.06,c0460 [unknown label]
+S.27.01.04.06,c0430 [catastrophe risk charge before risk mitigation]
+
+S.27.01.04.06,c0440 [estimated risk mitigation]
+
+S.27.01.04.06,c0450 [estimated reinstatement premiums]
+
+S.27.01.04.06,c0460 [catastrophe risk charge after risk mitigation]
+
 
 
 Datapoint references

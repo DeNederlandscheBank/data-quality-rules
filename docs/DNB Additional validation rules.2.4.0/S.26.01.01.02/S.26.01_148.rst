@@ -16,14 +16,14 @@ S.26.01.01.01 Market risk - basic information, part 1
 S.26.01.01.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
 S.26.01.01.01,r0420,c0020 [unknown label]
 S.26.01.01.01,r0420,c0030 [unknown label]
 S.26.01.01.01,r0420,c0040 [unknown label]
 S.26.01.01.01,r0420,c0050 [unknown label]
-S.26.01.01.02,r0420,c0060 [Spread risk|credit derivatives , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0420,c0060 [credit derivatives, net solvency capital requirement]
 
 
 

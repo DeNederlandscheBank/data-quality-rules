@@ -14,10 +14,10 @@ Template references
 S.25.02.01.02 Calculation of Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.02.01.02,r0060,c0100 [nan]
+S.25.02.01.02,r0060,c0100 [diversification, none]
 
 
 

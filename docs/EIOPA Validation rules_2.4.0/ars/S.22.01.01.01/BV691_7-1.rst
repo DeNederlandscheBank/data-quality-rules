@@ -14,10 +14,10 @@ Template references
 S.22.01.01.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.01.01.01,r0090,c0060 [Solvency Capital Requirement , Impact of the LTG measures and transitionals (Step-by-step approach)|Without volatility adjustment and without other transitional measures]
+S.22.01.01.01,r0090,c0060 [solvency capital requirement, without volatility adjustment and without other transitional measures]
 
 
 

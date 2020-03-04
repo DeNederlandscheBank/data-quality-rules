@@ -16,14 +16,14 @@ S.08.02.04.01 Information on positions held
 S.08.02.04.02 Information on derivatives
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.02.04.01,c0200 [Identification code of entity|Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Swap outflow amount]
+S.08.02.04.01,c0200 [swap outflow amount]
 
-S.08.02.04.01,c0210 [Identification code of entity|Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Swap inflow amount]
+S.08.02.04.01,c0210 [swap inflow amount]
 
-S.08.02.04.02,c0320 [URI , CIC]
+S.08.02.04.02,c0320 [cic]
 
 
 

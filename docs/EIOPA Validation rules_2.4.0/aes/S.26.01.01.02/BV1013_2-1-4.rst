@@ -14,28 +14,29 @@ Template references
 S.26.01.01.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.01.02,r0100,c0060 [Interest rate risk , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0100,c0060 [interest rate risk, net solvency capital requirement]
 
-S.26.01.01.02,r0110,c0060 [Interest rate risk|interest rate down shock , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0110,c0060 [interest rate down shock, net solvency capital requirement]
 
-S.26.01.01.02,r0120,c0060 [Interest rate risk|interest rate up shock , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0120,c0060 [interest rate up shock, net solvency capital requirement]
 
-S.26.01.01.02,r0200,c0060 [Equity risk , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0200,c0060 [equity risk, net solvency capital requirement]
 
-S.26.01.01.02,r0300,c0060 [Property risk , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0300,c0060 [property risk, net solvency capital requirement]
 
-S.26.01.01.02,r0400,c0060 [Spread risk , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0400,c0060 [spread risk, net solvency capital requirement]
 
-S.26.01.01.02,r0500,c0060 [Market risk concentrations , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0500,c0060 [market risk concentrations, net solvency capital requirement]
 
-S.26.01.01.02,r0600,c0060 [Currency risk , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0600,c0060 [currency risk, net solvency capital requirement]
 
-S.26.01.01.02,r0800,c0060 [Total market risk , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0800,c0060 [total market risk, net solvency capital requirement]
 
-SE.01.01.16.01,r0500,c0010 [unknown label]
+SE.01.01.16.01,r0500,c0010 [s.26.01.01 - solvency capital requirement - market risk, none]
+
 
 
 Datapoint references

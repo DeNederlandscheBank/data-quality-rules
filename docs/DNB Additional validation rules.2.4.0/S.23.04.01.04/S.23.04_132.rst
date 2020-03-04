@@ -14,16 +14,16 @@ Template references
 S.23.04.01.04 Items approved by supervisory authority as basic own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.04.01.04,c0445 [Y-axis (YJ): S.23.04.zz.04 line identification , Y-axis (YJ): Line identification]
+S.23.04.01.04,c0445 [*artificial key*|"mandatory"]
 
-S.23.04.01.04,c0480 [S.23.04.zz.04 line identification , Tier 1]
+S.23.04.01.04,c0480 [tier 1]
 
-S.23.04.01.04,c0490 [S.23.04.zz.04 line identification , Tier 2]
+S.23.04.01.04,c0490 [tier 2]
 
-S.23.04.01.04,c0500 [S.23.04.zz.04 line identification , Tier 3]
+S.23.04.01.04,c0500 [tier 3]
 
 
 

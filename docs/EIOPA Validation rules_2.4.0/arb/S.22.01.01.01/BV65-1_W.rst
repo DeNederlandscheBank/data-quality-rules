@@ -14,12 +14,15 @@ Template references
 S.22.01.01.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.01.01.01,c0010 [unknown label]
-S.22.01.01.01,c0080 [unknown label]
-S.22.01.01.01,c0100 [unknown label]
+S.22.01.01.01,c0010 [amount with long term guarantee measures and transitionals]
+
+S.22.01.01.01,c0080 [without matching adjustment and without all the others]
+
+S.22.01.01.01,c0100 [impact of all ltg measures and transitionals]
+
 
 
 Datapoint references

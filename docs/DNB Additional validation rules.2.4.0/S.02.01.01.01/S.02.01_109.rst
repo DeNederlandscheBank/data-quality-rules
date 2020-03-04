@@ -11,15 +11,17 @@ IF {S.02.01.01.01,r0180,c0010}>0 THEN ({S.01.01.01.01,r0150,c0010}="REPORTED" OR
 Template references
 -------------------
 
-S.01.01.01.01
-S.02.01.01.01
+S.01.01.01.01 Content of the submission
 
-Datapoints
-----------
+S.02.01.01.01 Balance sheet
 
-S.01.01.01.01,r0150,c0010 [nan]
 
-S.02.01.01.01,r0180,c0010 [Assets|Investments (other than assets held for index-linked and unit-linked contracts)|Collective Investments Undertakings , Solvency II value]
+Datapoints labels
+-----------------
+
+S.01.01.01.01,r0150,c0010 [s.06.03.01 - collective investment undertakings - look-through approach, none]
+
+S.02.01.01.01,r0180,c0010 [collective investments undertakings, solvency ii value]
 
 
 

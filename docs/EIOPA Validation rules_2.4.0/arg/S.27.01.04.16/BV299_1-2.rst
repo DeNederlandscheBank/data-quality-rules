@@ -14,12 +14,15 @@ Template references
 S.27.01.04.16 Man made catastrophe risk - Credit & Suretyship - Large Credit Default
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.04.16,r2900 [unknown label]
-S.27.01.04.16,r2910 [unknown label]
-S.27.01.04.16,r2920 [unknown label]
+S.27.01.04.16,r2900 [largest exposure 1]
+
+S.27.01.04.16,r2910 [largest exposure 2]
+
+S.27.01.04.16,r2920 [total]
+
 
 
 Datapoint references

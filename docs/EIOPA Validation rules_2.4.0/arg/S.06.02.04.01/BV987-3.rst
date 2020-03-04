@@ -14,10 +14,10 @@ Template references
 S.06.02.04.01 Information on positions held
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.02.04.01,c0060 [Identification code of entity|Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Portfolio]
+S.06.02.04.01,c0060 [portfolio]
 
 
 

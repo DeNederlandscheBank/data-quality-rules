@@ -11,14 +11,15 @@ IF {S.32.01.04.01,c0240} = "NOT INCLUDED INTO SCOPE OF GROUP SUPERVISION (ART. 2
 Template references
 -------------------
 
-S.32.01.04.01
+S.32.01.04.01 Undertakings in the scope of the group
 
-Datapoints
-----------
 
-S.32.01.04.01,c0240 [Identification code of entity , Inclusion in the scope of Group supervision|Yes/No]
+Datapoints labels
+-----------------
 
-S.32.01.04.01,c0260 [Identification code of entity , Group solvency calculation|Method used and under method 1, treatment of the undertaking]
+S.32.01.04.01,c0240 [yes/no]
+
+S.32.01.04.01,c0260 [method used and under method 1, treatment of the undertaking]
 
 
 

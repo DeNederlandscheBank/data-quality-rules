@@ -14,12 +14,15 @@ Template references
 S.27.01.04.01 Non-life and Health catastrophe risk - Summary
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.04.01,r0190 [unknown label]
-S.27.01.04.01,r0200 [unknown label]
-S.27.01.04.01,r0210 [unknown label]
+S.27.01.04.01,r0190 [total non-life catastrophe risk before diversification]
+
+S.27.01.04.01,r0200 [diversification between sub-modules]
+
+S.27.01.04.01,r0210 [total non-life catastrophe risk after diversification]
+
 
 
 Datapoint references

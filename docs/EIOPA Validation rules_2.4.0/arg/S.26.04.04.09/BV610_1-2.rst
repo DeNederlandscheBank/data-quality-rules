@@ -16,20 +16,20 @@ S.26.04.04.01 SLT health underwriting risk
 S.26.04.04.09 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.04.04.01,r0100,c0020 [Health mortality risk , Initial absolute values before shock|Assets]
+S.26.04.04.01,r0100,c0020 [health mortality risk, assets]
 
-S.26.04.04.01,r0100,c0030 [Health mortality risk , Initial absolute values before shock|Liabilities]
+S.26.04.04.01,r0100,c0030 [health mortality risk, liabilities]
 
-S.26.04.04.01,r0100,c0040 [Health mortality risk , Absolute values after shock|Assets]
+S.26.04.04.01,r0100,c0040 [health mortality risk, assets]
 
-S.26.04.04.01,r0100,c0050 [Health mortality risk , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+S.26.04.04.01,r0100,c0050 [health mortality risk, liabilities (after the loss absorbing capacity of technical provisions)]
 
-S.26.04.04.01,r0100,c0060 [Health mortality risk , Absolute values after shock|Net solvency capital requirement]
+S.26.04.04.01,r0100,c0060 [health mortality risk, net solvency capital requirement]
 
-S.26.04.04.09,r0010,c0010 [Simplifications - health mortality risk , Simplifications used]
+S.26.04.04.09,r0010,c0010 [simplifications - health mortality risk, simplifications used]
 
 
 

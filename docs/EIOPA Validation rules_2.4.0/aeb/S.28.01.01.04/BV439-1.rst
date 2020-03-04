@@ -16,64 +16,64 @@ S.12.01.01.01 Life and Health SLT Technical Provisions
 S.28.01.01.04 Total capital at risk for all life (re)insurance obligations
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0010,c0060 [Technical provisions calculated as a whole , Other life insurance|]
+S.12.01.01.01,r0010,c0060 [technical provisions calculated as a whole, none]
 
-S.12.01.01.01,r0010,c0090 [Technical provisions calculated as a whole , Annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0010,c0090 [technical provisions calculated as a whole, annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
 
-S.12.01.01.01,r0010,c0130 [Technical provisions calculated as a whole , Accepted reinsurance|Other life insurance]
+S.12.01.01.01,r0010,c0130 [technical provisions calculated as a whole, other life insurance]
 
-S.12.01.01.01,r0010,c0140 [Technical provisions calculated as a whole , Accepted reinsurance|Annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0010,c0140 [technical provisions calculated as a whole, annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
 
-S.12.01.01.01,r0010,c0210 [Technical provisions calculated as a whole , Total (Health similar to life insurance)]
+S.12.01.01.01,r0010,c0210 [technical provisions calculated as a whole, total (health similar to life insurance)]
 
-S.12.01.01.01,r0020,c0060 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Other life insurance|]
+S.12.01.01.01,r0020,c0060 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, none]
 
-S.12.01.01.01,r0020,c0090 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0020,c0090 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
 
-S.12.01.01.01,r0020,c0130 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Accepted reinsurance|Other life insurance]
+S.12.01.01.01,r0020,c0130 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, other life insurance]
 
-S.12.01.01.01,r0020,c0140 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Accepted reinsurance|Annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0020,c0140 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
 
-S.12.01.01.01,r0020,c0210 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Total (Health similar to life insurance)]
+S.12.01.01.01,r0020,c0210 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, total (health similar to life insurance)]
 
-S.12.01.01.01,r0030,c0130 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Accepted reinsurance|Other life insurance]
+S.12.01.01.01,r0030,c0130 [gross best estimate, other life insurance]
 
-S.12.01.01.01,r0030,c0140 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Accepted reinsurance|Annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0030,c0140 [gross best estimate, annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
 
-S.12.01.01.01,r0080,c0130 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Accepted reinsurance|Other life insurance]
+S.12.01.01.01,r0080,c0130 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, other life insurance]
 
-S.12.01.01.01,r0080,c0140 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default , Accepted reinsurance|Annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0080,c0140 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
 
-S.12.01.01.01,r0090,c0070 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Best estimate minus recoverables from reinsurance/SPV and Finite Re , Other life insurance|Contracts without options and guarantees]
+S.12.01.01.01,r0090,c0070 [best estimate minus recoverables from reinsurance/spv and finite re, contracts without options and guarantees]
 
-S.12.01.01.01,r0090,c0080 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Best estimate minus recoverables from reinsurance/SPV and Finite Re , Other life insurance|Contracts with options or guarantees]
+S.12.01.01.01,r0090,c0080 [best estimate minus recoverables from reinsurance/spv and finite re, contracts with options or guarantees]
 
-S.12.01.01.01,r0090,c0090 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Best estimate minus recoverables from reinsurance/SPV and Finite Re , Annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0090,c0090 [best estimate minus recoverables from reinsurance/spv and finite re, annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
 
-S.12.01.01.01,r0090,c0210 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Best estimate minus recoverables from reinsurance/SPV and Finite Re , Total (Health similar to life insurance)]
+S.12.01.01.01,r0090,c0210 [best estimate minus recoverables from reinsurance/spv and finite re, total (health similar to life insurance)]
 
-S.12.01.01.01,r0110,c0060 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Other life insurance|]
+S.12.01.01.01,r0110,c0060 [technical provisions calculated as a whole, none]
 
-S.12.01.01.01,r0110,c0090 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0110,c0090 [technical provisions calculated as a whole, annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
 
-S.12.01.01.01,r0110,c0100 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Accepted reinsurance|]
+S.12.01.01.01,r0110,c0100 [technical provisions calculated as a whole, life and annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations]
 
-S.12.01.01.01,r0110,c0210 [Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Total (Health similar to life insurance)]
+S.12.01.01.01,r0110,c0210 [technical provisions calculated as a whole, total (health similar to life insurance)]
 
-S.12.01.01.01,r0120,c0070 [Amount of the transitional on Technical Provisions|Best estimate , Other life insurance|Contracts without options and guarantees]
+S.12.01.01.01,r0120,c0070 [best estimate, contracts without options and guarantees]
 
-S.12.01.01.01,r0120,c0080 [Amount of the transitional on Technical Provisions|Best estimate , Other life insurance|Contracts with options or guarantees]
+S.12.01.01.01,r0120,c0080 [best estimate, contracts with options or guarantees]
 
-S.12.01.01.01,r0120,c0090 [Amount of the transitional on Technical Provisions|Best estimate , Annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
+S.12.01.01.01,r0120,c0090 [best estimate, annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
 
-S.12.01.01.01,r0120,c0100 [Amount of the transitional on Technical Provisions|Best estimate , Accepted reinsurance|]
+S.12.01.01.01,r0120,c0100 [best estimate, life and annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations]
 
-S.12.01.01.01,r0120,c0210 [Amount of the transitional on Technical Provisions|Best estimate , Total (Health similar to life insurance)]
+S.12.01.01.01,r0120,c0210 [best estimate, total (health similar to life insurance)]
 
-S.28.01.01.04,r0240,c0050 [Other life (re)insurance and health (re)insurance obligations , Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+S.28.01.01.04,r0240,c0050 [other life (re)insurance and health (re)insurance obligations, net (of reinsurance/spv) best estimate and tp calculated as a whole]
 
 
 

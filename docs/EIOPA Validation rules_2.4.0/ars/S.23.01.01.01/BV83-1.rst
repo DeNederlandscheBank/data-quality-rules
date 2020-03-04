@@ -14,12 +14,14 @@ Template references
 S.23.01.01.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
 S.23.01.01.01,r0300-0370 [unknown label]
-S.23.01.01.01,r0390 [unknown label]
-S.23.01.01.01,r0400 [unknown label]
+S.23.01.01.01,r0390 [other ancillary own funds]
+
+S.23.01.01.01,r0400 [total ancillary own funds]
+
 
 
 Datapoint references

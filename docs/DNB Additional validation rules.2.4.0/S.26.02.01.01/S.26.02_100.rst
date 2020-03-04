@@ -14,14 +14,14 @@ Template references
 S.26.02.01.01 Counterparty default risk - basic information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.02.01.01,r0100,c0080 [Type 1 exposures , Gross solvency capital requirement]
+S.26.02.01.01,r0100,c0080 [type 1 exposures, gross solvency capital requirement]
 
-S.26.02.01.01,r0300,c0080 [Type 2 exposures , Gross solvency capital requirement]
+S.26.02.01.01,r0300,c0080 [type 2 exposures, gross solvency capital requirement]
 
-S.26.02.01.01,r0400,c0080 [Total counterparty default risk , Gross solvency capital requirement]
+S.26.02.01.01,r0400,c0080 [total counterparty default risk, gross solvency capital requirement]
 
 
 

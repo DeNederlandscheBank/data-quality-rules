@@ -14,8 +14,8 @@ Template references
 S.27.01.01.02 Natural Catastrophe risk - Windstorm
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
 S.27.01.01.02,R0600 [unknown label]
 r0400,r0590 [unknown label]

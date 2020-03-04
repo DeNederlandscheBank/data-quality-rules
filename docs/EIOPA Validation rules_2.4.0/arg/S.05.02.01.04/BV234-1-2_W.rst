@@ -14,12 +14,15 @@ Template references
 S.05.02.01.04 Home Country - life obligations
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.02.01.04,r1710 [unknown label]
-S.05.02.01.04,r1720 [unknown label]
-S.05.02.01.04,r1800 [unknown label]
+S.05.02.01.04,r1710 [gross]
+
+S.05.02.01.04,r1720 [reinsurers' share]
+
+S.05.02.01.04,r1800 [net]
+
 
 
 Datapoint references

@@ -14,10 +14,10 @@ Template references
 S.25.01.01.02 Calculation of Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.01.01.02,r0440,c0100 [Other information on SCR|Diversification effects due to RFF nSCR aggregation for article 304 , Value]
+S.25.01.01.02,r0440,c0100 [diversification effects due to rff nscr aggregation for article 304, value]
 
 
 

@@ -14,10 +14,11 @@ Template references
 S.06.02.07.01 Information on positions held
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.02.07.01,c0060 [unknown label]
+S.06.02.07.01,c0060 [portfolio]
+
 
 
 Datapoint references

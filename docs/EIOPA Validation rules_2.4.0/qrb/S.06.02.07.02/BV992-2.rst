@@ -16,11 +16,14 @@ S.01.02.07.01 Basic Information
 S.06.02.07.02 Information on assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.07.01,r0050,c0010 [unknown label]
-S.06.02.07.02,c0210 [unknown label]
-S.06.02.07.02,c0290 [unknown label]
+S.01.02.07.01,r0050,c0010 [identification code and type of code of third country branch, none]
+
+S.06.02.07.02,c0210 [issuer code and type of code]
+
+S.06.02.07.02,c0290 [cic]
+
 
 

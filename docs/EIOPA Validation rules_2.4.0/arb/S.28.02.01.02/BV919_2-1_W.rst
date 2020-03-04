@@ -14,10 +14,11 @@ Template references
 S.28.02.01.02 Background information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.28.02.01.02,c0060 [unknown label]
+S.28.02.01.02,c0060 [net (of reinsurance) written premiums in the last 12 months]
+
 
 
 Datapoint references

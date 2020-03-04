@@ -16,10 +16,10 @@ S.22.01.04.01 Impact of long term guarantees measures and transitionals
 S.23.04.04.07 Adjustment for ring fenced funds and matching adjustment portfolios
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.01.04.01,r0040,c0010 [Basic own funds|Restricted own funds due to ring-fencing and matching portfolio , Amount with Long Term Guarantee measures and transitionals]
+S.22.01.04.01,r0040,c0010 [restricted own funds due to ring-fencing and matching portfolio, amount with long term guarantee measures and transitionals]
 
 S.23.04.04.07,c0710,snnn [unknown label]
 

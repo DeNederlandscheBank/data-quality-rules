@@ -16,20 +16,20 @@ S.01.01.04.01 Content of the submission
 S.26.01.04.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0500,c0010 [nan]
+S.01.01.04.01,r0500,c0010 [s.26.01.04 - solvency capital requirement - market risk, none]
 
-S.26.01.04.02,r0200,c0060 [Equity risk , Absolute values after shock|Net solvency capital requirement]
+S.26.01.04.02,r0200,c0060 [equity risk, net solvency capital requirement]
 
-S.26.01.04.02,r0210,c0060 [Equity risk|type 1 equities , Absolute values after shock|Net solvency capital requirement]
+S.26.01.04.02,r0210,c0060 [type 1 equities, net solvency capital requirement]
 
-S.26.01.04.02,r0250,c0060 [Equity risk|type 2 equities , Absolute values after shock|Net solvency capital requirement]
+S.26.01.04.02,r0250,c0060 [type 2 equities, net solvency capital requirement]
 
-S.26.01.04.02,r0291,c0060 [Equity risk|qualifying infrastructure corporate equities , Absolute values after shock|Net solvency capital requirement]
+S.26.01.04.02,r0291,c0060 [qualifying infrastructure corporate equities, net solvency capital requirement]
 
-S.26.01.04.02,r0292,c0060 [Equity risk|qualifying infrastructure equities other than corporate , Absolute values after shock|Net solvency capital requirement]
+S.26.01.04.02,r0292,c0060 [qualifying infrastructure equities other than corporate, net solvency capital requirement]
 
 
 

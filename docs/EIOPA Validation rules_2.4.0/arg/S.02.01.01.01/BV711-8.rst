@@ -14,12 +14,12 @@ Template references
 S.02.01.01.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.01.01,r0670,c0010 [Liabilities|Technical provisions - life (excluding index-linked and unit-linked)|Technical provisions Ã¢ÂÂ life (excluding health and index-linked and unit-linked)|Best Estimate , Solvency II value]
+S.02.01.01.01,r0670,c0010 [best estimate, solvency ii value]
 
-S.02.01.01.01,r0680,c0010 [Liabilities|Technical provisions - life (excluding index-linked and unit-linked)|Technical provisions Ã¢ÂÂ life (excluding health and index-linked and unit-linked)|Risk margin , Solvency II value]
+S.02.01.01.01,r0680,c0010 [risk margin, solvency ii value]
 
 
 

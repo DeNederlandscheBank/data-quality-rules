@@ -11,14 +11,15 @@ IF {S.23.04.04.01,c0020} > 0 THEN {S.23.04.04.01,c0070} <> " "
 Template references
 -------------------
 
-S.23.04.04.01
+S.23.04.04.01 Subordinated MMA
 
-Datapoints
-----------
 
-S.23.04.04.01,c0020 [S.23.04.zz.01 line identification , Amount]
+Datapoints labels
+-----------------
 
-S.23.04.04.01,c0070 [S.23.04.zz.01 line identification , Counted under transitionals?]
+S.23.04.04.01,c0020 [amount]
+
+S.23.04.04.01,c0070 [counted under transitionals?]
 
 
 

@@ -14,14 +14,19 @@ Template references
 S.23.03.07.02 Ancillary own funds - movements in the reporting period
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.03.07.02,c0010 [unknown label]
-S.23.03.07.02,c0060 [unknown label]
-S.23.03.07.02,c0110 [unknown label]
-S.23.03.07.02,c0120 [unknown label]
-S.23.03.07.02,c0130 [unknown label]
+S.23.03.07.02,c0010 [balance b/fwd]
+
+S.23.03.07.02,c0060 [balance c/fwd]
+
+S.23.03.07.02,c0110 [new amount made available]
+
+S.23.03.07.02,c0120 [reduction to amount available]
+
+S.23.03.07.02,c0130 [called up to basic own fund]
+
 
 
 Datapoint references

@@ -14,12 +14,12 @@ Template references
 S.27.01.01.05 Natural Catastrophe risk - Hail
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.05,r1700,c0350 [Natural Catastrophe risk - Hail|Kingdom of the Netherlands , Catastrophe Risk Charge before risk mitigation]
+S.27.01.01.05,r1700,c0350 [kingdom of the netherlands, catastrophe risk charge before risk mitigation]
 
-S.27.01.01.05,r1940,c0350 [Natural Catastrophe risk - Hail|Total Hail after diversification , Catastrophe Risk Charge before risk mitigation]
+S.27.01.01.05,r1940,c0350 [total hail after diversification, catastrophe risk charge before risk mitigation]
 
 
 

@@ -16,12 +16,12 @@ S.23.01.04.01 Own funds
 S.23.02.04.01 Basic own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.04.01,r0050,c0030 [Basic own funds before deduction for participations in other financial sector|Subordinated mutual member accounts , Tier 1 - restricted]
+S.23.01.04.01,r0050,c0030 [subordinated mutual member accounts, tier 1 - restricted]
 
-S.23.02.04.01,r0300,c0020 [Total subordinated mutual members accounts , Tier 1|]
+S.23.02.04.01,r0300,c0020 [total subordinated mutual members accounts, none]
 
 
 

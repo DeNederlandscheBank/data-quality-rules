@@ -11,11 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.02
+S.27.01.04.02 Natural Catastrophe risk - Windstorm
 
-Datapoints
-----------
 
-S.27.01.04.02,r0810 [unknown label]
+Datapoints labels
+-----------------
+
+S.27.01.04.02,r0810 [diversification effect between regions]
+
 
 

@@ -14,12 +14,15 @@ Template references
 S.17.01.01.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0150 [unknown label]
-S.17.01.01.01,r0250 [unknown label]
-S.17.01.01.01,r0270 [unknown label]
+S.17.01.01.01,r0150 [net best estimate of premium provisions]
+
+S.17.01.01.01,r0250 [net best estimate of claims provisions]
+
+S.17.01.01.01,r0270 [total best estimate - net]
+
 
 
 Datapoint references

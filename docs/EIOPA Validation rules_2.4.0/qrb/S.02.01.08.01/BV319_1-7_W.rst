@@ -14,14 +14,19 @@ Template references
 S.02.01.08.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.08.01,r0130 [unknown label]
-S.02.01.08.01,r0140 [unknown label]
-S.02.01.08.01,r0150 [unknown label]
-S.02.01.08.01,r0160 [unknown label]
-S.02.01.08.01,r0170 [unknown label]
+S.02.01.08.01,r0130 [bonds]
+
+S.02.01.08.01,r0140 [government bonds]
+
+S.02.01.08.01,r0150 [corporate bonds]
+
+S.02.01.08.01,r0160 [structured notes]
+
+S.02.01.08.01,r0170 [collateralised securities]
+
 
 
 Datapoint references

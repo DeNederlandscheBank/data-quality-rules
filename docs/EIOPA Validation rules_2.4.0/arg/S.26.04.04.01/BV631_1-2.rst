@@ -14,17 +14,25 @@ Template references
 S.26.04.04.01 SLT health underwriting risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.04.04.01,r0100 [unknown label]
-S.26.04.04.01,r0200 [unknown label]
-S.26.04.04.01,r0300 [unknown label]
-S.26.04.04.01,r0400 [unknown label]
-S.26.04.04.01,r0500 [unknown label]
-S.26.04.04.01,r0600 [unknown label]
-S.26.04.04.01,r0700 [unknown label]
-S.26.04.04.01,r0800 [unknown label]
+S.26.04.04.01,r0100 [health mortality risk]
+
+S.26.04.04.01,r0200 [health longevity risk]
+
+S.26.04.04.01,r0300 [health disability-morbidity risk]
+
+S.26.04.04.01,r0400 [slt health lapse risk]
+
+S.26.04.04.01,r0500 [health expense risk]
+
+S.26.04.04.01,r0600 [health revision risk]
+
+S.26.04.04.01,r0700 [diversification within slt health underwriting risk]
+
+S.26.04.04.01,r0800 [total slt health underwriting risk]
+
 
 
 Datapoint references

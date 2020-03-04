@@ -16,14 +16,14 @@ S.26.03.01.03 Simplifications used
 S.26.03.01.04 Life underwriting risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.03.01.03,r0050,c0010 [Simplifications - life expense risk , Simplifications used]
+S.26.03.01.03,r0050,c0010 [simplifications - life expense risk, simplifications used]
 
-S.26.03.01.04,r0500,c0060 [Life expense risk , Absolute values after shock|Net solvency capital requirement]
+S.26.03.01.04,r0500,c0060 [life expense risk, net solvency capital requirement]
 
-S.26.03.01.04,r0500,c0080 [Life expense risk , Absolute values after shock|Gross solvency capital requirement]
+S.26.03.01.04,r0500,c0080 [life expense risk, gross solvency capital requirement]
 
 
 

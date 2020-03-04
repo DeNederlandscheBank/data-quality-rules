@@ -16,14 +16,14 @@ S.22.01.01.01 Impact of long term guarantees measures and transitionals
 S.23.01.01.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.01.01.01,r0060,c0010 [Eligible own funds to meet Solvency Capital Requirement|Tier 1 , Amount with Long Term Guarantee measures and transitionals]
+S.22.01.01.01,r0060,c0010 [tier 1, amount with long term guarantee measures and transitionals]
 
-S.23.01.01.01,r0540,c0020 [Available and eligible own funds|Total eligible own funds to meet the SCR , Tier 1 - unrestricted]
+S.23.01.01.01,r0540,c0020 [total eligible own funds to meet the scr, tier 1 - unrestricted]
 
-S.23.01.01.01,r0540,c0030 [Available and eligible own funds|Total eligible own funds to meet the SCR , Tier 1 - restricted]
+S.23.01.01.01,r0540,c0030 [total eligible own funds to meet the scr, tier 1 - restricted]
 
 
 

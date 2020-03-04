@@ -11,16 +11,17 @@ IF {S.27.01.04.14,r2700,c0910}<>0 THEN {S.27.01.04.14,r2700,c0910}=({S.27.01.04.
 Template references
 -------------------
 
-S.27.01.04.14
+S.27.01.04.14 Man made catastrophe risk - Liability
 
-Datapoints
-----------
 
-S.27.01.04.14,r2700,c0890 [Professional malpractice liability , Man made catastrophe risk - Liability|Earned premium following 12 months]
+Datapoints labels
+-----------------
 
-S.27.01.04.14,r2700,c0900 [Professional malpractice liability , Man made catastrophe risk - Liability|Largest liability limit provided]
+S.27.01.04.14,r2700,c0890 [professional malpractice liability, earned premium following 12 months]
 
-S.27.01.04.14,r2700,c0910 [Professional malpractice liability , Man made catastrophe risk - Liability|Number of claims]
+S.27.01.04.14,r2700,c0900 [professional malpractice liability, largest liability limit provided]
+
+S.27.01.04.14,r2700,c0910 [professional malpractice liability, number of claims]
 
 
 

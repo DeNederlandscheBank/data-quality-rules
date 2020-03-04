@@ -18,14 +18,14 @@ S.02.01.01.01 Balance sheet
 S.25.01.01.01 Basic Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.01.01,r0460,c0010 [nan]
+S.01.01.01.01,r0460,c0010 [s.25.01.01 - solvency capital requirement - for undertakings on standard formula, none]
 
-S.02.01.01.01,r0030,c0010 [Assets|Intangible assets , Solvency II value]
+S.02.01.01.01,r0030,c0010 [intangible assets, solvency ii value]
 
-S.25.01.01.01,r0070,c0040 [Intangible asset risk , Gross solvency capital requirement]
+S.25.01.01.01,r0070,c0040 [intangible asset risk, gross solvency capital requirement]
 
 
 

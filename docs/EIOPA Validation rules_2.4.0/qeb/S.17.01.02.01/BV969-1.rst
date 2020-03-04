@@ -16,12 +16,12 @@ S.05.01.02.01 Non-Life (direct business/accepted proportional reinsurance and ac
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.02.01,r0200,c0140 [Premiums written|Net , Line of Business for: accepted non-proportional reinsurance|Casualty]
+S.05.01.02.01,r0200,c0140 [net, casualty]
 
-S.17.01.02.01,r0320,c0150 [Technical provisions - total|Technical provisions - total , Accepted non-proportional reinsurance|Non-proportional casualty reinsurance]
+S.17.01.02.01,r0320,c0150 [technical provisions - total, non-proportional casualty reinsurance]
 
 
 

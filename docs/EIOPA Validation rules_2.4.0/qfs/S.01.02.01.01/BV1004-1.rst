@@ -16,14 +16,18 @@ S.01.01.11.01 Content of the submission
 S.01.02.01.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.11.01,r0010,c0010 [unknown label]
-S.01.01.11.01,r0490,c0010 [unknown label]
-S.01.01.11.01,r0960,c0010 [unknown label]
-S.01.01.11.01,r0980,c0010 [unknown label]
-S.01.02.01.01,r0100,c0010 [nan]
+S.01.01.11.01,r0010,c0010 [s.01.02.01 - basic information - general, none]
+
+S.01.01.11.01,r0490,c0010 [s.25.04.11 - solvency capital requirement, none]
+
+S.01.01.11.01,r0960,c0010 [s.39.01.11 - profit and loss, none]
+
+S.01.01.11.01,r0980,c0010 [s.41.01.11 - lapses, none]
+
+S.01.02.01.01,r0100,c0010 [regular/ad-hoc submission, none]
 
 
 

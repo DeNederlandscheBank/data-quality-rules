@@ -14,12 +14,15 @@ Template references
 S.26.06.01.01 Operational risk - basic information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.06.01.01,r0130 [unknown label]
-S.26.06.01.01,r0260 [unknown label]
-S.26.06.01.01,r0300 [unknown label]
+S.26.06.01.01,r0130 [capital requirement for operational risk based on technical provisions]
+
+S.26.06.01.01,r0260 [capital requirement for operational risk based on earned premiums]
+
+S.26.06.01.01,r0300 [capital requirement for operational risk charge before capping]
+
 
 
 Datapoint references

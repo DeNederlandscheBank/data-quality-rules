@@ -14,13 +14,17 @@ Template references
 S.02.01.07.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0610 [unknown label]
-S.02.01.07.01,r0620 [unknown label]
-S.02.01.07.01,r0630 [unknown label]
-S.02.01.07.01,r0640 [unknown label]
+S.02.01.07.01,r0610 [technical provisions - health (similar to life)]
+
+S.02.01.07.01,r0620 [technical provisions calculated as a whole]
+
+S.02.01.07.01,r0630 [best estimate]
+
+S.02.01.07.01,r0640 [risk margin]
+
 
 
 Datapoint references

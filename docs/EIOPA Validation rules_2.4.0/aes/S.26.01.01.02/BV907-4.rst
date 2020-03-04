@@ -14,16 +14,17 @@ Template references
 S.26.01.01.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.01.02,r0420,c0060 [Spread risk|credit derivatives , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0420,c0060 [credit derivatives, net solvency capital requirement]
 
-S.26.01.01.02,r0430,c0060 [Spread risk|credit derivatives|downward shock on credit derivatives , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0430,c0060 [downward shock on credit derivatives, net solvency capital requirement]
 
-S.26.01.01.02,r0440,c0060 [Spread risk|credit derivatives|upward shock on credit derivatives , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0440,c0060 [upward shock on credit derivatives, net solvency capital requirement]
 
-SE.01.01.16.01,r0500,c0010 [unknown label]
+SE.01.01.16.01,r0500,c0010 [s.26.01.01 - solvency capital requirement - market risk, none]
+
 
 
 Datapoint references

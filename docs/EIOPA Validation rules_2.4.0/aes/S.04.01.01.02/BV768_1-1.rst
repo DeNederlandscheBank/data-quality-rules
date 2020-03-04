@@ -16,12 +16,12 @@ S.01.02.01.01 Basic Information - General
 S.04.01.01.02 By EEA member (location of the branch)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0050,c0010 [nan]
+S.01.02.01.01,r0050,c0010 [country of authorisation, none]
 
-S.04.01.01.02,r0020,c0080 [Premiums written , By EEA member|Business underwritten in the considered country, by the EEA branch established in this country|Location of the branch]
+S.04.01.01.02,r0020,c0080 [premiums written, sweden]
 
 
 

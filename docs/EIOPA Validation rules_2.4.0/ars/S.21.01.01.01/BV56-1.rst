@@ -14,11 +14,12 @@ Template references
 S.21.01.01.01 Loss distribution risk profile
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
 S.21.01.01.01,r0010-0210 [unknown label]
-S.21.01.01.01,r0300 [unknown label]
+S.21.01.01.01,r0300 [total]
+
 
 
 Datapoint references

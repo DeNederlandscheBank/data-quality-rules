@@ -16,12 +16,12 @@ S.06.02.04.02 Information on assets
 S.07.01.04.01 Structured products
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.02.04.02,c0290 [URI , CIC]
+S.06.02.04.02,c0290 [cic]
 
-S.07.01.04.01,c0060 [Identification code of entity|URI|S.07.01.zz.01 line identification , Collateral type]
+S.07.01.04.01,c0060 [collateral type]
 
 
 

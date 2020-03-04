@@ -14,24 +14,25 @@ Template references
 S.25.01.01.01 Basic Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.01.01.01,r0010,c0040 [Market risk , Gross solvency capital requirement]
+S.25.01.01.01,r0010,c0040 [market risk, gross solvency capital requirement]
 
-S.25.01.01.01,r0020,c0040 [Counterparty default risk , Gross solvency capital requirement]
+S.25.01.01.01,r0020,c0040 [counterparty default risk, gross solvency capital requirement]
 
-S.25.01.01.01,r0030,c0040 [Life underwriting risk , Gross solvency capital requirement]
+S.25.01.01.01,r0030,c0040 [life underwriting risk, gross solvency capital requirement]
 
-S.25.01.01.01,r0040,c0040 [Health underwriting risk , Gross solvency capital requirement]
+S.25.01.01.01,r0040,c0040 [health underwriting risk, gross solvency capital requirement]
 
-S.25.01.01.01,r0050,c0040 [Non-life underwriting risk , Gross solvency capital requirement]
+S.25.01.01.01,r0050,c0040 [non-life underwriting risk, gross solvency capital requirement]
 
-S.25.01.01.01,r0070,c0040 [Intangible asset risk , Gross solvency capital requirement]
+S.25.01.01.01,r0070,c0040 [intangible asset risk, gross solvency capital requirement]
 
-S.25.01.01.01,r0100,c0040 [Basic Solvency Capital Requirement , Gross solvency capital requirement]
+S.25.01.01.01,r0100,c0040 [basic solvency capital requirement, gross solvency capital requirement]
 
-SE.01.01.18.01,r0460,c0010 [unknown label]
+SE.01.01.18.01,r0460,c0010 [s.25.01.01 - solvency capital requirement - for undertakings on standard formula, none]
+
 
 
 Datapoint references

@@ -11,14 +11,15 @@ IF ({S.32.01.04.01,c0050}="LIFE UNDERTAKINGS" OR {S.32.01.04.01,c0050}="NON-LIFE
 Template references
 -------------------
 
-S.32.01.04.01
+S.32.01.04.01 Undertakings in the scope of the group
 
-Datapoints
-----------
 
-S.32.01.04.01,c0050 [Identification code of entity , Type of undertaking]
+Datapoints labels
+-----------------
 
-S.32.01.04.01,c0090 [Identification code of entity , Ranking criteria (in the group currency)|Total Balance Sheet (for (re)insurance undertakings)]
+S.32.01.04.01,c0050 [type of undertaking]
+
+S.32.01.04.01,c0090 [total balance sheet (for (re)insurance undertakings)]
 
 
 

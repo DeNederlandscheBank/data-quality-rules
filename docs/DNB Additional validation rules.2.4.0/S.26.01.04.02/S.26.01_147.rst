@@ -11,21 +11,23 @@ Rule definition
 Template references
 -------------------
 
-S.26.01.04.01
-S.26.01.04.02
+S.26.01.04.01 Market risk - basic information, part 1
 
-Datapoints
-----------
+S.26.01.04.02 Market risk - basic information, part 2
 
-S.26.01.04.01,r0412,c0020 [Spread risk|bonds and loans|loans and bonds (other than qualifying investment infrastructure) , Initial absolute values before shock|Assets]
 
-S.26.01.04.01,r0412,c0030 [Spread risk|bonds and loans|loans and bonds (other than qualifying investment infrastructure) , Initial absolute values before shock|Liabilities]
+Datapoints labels
+-----------------
 
-S.26.01.04.01,r0412,c0040 [Spread risk|bonds and loans|loans and bonds (other than qualifying investment infrastructure) , Absolute values after shock|Assets]
+S.26.01.04.01,r0412,c0020 [loans and bonds (other than qualifying investment infrastructure and infrastructure corporate), assets]
 
-S.26.01.04.01,r0412,c0070 [Spread risk|bonds and loans|loans and bonds (other than qualifying investment infrastructure) , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+S.26.01.04.01,r0412,c0030 [loans and bonds (other than qualifying investment infrastructure and infrastructure corporate), liabilities]
 
-S.26.01.04.02,r0412,c0080 [Spread risk|bonds and loans|loans and bonds (other than qualifying investment infrastructure) , Absolute values after shock|Gross solvency capital requirement]
+S.26.01.04.01,r0412,c0040 [loans and bonds (other than qualifying investment infrastructure and infrastructure corporate), assets]
+
+S.26.01.04.01,r0412,c0070 [loans and bonds (other than qualifying investment infrastructure and infrastructure corporate), liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.01.04.02,r0412,c0080 [loans and bonds (other than qualifying investment infrastructure and infrastructure corporate), gross solvency capital requirement]
 
 
 

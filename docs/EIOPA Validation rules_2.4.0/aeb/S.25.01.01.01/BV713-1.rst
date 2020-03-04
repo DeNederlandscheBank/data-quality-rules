@@ -14,13 +14,15 @@ Template references
 S.25.01.01.01 Basic Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.01.01.01,r0070,c0040 [Intangible asset risk , Gross solvency capital requirement]
+S.25.01.01.01,r0070,c0040 [intangible asset risk, gross solvency capital requirement]
 
-SE.01.01.18.01,r0460,c0010 [unknown label]
-SE.02.01.18.01,r0030,c0010 [unknown label]
+SE.01.01.18.01,r0460,c0010 [s.25.01.01 - solvency capital requirement - for undertakings on standard formula, none]
+
+SE.02.01.18.01,r0030,c0010 [intangible assets, solvency ii value]
+
 
 
 Datapoint references

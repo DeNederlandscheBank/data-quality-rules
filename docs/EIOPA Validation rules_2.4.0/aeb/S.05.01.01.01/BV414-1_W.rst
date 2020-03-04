@@ -14,15 +14,21 @@ Template references
 S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.01.01,r0550 [unknown label]
-S.05.01.01.01,r0700 [unknown label]
-S.05.01.01.01,r0800 [unknown label]
-S.05.01.01.01,r0900 [unknown label]
-S.05.01.01.01,r1000 [unknown label]
-S.05.01.01.01,r1100 [unknown label]
+S.05.01.01.01,r0550 [expenses incurred]
+
+S.05.01.01.01,r0700 [net]
+
+S.05.01.01.01,r0800 [net]
+
+S.05.01.01.01,r0900 [net]
+
+S.05.01.01.01,r1000 [net]
+
+S.05.01.01.01,r1100 [net]
+
 
 
 Datapoint references

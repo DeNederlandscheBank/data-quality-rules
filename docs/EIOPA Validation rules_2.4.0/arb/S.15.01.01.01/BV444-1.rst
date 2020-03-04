@@ -16,12 +16,12 @@ S.14.01.01.02 Characteristics of product
 S.15.01.01.01 Description of the guarantees of variable annuities
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.14.01.01.02,c0120 [ID code of product , Product denomination]
+S.14.01.01.02,c0120 [product denomination]
 
-S.15.01.01.01,c0050 [ID code of product , Product Denomination]
+S.15.01.01.01,c0050 [product denomination]
 
 
 

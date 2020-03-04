@@ -11,31 +11,33 @@ IF {S.01.01.04.01,r0140,c0010}="NOT DUE IN ACCORDANCE WITH ARTICLE 35" THEN {S.0
 Template references
 -------------------
 
-S.01.01.04.01
-S.02.01.01.01
+S.01.01.04.01 Content of the submission
+
+S.02.01.01.01 Balance sheet
+
 S.06.01.01.01 Summary of assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0140,c0010 [nan]
+S.01.01.04.01,r0140,c0010 [s.06.02.04 - list of assets, none]
 
-S.02.01.01.01,r0200,c0010 [Assets|Investments (other than assets held for index-linked and unit-linked contracts)|Deposits other than cash equivalents , Solvency II value]
+S.02.01.01.01,r0200,c0010 [deposits other than cash equivalents, solvency ii value]
 
-S.02.01.01.01,r0410,c0010 [Assets|Cash and cash equivalents , Solvency II value]
+S.02.01.01.01,r0410,c0010 [cash and cash equivalents, solvency ii value]
 
-S.06.01.01.01,r0100,c0010 [By category|Cash and deposits , Life]
+S.06.01.01.01,r0100,c0010 [cash and deposits, life]
 
-S.06.01.01.01,r0100,c0020 [By category|Cash and deposits , Non-life]
+S.06.01.01.01,r0100,c0020 [cash and deposits, non-life]
 
-S.06.01.01.01,r0100,c0030 [By category|Cash and deposits , Ring-fenced funds]
+S.06.01.01.01,r0100,c0030 [cash and deposits, ring-fenced funds]
 
-S.06.01.01.01,r0100,c0040 [By category|Cash and deposits , Other internal funds]
+S.06.01.01.01,r0100,c0040 [cash and deposits, other internal funds]
 
-S.06.01.01.01,r0100,c0050 [By category|Cash and deposits , Shareholders' funds]
+S.06.01.01.01,r0100,c0050 [cash and deposits, shareholders' funds]
 
-S.06.01.01.01,r0100,c0060 [By category|Cash and deposits , General]
+S.06.01.01.01,r0100,c0060 [cash and deposits, general]
 
 
 

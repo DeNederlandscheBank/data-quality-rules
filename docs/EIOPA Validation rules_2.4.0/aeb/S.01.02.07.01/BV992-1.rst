@@ -14,11 +14,14 @@ Template references
 S.01.02.07.01 Basic Information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.07.01,r0050,c0010 [unknown label]
-SE.06.02.18.02,c0210 [unknown label]
-SE.06.02.18.02,c0290 [unknown label]
+S.01.02.07.01,r0050,c0010 [identification code and type of code of third country branch, none]
+
+SE.06.02.18.02,c0210 [issuer code and type of code]
+
+SE.06.02.18.02,c0290 [cic]
+
 
 

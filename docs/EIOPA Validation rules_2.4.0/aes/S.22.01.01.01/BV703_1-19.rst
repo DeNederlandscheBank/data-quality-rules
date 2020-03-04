@@ -16,20 +16,20 @@ S.01.02.01.01 Basic Information - General
 S.22.01.01.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0170,c0010 [nan]
+S.01.02.01.01,r0170,c0010 [matching adjustment, none]
 
-S.01.02.01.01,r0180,c0010 [nan]
+S.01.02.01.01,r0180,c0010 [volatility adjustment, none]
 
-S.01.02.01.01,r0190,c0010 [nan]
+S.01.02.01.01,r0190,c0010 [transitional measure on the risk-free interest rate, none]
 
-S.01.02.01.01,r0200,c0010 [nan]
+S.01.02.01.01,r0200,c0010 [transitional measure on technical provisions, none]
 
-S.22.01.01.01,r0040,c0070 [Basic own funds|Restricted own funds due to ring-fencing and matching portfolio , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of volatility adjustment set to zero]
+S.22.01.01.01,r0040,c0070 [restricted own funds due to ring-fencing and matching portfolio, impact of volatility adjustment set to zero]
 
-S.22.01.01.01,r0040,c0100 [Basic own funds|Restricted own funds due to ring-fencing and matching portfolio , Impact of the LTG measures and transitionals (Step-by-step approach)|Impact of all LTG measures and transitionals]
+S.22.01.01.01,r0040,c0100 [restricted own funds due to ring-fencing and matching portfolio, impact of all ltg measures and transitionals]
 
 
 

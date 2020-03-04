@@ -14,14 +14,14 @@ Template references
 S.27.01.01.08 Man made catastrophe risk - Motor Vehicle Liability
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.08,r2100,c0520 [Motor Vehicle Liability , Man made catastrophe risk - Motor Vehicle Liability|Number of vehicles policy limit above 24MÃ¢ÂÂ¬]
+S.27.01.01.08,r2100,c0520 [motor vehicle liability, number of vehicles policy limit above 24m€]
 
-S.27.01.01.08,r2100,c0530 [Motor Vehicle Liability , Man made catastrophe risk - Motor Vehicle Liability|Number of vehicles policy limit below or equal to 24MÃ¢ÂÂ¬]
+S.27.01.01.08,r2100,c0530 [motor vehicle liability, number of vehicles policy limit below or equal to 24m€]
 
-S.27.01.01.08,r2100,c0540 [Motor Vehicle Liability , Man made catastrophe risk - Motor Vehicle Liability|Catastrophe Risk Charge Motor Vehicle Liability before risk mitigation]
+S.27.01.01.08,r2100,c0540 [motor vehicle liability, catastrophe risk charge motor vehicle liability before risk mitigation]
 
 
 

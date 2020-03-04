@@ -16,12 +16,12 @@ S.05.01.01.02 Life
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.01.02,r1500,c0220 [Premiums written|Net , Line of Business for: life insurance obligations|Insurance with profit participation]
+S.05.01.01.02,r1500,c0220 [net, insurance with profit participation]
 
-S.12.01.01.01,r0200,c0020 [Technical provisions - total , Insurance with profit participation]
+S.12.01.01.01,r0200,c0020 [technical provisions - total, insurance with profit participation]
 
 
 

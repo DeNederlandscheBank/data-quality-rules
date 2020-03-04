@@ -14,13 +14,17 @@ Template references
 S.22.04.01.01 Overall calculation of the transitional adjustment
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.04.01.01,r0010 [unknown label]
-S.22.04.01.01,r0020 [unknown label]
-S.22.04.01.01,r0030 [unknown label]
-S.22.04.01.01,r0040 [unknown label]
+S.22.04.01.01,r0010 [solvency i interest rate]
+
+S.22.04.01.01,r0020 [annual effective rate]
+
+S.22.04.01.01,r0030 [portion of the difference applied at the reporting date]
+
+S.22.04.01.01,r0040 [adjustment to risk free rate]
+
 
 
 Datapoint references

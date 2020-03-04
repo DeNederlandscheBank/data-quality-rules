@@ -16,12 +16,12 @@ S.01.01.04.01 Content of the submission
 S.25.01.04.02 Calculation of Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0460,c0010 [nan]
+S.01.01.04.01,r0460,c0010 [s.25.01.04 - solvency capital requirement - for groups on standard formula, none]
 
-S.25.01.04.02,r0150,c0100 [Loss-absorbing capacity of deferred taxes , Value]
+S.25.01.04.02,r0150,c0100 [loss-absorbing capacity of deferred taxes, value]
 
 
 

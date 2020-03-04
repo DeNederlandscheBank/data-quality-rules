@@ -14,13 +14,16 @@ Template references
 S.22.05.01.01 Overall calculation of the transitional on technical provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.05.01.01,r0080,c0010 [nan]
+S.22.05.01.01,r0080,c0010 [technical provision after transitional on technical provisions, none]
 
-SE.02.01.16.01,r0510,c0010 [unknown label]
-SE.02.01.16.01,r0600,c0010 [unknown label]
-SE.02.01.16.01,r0690,c0010 [unknown label]
+SE.02.01.16.01,r0510,c0010 [technical provisions – non-life, solvency ii value]
+
+SE.02.01.16.01,r0600,c0010 [technical provisions - life (excluding index-linked and unit-linked), solvency ii value]
+
+SE.02.01.16.01,r0690,c0010 [technical provisions – index-linked and unit-linked, solvency ii value]
+
 
 

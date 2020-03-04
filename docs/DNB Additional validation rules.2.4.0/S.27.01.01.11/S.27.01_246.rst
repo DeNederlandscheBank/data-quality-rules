@@ -14,9 +14,10 @@ Template references
 S.27.01.01.11 Man made catastrophe risk - Marine
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.11,r2410 [unknown label]
+S.27.01.01.11,r2410 [diversification between type of event]
+
 
 

@@ -14,12 +14,15 @@ Template references
 S.29.01.01.01 Reconciliation with Own funds - Items reported in "Own funds"
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.29.01.01.01,c0010 [unknown label]
-S.29.01.01.01,c0020 [unknown label]
-S.29.01.01.01,c0030 [unknown label]
+S.29.01.01.01,c0010 [year n]
+
+S.29.01.01.01,c0020 [year n-1]
+
+S.29.01.01.01,c0030 [variation]
+
 
 
 Datapoint references

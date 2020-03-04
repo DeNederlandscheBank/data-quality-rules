@@ -14,10 +14,10 @@ Template references
 S.22.01.01.01 Impact of long term guarantees measures and transitionals
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.01.01.01,r0100,c0040 [Eligible own funds to meet Minimum Capital Requirement , Impact of the LTG measures and transitionals (Step-by-step approach)|Without transitional on interest rate]
+S.22.01.01.01,r0100,c0040 [eligible own funds to meet minimum capital requirement, without transitional on interest rate]
 
 
 

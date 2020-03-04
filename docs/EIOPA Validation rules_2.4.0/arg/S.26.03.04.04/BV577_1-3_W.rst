@@ -18,24 +18,24 @@ S.26.03.04.03 Simplifications used
 S.26.03.04.04 Life underwriting risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.03.04.01,r0100,c0020 [Mortality risk , Initial absolute values before shock|Assets]
+S.26.03.04.01,r0100,c0020 [mortality risk, assets]
 
-S.26.03.04.01,r0100,c0030 [Mortality risk , Initial absolute values before shock|Liabilities]
+S.26.03.04.01,r0100,c0030 [mortality risk, liabilities]
 
-S.26.03.04.01,r0100,c0040 [Mortality risk , Absolute values after shock|Assets]
+S.26.03.04.01,r0100,c0040 [mortality risk, assets]
 
-S.26.03.04.01,r0100,c0050 [Mortality risk , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+S.26.03.04.01,r0100,c0050 [mortality risk, liabilities (after the loss absorbing capacity of technical provisions)]
 
-S.26.03.04.01,r0100,c0070 [Mortality risk , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+S.26.03.04.01,r0100,c0070 [mortality risk, liabilities (before the loss-absorbing capacity of technical provisions)]
 
-S.26.03.04.03,r0010,c0010 [Simplifications - mortality risk , Simplifications used]
+S.26.03.04.03,r0010,c0010 [simplifications - mortality risk, simplifications used]
 
-S.26.03.04.04,r0100,c0060 [Mortality risk , Absolute values after shock|Net solvency capital requirement]
+S.26.03.04.04,r0100,c0060 [mortality risk, net solvency capital requirement]
 
-S.26.03.04.04,r0100,c0080 [Mortality risk , Absolute values after shock|Gross solvency capital requirement]
+S.26.03.04.04,r0100,c0080 [mortality risk, gross solvency capital requirement]
 
 
 

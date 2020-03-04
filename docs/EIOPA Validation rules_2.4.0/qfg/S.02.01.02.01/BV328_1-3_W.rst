@@ -14,12 +14,15 @@ Template references
 S.02.01.02.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.02.01,r0850 [unknown label]
-S.02.01.02.01,r0860 [unknown label]
-S.02.01.02.01,r0870 [unknown label]
+S.02.01.02.01,r0850 [subordinated liabilities]
+
+S.02.01.02.01,r0860 [subordinated liabilities not in basic own funds]
+
+S.02.01.02.01,r0870 [subordinated liabilities in basic own funds]
+
 
 
 Datapoint references

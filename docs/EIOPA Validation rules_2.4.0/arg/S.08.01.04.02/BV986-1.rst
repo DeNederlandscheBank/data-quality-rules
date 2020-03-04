@@ -14,12 +14,12 @@ Template references
 S.08.01.04.02 Information on derivatives
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.01.04.02,c0290 [URI , External rating]
+S.08.01.04.02,c0290 [external rating]
 
-S.08.01.04.02,c0300 [URI , Nominated ECAI]
+S.08.01.04.02,c0300 [nominated ecai]
 
 
 

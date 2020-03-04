@@ -14,9 +14,10 @@ Template references
 S.27.01.01.04 Natural Catastrophe risk - Flood
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.04,r1610 [unknown label]
+S.27.01.01.04,r1610 [diversification effect between regions]
+
 
 

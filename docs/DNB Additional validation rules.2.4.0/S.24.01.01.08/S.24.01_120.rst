@@ -14,16 +14,16 @@ Template references
 S.24.01.01.08 Table 6 - Other strategic participations not in financial and credit institution
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.24.01.01.08,c0470 [URI , Total]
+S.24.01.01.08,c0470 [total]
 
-S.24.01.01.08,c0480 [URI , Type 1 Equity]
+S.24.01.01.08,c0480 [type 1 equity]
 
-S.24.01.01.08,c0490 [URI , Type 2 Equity]
+S.24.01.01.08,c0490 [type 2 equity]
 
-S.24.01.01.08,c0500 [URI , Subordinated liabilities]
+S.24.01.01.08,c0500 [subordinated liabilities]
 
 
 

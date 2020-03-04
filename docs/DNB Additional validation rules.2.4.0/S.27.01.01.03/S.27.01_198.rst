@@ -14,10 +14,11 @@ Template references
 S.27.01.01.03 Natural Catastrophe risk - Earthquake
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.03,c0200 [unknown label]
+S.27.01.01.03,c0200 [catastrophe risk charge after risk mitigation]
+
 c0170 [unknown label]
 c0180 [unknown label]
 c0190 [unknown label]

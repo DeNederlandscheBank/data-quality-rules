@@ -14,12 +14,12 @@ Template references
 S.14.01.01.01 Portfolio
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.14.01.01.01,c0030 [ID code of product|Number of fund|S.14.01.zz.01 line identification , Line of Business]
+S.14.01.01.01,c0030 [line of business]
 
-S.14.01.01.01,c0060 [ID code of product|Number of fund|S.14.01.zz.01 line identification , Total amount of Written premiums]
+S.14.01.01.01,c0060 [total amount of written premiums]
 
 
 

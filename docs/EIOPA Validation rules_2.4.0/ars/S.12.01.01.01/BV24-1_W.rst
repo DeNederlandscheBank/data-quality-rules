@@ -14,13 +14,17 @@ Template references
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.01.01,r0020 [unknown label]
-S.12.01.01.01,r0080 [unknown label]
-S.12.01.01.01,r0200 [unknown label]
-S.12.01.01.01,r0210 [unknown label]
+S.12.01.01.01,r0020 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole]
+
+S.12.01.01.01,r0080 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default]
+
+S.12.01.01.01,r0200 [technical provisions - total]
+
+S.12.01.01.01,r0210 [technical provisions minus recoverables from reinsurance/spv and finite re - total]
+
 
 
 Datapoint references

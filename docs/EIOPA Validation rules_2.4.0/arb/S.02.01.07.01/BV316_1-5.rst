@@ -14,12 +14,15 @@ Template references
 S.02.01.07.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0310 [unknown label]
-S.02.01.07.01,r0320 [unknown label]
-S.02.01.07.01,r0330 [unknown label]
+S.02.01.07.01,r0310 [life and health similar to life, excluding health and index-linked and unit-linked]
+
+S.02.01.07.01,r0320 [health similar to life]
+
+S.02.01.07.01,r0330 [life excluding health and index-linked and unit-linked]
+
 
 
 Datapoint references

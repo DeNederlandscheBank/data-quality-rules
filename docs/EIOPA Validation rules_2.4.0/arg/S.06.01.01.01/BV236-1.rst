@@ -14,28 +14,47 @@ Template references
 S.06.01.01.01 Summary of assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.01.01.01,r0010 [unknown label]
-S.06.01.01.01,r0020 [unknown label]
-S.06.01.01.01,r0030 [unknown label]
-S.06.01.01.01,r0040 [unknown label]
-S.06.01.01.01,r0050 [unknown label]
-S.06.01.01.01,r0060 [unknown label]
-S.06.01.01.01,r0070 [unknown label]
-S.06.01.01.01,r0080 [unknown label]
-S.06.01.01.01,r0090 [unknown label]
-S.06.01.01.01,r0100 [unknown label]
-S.06.01.01.01,r0110 [unknown label]
-S.06.01.01.01,r0120 [unknown label]
-S.06.01.01.01,r0130 [unknown label]
-S.06.01.01.01,r0140 [unknown label]
-S.06.01.01.01,r0150 [unknown label]
-S.06.01.01.01,r0160 [unknown label]
-S.06.01.01.01,r0170 [unknown label]
-S.06.01.01.01,r0180 [unknown label]
-S.06.01.01.01,r0190 [unknown label]
+S.06.01.01.01,r0010 [assets listed]
+
+S.06.01.01.01,r0020 [assets that are not listed in a stock exchange]
+
+S.06.01.01.01,r0030 [assets that are not exchange tradable]
+
+S.06.01.01.01,r0040 [government bonds]
+
+S.06.01.01.01,r0050 [corporate bonds]
+
+S.06.01.01.01,r0060 [equity]
+
+S.06.01.01.01,r0070 [collective investment undertakings]
+
+S.06.01.01.01,r0080 [structured notes]
+
+S.06.01.01.01,r0090 [collateralised securities]
+
+S.06.01.01.01,r0100 [cash and deposits]
+
+S.06.01.01.01,r0110 [mortgages and loans]
+
+S.06.01.01.01,r0120 [property]
+
+S.06.01.01.01,r0130 [other investments]
+
+S.06.01.01.01,r0140 [futures]
+
+S.06.01.01.01,r0150 [call options]
+
+S.06.01.01.01,r0160 [put options]
+
+S.06.01.01.01,r0170 [swaps]
+
+S.06.01.01.01,r0180 [forwards]
+
+S.06.01.01.01,r0190 [credit derivatives]
+
 
 
 Datapoint references

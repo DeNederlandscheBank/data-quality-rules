@@ -14,10 +14,10 @@ Template references
 S.08.02.01.01 Information on positions held
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.02.01.01,c0200 [Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Swap outflow amount]
+S.08.02.01.01,c0200 [swap outflow amount]
 
 
 

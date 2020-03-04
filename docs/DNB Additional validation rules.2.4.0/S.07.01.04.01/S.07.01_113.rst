@@ -11,14 +11,15 @@ IF {S.07.01.04.01,c0140} = "COLLATERALISATION PERFORMED ON A PORTFOLIO BASIS" TH
 Template references
 -------------------
 
-S.07.01.04.01
+S.07.01.04.01 Structured products
 
-Datapoints
-----------
 
-S.07.01.04.01,c0130 [Identification code of entity|URI|S.07.01.zz.01 line identification , Collateral value]
+Datapoints labels
+-----------------
 
-S.07.01.04.01,c0140 [Identification code of entity|URI|S.07.01.zz.01 line identification , Collateral portfolio]
+S.07.01.04.01,c0130 [collateral value]
+
+S.07.01.04.01,c0140 [collateral portfolio]
 
 
 

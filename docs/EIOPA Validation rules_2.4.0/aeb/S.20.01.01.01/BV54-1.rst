@@ -14,12 +14,15 @@ Template references
 S.20.01.01.01 Development of the distribution of the claims incurred
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.20.01.01.01,r0160 [unknown label]
-S.20.01.01.01,r0170 [unknown label]
-S.20.01.01.01,r0180 [unknown label]
+S.20.01.01.01,r0160 [total previous years]
+
+S.20.01.01.01,r0170 [n]
+
+S.20.01.01.01,r0180 [total]
+
 
 
 Datapoint references

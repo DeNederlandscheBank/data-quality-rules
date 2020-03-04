@@ -11,14 +11,15 @@ IF {S.23.04.04.03,c0280} > 0 THEN {S.23.04.04.03,c0350} >0
 Template references
 -------------------
 
-S.23.04.04.03
+S.23.04.04.03 Subordinated liability
 
-Datapoints
-----------
 
-S.23.04.04.03,c0280 [S.23.04.zz.03 line identification , Amount]
+Datapoints labels
+-----------------
 
-S.23.04.04.03,c0350 [S.23.04.zz.03 line identification , Issue date]
+S.23.04.04.03,c0280 [amount]
+
+S.23.04.04.03,c0350 [issue date]
 
 
 

@@ -18,20 +18,20 @@ S.26.03.01.03 Simplifications used
 S.26.03.01.04 Life underwriting risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.03.01.01,r0700,c0020 [Life catastrophe risk , Initial absolute values before shock|Assets]
+S.26.03.01.01,r0700,c0020 [life catastrophe risk, assets]
 
-S.26.03.01.01,r0700,c0030 [Life catastrophe risk , Initial absolute values before shock|Liabilities]
+S.26.03.01.01,r0700,c0030 [life catastrophe risk, liabilities]
 
-S.26.03.01.01,r0700,c0040 [Life catastrophe risk , Absolute values after shock|Assets]
+S.26.03.01.01,r0700,c0040 [life catastrophe risk, assets]
 
-S.26.03.01.01,r0700,c0070 [Life catastrophe risk , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+S.26.03.01.01,r0700,c0070 [life catastrophe risk, liabilities (before the loss-absorbing capacity of technical provisions)]
 
-S.26.03.01.03,r0060,c0010 [Simplifications - life catastrophe risk , Simplifications used]
+S.26.03.01.03,r0060,c0010 [simplifications - life catastrophe risk, simplifications used]
 
-S.26.03.01.04,r0700,c0080 [Life catastrophe risk , Absolute values after shock|Gross solvency capital requirement]
+S.26.03.01.04,r0700,c0080 [life catastrophe risk, gross solvency capital requirement]
 
 
 

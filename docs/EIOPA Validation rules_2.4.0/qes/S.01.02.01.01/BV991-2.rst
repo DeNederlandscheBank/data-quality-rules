@@ -14,12 +14,14 @@ Template references
 S.01.02.01.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0020,c0010 [nan]
+S.01.02.01.01,r0020,c0010 [undertaking identification code and type of code, none]
 
-SE.06.02.16.02,c0210 [unknown label]
-SE.06.02.16.02,c0290 [unknown label]
+SE.06.02.16.02,c0210 [issuer code and type of code]
+
+SE.06.02.16.02,c0290 [cic]
+
 
 

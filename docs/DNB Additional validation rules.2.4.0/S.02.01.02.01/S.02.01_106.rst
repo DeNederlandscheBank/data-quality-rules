@@ -11,11 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.02.01.02.01
+S.02.01.02.01 Balance sheet
 
-Datapoints
-----------
 
-S.02.01.02.01,c0010 [unknown label]
+Datapoints labels
+-----------------
+
+S.02.01.02.01,c0010 [solvency ii value]
+
 
 

@@ -14,12 +14,16 @@ Template references
 S.24.01.01.10 Total for SCR calculation
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.24.01.01.10,c0580 [unknown label]
-S.24.01.01.10,c0590 [unknown label]
-S.24.01.01.10,c0600 [unknown label]
-S.24.01.01.10,c0610 [unknown label]
+S.24.01.01.10,c0580 [total]
+
+S.24.01.01.10,c0590 [type 1 equity]
+
+S.24.01.01.10,c0600 [type 2 equity]
+
+S.24.01.01.10,c0610 [subordinated liabilities]
+
 
 

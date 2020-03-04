@@ -16,12 +16,12 @@ S.02.01.02.01 Balance sheet
 S.23.01.01.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.02.01,r0870,c0010 [Liabilities|Subordinated liabilities|Subordinated liabilities in Basic Own Funds , Solvency II value]
+S.02.01.02.01,r0870,c0010 [subordinated liabilities in basic own funds, solvency ii value]
 
-S.23.01.01.01,r0140,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Subordinated liabilities , Total]
+S.23.01.01.01,r0140,c0010 [subordinated liabilities, total]
 
 
 

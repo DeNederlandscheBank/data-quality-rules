@@ -18,24 +18,24 @@ S.26.04.04.09 Simplifications used
 S.27.01.04.27 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.04.01,r0560,c0010 [nan]
+S.01.01.04.01,r0560,c0010 [s.26.07.04 - solvency capital requirement - simplifications, none]
 
-S.26.04.04.09,r0010,c0010 [Simplifications - health mortality risk , Simplifications used]
+S.26.04.04.09,r0010,c0010 [simplifications - health mortality risk, simplifications used]
 
-S.26.04.04.09,r0020,c0010 [Simplifications - health longevity risk , Simplifications used]
+S.26.04.04.09,r0020,c0010 [simplifications - health longevity risk, simplifications used]
 
-S.26.04.04.09,r0030,c0010 [Simplifications - health disability-morbidity risk-medical expenses , Simplifications used]
+S.26.04.04.09,r0030,c0010 [simplifications - health disability-morbidity risk-medical expenses, simplifications used]
 
-S.26.04.04.09,r0040,c0010 [Simplifications - health disability-morbidity risk-income protection , Simplifications used]
+S.26.04.04.09,r0040,c0010 [simplifications - health disability-morbidity risk-income protection, simplifications used]
 
-S.26.04.04.09,r0050,c0010 [Simplifications - SLT lapse risk , Simplifications used]
+S.26.04.04.09,r0050,c0010 [simplifications - slt lapse risk, simplifications used]
 
-S.26.04.04.09,r0060,c0010 [Simplifications - health expense risk , Simplifications used]
+S.26.04.04.09,r0060,c0010 [simplifications - health expense risk, simplifications used]
 
-S.27.01.04.27,r0002,c0001 [r0002c0001]
+S.27.01.04.27,r0002,c0001 [simplifications used – natural catastrophe risk, simplifications used]
 
 
 

@@ -16,20 +16,20 @@ S.17.01.02.01 Non-Life Technical Provisions
 S.28.01.01.02 Background information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.02.01,r0010,c0100 [Technical provisions calculated as a whole , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+S.17.01.02.01,r0010,c0100 [technical provisions calculated as a whole, credit and suretyship insurance]
 
-S.17.01.02.01,r0050,c0100 [Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+S.17.01.02.01,r0050,c0100 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, credit and suretyship insurance]
 
-S.17.01.02.01,r0270,c0100 [Technical provisions calculated as a sum of BE and RM|Total Best estimate - net , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+S.17.01.02.01,r0270,c0100 [total best estimate - net, credit and suretyship insurance]
 
-S.17.01.02.01,r0290,c0100 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+S.17.01.02.01,r0290,c0100 [technical provisions calculated as a whole, credit and suretyship insurance]
 
-S.17.01.02.01,r0300,c0100 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Best estimate , Direct business and accepted proportional reinsurance|Credit and suretyship insurance]
+S.17.01.02.01,r0300,c0100 [best estimate, credit and suretyship insurance]
 
-S.28.01.01.02,r0100,c0020 [Credit and suretyship insurance and proportional reinsurance , Background information|Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+S.28.01.01.02,r0100,c0020 [credit and suretyship insurance and proportional reinsurance, net (of reinsurance/spv) best estimate and tp calculated as a whole]
 
 
 

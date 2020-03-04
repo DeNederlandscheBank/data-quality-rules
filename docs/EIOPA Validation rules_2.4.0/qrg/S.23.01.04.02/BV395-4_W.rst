@@ -16,12 +16,12 @@ S.02.01.02.01 Balance sheet
 S.23.01.04.02 Reconciliation reserve
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.02.01,r0390,c0010 [Assets|Own shares (held directly) , Solvency II value]
+S.02.01.02.01,r0390,c0010 [own shares (held directly), solvency ii value]
 
-S.23.01.04.02,r0710,c0060 [nan]
+S.23.01.04.02,r0710,c0060 [own shares (held directly and indirectly), none]
 
 
 

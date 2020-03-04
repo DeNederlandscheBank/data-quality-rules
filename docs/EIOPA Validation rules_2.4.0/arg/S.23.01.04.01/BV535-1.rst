@@ -14,13 +14,17 @@ Template references
 S.23.01.04.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.04.01,c0010 [unknown label]
-S.23.01.04.01,c0020 [unknown label]
-S.23.01.04.01,c0030 [unknown label]
-S.23.01.04.01,c0040 [unknown label]
+S.23.01.04.01,c0010 [total]
+
+S.23.01.04.01,c0020 [tier 1 - unrestricted]
+
+S.23.01.04.01,c0030 [tier 1 - restricted]
+
+S.23.01.04.01,c0040 [tier 2]
+
 
 
 Datapoint references

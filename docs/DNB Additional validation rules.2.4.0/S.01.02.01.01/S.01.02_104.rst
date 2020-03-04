@@ -14,10 +14,10 @@ Template references
 S.01.02.01.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.02.01.01,r0070,c0010 [nan]
+S.01.02.01.01,r0070,c0010 [language of reporting, none]
 
 
 

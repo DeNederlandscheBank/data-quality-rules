@@ -16,18 +16,18 @@ S.02.01.02.01 Balance sheet
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.02.01,r0560,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life|Technical provisions - health (similar to non-life) , Solvency II value]
+S.02.01.02.01,r0560,c0010 [technical provisions - health (similar to non-life), solvency ii value]
 
-S.17.01.02.01,r0320,c0020 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Medical expense insurance]
+S.17.01.02.01,r0320,c0020 [technical provisions - total, medical expense insurance]
 
-S.17.01.02.01,r0320,c0030 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Income protection insurance]
+S.17.01.02.01,r0320,c0030 [technical provisions - total, income protection insurance]
 
-S.17.01.02.01,r0320,c0040 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Workers' compensation insurance]
+S.17.01.02.01,r0320,c0040 [technical provisions - total, workers' compensation insurance]
 
-S.17.01.02.01,r0320,c0140 [Technical provisions - total|Technical provisions - total , Accepted non-proportional reinsurance|Non-proportional health reinsurance]
+S.17.01.02.01,r0320,c0140 [technical provisions - total, non-proportional health reinsurance]
 
 
 

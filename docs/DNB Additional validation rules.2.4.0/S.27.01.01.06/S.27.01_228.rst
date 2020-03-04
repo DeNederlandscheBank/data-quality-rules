@@ -14,9 +14,10 @@ Template references
 S.27.01.01.06 Natural Catastrophe risk -Subsidence
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.06,r1960 [unknown label]
+S.27.01.01.06,r1960 [diversification effect between zones]
+
 
 

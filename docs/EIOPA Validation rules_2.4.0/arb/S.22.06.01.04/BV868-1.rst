@@ -16,10 +16,11 @@ S.22.06.01.03 Best estimate subject to country and currency volatility adjustmen
 S.22.06.01.04 Best estimate subject to country and currency volatility adjustment - Total and home country by currency by country (other than home country) and by currency (other than reporting currency)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.22.06.01.03,c0030 [unknown label]
+S.22.06.01.03,c0030 [total value of best estimate subject to volatility adjustment (for all currencies)]
+
 S.22.06.01.04,c0050,snnn [unknown label]
 
 

@@ -18,20 +18,20 @@ S.26.03.04.03 Simplifications used
 S.26.03.04.04 Life underwriting risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.03.04.01,r0300,c0020 [Disability-morbidity risk , Initial absolute values before shock|Assets]
+S.26.03.04.01,r0300,c0020 [disability-morbidity risk, assets]
 
-S.26.03.04.01,r0300,c0030 [Disability-morbidity risk , Initial absolute values before shock|Liabilities]
+S.26.03.04.01,r0300,c0030 [disability-morbidity risk, liabilities]
 
-S.26.03.04.01,r0300,c0040 [Disability-morbidity risk , Absolute values after shock|Assets]
+S.26.03.04.01,r0300,c0040 [disability-morbidity risk, assets]
 
-S.26.03.04.01,r0300,c0070 [Disability-morbidity risk , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+S.26.03.04.01,r0300,c0070 [disability-morbidity risk, liabilities (before the loss-absorbing capacity of technical provisions)]
 
-S.26.03.04.03,r0030,c0010 [Simplifications - disability-morbidity risk , Simplifications used]
+S.26.03.04.03,r0030,c0010 [simplifications - disability-morbidity risk, simplifications used]
 
-S.26.03.04.04,r0300,c0080 [Disability-morbidity risk , Absolute values after shock|Gross solvency capital requirement]
+S.26.03.04.04,r0300,c0080 [disability-morbidity risk, gross solvency capital requirement]
 
 
 

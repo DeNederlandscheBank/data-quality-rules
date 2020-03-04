@@ -16,12 +16,12 @@ S.08.02.01.01 Information on positions held
 S.08.02.01.02 Information on derivatives
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.02.01.01,c0190 [Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Maximum loss under unwinding event]
+S.08.02.01.01,c0190 [maximum loss under unwinding event]
 
-S.08.02.01.02,c0320 [URI , CIC]
+S.08.02.01.02,c0320 [cic]
 
 
 

@@ -14,12 +14,15 @@ Template references
 S.02.01.08.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.08.01,r0600 [unknown label]
-S.02.01.08.01,r0610 [unknown label]
-S.02.01.08.01,r0650 [unknown label]
+S.02.01.08.01,r0600 [technical provisions - life (excluding index-linked and unit-linked)]
+
+S.02.01.08.01,r0610 [technical provisions - health (similar to life)]
+
+S.02.01.08.01,r0650 [technical provisions – life (excluding health and index-linked and unit-linked)]
+
 
 
 Datapoint references

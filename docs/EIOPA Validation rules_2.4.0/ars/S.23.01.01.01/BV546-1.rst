@@ -14,18 +14,18 @@ Template references
 S.23.01.01.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.01.01,r0510,c0030 [Available and eligible own funds|Total available own funds to meet the MCR , Tier 1 - restricted]
+S.23.01.01.01,r0510,c0030 [total available own funds to meet the mcr, tier 1 - restricted]
 
-S.23.01.01.01,r0510,c0040 [Available and eligible own funds|Total available own funds to meet the MCR , Tier 2]
+S.23.01.01.01,r0510,c0040 [total available own funds to meet the mcr, tier 2]
 
-S.23.01.01.01,r0550,c0030 [Available and eligible own funds|Total eligible own funds to meet the MCR , Tier 1 - restricted]
+S.23.01.01.01,r0550,c0030 [total eligible own funds to meet the mcr, tier 1 - restricted]
 
-S.23.01.01.01,r0550,c0040 [Available and eligible own funds|Total eligible own funds to meet the MCR , Tier 2]
+S.23.01.01.01,r0550,c0040 [total eligible own funds to meet the mcr, tier 2]
 
-S.23.01.01.01,r0600,c0010 [MCR , Total]
+S.23.01.01.01,r0600,c0010 [mcr, total]
 
 
 

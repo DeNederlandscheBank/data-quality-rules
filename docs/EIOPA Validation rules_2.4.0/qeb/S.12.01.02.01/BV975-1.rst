@@ -16,12 +16,12 @@ S.05.01.02.02 Life
 S.12.01.02.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.02.02,r1500,c0240 [Premiums written|Net , Line of Business for: life insurance obligations|Other life insurance]
+S.05.01.02.02,r1500,c0240 [net, other life insurance]
 
-S.12.01.02.01,r0200,c0060 [Technical provisions - total , Other life insurance|]
+S.12.01.02.01,r0200,c0060 [technical provisions - total, none]
 
 
 

@@ -14,14 +14,16 @@ Template references
 S.08.01.01.01 Information on positions held
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.01.01.01,c0080 [Code of underlying derivative|Number of fund|URI|S.08.01.zz.01 line identification , Derivatives held in index-linked and unit-linked contracts]
+S.08.01.01.01,c0080 [derivatives held in index-linked and unit-linked contracts]
 
 S.08.01.01.01,c0240,snnn [unknown label]
-SE.02.01.18.01,r0220,c0010 [unknown label]
-SE.06.02.18.01,c0090 [unknown label]
+SE.02.01.18.01,r0220,c0010 [assets held for index-linked and unit-linked contracts, solvency ii value]
+
+SE.06.02.18.01,c0090 [asset held in unit linked and index linked contracts]
+
 SE.06.02.18.01,c0170,snnn [unknown label]
 
 

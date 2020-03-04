@@ -14,10 +14,10 @@ Template references
 S.02.01.02.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.02.01,r0900,c0010 [Liabilities|Total liabilities , Solvency II value]
+S.02.01.02.01,r0900,c0010 [total liabilities, solvency ii value]
 
 
 

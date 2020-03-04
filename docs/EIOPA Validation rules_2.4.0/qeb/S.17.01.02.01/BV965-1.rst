@@ -16,12 +16,12 @@ S.05.01.02.01 Non-Life (direct business/accepted proportional reinsurance and ac
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.02.01,r0200,c0100 [Premiums written|Net , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Legal expenses insurance]
+S.05.01.02.01,r0200,c0100 [net, legal expenses insurance]
 
-S.17.01.02.01,r0320,c0110 [Technical provisions - total|Technical provisions - total , Direct business and accepted proportional reinsurance|Legal expenses insurance]
+S.17.01.02.01,r0320,c0110 [technical provisions - total, legal expenses insurance]
 
 
 

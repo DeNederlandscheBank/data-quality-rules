@@ -11,12 +11,14 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.03
+S.27.01.04.03 Natural Catastrophe risk - Earthquake
 
-Datapoints
-----------
 
-S.27.01.04.03,c0200 [unknown label]
+Datapoints labels
+-----------------
+
+S.27.01.04.03,c0200 [catastrophe risk charge after risk mitigation]
+
 c0170 [unknown label]
 c0180 [unknown label]
 c0190 [unknown label]

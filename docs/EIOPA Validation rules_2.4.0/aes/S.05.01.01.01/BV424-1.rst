@@ -14,14 +14,19 @@ Template references
 S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.01.01,r0910 [unknown label]
-S.05.01.01.01,r0920 [unknown label]
-S.05.01.01.01,r0930 [unknown label]
-S.05.01.01.01,r0940 [unknown label]
-S.05.01.01.01,r1000 [unknown label]
+S.05.01.01.01,r0910 [gross - direct business]
+
+S.05.01.01.01,r0920 [gross - proportional reinsurance accepted]
+
+S.05.01.01.01,r0930 [gross - non-proportional reinsurance accepted]
+
+S.05.01.01.01,r0940 [reinsurers' share]
+
+S.05.01.01.01,r1000 [net]
+
 
 
 Datapoint references

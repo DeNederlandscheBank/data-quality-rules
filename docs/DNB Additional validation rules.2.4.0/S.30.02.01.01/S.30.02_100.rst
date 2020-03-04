@@ -14,12 +14,11 @@ Template references
 S.30.02.01.01 Facultative covers non-life (10 most important risks in terms of reinsured exposure)
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.30.02.01.01,c0030 [Y-axis (RD): Code broker|Facultative reinsurance placement identification code|Risk identification code|Reinsurance program code|Code reinsurer , Y-axis (RD): Risk identification code]
-
-S.30.02.01.01,c0100 [Code broker|Facultative reinsurance placement identification code|Risk identification code|Reinsurance program code|Code reinsurer , Share reinsurer (%)]
+S.30.02.01.01,c0030 [unknown label]
+S.30.02.01.01,c0100 [share reinsurer (%)]
 
 
 

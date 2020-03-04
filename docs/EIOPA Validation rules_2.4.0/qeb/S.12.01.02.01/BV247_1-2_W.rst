@@ -14,26 +14,26 @@ Template references
 S.12.01.02.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.12.01.02.01,r0010,c0060 [Technical provisions calculated as a whole , Other life insurance|]
+S.12.01.02.01,r0010,c0060 [technical provisions calculated as a whole, none]
 
-S.12.01.02.01,r0030,c0070 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Other life insurance|Contracts without options and guarantees]
+S.12.01.02.01,r0030,c0070 [gross best estimate, contracts without options and guarantees]
 
-S.12.01.02.01,r0030,c0080 [Technical provisions calculated as a sum of BE and RM|Best Estimate|Gross Best Estimate , Other life insurance|Contracts with options or guarantees]
+S.12.01.02.01,r0030,c0080 [gross best estimate, contracts with options or guarantees]
 
-S.12.01.02.01,r0100,c0060 [Technical provisions calculated as a sum of BE and RM|Risk Margin , Other life insurance|]
+S.12.01.02.01,r0100,c0060 [risk margin, none]
 
-S.12.01.02.01,r0110,c0060 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Technical Provisions calculated as a whole , Other life insurance|]
+S.12.01.02.01,r0110,c0060 [technical provisions calculated as a whole, none]
 
-S.12.01.02.01,r0120,c0070 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Best estimate , Other life insurance|Contracts without options and guarantees]
+S.12.01.02.01,r0120,c0070 [best estimate, contracts without options and guarantees]
 
-S.12.01.02.01,r0120,c0080 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Best estimate , Other life insurance|Contracts with options or guarantees]
+S.12.01.02.01,r0120,c0080 [best estimate, contracts with options or guarantees]
 
-S.12.01.02.01,r0130,c0060 [Technical provisions calculated as a sum of BE and RM|Amount of the transitional on Technical Provisions|Risk margin , Other life insurance|]
+S.12.01.02.01,r0130,c0060 [risk margin, none]
 
-S.12.01.02.01,r0200,c0060 [Technical provisions - total , Other life insurance|]
+S.12.01.02.01,r0200,c0060 [technical provisions - total, none]
 
 
 

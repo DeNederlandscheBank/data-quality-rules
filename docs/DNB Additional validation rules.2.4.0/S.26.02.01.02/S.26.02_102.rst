@@ -16,12 +16,12 @@ S.26.02.01.01 Counterparty default risk - basic information
 S.26.02.01.02 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.02.01.01,r0100,c0080 [Type 1 exposures , Gross solvency capital requirement]
+S.26.02.01.01,r0100,c0080 [type 1 exposures, gross solvency capital requirement]
 
-S.26.02.01.02,r0010,c0010 [Simplifications , Simplifications used]
+S.26.02.01.02,r0010,c0010 [simplifications, simplifications used]
 
 
 

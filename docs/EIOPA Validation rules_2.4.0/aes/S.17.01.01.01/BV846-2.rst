@@ -14,12 +14,15 @@ Template references
 S.17.01.01.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0320 [unknown label]
-S.17.01.01.01,r0330 [unknown label]
-S.17.01.01.01,r0340 [unknown label]
+S.17.01.01.01,r0320 [technical provisions - total]
+
+S.17.01.01.01,r0330 [recoverable from reinsurance contract/spv and finite re after the adjustment for expected losses due to counterparty default - total]
+
+S.17.01.01.01,r0340 [technical provisions minus recoverables from reinsurance/spv and finite re- total]
+
 
 
 Datapoint references

@@ -14,20 +14,21 @@ Template references
 S.26.01.01.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.01.02,r0200,c0080 [Equity risk , Absolute values after shock|Gross solvency capital requirement]
+S.26.01.01.02,r0200,c0080 [equity risk, gross solvency capital requirement]
 
-S.26.01.01.02,r0210,c0080 [Equity risk|type 1 equities , Absolute values after shock|Gross solvency capital requirement]
+S.26.01.01.02,r0210,c0080 [type 1 equities, gross solvency capital requirement]
 
-S.26.01.01.02,r0250,c0080 [Equity risk|type 2 equities , Absolute values after shock|Gross solvency capital requirement]
+S.26.01.01.02,r0250,c0080 [type 2 equities, gross solvency capital requirement]
 
-S.26.01.01.02,r0291,c0080 [Equity risk|qualifying infrastructure corporate equities , Absolute values after shock|Gross solvency capital requirement]
+S.26.01.01.02,r0291,c0080 [qualifying infrastructure corporate equities, gross solvency capital requirement]
 
-S.26.01.01.02,r0292,c0080 [Equity risk|qualifying infrastructure equities other than corporate , Absolute values after shock|Gross solvency capital requirement]
+S.26.01.01.02,r0292,c0080 [qualifying infrastructure equities other than corporate, gross solvency capital requirement]
 
-SE.01.01.16.01,r0500,c0010 [unknown label]
+SE.01.01.16.01,r0500,c0010 [s.26.01.01 - solvency capital requirement - market risk, none]
+
 
 
 Datapoint references

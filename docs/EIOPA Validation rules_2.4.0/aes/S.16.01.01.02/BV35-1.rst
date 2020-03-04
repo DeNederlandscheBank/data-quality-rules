@@ -14,11 +14,12 @@ Template references
 S.16.01.01.02 Annuities information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
 S.16.01.01.02,r0040-0190 [unknown label]
-S.16.01.01.02,r0200 [unknown label]
+S.16.01.01.02,r0200 [total]
+
 
 
 Datapoint references

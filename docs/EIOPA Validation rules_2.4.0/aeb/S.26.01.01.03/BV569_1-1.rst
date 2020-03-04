@@ -18,22 +18,22 @@ S.26.01.01.02 Market risk - basic information, part 2
 S.26.01.01.03 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.01.01,r0410,c0020 [Spread risk|bonds and loans , Initial absolute values before shock|Assets]
+S.26.01.01.01,r0410,c0020 [bonds and loans, assets]
 
-S.26.01.01.01,r0410,c0030 [Spread risk|bonds and loans , Initial absolute values before shock|Liabilities]
+S.26.01.01.01,r0410,c0030 [bonds and loans, liabilities]
 
-S.26.01.01.01,r0410,c0040 [Spread risk|bonds and loans , Absolute values after shock|Assets]
+S.26.01.01.01,r0410,c0040 [bonds and loans, assets]
 
-S.26.01.01.01,r0410,c0050 [Spread risk|bonds and loans , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+S.26.01.01.01,r0410,c0050 [bonds and loans, liabilities (after the loss absorbing capacity of technical provisions)]
 
-S.26.01.01.02,r0410,c0060 [Spread risk|bonds and loans , Absolute values after shock|Net solvency capital requirement]
+S.26.01.01.02,r0410,c0060 [bonds and loans, net solvency capital requirement]
 
-S.26.01.01.03,r0012,c0010 [r0012c0010]
+S.26.01.01.03,r0012,c0010 [simplifications spread risk – bonds and loans, simplifications used]
 
-S.26.01.01.03,r0030,c0010 [Captives simplifications - spread risk on bonds and loans , Simplifications used]
+S.26.01.01.03,r0030,c0010 [captives simplifications - spread risk on bonds and loans, simplifications used]
 
 
 

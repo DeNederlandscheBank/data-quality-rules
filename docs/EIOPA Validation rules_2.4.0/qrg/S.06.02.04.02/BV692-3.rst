@@ -20,17 +20,17 @@ S.06.02.04.01 Information on positions held
 S.06.02.04.02 Information on assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.05.01,r0150,c0010 [nan]
+S.01.01.05.01,r0150,c0010 [s.06.03.04 - collective investment undertakings - look-through approach, none]
 
-S.02.01.02.01,r0070,c0010 [Assets|Investments (other than assets held for index-linked and unit-linked contracts) , Solvency II value]
+S.02.01.02.01,r0070,c0010 [investments (other than assets held for index-linked and unit-linked contracts), solvency ii value]
 
-S.02.01.02.01,r0220,c0010 [Assets|Assets held for index-linked and unit-linked contracts , Solvency II value]
+S.02.01.02.01,r0220,c0010 [assets held for index-linked and unit-linked contracts, solvency ii value]
 
 S.06.02.04.01,c0170,snnn [unknown label]
-S.06.02.04.02,c0290 [URI , CIC]
+S.06.02.04.02,c0290 [cic]
 
 
 

@@ -14,15 +14,21 @@ Template references
 S.29.04.01.01 Detailed analysis per period - Technical flows versus Technical provisions - UWY
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.29.04.01.01,r0010 [unknown label]
-S.29.04.01.01,r0020 [unknown label]
-S.29.04.01.01,r0030 [unknown label]
-S.29.04.01.01,r0040 [unknown label]
-S.29.04.01.01,r0050 [unknown label]
-S.29.04.01.01,r0070 [unknown label]
+S.29.04.01.01,r0010 [written premiums underwritten during period]
+
+S.29.04.01.01,r0020 [claims and benefits - net of salvages and subrogations recovered]
+
+S.29.04.01.01,r0030 [expenses (related to insurance and reinsurance obligations)]
+
+S.29.04.01.01,r0040 [variation of best estimate]
+
+S.29.04.01.01,r0050 [variation of tp as a whole]
+
+S.29.04.01.01,r0070 [total]
+
 
 
 Datapoint references

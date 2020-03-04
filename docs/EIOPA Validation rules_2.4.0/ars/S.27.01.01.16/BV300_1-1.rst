@@ -14,13 +14,17 @@ Template references
 S.27.01.01.16 Man made catastrophe risk - Credit & Suretyship - Large Credit Default
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.16,c1010 [unknown label]
-S.27.01.01.16,c1020 [unknown label]
-S.27.01.01.16,c1030 [unknown label]
-S.27.01.01.16,c1040 [unknown label]
+S.27.01.01.16,c1010 [catastrophe risk charge credit & surety before risk mitigation - large credit default]
+
+S.27.01.01.16,c1020 [estimated risk mitigation]
+
+S.27.01.01.16,c1030 [estimated reinstatement premiums]
+
+S.27.01.01.16,c1040 [catastrophe risk charge credit & surety after risk mitigation - large credit default]
+
 
 
 Datapoint references

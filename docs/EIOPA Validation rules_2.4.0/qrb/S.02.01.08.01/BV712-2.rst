@@ -14,10 +14,12 @@ Template references
 S.02.01.08.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.08.01,r0710,c0010 [unknown label]
-S.02.01.08.01,r0720,c0010 [unknown label]
+S.02.01.08.01,r0710,c0010 [best estimate, solvency ii value]
+
+S.02.01.08.01,r0720,c0010 [risk margin, solvency ii value]
+
 
 

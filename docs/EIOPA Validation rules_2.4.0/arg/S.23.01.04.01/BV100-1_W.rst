@@ -14,12 +14,15 @@ Template references
 S.23.01.04.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.04.01,r0660 [unknown label]
-S.23.01.04.01,r0680 [unknown label]
-S.23.01.04.01,r0690 [unknown label]
+S.23.01.04.01,r0660 [total eligible own funds to meet the group scr (including own funds from other financial sector and from the undertakings included via d&a )]
+
+S.23.01.04.01,r0680 [group scr]
+
+S.23.01.04.01,r0690 [ratio of eligible own funds to group scr including other financial sectors and the undertakings included via d&a]
+
 
 
 Datapoint references

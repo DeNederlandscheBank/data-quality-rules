@@ -14,18 +14,18 @@ Template references
 S.25.01.01.05 Calculation of loss absorbing capacity of deferred taxes
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.25.01.01.05,r0640,c0130 [r0640c0130]
+S.25.01.01.05,r0640,c0130 [lac dt, lac dt]
 
-S.25.01.01.05,r0650,c0130 [r0650c0130]
+S.25.01.01.05,r0650,c0130 [lac dt justified by reversion of deferred tax liabilities, lac dt]
 
-S.25.01.01.05,r0660,c0130 [r0660c0130]
+S.25.01.01.05,r0660,c0130 [lac dt justified by reference to probable future taxable economic profit, lac dt]
 
-S.25.01.01.05,r0670,c0130 [r0670c0130]
+S.25.01.01.05,r0670,c0130 [lac dt justified by carry back, current year, lac dt]
 
-S.25.01.01.05,r0680,c0130 [r0680c0130]
+S.25.01.01.05,r0680,c0130 [lac dt justified by carry back, future years, lac dt]
 
 
 

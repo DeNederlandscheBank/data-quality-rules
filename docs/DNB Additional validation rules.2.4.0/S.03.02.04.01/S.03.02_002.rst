@@ -11,14 +11,15 @@ IF {S.03.02.04.01,c0010}<>" " THEN {S.03.02.04.01,c0020}<>" "
 Template references
 -------------------
 
-S.03.02.04.01
+S.03.02.04.01 List of unlimited guarantees received by the group
 
-Datapoints
-----------
 
-S.03.02.04.01,c0010 [Y-axis (CI): Code of guarantee , Y-axis (CI): Code of guarantee]
+Datapoints labels
+-----------------
 
-S.03.02.04.01,c0020 [Code of guarantee , Name of provider of guarantee]
+S.03.02.04.01,c0010 [*natural key*|"mandatory"]
+
+S.03.02.04.01,c0020 [name of provider of guarantee]
 
 
 

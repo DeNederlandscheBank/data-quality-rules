@@ -14,14 +14,19 @@ Template references
 S.05.02.01.02 Top 5 countries (by amount of gross premiums written) - non-life obligations
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.02.01.02,r0310 [unknown label]
-S.05.02.01.02,r0320 [unknown label]
-S.05.02.01.02,r0330 [unknown label]
-S.05.02.01.02,r0340 [unknown label]
-S.05.02.01.02,r0400 [unknown label]
+S.05.02.01.02,r0310 [gross - direct business]
+
+S.05.02.01.02,r0320 [gross - proportional reinsurance accepted]
+
+S.05.02.01.02,r0330 [gross - non-proportional reinsurance accepted]
+
+S.05.02.01.02,r0340 [reinsurers' share]
+
+S.05.02.01.02,r0400 [net]
+
 
 
 Datapoint references

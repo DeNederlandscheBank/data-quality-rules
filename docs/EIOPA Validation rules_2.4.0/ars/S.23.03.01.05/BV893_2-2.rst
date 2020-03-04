@@ -14,15 +14,21 @@ Template references
 S.23.03.01.05 Subordinated liabilities - movements in the reporting period
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.03.01.05,c0010 [unknown label]
-S.23.03.01.05,c0060 [unknown label]
-S.23.03.01.05,c0070 [unknown label]
-S.23.03.01.05,c0080 [unknown label]
-S.23.03.01.05,c0090 [unknown label]
-S.23.03.01.05,c0100 [unknown label]
+S.23.03.01.05,c0010 [balance b/fwd]
+
+S.23.03.01.05,c0060 [balance c/fwd]
+
+S.23.03.01.05,c0070 [issued]
+
+S.23.03.01.05,c0080 [redeemed]
+
+S.23.03.01.05,c0090 [movements in valuation]
+
+S.23.03.01.05,c0100 [regulatory action]
+
 
 
 Datapoint references

@@ -16,15 +16,20 @@ S.02.01.07.01 Balance sheet
 S.02.02.01.01 All currencies
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0060,c0010 [unknown label]
-S.02.01.07.01,r0240,c0010 [unknown label]
-S.02.01.07.01,r0250,c0010 [unknown label]
-S.02.01.07.01,r0260,c0010 [unknown label]
-S.02.01.07.01,r0410,c0010 [unknown label]
-S.02.02.01.01,r0030,c0020 [Assets|Other assets: Property, plant & equipment held for own use, Cash and cash equivalents, Loans on policies, Loans & mortgages to individuals and Other loans & mortgages (other than index-linked and unit-linked contracts) , Total value of all currencies]
+S.02.01.07.01,r0060,c0010 [property, plant & equipment held for own use, solvency ii value]
+
+S.02.01.07.01,r0240,c0010 [loans on policies, solvency ii value]
+
+S.02.01.07.01,r0250,c0010 [loans and mortgages to individuals, solvency ii value]
+
+S.02.01.07.01,r0260,c0010 [other loans and mortgages, solvency ii value]
+
+S.02.01.07.01,r0410,c0010 [cash and cash equivalents, solvency ii value]
+
+S.02.02.01.01,r0030,c0020 [other assets: property, plant & equipment held for own use, cash and cash equivalents, loans on policies, loans & mortgages to individuals and other loans & mortgages (other than index-linked and unit-linked contracts), total value of all currencies]
 
 
 

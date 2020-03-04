@@ -14,9 +14,10 @@ Template references
 S.27.01.01.19 Man made catastrophe risk - Other non-life catastrophe risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.19,r3260 [unknown label]
+S.27.01.01.19,r3260 [diversification between groups of obligations]
+
 
 

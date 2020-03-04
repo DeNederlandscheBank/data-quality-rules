@@ -14,12 +14,12 @@ Template references
 S.23.04.01.02 Preference share
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.04.01.02,c0185 [Y-axis (YH): S.23.04.zz.02 line identification , Y-axis (YH): Line identification]
+S.23.04.01.02,c0185 [*artificial key*|"mandatory"]
 
-S.23.04.01.02,c0200 [S.23.04.zz.02 line identification , Amount]
+S.23.04.01.02,c0200 [amount]
 
 
 

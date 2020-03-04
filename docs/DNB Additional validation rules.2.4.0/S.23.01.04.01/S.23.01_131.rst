@@ -11,18 +11,19 @@ Rule definition
 Template references
 -------------------
 
-S.23.01.04.01
+S.23.01.04.01 Own funds
 
-Datapoints
-----------
 
-S.23.01.04.01,r0530,c0010 [Own funds when using the D& A, exclusively or in combination of method 1|Total available own funds to meet the minimum consolidated group SCR , Total]
+Datapoints labels
+-----------------
 
-S.23.01.04.01,r0530,c0020 [Own funds when using the D& A, exclusively or in combination of method 1|Total available own funds to meet the minimum consolidated group SCR , Tier 1 - unrestricted]
+S.23.01.04.01,r0530,c0010 [total available own funds to meet the minimum consolidated group scr, total]
 
-S.23.01.04.01,r0530,c0030 [Own funds when using the D& A, exclusively or in combination of method 1|Total available own funds to meet the minimum consolidated group SCR , Tier 1 - restricted]
+S.23.01.04.01,r0530,c0020 [total available own funds to meet the minimum consolidated group scr, tier 1 - unrestricted]
 
-S.23.01.04.01,r0530,c0040 [Own funds when using the D& A, exclusively or in combination of method 1|Total available own funds to meet the minimum consolidated group SCR , Tier 2]
+S.23.01.04.01,r0530,c0030 [total available own funds to meet the minimum consolidated group scr, tier 1 - restricted]
+
+S.23.01.04.01,r0530,c0040 [total available own funds to meet the minimum consolidated group scr, tier 2]
 
 
 

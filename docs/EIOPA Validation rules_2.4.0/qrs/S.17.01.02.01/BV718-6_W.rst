@@ -16,14 +16,14 @@ S.02.01.02.01 Balance sheet
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.02.01,r0520,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life|Technical provisions Ã¢ÂÂ non-life (excluding health) , Solvency II value]
+S.02.01.02.01,r0520,c0010 [technical provisions – non-life (excluding health), solvency ii value]
 
-S.02.01.02.01,r0560,c0010 [Liabilities|Technical provisions Ã¢ÂÂ non-life|Technical provisions - health (similar to non-life) , Solvency II value]
+S.02.01.02.01,r0560,c0010 [technical provisions - health (similar to non-life), solvency ii value]
 
-S.17.01.02.01,r0320,c0180 [Technical provisions - total|Technical provisions - total , Total Non-Life obligation]
+S.17.01.02.01,r0320,c0180 [technical provisions - total, total non-life obligation]
 
 
 

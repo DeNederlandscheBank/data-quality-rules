@@ -18,14 +18,14 @@ S.28.01.01.03 Linear formula component for life insurance and reinsurance obliga
 S.28.01.01.05 Overall MCR calculation
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.28.01.01.01,r0010,c0010 [MCRNL Result , MCR components]
+S.28.01.01.01,r0010,c0010 [mcrnl result, mcr components]
 
-S.28.01.01.03,r0200,c0040 [nan]
+S.28.01.01.03,r0200,c0040 [mcrl result, none]
 
-S.28.01.01.05,r0300,c0070 [nan]
+S.28.01.01.05,r0300,c0070 [linear mcr, none]
 
 
 

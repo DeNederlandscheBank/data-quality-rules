@@ -14,14 +14,16 @@ Template references
 S.17.01.01.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.01.01,r0260,c0180 [Technical provisions calculated as a sum of BE and RM|Best estimate|Total Best estimate - gross , Total Non-Life obligation]
+S.17.01.01.01,r0260,c0180 [total best estimate - gross, total non-life obligation]
 
-S.17.01.01.01,r0300,c0180 [Amount of the transitional on Technical Provisions|Best estimate , Total Non-Life obligation]
+S.17.01.01.01,r0300,c0180 [best estimate, total non-life obligation]
 
-SE.02.01.18.01,r0540,c0010 [unknown label]
-SE.02.01.18.01,r0580,c0010 [unknown label]
+SE.02.01.18.01,r0540,c0010 [best estimate, solvency ii value]
+
+SE.02.01.18.01,r0580,c0010 [best estimate, solvency ii value]
+
 
 

@@ -16,16 +16,16 @@ S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and ac
 S.28.01.01.02 Background information
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.01.01,r0110,c0050 [Premiums written|Gross - Direct Business , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Other motor insurance]
+S.05.01.01.01,r0110,c0050 [gross - direct business, other motor insurance]
 
-S.05.01.01.01,r0120,c0050 [Premiums written|Gross - Proportional reinsurance accepted , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Other motor insurance]
+S.05.01.01.01,r0120,c0050 [gross - proportional reinsurance accepted, other motor insurance]
 
-S.28.01.01.02,r0060,c0020 [Other motor insurance and proportional reinsurance , Background information|Net (of reinsurance/SPV) best estimate and TP calculated as a whole]
+S.28.01.01.02,r0060,c0020 [other motor insurance and proportional reinsurance, net (of reinsurance/spv) best estimate and tp calculated as a whole]
 
-S.28.01.01.02,r0060,c0030 [Other motor insurance and proportional reinsurance , Background information|Net (of reinsurance) written premiums in the last 12 months]
+S.28.01.01.02,r0060,c0030 [other motor insurance and proportional reinsurance, net (of reinsurance) written premiums in the last 12 months]
 
 
 

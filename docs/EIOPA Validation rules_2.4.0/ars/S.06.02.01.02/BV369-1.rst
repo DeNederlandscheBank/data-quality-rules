@@ -18,15 +18,15 @@ S.06.02.01.01 Information on positions held
 S.06.02.01.02 Information on assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.01.01,r0160,c0010 [Assets|Investments (other than assets held for index-linked and unit-linked contracts)|Bonds|Structured notes , Solvency II value]
+S.02.01.01.01,r0160,c0010 [structured notes, solvency ii value]
 
-S.06.02.01.01,c0090 [Matching portfolio number|Number of fund|URI|S.06.02.zz.01 line identification , Asset held in unit linked and index linked contracts]
+S.06.02.01.01,c0090 [asset held in unit linked and index linked contracts]
 
 S.06.02.01.01,c0170,snnn [unknown label]
-S.06.02.01.02,c0290 [URI , CIC]
+S.06.02.01.02,c0290 [cic]
 
 
 

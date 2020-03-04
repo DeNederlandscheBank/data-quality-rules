@@ -16,12 +16,12 @@ S.08.02.01.01 Information on positions held
 S.08.02.01.02 Information on derivatives
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.08.02.01.01,c0130 [Code of underlying derivative|Number of fund|URI|S.08.02.zz.01 line identification , Buyer / Seller]
+S.08.02.01.01,c0130 [buyer / seller]
 
-S.08.02.01.02,c0320 [URI , CIC]
+S.08.02.01.02,c0320 [cic]
 
 
 

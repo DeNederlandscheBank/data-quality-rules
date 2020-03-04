@@ -16,18 +16,18 @@ S.26.01.01.01 Market risk - basic information, part 1
 S.26.01.01.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.01.01,r0300,c0020 [Property risk , Initial absolute values before shock|Assets]
+S.26.01.01.01,r0300,c0020 [property risk, assets]
 
-S.26.01.01.01,r0300,c0030 [Property risk , Initial absolute values before shock|Liabilities]
+S.26.01.01.01,r0300,c0030 [property risk, liabilities]
 
-S.26.01.01.01,r0300,c0040 [Property risk , Absolute values after shock|Assets]
+S.26.01.01.01,r0300,c0040 [property risk, assets]
 
-S.26.01.01.01,r0300,c0070 [Property risk , Absolute values after shock|Liabilities (before the loss-absorbing capacity of technical provisions)]
+S.26.01.01.01,r0300,c0070 [property risk, liabilities (before the loss-absorbing capacity of technical provisions)]
 
-S.26.01.01.02,r0300,c0080 [Property risk , Absolute values after shock|Gross solvency capital requirement]
+S.26.01.01.02,r0300,c0080 [property risk, gross solvency capital requirement]
 
 
 

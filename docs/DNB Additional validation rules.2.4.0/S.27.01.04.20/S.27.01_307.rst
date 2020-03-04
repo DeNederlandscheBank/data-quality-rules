@@ -11,12 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.20
+S.27.01.04.20 Health Catastrophe risk - Mass accident
 
-Datapoints
-----------
 
-S.27.01.04.20,r3620,c1300 [Health Catastrophe risk - Mass accident|Diversification effect between countries , Catastrophe Risk Charge after risk mitigation]
+Datapoints labels
+-----------------
+
+S.27.01.04.20,r3620,c1300 [diversification effect between countries, catastrophe risk charge after risk mitigation]
 
 
 

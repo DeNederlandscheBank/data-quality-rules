@@ -14,10 +14,12 @@ Template references
 S.06.02.07.02 Information on assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.06.02.07.02,c0190 [unknown label]
-S.06.02.07.02,c0290 [unknown label]
+S.06.02.07.02,c0190 [item title]
+
+S.06.02.07.02,c0290 [cic]
+
 
 

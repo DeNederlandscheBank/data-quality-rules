@@ -16,11 +16,12 @@ S.02.01.07.01 Balance sheet
 S.25.02.01.04 Calculation of loss absorbing capacity of deferred taxes
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0780,c0010 [unknown label]
-S.25.02.01.04,r0630,c0110 [r0630c0110]
+S.02.01.07.01,r0780,c0010 [deferred tax liabilities, solvency ii value]
+
+S.25.02.01.04,r0630,c0110 [dtl, before the shock]
 
 
 

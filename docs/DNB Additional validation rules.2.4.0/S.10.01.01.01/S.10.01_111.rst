@@ -14,12 +14,12 @@ Template references
 S.10.01.01.01 Securities lending and repos
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.10.01.01.01,c0120 [Number of fund|S.10.01.zz.01 line identification , Position in the Contract]
+S.10.01.01.01,c0120 [position in the contract]
 
-S.10.01.01.01,c0180 [Y-axis (XF): Number of fund|S.10.01.zz.01 line identification , Y-axis (XF): Line identification]
+S.10.01.01.01,c0180 [*artificial key*|"mandatory"]
 
 
 

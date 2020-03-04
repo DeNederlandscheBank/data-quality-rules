@@ -16,11 +16,12 @@ S.01.01.13.01 Content of the submission
 S.01.02.04.01 Basic Information - General
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.13.01,r0030,c0010 [unknown label]
-S.01.02.04.01,r0160,c0010 [nan]
+S.01.01.13.01,r0030,c0010 [s.02.01.02 - balance sheet, none]
+
+S.01.02.04.01,r0160,c0010 [method of group solvency calculation, none]
 
 
 

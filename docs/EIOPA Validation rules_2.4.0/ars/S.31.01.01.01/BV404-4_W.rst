@@ -16,10 +16,10 @@ S.03.01.01.01 Value of guarantee / collateral / contingent liabilities
 S.31.01.01.01 Share of reinsurers
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.03.01.01.01,r0120,c0020 [Collateral held|Assets pledged by reinsurers for ceded technical provisions , Value of guarantee / collateral / contingent liabilities]
+S.03.01.01.01,r0120,c0020 [assets pledged by reinsurers for ceded technical provisions, value of guarantee / collateral / contingent liabilities]
 
 S.31.01.01.01,c0120,snnn [unknown label]
 

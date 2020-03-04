@@ -14,13 +14,17 @@ Template references
 S.27.01.04.20 Health Catastrophe risk - Mass accident
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.04.20,c1270 [unknown label]
-S.27.01.04.20,c1280 [unknown label]
-S.27.01.04.20,c1290 [unknown label]
-S.27.01.04.20,c1300 [unknown label]
+S.27.01.04.20,c1270 [catastrophe risk charge before risk mitigation]
+
+S.27.01.04.20,c1280 [estimated risk mitigation]
+
+S.27.01.04.20,c1290 [estimated reinstatement premiums]
+
+S.27.01.04.20,c1300 [catastrophe risk charge after risk mitigation]
+
 
 
 Datapoint references

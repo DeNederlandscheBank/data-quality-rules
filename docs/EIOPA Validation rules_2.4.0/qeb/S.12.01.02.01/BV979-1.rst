@@ -16,12 +16,12 @@ S.05.01.02.02 Life
 S.12.01.02.01 Life and Health SLT Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.02.02,r1500,c0280 [Premiums written|Net , Life reinsurance obligations|Life reinsurance]
+S.05.01.02.02,r1500,c0280 [net, life reinsurance]
 
-S.12.01.02.01,r0200,c0100 [Technical provisions - total , Accepted reinsurance]
+S.12.01.02.01,r0200,c0100 [technical provisions - total, accepted reinsurance]
 
 
 

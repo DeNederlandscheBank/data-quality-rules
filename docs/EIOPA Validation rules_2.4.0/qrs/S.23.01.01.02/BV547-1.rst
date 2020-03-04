@@ -16,28 +16,28 @@ S.23.01.01.01 Own funds
 S.23.01.01.02 Reconciliation reserve
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.01.01,r0010,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Ordinary share capital (gross of own shares) , Total]
+S.23.01.01.01,r0010,c0010 [ordinary share capital (gross of own shares), total]
 
-S.23.01.01.01,r0030,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Share premium account related to ordinary share capital , Total]
+S.23.01.01.01,r0030,c0010 [share premium account related to ordinary share capital, total]
 
-S.23.01.01.01,r0040,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Initial funds, members' contributions or the equivalent basic own - fund item for mutual and mutual-type undertakings , Total]
+S.23.01.01.01,r0040,c0010 [initial funds, members' contributions or the equivalent basic own - fund item for mutual and mutual-type undertakings, total]
 
-S.23.01.01.01,r0050,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Subordinated mutual member accounts , Total]
+S.23.01.01.01,r0050,c0010 [subordinated mutual member accounts, total]
 
-S.23.01.01.01,r0070,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Surplus funds , Total]
+S.23.01.01.01,r0070,c0010 [surplus funds, total]
 
-S.23.01.01.01,r0090,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Preference shares , Total]
+S.23.01.01.01,r0090,c0010 [preference shares, total]
 
-S.23.01.01.01,r0110,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Share premium account related to preference shares , Total]
+S.23.01.01.01,r0110,c0010 [share premium account related to preference shares, total]
 
-S.23.01.01.01,r0160,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|An amount equal to the value of net deferred tax assets , Total]
+S.23.01.01.01,r0160,c0010 [an amount equal to the value of net deferred tax assets, total]
 
-S.23.01.01.01,r0180,c0010 [Basic own funds before deduction for participations in other financial sector as foreseen in article 68 of Delegated Regulation 2015/35|Other own fund items approved by the supervisory authority as basic own funds not specified above , Total]
+S.23.01.01.01,r0180,c0010 [other own fund items approved by the supervisory authority as basic own funds not specified above, total]
 
-S.23.01.01.02,r0730,c0060 [nan]
+S.23.01.01.02,r0730,c0060 [other basic own fund items, none]
 
 
 

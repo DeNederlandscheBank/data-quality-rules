@@ -14,12 +14,12 @@ Template references
 S.30.03.01.01 Outgoing Reinsurance Program basic data
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.30.03.01.01,c0060 [Line of business [general]|Progressive number of surplus/layer in program|Treaty identification code|Reinsurance program code|Section code in the treaty , Finite reinsurance or similar arrangements]
+S.30.03.01.01,c0060 [finite reinsurance or similar arrangements]
 
-S.30.03.01.01,c0140 [Line of business [general]|Progressive number of surplus/layer in program|Treaty identification code|Reinsurance program code|Section code in the treaty , Type of underwriting model]
+S.30.03.01.01,c0140 [type of underwriting model]
 
 
 

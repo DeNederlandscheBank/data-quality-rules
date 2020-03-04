@@ -18,13 +18,16 @@ S.06.02.07.01 Information on positions held
 S.06.02.07.02 Information on assets
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.07.01,r0240,c0010 [unknown label]
-S.06.02.07.01,c0090 [unknown label]
+S.02.01.07.01,r0240,c0010 [loans on policies, solvency ii value]
+
+S.06.02.07.01,c0090 [asset held in unit linked and index linked contracts]
+
 S.06.02.07.01,c0170,snnn [unknown label]
-S.06.02.07.02,c0290 [unknown label]
+S.06.02.07.02,c0290 [cic]
+
 
 
 Datapoint references

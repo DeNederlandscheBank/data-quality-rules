@@ -14,10 +14,10 @@ Template references
 S.17.01.02.01 Non-Life Technical Provisions
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.17.01.02.01,r0280,c0030 [Technical provisions calculated as a sum of BE and RM|Risk margin , Direct business and accepted proportional reinsurance|Income protection insurance]
+S.17.01.02.01,r0280,c0030 [risk margin, income protection insurance]
 
 
 

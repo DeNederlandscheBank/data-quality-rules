@@ -14,13 +14,17 @@ Template references
 S.02.01.08.01 Balance sheet
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.02.01.08.01,r0230 [unknown label]
-S.02.01.08.01,r0240 [unknown label]
-S.02.01.08.01,r0250 [unknown label]
-S.02.01.08.01,r0260 [unknown label]
+S.02.01.08.01,r0230 [loans and mortgages]
+
+S.02.01.08.01,r0240 [loans on policies]
+
+S.02.01.08.01,r0250 [loans and mortgages to individuals]
+
+S.02.01.08.01,r0260 [other loans and mortgages]
+
 
 
 Datapoint references

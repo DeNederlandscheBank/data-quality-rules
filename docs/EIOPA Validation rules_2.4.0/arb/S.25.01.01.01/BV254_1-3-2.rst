@@ -16,12 +16,13 @@ S.01.01.07.01 Content of the submission
 S.25.01.01.01 Basic Solvency Capital Requirement
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.01.01.07.01,r0460,c0010 [unknown label]
+S.01.01.07.01,r0460,c0010 [s.25.01.01 - solvency capital requirement - for undertakings on standard formula, none]
+
 S.25.01.01.01,r0010-0070,c0030 [unknown label]
-S.25.01.01.01,r0100,c0030 [Basic Solvency Capital Requirement , Net solvency capital requirement]
+S.25.01.01.01,r0100,c0030 [basic solvency capital requirement, net solvency capital requirement]
 
 
 

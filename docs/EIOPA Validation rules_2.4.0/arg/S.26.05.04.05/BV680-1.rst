@@ -18,18 +18,18 @@ S.26.05.04.01 Non-life premium and reserve Risk
 S.26.05.04.05 Simplifications used
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.05.01.01.01,r0200,c0120 [Premiums written|Net , Line of Business for: non-life insurance and reinsurance obligations (direct business and accepted proportional reinsurance)|Miscellaneous financial loss]
+S.05.01.01.01,r0200,c0120 [net, miscellaneous financial loss]
 
-S.26.05.04.01,r0180,c0060 [Miscellaneous , Volume measure for premium and reserve risk|Vprem]
+S.26.05.04.01,r0180,c0060 [miscellaneous, vprem]
 
-S.26.05.04.01,r0180,c0070 [Miscellaneous , Volume measure for premium and reserve risk|Vres]
+S.26.05.04.01,r0180,c0070 [miscellaneous, vres]
 
-S.26.05.04.01,r0180,c0090 [Miscellaneous , Volume measure for premium and reserve risk|V]
+S.26.05.04.01,r0180,c0090 [miscellaneous, v]
 
-S.26.05.04.05,r0010,c0010 [Captives simplifications - premium and reserve risk , Simplifications used]
+S.26.05.04.05,r0010,c0010 [captives simplifications - premium and reserve risk, simplifications used]
 
 
 

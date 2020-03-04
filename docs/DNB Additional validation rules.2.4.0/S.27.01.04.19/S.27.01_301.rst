@@ -11,11 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.19
+S.27.01.04.19 Man made catastrophe risk - Other non-life catastrophe risk
 
-Datapoints
-----------
 
-S.27.01.04.19,r3260 [unknown label]
+Datapoints labels
+-----------------
+
+S.27.01.04.19,r3260 [diversification between groups of obligations]
+
 
 

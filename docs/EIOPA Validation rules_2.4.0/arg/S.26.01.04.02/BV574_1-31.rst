@@ -16,18 +16,18 @@ S.26.01.04.01 Market risk - basic information, part 1
 S.26.01.04.02 Market risk - basic information, part 2
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.26.01.04.01,r0292,c0020 [Equity risk|qualifying infrastructure equities other than corporate , Initial absolute values before shock|Assets]
+S.26.01.04.01,r0292,c0020 [qualifying infrastructure equities other than corporate, assets]
 
-S.26.01.04.01,r0292,c0030 [Equity risk|qualifying infrastructure equities other than corporate , Initial absolute values before shock|Liabilities]
+S.26.01.04.01,r0292,c0030 [qualifying infrastructure equities other than corporate, liabilities]
 
-S.26.01.04.01,r0292,c0040 [Equity risk|qualifying infrastructure equities other than corporate , Absolute values after shock|Assets]
+S.26.01.04.01,r0292,c0040 [qualifying infrastructure equities other than corporate, assets]
 
-S.26.01.04.01,r0292,c0050 [Equity risk|qualifying infrastructure equities other than corporate , Absolute values after shock|Liabilities (after the loss absorbing capacity of technical provisions)]
+S.26.01.04.01,r0292,c0050 [qualifying infrastructure equities other than corporate, liabilities (after the loss absorbing capacity of technical provisions)]
 
-S.26.01.04.02,r0292,c0060 [Equity risk|qualifying infrastructure equities other than corporate , Absolute values after shock|Net solvency capital requirement]
+S.26.01.04.02,r0292,c0060 [qualifying infrastructure equities other than corporate, net solvency capital requirement]
 
 
 

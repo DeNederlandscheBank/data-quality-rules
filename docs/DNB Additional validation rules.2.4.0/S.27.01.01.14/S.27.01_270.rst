@@ -14,14 +14,20 @@ Template references
 S.27.01.01.14 Man made catastrophe risk - Liability
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.01.14,r2700 [unknown label]
-S.27.01.01.14,r2710 [unknown label]
-S.27.01.01.14,r2720 [unknown label]
-S.27.01.01.14,r2730 [unknown label]
-S.27.01.01.14,r2740 [unknown label]
-S.27.01.01.14,r2750 [unknown label]
+S.27.01.01.14,r2700 [professional malpractice liability]
+
+S.27.01.01.14,r2710 [employers liability]
+
+S.27.01.01.14,r2720 [directors and officers liability]
+
+S.27.01.01.14,r2730 [other liability]
+
+S.27.01.01.14,r2740 [non-proportional reinsurance]
+
+S.27.01.01.14,r2750 [total]
+
 
 

@@ -14,11 +14,12 @@ Template references
 S.26.04.01.03 NSLT Health premium and reserve risk
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
 S.26.04.01.03,r1000-1030 [unknown label]
-S.26.04.01.03,r1040 [unknown label]
+S.26.04.01.03,r1040 [total volume measure]
+
 
 
 Datapoint references

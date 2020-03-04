@@ -14,21 +14,32 @@ Template references
 S.23.01.01.01 Own funds
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.23.01.01.01,r0010 [unknown label]
+S.23.01.01.01,r0010 [ordinary share capital (gross of own shares)]
+
 S.23.01.01.01,r0030-0050 [unknown label]
-S.23.01.01.01,r0070 [unknown label]
-S.23.01.01.01,r0090 [unknown label]
-S.23.01.01.01,r0110 [unknown label]
-S.23.01.01.01,r0130 [unknown label]
-S.23.01.01.01,r0140 [unknown label]
-S.23.01.01.01,r0160 [unknown label]
-S.23.01.01.01,r0180 [unknown label]
-S.23.01.01.01,r0220 [unknown label]
-S.23.01.01.01,r0230 [unknown label]
-S.23.01.01.01,r0290 [unknown label]
+S.23.01.01.01,r0070 [surplus funds]
+
+S.23.01.01.01,r0090 [preference shares]
+
+S.23.01.01.01,r0110 [share premium account related to preference shares]
+
+S.23.01.01.01,r0130 [reconciliation reserve]
+
+S.23.01.01.01,r0140 [subordinated liabilities]
+
+S.23.01.01.01,r0160 [an amount equal to the value of net deferred tax assets]
+
+S.23.01.01.01,r0180 [other own fund items approved by the supervisory authority as basic own funds not specified above]
+
+S.23.01.01.01,r0220 [own funds from the financial statements that should not be represented by the reconciliation reserve and do not meet the criteria to be classified as solvency ii own funds]
+
+S.23.01.01.01,r0230 [deductions for participations in financial and credit institutions]
+
+S.23.01.01.01,r0290 [total basic own funds after deductions]
+
 
 
 Datapoint references

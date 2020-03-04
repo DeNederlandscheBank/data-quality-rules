@@ -14,12 +14,15 @@ Template references
 S.27.01.04.03 Natural Catastrophe risk - Earthquake
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.27.01.04.03,r1230 [unknown label]
-S.27.01.04.03,r1240 [unknown label]
-S.27.01.04.03,r1250 [unknown label]
+S.27.01.04.03,r1230 [total earthquake all regions before diversification]
+
+S.27.01.04.03,r1240 [diversification effect between regions]
+
+S.27.01.04.03,r1250 [total earthquake after diversification]
+
 
 
 Datapoint references

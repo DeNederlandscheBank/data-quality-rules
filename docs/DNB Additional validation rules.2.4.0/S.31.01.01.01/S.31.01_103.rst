@@ -14,12 +14,12 @@ Template references
 S.31.01.01.01 Share of reinsurers
 
 
-Datapoints
-----------
+Datapoints labels
+-----------------
 
-S.31.01.01.01,c0040 [Y-axis (RF): Code reinsurer , Y-axis (RF): Code and type of code of the reinsurer]
+S.31.01.01.01,c0040 [*foreign key to s.31.01.01.02*|*natural key*|"mandatory"]
 
-S.31.01.01.01,c0100 [Code reinsurer , Reinsurance recoverables: Total reinsurance recoverables]
+S.31.01.01.01,c0100 [reinsurance recoverables: total reinsurance recoverables]
 
 
 
