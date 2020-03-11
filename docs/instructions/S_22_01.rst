@@ -1,0 +1,1419 @@
+===================================================================
+S.22.01 - Impact of long term guarantees measures and transitionals
+===================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template is relevant when at least one long term guarantee measure or transitional is used by the undertaking.
+
+This template shall reflect the impact on the financial positions when no transitional is used and each LTG measures or transitional is set to zero. For that purpose, a step–by–step approach should be followed taking out each transitional and LTG measure one by one and without recalculating the impact of the remaining measures after each step.
+
+The impacts need to be reported positive if they increase the amount of the item being reported and negative if they decrease the amount of the item (e.g. if amount of SCR increases or if amount of Own Funds increases then positive values shall be reported).
+
+
+c0010r0010 - Amount with LTG measures and transitionals — Technical Provisions
+------------------------------------------------------------------------------
+
+
+Total amount of technical provisions including long term guarantee measures and transitional measures
+
+
+c0020r0010 - Without transitional on technical provisions — Technical Provisions
+--------------------------------------------------------------------------------
+
+
+Total amount of technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0010 - Impact of transitional on technical provisions — Technical provisions
+----------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the technical provisions due to the application of the transitional deduction to technical provisions.It shall be the difference between the technical provisions without transitional deduction to technical provisions and the technical provisions with LTG and transitional measures.
+
+
+c0040r0010 - Without transitional on interest rate — Technical Provisions
+-------------------------------------------------------------------------
+
+
+Total amount of technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping adjustments due to the volatility adjustment and the matching adjustment (‘MA’).
+
+
+c0050r0010 - Impact of transitional on interest rate — Technical provisions
+---------------------------------------------------------------------------
+
+
+Amount of the adjustment to the technical provisions due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and the technical provisions with LTG and transitional measures.
+
+
+c0060r0010 - Without volatility adjustment and without other transitional measures — Technical Provisions
+---------------------------------------------------------------------------------------------------------
+
+
+Total amount of technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping adjustments due to the matching adjustment, if any.
+
+
+c0070r0010 - Impact of volatility adjustment set to zero — Technical provisions
+-------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the technical provisions due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the technical provisions without volatility adjustment and without other transitional measures and the maximum between the technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0010 - Without matching adjustment and without all the others — Technical Provisions
+------------------------------------------------------------------------------------------
+
+
+Total amount of technical provisions without any LTG measure.
+
+
+c0090r0010 - Impact of matching adjustment set to zero — Technical Provisions
+-----------------------------------------------------------------------------
+
+
+Amount of the adjustment to the technical provisions due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the technical provisions without matching adjustment and without all the other transitional measures and the maximum between the technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0010 - Impact of all LTG measures and transitionals — Technical Provisions
+--------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the technical provisions due to the application of the LTG measures and transitionals.
+
+
+c0010r0020 - Amount with LTG measures and transitionals — Basic own funds
+-------------------------------------------------------------------------
+
+
+Total amount of basic own funds calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0020 - Without transitional on technical provisions — Basic own funds
+---------------------------------------------------------------------------
+
+
+Total amount of basic own funds calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0020 - Impact of transitional on technical provisions — Basic own funds
+-----------------------------------------------------------------------------
+
+
+Amount of the adjustment to the Basic own funds due to the application of the transitional deduction to technical provisions.It shall be the difference between the basic own funds calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0020 - Without transitional on interest rate — Basic own funds
+--------------------------------------------------------------------
+
+
+Total amount of basic own funds calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0020 - Impact of transitional on interest rate — Basic own funds
+----------------------------------------------------------------------
+
+
+Amount of the adjustment to the basic own funds due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the basic own funds calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0020 - Without volatility adjustment and without other transitional measures — Basic own funds
+----------------------------------------------------------------------------------------------------
+
+
+Total amount of basic own funds calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0020 - Impact of volatility adjustment set to zero — Basic own funds
+--------------------------------------------------------------------------
+
+
+Amount of the adjustment to the Basic own funds due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the basic own funds considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the basic own funds considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0020 - Without matching adjustment and without all the others — Basic own funds
+-------------------------------------------------------------------------------------
+
+
+Total amount of basic own funds calculated considering technical provisions without any LTG measure.
+
+
+c0090r0020 - Impact of matching adjustment set to zero — Basic own funds
+------------------------------------------------------------------------
+
+
+Amount of the adjustment to the basic own funds due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the basic own funds considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the basic own funds considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0020 - Impact of all LTG measures and transitionals — Basic own funds
+---------------------------------------------------------------------------
+
+
+Amount of the adjustment to the basic own funds due to the application of the LTG measures and transitionals.
+
+
+c0010r0030 - Amount with LTG measures and transitionals — Basic own funds — Excess of assets over liabilities
+-------------------------------------------------------------------------------------------------------------
+
+
+Total amount of excess of assets over liabilities calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0030 - Without transitional on technical provisions — Basic own funds — Excess of assets over liabilities
+---------------------------------------------------------------------------------------------------------------
+
+
+Total amount of excess of assets over liabilities calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0030 - Impact of transitional on technical provisions — Basic own funds — Excess of assets over liabilities
+-----------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the excess of assets over liabilities due to the application of the transitional deduction to technical provisions.It shall be the difference between the excess of assets over liabilities calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0030 - Without transitional on interest rate — Basic own funds — Excess of assets over liabilities
+--------------------------------------------------------------------------------------------------------
+
+
+Total amount of excess of assets over liabilities calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0030 - Impact of transitional on interest rate — Basic own funds — Excess of assets over liabilities
+----------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the excess of assets over liabilities due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the excess of assets over liabilities calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0030 - Without volatility adjustment and without other transitional measures — Basic own funds — Excess of assets over liabilities
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of excess of assets over liabilities calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0030 - Impact of volatility adjustment set to zero — Basic own funds — Excess of assets over liabilities
+--------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the excess of assets over liabilities due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the excess of assets over liabilities considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the excess of assets over liabilities considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0030 - Without matching adjustment and without all the others — Basic own funds — Excess of assets over liabilities
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of excess of assets over liabilities calculated considering Technical provisions without any LTG measure.
+
+
+c0090r0030 - Impact of matching adjustment set to zero — Basic own funds — Excess of assets over liabilities
+------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the excess of assets over liabilities due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the excess of assets over liabilities considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the excess of assets over liabilities considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0030 - Impact of all LTG measures and transitionals — Basic own funds — Excess of assets over liabilities
+---------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the excess of assets over liabilities due to the application of the LTG measures and transitionals.
+
+
+c0010r0040 - Amount with LTG measures and transitionals — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of restricted own funds due to ring–fencing calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0040 - Without transitional on technical provisions — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of restricted own funds due to ring–fencing calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0040 - Impact of transitional on technical provisions — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the restricted own funds due to ring–fencing due to the application of the transitional deduction to technical provisions.It shall be the difference between the restricted own funds due to ring–fencing calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0040 - Without transitional on interest rate — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of restricted own funds due to ring–fencing calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0040 - Impact of transitional on interest rate — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the restricted own funds due to ring–fencing due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the restricted own funds due to ring–fencing calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0040 - Without volatility adjustment and without other transitional measures — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of restricted own funds due to ring–fencing calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0040 - Impact of volatility adjustment set to zero — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the restricted own funds due to ring–fencing due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the restricted own funds due to ring–fencing considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the restricted own funds due to ring–fencing considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0040 - Without matching adjustment and without all the others — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of restricted own funds due to ring–fencing calculated considering technical provisions without any LTG measure.
+
+
+c0090r0040 - Impact of matching adjustment set to zero — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the restricted own funds due to ring–fencing due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the restricted own funds due to ring–fencing considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the restricted own funds due to ring–fencing considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0040 - Impact of all LTG measures and transitionals — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the restricted own funds due to ring–fencing due to the application of the LTG measures and transitionals.
+
+
+c0010r0050 - Amount with LTG measures and transitionals — Eligible own funds to meet SCR
+----------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0050 - Without transitional on technical provisions — Eligible own funds to meet SCR
+------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0050 - Impact of transitional on technical provisions — Eligible own funds to meet SCR
+--------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR due to the application of the transitional deduction to technical provisions.It shall be the difference between the eligible own funds to meet SCR calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0050 - Without transitional on interest rate — Eligible own funds to meet SCR
+-----------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0050 - Impact of transitional on interest rate — Eligible own funds to meet SCR
+-------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the eligible own funds to meet SCR calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0050 - Without volatility adjustment and without other transitional measures — Eligible own funds to meet SCR
+-------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0050 - Impact of volatility adjustment set to zero — Eligible own funds to meet SCR
+-----------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the eligible own funds to meet SCR considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the eligible own funds to meet SCR considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0050 - Without matching adjustment and without all the others — Eligible own funds to meet SCR
+----------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR calculated considering technical provisions without any LTG measure.
+
+
+c0090r0050 - Impact of matching adjustment set to zero — Eligible own funds to meet SCR
+---------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the eligible own funds to meet SCR calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the eligible own funds to meet SCR considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0050 - Impact of all LTG measures and transitionals — Eligible own funds to meet SCR
+------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR due to the application of the LTG measures and transitionals.
+
+
+c0010r0060 - Amount with LTG measures and transitionals — Eligible own funds to meet SCR–Tier 1
+-----------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 1 calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0060 - Without transitional on technical provisions — Eligible own funds to meet SCR–Tier 1
+-------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0060 - Impact of transitional on technical provisions — Eligible own funds to meet SCR–Tier 1
+---------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 1 due to the application of the transitional deduction to technical provisions.It shall be the difference between the eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0060 - Without transitional on interest rate — Eligible own funds to meet SCR–Tier 1
+------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0060 - Impact of transitional on interest rate — Eligible own funds to meet SCR–Tier 1
+--------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 1 due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0060 - Without volatility adjustment and without other transitional measures — Eligible own funds to meet SCR–Tier 1
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0060 - Impact of volatility adjustment set to zero — Eligible own funds to meet SCR–Tier 1
+------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 1 due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 1 considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 1 considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0060 - Without matching adjustment and without all the others — Eligible own funds to meet SCR–Tier 1
+-----------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without any LTG measure.
+
+
+c0090r0060 - Impact of matching adjustment set to zero — Eligible own funds to meet SCR–Tier 1
+----------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 1 due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 1 considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0060 - Impact of all LTG measures and transitionals — Eligible own funds to meet SCR–Tier 1
+-------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 1 due to the application of the LTG measures and transitionals.
+
+
+c0010r0070 - Amount with LTG measures and transitionals — Eligible own funds to meet SCR–Tier 2
+-----------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 2 calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0070 - Without transitional on technical provisions — Eligible own funds to meet SCR–Tier 2
+-------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0070 - Impact of transitional on technical provisions — Eligible own funds to meet SCR–Tier 2
+---------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 2 due to the application of the transitional deduction to technical provisions.It shall be the difference between the eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0070 - Without transitional on interest rate — Eligible own funds to meet SCR–Tier 2
+------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0070 - Impact of transitional on interest rate — Eligible own funds to meet SCR–Tier 2
+--------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 2 due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0070 - Without volatility adjustment and without other transitional measures — Eligible own funds to meet SCR–Tier 2
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0070 - Impact of volatility adjustment set to zero — Eligible own funds to meet SCR–Tier 2
+------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 2 due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 2 considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 2 considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0070 - Without matching adjustment and without all the others — Eligible own funds to meet SCR–Tier 2
+-----------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without any LTG measure.
+
+
+c0090r0070 - Impact of matching adjustment set to zero — Eligible own funds to meet SCR–Tier 2
+----------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 2 due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 2 considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0070 - Impact of all LTG measures and transitionals — Eligible own funds to meet SCR–Tier 2
+-------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 2 due to the application of the LTG measures and transitionals.
+
+
+c0010r0080 - Amount with LTG measures and transitionals — Eligible own funds to meet SCR–Tier 3
+-----------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 3 calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0080 - Without transitional on technical provisions — Eligible own funds to meet SCR–Tier 3
+-------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0080 - Impact of transitional on technical provisions — Eligible own funds to meet SCR–Tier 3
+---------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 3 due to the application of the transitional deduction to technical provisions.It shall be the difference between the eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0080 - Without transitional on interest rate — Eligible own funds to meet SCR–Tier 3
+------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0080 - Impact of transitional on interest rate — Eligible own funds to meet SCR–Tier 3
+--------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 3 due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0080 - Without volatility adjustment and without other transitional measures — Eligible own funds to meet SCR–Tier 3
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0080 - Impact of volatility adjustment set to zero — Eligible own funds to meet SCR–Tier 3
+------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 3 due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 3 considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 3 considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0080 - Without matching adjustment and without all the others — Eligible own funds to meet SCR–Tier 3
+-----------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without any LTG measure.
+
+
+c0090r0080 - Impact of matching adjustment set to zero — Eligible own funds to meet SCR–Tier 3
+----------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 3 due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 3 considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0080 - Impact of all LTG measures and transitionals — Eligible own funds to meet SCR–Tier 3
+-------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 3 due to the application of the LTG measures and transitionals.
+
+
+c0010r0090 - Amount with LTG measures and transitionals — SCR
+-------------------------------------------------------------
+
+
+Total amount of SCR calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures
+
+
+c0020r0090 - Without transitional on technical provisions –SCR
+--------------------------------------------------------------
+
+
+Total amount of SCR calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0090 - Impact of transitional on technical provisions — SCR
+-----------------------------------------------------------------
+
+
+Amount of the adjustment to the SCR due to the application of the transitional deduction to technical provisions.It shall be the difference between the SCR calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0090 - Without transitional on interest rate — SCR
+--------------------------------------------------------
+
+
+Total amount of SCR calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0090 - Impact of transitional on interest rate — SCR
+----------------------------------------------------------
+
+
+Amount of the adjustment to the SCR due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the SCR calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0090 - Without volatility adjustment and without other transitional measures — SCR
+----------------------------------------------------------------------------------------
+
+
+Total amount of SCR calculated considering Technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0090 - Impact of volatility adjustment set to zero — SCR
+--------------------------------------------------------------
+
+
+Amount of the adjustment to the SCR due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the SCR considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the SCR considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0090 - Without matching adjustment and without all the others — SCR
+-------------------------------------------------------------------------
+
+
+Total amount of SCR calculated considering Technical provisions without any LTG measure.
+
+
+c0090r0090 - Impact of matching adjustment set to zero — SCR
+------------------------------------------------------------
+
+
+Amount of the adjustment to the SCR due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the SCR calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the SCR considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0090 - Impact of all LTG measures and transitionals –SCR
+--------------------------------------------------------------
+
+
+Amount of the adjustment to the SCR due to the application of the LTG measures and transitionals.
+
+
+c0010r0100 - Amount with LTG measures and transitionals — Eligible own funds to meet MCR
+----------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet MCR calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0100 - Without transitional on technical provisions — Eligible own funds to meet MCR
+------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet MCR calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0100 - Impact of transitional on technical provisions — Eligible own funds to meet MCR
+--------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet MCR due to the application of the transitional deduction to technical provisions.It shall be the difference between the eligible own funds to meet MCR calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0100 - Without transitional on interest rate — Eligible own funds to meet MCR
+-----------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet MCR calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0100 - Impact of transitional on interest rate — Eligible own funds to meet MCR
+-------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the Eligible own funds to meet MCR due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the eligible own funds to meet MCR calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0100 - Without volatility adjustment and without other transitional measures — Eligible own funds to meet MCR
+-------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of Eligible own funds to meet MCR calculated considering Technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0100 - Impact of volatility adjustment set to zero — Eligible own funds to meet MCR
+-----------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the Eligible own funds to meet MCR due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the eligible own funds to meet MCR considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the eligible own funds to meet MCR considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0100 - Without matching adjustment and without all the others — Eligible own funds to meet MCR
+----------------------------------------------------------------------------------------------------
+
+
+Total amount of Eligible own funds to meet MCR calculated considering Technical provisions without any LTG measure.
+
+
+c0090r0100 - Impact of matching adjustment set to zero — Eligible own funds to meet MCR
+---------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the Eligible own funds to meet MCR due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the eligible own funds to meet MCR calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the eligible own funds to meet MCR considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0100 - Impact of all LTG measures and transitionals — Eligible own funds to meet MCR
+------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the Eligible own funds to meet MCR due to the application of the LTG measures and transitionals.
+
+
+c0010r0110 - Amount with LTG measures and transitionals — Minimum Capital Requirement
+-------------------------------------------------------------------------------------
+
+
+Total amount of MCR calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0110 - Without transitional on technical provisions — Minimum Capital Requirement
+---------------------------------------------------------------------------------------
+
+
+Total amount of MCR calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0110 - Impact of transitional on technical provisions — Minimum Capital Requirement
+-----------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the MCR due to the application of the transitional deduction to technical provisions.It shall be the difference between the MCR calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0110 - Without transitional on interest rate — Minimum Capital Requirement
+--------------------------------------------------------------------------------
+
+
+Total amount of MCR calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0110 - Impact of transitional on interest rate — Minimum Capital Requirement
+----------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the MCR due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the MCR calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0110 - Without volatility adjustment and without other transitional measures — Minimum Capital Requirement
+----------------------------------------------------------------------------------------------------------------
+
+
+Total amount of MCR calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0110 - Impact of volatility adjustment set to zero — Minimum Capital Requirement
+--------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the MCR due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the MCR considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the MCR considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0110 - Without matching adjustment and without all the others — MCR
+-------------------------------------------------------------------------
+
+
+Total amount of MCR calculated considering technical provisions without any LTG measure.
+
+
+c0090r0110 - Impact of matching adjustment set to zero — Minimum Capital Requirement
+------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the MCR due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the MCR calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the MCR considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0110 - Impact of all LTG measures and transitionals — Minimum Capital Requirement
+---------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the MCR due to the application of the LTG measures and transitionals.
+
+
+c0010r0010 - Amount with LTG measures and transitionals — Technical Provisions
+------------------------------------------------------------------------------
+
+
+Total amount of technical provisions including long term guarantee measures and transitional measures
+
+
+c0020r0010 - Without transitional on technical provisions — Technical Provisions
+--------------------------------------------------------------------------------
+
+
+Total amount of technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0010 - Impact of transitional on technical provisions — Technical provisions
+----------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the technical provisions due to the application of the transitional deduction to technical provisions.It shall be the difference between the technical provisions without transitional deduction to technical provisions and the technical provisions with LTG and transitional measures.
+
+
+c0040r0010 - Without transitional on interest rate — Technical Provisions
+-------------------------------------------------------------------------
+
+
+Total amount of technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0010 - Impact of transitional on interest rate — Technical provisions
+---------------------------------------------------------------------------
+
+
+Amount of the adjustment to the technical provisions due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and the technical provisions with LTG and transitional measures.
+
+
+c0060r0010 - Without volatility adjustment and without other transitional measures — Technical Provisions
+---------------------------------------------------------------------------------------------------------
+
+
+Total amount of technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping adjustments due to the matching adjustment, if any.
+
+
+c0070r0010 - Impact of volatility adjustment set to zero — Technical provisions
+-------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the technical provisions due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the technical provisions without volatility adjustment and without other transitional measures and the maximum between the technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0010 - Without matching adjustment and without all the others — Technical Provisions
+------------------------------------------------------------------------------------------
+
+
+Total amount of technical provisions without any LTG measure.
+
+
+c0090r0010 - Impact of matching adjustment set to zero — Technical Provisions
+-----------------------------------------------------------------------------
+
+
+Amount of the adjustment to the technical provisions due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the technical provisions without matching adjustment and without all the other transitional measures and the maximum between the technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0010 - Impact of all LTG measures and transitionals — Technical Provisions
+--------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the technical provisions due to the application of the LTG measures and transitionals.
+
+
+c0010r0020 - Amount with LTG measures and transitionals — Basic own funds
+-------------------------------------------------------------------------
+
+
+Total amount of basic own funds calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0020 - Without transitional on technical provisions — Basic own funds
+---------------------------------------------------------------------------
+
+
+Total amount of basic own funds calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0020 - Impact of transitional on technical provisions — Basic own funds
+-----------------------------------------------------------------------------
+
+
+Amount of the adjustment to the Basic own funds due to the application of the transitional deduction to technical provisions.It shall be the difference between the basic own funds calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0020 - Without transitional on interest rate — Basic own funds
+--------------------------------------------------------------------
+
+
+Total amount of basic own funds calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0020 - Impact of transitional on interest rate — Basic own funds
+----------------------------------------------------------------------
+
+
+Amount of the adjustment to the basic own funds due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the basic own funds calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0020 - Without volatility adjustment and without other transitional measures — Basic own funds
+----------------------------------------------------------------------------------------------------
+
+
+Total amount of basic own funds calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0020 - Impact of volatility adjustment set to zero — Basic own funds
+--------------------------------------------------------------------------
+
+
+Amount of the adjustment to the Basic own funds due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the basic own funds considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the basic own funds considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0020 - Without matching adjustment and without all the others — Basic own funds
+-------------------------------------------------------------------------------------
+
+
+Total amount of basic own funds calculated considering technical provisions without any LTG measure.
+
+
+c0090r0020 - Impact of matching adjustment set to zero — Basic own funds
+------------------------------------------------------------------------
+
+
+Amount of the adjustment to the basic own funds due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the basic own funds considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the basic own funds considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0020 - Impact of all LTG measures and transitionals — Basic own funds
+---------------------------------------------------------------------------
+
+
+Amount of the adjustment to the basic own funds due to the application of the LTG measures and transitionals.
+
+
+c0010r0030 - Amount with LTG measures and transitionals — Basic own funds — Excess of assets over liabilities
+-------------------------------------------------------------------------------------------------------------
+
+
+Total amount of excess of assets over liabilities calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0030 - Without transitional on technical provisions — Basic own funds — Excess of assets over liabilities
+---------------------------------------------------------------------------------------------------------------
+
+
+Total amount of excess of assets over liabilities calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0030 - Impact of transitional on technical provisions — Basic own funds — Excess of assets over liabilities
+-----------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the excess of assets over liabilities due to the application of the transitional deduction to technical provisions.It shall be the difference between the excess of assets over liabilities calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0030 - Without transitional on interest rate — Basic own funds — Excess of assets over liabilities
+--------------------------------------------------------------------------------------------------------
+
+
+Total amount of excess of assets over liabilities calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0030 - Impact of transitional on interest rate — Basic own funds — Excess of assets over liabilities
+----------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the excess of assets over liabilities due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the excess of assets over liabilities calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0030 - Without volatility adjustment and without other transitional measures — Basic own funds — Excess of assets over liabilities
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of excess of assets over liabilities calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0030 - Impact of volatility adjustment set to zero — Basic own funds — Excess of assets over liabilities
+--------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the excess of assets over liabilities due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the excess of assets over liabilities considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the excess of assets over liabilities considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0030 - Without matching adjustment and without all the others — Basic own funds — Excess of assets over liabilities
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of excess of assets over liabilities calculated considering Technical provisions without any LTG measure.
+
+
+c0090r0030 - Impact of matching adjustment set to zero — Basic own funds — Excess of assets over liabilities
+------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the excess of assets over liabilities due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the excess of assets over liabilities considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the excess of assets over liabilities considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0030 - Impact of all LTG measures and transitionals — Basic own funds — Excess of assets over liabilities
+---------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the excess of assets over liabilities due to the application of the LTG measures and transitionals.
+
+
+c0010r0040 - Amount with LTG measures and transitionals — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of restricted own funds due to ring–fencing calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0040 - Without transitional on technical provisions — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of restricted own funds due to ring–fencing calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0040 - Impact of transitional on technical provisions — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the restricted own funds due to ring–fencing due to the application of the transitional deduction to technical provisions.It shall be the difference between the restricted own funds due to ring–fencing calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0040 - Without transitional on interest rate — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of restricted own funds due to ring–fencing calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0040 - Impact of transitional on interest rate — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the restricted own funds due to ring–fencing due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the restricted own funds due to ring–fencing calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0040 - Without volatility adjustment and without other transitional measures — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of restricted own funds due to ring–fencing calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0040 - Impact of volatility adjustment set to zero — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the restricted own funds due to ring–fencing due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the restricted own funds due to ring–fencing considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the restricted own funds due to ring–fencing considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0040 - Without matching adjustment and without all the others — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of restricted own funds due to ring–fencing calculated considering technical provisions without any LTG measure.
+
+
+c0090r0040 - Impact of matching adjustment set to zero — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the restricted own funds due to ring–fencing due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the restricted own funds due to ring–fencing considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the restricted own funds due to ring–fencing considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0040 - Impact of all LTG measures and transitionals — Basic own funds — Restricted own funds due to ring–fencing and matching portfolio
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the restricted own funds due to ring–fencing due to the application of the LTG measures and transitionals.
+
+
+c0010r0050 - Amount with LTG measures and transitionals — Eligible own funds to meet SCR
+----------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0050 - Without transitional on technical provisions — Eligible own funds to meet SCR
+------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0050 - Impact of transitional on technical provisions — Eligible own funds to meet SCR
+--------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR due to the application of the transitional deduction to technical provisions.It shall be the difference between the eligible own funds to meet SCR calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0050 - Without transitional on interest rate — Eligible own funds to meet SCR
+-----------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0050 - Impact of transitional on interest rate — Eligible own funds to meet SCR
+-------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the eligible own funds to meet SCR calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0050 - Without volatility adjustment and without other transitional measures — Eligible own funds to meet SCR
+-------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0050 - Impact of volatility adjustment set to zero — Eligible own funds to meet SCR
+-----------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the eligible own funds to meet SCR considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the eligible own funds to meet SCR considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0050 - Without matching adjustment and without all the others — Eligible own funds to meet SCR
+----------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR calculated considering technical provisions without any LTG measure.
+
+
+c0090r0050 - Impact of matching adjustment set to zero — Eligible own funds to meet SCR
+---------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the eligible own funds to meet SCR calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the eligible own funds to meet SCR considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0050 - Impact of all LTG measures and transitionals — Eligible own funds to meet SCR
+------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR due to the application of the LTG measures and transitionals.
+
+
+c0010r0060 - Amount with LTG measures and transitionals — Eligible own funds to meet SCR–Tier 1
+-----------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 1 calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0060 - Without transitional on technical provisions — Eligible own funds to meet SCR–Tier 1
+-------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0060 - Impact of transitional on technical provisions — Eligible own funds to meet SCR–Tier 1
+---------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 1 due to the application of the transitional deduction to technical provisions.It shall be the difference between the eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0060 - Without transitional on interest rate — Eligible own funds to meet SCR–Tier 1
+------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0060 - Impact of transitional on interest rate — Eligible own funds to meet SCR–Tier 1
+--------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 1 due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0060 - Without volatility adjustment and without other transitional measures — Eligible own funds to meet SCR–Tier 1
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0060 - Impact of volatility adjustment set to zero — Eligible own funds to meet SCR–Tier 1
+------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 1 due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 1 considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 1 considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0060 - Without matching adjustment and without all the others — Eligible own funds to meet SCR–Tier 1
+-----------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without any LTG measure.
+
+
+c0090r0060 - Impact of matching adjustment set to zero — Eligible own funds to meet SCR–Tier 1
+----------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 1 due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 1 calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 1 considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0060 - Impact of all LTG measures and transitionals — Eligible own funds to meet SCR–Tier 1
+-------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 1 due to the application of the LTG measures and transitionals.
+
+
+c0010r0070 - Amount with LTG measures and transitionals — Eligible own funds to meet SCR–Tier 2
+-----------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 2 calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0070 - Without transitional on technical provisions — Eligible own funds to meet SCR–Tier 2
+-------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0070 - Impact of transitional on technical provisions — Eligible own funds to meet SCR–Tier 2
+---------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 2 due to the application of the transitional deduction to technical provisions.It shall be the difference between the eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0070 - Without transitional on interest rate — Eligible own funds to meet SCR–Tier 2
+------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0070 - Impact of transitional on interest rate — Eligible own funds to meet SCR–Tier 2
+--------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 2 due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0070 - Without volatility adjustment and without other transitional measures — Eligible own funds to meet SCR–Tier 2
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0070 - Impact of volatility adjustment set to zero — Eligible own funds to meet SCR–Tier 2
+------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 2 due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 2 considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 2 considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0070 - Without matching adjustment and without all the others — Eligible own funds to meet SCR–Tier 2
+-----------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without any LTG measure.
+
+
+c0090r0070 - Impact of matching adjustment set to zero — Eligible own funds to meet SCR–Tier 2
+----------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 2 due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 2 calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 2 considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0070 - Impact of all LTG measures and transitionals — Eligible own funds to meet SCR–Tier 2
+-------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 2 due to the application of the LTG measures and transitionals.
+
+
+c0010r0080 - Amount with LTG measures and transitionals — Eligible own funds to meet SCR–Tier 3
+-----------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 3 calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures.
+
+
+c0020r0080 - Without transitional on technical provisions — Eligible own funds to meet SCR–Tier 3
+-------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0080 - Impact of transitional on technical provisions — Eligible own funds to meet SCR–Tier 3
+---------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 3 due to the application of the transitional deduction to technical provisions.It shall be the difference between the eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0080 - Without transitional on interest rate — Eligible own funds to meet SCR–Tier 3
+------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0080 - Impact of transitional on interest rate — Eligible own funds to meet SCR–Tier 3
+--------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 3 due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0080 - Without volatility adjustment and without other transitional measures — Eligible own funds to meet SCR–Tier 3
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0080 - Impact of volatility adjustment set to zero — Eligible own funds to meet SCR–Tier 3
+------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 3 due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 3 considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 3 considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0080 - Without matching adjustment and without all the others — Eligible own funds to meet SCR–Tier 3
+-----------------------------------------------------------------------------------------------------------
+
+
+Total amount of eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without any LTG measure.
+
+
+c0090r0080 - Impact of matching adjustment set to zero — Eligible own funds to meet SCR–Tier 3
+----------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 3 due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the eligible own funds to meet SCR–Tier 3 calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the eligible own funds to meet SCR–Tier 3 considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0080 - Impact of all LTG measures and transitionals — Eligible own funds to meet SCR–Tier 3
+-------------------------------------------------------------------------------------------------
+
+
+Amount of the adjustment to the eligible own funds to meet SCR–Tier 3 due to the application of the LTG measures and transitionals.
+
+
+c0010r0090 - Amount with LTG measures and transitionals — SCR
+-------------------------------------------------------------
+
+
+Total amount of SCR calculated considering technical provisions including the adjustments due to the long term guarantee measures and transitional measures
+
+
+c0020r0090 - Without transitional on technical provisions — SCR
+---------------------------------------------------------------
+
+
+Total amount of SCR calculated considering technical provisions without the adjustment due to the transitional deduction to technical provisions, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0030r0090 - Impact of transitional on technical provisions — SCR
+-----------------------------------------------------------------
+
+
+Amount of the adjustment to the SCR due to the application of the transitional deduction to technical provisions.It shall be the difference between the SCR calculated considering technical provisions without transitional deduction to technical provisions and considering technical provisions with LTG and transitional measures.
+
+
+c0040r0090 - Without transitional on interest rate — SCR
+--------------------------------------------------------
+
+
+Total amount of SCR calculated considering technical provisions without the adjustment due to the transitional adjustment to the relevant risk-free interest rate term structure, but keeping the adjustments due to the volatility adjustment and the matching adjustment.
+
+
+c0050r0090 - Impact of transitional on interest rate — SCR
+----------------------------------------------------------
+
+
+Amount of the adjustment to the SCR due to the application of the transitional adjustment to the relevant risk-free interest rate term structure.It shall be the difference between the SCR calculated considering technical provisions without transitional adjustment to the relevant risk-free interest rate term structure and considering technical provisions with LTG and transitional measures.
+
+
+c0060r0090 - Without volatility adjustment and without other transitional measures — SCR
+----------------------------------------------------------------------------------------
+
+
+Total amount of SCR calculated considering Technical provisions without the adjustments due to the transitional deduction to technical provisions, the transitional adjustment to the relevant risk-free interest rate term structure and the volatility adjustment, but keeping the adjustments due to the matching adjustment.
+
+
+c0070r0090 - Impact of volatility adjustment set to zero — SCR
+--------------------------------------------------------------
+
+
+Amount of the adjustment to the SCR due to the application of the volatility adjustment. It shall reflect the impact of setting the volatility adjustment to zero.It shall be the difference between the SCR considering technical provisions without volatility adjustment and without other transitional measures and the maximum between the SCR considering technical provisions reported under C0010, C0020 and C0040.
+
+
+c0080r0090 - Without matching adjustment and without all the others — SCR
+-------------------------------------------------------------------------
+
+
+Total amount of SCR calculated considering Technical provisions without any LTG measure.
+
+
+c0090r0090 - Impact of matching adjustment set to zero — SCR
+------------------------------------------------------------
+
+
+Amount of the adjustment to the SCR due to the application of the matching adjustment. It shall include the impact of setting the volatility adjustment and the matching adjustment to zero.It shall be the difference between the SCR calculated considering technical provisions without matching adjustment and without all the other transitional measures and the maximum between the SCR considering technical provisions reported under C0010, C0020, C0040 and C0060.
+
+
+c0100r0090 - Impact of all LTG measures and transitionals — SCR
+---------------------------------------------------------------
+
+
+Amount of the adjustment to the SCR due to the application of the LTG measures and transitionals.
+
+

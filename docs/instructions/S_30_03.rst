@@ -1,0 +1,283 @@
+=================================================
+S.30.03 - Outgoing Reinsurance Program basic data
+=================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template is relevant to insurance and reinsurance undertakings with an outgoing reinsurance and/or retrocession program including any coverage provided by State backed reinsurance pool arrangements, excluding facultative covers.
+
+This template shall be filled by the insurance and reinsurance undertaking which is transferring underwriting risk to the reinsurers through a reinsurance treaty whose period of validity includes or overlaps the next reporting year and are known when filling the template. If reinsurance strategy changes materially after that date or if the renovation of the reinsurance contracts are performed later than the reporting date and before next 1 January, the information on this template shall be re–submitted when adequate.
+
+
+c0010 - Reinsurance program code
+--------------------------------
+
+
+Unique code (undertaking specific) covering all the individual reinsurance placements and/or treaties which belong to the same reinsurance program.
+
+
+c0020 - Treaty identification code
+----------------------------------
+
+
+Treaty identification code that identifies the treaty exclusively and must be maintained in subsequent reports, usually the original treaty number registered in the company's books.
+
+
+c0030 - Progressive section number in treaty
+--------------------------------------------
+
+
+The progressive section number assigned by the undertaking to the various sections of the treaty, in those cases where the treaty, for example, covers more than one line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, or covers different lines of activity with different limits. Treaties with different conditions are considered different treaties for the submission of information and shall be reported in different sections. For different lines of business covered under the same treaty, the conditions referring to each line of business will be detailed separately under each section number. Treaties covering different type of reinsurance (e.g. one section on a Quota Share basis and another one on XL) in the same treaty shall be reported in different sections. Treaties covering different layers of the same program shall be reported in different sections.
+
+
+c0040 - Progressive number of surplus/layer in program
+------------------------------------------------------
+
+
+The progressive surplus/layer number, when the treaty is part of a wider program.
+
+
+c0050 - Quantity of surplus/layers in program
+---------------------------------------------
+
+
+The total number of surpluses or layers in the same program which includes the treaty which is being reported.
+
+
+c0060 - Finite reinsurance or similar arrangements
+--------------------------------------------------
+
+
+Identification of the reinsurance contract. The following closed list shall be used: 1 — Non–traditional or Finite RE(if any reinsurance contract or financial instrument which is not directly based on the principle of indemnity or is based on a contract wording which has limited or no demonstrable risk transfer mechanism) 2 — Other than non–traditional or Finite REIn case of Finite reinsurance or a similar arrangement only the items which are feasible must be filled.
+
+
+c0070 - Line of business
+------------------------
+
+
+Identification of the line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, reported. The following closed list shall be used: 1 — Medical expense insurance 2 — Income protection insurance 3 — Workers' compensation insurance 4 — Motor vehicle liability insurance 5 — Other motor insurance 6 — Marine, aviation and transport insurance 7 — Fire and other damage to property insurance 8 — General liability insurance 9 — Credit and suretyship insurance 10 — Legal expenses insurance 11 — Assistance 12 — Miscellaneous financial loss 13 — Proportional medical expense reinsurance 14 — Proportional income protection reinsurance 15 — Proportional workers' compensation reinsurance 16 — Proportional motor vehicle liability reinsurance 17 — Proportional other motor reinsurance 18 — Proportional marine, aviation and transport reinsurance 19 — Proportional fire and other damage to property reinsurance 20 — Proportional general liability reinsurance 21 — Proportional credit and suretyship reinsurance 22 — Proportional legal expenses reinsurance 23 — Proportional assistance reinsurance 24 — Proportional miscellaneous financial loss reinsurance 25 — Non–proportional health reinsurance 26 — Non–proportional casualty reinsurance 27 — Non–proportional marine, aviation and transport reinsurance 28 — Non–proportional property reinsurance 29 — Health insurance 30 — Insurance with profit participation 31 — Index–linked and unit–linked insurance 32 — Other life insurance 33 — Annuities stemming from non–life insurance contracts and relating to health insurance obligations 34 — Annuities stemming from non–life insurance contracts and relating to insurance obligations other than health insurance obligations 35 — Health reinsurance 36 — Life reinsurance 37 — Multiline (as defined hereunder)1)Where the reinsurance treaty provides cover for more than one line of business and the terms of cover differ between lines of business then the treaty needs to be specified over multiple rows. The first row entry for the treaty needs to be entered as ‘Multiline’ that provides details of the overall terms of the treaty (such as deductibles and reinstatements), with the subsequent rows providing details of the individual terms of the reinsurance treaty to each relevant line of business.2)Where the term of the cover do not differ by line of business only the dominant (based on the Gross Estimated Treaty Premium Income) Solvency II line of business is required.3)Multiyear treaties with fixed conditions can be expressed by the columns used for the validity period.
+
+
+c0080 - Description risk category covered
+-----------------------------------------
+
+
+Description of the main scope of the treaty cover. This is referred to the main portfolio which is the scope of the treaty and normally is part of the treaty description (e.g. ‘Industrial property’ or ‘Director and officers liability’. Undertakings can also include a description referring which business unit the risk was accepted in case this has led to different treaty conditions (e.g. ‘Distribution label A’).The description of the risk category covered is entity specific and is not mandatory. Also the term ‘risk category’ isn't based on Level 1 and 2 terminologies but can be considered as an extra possibility the give additional information about the underwriting risk(s).
+
+
+c0090 - Type of reinsurance treaty
+----------------------------------
+
+
+Code of the type of reinsurance treaty. One of the options in the following list shall be used: 1 — quota share 2 — variable quota share 3 — surplus 4 — excess of loss (per event and per risk) 5 — excess of loss (per risk) 6 — excess of loss (per event) 7 — excess of loss ‘back–up’ (protection against follow–on events which certain catastrophes can cause such as flooding or fire) 8 — excess of loss with basis risk 9 — reinstatement cover 10 — aggregate excess of loss 11 — unlimited excess of loss 12 — stop loss 13 — other proportional treaties 14 — other non–proportional treatiesOther proportional treaties (code 13) and Other non–proportional treaties (code 14) can be used for hybrid types of reinsurance treaties.
+
+
+c0100 - Inclusion of catastrophic reinsurance cover
+---------------------------------------------------
+
+
+Identification of the including of catastrophic guarantees. Depending on whether the listed catastrophe risks are protected under reinsurance covers, one or a combination (separated by ‘,’) of the following codes has to be used: 1 — cover excludes all catastrophic guarantees 2 — earthquake, volcanic eruption, tidal wave etc. are covered 3 — flood is covered 4 — hurricane, windstorm, etc. are covered 5 — other risks such as freeze, hail, strong wind are covered 6 — terrorism is covered 7 — SRCC (strikes, riots, civil commotion), sabotage, popular uprising are covered 8 — all the above mentioned risks are covered 9 — risks not otherwise included in the listed items are covered
+
+
+c0110 - Validity period (start date)
+------------------------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the date of commencement of the specific reinsurance treaty.
+
+
+c0120 - Validity period (expiry date)
+-------------------------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the final expiry date of the specific reinsurance treaty.In case the treaty conditions remains unchanged when filling in the template and the undertaking is not making use of the termination clause, the expiry date will be the next possible expiry date.
+
+
+c0130 - Currency
+----------------
+
+
+Identify the ISO 4217 alphabetic code of the currency used while placing the reinsurance treaty. All the amounts must be expressed in this currency for the specific cover, unless otherwise required by the national supervisory authority. In case the treaty is placed in two different currencies, then the main currency must be filled..
+
+
+c0140 - Type of underwriting model
+----------------------------------
+
+
+Type of underwriting model which is used to estimate the exposure of the underwriting risk and the need for reinsurance protection. One of the options in the following closed list shall be used: 1 — Sum Insuredthe highest amount that the insurer can be obliged to pay out according to the original policy. SI must also be filled when type of underwriting model is not applicable 2 — Maximum Possible Lossloss which may occur when the most unfavourable circumstances being more or less exceptionally combined, the fire is only stopped by impassable obstacles or lack of substance. 3 — Probable Maximum Lossdefined as the estimate of the largest loss from a single fire or peril to be expected, assuming the worst single impairment of primary private fire protection systems but with secondary protection systems or organizations (such as emergency organizations and private and/or public fire department response) functioning as intended. Catastrophic conditions like explosions resulting from massive release of flammable gases, which might involve large areas of the plant, detonation of massive explosives, seismic disturbances, tidal waves or flood, falling aircraft, and arson committed in more than one area are excluded in this estimate. This definition is a hybrid form between Maximum Possible Loss and Estimated Maximum Loss that is generally accepted and frequently used by insurers, reinsurers and reinsurance brokers 4 — Estimated Maximum Lossloss that could reasonably be sustained from the contingencies under consideration, as a result of a single incident considered to be within the realms of probability taking into account all factors likely to increase or lessen the extent of the loss, but excluding such coincidences and catastrophes which may be possible but remain unlikely. 5 — Otherother possible underwriting models used. The type of ‘other’ underwriting model applied must be explained in the Regular Supervisory Report.Although abovementioned definitions are used for the line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, ‘Fire and other damage to property insurance and reinsurance’, similar definitions might be in place for other lines of business.
+
+
+c0150 - Estimated Subject Premium Income (XL — ESPI)
+----------------------------------------------------
+
+
+The amount of the estimated subject premiums income (‘ESPI’) relating to the contract period. It is normally the amount of premium referring to the portfolio protected under Excess of Loss treaties; in any case it is the amount on which the reinsurance premium is calculated by applying the rate. This item is only reported for XL treaties.
+
+
+c0160 - Gross Estimated Treaty Premium Income (proportional and non–proportional)
+---------------------------------------------------------------------------------
+
+
+The amount of premium for 100 % of the treaty relating to the contract period. This amount is the equivalent of the 100 % reinsurance premium to be paid to all reinsurers for the treaty period, including the premium corresponding to unplaced shares.
+
+
+c0170 - Aggregate deductibles
+-----------------------------
+
+
+The amount of franchise, meaning an additional retention when losses are covered by the reinsurer only when a certain amount of cumulative losses have taken place. This item is reported only if item C0180 is not reported.
+
+
+c0180 - Aggregate deductibles (%)
+---------------------------------
+
+
+The percentage of franchise, meaning an additional retention percentage when losses are covered by the reinsurer only when a certain amount of cumulative losses have taken place. This item is reported only if item C0170 is not reported.The percentage shall be reported as a decimal.
+
+
+c0190 - Retention or priority
+-----------------------------
+
+
+The amount, for Surplus, Working XL and Catastrophe XL treaties, that is stated as retention or priority in the reinsurance treaty. Separate indication shall be given for the various lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0200 - Retention or priority (%)
+---------------------------------
+
+
+The percentage, for Quota Share and Stop Loss treaties, that is stated as retention or priority in the reinsurance treaty. Separate indication shall be given for the various lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.The percentage shall be reported as a decimal.
+
+
+c0210 - Limit
+-------------
+
+
+The amount that is stated as Limit in the reinsurance treaty. Separate indication shall be given for the various lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.In the case of unlimited cover ‘– 1’ is to be reported.
+
+
+c0220 - Limit (%)
+-----------------
+
+
+The percentage, for Stop Loss treaties, that is stated as Limit in the reinsurance treaty. Separate indication shall be given for the various lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.In the case of unlimited cover ‘– 1’ is to be reported.The percentage shall be reported as a decimal.
+
+
+c0230 - Maximum cover per risk or event
+---------------------------------------
+
+
+The amount of maximum cover per risk or event. If for a Quota Share or a Surplus a maximum amount has been agreed for an event (for example — windstorm), the 100 % amount is to be reported. In all other cases, the amount is equal to the Limit minus Priority.In the case of unlimited cover ‘– 1’ is to be reported.
+
+
+c0240 - Maximum cover per treaty
+--------------------------------
+
+
+The amount of maximum cover per treaty. If for a Quota Share or a Surplus a maximum amount has been set for the entire contract, the 100 % amount is to be reported. In the case of unlimited cover ‘– 1’ is to be reported. For XL or SL treaties the initial capacity has to be indicated (e.g. annual aggregate limits); total cover might also be the result of the information provided under C0250.
+
+
+c0250 - Number of reinstatements
+--------------------------------
+
+
+Number of possibilities to recover the reinsurance coverage.
+
+
+c0260 - Description of reinstatements
+-------------------------------------
+
+
+Description of the reinstatements to recover the reinsurance coverage. Examples of possible content of this item are ‘2 at 100 % plus 1 at 150 %’ or ‘all free’
+
+
+c0270 - Maximum reinsurance commission
+--------------------------------------
+
+
+Report the maximum percentage of commission. If fixed, item C0270, C0280 and C0290 are equal.The percentage shall be reported as a decimal.This item is only applicable for proportional treaties.
+
+
+c0280 - Minimum reinsurance commission
+--------------------------------------
+
+
+Report the minimum percentage of commission. If fixed, item C0270, C0280 and C0290 are equal.The percentage shall be reported as a decimal.This item is only applicable for proportional treaties.
+
+
+c0290 - Expected reinsurance commission
+---------------------------------------
+
+
+Report the expected percentage of commission. If fixed, item C0270, C0280 and C0290 are equal.The percentage shall be reported as a decimal.This item is only applicable for proportional treaties.
+
+
+c0300 - Maximum overriding commission
+-------------------------------------
+
+
+Report the maximum percentage of Overriding commission. If fixed, item C0300, C0310 and C0320 are equal.The percentage shall be reported as a decimal.This item is only applicable for proportional treaties.
+
+
+c0310 - Minimum overriding commission
+-------------------------------------
+
+
+Report the minimum percentage of Overriding commission. If fixed, item C0300, C0310 and C0320 are equal.The percentage shall be reported as a decimal.This item is only applicable for proportional treaties.
+
+
+c0320 - Expected overriding commission
+--------------------------------------
+
+
+Report the expected percentage of Overriding commission. If fixed, item C0300, C0310 and C0320 are equal.The percentage shall be reported as a decimal.This item is only applicable for proportional treaties.
+
+
+c0330 - Maximum profit commission
+---------------------------------
+
+
+Report the maximum percentage of Profit commission. If fixed, item C0330, C0340 and C0350 are equal.The percentage shall be reported as a decimal.This item is only applicable for proportional treaties.
+
+
+c0340 - Minimum profit commission
+---------------------------------
+
+
+Report the minimum percentage of Profit commission. If fixed, item C0330, C0340 and C0350 are equal.The percentage shall be reported as a decimal.This item is only applicable for proportional treaties.
+
+
+c0350 - Expected profit commission
+----------------------------------
+
+
+Report the expected percentage of Profit commission. If fixed, item C0330, C0340 and C0350 are equal.The percentage shall be reported as a decimal.This item is only applicable for proportional treaties.
+
+
+c0360 - XL rate 1
+-----------------
+
+
+Report the fixed rate or starting rate of a sliding rate system.The percentage shall be reported as a decimal.This item is only reported for XL treaties.
+
+
+c0370 - XL rate 2
+-----------------
+
+
+Report the top end rate of a sliding rate system or NA for not applicable.The percentage shall be reported as a decimal.This item is only reported for XL treaties.
+
+
+c0380 - XL premium flat
+-----------------------
+
+
+Indication on whether XL premium is based or not on a flat premium. One of the options in the following list shall be used: 1 — XL premium based on a flat premium 2 — XL premium not based on a flat premiumThis item is only reported for XL treaties.
+
+

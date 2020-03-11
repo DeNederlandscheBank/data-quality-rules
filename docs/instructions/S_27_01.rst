@@ -1,0 +1,2190 @@
+=============================================================================
+S.27.01 - Solvency Capital Requirement , Non–life and health catastrophe risk
+=============================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities, ring fenced–funds, matching adjustment portfolios and remaining part.
+
+Template SR.27.01 has to be filled in for each ring–fenced fund (RFF), each matching adjustment portfolio (MAP) and for the remaining part. However, where a RFF/MAP includes a MAP/RFF embedded, the fund should be treated as different funds. This template shall be reported for all sub–funds of a material RFF/MAP as identified in the second table of S.01.03.
+
+This template is designed to allow an understanding of how the catastrophe risk module of the SCR has been calculated and what are the main drivers.
+
+For every type of catastrophe risk the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles must be determined. This calculation is prospective and must be based on the reinsurance program of the next reporting year as described in the reinsurance templates for Facultative covers (S.30.01 and S.30.02) and Outgoing reinsurance program in the next reporting year (S.30.03 and S.30.04).
+
+Undertakings need to estimate their recoveries from risk mitigation in line with the Directive 2009/138/EC, Delegated Regulation (EU) 2015/35 and any relevant technical standard. Undertakings shall complete the catastrophe reporting template only to the granularity required to perform this calculation.
+
+Under the non–life and health underwriting risk modules, catastrophe risk is defined as the risk of loss, or of adverse change in the value of insurance liabilities, resulting from significant uncertainty of pricing and provisioning assumptions related to extreme or exceptional events as set out in Article 105(2)(b) and (4)(c) of the Directive 2009/138/EC.
+
+The reported capital requirements reflects the capital requirements before and after risk mitigation which is the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles. The reported capital requirement after risk mitigation is before the loss absorbing capacity of technical provisions. The default value of the risk mitigation shall be reported as a positive value in order to be deducted.
+
+In case the diversification effect reduces the capital requirement the default value of the diversification shall be reported as a negative value.
+
+
+z0010 - Article 112
+-------------------
+
+
+Identifies whether the reported figures have been requested under Article 112(7), to provide an estimate of the SCR using standard formula. One of the options in the following closed list shall be used: 1 — Article 112(7) reporting 2 — Regular reporting
+
+
+z0020 - Ring–fenced fund, matching adjustment portfolio or remaining part
+-------------------------------------------------------------------------
+
+
+Identifies whether the reported figures are with regard to a RFF, matching adjustment portfolio or to the remaining part. One of the options in the following closed list shall be used: 1 — RFF/MAP 2 — Remaining part
+
+
+z0030 - Fund/Portfolio number
+-----------------------------
+
+
+When item Z0020 = 1, identification number for a ring fenced fund or matching adjustment portfolio. This number is attributed by the undertaking and must be consistent over time and with the fund/portfolio number reported in other templates.When item Z0020 = 2, then report ‘0’
+
+
+c0010r0010 - SCR before risk mitigation — Natural catastrophe risk
+------------------------------------------------------------------
+
+
+This is the total catastrophe risk before risk mitigation arising from all natural catastrophe perils and taking into consideration the diversification effect between the perils given in C0010/R0070.
+
+
+c0010r0020–r0060 - SCR before risk mitigation — Natural catastrophe risk perils
+-------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation per natural catastrophe peril, taking into consideration the diversification effect between zones and regions.Per natural peril this amount is equal to the Catastrophe Risk Charge before risk mitigation.
+
+
+c0010r0070 - SCR before risk mitigation — Diversification between perils
+------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges before risk mitigation relating to different natural catastrophe perils.
+
+
+c0020r0010 - Total risk mitigation — Natural catastrophe risk
+-------------------------------------------------------------
+
+
+This is the total risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles arising from all natural catastrophe perils and taking into consideration the diversification effect between the perils given in C0020/R0070.
+
+
+c0020r0020–r0060 - Total risk mitigation — Natural catastrophe risk perils
+--------------------------------------------------------------------------
+
+
+This is the total risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles per natural catastrophe peril.
+
+
+c0020r0070 - Total risk mitigation — Diversification between perils
+-------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to different natural catastrophe perils.
+
+
+c0030r0010 - SCR after risk mitigation — Natural catastrophe risk
+-----------------------------------------------------------------
+
+
+This is the total catastrophe risk after risk mitigation arising from all natural catastrophe perils and taking into consideration the diversification effect between the perils given in C0030/R0070.
+
+
+c0030r0020–r0060 - SCR after risk mitigation — Natural catastrophe risk perils
+------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation per natural catastrophe peril, taking into consideration the diversification effect between zones and regions.Per natural peril this amount is equal to the Catastrophe Risk Charge after risk mitigation.
+
+
+c0030r0070 - SCR after risk mitigation — Diversification between perils
+-----------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges after risk mitigation relating to different natural catastrophe perils.
+
+
+c0010r0080 - SCR before risk mitigation — Catastrophe risk non–proportional property reinsurance
+------------------------------------------------------------------------------------------------
+
+
+This is the total catastrophe risk before risk mitigation arising from non–proportional property reinsurance.
+
+
+c0020r0080 - Total risk mitigation — Catastrophe risk non–proportional property reinsurance
+-------------------------------------------------------------------------------------------
+
+
+This is the total risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles for non–proportional property reinsurance.
+
+
+c0030r0080 - SCR after risk mitigation — Catastrophe risk non–proportional property reinsurance
+-----------------------------------------------------------------------------------------------
+
+
+This is the total catastrophe risk after risk mitigation arising from non–proportional property reinsurance.
+
+
+c0010r0090 - SCR before risk mitigation — Man–made catastrophe risk
+-------------------------------------------------------------------
+
+
+This is the total catastrophe risk before risk mitigation arising from all man–made perils and taking into consideration the diversification effect between the perils given in C0010/R0160.
+
+
+c0010r0100–r0150 - SCR before risk mitigation — Man–made catastrophe risk perils
+--------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation per man–made peril, taking into consideration the diversification effect between sub–perils.Per man–made peril this amount is equal to the Catastrophe Risk Charge before risk mitigation.
+
+
+c0010r0160 - SCR before risk mitigation — Diversification between perils
+------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges before risk mitigation relating to different man–made perils.
+
+
+c0020r0090 - Total risk mitigation — Man–made catastrophe risk
+--------------------------------------------------------------
+
+
+This is the total risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles arising from all man–made perils and taking into consideration the diversification effect between the perils given in C0020/R0160.
+
+
+c0020r0100–r0150 - Total risk mitigation — Man–made catastrophe risk perils
+---------------------------------------------------------------------------
+
+
+This is the total risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles per man–made catastrophe peril.
+
+
+c0020r0160 - Total risk mitigation — Diversification between perils
+-------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to different man–made perils.
+
+
+c0030r0090 - SCR after risk mitigation — Man–made catastrophe risk
+------------------------------------------------------------------
+
+
+This is the total catastrophe risk after risk mitigation arising from all man–made catastrophe perils and taking into consideration the diversification effect between the perils given in C0030/R0160.
+
+
+c0030r0100–r0150 - SCR after risk mitigation — Man–made catastrophe risk perils
+-------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation per man–made catastrophe peril, taking into consideration the diversification effect between sub–perils.Per man–made peril this amount is equal to the Catastrophe Risk Charge after risk mitigation.
+
+
+c0030r0160 - SCR after risk mitigation — Diversification between perils
+-----------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges after risk mitigation relating to different man–made catastrophe perils.
+
+
+c0010r0170 - SCR before risk mitigation — Other non–life catastrophe risk
+-------------------------------------------------------------------------
+
+
+This is the total catastrophe risk before risk mitigation arising from all ‘other non–life’ perils and taking into consideration the diversification effect between the perils given in C0010/R0180.
+
+
+c0010r0180 - SCR before risk mitigation — Diversification between perils
+------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges before risk mitigation relating to different ‘other non–life’ perils.
+
+
+c0020r0170 - Total risk mitigation — Other non–life catastrophe risk
+--------------------------------------------------------------------
+
+
+This is the total risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles arising from all ‘other non–life’ perils and taking into consideration the diversification effect between the perils given in C0020/R0180.
+
+
+c0020r0180 - Total risk mitigation — Diversification between perils
+-------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to different ‘other non–life’ perils.
+
+
+c0030r0170 - SCR after risk mitigation — Other non–life catastrophe risk
+------------------------------------------------------------------------
+
+
+This is the total catastrophe risk after risk mitigation arising from all ‘other non–life’ catastrophe perils and taking into consideration the diversification effect between the perils given in C0030/R0180.
+
+
+c0030r0180 - SCR after risk mitigation — Diversification between perils
+-----------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges after risk mitigation relating to different ‘other non–life’ catastrophe perils.
+
+
+c0010r0190 - SCR before risk mitigation — Total Non–life catastrophe risk before diversification
+------------------------------------------------------------------------------------------------
+
+
+This is the total catastrophe risk before risk mitigation arising from all the sub–modules (Natural catastrophe, Non–proportional property reinsurance, Man–made and ‘Other non–life’ catastrophe risks) before the diversification effect between the sub–modules.
+
+
+c0010r0200 - SCR before risk mitigation — Diversification between sub–modules
+-----------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges before risk mitigation relating to different sub–modules (Natural catastrophe, Non–proportional property reinsurance, Man–made and ‘Other non–life’ catastrophe risks).
+
+
+c0010r0210 - SCR before risk mitigation — Total Non–life catastrophe risk after diversification
+-----------------------------------------------------------------------------------------------
+
+
+This is the total catastrophe risk before risk mitigation arising from all the sub–modules (Natural catastrophe, Non–proportional property reinsurance, Man–made and ‘Other non–life’ catastrophe risks), taking into consideration the diversification effect between the sub–modules given in C0010/R0200.
+
+
+c0020r0190 - Total risk mitigation — Total Non–life catastrophe risk before diversification
+-------------------------------------------------------------------------------------------
+
+
+This is the total risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles arising from all the sub–modules (Natural catastrophe, Non–proportional property reinsurance, Man–made and ‘Other non–life’ catastrophe risks), before the diversification effect between the sub–modules.
+
+
+c0020r0200 - Total risk mitigation — Diversification between sub–modules
+------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to different sub–modules (Natural catastrophe, Non–proportional property reinsurance, Man–made and ‘Other non–life’ catastrophe risks).
+
+
+c0020r0210 - Total risk mitigation — Total Non–life catastrophe risk after diversification
+------------------------------------------------------------------------------------------
+
+
+This is the total risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles arising from all the sub–modules (Natural catastrophe, Non–proportional property reinsurance, Man–made and ‘Other non–life’ catastrophe risks), taking into consideration the diversification effect between the sub–modules given in C0020/R0200.
+
+
+c0030r0190 - SCR after risk mitigation — Total Non–life catastrophe risk before diversification
+-----------------------------------------------------------------------------------------------
+
+
+This is the total catastrophe risk after risk mitigation arising from all the sub–modules (Natural catastrophe, Non–proportional property reinsurance, Man–made and ‘Other non–life’ catastrophe risks), before the diversification effect between the sub–modules.
+
+
+c0030r0200 - SCR after risk mitigation — Diversification between sub–modules
+----------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges after risk mitigation relating to different sub–modules (Natural catastrophe, Non–proportional property reinsurance, Man–made and ‘Other non–life’ catastrophe risks).
+
+
+c0030r0210 - SCR after risk mitigation — Total Non–life catastrophe risk after diversification
+----------------------------------------------------------------------------------------------
+
+
+This is the total catastrophe risk after risk mitigation arising from all the sub–modules (Natural catastrophe, Non–proportional property reinsurance, Man–made and ‘Other non–life’ catastrophe risks), taking into consideration the diversification effect between the sub–modules given in item C0030/R0200.
+
+
+c0010r0300 - SCR before risk mitigation — Health catastrophe risk
+-----------------------------------------------------------------
+
+
+This is the total catastrophe risk before risk mitigation arising from all Health catastrophe risk sub–modules and taking into consideration the diversification effect between the sub–modules given in C0010/R0340.
+
+
+c0010r0310–r0330 - SCR before risk mitigation — Health catastrophe risk sub–modules
+-----------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation per Health catastrophe risk sub–modules, taking into consideration the diversification effect between the countries.Per Health catastrophe risk sub–module this amount is equal to the Catastrophe Risk Charge before risk mitigation.
+
+
+c0010r0340 - SCR before risk mitigation — Diversification between sub–modules
+-----------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges before risk mitigation relating to different Health catastrophe risk sub–modules.
+
+
+c0020r0300 - Total risk mitigation — Health catastrophe risk
+------------------------------------------------------------
+
+
+This is the total risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles arising from all Health catastrophe risk sub–modules and taking into consideration the diversification effect between the sub–modules given in C0020/R0340.
+
+
+c0020r0310–r0330 - Total risk mitigation — Health catastrophe risk sub–modules
+------------------------------------------------------------------------------
+
+
+This is the total risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles per Health catastrophe risk sub–module.
+
+
+c0020r0340 - Total risk mitigation — Diversification between sub–modules
+------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to different Health catastrophe risk sub–modules.
+
+
+c0030r0300 - SCR after risk mitigation — Health catastrophe risk
+----------------------------------------------------------------
+
+
+This is the total catastrophe risk after risk mitigation arising from all Health catastrophe risk sub–modules and taking into consideration the diversification effect between the sub–modules given in C0030/R0340.
+
+
+c0030r0310–r0330 - SCR after risk mitigation — Health catastrophe risk sub–modules
+----------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation per Health catastrophe risk sub–module, taking into consideration the diversification effect between countries.Per Health catastrophe risk sub–module this amount is equal to the Catastrophe Risk Charge after risk mitigation.
+
+
+c0030r0340 - SCR after risk mitigation — Diversification between sub–modules
+----------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges after risk mitigation relating to different Health catastrophe risk sub–modules.
+
+
+c0040r0610–r0780 - Estimation of the gross premium to be earned — Other Regions
+-------------------------------------------------------------------------------
+
+
+An estimate of the premiums to be earned by the insurance or reinsurance undertaking, during the following year in relation to the 14 regions other than the EEA regions (include regions as specified in Annex III, except the ones specified in Annex V or in Annex XIII of Delegated Regulation (EU) 2015/35), for the contract in relation to the obligations of lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35 Fire and other damage covering windstorm risk, including the proportional reinsurance obligations and marine, aviation and transport insurance covering onshore property damage by windstorm, including the proportional reinsurance obligations.Premiums shall be gross, without deduction of premiums for reinsurance contracts.
+
+
+c0040r0790 - Estimation of the gross premium to be earned — Total Windstorm Other Regions before diversifications
+-----------------------------------------------------------------------------------------------------------------
+
+
+Total of the estimate of the premiums to be earned by the insurance or reinsurance undertaking before diversification, during the following year for the other 14 regions other than the EEA regions.
+
+
+  -  
+-----
+
+
+ 
+
+
+c0050r0400–r0590 - Exposure — EEA Region
+----------------------------------------
+
+
+The sum of the total insured per each of the 20 EEA regions for lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Fire and other damage, including the proportional reinsurance obligations, in relation to contracts that cover windstorm risk and where the risk is situated in this particular EEA region; and—Marine, aviation and transport insurance, including the proportional reinsurance obligations, in relation to contracts that cover onshore property damage by Windstorm and where the risk is situated in this particular EEA region.
+
+
+c0050r0600 - Exposure — Total Windstorm EEA Regions before diversification
+--------------------------------------------------------------------------
+
+
+Total of the exposure before diversification for the 20 EEA regions.
+
+
+c0060r0400–r0590 - Specified Gross Loss — EEA Region
+----------------------------------------------------
+
+
+Specified gross windstorm loss per each of the 20 EEA regions, taking into consideration the effect of diversification effect between zones.
+
+
+c0060r0600 - Specified Gross Loss — Total Windstorm EEA Regions before diversification
+--------------------------------------------------------------------------------------
+
+
+Total of the specified gross loss before diversification for the 20 EEA regions.
+
+
+c0070r0400–r0590 - Catastrophe Risk Charge Factor before risk mitigation — EEA Region
+-------------------------------------------------------------------------------------
+
+
+The risk charge factor per each of the 20 EEA regions for Windstorm, taking into consideration the effect of diversification efferct between zones.
+
+
+c0070r0600 - Catastrophe Risk Charge Factor before risk mitigation — Total Windstorm EEA Regions before diversification
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Ratio between total specified gross loss and total exposure.
+
+
+c0080r0400–r0590 - Scenario A or B — EEA Region
+-----------------------------------------------
+
+
+The larger of the capital requirement for Windstorm risk for each of the 20 EEA regions according to scenario A or scenario B.When determining the largest amount of scenario A and B, the risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, shall be taken into account.
+
+
+c0090r0400–r0590 - Catastrophe Risk Charge before risk mitigation — EEA Region
+------------------------------------------------------------------------------
+
+
+Capital requirement before risk mitigation arising from Windstorm for each of the 20 EEA Regions corresponding to the larger of scenario A or B.
+
+
+c0090r0600 - Catastrophe Risk Charge before risk mitigation — Total Windstorm EEA Regions before diversification
+----------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement before risk mitigation arising from Windstorm for the 20 EEA regions.
+
+
+c0090r0790 - Catastrophe Risk Charge before risk mitigation — Total Windstorm Other Regions before diversifications
+-------------------------------------------------------------------------------------------------------------------
+
+
+The capital requirement before risk mitigation for Windstorm risk in regions other than the EEA Regions. It is the amount of the instantaneous loss, without deduction of the amounts recoverable from reinsurance contracts and Special Purpose Vehicles.
+
+
+c0090r0800 - Catastrophe Risk Charge before risk mitigation — Total Windstorm all Regions before diversification
+----------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement before risk mitigation arising from Windstorm for all regions.
+
+
+c0090r0810 - Catastrophe Risk Charge before risk mitigation — Diversification effect between regions
+----------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the Windstorm risks relating to the different regions (both EEA Regions and ‘other regions’)
+
+
+c0090r0820 - Catastrophe Risk Charge before risk mitigation — Total Windstorm after diversification
+---------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for Windstorm risk, taking into consideration the diversification effect reported in item C0090/R0810.
+
+
+c0100r0400–r0590 - Estimated Risk Mitigation — EEA Region
+---------------------------------------------------------
+
+
+Per each of the 20 EEA Regions, the estimated risk mitigation effect, corresponding to the selected scenario, of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c0100r0600 - Estimated Risk Mitigation — Total Windstorm EEA Regions before diversification
+-------------------------------------------------------------------------------------------
+
+
+Total of the estimated risk mitigation arising from Windstorm for the 20 EEA regions.
+
+
+c0100r0790 - Estimated Risk Mitigation — Total Windstorm Other Regions before diversifications
+----------------------------------------------------------------------------------------------
+
+
+For all the regions other the EEA Regions, the estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c0100r0800 - Estimated Risk Mitigation — Total Windstorm all Regions before diversification
+-------------------------------------------------------------------------------------------
+
+
+Total of the estimated risk mitigation arising from Windstorm for all regions.
+
+
+c0110r0400–r0590 - Estimated Reinstatement Premiums — EEA Region
+----------------------------------------------------------------
+
+
+For each of the 20 EEA Regions, the estimated reinstatement premiums, corresponding to the selected scenario, as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c0110r0600 - Estimated Reinstatement Premiums — Total Windstorm EEA Regions before diversification
+--------------------------------------------------------------------------------------------------
+
+
+Total of the estimated reinstatement premiums for the 20 EEA regions.
+
+
+c0110r0790 - Estimated Reinstatement Premiums — Total Windstorm Other Regions before diversifications
+-----------------------------------------------------------------------------------------------------
+
+
+For all the regions other than the EEA Regions, the estimated reinstatement premiums, as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c0110r0800 - Estimated Reinstatement Premiums — Total Windstorm all Regions before diversification
+--------------------------------------------------------------------------------------------------
+
+
+Total of the estimated reinstatement premiums for all regions.
+
+
+c0120r0400–r0590 - Catastrophe Risk Charge after risk mitigation — EEA Region
+-----------------------------------------------------------------------------
+
+
+Capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, arising from Windstorms in each of the EEA regions, corresponding to the selected scenario.
+
+
+c0120r0600 - Catastrophe Risk Charge after risk mitigation — Total Windstorm EEA Regions before diversification
+---------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles for the 20 EEA regions.
+
+
+c0120r0790 - Catastrophe Risk Charge after risk mitigation — Total Windstorm Other Regions before diversifications
+------------------------------------------------------------------------------------------------------------------
+
+
+Capital requirement after risk mitigation for Windstorm risk in regions other than the EEA Regions. It is the amount of the instantaneous loss, including the deduction of the amounts recoverable from reinsurance contracts and Special Purpose Vehicles.
+
+
+c0120r0800 - Catastrophe Risk Charge after risk mitigation — Total Windstorm all Regions before diversification
+---------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles for all regions.
+
+
+c0120r0810 - Catastrophe Risk Charge after risk mitigation — Diversification effect between regions
+---------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the capital requirement after risk mitigations for Windstorm risks relating to the different regions (both EEA Regions and ‘other regions’).
+
+
+c0120r0820 - Catastrophe Risk Charge after risk mitigation — Total Windstorm after diversification
+--------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation for Windstorm risk, taking into consideration the diversification effect given in item C0120/R0810.
+
+
+c0130r1040–r1210 - Estimation of the gross premium to be earned — Other Regions
+-------------------------------------------------------------------------------
+
+
+An estimate of the premiums to be earned by the insurance or reinsurance undertaking, during the following year in relation to each of the 14 regions other than the EEA Regions (include regions as specified in Annex III, except the ones specified in Annex V or in Annex XIII of Delegated Regulation (EU) 2015/35), for the contract in relation to the obligations of lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Fire and other damage covering earthquake risk, including the proportional reinsurance obligations; and—Marine, aviation and transport insurance covering onshore property damage by earthquake, including the proportional reinsurance obligations.Premiums shall be gross, without deduction of premiums for reinsurance contracts.
+
+
+c0130r1220 - Estimation of the gross premium to be earned — Total Earthquake Other Regions before diversification
+-----------------------------------------------------------------------------------------------------------------
+
+
+Total of the estimate of the premiums to be earned, by the insurance or reinsurance undertaking, during the following year for the other regions.
+
+
+c0140r0830–r1020 - Exposure — EEA Region
+----------------------------------------
+
+
+The sum of the total insured per each of the 20 EEA regions for the lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Fire and other damage, including the proportional reinsurance obligations, in relation to contracts that cover Earthquake risk and where the risk is situated in this particular EEA region; and—For lines of business Marine, aviation and transport insurance, including the proportional reinsurance obligations, in relation to contracts that cover onshore property damage by Earthquake and where the risk is situated in this particular EEA region.
+
+
+c0140r1030 - Exposure — Total Earthquake EEA Regions before diversification
+---------------------------------------------------------------------------
+
+
+Total of the exposure for the 20 EEA regions.
+
+
+c0150r0830–r1020 - Specified Gross Loss — EEA Region
+----------------------------------------------------
+
+
+Specified gross Earthquake loss for each of the 20 EEA regions, taking into consideration the effect of diversification effect between zones.
+
+
+c0150r1030 - Specified Gross Loss — Total Earthquake EEA Regions before diversification
+---------------------------------------------------------------------------------------
+
+
+Total of the specified gross Earthquake loss for the 20 EEA regions.
+
+
+c0160r0830–r1020 - Catastrophe Risk Charge Factor before risk mitigation — EEA Region
+-------------------------------------------------------------------------------------
+
+
+The Risk Charge Factor per each of the 20 EEA regions for Earthquake according to the Standard Formula, taking into consideration the effect of diversification effect between zones.
+
+
+c0160r1030 - Catastrophe Risk Charge Factor before risk mitigation — Total Earthquake EEA Regions before diversification
+------------------------------------------------------------------------------------------------------------------------
+
+
+Ratio between total specified gross loss and total exposure.
+
+
+c0170r0830–r1020 - Catastrophe Risk Charge before risk mitigation — EEA Region
+------------------------------------------------------------------------------
+
+
+Capital requirement before risk mitigation arising from Earthquakes in each of the 20 EEA Regions.
+
+
+c0170r1030 - Catastrophe Risk Charge before risk mitigation — Total Earthquake EEA Regions before diversification
+-----------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement before risk mitigation arising from Earthquakes for the 20 EEA regions.
+
+
+c0170r1220 - Catastrophe Risk Charge before risk mitigation — Total Earthquake — Other Regions before diversification
+---------------------------------------------------------------------------------------------------------------------
+
+
+The capital requirement before risk mitigation for Earthquake risk in regions other than the EEA Regions. It is the amount of the instantaneous loss, without deduction of the amounts recoverable from reinsurance contracts and Special Purpose Vehicles.
+
+
+c0170r1230 - Catastrophe Risk Charge before risk mitigation — Total Earthquake — All Regions before diversification
+-------------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement before risk mitigation arising from Earthquakes for all regions.
+
+
+c0170r1240 - Catastrophe Risk Charge before risk mitigation — Diversification effect between regions
+----------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the Earthquake risks relating to the different regions (both EEA Regions and Other regions).
+
+
+c0170r1250 - Catastrophe Risk Charge before risk mitigation — Total Earthquake after diversification
+----------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for Earthquake risk, taking into consideration the diversification effect given in C0170/R1240.
+
+
+c0180r0830–r1020 - Estimated Risk Mitigation — EEA Region
+---------------------------------------------------------
+
+
+Per each of the 20 EEA Regions the estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c0180r1030 - Estimated Risk Mitigation — Total Earthquake EEA Regions before diversification
+--------------------------------------------------------------------------------------------
+
+
+Total of the estimated Risk Mitigation for the 20 EEA regions.
+
+
+c0180r1220 - Estimated Risk Mitigation — Total Earthquake — Other Regions before diversification
+------------------------------------------------------------------------------------------------
+
+
+For all the regions other than the EEA Regions, the estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c0180r1230 - Estimated Risk Mitigation — Total Earthquake — All Regions before diversification
+----------------------------------------------------------------------------------------------
+
+
+Total of the estimated Risk Mitigation for all regions.
+
+
+c0190r0830–r1020 - Estimated Reinstatement Premiums — EEA Region
+----------------------------------------------------------------
+
+
+Per each of the 20 EEA Regions the estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c0190r1030 - Estimated Reinstatement Premiums — Total Earthquake EEA Regions before diversification
+---------------------------------------------------------------------------------------------------
+
+
+Total of the estimated reinstatement premiums for the 20 EEA regions.
+
+
+c0190r1220 - Estimated Reinstatement Premiums — Total Earthquake Other Regions before diversification
+-----------------------------------------------------------------------------------------------------
+
+
+For all the regions other than the EEA Regions, the estimated reinstatement premiums, as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c0190r1230 - Estimated Reinstatement Premiums — Total Earthquake All Regions before diversification
+---------------------------------------------------------------------------------------------------
+
+
+Total of the estimated reinstatement premiums for all regions.
+
+
+c0200r0830–r1020 - Catastrophe Risk Charge after risk mitigation — EEA Region
+-----------------------------------------------------------------------------
+
+
+Capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, arising from Earthquake in each of the 20 EEA regions.
+
+
+c0200r1030 - Catastrophe Risk Charge after risk mitigation — Total Earthquake EEA Regions before diversification
+----------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, arising from Earthquake for the 20 EEA regions.
+
+
+c0200r1220 - Catastrophe Risk Charge after risk mitigation — Total Earthquake Other Regions before diversification
+------------------------------------------------------------------------------------------------------------------
+
+
+Capital requirement after risk mitigation for Earthquake risk in regions other than the EEA Regions. It is the amount of the instantaneous loss, including the deduction of the amounts recoverable from reinsurance contracts and Special Purpose Vehicles.
+
+
+c0200r1230 - Catastrophe Risk Charge after risk mitigation — Total Earthquake All Regions before diversification
+----------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, arising from Earthquake for all regions.
+
+
+c0200r1240 - Catastrophe Risk Charge after risk mitigation — Diversification effect between regions
+---------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the capital requirement after risk mitigations for Earthquake risks relating to the different regions (both EEA Regions and Other regions).
+
+
+c0200r1250 - Catastrophe Risk Charge after risk mitigation — Total Earthquake after diversification
+---------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation for Earthquake risk, taking into consideration the diversification effect given in C0200/R1240.
+
+
+c0210r1410–r1580 - Estimation of the gross premiums to be earned — Other Regions
+--------------------------------------------------------------------------------
+
+
+An estimate of the premiums to be earned by the insurance or reinsurance undertaking, during the following year in relation to each of the 14 regions other than the EEA Regions (include regions as specified in Annex III, except the ones specified in Annex V or in Annex XIII of Delegated Regulation (EU) 2015/35), for the contract in relation to the obligations of lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Fire and other damage covering flood risk, including the proportional reinsurance obligations;—Marine, aviation and transport insurance covering onshore property damage by flood, including the proportional reinsurance obligations;—Other motor insurance, including the proportional reinsurance obligations.Premiums shall be gross, without deduction of premiums for reinsurance contracts.
+
+
+c0210r1590 - Estimation of the gross premium to be earned — Total Flood Other Regions before diversification
+------------------------------------------------------------------------------------------------------------
+
+
+Total of the estimate of the premiums to be earned, by the insurance or reinsurance undertaking, during the following year for the other regions.
+
+
+c0220r1260–r1390 - Exposure — EEA Region
+----------------------------------------
+
+
+The sum of the total insured per each of the 14 EEA regions of lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Fire and other damage, including the proportional reinsurance obligations, in relation to contracts that cover Flood risk and where the risk is situated in this particular EEA region;—Marine, aviation and transport insurance, including the proportional reinsurance obligations, in relation to contracts that cover onshore property damage by Flood and where the risk is situated in this particular EEA region; and—Other motor insurance, including the proportional reinsurance obligations, multiplied by 1.5, in relation to contracts that cover onshore property damage by Flood and where the risk is situated in this particular EEA region.
+
+
+c0220r1400 - Exposure — Total Flood EEA Regions before diversification
+----------------------------------------------------------------------
+
+
+Total of the exposure for the 14 EEA regions.
+
+
+c0230r1260–r1390 - Specified Gross Loss — EEA Region
+----------------------------------------------------
+
+
+Specified gross Flood loss in each of the 14 EEA regions, taking into consideration the effect of diversification effect between zones.
+
+
+c0230r1400 - Specified Gross Loss — Total Flood EEA Regions before diversification
+----------------------------------------------------------------------------------
+
+
+Total of the specified gross Flood loss for the 14 EEA regions.
+
+
+c0240r1260–r1390 - Catastrophe Risk Charge Factor before risk mitigation — EEA Region
+-------------------------------------------------------------------------------------
+
+
+The Risk Charge Factor per each of the 14 EEA regions for Flood according to the Standard Formula, taking into consideration the effect of diversification effect between zones.
+
+
+c0240r1400 - Catastrophe Risk Charge Factor before risk mitigation — Total Flood EEA Regions before diversification
+-------------------------------------------------------------------------------------------------------------------
+
+
+Ratio between total specified gross loss and total exposure.
+
+
+c0250r1260–r1390 - Scenario A or B — EEA Region
+-----------------------------------------------
+
+
+The larger of the capital requirement for Flood risk in each of the 14 EEA regions according to scenario A or scenario B.When determining the largest amount of scenario A and B, the risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, must be taken into account.
+
+
+c0260r1260–r1390 - Catastrophe Risk Charge before risk mitigation — EEA Region
+------------------------------------------------------------------------------
+
+
+Capital requirement before risk mitigation arising from Floods in each of the 14 EEA Regions, corresponding to the larger of scenario A or B.
+
+
+c0260r1400 - Catastrophe Risk Charge before risk mitigation — Total Flood EEA Regions before diversification
+------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement before risk mitigation arising from Floods for the 14 EEA regions.
+
+
+c0260r1590 - Catastrophe Risk Charge before risk mitigation — Total Flood Other Regions before diversification
+--------------------------------------------------------------------------------------------------------------
+
+
+The capital requirement before risk mitigation for Flood risk in regions other than the EEA Regions. It is the amount of the instantaneous loss, without deduction of the amounts recoverable from reinsurance contracts and Special Purpose Vehicles.
+
+
+c0260r1600 - Catastrophe Risk Charge before risk mitigation — Total Flood All Regions before diversification
+------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement before risk mitigation arising from Floods for all regions.
+
+
+c0260r1610 - Catastrophe Risk Charge before risk mitigation — Diversification effect between regions
+----------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the Flood risks relating to the different regions (both EEA Regions and Other regions).
+
+
+c0260r1620 - Catastrophe Risk Charge before risk mitigation — Total Flood after diversification
+-----------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for Flood risk, taking into consideration the diversification effect given in C0260/R1610.
+
+
+c0270r1260–r1390 - Estimated Risk Mitigation — EEA Region
+---------------------------------------------------------
+
+
+Per each of the 14 EEA Regions the estimated risk mitigation effect, corresponding to the selected scenario, of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c0270r1400 - Estimated Risk Mitigation — Total Flood EEA Regions before diversification
+---------------------------------------------------------------------------------------
+
+
+Total of the estimated Risk Mitigation for the 14 EEA regions.
+
+
+c0270r1590 - Estimated Risk Mitigation — Total Flood Other Regions before diversification
+-----------------------------------------------------------------------------------------
+
+
+For all the regions other than the EEA Regions, the estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c0270r1600 - Estimated Risk Mitigation — Total Flood All Regions before diversification
+---------------------------------------------------------------------------------------
+
+
+Total of the estimated Risk Mitigation for all regions.
+
+
+c0280r1260–r1390 - Estimated Reinstatement Premiums — EEA Region
+----------------------------------------------------------------
+
+
+Per each of the 14 EEA Regions the estimated reinstatement premiums, corresponding to the selected scenario, as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c0280r1400 - Estimated Reinstatement Premiums — Total Flood –EEA Regions before diversification
+-----------------------------------------------------------------------------------------------
+
+
+Total of the estimated reinstatement premiums for the 14 EEA regions.
+
+
+c0280r1590 - Estimated Reinstatement Premiums — Total Flood –Other Regions before diversification
+-------------------------------------------------------------------------------------------------
+
+
+For all the regions other than the EEA Regions, the estimated reinstatement premiums, as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c0280r1600 - Estimated Reinstatement Premiums — Total Flood — All Regions before diversification
+------------------------------------------------------------------------------------------------
+
+
+Total of the estimated reinstatement premiums for all regions.
+
+
+c0290r1260–r1390 - Catastrophe Risk Charge after risk mitigation — EEA Region
+-----------------------------------------------------------------------------
+
+
+Capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, arising from Flood in each of the 14 EEA regions, corresponding to the selected scenario.
+
+
+c0290r1400 - Catastrophe Risk Charge after risk mitigation — Total Flood — EEA Regions before diversification
+-------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles for the 14 EEA regions.
+
+
+c0290r1590 - Catastrophe Risk Charge after risk mitigation — Total Flood — Other Regions before diversification
+---------------------------------------------------------------------------------------------------------------
+
+
+Capital requirement after risk mitigation for Flood risk in regions other than the EEA Regions. It is the amount of the instantaneous loss, including the deduction of the amounts recoverable from reinsurance contracts and Special Purpose Vehicles.
+
+
+c0290r1600 - Catastrophe Risk Charge after risk mitigation — Total Flood — All Regions before diversification
+-------------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles all regions.
+
+
+c0290r1610 - Catastrophe Risk Charge after risk mitigation — Diversification effect between regions
+---------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the capital requirement after risk mitigations for Flood risks relating to the different regions (both EEA Regions and Other regions).
+
+
+c0290r1620 - Catastrophe Risk Charge after risk mitigation — Total Flood after diversification
+----------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation for Flood risk, taking into consideration the diversification effect given in C0290/R1610.
+
+
+c0300r1730–r1900 - Estimation of the gross premiums to be earned — Other Regions
+--------------------------------------------------------------------------------
+
+
+An estimate of the premiums to be earned by the insurance or reinsurance undertaking, during the following year and in relation to each of the 9 regions other than the EEA Regions (include regions as specified in Annex III, except the ones specified in Annex V or in Annex XIII of Delegated Regulation (EU) 2015/35), for the contract in relation to the obligations of lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Fire and other damage covering hail risk, including the proportional reinsurance obligations;—Marine, aviation and transport insurance covering onshore property damage by hail, including the proportional reinsurance obligations; and—Other motor insurance, including the proportional reinsurance obligations.Premiums shall be gross, without deduction of premiums for reinsurance contracts.
+
+
+c0300r1910 - Estimation of the gross premium to be earned — Total Hail Other Regions before diversification
+-----------------------------------------------------------------------------------------------------------
+
+
+Total of the estimate of the premiums to be earned, by the insurance or reinsurance undertaking, during the following year for the other regions.
+
+
+c0310r1630–r1710 - Exposure — EEA Region
+----------------------------------------
+
+
+The sum of the total insured per each of the 9 EEA regions for lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Fire and other damage, including the proportional reinsurance obligations, in relation to contracts that cover Hail risk and where the risk is situated in this particular EEA region;—Marine, aviation and transport insurance, including the proportional reinsurance obligations, in relation to contracts that cover onshore property damage by Hail and where the risk is situated in this particular EEA region; and—Other motor insurance, including the proportional reinsurance obligations, multiplied by 5, in relation to contracts that cover onshore property damage by Hail and where the risk is situated in this particular EEA region.
+
+
+c0310r1720 - Exposure — Total Hail EEA Regions before diversification
+---------------------------------------------------------------------
+
+
+Total of the exposure for the 9 EEA regions.
+
+
+c0320r1630–r1710 - Specified Gross Loss — EEA Region
+----------------------------------------------------
+
+
+Specified gross Hail loss in each of the 9 EEA regions, taking into consideration the effect of diversification effect between zones.
+
+
+c0320r1720 - Specified Gross Loss — Total Hail EEA Regions before diversification
+---------------------------------------------------------------------------------
+
+
+Total of the specified gross Hail loss for the 9 EEA regions.
+
+
+c0330r1630–r1710 - Catastrophe Risk Charge Factor before risk mitigation — EEA Region
+-------------------------------------------------------------------------------------
+
+
+The Risk Charge Factor per each of the 9 EEA regions for Hail according to the Standard Formula, taking into consideration the effect of diversification effect between zones.
+
+
+c0330r1720 - Catastrophe Risk Charge Factor before risk mitigation — Total Hail EEA Regions before diversification
+------------------------------------------------------------------------------------------------------------------
+
+
+Ratio between total specified gross loss and total exposure.
+
+
+c0340r1630–r1710 - Scenario A or B — EEA Region
+-----------------------------------------------
+
+
+The larger of the capital requirement for Hail risk in each of the 9 EEA regions according to scenario A or scenario B.When determining the largest amount of scenario A and B, the risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, must be taken into account.
+
+
+c0350r1630–r1710 - Catastrophe Risk Charge before risk mitigation — EEA Region
+------------------------------------------------------------------------------
+
+
+Capital requirement before risk mitigation arising from Hails in each of the 9 EEA Regions corresponding to the larger of scenario A or B.
+
+
+c0350r1720 - Catastrophe Risk Charge before risk mitigation — Total Hail EEA Regions before diversification
+-----------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement before risk mitigation arising from Hails for the 9 EEA regions.
+
+
+c0350r1910 - Catastrophe Risk Charge before risk mitigation — Total Hail Other Regions before diversification
+-------------------------------------------------------------------------------------------------------------
+
+
+The capital requirement before risk mitigation for Hail risk in regions other than the EEA Regions. It is the amount of the instantaneous loss, without deduction of the amounts recoverable from reinsurance contracts and Special Purpose Vehicles.
+
+
+c0350r1920 - Catastrophe Risk Charge before risk mitigation — Total Hail All Regions before diversification
+-----------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement before risk mitigation arising from Hails for all regions.
+
+
+c0350r1930 - Catastrophe Risk Charge before risk mitigation — Diversification effect between regions
+----------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the Hail risks relating to the different regions (both EEA Regions and other regions).
+
+
+c0350r1940 - Catastrophe Risk Charge before risk mitigation — Total Hail after diversification
+----------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for Hail risk, taking into consideration the diversification effect given in C0350/R1930.
+
+
+c0360r1630–r1710 - Estimated Risk Mitigation — EEA Region
+---------------------------------------------------------
+
+
+Per each of the 9 EEA Regions the estimated risk mitigation effect, corresponding to the selected scenario, of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c0360r1720 - Estimated Risk Mitigation — Total Hail EEA Region before diversification
+-------------------------------------------------------------------------------------
+
+
+Total of the estimated risk mitigation for the 9 EEA regions.
+
+
+c0360r1910 - Estimated Risk Mitigation — Total Hail Other Regions before diversification
+----------------------------------------------------------------------------------------
+
+
+For all the regions other than the EEA Regions, the estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c0360r1920 - Estimated Risk Mitigation — Total Hail All Regions before diversification
+--------------------------------------------------------------------------------------
+
+
+Total of the estimated risk mitigation for all regions.
+
+
+c0370r1630–r1710 - Estimated Reinstatement Premiums — EEA Region
+----------------------------------------------------------------
+
+
+Per each of the 9 EEA Regions the estimated reinstatement premiums, corresponding to the selected scenario, as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c0370r1720 - Estimated Reinstatement Premiums — Total Hail EEA Regions before diversification
+---------------------------------------------------------------------------------------------
+
+
+Total of the estimated reinstatement premiums for the 9 EEA regions.
+
+
+c0370r1910 - Estimated Reinstatement Premiums — Total Hail Other Regions before diversification
+-----------------------------------------------------------------------------------------------
+
+
+For all the regions other than the EEA Regions, the estimated reinstatement premiums, as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c0370r1920 - Estimated Reinstatement Premiums — Total Hail All Regions before diversification
+---------------------------------------------------------------------------------------------
+
+
+Total of the estimated reinstatement premiums for all regions.
+
+
+c0380r1630–r1710 - Catastrophe Risk Charge after risk mitigation — EEA Region
+-----------------------------------------------------------------------------
+
+
+Capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, arising from Hail in each of the 9 EEA Regions, corresponding to the selected scenario.
+
+
+c0380r1720 - Catastrophe Risk Charge after risk mitigation — Total Hail EEA Regions before diversification
+----------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles for the 9 EEA regions.
+
+
+c0380r1910 - Catastrophe Risk Charge after risk mitigation — Total Hail Other Regions before diversification
+------------------------------------------------------------------------------------------------------------
+
+
+Capital requirement after risk mitigation for Hail risk in regions other than the EEA Regions. It is the amount of the instantaneous loss, including the deduction of the amounts recoverable from reinsurance contracts and Special Purpose Vehicles.
+
+
+c0380r1920 - Catastrophe Risk Charge after risk mitigation — Total Hail All Regions before diversification
+----------------------------------------------------------------------------------------------------------
+
+
+Total of the capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles for all regions.
+
+
+c0380r1930 - Catastrophe Risk Charge after risk mitigation — Diversification effect between regions
+---------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the capital requirement after risk mitigations for Hail risks relating to the different regions (both EEA Regions and Other regions).
+
+
+c0380r1940 - Catastrophe Risk Charge after risk mitigation — Total Hail after diversification
+---------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation for Hail risk, taking into consideration the diversification effect given in C0380/R1930.
+
+
+c0390r1950 - Estimation of the gross premium to be earned — Total Subsidence before diversification
+---------------------------------------------------------------------------------------------------
+
+
+An estimate of the premiums to be earned, by the insurance or reinsurance undertaking, during the following year, for the contract in relation to the obligations of fire and other damage, including the proportional reinsurance obligations.Premiums shall be gross, without deduction of premiums for reinsurance contracts, and in relation to the territory of France.
+
+
+c0400r1950 - Exposure — Total Subsidence before diversification
+---------------------------------------------------------------
+
+
+The sum of the total insured made up of the geographical divisions of the territory of France for fire and other damage, including the proportional reinsurance obligations, which are sufficiently homogeneous in relation to the subsidence risk that the insurance and reinsurance undertakings are exposed to in relation to the territory. Together the zones shall comprise the whole territory.
+
+
+c0410r1950 - Specified Gross Loss — Total Subsidence before diversification
+---------------------------------------------------------------------------
+
+
+Specified gross subsidence loss, taking into consideration the effect of diversification effect between zones.
+
+
+c0420r1950 - Catastrophe Risk Charge Factor before risk mitigation — Total Subsidence before diversification
+------------------------------------------------------------------------------------------------------------
+
+
+The Risk Charge Factor of the territory of France for subsidence, taking into consideration the effect of diversification effect between zones.
+
+
+c0430r1950 - Catastrophe Risk Charge before risk mitigation — Total Subsidence before diversification
+-----------------------------------------------------------------------------------------------------
+
+
+The capital requirement before risk mitigation for Subsidence risk in the territory of France. It is the amount of the instantaneous loss, without deduction of the amounts recoverable from reinsurance contracts and Special Purpose Vehicles, which for subsidence is equal to the Specified Gross Loss (item C0410/R1950).
+
+
+c0430r1960 - Catastrophe Risk Charge before risk mitigation — Diversification effect between zones
+--------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the Subsidence risks relating to the different zones of the territory of France.
+
+
+c0430r1970 - Catastrophe Risk Charge before risk mitigation — Total Subsidence after diversification
+----------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for subsidence risk, taking into consideration the diversification effect given in item C0430/R1960.
+
+
+c0440r1950 - Estimated Risk Mitigation — Total Subsidence before diversification
+--------------------------------------------------------------------------------
+
+
+The estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c0450r1950 - Estimated Reinstatement Premiums — Total Subsidence before diversification
+---------------------------------------------------------------------------------------
+
+
+The estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c0460r1950 - Catastrophe Risk Charge after risk mitigation — Total Subsidence before diversification
+----------------------------------------------------------------------------------------------------
+
+
+Capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, arising from subsidence.
+
+
+c0460r1960 - Catastrophe Risk Charge after risk mitigation — Diversification effect between zones
+-------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the capital requirement after risk mitigations for Subsidence risks relating to the different zones of the territory of France.
+
+
+c0460r1970 - Catastrophe Risk Charge after risk mitigation — Total Subsidence after diversification
+---------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation for subsidence risk, taking into consideration the diversification effect given in item C0460/R1960.
+
+
+c0470r2000 - Estimation of the gross premium to be earned
+---------------------------------------------------------
+
+
+An estimate of the premiums to be earned, by the insurance or reinsurance undertaking, during the following year, for the contract in relation to the obligations of the line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, non–proportional property reinsurance other than non–proportional reinsurance obligations relating to insurance obligations included in lines of business 9 and 21.Premiums shall be gross, without deduction of premiums for reinsurance contracts.
+
+
+c0480r2000 - Catastrophe Risk Charge before risk mitigation
+-----------------------------------------------------------
+
+
+The capital requirement before risk mitigation for non–proportional property reinsurance. It is the amount of the instantaneous loss, without deduction of the amounts recoverable from reinsurance contracts and Special Purpose Vehicles.
+
+
+c0490r2000 - Estimated Risk Mitigation
+--------------------------------------
+
+
+The estimated risk mitigation effect of the undertaking's specific retrocession contracts and special purpose vehicles relating to risks arising from accepted non–proportional property reinsurance, excluding the estimated reinstatement premiums.
+
+
+c0500r2000 - Estimated Reinstatement Premiums
+---------------------------------------------
+
+
+The estimated reinstatement premiums as a result of the undertaking's specific retrocession contracts and special purpose vehicles relating to risks arising from accepted non–proportional property reinsurance.
+
+
+c0510r2000 - Catastrophe Risk Charge after risk mitigation
+----------------------------------------------------------
+
+
+Capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles relating to risks arising from accepted non–proportional property reinsurance.
+
+
+c0520r2100 - Number of vehicles policy limit above 24M EUR
+----------------------------------------------------------
+
+
+Number of vehicles insured by the insurance or reinsurance undertaking in line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, Motor vehicle liability insurance, including proportional reinsurance obligations, with a deemed policy limit above 24000000 Euro.
+
+
+c0530r2100 - Number of vehicles policy limit below or equal to 24M EUR
+----------------------------------------------------------------------
+
+
+Number of vehicles insured by the insurance or reinsurance undertaking in line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, Motor vehicle liability insurance, including proportional reinsurance obligations, with a deemed policy limit below or equal to 24000000 Euro.
+
+
+c0540r2100 - Catastrophe Risk Charge Motor Vehicle Liability before risk mitigation
+-----------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for Motor Vehicle Liability risk.
+
+
+c0550r2100 - Estimated Risk Mitigation
+--------------------------------------
+
+
+The estimated risk mitigation effect of the undertaking's specific retrocession contracts and special purpose vehicles relating to risks arising from Motor Vehicle Liability, excluding the estimated reinstatement premiums.
+
+
+c0560r2100 - Estimated Reinstatement Premiums
+---------------------------------------------
+
+
+The estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from Motor Vehicle Liability.
+
+
+c0570r2100 - Catastrophe Risk Charge Motor Vehicle Liability after risk mitigation
+----------------------------------------------------------------------------------
+
+
+Capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles, relating to risks arising from Motor Vehicle Liability.
+
+
+c0580r2200 - Type of cover Catastrophe Risk Charge Share marine hull in tanker t before risk mitigation
+-------------------------------------------------------------------------------------------------------
+
+
+This is the capital requirement before risk mitigation, per each marine hull cover, for risks arising from Marine Tanker Collision.The maximum relates to all oil and gas tankers insured by the insurance or reinsurance undertaking in respect of tanker collision in lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Marine, aviation and transport, including proportional reinsurance obligations; and—Non–proportional marine, aviation and transport reinsurance.The amount for this cover is equal to the sum insured accepted by the insurance or reinsurance undertaking for marine insurance and reinsurance in relation to each tanker.
+
+
+c0590r2200 - Catastrophe Risk Charge Share marine liability in tanker t before risk mitigation
+----------------------------------------------------------------------------------------------
+
+
+This is the capital requirement before risk mitigation, per marine liability cover, for risks arising from Marine Tanker Collision.The maximum relates to all oil and gas tankers insured by the insurance or reinsurance undertaking in respect of tanker collision in lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Marine, aviation and transport, including proportional reinsurance obligations; and—Non–proportional marine, aviation and transport reinsurance.The amount for this cover is equal to the sum insured accepted by the insurance or reinsurance undertaking for marine insurance and reinsurance in relation to each tanker.
+
+
+c0600r2200 - Catastrophe Risk Charge Share marine oil pollution liability in tanker t before risk mitigation
+------------------------------------------------------------------------------------------------------------
+
+
+This is the capital requirement before risk mitigation, per marine oil polution liability cover, for risks arising from Marine Tanker Collision.The maximum relates to all oil and gas tankers insured by the insurance or reinsurance undertaking in respect of tanker collision in lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Marine, aviation and transport, including proportional reinsurance obligations; and—Non–proportional marine, aviation and transport reinsurance.The amount for this cover is equal to the sum insured accepted by the insurance or reinsurance undertaking for marine insurance and reinsurance in relation to each tanker.
+
+
+c0610r2200 - Catastrophe Risk Charge Marine Tanker Collision before risk mitigation
+-----------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for risks arising from Marine Tanker Collision.
+
+
+c0620r2200 - Estimated Risk Mitigation
+--------------------------------------
+
+
+The estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from Marine Tanker Collision, excluding the estimated reinstatement premiums.
+
+
+c0630r2200 - Estimated Reinstatement Premiums
+---------------------------------------------
+
+
+The estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from Marine Tanker Collision.
+
+
+c0640r2200 - Catastrophe Risk Charge Marine Tanker Collision after risk mitigation
+----------------------------------------------------------------------------------
+
+
+The total capital requirement after risk mitigation, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles, relating to risks arising from Marine Tanker Collision.
+
+
+c0650r2200 - Name vessel
+------------------------
+
+
+Name of the corresponding vessel.
+
+
+c0660–c0700r2300 - Catastrophe Risk Charge Marine Platform Explosion — Type of cover — before risk mitigation
+-------------------------------------------------------------------------------------------------------------
+
+
+This is the capital requirement before risk mitigation, per type of cover (Property damage, Removal of wreckage, Loss of production income, Capping of the well or making the well secure, Liability insurance and reinsurance obligations), for risks arising from Marine Platform Explosion.The maximum relates to all oil and gas offshore platforms insured by the insurance or reinsurance undertaking in respect of platform explosion in lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Marine, aviation and transport, including proportional reinsurance obligations; and—Non–proportional marine, aviation and transport reinsurance.The amount per type of cover is equal to the sum insured for the specific type of cover accepted by the insurance or reinsurance undertaking in relation to the selected platform.
+
+
+c0710r2300 - Catastrophe Risk Charge Marine Platform Explosion before risk mitigation
+-------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for risks arising from Marine Platform Explosion.
+
+
+c0720r2300 - Estimated Risk Mitigation
+--------------------------------------
+
+
+The estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from Marine Platform Explosion, excluding the estimated reinstatement premiums.
+
+
+c0730r2300 - Estimated Reinstatement Premiums
+---------------------------------------------
+
+
+The estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from Marine Platform Explosion.
+
+
+c0740r2300 - Catastrophe Risk Charge Marine Platform Explosion after risk mitigation
+------------------------------------------------------------------------------------
+
+
+Capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles, relating to risks arising from Marine Platform Explosion.
+
+
+c0750r2300 - Name platform
+--------------------------
+
+
+Name of the corresponding platform.
+
+
+c0760r2400 - Catastrophe Risk Charge Marine before risk mitigation — Total before diversification
+-------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, before diversification effect between types of events, for marine risks.
+
+
+c0760r2410 - Catastrophe Risk Charge Marine before risk mitigation — Diversification between type of event
+----------------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges before risk mitigation relating to different type of events for marine risks.
+
+
+c0760r2420 - Catastrophe Risk Charge Marine before risk mitigation — Total after diversification
+------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, after diversification effect between the types of events, for marine risks.
+
+
+c0770r2400 - Estimated Total Risk Mitigation — Total before diversification
+---------------------------------------------------------------------------
+
+
+This is the total risk mitigation effect, before diversification effect between types of events, of the undertaking's specific reinsurance contracts and special purpose vehicles arising from the marine risks.
+
+
+c0780r2400 - Catastrophe Risk Charge Marine after risk mitigation — Total before diversification
+------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation, before diversification effect between types of events, for marine risks.
+
+
+c0780r2410 - Catastrophe Risk Charge Marine after risk mitigation — Diversification between type of event
+---------------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges after risk mitigation relating to different type of events for marine risks.
+
+
+c0780r2420 - Catastrophe Risk Charge Marine after risk mitigation — Total after diversification
+-----------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation, after diversification effect between the types of events, for marine risks.
+
+
+c0790–c0800r2500 - Catastrophe Risk Charge Aviation before risk mitigation — Type of cover– before risk mitigation
+------------------------------------------------------------------------------------------------------------------
+
+
+This is the capital requirement before risk mitigation, per type of cover (Aviation hull and Aviation liability), for risks arising from Aviation.The maximum relates to all aircrafts insured by the insurance or reinsurance undertaking in lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35:—Marine, aviation and transport, including proportional reinsurance obligations; and—Non–proportional marine, aviation and transport reinsurance.The amount per type of cover is equal to the sum insured for the specific type of cover accepted by the insurance or reinsurance undertaking for aviation insurance and reinsurance and in relation to the selected aircraft.
+
+
+c0810r2500 - Catastrophe Risk Charge Aviation before risk mitigation
+--------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for risks arising from Aviation.
+
+
+c0820r2500 - Estimated Risk Mitigation
+--------------------------------------
+
+
+The estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from Aviation, excluding the estimated reinstatement premiums.
+
+
+c0830r2500 - Estimated Reinstatement Premiums
+---------------------------------------------
+
+
+The estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from Aviation.
+
+
+c0840r2500 - Catastrophe Risk Charge Aviation after risk mitigation — Total (row)
+---------------------------------------------------------------------------------
+
+
+The total capital requirement after risk mitigation, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles, relating to risks arising from Aviation.
+
+
+c0850r2600 - Catastrophe Risk Charge Fire before risk mitigation
+----------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for Fire risks.This amount is equal to the largest fire risk concentration of an insurance or reinsurance undertaking being the set of buildings with the largest sum insured that meets the following conditions:—The insurance or reinsurance undertaking has insurance or reinsurance obligations in lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35 Fire and other damage to property insurance, including proportional reinsurance obligations, in relation to each building which cover damage due to fire or explosion, including as a result of terrorist attacks.—All buildings are partly or fully located within a radius of 200 meters.
+
+
+c0860r2600 - Estimated Risk Mitigation
+--------------------------------------
+
+
+The estimated risk mitigation effect of the undertaking's specific retrocession contracts and special purpose vehicles relating to risks arising from Fire, excluding the estimated reinstatement premiums.
+
+
+c0870r2600 - Estimated Reinstatement Premiums
+---------------------------------------------
+
+
+The estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from Fire.
+
+
+c0880r2600 - Catastrophe Risk Charge after risk mitigation Fire
+---------------------------------------------------------------
+
+
+The total capital requirement after risk mitigation, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles, relating to risks arising from Fire.
+
+
+c0890r2700–r2740 - Earned premium following 12 months –Type of cover
+--------------------------------------------------------------------
+
+
+Premiums earned, per type of cover, by the insurance or reinsurance undertaking, during the following 12 months, in relation to insurance and reinsurance obligations in liability risks, for the following type of covers:—Professional malpractice liability insurance and proportional reinsurance obligations other than professional malpractice liability insurance and reinsurance for self–employed crafts persons or artisans;—Employers liability insurance and proportional reinsurance obligations;—Directors and officers liability insurance and proportional reinsurance obligations;—Liability insurance and reinsurance obligations included in line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, General liability insurance, including proportional reinsurance obligations, other than obligations included in liability risk groups 1 to 3 and other than personal liability insurance and proportional reinsurance and other than professional malpractice liability insurance and reinsurance for self–employed crafts persons or artisans;—Non–proportional reinsurance.For this purpose premiums shall be gross, without deduction of premiums for reinsurance contracts.
+
+
+c0890r2750 - Earned premium follwoing 12 months — Total
+-------------------------------------------------------
+
+
+Total for all types of covers of premiums earned by the insurance or reinsurance undertaking, during the following 12 months.
+
+
+c0900r2700–r2740 - Largest liability limit provided –Type of cover
+------------------------------------------------------------------
+
+
+The largest liability limit, per type of cover, provided by the insurance or reinsurance undertaking in liability risks.
+
+
+c0910r2700–r2740 - Number of claims –Type of cover
+--------------------------------------------------
+
+
+The number of claims, per type of cover, which is equal to the lowest integer that exceeds the amount according to the provided formula.
+
+
+c0920r2700–r2740 - Catastrophe Risk Charge Liability before risk mitigation –Type of cover
+------------------------------------------------------------------------------------------
+
+
+This is the capital requirement before risk mitigation, per type of cover, for liability risks.
+
+
+c0920r2750 - Catastrophe Risk Charge Liability before risk mitigation — Total
+-----------------------------------------------------------------------------
+
+
+Total for all types of cover of the capital requirement before risk mitigation for liability risks.
+
+
+c0930r2700–r2740 - Estimated Risk Mitigation — Type of cover
+------------------------------------------------------------
+
+
+The estimated risk mitigation effect, per type of cover, of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from Liability, excluding the estimated reinstatement premiums.
+
+
+c0930r2750 - Estimated Risk Mitigation — Total
+----------------------------------------------
+
+
+Total for all types of cover of the estimated risk mitigation.
+
+
+c0940r2700–r2740 - Estimated Reinstatement Premiums — Type of cover
+-------------------------------------------------------------------
+
+
+The estimated reinstatement premiums, per type of cover, as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from Liability.
+
+
+c0940r2750 - Estimated Reinstatement Premiums — Total
+-----------------------------------------------------
+
+
+Total for all types of cover of the estimated reinstatement premiums.
+
+
+c0950r2700–r2740 - Catastrophe Risk Charge Liability after risk mitigation — Type of cover
+------------------------------------------------------------------------------------------
+
+
+Capital requirement, per type of cover, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles, relating to risks arising from Liability.
+
+
+c0950r2750 - Catastrophe Risk Charge Liability after risk mitigation — Total
+----------------------------------------------------------------------------
+
+
+Total for all types of cover of the capital requirement, per type of cover, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles, relating to risks arising from Liability.
+
+
+c0960r2800 - Catastrophe Risk Charge Liability before risk mitigation — Total before diversification
+----------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, before diversification effect between types of cover, for liability risks.
+
+
+c0960r2810 - Catastrophe Risk Charge Liability before risk mitigation — Diversification between type of cover
+-------------------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges before risk mitigation relating to different type of covers for liability risks.
+
+
+c0960r2820 - Catastrophe Risk Charge Liability before risk mitigation — Total after diversification
+---------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, after diversification effect between the types of covers, for liability risks.
+
+
+c0970r2800 - Estimated Total Risk Mitigation — Total before diversification
+---------------------------------------------------------------------------
+
+
+This is the estimated total risk mitigation, before diversification effect between types of cover, for liability risks.
+
+
+c0980r2800 - Catastrophe Risk Charge Liability after risk mitigation — Total before diversification
+---------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation, before diversification effect between types of cover, for liability risks.
+
+
+c0980r2810 - Catastrophe Risk Charge Liability after risk mitigation — Diversification between type of cover
+------------------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges after risk mitigation relating to different type of covers for liability risks.
+
+
+c0980r2820 - Catastrophe Risk Charge Liability after risk mitigation — Total after diversification
+--------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation, after diversification effect between the types of covers, for liability risks.
+
+
+c0990r2900–r2910 - Exposure (individual or group) — Largest exposure
+--------------------------------------------------------------------
+
+
+Two largest gross credit insurance exposures of the insurance or reinsurance undertaking based on a comparison of the net loss–given–default of the credit insurance exposures, being the loss–given–default after deduction of the amounts recoverable from reinsurance contracts and special purpose vehicles.
+
+
+c0990r2920 - Exposure (individual or group) — Total
+---------------------------------------------------
+
+
+Total of the two largest gross credit insurance exposures of the insurance or reinsurance undertaking based on a comparison of the net loss–given–default of the credit insurance exposures, being the loss–given–default after deduction of the amounts recoverable from reinsurance contracts and special purpose vehicles.
+
+
+c1000r2900–r2910 - Proportion of damage caused by scenario — Largest exposure
+-----------------------------------------------------------------------------
+
+
+Percentage representing the loss given default of the gross credit exposure without deduction of the amounts recoverable from reinsurance contracts and special purpose vehicles, for each of the two largest gross credit insurance exposures of the insurance or reinsurance undertaking.
+
+
+c1000r2920 - Proportion of damage caused by scenario — Total
+------------------------------------------------------------
+
+
+Average loss given default of the two largest gross credit exposures without deduction of the amounts recoverable from reinsurance contracts and special purpose vehicles.
+
+
+c1010r2900–r2910 - Catastrophe Risk Charge Credit & Suretyship before risk mitigation — Large Credit Default –Largest exposure
+------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the capital requirement before risk mitigation, per largest exposure, arising from the Large Credit Default scenario of Credit & Suretyship risks.
+
+
+c1010r2920 - Catastrophe Risk Charge Credit & Suretyship before risk mitigation — Large Credit Default — Total
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation arising from the Large Credit Default scenario of Credit & Suretyship risks.
+
+
+c1020r2900–r2910 - Estimated Risk Mitigation — Largest exposure
+---------------------------------------------------------------
+
+
+The estimated risk mitigation effect, per largest exposure, of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from the Large Credit Default scenario of Credit & Suretyship, excluding the estimated reinstatement premiums.
+
+
+c1020r2920 - Estimated Risk Mitigation — Total
+----------------------------------------------
+
+
+The estimated risk mitigation effect, for the two largest exposures, of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from the Large Credit Default scenario of Credit & Suretyship, excluding the estimated reinstatement premiums.
+
+
+c1030r2900–r2910 - Estimated Reinstatement Premiums — Largest exposure
+----------------------------------------------------------------------
+
+
+The estimated reinstatement premiums, per largest exposure, as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from the Large Credit Default scenario of Credit & Suretyship.
+
+
+c1030r2920 - Estimated Reinstatement Premiums — Total
+-----------------------------------------------------
+
+
+The estimated reinstatement premiums, for the two largest exposures, as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from the Large Credit Default scenario of Credit & Suretyship.
+
+
+c1040r2900–r2910 - Catastrophe Risk Charge Credit & Suretyship after risk mitigation — Large Credit Default — Largest exposure
+------------------------------------------------------------------------------------------------------------------------------
+
+
+Net capital requirement, per largest exposure, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles, relating to risks arising from the Large Credit Default scenario of Credit & Suretyship.
+
+
+c1040r2920 - Catastrophe Risk Charge Credit & Suretyship after risk mitigation — Large Credit Default — Total
+-------------------------------------------------------------------------------------------------------------
+
+
+The total capital requirement after risk mitigation, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles, relating to risks arising from the Large Credit Default scenario of Credit & Suretyship.
+
+
+c1050r3000 - Earned premium following 12 months
+-----------------------------------------------
+
+
+Gross premiums earned by the insurance or reinsurance undertaking, during the following 12 months, in line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, Credit and Suretyship insurance including proportional reinsurance obligations.
+
+
+c1060r3000 - Catastrophe Risk Charge Credit & Suretyship before risk mitigation — Recession Risk
+------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for the Recession scenario of Credit & Suretyship risks.
+
+
+c1070r3000 - Estimated Risk Mitigation
+--------------------------------------
+
+
+The estimated risk mitigation effect of the undertaking's specific retrocession contracts and special purpose vehicles relating to risks arising from the Recession scenario of Credit & Suretyship, excluding the estimated reinstatement premiums.
+
+
+c1080r3000 - Estimated Reinstatement Premiums
+---------------------------------------------
+
+
+The estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to risks arising from the Recession scenario of Credit & Suretyship.
+
+
+c1090r3000 - Catastrophe Risk Charge Credit & Suretyship after risk mitigation — Recession Risk
+-----------------------------------------------------------------------------------------------
+
+
+The total capital requirement after risk mitigation, after the deduction of the risk mitigating effect of the undertaking's specific retrocession contracts and special purpose vehicles, relating to risks arising from the Recession scenario of Credit & Suretyship.
+
+
+c1100r3100 - Catastrophe Risk Charge Credit & Suretyship before risk mitigation — Total before diversification
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, before diversification effect between types of events, for Credit & Suretyship risks.
+
+
+c1100r3110 - Catastrophe Risk Charge Credit & Suretyship before risk mitigation — Diversification between type of event
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges before risk mitigation relating to different type of events for Credit & Suretyship risks.
+
+
+c1100r3120 - Catastrophe Risk Charge Credit & Suretyship before risk mitigation — Total after diversification
+-------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, after diversification effect between the types of events, for Credit & Suretyship risks.
+
+
+c1110r3100 - Estimated Total Risk Mitigation — Total before diversification
+---------------------------------------------------------------------------
+
+
+This is the total risk mitigation effect, before diversification effect between types of events, of the undertaking's specific reinsurance contracts and special purpose vehicles arising from the Credit & Suretyship risks.
+
+
+c1120r3100 - Catastrophe Risk Charge Credit & Suretyship after risk mitigation — Total before diversification
+-------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation, before diversification effect between types of events, for Credit & Suretyship risks.
+
+
+c1120r3110 - Catastrophe Risk Charge Credit & Suretyship after risk mitigation — Diversification between type of event
+----------------------------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges after risk mitigation relating to different type of events for Credit & Suretyship risks.
+
+
+c1120r3120 - Catastrophe Risk Charge Credit & Suretyship after risk mitigation — Total after diversification
+------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation, after diversification effect between the types of events, for Credit & Suretyship risks.
+
+
+c1130r3200–r3240 - Estimation of the gross premium to be earned — Group of obligations
+--------------------------------------------------------------------------------------
+
+
+An estimate of the premiums to be earned by the insurance or reinsurance undertaking, during the following year, for the contracts in relation to the following group of obligations:—Insurance and reinsurance obligations included in line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, Marine, aviation and transport insurance, including proportional reinsurance obligations, other than marine insurance and reinsurance and aviation insurance and reinsurance;—Reinsurance obligations included in line of business Non–proportional marine, aviation and transport reinsurance, other than marine reinsurance and aviation reinsurance;—Insurance and reinsurance obligations included in line of business Miscellaneous financial loss, including proportional reinsurance obligations other than extended warranty insurance and reinsurance obligations provided that the portfolio of these obligations is highly diversified and these obligation do not cover the costs of product recalls;—Reinsurance obligations included in line of business Non–proportional casualty reinsurance, other than general liability reinsurance;—Non–proportional reinsurance obligations relating to insurance obligations included in line of business Credit and Suretyship insurance, including proportional reinsurance obligations.Premiums shall be gross, without deduction of premiums for reinsurance contracts.
+
+
+c1140r3200–r3240 - Catastrophe Risk Charge Other non–life catastrophe risk before risk mitigation — Group of obligations
+------------------------------------------------------------------------------------------------------------------------
+
+
+This is the capital requirement before risk mitigation, per group of obligations, for Other non–life catastrophe risks.
+
+
+c1140r3250 - Catastrophe Risk Charge Other non–life catastrophe risk before risk mitigation — Total before diversification
+--------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, before diversification effect between groups of obligations, for Other non–life catastrophe risks.
+
+
+c1140r3260 - Catastrophe Risk Charge Other non–life catastrophe risk before risk mitigation — Diversification between groups of obligations
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges before risk mitigation relating to different groups of obligations for Other non–life catastrophe risks.
+
+
+c1140r3270 - Catastrophe Risk Charge Other non–life catastrophe risk before risk mitigation — Total after diversification
+-------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, after diversification effect between groups of obligations, for Other non–life catastrophe risks.
+
+
+c1150r3250 - Estimated Total Risk Mitigation — Total before diversification
+---------------------------------------------------------------------------
+
+
+This is the estimated total risk mitigation, before diversification effect between groups of obligations, for Other non–life catastrophe risks.
+
+
+c1160r3250 - Catastrophe Risk Charge Other non–life catastrophe risk after risk mitigation — Total before diversification
+-------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation, before diversification effect between groups of obligations, for Other non–life catastrophe risks.
+
+
+c1160r3260 - Catastrophe Risk Charge Other non–life catastrophe risk after risk mitigation — Diversification between groups of obligations
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the total capital charges after risk mitigation relating to different groups of obligations for Other non–life catastrophe risks.
+
+
+c1160r3270 - Catastrophe Risk Charge Other non–life catastrophe risk after risk mitigation — Total after diversification
+------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation, after diversification effect between groups of obligations, for Other non–life catastrophe risks.
+
+
+c1170r3300–r3600,c1190r3300–r3600,c1210r3300–r3600,c1230r3300–r3600,c1250r3300–r3600 - Policyholders — per type of event
+------------------------------------------------------------------------------------------------------------------------
+
+
+All insured persons of the insurance or reinsurance undertaking who are inhabitants of each of the countries and are insured against the following types of event:—Death caused by an accident;—Permanent disability caused by an accident;—Disability that lasts 10 years caused by an accident;—Disability that lasts 12 months caused by an accident;—Medical treatment caused by an accident.
+
+
+c1180r3300–r3600,c1200r3300–r3600,c1220r3300–r3600,c1240r3300–r3600,c1260r3300–r3600 - Value of benefits payable — per type of event
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+The value of the benefits shall be the sum insured or where the insurance contract provides for recurring benefit payments the best estimate of the benefit payments, using the cash–flow projection, per event type.Where the benefits of an insurance contract depend on the nature or extent of any injury resulting from event types, the calculation of the value of the benefits shall be based on the maximum benefits obtainable under the contract which are consistent with the event.For medical expense insurance and reinsurance obligations the value of the benefits shall be based on an estimate of the average amounts paid in case of event types taking into account the specific guarantees the obligations include.
+
+
+c1270r3300–r3600 - Catastrophe Risk Charge before risk mitigation
+-----------------------------------------------------------------
+
+
+Capital requirement before risk mitigation, for each of the countries, arising from the mass accident risk sub–module to health insurance and reinsurance obligations.
+
+
+c1270r3610 - Catastrophe Risk Charge before risk mitigation — Total Mass accident all countries before diversification
+----------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, before diversification effect between countries, for the mass accident risk sub–module to health insurance and reinsurance obligations.
+
+
+c1270r3620 - Catastrophe Risk Charge before risk mitigation — Diversification effect between countries
+------------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the mass accident risk sub–module to health insurance and reinsurance obligations relating to the different countries.
+
+
+c1270r3630 - Catastrophe Risk Charge before risk mitigation — Total Mass accident all countries after diversification
+---------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, after diversification effect between countries, for the mass accident risk sub–module to health insurance and reinsurance obligations.
+
+
+c1280r3300–r3600 - Estimated Risk Mitigation
+--------------------------------------------
+
+
+For each country the estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c1280r3610 - Estimated Risk Mitigation — Total Mass accident all countries before diversification
+-------------------------------------------------------------------------------------------------
+
+
+Total amount of estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles for all countries.
+
+
+c1290r3300–r3600 - Estimated Reinstatement Premiums
+---------------------------------------------------
+
+
+For each country the estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c1290r3610 - Estimated Reinstatement Premiums — Total Mass accident all countries before diversification
+--------------------------------------------------------------------------------------------------------
+
+
+Total amount of estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles for all countries.
+
+
+c1300r3300–r3600 - Catastrophe Risk Charge after risk mitigation
+----------------------------------------------------------------
+
+
+Capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, arising from the mass accident risk sub–module to health insurance and reinsurance obligations, for each country.
+
+
+c1300r3610 - Catastrophe Risk Charge after risk mitigation — Total Mass accident all countries before diversification
+---------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation, before diversification effect between countries, for the mass accident risk sub–module to health insurance and reinsurance obligations.
+
+
+c1300r3620 - Catastrophe Risk Charge after risk mitigation — Diversification effect between countries
+-----------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the capital requirement after risk mitigations for the mass accident risk sub–module to health insurance and reinsurance obligations relating to the different countries.
+
+
+c1300r3630 - Catastrophe Risk Charge after risk mitigation — Total Mass accident all countries after diversification
+--------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation for the mass accident risk sub–module to health insurance and reinsurance obligations, taking into consideration the diversification effect given in C1300/R3620.
+
+
+c1310r3700–r4010 - Largest known accident risk concentration — Countries
+------------------------------------------------------------------------
+
+
+The largest accident risk concentration of an insurance or reinsurance undertaking, for each country, shall be equal to the largest number of persons for which the following conditions are met:—The insurance or reinsurance undertaking has a workers' compensation insurance or reinsurance obligation or a group income protection insurance or reinsurance obligation in relation to each of the persons;—The obligations in relation to each of the persons cover at least one of the events set out in the next item;—The persons are working in the same building which is situated in this particular country.These persons are insured against the following types of event:—Death caused by an accident;—Permanent disability caused by an accident;—Disability that lasts 10 years caused by an accident;—Disability that lasts 12 months caused by an accident;—Medical treatment caused by an accident.
+
+
+c1320r3700–r4010,c1330r3700–r4010,c1340r3700–r4010,c1350r3700–r4010,c1360r3700–r4010 - Average sum insured per type of event
+----------------------------------------------------------------------------------------------------------------------------
+
+
+The value of the benefits shall be the sum insured or where the insurance contract provides for recurring benefit payments the best estimate of the benefit payments in case of event types.Where the benefits of an insurance contract depend on the nature or extent of any injury resulting from event types, the calculation of the value of the benefits shall be based on the maximum benefits obtainable under the contract which are consistent with the event.For medical expense insurance and reinsurance obligations the value of the benefits shall be based on an estimate of the average amounts paid in case of event types, taking into account the specific guarantees the obligations include.
+
+
+c1370r3700–r4010 - Catastrophe Risk Charge before risk mitigation
+-----------------------------------------------------------------
+
+
+Capital requirement before risk mitigation, for each country, arising from the health sub–module concentration accident.
+
+
+c1410 - Other countries to be considered in the Concentration accident
+----------------------------------------------------------------------
+
+
+Identify the ISO code of other countries to be considered in the Concentration accident.
+
+
+c1370r4020 - Catastrophe Risk Charge before risk mitigation — Total Concentration accident all countries before diversification
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, before diversification effect between countries, for the health sub–module concentration accident.
+
+
+c1370r4030 - Catastrophe Risk Charge before risk mitigation — Diversification effect between countries
+------------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the health sub–module concentration accident relating to the different countries.
+
+
+c1370r4040 - Catastrophe Risk Charge before risk mitigation — Total Concentration accident all countries after diversification
+------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation, after diversification effect between countries, for the health sub–module concentration accident.
+
+
+c1380r3700–r4010 - Estimated Risk Mitigation — Countries
+--------------------------------------------------------
+
+
+For each of the countries identified the estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums.
+
+
+c1380r4020 - Estimated Risk Mitigation — Total Concentration accident all countries before diversification
+----------------------------------------------------------------------------------------------------------
+
+
+Total of estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles for all countries.
+
+
+c1390r3700–r4010 - Estimated Reinstatement Premiums — Countries
+---------------------------------------------------------------
+
+
+For each of the countries identified the estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril.
+
+
+c1390r4020 - Estimated Reinstatement Premiums — Total Concentration accident all countries before diversification
+-----------------------------------------------------------------------------------------------------------------
+
+
+Total of the estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles for all countries.
+
+
+c1400r3700–r4010 - Catastrophe Risk Charge after risk mitigation — Countries
+----------------------------------------------------------------------------
+
+
+Capital requirement, after the deduction of the risk mitigating effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, arising from the health sub–module concentration accident for each of the countries identified.
+
+
+c1400r4020 - Catastrophe Risk Charge after risk mitigation — Total Concentration accident all countries before diversification
+------------------------------------------------------------------------------------------------------------------------------
+
+
+The total capital requirement after risk mitigation, before diversification effect between countries, for the health sub–module concentration accident.
+
+
+c1400r4030 - Catastrophe Risk Charge after risk mitigation — Diversification effect between countries
+-----------------------------------------------------------------------------------------------------
+
+
+Diversification effect arising from the aggregation of the capital requirement after risk mitigations for the health sub–module concentration accident risks relating to the different countries.
+
+
+c1400r4040 - Catastrophe Risk Charge after risk mitigation — Total Concentration accident all countries after diversification
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement after risk mitigation for the health sub–module concentration accident risk, taking into consideration the diversification effect given in C1400/R4020.
+
+
+c1440r4100–r4410 - Medical expense — Number of insured persons — Countries
+--------------------------------------------------------------------------
+
+
+The number of insured persons of insurance and reinsurance undertakings, for each of the countries identified, which meet the following conditions:—The insured persons are inhabitants of this particular country;—The insured persons are covered by medical expense insurance or reinsurance obligations, other than workers' compensation insurance or reinsurance obligations that cover medical expense resulting from an infectious disease.These insured persons may claim benefits for the following healthcare utilisation:—Hospitalisation;—Consultation with a medical practitioner;—No formal medical care sought.
+
+
+c1450r4100–r4410,c1470r4100–r4410,c1490r4100–r4410 - Medical expense — Unit claim cost per type of healthcare — Countries
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Best estimate of the amounts payable, using the cash–flow projection, by insurance and reinsurance undertakings for an insured person in relation to medical expense insurance or reinsurance obligations, other than workers' compensation insurance or reinsurance obligations per healthcare utilisation type, in the event of a pandemic, for each of the countries identified.
+
+
+c1460r4100–r4410,c1480r4100–r4410,c1500r4100–r4410 - Medical expense — Ratio of insured persons using type of healthcare — Countries
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+The ratio of insured persons with clinical symptoms utilising healthcare type, for each of the countries identified.
+
+
+c1510r4100–r4410 - Catastrophe Risk Charge before risk mitigation — Countries
+-----------------------------------------------------------------------------
+
+
+Capital requirement before risk mitigation, for each of the countries identified, arising from the health sub–module pandemic.
+
+
+c1550 - Other countries to be considered in the Pandemic
+--------------------------------------------------------
+
+
+Identify the ISO code of other countries to be considered in the Concentration accident.
+
+
+c1420r4420 - Income protection — Number of insured persons — Total Pandemic all countries
+-----------------------------------------------------------------------------------------
+
+
+Total number of insured persons for all countries identified covered by the income protection insurance or reinsurance obligations other than workers' compensation insurance or reinsurance obligations.
+
+
+c1430r4420 - Income protection — Total pandemic exposure — Total Pandemic all countries
+---------------------------------------------------------------------------------------
+
+
+The total of all income protection pandemic exposure for all countries identified of insurance and reinsurance undertakings.The value of the benefits payable for the insured person shall be the sum insured or where the insurance contract provides for recurring benefit payments the best estimate of the benefit payments assuming that the insured person is permanently disabled and will not recover.
+
+
+c1510r4420 - Catastrophe Risk Charge before risk mitigation — Total Pandemic all countries
+------------------------------------------------------------------------------------------
+
+
+This is the total capital requirement before risk mitigation for the health sub–module pandemic for all countries identified.
+
+
+c1520r4420 - Estimated Risk Mitigation — Total Pandemic all countries
+---------------------------------------------------------------------
+
+
+The total estimated risk mitigation effect of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril, excluding the estimated reinstatement premiums for all countries identified.
+
+
+c1530r4420 - Estimated Reinstatement Premiums — Total Pandemic all countries
+----------------------------------------------------------------------------
+
+
+The total estimated reinstatement premiums as a result of the undertaking's specific reinsurance contracts and special purpose vehicles relating to this peril for all countries identified.
+
+
+c1540r4420 - Catastrophe Risk Charge after risk mitigation — Total Pandemic all countries
+-----------------------------------------------------------------------------------------
+
+
+The total capital requirement after risk mitigation for the health sub–module pandemic for all countries identified.
+
+

@@ -1,0 +1,1727 @@
+=================================================================
+S.26.04 - Solvency Capital Requirement , Health underwriting risk
+=================================================================
+
+Instructions
+------------
+
+
+General Comments:
+
+This section relates to annual submission of information for individual entities, ring fenced–funds, matching adjustment portfolios and remaining part.
+
+Template SR.26.04.01 has to be filled in for each ring–fenced fund (RFF), each matching adjustment portfolio (MAP) and for the remaining part. However, where a RFF/MAP includes a MAP/RFF embedded, the fund should be treated as different funds. This template shall be reported for all sub–funds of a material RFF/MAP as identified in the second table of S.01.03.
+
+All values shall be reported net of reinsurance and other risk mitigating techniques.
+
+Amounts before and after shock shall be filled in with the amount of assets and liabilities sensitive to that shock. For the liabilities the assessment shall be done at the most granular level available between contract and homogeneous risk group. This means that if a contract/HRG is sensitive to a shock the amount of liabilities associated to that contract/HRG shall be reported as amount sensitive to that shock.
+
+
+z0010 - Article 112
+-------------------
+
+
+Identifies whether the reported figures have been requested under Article 112(7), to provide an estimate of the SCR using standard formula. One of the options in the following closed list shall be used: 1 — Article 112(7) reporting 2 — Regular reporting
+
+
+z0020 - Ring–fenced fund, matching adjustment portfolio or remaining part
+-------------------------------------------------------------------------
+
+
+Identifies whether the reported figures are with regard to a RFF, matching adjustment portfolio or to the remaining part. One of the options in the following closed list shall be used: 1 — RFF/MAP 2 — Remaining part
+
+
+z0030 - Fund/Portfolio number
+-----------------------------
+
+
+When item Z0020 = 1, identification number for a ring fenced fund or matching adjustment portfolio. This number is attributed by the undertaking and must be consistent over time and with the fund/portfolio number reported in other templates.When item Z0020 = 2, then report ‘0’
+
+
+r0010c0010 - Simplifications used — health mortality risk
+---------------------------------------------------------
+
+
+Identify whether an undertakings used simplifications for the calculation of health mortality risk. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0010/C0010 = 1, only C0060 and C0080 shall be filled in for R0100.
+
+
+r0020c0010 - Simplifications used — health longevity risk
+---------------------------------------------------------
+
+
+Identify whether an undertaking used simplifications for the calculation of health longevity risk. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0020/C0010 = 1, only C0060 and C0080 shall be filled in for R0200.
+
+
+r0030c0010 - Simplifications used: health disability– morbidity risk — Medical expense
+--------------------------------------------------------------------------------------
+
+
+Identify whether an undertaking used simplifications for the calculation of health disability morbidity risk — Medical expense. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0030/C0010 = 1, only C0060/R0310 and C0080/R0310 shall be filled in. R0320 and R0330 shall not be filled in.
+
+
+r0040c0010 - Simplifications used: health disability– morbidity risk — Income protection
+----------------------------------------------------------------------------------------
+
+
+Identify whether an undertaking used simplifications for the calculation of health disability morbidity risk — Income protection. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0040/C0010 = 1, only C0060 and C0080 shall be filled in for R0340.
+
+
+r0050c0010 - Simplifications used: SLT lapse risk
+-------------------------------------------------
+
+
+Identify whether an undertaking used simplifications for the calculation of SLT lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0050/C0010 = 1, only C0060 and C0080 shall be filled in for R0400 to R0420.R0430 shall be fully completed in any case
+
+
+r0060c0010 - Simplifications used: health expense risk
+------------------------------------------------------
+
+
+Identify whether an undertaking used simplifications for the calculation of health expense risk. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0060/C0010 = 1, only C0060 and C0080 shall be filled in for R0500.
+
+
+r0100c0020 - Initial absolute values before shock — Assets — Health mortality risk
+----------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health mortality risk, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0100c0030 - Initial absolute values before shock — Liabilities — Health mortality risk
+---------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health mortality risk, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0100c0040 - Absolute values after shock — Assets — Health mortality risk
+-------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health mortality risk charge, after the shock (i.e. permanent increase in mortality rates).Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0100c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health mortality risk
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (after the loss absorbing capacity of technical provisions) sensitive to health mortality risk charge, after the shock (i.e. permanent increase in mortality rates).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0100c0060 - Absolute value after shock — Net solvency capital requirement — Health mortality risk
+--------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health mortality risk, after adjustment for the loss absorbing capacity of technical provisions.If R0010/C0010=1, this item represents net capital charge for health mortality risk calculated using simplifications.
+
+
+r0100c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health mortality risk
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to health mortality risk charge, after the shock (permanent increase in mortality rates).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0100c0080 - Absolute value after shock — Gross solvency capital requirement — Health mortality risk
+----------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health mortality risk.If R0010/C0010=1, this item represents gross capital charge for health mortality risk calculated using simplifications.
+
+
+r0200c0020 - Initial absolute values before shock — Assets — Health longevity risk
+----------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health longevity risk, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0200c0030 - Initial absolute values before shock — Liabilities — Health longevity risk
+---------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health longevity risk, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0200c0040 - Absolute values after shock — Assets — Health longevity risk
+-------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health longevity risk after the shock (i.e. permanent decrease in mortality rates).Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0200c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health longevity risk
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (after the loss absorbing capacity of technical provisions) sensitive to health longevity risk, after the shock (i.e. permanent decrease in mortality rates.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0200c0060 - Absolute value after shock — Net solvency capital requirement — Health longevity risk
+--------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health longevity risk, after adjustment for the loss absorbing capacity of technical provisions.If R0020/C0010=1, this item represents net capital charge for health longevity risk calculated using simplifications.
+
+
+r0200c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health longevity risk
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to health longevity risk, after the shock (permanent decrease in mortality rates).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0200c0080 - Absolute value after shock — Gross solvency capital requirement — Health longevity risk
+----------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health longevity risk.If R0020/C0010=1, this item represents gross capital charge for health longevity risk calculated using simplifications.
+
+
+r0300c0060 - Absolute value after shock — Net solvency capital requirement –Health disability — morbidity risk
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health disability — morbidity risk, after adjustment for the loss absorbing capacity of technical provisions.
+
+
+r0300c0080 - Absolute value after shock — Gross solvency capital requirement — Health disability — morbidity risk
+-----------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health disability — morbidity risk.
+
+
+r0310c0060 - Absolute value after shock — Net solvency capital requirement –Health disability — morbidity risk — Medical expense
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health disability — morbidity risk — Medical expense, after adjustment for the loss absorbing capacity of technical provisions.If R0030/C0010=1, this item represents net capital charge for health disability — morbidity risk — Medical expense calculated using simplifications.
+
+
+r0310c0080 - Absolute value after shock — Gross solvency capital requirement — Health disability — morbidity risk — Medical expense
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health disability — morbidity risk — Medical expense.If R0030/C0010=1, this item represents gross capital charge for health disability — morbidity risk — Medical expense calculated using simplifications.
+
+
+r0320c0020 - Initial absolute values before shock — Assets — Health disability — morbidity risk — Medical expense — increase of medical payments
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Medical expense charge due to an increase of medical payments, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0030 - Initial absolute values before shock — Liabilities — Health disability — morbidity risk — Medical expense — increase of medical payments
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health disability — morbidity risk — Medical expense charge due to an increase of medical payments, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0040 - Absolute values after shock — Assets — Health disability — morbidity risk — Medical expense — increase of medical payments
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Medical expense charge due to an increase of medical payments, after the shock (i.e. as prescribed by standard formula).Recoverables from reinsurance and SPVs shall not be included in this cell.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Medical expense — increase of medical payments
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to health disability — morbidity risk — Medical expense charge due to an increase of medical payments, after the shock (i.e. as prescribed by standard formula).The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0060 - Absolute value after shock — Net solvency capital requirement –Health disability — morbidity risk — Medical expense — increase of medical payments
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health disability — morbidity risk — Medical expense — increase of medical payments, after adjustment for the loss absorbing capacity of technical provisions.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Medical expense — increase of medical payments
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) underlying health disability — morbidity risk — Medical expense charge expenses — increase of medical payments, after the shock (i.e. as prescribed by standard formula) as used to compute the risk.The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0080 - Absolute value after shock — Gross solvency capital requirement — Health disability — morbidity risk — Medical expense — increase of medical payments
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health disability — morbidity risk — Medical expense — increase of medical payments.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0020 - Initial absolute values before shock — Assets — Health disability — morbidity risk — Medical expense — decrease of medical payments
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Medical expense charge due to an decrease of medical payments, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0030 - Initial absolute values before shock — Liabilities — Health disability — morbidity risk — Medical expense — decrease of medical payments
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health disability — morbidity risk — Medical expense charge due to an decrease of medical payments, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0040 - Absolute values after shock — Assets — Health disability — morbidity risk — Medical expense — decrease of medical payments
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Medical expense charge due to an decrease of medical payments, after the shock (i.e. as prescribed by standard formula).Recoverables from reinsurance and SPVs shall not be included in this cell.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Medical expense — decrease of medical payments
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to health disability — morbidity risk — Medical expense charge due to an decrease of medical payments, after the shock (i.e. as prescribed by standard formula).The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0060 - Absolute value after shock — Net solvency capital requirement –Health disability — morbidity risk — Medical expense — decrease of medical payments
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health disability — morbidity risk — Medical expense — decrease of medical payments, after adjustment for the loss absorbing capacity of technical provisions.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Medical expense — decrease of medical payments
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) underlying health disability — morbidity risk — Medical expense charge — decrease of medical payments, after the shock (i.e. as prescribed by standard formula) as used to compute the risk.The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0080 - Absolute value after shock — Gross solvency capital requirement — Health disability — morbidity risk — Medical expense — increase of medical payments
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health disability — morbidity risk — Medical expense — decrease of medical payments.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0340c0020 - Initial absolute values before shock — Assets — Health disability — morbidity risk — Income protection
+-------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Income protection, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0340c0030 - Initial absolute values before shock — Liabilities — Health disability — morbidity risk — Income protection
+------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health disability — morbidity risk — Income protection charge, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0340c0040 - Absolute values after shock — Assets — Health disability — morbidity risk — Income protection
+----------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Income protection charge, after the shock (i.e. as prescribed by standard formula).Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0340c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Income protection
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to health disability — morbidity risk — Income protection, after the shock (i.e. as prescribed by standard formula).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0340c0060 - Absolute value after shock — Net solvency capital requirement –Health disability — morbidity risk — Income protection
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health disability — morbidity risk — Income protection, after adjustment for the loss absorbing capacity of technical provisions.If R0040/C0010=1, this item represents net capital charge for health disability — morbidity risk — Income protection calculated using simplifications.
+
+
+r0340c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Income protection
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) underlying health disability — morbidity risk — Income protection charge, after the shock (i.e. as prescribed by standard formula) as used to compute the risk.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0340c0080 - Absolute value after shock — Gross solvency capital requirement — Health disability — morbidity risk — Income protection
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health disability — morbidity risk — Income protection.If R0040/C0010=1, this item represents gross capital charge for health disability — morbidity risk — Income protection calculated using simplifications.
+
+
+r0400c0060 - Absolute value after shock — Net solvency capital requirement — SLT Health lapse risk
+--------------------------------------------------------------------------------------------------
+
+
+This is the overall net capital charge for SLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, after adjustment for the loss absorbing capacity of technical provisions
+
+
+r0400c0080 - Absolute value after shock — Gross solvency capital requirement — SLT Health lapse risk
+----------------------------------------------------------------------------------------------------
+
+
+This is the overall gross capital charge (before the loss absorbing capacity for technical provisions) for SLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35.
+
+
+r0410c0020 - Initial absolute values before shock — Assets — SLT health lapse risk– risk of increase in lapse
+-------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the risk of an increase in lapse rates, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0410c0030 - Initial absolute values before shock — Liabilities — SLT health lapse risk — risk of increase in lapse
+-------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to the risk of an increase in lapse rates, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0410c0040 - Absolute values after shock — Assets — SLT health lapse risk –risk of increase in lapse
+----------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the risk of an increase in lapse rates after the shock (i.e. permanent increase in the rates of lapse).Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0410c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — SLT health lapse risk –risk of increase in lapse
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (after the loss absorbing capacity of technical provisions) sensitive to the risk of an increase in lapse rates, after the shock (i.e. permanent increase of the rates of lapse).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0410c0060 - Absolute value after shock — Net solvency capital requirement — SLT health lapse risk –risk of increase in lapse
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for the risk of a permanent increase in lapse rates, after adjustment for the loss absorbing capacity of technical provisions.If R0050/C0010=1, this item represents net capital charge for a permanent increase in SLT health lapse rates referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, calculated using simplified calculation for SLT health lapse rate
+
+
+r0410c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — SLT health lapse risk — risk of increase in lapse
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) underlying the risk of a permanent increase in lapse rates, after the shock (permanent increase in lapse rates) as used to compute the risk.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0410c0080 - Absolute value after shock — Gross solvency capital requirement — SLT health lapse risk –risk of increase in lapse
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (excluding the loss absorbing capacity for technical provisions) for the risk of a permanent increase in lapse rates.If R0050/C0010=1, this item represents gross capital charge for a permanent increase in lapse rates, calculated using simplified calculation for SLT health lapse rate referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35.
+
+
+r0420c0020 - Initial absolute values before shock — Assets — SLT health lapse risk– risk of decrease in lapse
+-------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the risk of a permanent decrease in lapse rates, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0420c0030 - Initial absolute values before shock — Liabilities — SLT health lapse risk — risk of decrease in lapse
+-------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to the risk of a permanent decrease in lapse rates, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0420c0040 - Absolute values after shock — Assets — SLT health lapse risk –risk of decrease in lapse
+----------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the risk of a permanent decrease in lapse rates, after the shock (i.e. permanent decrease in the rates of lapse).Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0420c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — SLT health lapse risk –risk of decrease in lapse
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (after the loss absorbing capacity of technical provisions) sensitive to the risk of a permanent decrease in lapse rates, after the shock (i.e. permanent decrease of the rates of lapse).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0420c0060 - Absolute value after shock — Net solvency capital requirement– SLT health lapse risk –risk of decrease in lapse
+----------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for the risk of a permanent decrease in lapse rates, after adjustment for the loss absorbing capacity of technical provisions.If R0050/C0010=1, this item represents net capital charge for a permanent decrease in SLT health rates referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, calculated using simplified calculation for SLT health lapse rate
+
+
+r0420c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — SLT health lapse risk –risk of decrease in lapse
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to the risk of a permanent decrease in lapse rates, after the shock (permanent decrease in lapse rates).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0420c0080 - Absolute value after shock — Gross solvency capital requirement — SLT health lapse risk — risk of decrease in lapse
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity for technical provisions) for the risk of a permanent decrease in lapse ratesIf R0050/C0010=1, this item represents gross capital charge for a permanent decrease in SLT health rates referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, calculated using simplified calculation for SLT health lapse rate.
+
+
+r0430c0020 - Initial absolute values before shock — Assets — SLT health lapse risk– mass lapse risk
+---------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to mass lapse risk, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0430c0030 - Initial absolute values before shock — Liabilities — SLT health lapse risk –mass lapse risk
+--------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to mass lapse risk, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0430c0040 - Absolute values after shock — Assets — SLT health lapse risk — mass lapse risk
+-------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to mass lapse risk, after the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0430c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — SLT health lapse risk — mass lapse risk
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to mass lapse risk, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0430c0060 - Absolute value after shock — Net solvency capital requirement — SLT health lapse risk — mass lapse risk
+--------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for SLT health lapse risk — mass lapse risk, after adjustment for the loss absorbing capacity of technical provisions.
+
+
+r0430c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health lapse risk — mass lapse risk
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to mass lapse risk, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0430c0080 - Absolute value after shock — Gross solvency capital requirement — SLT health lapse risk — mass lapse risk
+----------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (excluding the loss absorbing capacity for technical provisions) for SLT health lapse risk — mass lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35.
+
+
+r0500c0020 - Initial absolute values before shock — Assets — Health expense risk
+--------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to expense risk, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0500c0030 - Initial absolute values before shock — Liabilities — Health expense risk
+-------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to expense risk, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0500c0040 - Absolute values after shock — Assets — Health expense risk
+-----------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health expense risk, after the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0500c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health expense risk
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to health expense risk, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0500c0060 - Absolute value after shock — Net solvency capital requirement — Health expense risk
+------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health expense risk, after adjustment for the loss absorbing capacity of technical provisions.If R0060/C0010=1, this item represents net capital charge for health expense risk calculated using simplified calculations.
+
+
+r0500c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health expense risk
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to expense risk charge, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0500c0080 - Absolute value after shock — Gross solvency capital requirement — Health expense risk
+--------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (excluding the loss absorbing capacity of technical provisions) for health expense risk.If R0060/C0010=1, this item represents gross capital charge for health expense risk calculated using simplified calculations.
+
+
+r0600c0020 - Initial absolute values before shock — Assets — Health revision risk
+---------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health revision risk, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0600c0030 - Initial absolute values before shock — Liabilities –Health revision risk
+-------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health revision risk charge, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0600c0040 - Absolute values after shock — Assets — Health revision risk
+------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health revision risk, after the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0600c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health revision risk
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to health revision risk, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0600c0060 - Absolute value after shock — Net solvency capital requirement — Health revision risk
+-------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health revision risk, after adjustment for the loss absorbing capacity of technical provisions.
+
+
+r0600c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health revision risk
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to health revision risk charge, after the shock (i.e. as prescribed by standard formula, a % increase in the annual amount payable for annuities exposed to revision risk).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0600c0080 - Absolute value after shock — Gross solvency capital requirement — Health revision risk
+---------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health revision risk.
+
+
+r0700c0060 - Diversification within SLT health underwriting risk module — Net
+-----------------------------------------------------------------------------
+
+
+This is the diversification effect within the SLT health underwriting risk module referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, as a result of the aggregation of the net capital requirements (after adjustment for the loss absorbing capacity of technical provisions) of the single risk sub–modules.Diversification shall be reported as a negative value if they reduce the capital requirement.
+
+
+r0700c0080 - Diversification within SLT health underwriting risk module — Gross
+-------------------------------------------------------------------------------
+
+
+This is the diversification effect within the SLT health underwriting risk module referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, as a result of the aggregation of the gross capital requirements (before the loss absorbing capacity of technical provisions) of the single risk sub–modules.Diversification shall be reported as a negative value if they reduce the capital requirement.
+
+
+r0800c0060 - Net solvency capital requirement — SLT health underwriting risk
+----------------------------------------------------------------------------
+
+
+This is the total net capital charge for SLT health underwriting risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, after adjustment of the loss absorbing capacity of technical provisions.
+
+
+r0800c0080 - Gross solvency capital — SLT health underwriting risk
+------------------------------------------------------------------
+
+
+This is the total gross capital charge for SLT health underwriting risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, before adjustment of the loss absorbing capacity of technical provisions.
+
+
+r0900c0090 - Revision shock USP
+-------------------------------
+
+
+Revision shock — undertaking specific parameter as calculated by the undertaking and approved by the supervisory authority.This item is not reported where no undertaking specific parameter is used.
+
+
+r1000–r1030c0100 - Standard deviation for premium risk — USP
+------------------------------------------------------------
+
+
+This is the undertaking specific standard deviation for premium risk for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance as calculated by the undertaking and approved or prescribed by the supervisory authority.This item is not reported where no undertaking specific parameter is used.
+
+
+r1000–r1030c0110 - USP Standard Deviation gross/net
+---------------------------------------------------
+
+
+Identify if the USP standard Deviation was applied gross or net. One of the options in the following closed list shall be used: 1 — USP gross 2 — USP net
+
+
+r1000–r1030c0120 - Standard deviation for premium risk — USP — Adjustment factor for non — proportional reinsurance
+-------------------------------------------------------------------------------------------------------------------
+
+
+This is the undertaking specific adjustment factor for non–proportional reinsurance of each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, which allows undertakings to take into account the risk–mitigating effect of particular per risk excess of loss (‘XL’) reinsurance — as calculated by the undertaking and approved or prescribed by the supervisory authorityWhere no undertaking specific parameter is used, this cell shall be left blank.
+
+
+r1000–r1030c0130 - Standard deviation for reserve risk — USP
+------------------------------------------------------------
+
+
+This is the undertaking specific standard deviation for reserve risk for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance as calculated by the undertaking and approved or prescribed by the supervisory authority.This item is not reported where no undertaking specific parameter is used.
+
+
+r1000–r1030c0140 - Volume measure for premium and reserve risk — volume measure for premium risk: Vprem
+-------------------------------------------------------------------------------------------------------
+
+
+The volume measure for premium risk for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance
+
+
+r1000–r1030c0150 - Volume measure for premium and reserve risk –Volume measure reserve risk: Vres
+-------------------------------------------------------------------------------------------------
+
+
+The volume measure for reserve risk for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance
+
+
+r1000–r1030c0160 - Volume measure for premium and reserve risk — Geographical Diversification
+---------------------------------------------------------------------------------------------
+
+
+This represents the geographical diversification to be used for the volume measure for premium and reserve risk for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance.If the factor for geographical diversification is not calculated, then this item is set to the default value of 1.
+
+
+r1000–r1030c0170 - Volume measure for premium and reserve risk — V
+------------------------------------------------------------------
+
+
+The volume measure for NSLT health premium and reserve risk referred to in Title I Chapter V Sections 4 and 12 of Delegated Regulation (EU) 2015/35, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance
+
+
+r1040c0170 - Total Volume measure for premium and reserve risk
+--------------------------------------------------------------
+
+
+The total volume measure for premium and reserve risk, equal to the sum of the volume measures for premium and reserve risk for all lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+r1050c0100 - Combined standard deviation
+----------------------------------------
+
+
+This is the combined standard deviation for premium and reserve risk for all segments.
+
+
+r1100c0180 - Solvency capital requirement — NSLT health premium and reserve risk
+--------------------------------------------------------------------------------
+
+
+This is the total capital charge for the NSLT health premium and reserve risk sub module referred to in Title I Chapter V Sections 4 and 12 of Delegated Regulation (EU) 2015/35.
+
+
+r1200c0190 - Initial absolute values before shock — Assets — Lapse risk
+-----------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the NSLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r1200c0200 - Initial absolute values before shock — Liabilities — Lapse risk
+----------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to the NSLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r1200c0210 - Absolute values after shock — Assets — Lapse risk
+--------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the NSLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, after the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r1200c0220 - Absolute values after shock Liabilities — Lapse risk
+-----------------------------------------------------------------
+
+
+This is the absolute value of the liabilities sensitive to lapse risk, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r1200c0230 - Absolute value after shock– Solvency capital requirement — Lapse risk
+----------------------------------------------------------------------------------
+
+
+This is the capital charge for NSLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35.
+
+
+r1300c0240 - Diversification within NSLT health underwriting risk — gross
+-------------------------------------------------------------------------
+
+
+This is the diversification effect within the NSLT health underwriting risk sub–module referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, as a result of the aggregation of the capital requirements for NSLT health premium and reserve risk and NSLT health lapse risk.Diversification shall be reported as a negative value if they reduce the capital requirement.
+
+
+r1400c0240 - Total solvency capital requirement for NSLT health underwriting
+----------------------------------------------------------------------------
+
+
+This is the total capital charge for the NSLT health underwriting risk sub module referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35.
+
+
+r1500c0250 - Net solvency capital requirement for health catastrophe risks — Mass accident risk sub module
+----------------------------------------------------------------------------------------------------------
+
+
+The net solvency capital requirement for the mass risk sub–module calculated after loss absorbing capacity of technical provisions
+
+
+r1500c0260 - Gross solvency capital requirement for health catastrophe risks — Mass accident risk sub module
+------------------------------------------------------------------------------------------------------------
+
+
+The gross solvency capital requirement for the mass risk sub–module, calculated before loss absorbing capacity of technical provisions.
+
+
+r1510c0250 - Net solvency capital requirement for health catastrophe risks — Accident concentration risk
+--------------------------------------------------------------------------------------------------------
+
+
+The net solvency capital requirement for the accident concentration risk sub–module, calculated after loss absorbing capacity of technical provisions
+
+
+r1510c0260 - Gross solvency capital requirement for health catastrophe risks– Accident concentration risk
+---------------------------------------------------------------------------------------------------------
+
+
+The gross solvency capital requirement for the accident concentration risk sub–module calculated before loss absorbing capacity of technical provisions.
+
+
+r1520c0250 - Net solvency capital requirement for health catastrophe risks — Pandemic risk
+------------------------------------------------------------------------------------------
+
+
+The net solvency capital requirement for the pandemic risk sub–module, calculated after loss absorbing capacity of technical provisions.
+
+
+r1520c0260 - Gross solvency capital requirement for health catastrophe risks — Pandemic risk
+--------------------------------------------------------------------------------------------
+
+
+The gross solvency capital requirement for the pandemic risk sub–module is calculated before loss absorbing capacity of technical provisions.
+
+
+r1530c0250 - Diversification within health catastrophe risk — Net
+-----------------------------------------------------------------
+
+
+This is the diversification effect within the health catastrophe risk sub–module as a result of the aggregation of the capital requirements for the risks of a mass accident, accident concentration and pandemic risk, calculated after loss absorbing capacity of technical provisions
+
+
+r1530c0260 - Diversification within health catastrophe risk — Gross
+-------------------------------------------------------------------
+
+
+This is the diversification effect within the health catastrophe risk sub–module as a result of the aggregation of the capital requirements for the risks of a mass accident, accident concentration and pandemic risk, calculated after loss absorbing capacity of technical provisions.
+
+
+r1540c0250 - Total net solvency capital requirement for health catastrophe risk
+-------------------------------------------------------------------------------
+
+
+This is the total net capital charge (after loss absorbing capacity of technical provisions) for the health catastrophe risk sub–module
+
+
+r1540c0260 - Total gross solvency capital requirement for health catastrophe risk
+---------------------------------------------------------------------------------
+
+
+This is the total gross capital charge for the health catastrophe risk sub — module (before loss absorbing capacity of technical provisions)
+
+
+r1600c0270 - Diversification within health underwriting risk module — Net
+-------------------------------------------------------------------------
+
+
+This is the diversification effect within the health underwriting risk sub–module as a result of the aggregation of the capital requirements SLT health underwriting risk sub–module, NSLT health underwriting risk sub–module and health catastrophe risk sub–module, referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, calculated after loss absorbing capacity of technical provision.
+
+
+r1600c0280 - Diversification within health underwriting risk module — Gross
+---------------------------------------------------------------------------
+
+
+This is the diversification effect within the health underwriting risk sub–module as a result of the aggregation of the capital requirements SLT health underwriting risk sub–module, NSLT health underwriting risk sub–module and health catastrophe risk sub–module, referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, calculated before loss absorbing capacity of technical provisions.
+
+
+r1700c0270 - Total net solvency capital requirement for health underwriting risk
+--------------------------------------------------------------------------------
+
+
+This is the total net solvency capital requirement for the health underwriting risk module.
+
+
+r1700c0280 - Total gross solvency capital requirement for health underwriting risk
+----------------------------------------------------------------------------------
+
+
+This is the total gross solvency capital requirement for the health underwriting risk module.
+
+
+z0010 - Article 112
+-------------------
+
+
+Identifies whether the reported figures have been requested under Article 112 (7), to provide an estimate of the SCR using standard formula. One of the options in the following closed list shall be used: 1 — Article 112 (7) reporting 2 — Regular reporting
+
+
+z0020 - Ring–fenced fund, matching adjustment portfolio or remaining part
+-------------------------------------------------------------------------
+
+
+Identifies whether the reported figures are with regard to a RFF, matching adjustment portfolio or to the remaining part. One of the options in the following closed list shall be used: 1 — RFF/MAP 2 — Remaining part
+
+
+z0030 - Fund/Portfolio number
+-----------------------------
+
+
+When item Z0020 = 1, identification number for a ring fenced fund or matching adjustment portfolio. This number is attributed by the undertaking within the scope of group supervision and must be consistent over time and with the fund/portfolio number reported in other templates.When item Z0020 = 2, then report ‘0’
+
+
+r0010c0010 - Simplifications used — health mortality risk
+---------------------------------------------------------
+
+
+Identify whether an undertakings within the scope of group supervision used simplifications for the calculation of health mortality risk. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0010/C0010 = 1, only C0060 and C0080 shall be filled in for R0100.
+
+
+r0020c0010 - Simplifications used — health longevity risk
+---------------------------------------------------------
+
+
+Identify whether an undertaking within the scope of group supervision used simplifications for the calculation of health longevity risk. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0020/C0010 = 1, only C0060 and C0080 shall be filled in for R0200.
+
+
+r0030c0010 - Simplifications used: health disability– morbidity risk — Medical expense
+--------------------------------------------------------------------------------------
+
+
+Identify whether an undertaking within the scope of group supervision used simplifications for the calculation of health disability morbidity risk — Medical expense. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0030/C0010 = 1, only C0060/R0310 and C0080/R0310 shall not be filled in.
+
+
+r0040c0010 - Simplifications used: health disability– morbidity risk — Income protection
+----------------------------------------------------------------------------------------
+
+
+Identify whether an undertaking within the scope of group supervision used simplifications for the calculation of health disability morbidity risk — Income protection. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0040/C0010 = 1, only C0060 and C0080 shall be filled in for R0340.
+
+
+r0050c0010 - Simplifications used: SLT lapse risk
+-------------------------------------------------
+
+
+Identify whether an undertaking within the scope of group supervision used simplifications for the calculation of NSLT lapse risk, referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0050/C0010 = 1, only C0060 and C0080 shall be filled in for R0400 to R0420.R0430 shall be fully completed in any case
+
+
+r0060c0010 - Simplifications used: health expense risk
+------------------------------------------------------
+
+
+Identify whether an undertaking within the scope of group supervision used simplifications for the calculation of health expense risk. The following options shall be used: 1 — Simplifications used 2 — Simplifications not usedIf R0060/C0010 = 1, only C0060 and C0080 shall be filled in for R0500.
+
+
+r0100c0020 - Initial absolute values before shock — Assets — Health mortality risk
+----------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health mortality risk, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0100c0030 - Initial absolute values before shock — Liabilities — Health mortality risk
+---------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health mortality risk, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0100c0040 - Absolute values after shock — Assets — Health mortality risk
+-------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health mortality risk charge, after the shock (i.e. permanent increase in mortality rates).Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0100c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health mortality risk
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (after the loss absorbing capacity of technical provisions) sensitive to health mortality risk charge, after the shock (i.e. permanent increase in mortality rates).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0100c0060 - Absolute value after shock — Net solvency capital requirement — Health mortality risk
+--------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health mortality risk, after adjustment for the loss absorbing capacity of technical provisions.If R0010/C0010=1, this item represents net capital charge for health mortality risk calculated using simplifications.
+
+
+r0100c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health mortality risk
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to health mortality risk charge, after the shock (permanent increase in mortality rates).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0100c0080 - Absolute value after shock — Gross solvency capital requirement — Health mortality risk
+----------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health mortality risk.If R0010/C0010=1, this item represents gross capital charge for health mortality risk calculated using simplifications.
+
+
+r0200c0020 - Initial absolute values before shock — Assets — Health longevity risk
+----------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health longevity risk, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0200c0030 - Initial absolute values before shock — Liabilities — Health longevity risk
+---------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health longevity risk, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0200c0040 - Absolute values after shock — Assets — Health longevity risk
+-------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health longevity risk after the shock (i.e. permanent decrease in mortality rates).Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0200c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health longevity risk
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (after the loss absorbing capacity of technical provisions) sensitive to health longevity risk, after the shock (i.e. permanent decrease in mortality rates.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0200c0060 - Absolute value after shock — Net solvency capital requirement — Health longevity risk
+--------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health longevity risk, after adjustment for the loss absorbing capacity of technical provisions.If R0020/C0010=1, this item represents net capital charge for health longevity risk calculated using simplifications.
+
+
+r0200c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health longevity risk
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to health longevity risk, after the shock (permanent decrease in mortality rates).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0200c0080 - Absolute value after shock — Gross solvency capital requirement — Health longevity risk
+----------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health longevity risk.If R0020/C0010=1, this item represents gross capital charge for health longevity risk calculated using simplifications.
+
+
+r0300c0060 - Absolute value after shock — Net solvency capital requirement –Health disability — morbidity risk
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health disability — morbidity risk, after adjustment for the loss absorbing capacity of technical provisions.
+
+
+r0300c0080 - Absolute value after shock — Gross solvency capital requirement — Health disability — morbidity risk
+-----------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health disability — morbidity risk.
+
+
+r0310c0060 - Absolute value after shock — Net solvency capital requirement –Health disability — morbidity risk — Medical expense
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health disability — morbidity risk — Medical expense, after adjustment for the loss absorbing capacity of technical provisions.If R0030/C0010=1, this item represents net capital charge for health disability — morbidity risk — Medical expense calculated using simplifications.
+
+
+r0310c0080 - Absolute value after shock — Gross solvency capital requirement — Health disability — morbidity risk — Medical expense
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health disability — morbidity risk — Medical expense.If R0030/C0010=1, this item represents gross capital charge for health disability — morbidity risk — Medical expense calculated using simplifications.
+
+
+r0320c0020 - Initial absolute values before shock — Assets — Health disability — morbidity risk — Medical expense — increase of medical payments
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Medical expense charge due to an increase of medical payments, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0030 - Initial absolute values before shock — Liabilities — Health disability — morbidity risk — Medical expense — increase of medical payments
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health disability — morbidity risk — Medical expense charge due to an increase of medical payments, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0040 - Absolute values after shock — Assets — Health disability — morbidity risk — Medical expense — increase of medical payments
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Medical expense charge due to an increase of medical payments, after the shock (i.e. as prescribed by standard formula).Recoverables from reinsurance and SPVs shall not be included in this cell.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Medical expense — increase of medical payments
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to health disability — morbidity risk — Medical expense charge due to an increase of medical payments, after the shock (i.e. as prescribed by standard formula).The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0060 - Absolute value after shock — Net solvency capital requirement –Health disability — morbidity risk — Medical expense — increase of medical payments
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health disability — morbidity risk — Medical expense — increase of medical payments, after adjustment for the loss absorbing capacity of technical provisions. If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Medical expense — increase of medical payments
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) underlying health disability — morbidity risk — Medical expense charge expenses — increase of medical payments, after the shock (i.e. as prescribed by standard formula) as used to compute the risk.The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0320c0080 - Absolute value after shock — Gross solvency capital requirement — Health disability — morbidity risk — Medical expense — increase of medical payments
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health disability — morbidity risk — Medical expense — increase of medical payments.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0020 - Initial absolute values before shock — Assets — Health disability — morbidity risk — Medical expense — decrease of medical payments
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Medical expense charge due to an decrease of medical payments, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0030 - Initial absolute values before shock — Liabilities — Health disability — morbidity risk — Medical expense — decrease of medical payments
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health disability — morbidity risk — Medical expense charge due to an decrease of medical payments, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0040 - Absolute values after shock — Assets — Health disability — morbidity risk — Medical expense — decrease of medical payments
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Medical expense charge due to an decrease of medical payments, after the shock (i.e. as prescribed by standard formula).Recoverables from reinsurance and SPVs shall not be included in this cell.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Medical expense — decrease of medical payments
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to health disability — morbidity risk — Medical expense charge due to an decrease of medical payments, after the shock (i.e. as prescribed by standard formula).The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0060 - Absolute value after shock — Net solvency capital requirement –Health disability — morbidity risk — Medical expense — decrease of medical payments
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health disability — morbidity risk — Medical expense — decrease of medical payments, after adjustment for the loss absorbing capacity of technical provisions.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Medical expense — decrease of medical payments
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) underlying health disability — morbidity risk — Medical expense charge — decrease of medical payments, after the shock (i.e. as prescribed by standard formula) as used to compute the risk.The amount of TP shall be net of reinsurance and SPV recoverables.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0330c0080 - Absolute value after shock — Gross solvency capital requirement — Health disability — morbidity risk — Medical expense — increase of medical payments
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health disability — morbidity risk — Medical expense — decrease of medical payments.If R0030/C0010=1, this row shall not be filled in.
+
+
+r0340c0020 - Initial absolute values before shock — Assets — Health disability — morbidity risk — Income protection
+-------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Income protection, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0340c0030 - Initial absolute values before shock — Liabilities — Health disability — morbidity risk — Income protection
+------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health disability — morbidity risk — Income protection charge, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0340c0040 - Absolute values after shock — Assets — Health disability — morbidity risk — Income protection
+----------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health disability — morbidity risk — Income protection charge, after the shock (i.e. as prescribed by standard formula).Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0340c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Income protection
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to health disability — morbidity risk — Income protection, after the shock (i.e. as prescribed by standard formula).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0340c0060 - Absolute value after shock — Net solvency capital requirement –Health disability — morbidity risk — Income protection
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health disability — morbidity risk — Income protection, after adjustment for the loss absorbing capacity of technical provisions.If R0040/C0010=1, this item represents net capital charge for health disability — morbidity risk — Income protection calculated using simplifications.
+
+
+r0340c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health disability — morbidity risk — Income protection
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) underlying health disability — morbidity risk — Income protection charge, after the shock (i.e. as prescribed by standard formula) as used to compute the risk.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0340c0080 - Absolute value after shock — Gross solvency capital requirement — Health disability — morbidity risk — Income protection
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health disability — morbidity risk — Income protection.If R0040/C0010=1, this item represents gross capital charge for health disability — morbidity risk — Income protection calculated using simplifications.
+
+
+r0400c0060 - Absolute value after shock — Net solvency capital requirement — SLT Health lapse risk
+--------------------------------------------------------------------------------------------------
+
+
+This is the overall net capital charge for SLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, after adjustment for the loss absorbing capacity of technical provisions.
+
+
+r0400c0080 - Absolute value after shock — Gross solvency capital requirement — SLT Health lapse risk
+----------------------------------------------------------------------------------------------------
+
+
+This is the overall gross capital charge (before the loss absorbing capacity for technical provisions) for SLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35.
+
+
+r0410c0020 - Initial absolute values before shock — Assets — SLT health lapse risk– risk of increase in lapse
+-------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the risk of an increase in lapse rates, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0410c0030 - Initial absolute values before shock — Liabilities — SLT health lapse risk — risk of increase in lapse
+-------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to the risk of an increase in lapse rates, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0410c0040 - Absolute values after shock — Assets — SLT health lapse risk –risk of increase in lapse
+----------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the risk of an increase in lapse rates after the shock (i.e. permanent increase in the rates of lapse).Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0410c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — SLT health lapse risk –risk of increase in lapse
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (after the loss absorbing capacity of technical provisions) sensitive to the risk of an increase in lapse rates, after the shock (i.e. permanent increase of the rates of lapse).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0410c0060 - Absolute value after shock — Net solvency capital requirement — SLT health lapse risk –risk of increase in lapse
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for the risk of a permanent increase in lapse rates, after adjustment for the loss absorbing capacity of technical provisions.If R0050/C0010=1, this item represents net capital charge for a permanent increase in SLT health lapse rates referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, calculated using simplified calculation for SLT health lapse rate
+
+
+r0410c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — SLT health lapse risk — risk of increase in lapse
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) underlying the risk of a permanent increase in lapse rates, after the shock (permanent increase in lapse rates) as used to compute the risk.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0410c0080 - Absolute value after shock — Gross solvency capital requirement — SLT health lapse risk –risk of increase in lapse
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (excluding the loss absorbing capacity for technical provisions) for the risk of a permanent increase in lapse rates.If R0050/C0010=1, this item represents gross capital charge for a permanent increase in lapse rates, calculated using simplified calculation for SLT health lapse rate referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35.
+
+
+r0420c0020 - Initial absolute values before shock — Assets — SLT health lapse risk– risk of decrease in lapse
+-------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the risk of a permanent decrease in lapse rates, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0420c0030 - Initial absolute values before shock — Liabilities — SLT health lapse risk — risk of decrease in lapse
+-------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to the risk of a permanent decrease in lapse rates, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0420c0040 - Absolute values after shock — Assets — SLT health lapse risk –risk of decrease in lapse
+----------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the risk of a permanent decrease in lapse rates, after the shock (i.e. permanent decrease in the rates of lapse).Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0420c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — SLT health lapse risk –risk of decrease in lapse
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (after the loss absorbing capacity of technical provisions) sensitive to the risk of a permanent decrease in lapse rates, after the shock (i.e. permanent decrease of the rates of lapse).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0420c0060 - Absolute value after shock — Net solvency capital requirement — SLT health lapse risk –risk of decrease in lapse
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for the risk of a permanent decrease in lapse rates, after adjustment for the loss absorbing capacity of technical provisions.If R0050/C0010=1, this item represents net capital charge for a permanent decrease in SLT health rates referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, calculated using simplified calculation for SLT health lapse rate
+
+
+r0420c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — SLT health lapse risk –risk of decrease in lapse
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to the risk of a permanent decrease in lapse rates, after the shock (permanent decrease in lapse rates).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0420c0080 - Absolute value after shock — Gross solvency capital requirement — SLT health lapse risk –risk of decrease in lapse
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity for technical provisions) for the risk of a permanent decrease in lapse ratesIf R0050/C0010=1, this item represents gross capital charge for a permanent decrease in SLT health rates referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, calculated using simplified calculation for SLT health lapse rate.
+
+
+r0430c0020 - Initial absolute values before shock — Assets — SLT health lapse risk– mass lapse risk
+---------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to mass lapse risk, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0430c0030 - Initial absolute values before shock — Liabilities — SLT health lapse risk –mass lapse risk
+--------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to mass lapse risk, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0430c0040 - Absolute values after shock — Assets — SLT health lapse risk — mass lapse risk
+-------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to mass lapse risk, after the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0430c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — SLT health lapse risk — mass lapse risk
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to mass lapse risk, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0430c0060 - Absolute value after shock — Net solvency capital requirement — SLT health lapse risk — mass lapse risk
+--------------------------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for SLT health lapse risk — mass lapse risk, referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, after adjustment for the loss absorbing capacity of technical provisions.
+
+
+r0430c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health lapse risk — mass lapse risk
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to mass lapse risk, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0430c0080 - Absolute value after shock — Gross solvency capital requirement — SLT health lapse risk — mass lapse risk
+----------------------------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (excluding the loss absorbing capacity for technical provisions) for SLT health lapse risk — mass lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35.
+
+
+r0500c0020 - Initial absolute values before shock — Assets — Health expense risk
+--------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to expense risk, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0500c0030 - Initial absolute values before shock — Liabilities — Health expense risk
+-------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to expense risk, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0500c0040 - Absolute values after shock — Assets — Health expense risk
+-----------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health expense risk, after the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0500c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health expense risk
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to health expense risk, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0500c0060 - Absolute value after shock — Net solvency capital requirement — Health expense risk
+------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health expense risk, after adjustment for the loss absorbing capacity of technical provisions.If R0060/C0010=1, this item represents net capital charge for health expense risk calculated using simplified calculations.
+
+
+r0500c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health expense risk
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to expense risk charge, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0500c0080 - Absolute value after shock — Gross solvency capital requirement — Health expense risk
+--------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (excluding the loss absorbing capacity of technical provisions) for health expense risk.If R0060/C0010=1, this item represents gross capital charge for health expense risk calculated using simplified calculations.
+
+
+r0600c0020 - Initial absolute values before shock — Assets — Health revision risk
+---------------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health revision risk, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0600c0030 - Initial absolute values before shock — Liabilities –Health revision risk
+-------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to health revision risk charge, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0600c0040 - Absolute values after shock — Assets — Health revision risk
+------------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to health revision risk, after the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r0600c0050 - Absolute values after shock — Liabilities (after the loss absorbing capacity of technical provisions) — Health revision risk
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities (after the loss absorbing capacity of technical provisions) sensitive to health revision risk, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0600c0060 - Absolute value after shock — Net solvency capital requirement — Health revision risk
+-------------------------------------------------------------------------------------------------
+
+
+This is the net capital charge for health revision risk, after adjustment for the loss absorbing capacity of technical provisions.
+
+
+r0600c0070 - Absolute value after shock — Liabilities (before the loss absorbing capacity of technical provisions) — Health revision risk
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the absolute value of the liabilities (before the loss absorbing capacity of technical provisions) sensitive to health revision risk charge, after the shock (i.e. as prescribed by standard formula, a % increase in the annual amount payable for annuities exposed to revision risk).The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r0600c0080 - Absolute value after shock — Gross solvency capital requirement — Health revision risk
+---------------------------------------------------------------------------------------------------
+
+
+This is the gross capital charge (before the loss absorbing capacity of technical provisions) for health revision risk.
+
+
+r0700c0060 - Diversification within SLT health underwriting risk module — Net
+-----------------------------------------------------------------------------
+
+
+This is the diversification effect within the SLT health underwriting risk module referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, as a result of the aggregation of the net capital requirements (after adjustment for the loss absorbing capacity of technical provisions) of the single risk sub–modules.Diversification shall be reported as a negative value if they reduce the capital requirement.
+
+
+r0700c0080 - Diversification within SLT health underwriting risk module — Gross
+-------------------------------------------------------------------------------
+
+
+This is the diversification effect within the SLT health underwriting risk module referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, as a result of the aggregation of the gross capital requirements (before the loss absorbing capacity of technical provisions) of the single risk sub–modules.Diversification shall be reported as a negative value if they reduce the capital requirement.
+
+
+r0800c0060 - Net solvency capital requirements — SLT health underwriting risk
+-----------------------------------------------------------------------------
+
+
+This is the total net capital charge for SLT health underwriting risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, after adjustment of the loss absorbing capacity of technical provisions.
+
+
+r0800c0080 - Gross solvency capital — SLT health underwriting risk
+------------------------------------------------------------------
+
+
+This is the total gross capital charge for SLT health underwriting risk, before adjustment of the loss absorbing capacity of technical provisions.
+
+
+r0900c0090 - Revision shock USP
+-------------------------------
+
+
+Revision shock — group specific parameter as calculated by the group and approved by the supervisory authority.This item is not reported where no group specific parameter is used.
+
+
+r1000–r1030c0100 - Standard deviation for premium risk — USP
+------------------------------------------------------------
+
+
+This is the group specific standard deviation for premium risk for each lines of business and its proportional reinsurance as calculated by the group and approved or prescribed by the supervisory authority.This item is not reported where no group specific parameter is used.
+
+
+r1000–r1030c0110 - USP Standard Deviation gross/net
+---------------------------------------------------
+
+
+Identify if the USP standard Deviation was applied gross or net. One of the options in the following closed list shall be used: 1 — USP gross 2 — USP net
+
+
+r1000–r1030c0120 - Standard deviation for premium risk — USP — Adjustment factor for non — proportional reinsurance
+-------------------------------------------------------------------------------------------------------------------
+
+
+This is the group specific adjustment factor for non–proportional reinsurance of each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, which allows groups to take into account the risk–mitigating effect of particular per risk excess of loss reinsurance — as calculated by the group and approved or prescribed by the supervisory authorityWhere no group specific parameter is used, this cell shall be left blank.
+
+
+r1000–r1030c0130 - Standard deviation for reserve risk — USP
+------------------------------------------------------------
+
+
+This is the group specific standard deviation for reserve risk for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance as calculated by the group and approved or prescribed by the supervisory authority.This item is not reported where no group specific parameter is used.
+
+
+r1000–r1030c0140 - Volume measure for premium and reserve risk — volume measure for premium risk: Vprem
+-------------------------------------------------------------------------------------------------------
+
+
+The volume measure for premium risk for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance
+
+
+r1000–r1030c0150 - Volume measure for premium and reserve risk –Volume measure reserve risk: Vres
+-------------------------------------------------------------------------------------------------
+
+
+The volume measure for reserve risk for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance
+
+
+r1000–r1030c0160 - Volume measure for premium and reserve risk — Geographical Diversification
+---------------------------------------------------------------------------------------------
+
+
+This represents the geographical diversification to be used for the volume measure for premium and reserve risk for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance.If the factor for geographical diversification is not calculated, then this item is set to the default value of 1.
+
+
+r1000–r1030c0170 - Volume measure for premium and reserve risk — V
+------------------------------------------------------------------
+
+
+The volume measure for NSLT health premium and reserve risk referred to in Title I Chapter V Sections 4 and 12 of Delegated Regulation (EU) 2015/35, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and its proportional reinsurance.
+
+
+r1040c0170 - Total Volume measure for premium and reserve risk
+--------------------------------------------------------------
+
+
+The total volume measure for premium and reserve risk, equal to the sum of the volume measures for premium and reserve risk for all lines of business.
+
+
+r1050c0100 - Combined standard deviation
+----------------------------------------
+
+
+This is the combined standard deviation for premium and reserve risk for all segments.
+
+
+r1100c0180 - Solvency capital requirement — NSLT health premium and reserve risk
+--------------------------------------------------------------------------------
+
+
+This is the total capital charge for the NSLT health premium and reserve risk sub module referred to in Title I Chapter V Sections 4 and 12 of Delegated Regulation (EU) 2015/35.
+
+
+r1200c0190 - Initial absolute values before shock — Assets — Lapse risk
+-----------------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the NSLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, before the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r1200c0200 - Initial absolute values before shock — Liabilities — Lapse risk
+----------------------------------------------------------------------------
+
+
+This is the absolute value of liabilities sensitive to the NSLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, before the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r1200c0210 - Absolute values after shock — Assets — Lapse risk
+--------------------------------------------------------------
+
+
+This is the absolute value of the assets sensitive to the NSLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, after the shock.Recoverables from reinsurance and SPVs shall not be included in this cell.
+
+
+r1200c0220 - Absolute values after shock Liabilities — Lapse risk
+-----------------------------------------------------------------
+
+
+This is the absolute value of the liabilities sensitive to lapse risk, after the shock.The amount of TP shall be net of reinsurance and SPV recoverables.
+
+
+r1200c0230 - Absolute value after shock– Solvency capital requirement — Lapse risk
+----------------------------------------------------------------------------------
+
+
+This is the capital charge for NSLT health lapse risk referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35.
+
+
+r1300c0240 - Diversification within NSLT health underwriting risk — gross
+-------------------------------------------------------------------------
+
+
+This is the diversification effect within the NSLT health underwriting risk sub–module referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, as a result of the aggregation of the capital requirements for NSLT health premium and reserve risk and NSLT health lapse risk.Diversification shall be reported as a negative value if they reduce the capital requirement.
+
+
+r1400c0240 - Total solvency capital requirement for NSLT health underwriting
+----------------------------------------------------------------------------
+
+
+This is the total capital charge for the NSLT health underwriting risk sub module referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35.
+
+
+r1500c0250 - Net solvency capital requirement for health catastrophe risks — Mass accident risk sub module
+----------------------------------------------------------------------------------------------------------
+
+
+The net solvency capital requirement for the mass risk sub–module calculated after loss absorbing capacity of technical provisions
+
+
+r1500c0260 - Gross solvency capital requirement for health catastrophe risks — Mass accident risk sub module
+------------------------------------------------------------------------------------------------------------
+
+
+The gross solvency capital requirement for the mass risk sub–module, calculated before loss absorbing capacity of technical provisions.
+
+
+r1510c0250 - Net solvency capital requirement for health catastrophe risks — Accident concentration risk
+--------------------------------------------------------------------------------------------------------
+
+
+The net solvency capital requirement for the accident concentration risk sub–module, calculated after loss absorbing capacity of technical provisions
+
+
+r1510c0260 - Gross solvency capital requirement for health catastrophe risks– Accident concentration risk
+---------------------------------------------------------------------------------------------------------
+
+
+The gross solvency capital requirement for the accident concentration risk sub–module calculated before loss absorbing capacity of technical provisions.
+
+
+r1520c0250 - Net solvency capital requirement for health catastrophe risks — Pandemic risk
+------------------------------------------------------------------------------------------
+
+
+The net solvency capital requirement for the pandemic risk sub–module, calculated after loss absorbing capacity of technical provisions.
+
+
+r1520c0260 - Gross solvency capital requirement for health catastrophe risks — Pandemic risk
+--------------------------------------------------------------------------------------------
+
+
+The gross solvency capital requirement for the pandemic risk sub–module is calculated before loss absorbing capacity of technical provisions.
+
+
+r1530c0250 - Diversification within health catastrophe risk — Net
+-----------------------------------------------------------------
+
+
+This is the diversification effect within the health catastrophe risk sub–module as a result of the aggregation of the capital requirements for the risks of a mass accident, accident concentration and pandemic risk, calculated after loss absorbing capacity of technical provisions
+
+
+r1530c0260 - Diversification within health catastrophe risk — Gross
+-------------------------------------------------------------------
+
+
+This is the diversification effect within the health catastrophe risk sub–module as a result of the aggregation of the capital requirements for the risks of a mass accident, accident concentration and pandemic risk, calculated after loss absorbing capacity of technical provisions.
+
+
+r1540c0250 - Total net solvency capital requirement for health catastrophe risk
+-------------------------------------------------------------------------------
+
+
+This is the total net capital charge (after loss absorbing capacity of technical provisions) for the health catastrophe risk sub–module
+
+
+r1540c0260 - Total gross solvency capital requirement for health catastrophe risk
+---------------------------------------------------------------------------------
+
+
+This is the total gross capital charge for the health catastrophe risk sub — module (before loss absorbing capacity of technical provisions)
+
+
+r1600c0270 - Diversification within health underwriting risk module — Net
+-------------------------------------------------------------------------
+
+
+This is the diversification effect within the health underwriting risk sub–module as a result of the aggregation of the capital requirements SLT health underwriting risk sub–module, NSLT health underwriting risk sub–module and health catastrophe risk sub–module, referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, calculated after loss absorbing capacity of technical provision.
+
+
+r1600c0280 - Diversification within health underwriting risk module — Gross
+---------------------------------------------------------------------------
+
+
+This is the diversification effect within the health underwriting risk sub–module as a result of the aggregation of the capital requirements SLT health underwriting risk sub–module, NSLT health underwriting risk sub–module and health catastrophe risk sub–module, referred to in Title I Chapter V Section 4 of Delegated Regulation (EU) 2015/35, calculated before loss absorbing capacity of technical provisions.
+
+
+r1700c0270 - Total net solvency capital requirement for health underwriting risk
+--------------------------------------------------------------------------------
+
+
+This is the total net solvency capital requirement for the health underwriting risk module.
+
+
+r1700c0280 - Total gross solvency capital requirement for health underwriting risk
+----------------------------------------------------------------------------------
+
+
+This is the total gross solvency capital requirement for the health underwriting risk module.
+
+

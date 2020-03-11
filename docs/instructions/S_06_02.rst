@@ -1,0 +1,447 @@
+========================
+S.06.02 - List of assets
+========================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to quarterly and annual submission of information for individual entities.
+
+The asset categories referred to in this template are the ones defined in Annex IV — Assets Categories of this Regulation and references to Complementary Identification Code (‘CIC’) refer to Annex VI — CIC table of this Regulation.
+
+This template shall reflect the list of all assets included in the Balance–sheet classifiable as asset categories 0 to 9 of Annex IV — Assets Categories of this Regulation. In particular in case of securities lending and repurchase agreements the underlying securities that are kept in the Balance–sheet shall be reported in this template.
+
+This template contains an item–by–item list of assets held directly by the undertaking (i.e. not on a look–through basis), classifiable as asset categories 0 to 9 (in case of unit–linked and index–linked product managed by the (re)insurance undertaking, the assets to be reported are also only the ones covered by asset categories 0 to 9, e.g. recoverables and liabilities related to this products shall not be reported), with the following exceptions:
+
+a)
+
+Cash shall be reported in one row per currency, for each combination of items C0060, C0070, C0080 and C0090;
+
+b)
+
+Transferable deposits (cash equivalents) and other deposits with maturity of less than one year shall be reported in one row per pair of bank and currency, for each combination of items C0060, C0070, C0080, C0090 and C0290;
+
+c)
+
+Mortgages and loans to individuals, including loans on policies, shall be reported in two rows, one row regarding loans to administrative, management and supervisory body, for each combination of items C0060, C0070, C0080, C0090 and C0290 and another regarding loans to other natural persons, for each combination of items C0060, C0070, C0080, C0090 and C0290;
+
+d)
+
+Deposits to cedants shall be reported in one single line, for each combination of items C0060, C0070, C0080 and C0090;
+
+e)
+
+Plant and equipment for the own use of the undertaking shall be reported in one single line, for each combination of items C0060, C0070, C0080 and C0090.
+
+This template comprises two tables: Information on positions held and Information on assets.
+
+On the table Information on positions held, each asset shall be reported separately in as many rows as needed in order to properly fill in all variables requested in that table. If for the same asset two values can be attributed to one variable, then this asset needs to be reported in more than one line.
+
+On the table Information on assets, each asset shall be reported separately, with one row for each asset, filling in all applicable variables requested in that table.
+
+The information regarding the external rating (C0320) and nominated External Credit Assessment Institutions (‘ECAI’) (C0330) may be limited (not reported) in the following circumstances:
+
+a)
+
+through a decision of the national supervisory authority (‘NSA’) under Article 35 (6) and (7) of the Directive 2009/138/EC; or
+
+b)
+
+through a decision of the national supervisory authority in the cases where the insurance and reinsurance undertakings have in place outsourcing arrangements in the area of investments that lead to this specific information not being available directly to the undertaking.
+
+
+c0040 - Asset ID Code
+---------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be unique and kept consistent over time.When the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies, it is necessary to specify the Asset ID code and the ISO 4217 alphabetic code of the currency, as in the following example: ‘code+EUR’
+
+
+c0050 - Asset ID Code Type
+--------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingWhen the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies and the code in C0040 is defined by Asset ID code and the ISO 4217 alphabetic code of the currency, the Asset ID Code Type shall refer to option 9 and the option of the original Asset ID Code, as in the following example for which the code reported was ISIN code+currency: ‘9/1’.
+
+
+c0060 - Portfolio
+-----------------
+
+
+Distinction between life, non–life, shareholder's funds, other internal funds, general (no split) and ring fenced funds. One of the options in the following closed list shall be used: 1 — Life 2 — Non–life 3 — Ring fenced funds 4 — Other internal funds 5 — Shareholders' funds 6 — GeneralThe split is not mandatory, except for identifying ring fenced funds, but shall be reported if the undertaking uses it internally. When an undertaking does not apply a split ‘general’ shall be used.
+
+
+c0070 - Fund number
+-------------------
+
+
+Applicable to assets held in ring fenced funds or other internal funds (defined according to national markets).Number which is attributed by the undertaking, corresponding to the unique number assigned to each fund. This number has to be consistent over time and shall be used to identify the funds in other templates. It shall not be re–used for a different fund.
+
+
+c0080 - Matching portfolio number
+---------------------------------
+
+
+Number which is attributed by the undertaking, corresponding to the unique number assigned to each matching adjustment portfolio as prescribed in Article 77b(1)(a) of Directive 2009/138/EC. This number has to be consistent over time and shall be used to identify the matching adjustment portfolio in other templates. It shall not be re–used for a different matching adjustment portfolio.
+
+
+c0090 - Asset held in unit linked and index linked contracts
+------------------------------------------------------------
+
+
+Identify the assets that are held by unit linked and index linked contracts. One of the options in the following closed list shall be used: 1 — Unit–linked or index–linked 2 — Neither unit–linked nor index–linked
+
+
+c0100 - Asset pledged as collateral
+-----------------------------------
+
+
+Identify assets kept in the undertaking's balance–sheet that are pledged as collateral. For partially pledged assets two rows for each asset shall be reported, one for the pledged amount and another for the remaining part. One of the options in the following closed list shall be used for the pledged part of the asset: 1 — Assets in the balance sheet that are collateral pledged 2 — Collateral for reinsurance accepted 3 — Collateral for securities borrowed 4 — Repos 9 — Not collateral
+
+
+c0110 - Country of custody
+--------------------------
+
+
+ISO 3166–1 alpha–2 code of the country where undertaking assets are held in custody. For identifying international custodians, such as Euroclear, the country of custody will be the one corresponding to the legal establishment where the custody service was contractually defined.In case of the same asset being held in custody in more than one country, each asset shall be reported separately in as many rows as needed in order to properly identify all countries of custody.This item is not applicable for CIC category 8 — Mortgages and Loans (for mortgages and loans to natural persons, as those assets are not required to be individualised), CIC 71, CIC 75 and for CIC 95 — Plant and equipment (for own use) for the same reason.Regarding CIC Category 9, excluding CIC 95 — Plant and equipment (for own use), the issuer country is assessed by the address of the property.
+
+
+c0120 - Custodian
+-----------------
+
+
+Name of the financial institution that is the custodian.In case of the same asset being held in custody in more than one custodian, each asset shall be reported separately in as many rows as needed in order to properly identify all custodians.When available, this item corresponds to the entity name in the LEI database. When this is not available it corresponds to the legal name.This item is not applicable for CIC category 8 — Mortgages and Loans (for mortgages and loans to natural persons, as those assets are not required to be individualised), CIC 71, CIC 75 and for CIC category 9 — Property.
+
+
+c0130 - Quantity
+----------------
+
+
+Number of assets, for relevant assets.This item shall not be reported if item Par amount (C0140) is reported.
+
+
+c0140 - Par amount
+------------------
+
+
+Amount outstanding measured at par amount, for all assets where this item is relevant, and at nominal amount for CIC = 72, 73, 74, 75 and 79 if applicable.This item shall not be reported if item Quantity (C0130) is reported.
+
+
+c0150 - Valuation method
+------------------------
+
+
+Identify the valuation method used when valuing assets. One of the options in the following closed list shall be used: 1 — quoted market price in active markets for the same assets 2 — quoted market price in active markets for similar assets 3 — alternative valuation methods 4 — adjusted equity methods (applicable for the valuation of participations) 5 — IFRS equity methods (applicable for the valuation of participations) 6 — Market valuation according to Article 9(4) of Delegated Regulation (EU) 2015/35
+
+
+c0160 - Acquisition value
+-------------------------
+
+
+Total acquisition value for assets held, clean value without accrued interest. Not applicable to CIC categories 7 and 8.
+
+
+c0170 - Total Solvency II amount
+--------------------------------
+
+
+Value calculated as defined by Article 75 of the Directive 2009/138/EC.The following shall be considered:—Corresponds to the multiplication of ‘Par amount’ by ‘Unit percentage of par amount Solvency II price’ plus ‘Accrued interest’, for assets where the first two items are relevant;—Corresponds to the multiplication of ‘Quantity’ by ‘Unit Solvency II price’, for assets where these two items are relevant;—For assets classifiable under asset categories 7, 8 and 9, this shall indicate the Solvency II value of the asset.
+
+
+c0180 - Accrued interest
+------------------------
+
+
+Quantify the amount of accrued interest after the last coupon date for interest bearing securities. Note that this value is also part of item Total Solvency II amount.
+
+
+c0010 - Legal name of the undertaking
+-------------------------------------
+
+
+Identify the legal name of the undertaking within the scope of group supervision that holds the asset.This item shall be filled in only when it relates to assets held by participating undertakings, insurance holding companies, mixed–financial holding companies and subsidiaries under deduction and aggregation method.
+
+
+c0020 - Identification code of the undertaking
+----------------------------------------------
+
+
+Identification code by this order of priority if existent:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of group supervision: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of group supervision, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0030 - Type of code of the ID of the undertaking
+-------------------------------------------------
+
+
+Type of ID Code used for the ‘Identification code of the undertaking’ item. One of the options in the following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0040 - Asset ID Code
+---------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be unique and kept consistent over time.When the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies, it is necessary to specify the Asset ID code and the ISO 4217 alphabetic code of the currency, as in the following example: ‘code+EUR’
+
+
+c0050 - Asset ID Code Type
+--------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingWhen the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies and the code in C0040 is defined by Asset ID code and the ISO 4217 alphabetic code of the currency, the Asset ID Code Type shall refer to option 9 and the option of the original Asset ID Code, as in the following example for which the code reported was ISIN code+currency: ‘9/1’.
+
+
+c0060 - Portfolio
+-----------------
+
+
+Distinction between life, non–life, shareholder's funds, other internal funds, general (no split) and ring fenced funds. One of the options in the following closed list shall be used: 1 — Life 2 — Non–life 3 — Ring fenced funds 4 — Other internal funds 5 — Shareholders' funds 6 — GeneralThe split is not mandatory, except for identifying ring fenced funds, but shall be reported if the undertaking uses it internally. When an undertaking does not apply a split ‘general’ shall be used.
+
+
+c0070 - Fund number
+-------------------
+
+
+Applicable to assets held in ring fenced funds or other internal funds (defined according to national markets).Number which is attributed by the undertaking, corresponding to the unique number assigned to each fund. This number has to be consistent over time and shall be used to identify the funds in other templates. It shall not be re–used for a different fund.
+
+
+c0080 - Matching portfolio number
+---------------------------------
+
+
+Number which is attributed by the undertaking, corresponding to the unique number assigned to each matching adjustment portfolio as prescribed in Article 77b(1)(a) of Directive 2009/138/EC. This number has to be consistent over time and shall be used to identify the matching adjustment portfolio in other templates. It shall not be re–used for a different matching adjustment portfolio.
+
+
+c0090 - Asset held in unit linked and index linked contracts
+------------------------------------------------------------
+
+
+Identify the assets that are held by unit linked and index linked contracts. One of the options in the following closed list shall be used: 1 — Unit–linked or index–linked 2 — Neither unit–linked nor index–linked
+
+
+c0100 - Asset pledged as collateral
+-----------------------------------
+
+
+Identify assets kept in the undertaking's balance–sheet that are pledged as collateral. For partially pledged assets two rows for each asset shall be reported, one for the pledged amount and another for the remaining part. One of the options in the following closed list shall be used for the pledged part of the asset: 1 — Assets in the balance sheet that are collateral pledged 2 — Collateral for reinsurance accepted 3 — Collateral for securities borrowed 4 — Repos 9 — Not collateral
+
+
+c0110 - Country of custody
+--------------------------
+
+
+ISO 3166–1 alpha–2 code of the country where undertaking assets are held in custody. For identifying international custodians, such as Euroclear, the country of custody will be the one corresponding to the legal establishment where the custody service was contractually defined.In case of the same asset being held in custody in more than one country, each asset shall be reported separately in as many rows as needed in order to properly identify all countries of custody.This item is not applicable for CIC category 8 — Mortgages and Loans (for mortgages and loans to natural persons, as those assets are not required to be individualised), CIC 71, CIC 75 and for CIC 95 — Plant and equipment (for own use) for the same reason.Regarding CIC Category 9, excluding CIC 95 — Plant and equipment (for own use), the issuer country is assessed by the address of the property.
+
+
+c0120 - Custodian
+-----------------
+
+
+Name of the financial institution that is the custodian.In case of the same asset being held in custody in more than one custodian, each asset shall be reported separately in as many rows as needed in order to properly identify all custodians. When available, this item corresponds to the entity name in the LEI database. When this is not available corresponds to the legal name.This item is not applicable for CIC category 8 — Mortgages and Loans (for mortgages and loans to natural persons, as those assets are not required to be individualised), CIC 71, CIC 75 and for CIC 9 — Property.
+
+
+c0130 - Quantity
+----------------
+
+
+Number of assets, for relevant assets.This item shall not be reported if item Par amount (C0140) is reported.
+
+
+c0140 - Par amount
+------------------
+
+
+Amount outstanding measured at par amount, for all assets where this item is relevant, and at nominal amount for CIC = 72, 73, 74, 75 and 79 if applicable.This item shall not be reported if item Quantity (C0130) is reported.
+
+
+c0150 - Valuation method
+------------------------
+
+
+Identify the valuation method used when valuing assets. One of the options in the following closed list shall be used: 1 — quoted market price in active markets for the same assets 2 — quoted market price in active markets for similar assets 3 — alternative valuation methods 4 — adjusted equity methods (applicable for the valuation of participations) 5 — IFRS equity methods (applicable for the valuation of participations) 6 — Market valuation according to Article 9(4) of Delegated Regulation 2015/35
+
+
+c0160 - Acquisition value
+-------------------------
+
+
+Total acquisition value for assets held, clean value without accrued interest. .Not applicable to CIC categories 7 and 8.
+
+
+c0170 - Total Solvency II amount
+--------------------------------
+
+
+Value calculated as defined by Article 75 of the Directive 2009/138/EC.The following shall be considered:—Corresponds to the multiplication of ‘Par amount’ by ‘Unit percentage of par amount Solvency II price’ plus ‘Accrued interest’ , for assets where the first two items are relevant;—Corresponds to the multiplication of ‘Quantity’ by ‘Unit Solvency II price’, for assets where these two items are relevant;—For assets classifiable under asset categories 7, 8 and 9, this shall indicate the Solvency II value of the asset.
+
+
+c0180 - Accrued interest
+------------------------
+
+
+Quantify the amount of accrued interest after the last coupon date for interest bearing securities. Note that this value is also part of item Total Solvency II amount.
+
+
+c0040 - Asset ID Code
+---------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be unique and kept consistent over time.When the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies, it is necessary to specify the Asset ID code and the ISO 4217 alphabetic code of the currency, as in the following example: ‘code+EUR’
+
+
+c0050 - Asset ID Code Type
+--------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingWhen the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies and the code in C0040 is defined by Asset ID code and the ISO 4217 alphabetic code of the currency, the Asset ID Code Type shall refer to option 9 and the option of the original Asset ID Code, as in the following example for which the code reported was ISIN code+currency: ‘9/1’.
+
+
+c0190 - Item Title
+------------------
+
+
+Identify the reported item by filling the name of the asset (or the address in case of property), with the detail settled by the undertaking.The following shall be considered:—Regarding CIC category 8 — Mortgages and Loans, when relating to mortgage and loans to natural persons, this item shall contain ‘Loans to AMSB members’ i.e. loans to the Administrative, Management and Supervisory Body (‘AMSB’) or ‘Loans to other natural persons’, according to its nature, as those assets are not required to be individualised. Loans to other than natural persons shall be reported line–by–line.—This item is not applicable for CIC 95 — Plant and equipment (for own use) as those assets are not required to be individualised, CIC 71 and CIC 75.
+
+
+c0200 - Issuer Name
+-------------------
+
+
+Name of the issuer, defined as the entity that issues assets to investors.When available, this item corresponds to the entity name in the LEI database. When this is not available corresponds to the legal name.The following shall be considered:—Regarding CIC category 4 — Collective Investments Undertakings, the issuer name is the name of the fund manager;—Regarding CIC category 7 — Cash and deposits (excluding CIC 71 and CIC 75), the issuer name is the name of the depositary entity;—Regarding CIC category 8 — Mortgages and Loans, when relating to mortgage and loans to natural persons, this item shall contain ‘Loans to AMSB members’ or ‘Loans to other natural persons’, according to its nature, as those assets are not required to be individualised;—Regarding CIC 8 — Mortgages and Loans, other than mortgage and loans to natural persons the information shall relate to the borrower;This item is not applicable for CIC 71, CIC 75 and CIC category 9 — Property.
+
+
+c0210 - Issuer Code
+-------------------
+
+
+Identification of the issuer using the Legal Entity Identifier (LEI) if available.If none is available this item shall not be reported.The following shall be considered:—Regarding CIC category 4 — Collective Investments Undertakings, the issuer code is the code of the fund manager;—Regarding CIC category 7 — Cash and deposits (excluding CIC 71 and CIC 75), the issuer code is the code of the depositary entity—Regarding CIC 8 — Mortgages and Loans, other than mortgage and loans to natural persons the information shall relate to the borrower;—This item is not applicable for CIC 71, CIC 75 and CIC category 9 — Property;This item is not applicable to CIC category 8 — Mortgages and Loans, when relating to mortgage and loans to natural persons.
+
+
+c0220 - Type of issuer code
+---------------------------
+
+
+Identification of the type of code used for the ‘Issuer Code’ item. One of the options in the following closed list shall be used: 1 — LEI 9 — NoneThis item is not applicable to CIC category 8 — Mortgages and Loans, when relating to mortgage and loans to natural persons.This item is not applicable for CIC 71, CIC 75 and CIC category 9 — Property.
+
+
+c0230 - Issuer Sector
+---------------------
+
+
+Identify the economic sector of issuer based on the latest version of the Statistical classification of economic activities in the European Community (‘NACE’) code (as published in an EC Regulation). The letter reference of the NACE code identifying the Section shall be used as a minimum for identifying sectors (e.g. ‘A’ or ‘A0111’ would be acceptable) except for the NACE relating to Financial and Insurance activities, for which the letter identifying the Section followed by the 4 digits code for the class shall be used (e.g. ‘K6411’).The following shall be considered:—Regarding CIC category 4 — Collective Investments Undertakings, the issuer sector is the sector of the fund manager;—Regarding CIC category 7 — Cash and deposits (excluding CIC 71 and CIC 75), the issuer sector is the sector of the depositary entity—Regarding CIC 8 — Mortgages and Loans, other than mortgage and loans to natural persons the information shall relate to the borrower;—This item is not applicable for CIC 71, CIC 75 and CIC category 9 — Property;—This item is not applicable to CIC category 8 — Mortgages and Loans, when relating to mortgage and loans to natural persons.
+
+
+c0240 - Issuer Group
+--------------------
+
+
+Name of issuer's ultimate parent entity. For collective investment undertakings the group relation relates to the fund manager.When available, this item corresponds to the entity name in the LEI database. When this is not available corresponds to the legal name.The following shall be considered:—Regarding CIC category 4 — Collective Investments Undertakings, the group relation relates to the fund manager;—Regarding CIC category 7 — Cash and deposits (excluding CIC 71 and CIC 75), the group relation relates to the depositary entity—Regarding CIC 8 — Mortgages and Loans, other than mortgage and loans to natural persons the group relation relates to the borrower;—This item is not applicable for CIC category 8 — Mortgages and Loans (for mortgages and loans to natural persons)—This item is not applicable for CIC 71, CIC 75 and CIC category 9 — Property.
+
+
+c0250 - Issuer Group Code
+-------------------------
+
+
+Issuer group's identification using the Legal Entity Identifier (LEI) if available.If none is available, this item shall not be reported.The following shall be considered:—Regarding CIC category 4 — Collective Investments Undertakings, the group relation relates to the fund manager;—Regarding CIC category 7 — Cash and deposits (excluding CIC 71 and CIC 75), the group relation relates to the depositary entity—Regarding CIC 8 — Mortgages and Loans, other than mortgage and loans to natural persons the group relation relates to the borrower;—This item is not applicable for CIC category 8 — Mortgages and Loans (for mortgages and loans to natural persons)—This item is not applicable for CIC 71, CIC 75 and CIC category 9 — Property.
+
+
+c0260 - Type of issuer group code
+---------------------------------
+
+
+Identification of the code used for the ‘Issuer Group Code’ item. One of the options in the following closed list shall be used: 1 — LEI 9 — NoneThis item is not applicable to CIC category 8 — Mortgages and Loans, when relating to mortgage and loans to natural persons.This item is not applicable for CIC 71, CIC 75 and CIC category 9 — Property.
+
+
+c0270 - Issuer Country
+----------------------
+
+
+ISO 3166–1 alpha–2 code of the country of localisation of the issuer.The localisation of the issuer is assessed by the address of the entity issuing the asset.The following shall be considered:—Regarding CIC category 4 — Collective Investments Undertakings, the issuer country is the country is relative to the fund manager;—Regarding CIC category 7 — Cash and deposits (excluding CIC 71 and CIC 75), the issuer country is the country of the depositary entity—Regarding CIC 8 — Mortgages and Loans, other than mortgage and loans to natural persons the information shall relate to the borrower;—This item is not applicable for CIC 71, CIC 75 and CIC category 9 — Property;—This item is not applicable to CIC category 8 — Mortgages and Loans, when relating to mortgage and loans to natural persons.One of the options shall be used:—ISO 3166–1 alpha–2 code—XA: Supranational issuers—EU: European Union Institutions
+
+
+c0280 - Currency
+----------------
+
+
+Identify the ISO 4217 alphabetic code of the currency of the issue.The following shall be considered:—This item is not applicable for CIC category 8 — Mortgages and Loans (for mortgages and loans to natural persons, as those assets are not required to be individualised), CIC 75 and for CIC 95 — Plant and equipment (for own use) for the same reason;—Regarding CIC Category 9, excluding CIC 95 — Plant and equipment (for own use), the currency corresponds to the currency in which the investment was made.
+
+
+c0290 - CIC
+-----------
+
+
+Complementary Identification Code used to classify assets, as set out in Annex VI — CIC Table of this Regulation. When classifying an asset using the CIC table, undertakings shall take into consideration the most representative risk to which the asset is exposed to.The parent undertaking shall check and ensure that the CIC code used for the same security from different undertakings is the same in the group reporting.
+
+
+c0300 - Infrastructure investment
+---------------------------------
+
+
+Identify if the asset is an infrastructure investment.Infrastructure investment is defined as investments in or loans to utilities such as toll roads, bridges, tunnels, ports and airports, oil and gas distribution, electricity distribution and social infrastructure such as healthcare and educational facilities.One of the options in the following closed list shall be used: 1 — Not an infrastructure investment 2 — Government Guarantee: where there is an explicit government guarantee 3 — Government Supported including Public Finance initiative: where there is a government policy or public finance initiatives to promote or support the sector 4 — Supranational Guarantee/Supported: where there is an explicit supranational guarantee or support 9 — Other: Other infrastructure loans or investments, not classified under the above categories
+
+
+c0310 - Holdings in related undertakings, including participations
+------------------------------------------------------------------
+
+
+Only applicable to asset categories 3 and 4.Identify if an equity and other share is a participation.One of the options in the following closed list shall be used: 1– Not a participation 2 — Non–controlled participation in a related insurance and reinsurance undertaking under method 1 3 — Non–controlled participation in related insurance and reinsurance undertaking under method 2 4 — Participation in other financial sector 5 — Subsidiary under method 2 6 — Participation in other strategic related undertaking under method 1 7 — Participation in other non–strategic related undertaking under method 1 8 — Other participations (e.g. participation in other undertakings under method 2)
+
+
+c0320 - External rating
+-----------------------
+
+
+Only applicable to CIC categories 1, 2, 5 and 6.Rating of the asset at the reporting reference date issued by the nominated credit assessment institution (ECAI).This item is not applicable to assets for which undertakings using internal model use internal ratings. If undertakings using internal model do not use internal rating, this item shall be reported.
+
+
+c0330 - Nominated ECAI
+----------------------
+
+
+Only applicable to CIC categories 1, 2, 5 and 6.Identify the credit assessment institution (ECAI) giving the external rating, by using the name of the ECAI as published at ESMA website.This item shall be reported when External rating (C0320) is reported.
+
+
+c0340 - Credit quality step
+---------------------------
+
+
+Only applicable to CIC categories 1, 2, 5 and 6.Identify the credit quality step attributed to the asset, as defined by Article 109a(1) of Directive 2009/138/EC.The credit quality step shall in particular reflect any readjustments to the credit quality made internally by the undertakings that use the standard formula.This item is not applicable to assets for which undertakings using internal model use internal ratings. If undertakings using internal model do not use internal rating, this item shall be reported.One of the options in the following closed list shall be used: 0 — Credit quality step 0 1 — Credit quality step 1 2 — Credit quality step 2 3 — Credit quality step 3 4 — Credit quality step 4 5 — Credit quality step 5 6 — Credit quality step 6 9 — No rating available
+
+
+c0350 - Internal rating
+-----------------------
+
+
+Only applicable to CIC categories 1, 2, 5 and 6.Internal rating of assets for undertakings using an internal model to the extent that the internal ratings are used in their internal modelling. If an internal model undertaking is using solely external ratings this item shall not be reported.
+
+
+c0360 - Duration
+----------------
+
+
+Only applies to CIC categories 1, 2, 4 (when applicable, e.g. for collective investment undertaking mainly invested in bonds), 5 and 6.Asset duration, defined as the ‘residual modified duration’ (modified duration calculated based on the remaining time for maturity of the security, counted from the reporting reference date). For assets without fixed maturity the first call date shall be used. The duration shall be calculated based on economic value.
+
+
+c0370 - Unit Solvency II price
+------------------------------
+
+
+Amount in reporting currency for the asset, if relevant.This item shall be reported if a ‘quantity’ (C0130) has been provided in the first part of the template (‘Information on positions held’).This item shall not be reported if item Unit percentage of par amount Solvency II price (C0380) is reported.
+
+
+c0380 - Unit percentage of par amount Solvency II price
+-------------------------------------------------------
+
+
+Amount in percentage of par value, clean price without accrued interest, for the asset, if relevant..This item shall be reported if a ‘par amount’ information (C0140) has been provided in the first part of the template (‘Information on positions held’).This item shall not be reported if item Unit Solvency II price (C0370) is reported.
+
+
+c0390 - Maturity date
+---------------------
+
+
+Only applicable for CIC categories 1, 2, 5, 6, and 8, CIC 74 and CIC 79.Identify the ISO 8601 (yyyy–mm–dd) code of the maturity date.It corresponds always to the maturity date, even for callable securities.The following shall be considered:—For perpetual securities use ‘9999–12–31’—For CIC category 8, regarding loans and mortgages to individuals, the weighted (based on the loan amount) remaining maturity is to be reported.
+
+

@@ -1,0 +1,468 @@
+===========================================
+S.03.01 - Off–balance sheet items , General
+===========================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This section includes the information referring to off–balance sheet items and the maximum and solvency II value of contingent liabilities in Solvency II balance sheet.
+
+As regards the Solvency II value, the instructions define the items from a recognition perspective. Valuation principles are laid down in Directive 2009/138/EC, Delegated Regulation (EU) 2015/35, Solvency II Technical Standards and Guidelines.
+
+Guarantees require the issuer to make specified payments to reimburse the holder for a loss it incurs if a specified debtor fails to make payment when due under the original or modified terms of a debt instrument. These guarantees can have various legal forms, such as financial guarantees, letters of credit, credit default contracts. These items shall not include guarantees stemming from insurance contracts, which are recognised in technical provisions.
+
+A contingent liability is defined as:
+
+a)
+
+a possible obligation that arises from past events and whose existence will be confirmed only by the occurrence or non–occurrence of one or more uncertain future events not wholly within the control of the entity; or
+
+b)
+
+a present obligation that arises from past events even if:
+
+i.
+
+it is not probable that an outflow of resources embodying economic benefits will be required to settle the obligation; or
+
+ii.
+
+the amount of the obligation cannot be measured with sufficient reliability.
+
+Collateral is an asset with a monetary value or a commitment that secure the lender against the defaults of the borrower.
+
+The guarantees listed in this template are not reported in S.03.02 and S.03.03. This means that only limited guarantees are to be reported in this template.
+
+
+c0010r0010 - Maximum value — Guarantees provided by the undertaking, including letters of credit
+------------------------------------------------------------------------------------------------
+
+
+Sum of all possible cash out–flows related to guarantees if events triggering guarantees were all to happen in relation to guarantees provided by the undertaking to another party. It includes cash–flows related to letter of credit.In case any guarantee is also identified as contingent liability under R0310, the maximum amount shall also be included in this row.
+
+
+c0010r0020 - Maximum value — Guarantees provided by the undertaking, including letters of credit, of which, guarantees, including letters of credit provided to other undertakings of the same group
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Part of C0010/R0010 related to guarantees, including letters of credit, provided to other undertakings of the same group.
+
+
+c0020r0010 - Value of guarantee/collateral/contingent liabilities — Guarantees provided by the undertaking, including letters of credit
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the guarantees provided by the undertaking, including letters of credit
+
+
+c0020r0020 - Value of guarantee/collateral/contingent liabilities — Guarantees provided by the undertaking, including letters of credit, of which, guarantees, including letters of credit provided to other undertakings of the same group
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Part of C0020/R0010 related guarantees, including letters of credit provided to other undertakings of the same group.
+
+
+c0010r0030 - Maximum value — Guarantees received by the undertaking, including letters of credit
+------------------------------------------------------------------------------------------------
+
+
+Sum of all possible cash in–flows related to guarantees if events triggering guarantees were all to happen in relation to guarantees received by the undertaking from another party to guarantee the payment of the liabilities due by the undertaking (includes letter of credit, undrawn committed borrowing facilities).
+
+
+c0010r0040 - Maximum value — Guarantees received by the undertaking, including letters of credit, of which, guarantees, including letters of credit received from other undertakings of the same group
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Part of C0010/R0030 related to guarantees, including letters of credit received from other undertakings of the same group.
+
+
+c0020r0030 - Value of guarantee/collateral/contingent liabilities — Guarantees received by the undertaking, including letters of credit
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the guarantees received by the undertaking, including letters of credit.
+
+
+c0020r0040 - Value of guarantee/collateral/contingent liabilities — Guarantees received by the undertaking, including letters of credit, of which, guarantees, including letters of credit received from other undertakings of the same group
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Part of C0020/R0030 related to guarantees, including letters of credit received from other undertakings of the same group.
+
+
+c0020r0100 - Value of guarantee/collateral/contingent liabilities –Collateral held for loans made or bonds purchased
+--------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the collaterals held for loans made or bonds purchased.
+
+
+c0020r0110 - Value of guarantee/collateral/contingent liabilities –Collateral held for derivatives
+--------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the collaterals held for derivatives.
+
+
+c0020r0120 - Value of guarantee/collateral/contingent liabilities — Assets pledged by reinsurers for ceded technical provisions
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the assets pledged by reinsurers for ceded technical provisions.
+
+
+c0020r0130 - Value of guarantee/collateral/contingent liabilities — Other collateral held
+-----------------------------------------------------------------------------------------
+
+
+Solvency II value of other collaterals held.
+
+
+c0020r0200 - Value of guarantee/collateral/contingent liabilities –Total collateral held
+----------------------------------------------------------------------------------------
+
+
+Total Solvency II value of the collaterals held.
+
+
+c0030r0100 - Value of assets for which collateral is held — Collateral held for loans made or bonds purchased
+-------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the assets for which the collateral for loans made or bonds purchased is held.
+
+
+c0030r0110 - Value of assets for which collateral is held — Collateral held for derivatives
+-------------------------------------------------------------------------------------------
+
+
+Solvency II value of the assets for which the collateral for derivatives is held.
+
+
+c0030r0120 - Value of assets for which collateral is held — Assets pledged by reinsurers for ceded technical provisions
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the assets for which the collateral on assets pledged by reinsurers for ceded technical provisions is held.
+
+
+c0030r0130 - Value of assets for which collateral is held — Other collateral held
+---------------------------------------------------------------------------------
+
+
+Solvency II value of the assets for which the other collateral is held.
+
+
+c0030r0200 - Value of assets for which collateral is held — Total collateral held
+---------------------------------------------------------------------------------
+
+
+Total Solvency II value of the assets for which the total collateral is held.
+
+
+c0020r0210 - Value of guarantee/collateral/contingent liabilities — Collateral pledged for loans received or bonds issued
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the collaterals pledged for loans received or bonds issued.
+
+
+c0020r0220 - Value of guarantee/collateral/contingent liabilities — Collateral pledged for derivatives
+------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the collaterals pledged for derivatives.
+
+
+c0020r0230 - Value of guarantee/collateral/contingent liabilities — Assets pledged to cedants for technical provisions (reinsurance accepted)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the assets pledged to cedants for technical provisions (reinsurance accepted).
+
+
+c0020r0240 - Value of guarantee/collateral/contingent liabilities — Other collateral pledged
+--------------------------------------------------------------------------------------------
+
+
+Solvency II value of the collateral pledged for other collateral.
+
+
+c0020r0300 - Value of guarantee/collateral/contingent liabilities — Total collateral pledged
+--------------------------------------------------------------------------------------------
+
+
+Total Solvency II value of the collateral pledged.
+
+
+c0040r0210 - Value of liabilities for which collateral is pledged — Collateral pledged for loans received or bonds issued
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the liabilities for which the collateral for loans received or bonds issued is pledged.
+
+
+c0040r0220 - Value of liabilities for which collateral is pledged — Collateral pledged for derivatives
+------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the liabilities for which the collateral for derivatives is pledged.
+
+
+c0040r0230 - Value of liabilities for which collateral is pledged — Assets pledged to cedants for technical provisions (reinsurance accepted)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the liabilities for which the assets are pledged to cedants for technical provisions (reinsurance accepted).
+
+
+c0040r0240 - Value of liabilities for which collateral is pledged — Other collateral pledged
+--------------------------------------------------------------------------------------------
+
+
+Solvency II value of the liabilities for which other collateral is pledged.
+
+
+c0040r0300 - Value of liabilities for which collateral is pledged — Total collateral pledged
+--------------------------------------------------------------------------------------------
+
+
+Total Solvency II value of the liabilities for which the collateral is pledged.
+
+
+c0010r0310 - Maximum value — Contingent liabilities not in Solvency II Balance Sheet
+------------------------------------------------------------------------------------
+
+
+Maximum possible value, regardless of their probability (i.e. future cash out–flows required to settle the contingent liability over the lifetime of that contingent liability, discounted at the relevant risk–free interest rate term structure) of contingent liabilities that are not included in those valued in Solvency II Balance Sheet (item C0010/R0740 of S.02.01).This shall relate to contingent liabilities that are not material.This amount shall include guarantees reported in R0010 if considered as contingent liabilities.
+
+
+c0010r0320 - Maximum value — Contingent liabilities not in Solvency II Balance Sheet, of which contingent liabilities toward entities of the same group
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Part of C0010/R0310 related to contingent liabilities toward entities of the same group.
+
+
+c0010r0330 - Maximum value — Contingent liabilities in Solvency II Balance Sheet
+--------------------------------------------------------------------------------
+
+
+Maximum possible value, regardless of their probability (i.e. future cash out– flows required to settle the contingent liability over the lifetime of that contingent liability, discounted at the relevant risk–free interest rate term structure) of contingent liabilities that are valued in Solvency II Balance Sheet as defined in Article 11 of the Delegated Regulation (EU) 2015/35.
+
+
+c0010r0400 - Maximum value — Total Contingent liabilities
+---------------------------------------------------------
+
+
+Total maximum possible value regardless of their probability (i.e. future cash flows required to settle the contingent liability over the lifetime of that contingent liability, discounted at the relevant risk–free interest rate term structure) of contingent liabilities..
+
+
+c0020r0310 - Value of guarantee/collateral/contingent liabilities — Contingent liabilities not in Solvency II Balance Sheet
+---------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the contingent liabilities not in Solvency II Balance Sheet.
+
+
+c0020r0330 - Value of guarantee/collateral/contingent liabilities — Contingent liabilities in Solvency II Balance Sheet
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the contingent liabilities in Solvency II Balance Sheet. This value shall only be reported in relation to contingent liabilities for which a value in item C0010/R0330 in S.03.01 was reported.If this value is lower than C0010/R0740 in S.02.01 an explanation shall be provided in the narrative reporting.
+
+
+c0010r0010 - Maximum value — Guarantees provided by the group, including letters of credit
+------------------------------------------------------------------------------------------
+
+
+Sum of all possible cash out–flows related to guarantees if events triggering guarantees were all to happen in relation to guarantees provided by the group to another party. It includes cash–flows related to letter of credit.In case any guarantee is also identified as contingent liability under R0310, the maximum amount shall also be included in this row.Internal guarantees within the scope of group supervision are not reported in this template.
+
+
+c0010r0030 - Maximum value — Guarantees received by the group, including letters of credit
+------------------------------------------------------------------------------------------
+
+
+Sum of all possible cash in–flows related to guarantees if events triggering guarantees were all to happen in relation to guarantees received by the group from another party to guarantee the payment of the liabilities due by the group (includes letter of credit, undrawn committed borrowing facilities).Internal guarantees within the scope of group supervision are not reported in this template.
+
+
+c0020r0100 - Value of guarantee / collateral / contingent liabilities — Collateral held for loans made or bonds purchased
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the collaterals held for loans made or bonds purchased.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0020r0110 - Value of guarantee / collateral / contingent liabilities — Collateral held for derivatives
+-------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the collaterals held for derivatives.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0020r0120 - Value of guarantee / collateral / contingent liabilities — Assets pledged by reinsurers for ceded technical provisions
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the assets pledged by reinsurers for ceded technical provisions.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0020r0130 - Value of guarantee / collateral / contingent liabilities — Other collateral held
+---------------------------------------------------------------------------------------------
+
+
+Solvency II value of other collaterals held.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0020r0200 - Value of guarantee / collateral / contingent liabilities — Total collateral held
+---------------------------------------------------------------------------------------------
+
+
+Total Solvency II value of the collaterals held.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0030r0100 - Value of assets for which collateral is held — Collateral held for loans made or bonds purchased
+-------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the assets for which the collateral for loans made or bonds purchased is held.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0030r0110 - Value of assets for which collateral is held — Collateral held for derivatives
+-------------------------------------------------------------------------------------------
+
+
+Solvency II value of the assets for which the collateral for derivatives is held.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0030r0120 - Value of assets for which collateral is held — Assets pledged by reinsurers for ceded technical provisions
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the assets for which the collateral on assets pledged by reinsurers for ceded technical provisions is held.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0030r0130 - Value of assets for which collateral is held — Other collateral held
+---------------------------------------------------------------------------------
+
+
+Solvency II value of the assets for which the other collateral is held.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0030r0200 - Value of assets for which collateral is held — Total collateral held
+---------------------------------------------------------------------------------
+
+
+Total Solvency II value of the assets for which the total collateral is held.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0020r0210 - Value of guarantee / collateral / contingent liabilities — Collateral pledged for loans received or bonds issued
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the collaterals pledged for loans received or bonds issued.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0020r0220 - Value of guarantee / collateral / contingent liabilities — Collateral pledged for derivatives
+----------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the collaterals pledged for derivatives.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0020r0230 - Value of guarantee / collateral / contingent liabilities — Assets pledged to cedants for technical provisions (reinsurance accepted)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the assets pledged to cedants for technical provisions (reinsurance accepted).Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0020r0240 - Value of guarantee / collateral / contingent liabilities — Other collateral pledged
+------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the collateral pledged for other collateral.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0020r0300 - Value of guarantee / collateral / contingent liabilities — Total collateral pledged
+------------------------------------------------------------------------------------------------
+
+
+Total Solvency II value of the collateral pledged.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0040r0210 - Value of liabilities for which collateral is pledged — Collateral pledged for loans received or bonds issued
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the liabilities for which the collateral for loans received or bonds issued is pledged.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0040r0220 - Value of liabilities for which collateral is pledged — Collateral pledged for derivatives
+------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the liabilities for which the collateral for derivatives is pledged.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0040r0230 - Value of liabilities for which collateral is pledged — Assets pledged to cedants for technical provisions (reinsurance accepted)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the liabilities for which the assets are pledged to cedants for technical provisions (reinsurance accepted).Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0040r0240 - Value of liabilities for which collateral is pledged — Other collateral pledged
+--------------------------------------------------------------------------------------------
+
+
+Solvency II value of the liabilities for which other collateral is pledged.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0040r0300 - Value of liabilities for which collateral is pledged — Total collateral pledged
+--------------------------------------------------------------------------------------------
+
+
+Total Solvency II value of the liabilities for which the collateral is pledged.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0010r0310 - Maximum value — Contingent liabilities not in Solvency II Balance Sheet
+------------------------------------------------------------------------------------
+
+
+Maximum possible value, regardless of their probability (i.e. future cash out–flows required to settle the contingent liability over the lifetime of that contingent liability, discounted at the relevant risk–free interest rate term structure) of contingent liabilities that are not included in those valued in Solvency II Balance Sheet (item C0010/R0740 of S.02.01)Internal contingent liabilities within the scope of group supervision are not reported in this template.This shall relate to Contingent liabilities that are not material.This amount shall include guarantees reported in R0010 if considered as contingent liabilities.
+
+
+c0010r0330 - Maximum value — Contingent liabilities in Solvency II Balance Sheet
+--------------------------------------------------------------------------------
+
+
+Maximum possible value, regardless of their probability (i.e. future cash out–flows required to settle the contingent liability over the lifetime of that contingent liability, discounted at the relevant risk–free interest rate term structure) of contingent liabilities that are valued in Solvency II Balance Sheet, as defined in Article 11 of the Delegated Regulation (EU) 2015/35.
+
+
+c0010r0400 - Maximum value — Total Contingent liabilities
+---------------------------------------------------------
+
+
+Total maximum possible value, regardless of their probability (i.e. future cash flows required to settle the contingent liability over the lifetime of that contingent liability, discounted at the relevant risk–free interest rate term structure) of contingent liabilities.
+
+
+c0020r0310 - Value of guarantee/ collateral / contingent liabilities — Contingent liabilities not in Solvency II Balance Sheet
+------------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the contingent liabilities not in Solvency II Balance Sheet.
+
+
+c0020r0330 - Value of guarantee / collateral / contingent liabilities — Contingent liabilities in Solvency II Balance Sheet
+---------------------------------------------------------------------------------------------------------------------------
+
+
+Solvency II value of the contingent liabilities in Solvency II Balance Sheet. This value shall only be reported in relation to contingent liabilities for which a value in item C0010/R0330 in S.03.01 was reported.If this value is lower than C0010/R0740 in S.02.01 an explanation shall be provided in the narrative reporting.
+
+

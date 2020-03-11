@@ -1,0 +1,309 @@
+=======================================================================================
+S.36.04 - IGT , Cost Sharing, contingent liabilities, off balance sheet and other items
+=======================================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+The purpose of this template is to collect information on all other IGTs (significant, very significant and transactions required to be reported in all circumstances) which have not been captured in 36.01 to 36.03 templates within the group according to Article 213 (2) (d) of Directive 2009/138/EC. These include, but not limited to:
+
+—
+
+Internal cost sharing;
+
+—
+
+Contingent liabilities (other than derivatives);
+
+—
+
+Off balance sheet guarantees;
+
+—
+
+Any other transactions between related undertakings or natural persons in scope of the group supervision.
+
+The insurance undertaking is expected to complete this template for all significant, very significant and transactions required to be reported in all circumstances for IGTs between the individual undertaking and the mixed–activity insurance holding company and its related undertakings.
+
+This template shall include IGTs that were:
+
+—
+
+in–force at the start of the reporting period.
+
+—
+
+incepted during the reporting period and outstanding at the reporting date.
+
+—
+
+incepted and expired/matured during the reporting period.
+
+Where similar transactions with a related entity may be excluded from IGT reporting when considered individually against the thresholds for significant and very significant, these transactions must nevertheless be individually reported where collectively they are at or above the corresponding threshold values for significant or very significant IGTs.
+
+Each transaction shall be reported separately.
+
+Any additions/top–ups to significant IGTs shall be reported as a separate IGT, even if the top–up in its own right falls below the significant threshold limit. For example, if an undertaking increases the initial loan amount to another related undertaking the addition to the loan should be recorded as a separate item with its issue date as the date of the top–up.
+
+Where the transaction value is different for two transacting parties (e.g. a EUR 10 m transaction between A and B where A records EUR 10 m but B only receive EUR 9,5 m because of transactions costs, of say EUR 0,5 m has been expensed) the template should record the maximum amount as the transaction amount, in this case EUR 10 m.
+
+Where there is a chain of related IGTs (say A invests in B and B invests in C), each link of the chain needs to be reported as a separate IGT.
+
+
+c0010 - ID of intragroup transaction
+------------------------------------
+
+
+Unique internal identification code for each intragroup transaction. Must be consistent over time.
+
+
+c0020 - Investor/Buyer/Beneficiary name
+---------------------------------------
+
+
+Legal name of the entity that is purchasing/investing in the asset/investment or receiving the service/guarantee.
+
+
+c0030 - Identification code of the Investor/Buyer/Beneficiary
+-------------------------------------------------------------
+
+
+The unique identification code attached to the investor/buyer/transferee by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the group: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the group, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0040 - ID code type of code of the Investor/Buyer/Beneficiary
+--------------------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code for the Investor/Buyer/Beneficiary’: 1 — LEI 2 — Specific code
+
+
+c0050 - Issuer/Seller/Provider name
+-----------------------------------
+
+
+Legal name of the entity that is selling/transferring the asset/investment or providing the service/guarantee.
+
+
+c0060 - Identification code of the Issuer/Seller/Provider
+---------------------------------------------------------
+
+
+The unique identification code attached to the investor/buyer/transferee by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the group: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the group, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0070 - ID code type of code of the Issuer/Seller/Provider
+----------------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code for the Issuer/Seller/Provider’: 1 — LEI 2 — Specific code
+
+
+c0080 - Transaction type
+------------------------
+
+
+Identify the type of transaction. The following close list shall be used: 1 — Contingent liabilities 2 — Off balance sheet items 3 — Internal cost sharing 4 — Others
+
+
+c0090 - Transaction Issue date
+------------------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the date when the transaction/issue takes effect.
+
+
+c0100 - Effective date of agreement/contract underlying transaction
+-------------------------------------------------------------------
+
+
+Where applicable, Identify the ISO 8601 (yyyy–mm–dd) code of the date when the transaction or contract underlying the transactions takes effect if different from the transaction date. If same as the transaction date, the transaction date is to be reported.
+
+
+c0110 - Expiry date of agreement/contract underlying transaction
+----------------------------------------------------------------
+
+
+Where applicable, identify the ISO 8601 (yyyy–mm–dd) code of the date when the agreement/contract ceases. If the expiry date is perpetual use ‘9999–12–31’.
+
+
+c0120 - Currency of transaction
+-------------------------------
+
+
+Identify the ISO 4217 alphabetic code of the currency in which the transaction took place.
+
+
+c0130 - Trigger event
+---------------------
+
+
+Where applicable, brief description of event that would trigger the transaction/payment/liability/none e.g. event that would result in a contingent liability occurring.
+
+
+c0140 - Value of transaction/collateral/Guarantee
+-------------------------------------------------
+
+
+Value of the transaction, collateral pledged or contingent liability recognised on the Solvency II balance sheet.All items shall be reported on Solvency II value. However where Solvency II value is not available (e.g. non–EEA operations under method 2 in equivalent regimes or banks and credit institutions) then the local or sectoral valuation rules should be used.
+
+
+c0150 - Maximum possible value of contingent liabilities
+--------------------------------------------------------
+
+
+Maximum possible value, if possible, regardless of their probability (i.e. future cash flows required to settle the contingent liability over the lifetime of that contingent liability, discounted at the relevant risk–free interest rate term structure) of contingent liabilities included in Solvency II Balance Sheet.
+
+
+c0160 - Maximum possible value of contingent liabilities not included in Solvency II Balance Sheet
+--------------------------------------------------------------------------------------------------
+
+
+Enter the maximum amount of the contingent liability, for those not included in the Solvency II Balance Sheet, that could be due from the Provider.
+
+
+c0170 - Maximum value of letters of credit/guarantees
+-----------------------------------------------------
+
+
+Sum of all possible cash flows if events triggering guarantees were all to happen in relation to guarantees provided by the ‘provider’ (cell C0050) to the ‘beneficiary’ (Cell C0020) to guarantee the payment of the liabilities due by the undertaking (includes letter of credit, undrawn committed borrowing facilities). This item shall not include amounts already reported under C0150 and C0160.
+
+
+c0180 - Value of guaranteed assets
+----------------------------------
+
+
+Value of the guaranteed asset for which the guarantees are received.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+
+c0010 - ID of intragroup transaction
+------------------------------------
+
+
+Unique internal identification code for each intragroup transaction. Must be consistent over time.
+
+
+c0020 - Investor/ Buyer/ Beneficiary name
+-----------------------------------------
+
+
+Legal name of the entity that is purchasing/investing in the asset/investment or receiving the service/guarantee.
+
+
+c0030 - Identification code of the Investor/ Buyer/ Beneficiary
+---------------------------------------------------------------
+
+
+The unique identification code attached to the investor/buyer/transferee by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0040 - ID code type of code of the Investor/ Buyer/ Beneficiary
+----------------------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code for the Investor/ Buyer/ Beneficiary’: 1 — LEI 2 — Specific code
+
+
+c0050 - Issuer/ Seller/ Provider name
+-------------------------------------
+
+
+Legal name of the entity that is selling/transferring the asset/investment or providing the service/guarantee.
+
+
+c0060 - Identification code of the Issuer/ Seller/ Provider
+-----------------------------------------------------------
+
+
+The unique identification code attached to the investor/buyer/transferee by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0070 - ID code type of code of the Issuer/ Seller/ Provider
+------------------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code for the Issuer/ Seller/ Provider’: 1 — LEI 2 — Specific code
+
+
+c0080 - Transaction type
+------------------------
+
+
+Identify the type of transaction. The following close list shall be used: 1 — Contingent liabilities 2 — Off balance sheet items 3 — Internal cost sharing 4 — Others
+
+
+c0090 - Transaction Issue date
+------------------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the date when the transaction/issue takes effect.
+
+
+c0100 - Effective date of agreement/ contract underlying transaction
+--------------------------------------------------------------------
+
+
+Where applicable, Identify the ISO 8601 (yyyy–mm–dd) code of the date when the transaction or contract underlying the transactions takes effect if different from the transaction date. If same as the transaction date, the transaction date is to be reported.
+
+
+c0110 - Expiry date of agreement / contract underlying transaction
+------------------------------------------------------------------
+
+
+Where applicable, identify the ISO 8601 (yyyy–mm–dd) code of the date when the agreement/contract ceases. If the expiry date is perpetual use ‘9999–12–31’.
+
+
+c0120 - Currency of transaction
+-------------------------------
+
+
+Identify the ISO 4217 alphabetic code of the currency in which the transaction took place.
+
+
+c0130 - Trigger event
+---------------------
+
+
+Where applicable, brief description of event that would trigger the transaction/payment/liability/none e.g. event that would result in a contingent liability occurring.
+
+
+c0140 - Value of transaction/ collateral /Guarantee
+---------------------------------------------------
+
+
+Value of the transaction, collateral pledged or contingent liability recognised on the Solvency II balance sheet.This item is to be reported in the reporting currency of the group.All items shall be reported on Solvency II value. However where Solvency II value is not available (e.g. non–EEA operations under method 2 in equivalent regimes or banks and credit institutions) then the local or sectoral valuation rules should be used.
+
+
+c0150 - Maximum possible value of contingent liabilities
+--------------------------------------------------------
+
+
+Maximum possible value, if possible, regardless of their probability (i.e. future cash flows required to settle the contingent liability over the lifetime of that contingent liability, discounted at the relevant risk–free interest rate term structure) of contingent liabilities included in Solvency II Balance Sheet.
+
+
+c0160 - Maximum possible value of contingent liabilities not included in Solvency II Balance Sheet
+--------------------------------------------------------------------------------------------------
+
+
+Enter the maximum amount of the contingent liability, for those not included in the Solvency II Balance Sheet, that could be due from the Provider.This item is to be reported in the reporting currency of the group.
+
+
+c0170 - Maximum value of letters of credit/guarantees
+-----------------------------------------------------
+
+
+Sum of all possible cash flows if events triggering guarantees were all to happen in relation to guarantees provided by the ‘provider’ (cell C0050) to the ‘beneficiary’ (Cell C0020) to guarantee the payment of the liabilities due by the undertaking (includes letter of credit, undrawn committed borrowing facilities). This item shall not include amounts already reported under C0150 and C0160.
+
+
+c0180 - Value of guaranteed assets
+----------------------------------
+
+
+Value of the guaranteed asset for which the guarantees are received.Other local/sectoral valuation principles than Solvency II ones may be relevant in this case.
+
+

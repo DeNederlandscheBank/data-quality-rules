@@ -1,0 +1,332 @@
+======================================================================
+S.31.01 - Share of reinsurers (including Finite Reinsurance and SPV's)
+======================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template shall be filled by the insurance and reinsurance undertakings where a recoverable is recognised in relation to the reinsurer (even if all contracts with that reinsurer have terminated) and whose reinsurer is reducing the gross technical provisions as per end of the reporting year.
+
+The template collects information on reinsurers and not on separate treaties. All ceded technical provisions, including those ceded under Finite reinsurance (as defined in S.30.03 Column C0060), must be completed. This also means that if an SPV or a syndicate of Lloyd's acts as a reinsurer the SPV or the syndicate must be listed.
+
+
+c0040 - Code reinsurer
+----------------------
+
+
+Identification code of the reinsurer by this order of priority:—Legal Entity Identifier (LEI);—Specific code attributed by the undertaking
+
+
+c0050 - Type of code Reinsurer
+------------------------------
+
+
+Identification of the code used in item ‘Code reinsurer’. The following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0060 - Reinsurance recoverables — Premium provision Non–life including Non–SLT Health
+--------------------------------------------------------------------------------------
+
+
+The amount of share of the reinsurer in the recoverables from reinsurance (including Finite Re and SPV) before the adjustment for expected losses due to the counterparty default, in the best estimate of the premium provisions calculated as the expected present value of future incoming and outgoing cash flows.
+
+
+c0070 - Reinsurance recoverables — Claims provisions Non–life including Non–SLT Health
+--------------------------------------------------------------------------------------
+
+
+The amount of share of the reinsurer in the recoverables from reinsurance (including Finite Re and SPV) before the adjustment for expected losses due to the counterparty default, in the best estimate of the claims provisions.
+
+
+c0080 - Reinsurance recoverables — Technical provisions Life including SLT Health
+---------------------------------------------------------------------------------
+
+
+The amount of share of the reinsurer in the recoverables from reinsurance (including Finite Re and SPV) before the adjustment for expected losses due to the counterparty default, in the best estimate of the technical provisions.
+
+
+c0090 - Adjustment for expected losses due to counterparty default
+------------------------------------------------------------------
+
+
+Per reinsurer the adjustment for expected losses due to counterparty default. The adjustment shall be calculated separately and must be in line with Delegated Regulation (EU) 2015/35.This value shall be reported as negative value.
+
+
+c0100 - Reinsurance recoverables: Total reinsurance recoverables
+----------------------------------------------------------------
+
+
+The result of ceded technical provisions (resulting from claims provision + premiums provision + Non–Life TP calculated as a whole and Life including health SLT, including the adjustment for expected losses due to counterparty default.
+
+
+c0110 - Net receivables
+-----------------------
+
+
+The amounts past due resulting from: claims paid by the insurer but not yet reimbursed by the reinsurer plus commissions to be paid by the reinsurer and other receivables minus debts to the reinsurer. Cash deposits are excluded and are to be considered as guarantees received.
+
+
+c0120 - Assets pledged by reinsurer
+-----------------------------------
+
+
+Amount of assets pledged by the reinsurer to mitigate the counterparty default risk of the reinsurer.
+
+
+c0130 - Financial guarantees
+----------------------------
+
+
+Amount of guarantees received by the undertaking from the reinsurer to guarantee the payment of the liabilities due by the undertaking (includes letter of credit, undrawn committed borrowing facilities).
+
+
+c0140 - Cash deposits
+---------------------
+
+
+Amount of cash deposits received by the reinsurer.
+
+
+c0150 - Total guarantees received
+---------------------------------
+
+
+Total amount of types of guarantees.
+
+
+c0160 - Code reinsurer
+----------------------
+
+
+Identification code of the reinsurer by this order of priority:—Legal Entity Identifier (LEI);—Specific code attributed by the undertaking
+
+
+c0170 - Type of code Reinsurer
+------------------------------
+
+
+Identification of the code used in item ‘Code reinsurer’. The following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0180 - Legal name reinsurer
+----------------------------
+
+
+Legal name of the reinsurer to whom the underwriting risk has been transferred. The official name of the risk–carrier reinsurer is stated in the reinsurance contract. It is not permitted to fill in the name of a reinsurance broker. Nor is it permitted to state a general or incomplete name as international reinsurers have several operating companies that may be based in different countries.In case of pooling arrangements, the name of the Pool (or Pool manager) can be filled only if the Pool is a legal entity.
+
+
+c0190 - Type of reinsurer
+-------------------------
+
+
+Type of reinsurer to whom the underwriting risk has been transferred.The following closed list shall be used: 1 — Direct Life insurer 2 — Direct Non–life insurer 3 — Direct Composite insurer 4 — Captive insurance undertaking 5 — Internal reinsurer (reinsurance undertaking which primary focus is to take risk from other insurance undertakings within the group) 6 — External reinsurer (reinsurance undertaking that takes risks from undertakings other than from insurance undertakings within the group) 7 — Captive reinsurance undertaking 8 — Special purpose vehicle 9 — Pool entity (where more than one insurance or reinsurance undertakings are involved) 10 — State pool
+
+
+c0200 - Country of residency
+----------------------------
+
+
+Identify the ISO 3166–1 alpha–2 code for the country where the reinsurer is legally authorised/licensed.
+
+
+c0210 - External rating assessment by nominated ECAI
+----------------------------------------------------
+
+
+The actual/current rating that is considered by the undertaking.
+
+
+c0220 - Nominated ECAI
+----------------------
+
+
+The agency that rates the reinsurer that is considered by the undertaking.
+
+
+c0230 - Credit quality step
+---------------------------
+
+
+Identify the credit quality step attributed to the reinsurer. The credit quality step shall reflect any readjustments to the credit quality made internally by the undertakings that use the standard formula.
+
+
+c0240 - Internal rating
+-----------------------
+
+
+Internal rating of the reinsurer for undertakings using internal model to the extent that the internal ratings are used in their internal modelling. If an internal model undertaking is using solely external ratings this item shall not be reported.
+
+
+c0010 - Legal name of reinsured undertaking
+-------------------------------------------
+
+
+Name of reinsured entity, identifying the cedent (re)insurance undertaking. This item is only applicable to groups.
+
+
+c0020 - Identification code of the undertaking
+----------------------------------------------
+
+
+Identification code of the undertaking, using the following priority:—Legal Entity Identifier (LEI)—Specific codeWhen the undertaking uses the option ‘Specific code’ the following shall be considered:—For EEA (re) insurance undertakings within the scope of group supervision: identification code used in the local market, attributed by the undertaking's supervisory authority—For non–EEA undertakings and non–regulated undertakings within the scope of group supervision, identification code provided will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, it should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0030 - Type of code of the ID of the undertaking
+-------------------------------------------------
+
+
+Type of ID Code used for the ‘Identification code of the undertaking’ item. One of the options in the following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0040 - Code reinsurer
+----------------------
+
+
+Identification code of the reinsurer by this order of priority:—Legal Entity Identifier (LEI);—Specific code attributed by the undertaking
+
+
+c0050 - Type of code Reinsurer
+------------------------------
+
+
+Identification of the code used in item ‘Code reinsurer’. The following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0060 - Reinsurance recoverables — Premium provision Non–life including Non–SLT Health
+--------------------------------------------------------------------------------------
+
+
+The amount of share of the reinsurer in the recoverables from reinsurance (including Finite Re and SPV) before the adjustment for expected losses due to the counterparty default, in the best estimate of the premium provisions calculated as the expected present value of future incoming and outgoing cash flows.
+
+
+c0070 - Reinsurance recoverables — Claims provisions Non–life including Non–SLT Health
+--------------------------------------------------------------------------------------
+
+
+The amount of share of the reinsurer in the recoverables from reinsurance (including Finite Re and SPV) before the adjustment for expected losses due to the counterparty default, in the best estimate of the claims provisions.
+
+
+c0080 - Reinsurance recoverables — Technical provisions Life including SLT Health
+---------------------------------------------------------------------------------
+
+
+The amount of share of the reinsurer in the recoverables from reinsurance (including Finite Re and SPV) before the adjustment for expected losses due to the counterparty default, in the best estimate of the technical provisions.
+
+
+c0090 - Adjustment for expected losses due to counterparty default
+------------------------------------------------------------------
+
+
+Per reinsurer the adjustment for expected losses due to counterparty default. The adjustment shall be calculated separately and must be in line with Delegated Regulation (EU) 2015/35.This value shall be reported as negative value.
+
+
+c0100 - Reinsurance recoverables: Total reinsurance recoverables
+----------------------------------------------------------------
+
+
+The result of ceded technical provisions (i.e. claims + premiums provisions), including the adjustment for expected losses due to counterparty default.
+
+
+c0110 - Net receivables
+-----------------------
+
+
+The amounts past due resulting from: claims paid by the insurer but not yet reimbursed by the reinsurer plus commissions to be paid by the reinsurer and other receivables minus debts to the reinsurer. Cash deposits are excluded and are to be considered as guarantees received.
+
+
+c0120 - Assets pledged by reinsurer
+-----------------------------------
+
+
+Amount of assets pledged by the reinsurer to mitigate the counterparty default risk of the reinsurer.
+
+
+c0130 - Financial guarantees
+----------------------------
+
+
+Amount of guarantees received by the undertaking from the reinsurer to guarantee the payment of the liabilities due by the undertaking (includes letter of credit, undrawn committed borrowing facilities).
+
+
+c0140 - Cash deposits
+---------------------
+
+
+Amount of cash deposits received by the reinsurer.
+
+
+c0150 - Total guarantees received
+---------------------------------
+
+
+Total amount of types of guarantees.
+
+
+c0160 - Code reinsurer
+----------------------
+
+
+Identification code of the reinsurer by this order of priority:—Legal Entity Identifier (LEI);—Specific code attributed by the undertaking
+
+
+c0170 - Type of codeReinsurer
+-----------------------------
+
+
+Identification of the code used in item ‘Code reinsurer’. The following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0180 - Legal name reinsurer
+----------------------------
+
+
+Legal name of the reinsurer to whom the underwriting risk has been transferred. The official name of the risk–carrier reinsurer is stated in the reinsurance contract. It is not permitted to fill in the name of a reinsurance broker. Nor is it permitted to state a general or incomplete name as international reinsurers have several operating companies that may be based in different countries.In case of pooling arrangements, the name of the Pool (or Pool manager) can be filled only if the Pool is a legal entity.
+
+
+c0190 - Type of reinsurer
+-------------------------
+
+
+Type of reinsurer to whom the underwriting risk has been transferred.The following closed list shall be used: 1 — Direct Life insurer 2 — Direct Non–life insurer 3 — Direct Composite insurer 4 — Captive insurance undertaking 5 — Internal reinsurer (reinsurance undertaking which primary focus is to take risk from other insurance undertakings within the scope of group supervision) 6 — External reinsurer (reinsurance undertaking that takes risks from undertakings other than from insurance undertakings within the scope of group supervision) 7 — Captive reinsurance undertaking 8 — Special purpose vehicle 9 — Pool entity (where more than one insurance or reinsurance undertakings are involved) 10 — State pool
+
+
+c0200 - Country of residency
+----------------------------
+
+
+Identify the ISO 3166–1 alpha–2 code for the country where the reinsurer is legally authorised/licensed.
+
+
+c0210 - External rating assessment by nominated ECAI
+----------------------------------------------------
+
+
+The actual/current rating that is considered by the group.
+
+
+c0220 - Nominated ECAI
+----------------------
+
+
+The agency that rates the reinsurer that is considered by the undertaking.
+
+
+c0230 - Credit quality step
+---------------------------
+
+
+Identify the credit quality step attributed to the reinsurer. The credit quality step shall reflect any readjustments to the credit quality made internally by the group that use the standard formula.
+
+
+c0240 - Internal rating
+-----------------------
+
+
+Internal rating of the reinsurer for groups using internal model to the extent that the internal ratings are used in their internal modelling. If an internal model undertaking is using solely external ratings this item shall not be reported.
+
+

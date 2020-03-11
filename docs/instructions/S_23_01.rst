@@ -1,0 +1,2162 @@
+===================
+S.23.01 - Own Funds
+===================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to opening, quarterly and annual submission for individual entities.
+
+
+r0010c0010 - Ordinary share capital (gross of own shares) — total
+-----------------------------------------------------------------
+
+
+This is the total ordinary share capital, both held directly and indirectly (before deduction of own shares). This is the total ordinary share capital of the undertaking that fully satisfies the criteria for Tier 1 or Tier 2 items. Any ordinary share capital that does not fully satisfy the criteria shall be treated as preference shares capital and classified accordingly notwithstanding their description or designation.
+
+
+r0010c0020 - Ordinary share capital (gross of own shares) — tier 1 unrestricted
+-------------------------------------------------------------------------------
+
+
+This is the amount of paid up ordinary share capital that meets unrestricted Tier 1 criteria.
+
+
+r0010c0040 - Ordinary share capital (gross of own shares) — tier 2
+------------------------------------------------------------------
+
+
+This is the amount of called up ordinary share capital that meets the criteria for Tier 2.
+
+
+r0030c0010 - Share premium account related to ordinary share capital — total
+----------------------------------------------------------------------------
+
+
+The total share premium account related to ordinary share capital of the undertaking that fully satisfies the criteria for Tier 1 or Tier 2 items.
+
+
+r0030c0020 - Share premium account related to ordinary share capital — tier 1 unrestricted
+------------------------------------------------------------------------------------------
+
+
+This is the amount of the share premium account related to ordinary shares that meets the criteria for Tier 1 unrestricted because it relates to ordinary share capital treated as unrestricted Tier 1.
+
+
+r0030c0040 - Share premium account related to ordinary share capital — tier 2
+-----------------------------------------------------------------------------
+
+
+This is the amount of the share premium account related to ordinary shares that meets the criteria for Tier 2 because it relates to ordinary share capital treated as Tier 2.
+
+
+r0040c0010 - Initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings — total
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+The initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings that fully meets the criteria for Tier 1 or Tier 2 items.
+
+
+r0040c0020 - Initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings — tier 1 unrestricted
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of the initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings that meets the criteria for Tier 1 unrestricted.
+
+
+r0040c0040 - Initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings — tier 2
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of the initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings that meets Tier 2 criteria.
+
+
+r0050c0010 - Subordinated mutual member accounts — total
+--------------------------------------------------------
+
+
+This is the total amount of subordinated mutual member accounts that fully satisfy the criteria for Tier 1 restricted, Tier 2 or Tier 3 items.
+
+
+r0050c0030 - Subordinated mutual member accounts — tier 1 restricted
+--------------------------------------------------------------------
+
+
+This is the amount of subordinated mutual member accounts that meet the criteria for Tier 1 restricted.
+
+
+r0050c0040 - Subordinated mutual member accounts — tier 2
+---------------------------------------------------------
+
+
+This is the amount of subordinated mutual member accounts that meet the criteria for Tier 2.
+
+
+r0050c0050 - Subordinated mutual member accounts — tier 3
+---------------------------------------------------------
+
+
+This is the amount of subordinated mutual member accounts that meet the criteria for Tier 3.
+
+
+r0070c0010 - Surplus funds — total
+----------------------------------
+
+
+This is the total amount of surplus funds that fall under Article 91 (2) of the Directive 2009/138/EC.
+
+
+r0070c0020 - Surplus funds — tier 1 unrestricted
+------------------------------------------------
+
+
+These are the surplus funds that fall under Article 91 (2) of the Directive 2009/138/EC and that meet the criteria for Tier 1, unrestricted items.
+
+
+r0090c0010 - Preference shares — total
+--------------------------------------
+
+
+This is the total amount of preference shares issued by the undertaking that fully satisfy the criteria for Tier 1 restricted, Tier 2 or Tier 3 items.
+
+
+r0090c0030 - Preference shares — tier 1 restricted
+--------------------------------------------------
+
+
+This is the amount of the preference shares issued by the undertaking that meet the criteria for Tier 1 restricted.
+
+
+r0090c0040 - Preference shares — tier 2
+---------------------------------------
+
+
+This is the amount of the preference shares issued by the undertaking that meet the criteria for Tier 2.
+
+
+r0090c0050 - Preference shares — tier 3
+---------------------------------------
+
+
+This is the amount of the preference shares issued by the undertaking that meet the criteria for Tier 3.
+
+
+r0110c0010 - Share premium account related to preference shares — total
+-----------------------------------------------------------------------
+
+
+The total share premium account related to preference shares capital of the undertaking that fully satisfies the criteria for Tier 1 restricted, Tier 2 or Tier 3 items.
+
+
+r0110c0030 - Share premium account related to preference shares — tier 1 restricted
+-----------------------------------------------------------------------------------
+
+
+This is the amount of the share premium account that relates to preference shares that meets the criteria for Tier 1 restricted items because it relates to preference shares treated as Tier 1 restricted items.
+
+
+r0110c0040 - Share premium account related to preference shares — tier 2
+------------------------------------------------------------------------
+
+
+This is the amount of the share premium account that relates to preference shares that meets the criteria for Tier 2 because it relates to preference shares treated as Tier 2.
+
+
+r0110c0050 - Share premium account related to preference shares — tier 3
+------------------------------------------------------------------------
+
+
+This is the amount of the share premium account that relates to preference shares that meets the criteria for Tier 3 because it relates to preference shares treated as Tier 3.
+
+
+r0130c0010 - Reconciliation reserve — total
+-------------------------------------------
+
+
+The total reconciliation reserve represents reserves (e.g. retained earnings), net of adjustments (e.g. ring–fenced funds). It results mainly from differences between accounting valuation and valuation according to Article 75 of Directive 2009/138/EC.
+
+
+r0130c0020 - Reconciliation reserve — tier 1 unrestricted
+---------------------------------------------------------
+
+
+The reconciliation reserve represents reserves (e.g. retained earnings), net of adjustments (e.g. ring–fenced funds). It results mainly from differences between accounting valuation and valuation according to Directive 2009/138/EC.
+
+
+r0140c0010 - Subordinated liabilities — total
+---------------------------------------------
+
+
+This is the total amount of subordinated liabilities issued by the undertaking.
+
+
+r0140c0030 - Subordinated liabilities — tier 1 restricted
+---------------------------------------------------------
+
+
+This is the amount of subordinated liabilities issued by the undertaking that meet the criteria for Tier 1 restricted items.
+
+
+r0140c0040 - Subordinated liabilities — tier 2
+----------------------------------------------
+
+
+This is the amount of subordinated liabilities issued by the undertaking that meet the criteria for Tier 2.
+
+
+r0140c0050 - Subordinated liabilities — tier 3
+----------------------------------------------
+
+
+This is the amount of subordinated liabilities issued by the undertaking that meet the criteria for Tier 3.
+
+
+r0160c0010 - An amount equal to the value of net deferred tax assets — total
+----------------------------------------------------------------------------
+
+
+This is the total amount of net deferred tax assets of the undertaking.
+
+
+r0160c0050 - An amount equal to the value of net deferred tax assets — tier 3
+-----------------------------------------------------------------------------
+
+
+This is the amount of net deferred tax assets of the undertaking that meet the tier 3 classification criteria.
+
+
+r0180c0010 - Other own fund items approved by the supervisory authority as basic own funds not specified above
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the total of basic own fund items not identified above and that received supervisory approval.
+
+
+r0180c0020 - Other own fund items approved by the supervisory authority as basic own funds not specified above — tier 1 unrestricted
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of basic own fund items not identified above that meet Tier 1 unrestricted criteria and that received supervisory approval.
+
+
+r0180c0030 - Other own fund items approved by the supervisory authority as basic own funds not specified above — Tier 1 restricted
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of basic own fund items not identified above which meet the criteria for Tier 1, restricted items and that received supervisory approval.
+
+
+r0180c0040 - Other own fund items approved by the supervisory authority as basic own funds not specified above — tier 2
+-----------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of basic own fund items not identified above that meet the criteria for Tier 2 and that received supervisory approval.
+
+
+r0180c0050 - Other own fund items approved by the supervisory authority as basic own funds not specified above — tier 3
+-----------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of basic own fund items not identified above that meet the criteria for Tier 3 and that received supervisory approval.
+
+
+r0220c0010 - Own funds from the financial statements that shall not be represented by the reconciliation reserve and do not meet the criteria to be classified as Solvency II own funds — total
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of own fund items from financial statements that are not represented by the reconciliation reserve and do not meet the criteria to be classified as Solvency II own funds.These own fund items are either:i)items that appear in the lists of own fund items, but fail to meet the classification criteria or the transitional provisions; orii)items intended to perform the role of own funds that are not on the list of own fund items and have not been approved by the supervisory authority, and do not appear on the balance sheet as liabilities.Subordinated liabilities which do not count as basic own funds shall not be reported here, but on the balance sheet (template S.02.01) as subordinated liabilities that do not count as basic own funds.
+
+
+r0230c0010 - Deduction for participations in financial and credit institutions — total
+--------------------------------------------------------------------------------------
+
+
+This is the total deduction for participations in financial and credit institutions in accordance with Article 68 of Delegated Regulation (EU) 2015/35.
+
+
+r0230c0020 - Deduction for participations in financial and credit institutions — tier 1 unrestricted
+----------------------------------------------------------------------------------------------------
+
+
+This is the amount of the deduction for participations in financial and credit institutions that are deducted from tier 1 unrestricted in accordance with Article 68 of Delegated Regulation (EU) 2015/35.
+
+
+r0230c0030 - Deduction for participations in financial and credit institutions — tier 1 restricted
+--------------------------------------------------------------------------------------------------
+
+
+This is the amount of the deduction for participations in financial and credit institutions that are deducted from tier 1 restricted in accordance with Article 68 of Delegated Regulation (EU) 2015/35.
+
+
+r0230c0040 - Deduction for participations in financial and credit institutions — tier 2
+---------------------------------------------------------------------------------------
+
+
+This is the amount of the deduction for participations in financial and credit institutions that are deducted from tier 2 in accordance with Article 68 of Delegated Regulation (EU) 2015/35.
+
+
+r0290c0010 - Total basic own funds after deductions
+---------------------------------------------------
+
+
+This is the total amount of basic own fund items after deductions.
+
+
+r0290c0020 - Total basic own funds after deductions — tier 1 unrestricted
+-------------------------------------------------------------------------
+
+
+This is the amount of basic own fund items after deductions that meet the criteria for Tier 1 unrestricted items.
+
+
+r0290c0030 - Total basic own funds after deductions — tier 1 restricted
+-----------------------------------------------------------------------
+
+
+This is the amount of basic own fund items after adjustments that meet the criteria for Tier 1 restricted items.
+
+
+r0290c0040 - Total basic own funds after deductions — tier 2
+------------------------------------------------------------
+
+
+This is the amount of basic own fund items after adjustments that meet the criteria for Tier 2.
+
+
+r0290c0050 - Total basic own funds after deductions — tier 3
+------------------------------------------------------------
+
+
+This is the amount of basic own fund items after adjustments that meet the criteria for Tier 3.
+
+
+r0300c0010 - Unpaid and uncalled ordinary share capital callable on demand — total
+----------------------------------------------------------------------------------
+
+
+This is the total amount of issued ordinary share capital that has not been called up or paid up but that is callable on demand.
+
+
+r0300c0040 - Unpaid and uncalled ordinary share capital callable on demand — tier 2
+-----------------------------------------------------------------------------------
+
+
+This is the amount of issued ordinary share capital that has not been called up or paid up but that is callable on demand that meet the criteria for Tier 2.
+
+
+r0310c0010 - Unpaid and uncalled initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual — type undertakings, callable on demand–total
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings that has not been called up or paid up but that is callable on demand.
+
+
+r0310c0040 - Unpaid and uncalled initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings, callable on demand — tier 2
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings that has not been called up or paid up but that is callable on demand that meet the criteria for Tier 2.
+
+
+r0320c0010 - Unpaid and uncalled preference shares callable on demand — total
+-----------------------------------------------------------------------------
+
+
+This is the total amount of preference shares that have not been called up or paid up but that are callable on demand.
+
+
+r0320c0040 - Unpaid and uncalled preference shares callable on demand — tier 2
+------------------------------------------------------------------------------
+
+
+This is the amount of preference shares that have not been called up or paid up but that are callable on demand that meet the criteria for Tier 2.
+
+
+r0320c0050 - Unpaid and uncalled preference shares callable on demand — tier 3
+------------------------------------------------------------------------------
+
+
+This is the amount of preference shares that have not been called up or paid up but that are callable on demand that meet the criteria for Tier 3
+
+
+r0330c0010 - A legally binding commitment to subscribe and pay for subordinated liabilities on demand — total
+-------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of legally binding commitments to subscribe and pay for subordinated liabilities on demand.
+
+
+r0330c0040 - A legally binding commitment to subscribe and pay for subordinated liabilities on demand — tier 2
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of legally binding commitments to subscribe and pay for subordinated liabilities on demand that meet the criteria for Tier 2.
+
+
+r0330c0050 - A legally binding commitment to subscribe and pay for subordinated liabilities on demand — tier 3
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of legally binding commitments to subscribe and pay for subordinated liabilities on demand that meet the criteria for Tier 3.
+
+
+r0340c0010 - Letters of credit and guarantees under Article 96(2) of the Directive 2009/138/EC– total
+-----------------------------------------------------------------------------------------------------
+
+
+This is the total amount of letters of credit and guarantees that are held in trust for the benefit of insurance creditors by an independent trustee and provided by credit institutions authorised in accordance with Directive 2006/48/EC.
+
+
+r0340c0040 - Letters of credit and guarantees under Article 96(2) of the Directive 2009/138/EC– tier 2
+------------------------------------------------------------------------------------------------------
+
+
+This is the amount of letters of credit and guarantees that are held in trust for the benefit of insurance creditors by an independent trustee and provided by credit institutions authorised in accordance with Directive 2006/48/EC that meet the criteria for Tier 2.
+
+
+r0350c0010 - Letters of credit and guarantees other than under Article 96(2) of the Directive 2009/138/EC– total
+----------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of letters of credit and guarantees that satisfy criteria for Tier 2 or Tier 3, other than those that are held in trust for the benefit of insurance creditors by an independent trustee and provided by credit institutions authorised in accordance with Directive 2006/48/EC.
+
+
+r0350c0040 - Letters of credit and guarantees other than under Article 96(2) of the Directive 2009/138/EC — tier 2
+------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of letters of credit and guarantees that meet the criteria for Tier 2, other than those which are held in trust for the benefit of insurance creditors by an independent trustee and provided by credit institutions authorised in accordance with Directive 2006/48/EC.
+
+
+r0350c0050 - Letters of credit and guarantees other than under Article 96(2) of the Directive 2009/138/EC– tier 3
+-----------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of letters of credit and guarantees that meet the criteria for Tier 3, other than those which are held in trust for the benefit of insurance creditors by an independent trustee and provided by credit institutions authorised in accordance with Directive 2006/48/EC.
+
+
+r0360c0010 - Supplementary members calls under first subparagraph of Article 96(3) of the Directive 2009/138/EC– total
+----------------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of any future claims which mutual or mutual–type associations of ship owners with variable contributions solely insuring risks listed in classes 6, 12 and 17 in Part A of Annex I may have against their members by way of a call for supplementary contributions, within the following 12 months.
+
+
+r0360c0040 - Supplementary members calls under first subparagraph of Article 96(3) of the Directive 2009/138/EC — tier 2
+------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of any future claims which mutual or mutual–type associations of ship owners with variable contributions solely insuring risks listed in classes 6, 12 and 17 in Part A of Annex I may have against their members by way of a call for supplementary contributions, within the following 12 months.
+
+
+r0370c0010 - Supplementary members calls — other than under first subparagraph of Article 96(3) of the Directive 2009/138/EC
+----------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of any future claims which mutual or mutual–type associations with variable contributions may have against their members by way of a call for supplementary contributions, within the following 12 months, other than those described in the first subparagraph of article 96(3) of the Directive 2009/138/EC.
+
+
+r0370c0040 - Supplementary members calls — other than under first subparagraph of Article 96(3) of the Directive 2009/138/EC — tier 2
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of any future claims which mutual or mutual–type associations of with variable contributions may have against their members by way of a call for supplementary contributions within the following 12 months, other than those described in the first subparagraph of article 96(3) of the Directive 2009/138/EC that meet the criteria for Tier 2.
+
+
+r0370c0050 - Supplementary members calls — other than under first subparagraph of Article 96(3) of the Directive 2009/138/EC — tier 3
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of any future claims which mutual or mutual–type associations with variable contributions may have against their members by way of a call for supplementary contributions within the following 12 months, other than those described in the first subparagraph of article 96(3) of the Framework Directive 2009/138/EC that meet the criteria for Tier 3.
+
+
+r0390c0010 - Other ancillary own funds — total
+----------------------------------------------
+
+
+This is the total amount of other ancillary own funds.
+
+
+r0390c0040 - Other ancillary own funds — tier 2
+-----------------------------------------------
+
+
+This is the amount of other ancillary own funds that meet criteria for Tier 2.
+
+
+r0390c0050 - Other ancillary own funds — tier 3
+-----------------------------------------------
+
+
+This is the amount of other ancillary own funds that meet criteria for Tier 3.
+
+
+r0400c0010 - Total ancillary own funds
+--------------------------------------
+
+
+This is the total amount of ancillary own fund items.
+
+
+r0400c0040 - Total ancillary own funds tier 2
+---------------------------------------------
+
+
+This is the amount of ancillary own fund items that meet the criteria for Tier 2.
+
+
+r0400c0050 - Total ancillary own funds — tier 3
+-----------------------------------------------
+
+
+This is the amount of ancillary own fund items that meet the criteria for Tier 3.
+
+
+r0500c0010 - Total available own funds to meet the SCR
+------------------------------------------------------
+
+
+This is the sum of all basic own fund items and ancillary own fund items that meet the tier 1, tier 2 and tier 3 criteria and that are therefore available to meet the SCR.
+
+
+r0500c0020 - Total available own funds to meet the SCR — tier 1 unrestricted
+----------------------------------------------------------------------------
+
+
+This the sum of all basic own fund items that meet the criteria to be included in Tier 1 unrestricted items and that are therefore available to meet the SCR.
+
+
+r0500c0030 - Total available own funds to meet the SCR — tier 1 restricted
+--------------------------------------------------------------------------
+
+
+This the sum of all basic own fund items that meet the criteria to be included in Tier 1 restricted items and that are therefore available to meet the SCR.
+
+
+r0500c0040 - Total available own funds to meet the SCR — tier 2
+---------------------------------------------------------------
+
+
+This is the sum of all basic own fund items, after adjustments, and ancillary own fund items that meet the criteria to be included in Tier 2 and that are therefore available to meet the SCR.
+
+
+r0500c0050 - Total available own funds to meet the SCR — tier 3
+---------------------------------------------------------------
+
+
+This is the sum of all basic own fund items, after adjustments, and ancillary own fund items that meet the criteria to be included in Tier 3 and that are therefore available to meet the SCR.
+
+
+r0510c0010 - Total available own funds to meet the MCR
+------------------------------------------------------
+
+
+This is the sum of all basic own fund items, after adjustments, that meet the tier 1 and tier 2 criteria and that are therefore available to meet the MCR.
+
+
+r0510c0020 - Total available own funds to meet the MCR — tier 1 unrestricted
+----------------------------------------------------------------------------
+
+
+This is the sum of all basic own fund items, after adjustments, that meet the criteria to be included in Tier 1 unrestricted items and that are therefore available to meet the MCR.
+
+
+r0510c0030 - Total available own funds to meet the MCR — tier 1 restricted
+--------------------------------------------------------------------------
+
+
+This is the sum of all basic own fund items, after adjustments, that meet the criteria to be included in Tier 1 restricted items and that are therefore available to meet the MCR.
+
+
+r0510c0040 - Total available own funds to meet the MCR — tier 2
+---------------------------------------------------------------
+
+
+This is the sum of all basic own fund items, after adjustments, that meet the criteria to be included in Tier 2 and that are therefore available to meet the MCR.
+
+
+r0540c0010 - Total eligible own funds to meet the SCR
+-----------------------------------------------------
+
+
+This is the total amount of available own funds that are eligible to cover the SCR.
+
+
+r0540c0020 - Total eligible own funds to meet the SCR — tier 1 unrestricted
+---------------------------------------------------------------------------
+
+
+This is the amount of unrestricted Tier 1 own fund items that are eligible to meet the SCR.
+
+
+r0540c0030 - Total eligible own funds to meet the SCR — tier 1 restricted
+-------------------------------------------------------------------------
+
+
+This is the amount of restricted Tier 1 own fund items that are eligible to meet the SCR.
+
+
+r0540c0040 - Total eligible own funds to meet the SCR — tier 2
+--------------------------------------------------------------
+
+
+This is the amount of Tier 2 own fund items that are eligible to meet the SCR.
+
+
+r0540c0050 - Total eligible own funds to meet the SCR — tier 3
+--------------------------------------------------------------
+
+
+This is the amount of Tier 3 own fund items that are eligible to meet the SCR.
+
+
+r0550c0010 - Total eligible own funds to meet the MCR
+-----------------------------------------------------
+
+
+This is the total amount of own fund items that are eligible to meet the MCR.
+
+
+r0550c0020 - Total eligible own funds to meet the MCR — tier 1 unrestricted
+---------------------------------------------------------------------------
+
+
+This is the amount of unrestricted Tier 1 own fund items that are eligible to meet the MCR.
+
+
+r0550c0030 - Total eligible own funds to meet the MCR — tier 1 restricted
+-------------------------------------------------------------------------
+
+
+This is the amount of restricted Tier 1 own fund items that are eligible to meet the MCR.
+
+
+r0550c0040 - Total eligible own funds to meet the MCR — tier 2
+--------------------------------------------------------------
+
+
+This is the amount of Tier 2 basic own fund items that are eligible to meet the MCR.
+
+
+r0580c0010 - SCR
+----------------
+
+
+This is the total SCR of the undertaking as a whole and shall correspond to the SCR reported on the relevant SCR template.For quarterly reporting this is the latest SCR to be calculated and reported in accordance with Articles 103 to 127 of Directive 2009/138/EC, either the annual one or a more recent one in case the SCR has been recalculated (e.g. due to a change in risk profile), including capital add on.
+
+
+r0600c0010 - MCR
+----------------
+
+
+This is the MCR of the undertaking and shall correspond to the total MCR reported in the relevant MCR template.
+
+
+r0620c0010 - Ratio of eligible own funds to SCR
+-----------------------------------------------
+
+
+This is the solvency ratio calculated as the total eligible own funds to meet the SCR divided by the SCR amount.
+
+
+r0640c0010 - Ratio of eligible own funds to MCR
+-----------------------------------------------
+
+
+This is the MCR ratio calculated as the total of eligible own funds to meet the MCR divided by the MCR amount.
+
+
+r0700c0060 - Excess of assets over liabilities
+----------------------------------------------
+
+
+This is the excess of assets over liabilities as reported in the Solvency 2 balance sheet.
+
+
+r0710c0060 - Own shares (held directly and indirectly)
+------------------------------------------------------
+
+
+This is the amount of own shares held by the undertaking, both directly and indirectly.
+
+
+r0720c0060 - Foreseeable dividends, distributions and charges
+-------------------------------------------------------------
+
+
+These are the dividends, distributions and charges foreseeable by the undertaking.
+
+
+r0730c0060 - Other basic own fund items
+---------------------------------------
+
+
+These are the basic own fund items included in points (a)(i) to (v) of Article 69, Article 72(a) and Article 76(a), as well as those basic own fund items approved by the supervisory authority in accordance with Article 79 of the Delegated Regulation (EU) 2015/35.
+
+
+r0740c0060 - Adjustment for restricted own fund items in respect of matching adjustment portfolios and ring fenced funds
+------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of the adjustment to the reconciliation reserve due to the existence of restricted own fund items in respect of ring–fenced funds and matching portfolios.
+
+
+r0760c0060 - Reconciliation reserve — total
+-------------------------------------------
+
+
+This the reconciliation reserve of the undertaking, before deduction for participations in other financial sector as foreseen in Article 68 of Delegated Regulation (EU) 2015/35.
+
+
+r0770c0060 - Expected profits included in future premiums (EPIFP) — Life business
+---------------------------------------------------------------------------------
+
+
+The reconciliation reserve includes an amount of the excess of assets over liabilities that corresponds to the expected profit in future premiums (‘EPIFP’). This cell represents that amount for the life business of the undertaking.
+
+
+r0780c0060 - Expected profits included in future premiums (EPIFP) — Non– life business
+--------------------------------------------------------------------------------------
+
+
+The reconciliation reserve includes an amount of the excess of assets over liabilities that corresponds to the expected profit in future premiums (EPIFP). This cell represents that amount for the non–life business of the undertaking.
+
+
+r0790c0060 - Total Expected profits included in future premiums (EPIFP)
+-----------------------------------------------------------------------
+
+
+This is the total amount calculated as expected profits included in future premiums.
+
+
+r0010c0010 - Ordinary share capital (gross of own shares) — total
+-----------------------------------------------------------------
+
+
+This is the total ordinary share capital, both held directly and indirectly (before deduction of own shares). This is the total ordinary share capital of the group that fully satisfies the criteria for Tier 1 or Tier 2 items. Any ordinary share capital that does not fully satisfy the criteria shall be treated as preference shares capital and classified accordingly notwithstanding their description or designation.
+
+
+r0010c0020 - Ordinary share capital (gross of own shares) — tier 1 unrestricted
+-------------------------------------------------------------------------------
+
+
+This is the amount of paid up ordinary share capital that meets unrestricted Tier 1– criteria.
+
+
+r0010c0040 - Ordinary share capital (gross of own shares) — tier 2
+------------------------------------------------------------------
+
+
+This is the amount of called up ordinary share capital that meets the criteria for Tier 2.
+
+
+r0020c0010 - Non–available called but not paid in ordinary share capital at group level — total
+-----------------------------------------------------------------------------------------------
+
+
+This is the total amount of called but not paid in ordinary share capital which is deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC.
+
+
+r0020c0020 - Non–available called but not paid in ordinary share capital at group level — tier 1 unrestricted
+-------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of called but not paid in ordinary share capital which is deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meets tier 1 unrestricted criteria.
+
+
+r0020c0040 - Non–available called but not paid in ordinary share capital at group level –tier 2
+-----------------------------------------------------------------------------------------------
+
+
+This is the amount of called but not paid in ordinary share capital which is deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC which meets the criteria for Tier 2.
+
+
+r0030c0010 - Share premium account related to ordinary share capital — total
+----------------------------------------------------------------------------
+
+
+The total share premium account related to ordinary share capital that fully satisfies the criteria for Tier 1 or Tier 2 items.
+
+
+r0030c0020 - Share premium account related to ordinary share capital — tier 1 unrestricted
+------------------------------------------------------------------------------------------
+
+
+This is the amount of the share premium account related to ordinary shares that meets the criteria for Tier 1 unrestricted because it relates to ordinary share capital treated as unrestricted Tier 1.
+
+
+r0030c0040 - Share premium account related to ordinary share capital — tier 2
+-----------------------------------------------------------------------------
+
+
+This is the amount of the share premium account related to ordinary shares that meets the criteria for Tier 2 because it relates to ordinary share capital treated as Tier 2.
+
+
+r0040c0010 - Initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings — total
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+The initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings that fully satisfies the criteria for Tier 1 or Tier 2 items.
+
+
+r0040c0020 - Initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings — tier 1 unrestricted
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of the initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings that meets the criteria for Tier 1 unrestricted.
+
+
+r0040c0040 - Initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings — tier 2
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of the initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings that meets Tier 2 criteria.
+
+
+r0050c0010 - Subordinated mutual member accounts — total
+--------------------------------------------------------
+
+
+This is the total amount of subordinated mutual member accounts that fully satisfy the criteria for Tier 1 restricted, Tier 2 or Tier 3 items.
+
+
+r0050c0030 - Subordinated mutual member accounts — tier 1 restricted
+--------------------------------------------------------------------
+
+
+This is the amount of subordinated mutual member accounts that meet the criteria for Tier 1 restricted.
+
+
+r0050c0040 - Subordinated mutual member accounts — tier 2
+---------------------------------------------------------
+
+
+This is the amount of subordinated mutual member accounts that meet the criteria for Tier 2.
+
+
+r0050c0050 - Subordinated mutual member accounts — tier 3
+---------------------------------------------------------
+
+
+This is the amount of subordinated mutual member accounts that meet the criteria for Tier 3.
+
+
+r0060c0010 - Non–available subordinated mutual member accounts at group level — total
+-------------------------------------------------------------------------------------
+
+
+This is the total amount of subordinated mutual member accounts which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC.
+
+
+r0060c0030 - Non–available subordinated mutual member accounts at group level — tier 1 restricted
+-------------------------------------------------------------------------------------------------
+
+
+This is the amount of subordinated mutual member accounts which are deemed non–available as defined in Article 222(2)–(5) of Directive 2009/138/EC that meet the criteria for Tier 1 restricted.
+
+
+r0060c0040 - Non–available subordinated mutual member accounts at group level — tier 2
+--------------------------------------------------------------------------------------
+
+
+This is the amount of subordinated mutual member accounts which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 2.
+
+
+r0060c0050 - Non–available subordinated mutual member accounts at group level — tier 3
+--------------------------------------------------------------------------------------
+
+
+This is the amount of subordinated mutual member accounts which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 3.
+
+
+r0070c0010 - Surplus funds — total
+----------------------------------
+
+
+This is the total amount of surplus funds that fall under Article 91 (2) of the Directive 2009/138/EC.
+
+
+r0070c0020 - Surplus funds — tier 1 unrestricted
+------------------------------------------------
+
+
+These are the surplus funds that fall under Article 91 (2) of the Directive 2009/138/EC and that meet the criteria for Tier 1 unrestricted items.
+
+
+r0080c0010 - Non–available surplus funds at group level) –total
+---------------------------------------------------------------
+
+
+This is the total amount of surplus funds which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC.
+
+
+r0080c0020 - Non–available surplus funds at group level) — tier 1 unrestricted
+------------------------------------------------------------------------------
+
+
+This is the amount of surplus funds that are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 1 unrestricted items.
+
+
+r0090c0010 - Preference shares — total
+--------------------------------------
+
+
+This is the total amount of preference shares issued that fully satisfy the criteria for Tier 1 restricted, Tier 2 or Tier 3 items.
+
+
+r0090c0030 - Preference shares — tier 1 restricted
+--------------------------------------------------
+
+
+This is the amount of the preference shares issued that meet the criteria for Tier 1 restricted.
+
+
+r0090c0040 - Preference shares — tier 2
+---------------------------------------
+
+
+This is the amount of the preference shares issued that meet the criteria for Tier 2.
+
+
+r0090c0050 - Preference shares — tier 3
+---------------------------------------
+
+
+This is the amount of the preference shares issued that meet the criteria for Tier 3.
+
+
+r0100c0010 - Non–available preference shares at group level — total
+-------------------------------------------------------------------
+
+
+This is the total amount of preference shares which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC.
+
+
+r0100c0030 - Non–available preference shares at group level — tier 1 Restricted
+-------------------------------------------------------------------------------
+
+
+This is the amount of preference shares which are deemed non — available as defined in Article 222(2)–(5) of the Directive 2009/138/EC and which meet the criteria for Tier 1 restricted items.
+
+
+r0100c0040 - Non–available preference shares at group level — tier 2
+--------------------------------------------------------------------
+
+
+This is the amount of preference shares which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC and which meet the criteria for Tier 2.
+
+
+r0100c0050 - Non–available preference shares at group level — tier 3
+--------------------------------------------------------------------
+
+
+This is the amount of preference shares which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC and which meet the criteria for Tier 3.
+
+
+r0110c0010 - Share premium account related to preference shares — total
+-----------------------------------------------------------------------
+
+
+The total share premium account related to preference shares capital that fully satisfies the criteria for Tier 1 restricted, Tier 2 or Tier 3 items.
+
+
+r0110c0030 - Share premium account related to preference shares — tier 1 restricted
+-----------------------------------------------------------------------------------
+
+
+This is the amount of the share premium account that relates to preference shares that meets the criteria for Tier 1 restricted items because it relates to preference shares treated as Tier 1 restricted items.
+
+
+r0110c0040 - Share premium account related to preference shares — tier 2
+------------------------------------------------------------------------
+
+
+This is the amount of the share premium account that relates to preference shares that meets the criteria for Tier 2 because it relates to preference shares treated as Tier 2.
+
+
+r0110c0050 - Share premium account related to preference shares — tier 3
+------------------------------------------------------------------------
+
+
+This is the amount of the share premium account that relates to preference shares that meets the criteria for Tier 3 because it relates to preference shares treated as Tier 3.
+
+
+r0120c0010 - Non–available share premium account related to preference shares at group level — total
+----------------------------------------------------------------------------------------------------
+
+
+This is the total amount of the share premium account relating to preference shares that is deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC.
+
+
+r0120c0030 - Non–available share premium account related to preference shares at group level — tier 1 restricted
+----------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of the share premium account relating to preference shares that is deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC and which meets the criteria for Tier 1 restricted items.
+
+
+r0120c0040 - Non–available share premium account related to preference shares at group level — tier 2
+-----------------------------------------------------------------------------------------------------
+
+
+This is the amount of the share premium account relating to preference shares that is deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC and which meets the criteria for Tier 2.
+
+
+r0120c0050 - Non–available share premium account related to preference shares at group level — tier 3
+-----------------------------------------------------------------------------------------------------
+
+
+This is the amount of the share premium account relating to preference shares that is deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC and which meets the criteria for Tier 3.
+
+
+r0130c0010 - Reconciliation reserve — total
+-------------------------------------------
+
+
+The total reconciliation reserve represents reserves (e.g. retained earnings), net of adjustments (e.g. ring–fenced funds). It results mainly from differences between accounting valuation and valuation according to Article 75 of Directive 2009/138/EC.
+
+
+r0130c0020 - Reconciliation — tier 1 unrestricted
+-------------------------------------------------
+
+
+The reconciliation reserve represents reserves (e.g. retained earnings), net of adjustments (e.g. ring–fenced funds). It results mainly from differences between accounting valuation and valuation according to Directive 2009/138/EC.
+
+
+r0140c0010 - Subordinated liabilities — total
+---------------------------------------------
+
+
+This is the total amount of subordinated liabilities.
+
+
+r0140c0030 - Subordinated liabilities — tier 1 restricted
+---------------------------------------------------------
+
+
+This is the amount of subordinated liabilities that meet the criteria for Tier 1 restricted items.
+
+
+r0140c0040 - Subordinated liabilities — tier 2
+----------------------------------------------
+
+
+This is the amount of subordinated liabilities that meet the criteria for Tier 2.
+
+
+r0140c0050 - Subordinated liabilities — tier 3
+----------------------------------------------
+
+
+This is the amount of subordinated liabilities that meet the criteria for Tier 3.
+
+
+r0150c0010 - Non–available subordinated liabilities at group level — total
+--------------------------------------------------------------------------
+
+
+This is the total amount of subordinated liabilities that are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC.
+
+
+r0150c0030 - Non–available subordinated liabilities at group level — tier 1 restricted
+--------------------------------------------------------------------------------------
+
+
+This is the amount of subordinate liabilities that are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 1 restricted items.
+
+
+r0150c0040 - Non–available subordinated liabilities at group level — tier 2
+---------------------------------------------------------------------------
+
+
+This is the amount of subordinated liabilities that are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 2.
+
+
+r0150c0050 - Non–available subordinated liabilities at group level — tier 3
+---------------------------------------------------------------------------
+
+
+This is the amount of subordinated liabilities that are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 3.
+
+
+r0160c0010 - An amount equal to the value of net deferred tax assets — total
+----------------------------------------------------------------------------
+
+
+This is the total amount of net deferred tax assets.
+
+
+r0160c0050 - An amount equal to the value of net deferred tax assets — tier 3
+-----------------------------------------------------------------------------
+
+
+This is the amount of net deferred tax assets that meet the tier 3 classification criteria.
+
+
+r0170c0010 - An amount equal to the value of net deferred tax assets non available at group level –total
+--------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of net deferred tax assets which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC.
+
+
+r0170c0050 - An amount equal to the value of net deferred tax assets non available at group level –Tier 3
+---------------------------------------------------------------------------------------------------------
+
+
+This is the amount of net deferred tax assets which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 3.
+
+
+r0180c0010 - Other own fund items approved by the supervisory authority as basic own funds not specified above
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the total of basic own fund items not identified above and that received supervisory approval.
+
+
+r0180c0020 - Other own fund items approved by the supervisory authority as basic own funds not specified above — tier 1 unrestricted
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of basic own fund items not identified above that meet Tier 1 unrestricted criteria and that received supervisory approval.
+
+
+r0180c0030 - Other own fund items approved by the supervisory authority as basic own funds not specified above — Tier 1 restricted
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of basic own fund items not identified above which meet the criteria for Tier 1, restricted items and that received supervisory approval.
+
+
+r0180c0040 - Other own fund items approved by the supervisory authority as basic own funds not specified above — tier 2
+-----------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of basic own fund items not identified above that meet the criteria for Tier 2 and that received supervisory approval.
+
+
+r0180c0050 - Other own fund items approved by the supervisory authority as basic own funds not specified above — tier 3
+-----------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of basic own fund items not identified above that meet the criteria for Tier 3 and that received supervisory approval.
+
+
+r0190c0010 - Non–available own funds related to other own funds items approved by supervisory authority — total
+---------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of own fund items related to other items approved by supervisory authority as basic own funds not specified above which are deemed non–available, as defined in Article 222(2)–(5) of the Directive 2009/138/EC.
+
+
+r0190c0020 - Non–available own funds related to other own funds items approved by supervisory authority — tier 1 unrestricted items
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of own fund items related to other items approved by supervisory authority as basic own funds not specified above which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 1 unrestricted items.
+
+
+r0190c0030 - Non–available own funds related to other own funds items approved by supervisory authority — tier 1 restricted items
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of own fund items related to other items approved by supervisory authority as basic own funds not specified above which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 1 restricted items.
+
+
+r0190c0040 - Non–available own funds related to other own funds items approved by supervisory authority — tier 2
+----------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of own fund items related to other items approved by supervisory authority as basic own funds not specified above which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 2.
+
+
+r0190c0050 - Non–available own funds related to other own funds items approved by supervisory authority — tier 3
+----------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of own fund items related to other items approved by supervisory authority as basic own funds not specified above which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 3.
+
+
+r0200c0010 - Minority interests at group level (if not reported as part of another own fund item)– total
+--------------------------------------------------------------------------------------------------------
+
+
+This is the total of minority interests in the group being reported upon. This row shall be reported if minority interests have not been already included in other items of basic own fund (‘BOF’) (i.e. minority interests shall not be counted twice).
+
+
+r0200c0020 - Minority interests at group level (if not reported as part of another own fund item)– tier 1 unrestricted
+----------------------------------------------------------------------------------------------------------------------
+
+
+The amount of minority interests in the group being reported upon that meet the criteria for Tier 1 unrestricted items.
+
+
+r0200c0030 - Minority interests at group level (if not reported as part of another own fund item)– tier 1 restricted
+--------------------------------------------------------------------------------------------------------------------
+
+
+The amount of minority interests in the group being reported upon that meet the criteria for Tier 1 restricted items.
+
+
+r0200c0040 - Minority interests at group level (if not reported as part of another own fund item)– tier 2
+---------------------------------------------------------------------------------------------------------
+
+
+The amount of minority interests in the group being reported upon that meet the criteria for Tier 2.
+
+
+r0200c0050 - Minority interests at group level (if not reported as part of another own fund item)– tier 3
+---------------------------------------------------------------------------------------------------------
+
+
+The amount of minority interests in the group being reported upon that meet the criteria for Tier 3.
+
+
+r0210c0010 - Non available minority interests at group level — total
+--------------------------------------------------------------------
+
+
+This is the total amount of minority interests which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC.
+
+
+r0210c0020 - Non available minority interests at group level — tier 1 unrestricted
+----------------------------------------------------------------------------------
+
+
+This is the amount of minority interests which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 1 unrestricted.
+
+
+r0210c0030 - Non available minority interests at group level — tier 1 restricted
+--------------------------------------------------------------------------------
+
+
+This is the amount of minority interests which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 1 restricted.
+
+
+r0210c0040 - Non available minority interests at group level — tier 2
+---------------------------------------------------------------------
+
+
+This is the amount of minority interests which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 2.
+
+
+r0210c0050 - Non available minority interests at group level — tier 3
+---------------------------------------------------------------------
+
+
+This is the amount of minority interests which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 3.
+
+
+r0220c0010 - Own funds from the financial statements that shall not be represented by the reconciliation reserve and do not meet the criteria to be classified as Solvency II own funds — total
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of own fund items from financial statements that are not represented by the reconciliation reserve and do not meet the criteria to be classified as Solvency II own funds.These own fund items are either:i)items that appear in the lists of own fund items, but fail to meet the classification criteria or the transitional provisions; orii)items intended to perform the role of own funds that are not on the list of own fund items and have not been approved by the supervisory authority, and do not appear on the balance sheet as liabilities.Subordinated liabilities which do not count as basic own funds shall not be reported here, but on the balance sheet (template S.02.01) as subordinated liabilities that do not count as basic own funds.
+
+
+r0230c0010 - Deductions for participations in other financial undertakings, including non–regulated undertakings carrying out financial activities — total
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total deduction for participations in credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies, institutions for occupational retirement provisions, non–regulated undertakings carrying out financial activities, including the participations that are deducted according to Article 228, paragraph 2 of the Directive 2009/138/EC.Those participations are deducted from basic own funds and added back as own funds according to the relevant sectoral rules in the rows from R0410 to R0440, thereby facilitating the calculation of SCR ratios both excluding and including other financial sector entities.
+
+
+r0230c0020 - Deductions for participations in other financial undertakings, including non–regulated undertakings carrying out financial activities — tier 1 unrestricted
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies, institutions for occupational retirement provisions, non–regulated undertakings carrying out financial activities, including the participations that are deducted according to Article 228, paragraph 2 of the Directive 2009/138/EC (to be showed separately in the row R0240).Those participations are deducted from basic own funds and added back as own funds according to the relevant sectoral rules in the rows from R0410 to R0440, thereby facilitating the calculation of SCR ratios both excluding and including other financial sector entities — tier 1 unrestricted items.
+
+
+r0230c0030 - Deductions for in other financial undertakings, including non–regulated undertakings carrying out financial activities — tier 1 restricted
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies, institutions for occupational retirement provisions, non–regulated undertakings carrying out financial activities, including the participations that are deducted according to Article 228, paragraph 2 of the Directive 2009/138/EC.Those participations are deducted from basic own funds and added back as own funds according to the relevant sectoral rules in the rows from R0410 to R0440, thereby facilitating the calculation of SCR ratios both excluding and including other financial sector entities — tier 1 restricted items.
+
+
+r0230c0040 - Deductions for participations in other financial undertakings, including non–regulated undertakings carrying out financial activities — tier 2
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies, institutions for occupational retirement provisions, non–regulated undertakings carrying out financial activities, including the participations that are deducted according to Article 228, paragraph 2 of the Directive 2009/138/EC.Those participations are deducted from basic own funds and added back as own funds according to the relevant sectoral rules in the rows from R0410 to R0440, thereby facilitating the calculation of SCR ratios both excluding and including other financial sector entities — tier 2.
+
+
+r0240c0010 - whereof deducted according to art 228 of the Directive 2009/138/EC– total
+--------------------------------------------------------------------------------------
+
+
+This is the total value of participations deducted according to Article 228, paragraph 2 of the Directive 2009/138/EC, as part of the value reported in row R0230 — total
+
+
+r0240c0020 - whereof deducted according to art 228 of the Directive 2009/138/EC — tier 1 unrestricted
+-----------------------------------------------------------------------------------------------------
+
+
+This is the value of participations that are deducted according to Article 228, paragraph 2 of the Directive 2009/138/EC, as part of the value reported in row R0230 — tier 1 unrestricted
+
+
+r0240c0030 - whereof deducted according to art 228 of the Directive 2009/138/EC — tier 1 restricted
+---------------------------------------------------------------------------------------------------
+
+
+This is the value of participations deducted according to Article 228, paragraph 2 of the Directive 2009/138/EC, as part of the value reported in row R0230 — tier 1 restricted
+
+
+r0240c0040 - whereof deducted according to art 228 of the Directive 2009/138/EC — tier 2
+----------------------------------------------------------------------------------------
+
+
+This is the value of participations deducted according to Article 228, paragraph 2 of the Directive 2009/138/EC, as part of the value reported in row R0230 — tier 2
+
+
+r0250c0010 - Deductions for participations where there is non–availability of information (Article 229) — total
+---------------------------------------------------------------------------------------------------------------
+
+
+This is the total deduction of the participations in related undertakings when the information necessary for calculating the group solvency is not available, according to article 229 of the Directive 2009/138/EC.
+
+
+r0250c0020 - Deductions for participations where there is non–availability of information (Article 229) — tier 1 unrestricted
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in related undertakings when the information necessary for calculating the group solvency is not available, according to article 229 of the Directive 2009/138/EC — tier 1 unrestricted.
+
+
+r0250c0030 - Deductions for participations where there is non–availability of information (Article 229) — tier 1 restricted
+---------------------------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in related undertakings when the information necessary for calculating the group solvency is not available, according to article 229 of the Directive 2009/138/EC — tier 1 restricted.
+
+
+r0250c0040 - Deductions for participations where there is non–availability of information (Article 229) — tier 2
+----------------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in related undertakings when the information necessary for calculating the group solvency is not available, according to article 229 of the Directive 2009/138/EC, Tier 2.
+
+
+r0250c0050 - Deductions for participations where there is non–availability of information (Article 229) — tier 3
+----------------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in related undertakings when the information necessary for calculating the group solvency is not available, according to article 229 of the Directive 2009/138/EC, Tier 3.
+
+
+r0260c0010 - Deduction for participations included via deduction and aggregation (‘D&A’) when the combination of methods is used — total
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total deduction of the participations in related undertakings included with the Deduction and Aggregation when the combination of methods is used.
+
+
+r0260c0020 - Deduction for participations included with D&A when the combination of methods is used — tier 1 unrestricted
+-------------------------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in related undertakings included with the Deduction and Aggregation method when the combination of methods is used — tier 1 unrestricted.
+
+
+r0260c0030 - Deduction for participations included with D&A when the combination of methods is used — tier 1 restricted
+-----------------------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in related undertakings included with the Deduction and Aggregation when a combination of methods is used — tier 1 restricted.
+
+
+r0260c0040 - Deduction for participations included with D&A when the combination of methods is used — tier 2
+------------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in related undertakings included with the Deduction and Aggregation method when the combination of methods is used — tier 2.
+
+
+r0260c0050 - Deduction for participations included with D&A when combination of methods is used — tier 3
+--------------------------------------------------------------------------------------------------------
+
+
+This is the deduction of the participations in related undertakings included with the Deduction and Aggregation method when the combination of methods is used — tier 3.
+
+
+r0270c0010 - Total of non–available own fund items — total
+----------------------------------------------------------
+
+
+This is the total of non– available own fund items.
+
+
+r0270c0020 - Total of non–available own fund items — tier 1 unrestricted
+------------------------------------------------------------------------
+
+
+This is the non– available own fund items in Tier 1 unrestricted items.
+
+
+r0270c0030 - Total of non–available own fund items — tier 1 restricted
+----------------------------------------------------------------------
+
+
+This is the non–available own fund items — tier 1 restricted items.
+
+
+r0270c0040 - Total of non–available own fund items — tier 2
+-----------------------------------------------------------
+
+
+This is the non–available own fund items — tier 2.
+
+
+r0270c0050 - Total of non–available own fund items — tier 3
+-----------------------------------------------------------
+
+
+This is the non–available own fund items — tier 3.
+
+
+r0280c0010 - Total deductions — total
+-------------------------------------
+
+
+This is the total amount of deductions not included in the reconciliation reserves.
+
+
+r0280c0020 - Total deductions — tier 1 unrestricted
+---------------------------------------------------
+
+
+This is the amount of deductions from tier 1 unrestricted not included in the reconciliation reserves.
+
+
+r0280c0030 - Total deductions — tier 1 restricted
+-------------------------------------------------
+
+
+This is the amount of deductions from tier 1 restricted not included in the reconciliation reserves.
+
+
+r0280c0040 - Total deductions — tier 2
+--------------------------------------
+
+
+This is the amount of deductions from tier 2 not included in the reconciliation reserves.
+
+
+r0280c0050 - Total deductions — tier 3
+--------------------------------------
+
+
+This is the amount of deductions from tier 3 not included in the reconciliation reserves.
+
+
+r0290c0010 - Total basic own funds after deductions
+---------------------------------------------------
+
+
+This is the total amount of basic own fund items after deductions.
+
+
+r0290c0020 - Total basic own funds after deductions — tier 1 unrestricted
+-------------------------------------------------------------------------
+
+
+This is the amount of basic own fund items after deductions that meet the criteria for Tier 1 unrestricted items.
+
+
+r0290c0030 - Total basic own funds after deductions — tier 1 restricted
+-----------------------------------------------------------------------
+
+
+This is the amount of basic own fund items after adjustments that meet the criteria for Tier 1 restricted items.
+
+
+r0290c0040 - Total basic own funds after deductions — tier 2
+------------------------------------------------------------
+
+
+This is the amount of basic own fund items after adjustments that meet the criteria for Tier 2.
+
+
+r0290c0050 - Total basic own funds after deductions — tier 3
+------------------------------------------------------------
+
+
+This is the amount of basic own fund items after adjustments that meet the criteria for Tier 3.
+
+
+r0300c0010 - Unpaid and uncalled ordinary share capital callable on demand — total
+----------------------------------------------------------------------------------
+
+
+This is the total amount of issued ordinary share capital that has not been called up or paid up but that is callable on demand.
+
+
+r0300c0040 - Unpaid and uncalled ordinary share capital callable on demand — tier 2
+-----------------------------------------------------------------------------------
+
+
+This is the amount of issued ordinary share capital that has not been called up or paid up but that is callable on demand that meets the criteria for Tier 2.
+
+
+r0310c0010 - Unpaid and uncalled initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual — type undertakings, callable on demand–total
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings that has not been called up or paid up but that is callable on demand.
+
+
+r0310c0040 - Unpaid and uncalled initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings, callable on demand — tier 2
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of initial funds, members' contributions or the equivalent basic own fund item for mutual and mutual–type undertakings that has not been called up or paid up but that is callable on demand that meets the criteria for Tier 2.
+
+
+r0320c0010 - Unpaid and uncalled preference shares callable on demand — total
+-----------------------------------------------------------------------------
+
+
+This is the total amount of preference shares that have not been called up or paid up but that are callable on demand.
+
+
+r0320c0040 - Unpaid and uncalled preference shares callable on demand — tier 2
+------------------------------------------------------------------------------
+
+
+This is the amount of preference shares that have not been called up or paid up but that are callable on demand that meet the criteria for Tier 2.
+
+
+r0320c0050 - Unpaid and uncalled preference shares callable on demand — tier 3
+------------------------------------------------------------------------------
+
+
+This is the amount of preference shares that have not been called up or paid up but that are callable on demand that meet the criteria for Tier 3
+
+
+r0330c0010 - A legally binding commitment to subscribe and pay for subordinated liabilities on demand — total
+-------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of legally binding commitments to subscribe and pay for subordinated liabilities on demand.
+
+
+r0330c0040 - A legally binding commitment to subscribe and pay for subordinated liabilities on demand — tier 2
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of legally binding commitments to subscribe and pay for subordinated liabilities on demand that meet the criteria for Tier 2.
+
+
+r0330c0050 - A legally binding commitment to subscribe and pay for subordinated liabilities on demand — tier 3
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of legally binding commitments to subscribe and pay for subordinated liabilities on demand that meet the criteria for Tier 3.
+
+
+r0340c0010 - Letters of credit and guarantees under Article 96(2) of the Directive 2009/138/EC — total
+------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of letters of credit and guarantees that are held in trust for the benefit of insurance creditors by an independent trustee and provided by credit institutions authorised in accordance with Directive 2006/48/EC.
+
+
+r0340c0040 - Letters of credit and guarantees under Article 96(2) of the Directive 2009/138/EC — tier 2
+-------------------------------------------------------------------------------------------------------
+
+
+This is the amount of letters of credit and guarantees that are held in trust for the benefit of insurance creditors by an independent trustee and provided by credit institutions authorised in accordance with Directive 2006/48/EC that meet the criteria for Tier 2.
+
+
+r0350c0010 - Letters of credit and guarantees other than under Article 96(2) of the Directive 2009/138/EC — total
+-----------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of letters of credit and guarantees that satisfy criteria for Tier 2 or Tier 3, other than those that are held in trust for the benefit of insurance creditors by an independent trustee and provided by credit institutions authorised in accordance with Directive 2006/48/EC.
+
+
+r0350c0040 - Letters of credit and guarantees other than under Article 96(2) of the Directive 2009/138/EC — tier 2
+------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of letters of credit and guarantees that meet the criteria for Tier 2, other than those which are held in trust for the benefit of insurance creditors by an independent trustee and provided by credit institutions authorised in accordance with Directive 2006/48/EC.
+
+
+r0350c0050 - Letters of credit and guarantees other than under Article 96(2) of the Directive 2009/138/EC– tier 3
+-----------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of letters of credit and guarantees that meet the criteria for Tier 3, other than those which are held in trust for the benefit of insurance creditors by an independent trustee and provided by credit institutions authorised in accordance with Directive 2006/48/EC.
+
+
+r0360c0010 - Supplementary members calls under first subparagraph of Article 96(3) of the Directive 2009/138/EC — total
+-----------------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of any future claims which mutual or mutual–type associations of ship owners with variable contributions solely insuring risks listed in classes 6, 12 and 17 in Part A of Annex I may have against their members by way of a call for supplementary contributions, within the following 12 months.
+
+
+r0360c0040 - Supplementary members calls under first subparagraph of Article 96(3) of the Directive 2009/138/EC — tier 2
+------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of any future claims which mutual or mutual–type associations of ship owners with variable contributions solely insuring risks listed in classes 6, 12 and 17 in Part A of Annex I may have against their members by way of a call for supplementary contributions, within the following 12 months.
+
+
+r0370c0010 - Supplementary members calls — other than under first subparagraph of Article 96(3) of the Directive 2009/138/EC
+----------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of any future claims which mutual or mutual–type associations with variable contributions may have against their members by way of a call for supplementary contributions, within the following 12 months, other than those described in the first subparagraph of article 96(3) of the Directive 2009/138/EC.
+
+
+r0370c0040 - Supplementary members calls — other than under first subparagraph of Article 96(3) of the Directive 2009/138/EC — tier 2
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of any future claims which mutual or mutual–type associations of with variable contributions may have against their members by way of a call for supplementary contributions within the following 12 months, other than those described in the first subparagraph of article 96(3) of the Directive 2009/138/EC that meet the criteria for Tier 2.
+
+
+r0370c0050 - Supplementary members calls — other than under first subparagraph of Article 96(3) of the Directive 2009/138/EC — tier 3
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount of any future claims which mutual or mutual–type associations with variable contributions may have against their members by way of a call for supplementary contributions within the following 12 months, other than those described in the first subparagraph of article 96(3) of the Framework Directive 2009/138/EC that meet the criteria for Tier 3.
+
+
+r0380c0010 - Non available ancillary own funds at group level — total
+---------------------------------------------------------------------
+
+
+This is the total amount of ancillary own funds which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC.
+
+
+r0380c0040 - Non available ancillary own funds at group level — tier 2
+----------------------------------------------------------------------
+
+
+This is the amount of ancillary own funds which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 2.
+
+
+r0380c0050 - Non available ancillary own funds at group level — tier 3
+----------------------------------------------------------------------
+
+
+This is the amount of ancillary own funds which are deemed non–available as defined in Article 222(2)–(5) of the Directive 2009/138/EC that meet the criteria for Tier 3.
+
+
+r0390c0010 - Other ancillary own funds — total
+----------------------------------------------
+
+
+This is the total amount of other ancillary own funds.
+
+
+r0390c0040 - Other ancillary own funds — tier 2
+-----------------------------------------------
+
+
+This is the amount of other ancillary own funds that meet criteria for Tier 2.
+
+
+r0390c0050 - Other ancillary own funds — tier 3
+-----------------------------------------------
+
+
+This is the amount of other ancillary own funds that meet criteria for Tier 3.
+
+
+r0400c0010 - Total ancillary own funds
+--------------------------------------
+
+
+This is the total amount of ancillary own fund items.
+
+
+r0400c0040 - Total ancillary own funds tier 2
+---------------------------------------------
+
+
+This is the amount of ancillary own fund items that meet the criteria for Tier 2.
+
+
+r0400c0050 - Total ancillary own funds — tier 3
+-----------------------------------------------
+
+
+This is the amount of ancillary own fund items that meet the criteria for Tier 3.
+
+
+r0410c0010 - Credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies — total
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total of own funds in credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies already net of any relevant Intragroup Transaction. Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0410c0020 - Credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies — Tier 1 unrestricted
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Own funds in credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies already net of any relevant Intragroup Transaction — tier 1 unrestricted.Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0410c0030 - Credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies — Tier 1 restricted
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Own funds in credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies already net of any relevant Intragroup Transaction — tier 1 restricted.Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0410c0040 - Credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies — Tier 2
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Own funds in credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies already net of any relevant Intragroup Transaction — tier 2.Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0420c0010 - Institutions for occupational retirement provision — total
+-----------------------------------------------------------------------
+
+
+Total of own funds in institutions for occupational retirement provision, already net of any relevant Intragroup Transaction. Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0420c0020 - Institutions for occupational retirement provision –tier 1 unrestricted
+------------------------------------------------------------------------------------
+
+
+Own funds in institutions for occupational retirement provision, already net of any relevant Intragroup Transaction– tier 1 unrestricted.Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to article 228, paragraph 2 of the Directive 2009/138/EC
+
+
+r0420c0030 - Institutions for occupational retirement provision –tier 1 restricted
+----------------------------------------------------------------------------------
+
+
+Own funds in institutions for occupational retirement provision, already net of any relevant Intragroup Transaction– tier 1 restricted.Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to Article 228, paragraph 2 of the Directive 2009/138/EC
+
+
+r0420c0040 - Institutions for occupational retirement provision –tier 2
+-----------------------------------------------------------------------
+
+
+Own funds in institutions for occupational retirement provision, already net of any relevant Intragroup Transaction– tier 2.Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to article 228, paragraph 2 of the Directive 2009/138/EC
+
+
+r0420c0050 - Institutions for occupational retirement provision –tier 3
+-----------------------------------------------------------------------
+
+
+Own funds in institutions for occupational retirement provision, already net of any relevant Intragroup Transaction– tier 3.Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to Article 228, paragraph 2 of the Directive 2009/138/EC
+
+
+r0430c0010 - Non–regulated entities carrying out financial activities — total
+-----------------------------------------------------------------------------
+
+
+Total of own funds in non–regulated entities carrying out financial activities, already net of any relevant Intragroup Transaction. Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0430c0020 - Non–regulated entities carrying out financial activities — tier 1 unrestricted
+-------------------------------------------------------------------------------------------
+
+
+Own funds in non–regulated entities carrying out financial activities, already net of any relevant Intragroup Transaction — tier 1 unrestricted.Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to Article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0430c0030 - Non–regulated entities carrying out financial activities — tier 1 restricted
+-----------------------------------------------------------------------------------------
+
+
+Own funds in non–regulated entities carrying out financial activities, already net of any relevant Intragroup Transaction — tier 1 restricted.Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0430c0040 - Non–regulated entities carrying out financial activities — tier 2
+------------------------------------------------------------------------------
+
+
+Own funds in non–regulated entities carrying out financial activities, already net of any relevant Intragroup Transaction — tier 2.Those items should be also deducted of any non–available own funds according to the relevant sectoral rules and deducted of own funds according to article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0440c0010 - Total own funds of other financial sectors — total
+---------------------------------------------------------------
+
+
+Total of own funds in other financial sectors.The total own funds deducted in cell R0230/C0010 are brought back here after the adjustment for non– available own funds according to the relevant sectoral rules and after the deduction according to Article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0440c0020 - Total own funds of other financial sectors — tier 1 unrestricted
+-----------------------------------------------------------------------------
+
+
+Total of own funds in other financial sectors –tier 1 unrestricted.The total own funds deducted in cell R0230/C0010 are brought back here after the adjustment for non– available own funds according to the relevant sectoral rules and after the deduction according to Article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0440c0030 - Total own funds of other financial sectors — tier 1 restricted
+---------------------------------------------------------------------------
+
+
+Total of own funds in other financial sectors –tier 1 restricted.The total own funds deducted in cell R0230/C0010 are brought back here after the adjustment for non– available own funds according to the relevant sectoral rules and after the deduction according to Article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0440c0040 - Total own funds of other financial sectors — tier 2
+----------------------------------------------------------------
+
+
+Total of own funds in other financial sectors –tier 2.The total own funds deducted in cell R0230/C0010 are brought back here after the adjustment for non– available own funds according to the relevant sectoral rules and after the deduction according to Article 228, paragraph 2 of the Directive 2009/138/EC.
+
+
+r0450c0010 - Own funds aggregated when using the D&A and combination of method — Total —
+----------------------------------------------------------------------------------------
+
+
+These are the total eligible own funds of the related undertakings that have to be added for the calculation of the aggregated own funds when using the D&A or a combination of methods; after the deduction of non–available own funds at group level.
+
+
+r0450c0020 - Own funds aggregated when using the D&A and combination of method — Tier 1 unrestricted
+----------------------------------------------------------------------------------------------------
+
+
+These are the eligible own funds of the related undertakings that have to be added for the calculation of the aggregated own funds when using the D&A or a combination of methods, classified as Tier 1 unrestricted after the deduction of non–available own funds at group level
+
+
+r0450c0030 - Own funds aggregated when using the D&A and combination of method — Tier 1 restricted
+--------------------------------------------------------------------------------------------------
+
+
+These are the eligible own funds of the related undertakings that have to be added for the calculation of the aggregated own funds when using the D&A or a combination of methods, classified as Tier 1 restricted after the deduction of non available own funds at group level
+
+
+r0450c0040 - Own funds aggregated when using the D&A and combination of method — Tier 2
+---------------------------------------------------------------------------------------
+
+
+These are the eligible own funds of the related undertakings that have to be added for the calculation of the aggregated own funds when using the D&A or a combination of methods, classified as Tier 2 after the deduction of non available own funds at group level.
+
+
+r0450c0050 - Own funds aggregated when using the D&A and combination of method — Tier 3
+---------------------------------------------------------------------------------------
+
+
+These are the eligible own funds of the related undertakings that have to be added for the calculation of the aggregated own funds when using the D&A or a combination of methods, classified as Tier 3 after the deduction of non available own funds at group level.
+
+
+r0460c0010 - Own funds aggregated when using the D&A and combination of method net of IGT — Total
+-------------------------------------------------------------------------------------------------
+
+
+These are the total eligible own funds after the elimination of the intra–group transactions for the calculation of the aggregated group eligible own funds.The own funds figure reported here shall be net of non available own funds and net of IGTs.
+
+
+r0460c0020 - Own funds aggregated when using the D&A and combination of method net of IGT — Tier 1 unrestricted
+---------------------------------------------------------------------------------------------------------------
+
+
+These are the eligible own funds after the elimination of the intra–group transactions for the calculation of the aggregated group eligible own funds, classified as Tier 1 unrestricted items.The own funds figure reported here shall be net of non available own funds and net of IGTs.
+
+
+r0460c0030 - Own funds aggregated when using the D&A and combination of method net of IGT — Tier 1 restricted
+-------------------------------------------------------------------------------------------------------------
+
+
+These are the eligible own funds after the elimination of the intra–group transactions for the calculation of the aggregated group eligible own funds, classified as Tier 1 restricted. The own funds figure reported here shall be net of non available own funds and net of IGTs.
+
+
+r0460c0040 - Own funds aggregated when using the D&A and combination of method net of IGT — Tier 2
+--------------------------------------------------------------------------------------------------
+
+
+These are the eligible own funds after the elimination of the intra–group transactions for the calculation of the aggregated group eligible own funds, classified as Tier 2. The own funds figure reported here shall be net of non available own funds and net of IGTs.
+
+
+r0460c0050 - Own funds aggregated when using the D&A and combination of method net of IGT — Tier 3
+--------------------------------------------------------------------------------------------------
+
+
+These are the eligible own funds after the elimination of the intra–group transactions for the calculation of the aggregated group eligible own funds, classified as Tier 3. The own funds figure reported here shall be net of non available own funds and net of IGTs.
+
+
+r0520c0010 - Total available own funds to meet the consolidated group SCR (excluding the other financial sector and the undertakings included via D&A) –total
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total own funds of the undertaking, comprising basic own funds after adjustments plus ancillary own funds, that are available to meet the consolidated group SCR but excluding the own funds from other financial sector and from the undertakings included via D&A.
+
+
+r0520c0020 - Total available own funds to meet the consolidated group SCR (excluding the other financial sector and the undertakings included via D&A) — tier 1 unrestricted
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the own funds of the undertaking, comprising basic own funds after adjustments, that are available to meet the consolidated group SCR but excluding the own funds from other financial sector and from the undertakings included via D&A and that meet the criteria to be included in Tier 1 unrestricted items.
+
+
+r0520c0030 - Total available own funds to meet the consolidated group SCR (excluding the other financial sector and the undertakings included via D&A) — tier 1 restricted
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the own funds of the undertaking, comprising basic own funds after adjustments, that are available to meet the consolidated group SCR but excluding the own funds from other financial sector and from the undertakings included via D&A and that meet the criteria to be included in Tier 1 restricted items.
+
+
+r0520c0040 - Total available own funds to meet the consolidated group SCR (excluding the other financial sector and the undertakings included via D&A) — tier 2
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the own funds of the undertaking, comprising basic own funds after adjustments plus ancillary own funds, that are available to meet the consolidated group SCR but excluding the own funds from other financial sector and from the undertakings included via D&A and that meet the criteria to be included in Tier 2.
+
+
+r0520c0050 - Total available own funds to meet the consolidated group SCR (excluding the other financial sector and the undertakings included via D&A)– tier 3
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the own funds of the undertaking, comprising basic own funds after adjustments plus ancillary own funds, that are available to meet the consolidated group SCR but excluding the own funds from other financial sector and from the undertakings included via D&A and that meet the criteria to be included in Tier 3.
+
+
+r0530c0010 - Total available own funds to meet the minimum consolidated group SCR –total
+----------------------------------------------------------------------------------------
+
+
+This is the total own funds of the undertaking, comprising basic own funds after adjustments, that are available to meet the minimum consolidated group SCR, excluding the own funds from other financial sector and from the undertakings included via D&A.
+
+
+r0530c0020 - Total available own funds to meet the minimum consolidated group SCR– tier 1 unrestricted
+------------------------------------------------------------------------------------------------------
+
+
+This is the own funds of the undertaking, comprising basic own funds after adjustments, that are available to meet the minimum SCR for a group and that meet the criteria to be included in Tier 1 unrestricted.
+
+
+r0530c0030 - Total available own funds to meet the minimum consolidated group SCR — tier 1 restricted
+-----------------------------------------------------------------------------------------------------
+
+
+This is the own funds of the group, comprising basic own funds after adjustments, that are available to meet the minimum SCR for a group and that meet the criteria to be included in Tier 1 restricted items.
+
+
+r0530c0040 - Total available own funds to meet the minimum consolidated group SCR — tier 2
+------------------------------------------------------------------------------------------
+
+
+This is the own funds of the undertaking, comprising basic own funds after adjustments, that are available to meet the minimum SCR for a group and that meet the criteria to be included in Tier 2.
+
+
+r0560c0010 - Total eligible own funds to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D&A) — total
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total group own funds which are eligible to cover the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D&A ) under the limitsFor the purpose of the eligibility of those own fund items the consolidated group SCR shall not include the capital requirements from other financial sectors (Article 336 (c) of the Delegated Regulation (EU) 2015/35) consistently.
+
+
+r0560c0020 - Total eligible own funds to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D&A) — tier 1 unrestricted
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the group own funds which are eligible under the limits set out to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D&A), that meet the criteria for Tier 1 unrestricted items.
+
+
+r0560c0030 - Total eligible own funds to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D&A) — tier 1 Restricted
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the own funds which are eligible under the limits set out to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D&A), that meet the criteria for Tier 1 restricted items.
+
+
+r0560c0040 - Total eligible own funds to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D&A) — tier 2
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the own funds which are eligible under the limits set out to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D&A), that meet the criteria for Tier 2.
+
+
+r0560c0050 - Total eligible own funds to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D&A) — tier 3
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the own funds which are eligible under the limits set out to meet the consolidated group SCR (excluding own funds from other financial sector and from the undertakings included via D&A), that meet the criteria for Tier 3.
+
+
+r0570c0010 - Total eligible own funds to meet the minimum consolidated group SCR– total
+---------------------------------------------------------------------------------------
+
+
+This is the total eligible own funds to meet the minimum consolidated group SCR.
+
+
+r0570c0020 - Total eligible own funds to meet the minimum consolidated group SCR — tier 1 unrestricted
+------------------------------------------------------------------------------------------------------
+
+
+This is the eligible own funds of the group, that are available to meet the minimum consolidated group SCR that meet the criteria to be included in Tier 1 unrestricted items.
+
+
+r0570c0030 - Total eligible e own funds to meet the minimum consolidated group SCR — tier 1 restricted
+------------------------------------------------------------------------------------------------------
+
+
+This is the eligible own funds of the group, that are available to meet the minimum consolidated group SCR that meet the criteria to be included in Tier 1 restricted items.
+
+
+r0570c0040 - Total eligible own funds to meet the minimum consolidated group SCR — tier 2
+-----------------------------------------------------------------------------------------
+
+
+This is the eligible own funds of the group, that are available to meet the minimum consolidated group SCR that meet the criteria to be included in Tier 2.
+
+
+r0590c0010 - Consolidated Group SCR
+-----------------------------------
+
+
+Consolidated group SCR calculated for the consolidated data in accordance with Article 336, (a), (b), (c) and (d) of Delegated Regulation (EU) 2015/35.For quarterly reporting this is the latest SCR to be calculated and reported, either the annual one or a more recent one in case the SCR has been recalculated (e.g. due to a change in risk profile), including capital add on.
+
+
+r0610c0010 - Minimum consolidated Group SCR
+-------------------------------------------
+
+
+Minimum consolidated group SCR calculated for the consolidated data (method 1) as per Article 230 or 231 of the Solvency II Directive 2009/138/EC.
+
+
+r0630c0010 - Ratio of Eligible own funds to the consolidated group SCR (excluding other financial sectors and the undertakings included via D&A)
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the solvency ratio calculated as the total of eligible own funds to meet the consolidated group SCR divided by the consolidated group SCR, excluding capital requirements and own funds from other financial sectors and the undertakings included via D&A.For the purpose of this ratio the consolidated group SCR shall not include the capital requirements from other financial sectors (Article 336 (c) of the Delegated Regulation (EU) 2015/35)).
+
+
+r0650c0010 - Ratio of Eligible own funds to Minimum Consolidated Group SCR
+--------------------------------------------------------------------------
+
+
+This is the minimum solvency ratio calculated as the total of eligible own funds to meet the Minimum Consolidated group SCR divided by the Minimum Consolidated group SCR (excluding other financial sectors and the undertakings included via D&A).
+
+
+r0660c0010 - Total eligible own funds to meet the group SCR (including own funds from other financial sector and from undertakings included via D&A)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total eligible own funds, including the own funds from the other financial sectors and from the undertakings included via D&A, to meet the total group SCR.
+
+
+r0660c0020 - Total eligible own funds to meet the group SCR (including own funds from other financial sector and from undertakings included via D&A) — tier 1 unrestricted
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the eligible own funds, including the own funds from the other financial sectors and from the undertakings included via D&A, to meet the total group SCR that meet the criteria to be included in Tier 1 unrestricted
+
+
+r0660c0030 - Total eligible own funds to meet the group SCR (including own funds from other financial sector and from undertakings included via D&A) — tier 1 restricted
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the eligible own funds, including the own funds from the other financial sectors and from the undertakings included via D&A to meet the total group SCR that meet the criteria to be included in Tier 1 restricted
+
+
+r0660c0040 - Total eligible own funds to meet the group SCR (including own funds from other financial sector and from undertakings included via D&A) — tier 2
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the eligible own funds, including the own funds from the other financial sectors and from the undertakings included via D&A to meet the total group SCR that meet the criteria to be included in Tier 2
+
+
+r0660c0050 - Total eligible own funds to meet the group SCR (including own funds from other financial sector and from undertakings included via D&A) — tier 3
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the eligible available own funds, including the own funds from the other financial sectors and from the undertakings included via D&A to meet the total group SCR that meet the criteria to be included in Tier 3
+
+
+r0670c0010 - SCR for entities included with D&A method
+------------------------------------------------------
+
+
+This is the total of solvency capital requirements for undertakings included with Deduction and Aggregation method. This cell shall include sum of the proportional share of the SCR for undertakings included in the group solvency calculation through D&A. It's only relevant in case of D&A and combination of methods.
+
+
+r0680c0010 - Group SCR
+----------------------
+
+
+The group SCR is the sum of the consolidated group SCR calculated in accordance with Article 336, (a), (b), (c) and (d) of Delegated Regulation (EU) 2015/35 (R0590/C0010) and the SCR for entities included with D&A (R0660/C0010).
+
+
+r0690c0010 - Ratio of Eligible own funds to the group SCR including other financial sectors and D&A undertakings
+----------------------------------------------------------------------------------------------------------------
+
+
+This is solvency ratio calculated as the total of eligible own funds to meet the group SCR divided by the group SCR, including other financial sectors and D&A undertakings
+
+
+r0700c0060 - Excess of assets over liabilities
+----------------------------------------------
+
+
+This is the excess of assets over liabilities as reported in the Solvency 2 balance sheet.
+
+
+r0710c0060 - Own shares (held directly and indirectly)
+------------------------------------------------------
+
+
+This is the amount of own shares held by the participating insurance or reinsurance undertaking, the insurance holding company or the mixed financial holding company and the related undertakings, both directly and indirectly .
+
+
+r0720c0060 - Foreseeable dividends, distributions and charges
+-------------------------------------------------------------
+
+
+These are the dividends, distributions and charges foreseeable by the undertaking.
+
+
+r0730c0060 - Other basic own fund items
+---------------------------------------
+
+
+These are the basic own fund items included in points (a)(i) to (v) of Article 69, Article 72(a) and Article 76(a), as well as those basic own fund items approved by the supervisory authority in accordance with Article 79 of the Delegated Regulation (EU) 2015/35.
+
+
+r0740c0060 - Adjustment for restricted own fund items in respect of matching adjustment portfolios and ring fenced funds
+------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total amount of the adjustment to the reconciliation reserve due to the existence of restricted own fund items in respect of ring–fenced funds and matching portfolios at group level.
+
+
+r0750c0060 - Other non available own funds
+------------------------------------------
+
+
+These are other non available own funds of related undertakings according to Article 335 (1)(d) and (f) of Delegated Regulation (EU) 2015/35.
+
+
+r0760c0060 - Reconciliation reserve — total
+-------------------------------------------
+
+
+This is the reconciliation reserve of the undertaking, before deductions for participations.
+
+
+r0770c0060 - Expected profits included in future premiums (EPIFP) — Life business
+---------------------------------------------------------------------------------
+
+
+The reconciliation reserve includes an amount of the excess of assets over liabilities that corresponds to the expected profit in future premiums (EPIFP). This cell represents that amount for the life business of the undertaking.
+
+
+r0780c0060 - Expected profits included in future premiums (EPIFP) — Non– life business
+--------------------------------------------------------------------------------------
+
+
+The reconciliation reserve includes an amount of the excess of assets over liabilities that corresponds to the expected profit in future premiums (EPIFP). This cell represents that amount for the non–life business of the undertaking.
+
+
+r0790c0060 - Total Expected profits included in future premiums (EPIFP)
+-----------------------------------------------------------------------
+
+
+This is the total amount calculated as expected profits included in future premiums.
+
+

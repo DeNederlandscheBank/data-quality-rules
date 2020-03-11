@@ -1,0 +1,292 @@
+===============================================================================
+S.29.03 - Excess of Assets over Liabilities , explained by technical provisions
+===============================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template focuses on changes in the Excess of Assets over Liabilities due to technical provisions (TP). The scope of technical provisions includes risks captured through Best Estimate (BE) and Risk margin, and those captured through TP calculated as a whole.
+
+As regards the order of calculation in the table ‘breakdown of Variation in Best Estimate’, presentation of the order is not deemed prescriptive as to the order in which the calculation is performed, as long as the content of the different cells indeed reflect the purpose and definition of these cells.
+
+Undertakings are required to report data on accident year or underwriting year basis, in accordance with any requirements of the National Supervisory Authority. If the National Supervisory Authority has not stipulated which to use then the undertaking may use accident or underwriting year according to how they manage each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, provided that they use the same year consistently, year on year.
+
+The purpose of the template is to provide a detailed understanding of the changes in the Excess of Assets over Liabilities related to technical provisions, considering:
+
+—
+
+Changes in TP captions;
+
+—
+
+Changes in technical flows of the period;
+
+—
+
+A detailed breakdown of the variation of Best Estimate — gross of reinsurance by sources of changes (such as new business, changes in assumptions, experience, etc.).
+
+
+c0010–c0020r0010 - Opening Best Estimate
+----------------------------------------
+
+
+Amount of Best Estimate — gross of reinsurance — as stated in the Balance Sheet at closing year N–1 related to those lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, for which an underwriting year approach (UWY) is used for Best Estimate calculation.
+
+
+c0010–c0020r0020 - Exceptional elements triggering restating of opening Best Estimate
+-------------------------------------------------------------------------------------
+
+
+Amount of adjustment to opening Best Estimate due to elements, other than changes in perimeter that led to restate the opening BE.Shall essentially concern changes in models (in case models are used) for correction of the model and other modifications. It shall not concern changes in assumptions.These cells are expected to be mostly applicable for Life business.
+
+
+c0010–c0020r0030 - Changes in perimeter
+---------------------------------------
+
+
+Amount of adjustment to opening Best Estimate related to changes in perimeter of the portfolio like sales of (part of) portfolio and purchases. This could also concern changes of perimeter due to liabilities evolving to annuities stemming from Non–Life obligations (triggering some changes from Non–Life to Life).
+
+
+c0010–c0020r0040 - Foreign exchange variation
+---------------------------------------------
+
+
+Amount of adjustment to opening Best Estimate related to foreign exchange variation during the period.In this case the foreign exchange variation is actually meant to be applied to contracts which are taken out in currencies different from the balance sheet currency. For the calculation, the cash–flows of these contracts contained in the opening Best Estimate are simply converted due to the exchange variation.This item does not address the impact on the cash–flows of the insurance portfolio induced by re–valuation of year N–1 assets due to foreign exchange variation during year N.
+
+
+c0010–c0020r0050 - Best Estimate on risks accepted during the period
+--------------------------------------------------------------------
+
+
+It represents present expected future cash flows (gross of reinsurance) included in Best Estimate and related to risks accepted during the period.This shall be considered at the closing date (and not at the actual date of inception of the risks), i.e. this shall form part of the Best Estimate at closing date.The scope of cash flows refers to Article 77 of Directive 2009/138/EC.
+
+
+c0010–c0020r0060 - Variation of Best Estimate due to unwinding of discount rate — risks accepted prior to period
+----------------------------------------------------------------------------------------------------------------
+
+
+The variation of Best Estimate captured here shall only relate to the unwinding of discount rates, and does not take into account other parameters such as changes in assumptions or discount rates, experience adjustment, etc.The concept of unwinding may be illustrated as follows: Calculate the Best Estimate of year N–1 again but using the shifted interest rate term structureIn order to isolate this strict scope of variation, the calculation may be as follows:—Consider Opening Best Estimate including the adjustment to opening Best Estimate (cells C0010/R0010 to R0040);—Based on this figure, run the calculation of the unwinding of discount rates.
+
+
+c0010–c0020r0070 - Variation of Best Estimate due to year N projected in and out flows — risks accepted prior to period
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Premiums, claims, and surrenders that were forecasted on the Opening Best Estimate as to be paid during the year, will not be in the closing Best Estimate anymore as they would have been paid/received during the year. A neutralisation adjustment shall be performed.In order to isolate this adjustment, the calculation may be as follows:—Consider Opening Best Estimate (cell C0010/R0010) including the adjustment to opening Best Estimate (cells C0010/R0020 to R0040)—Isolate the amount of cash flows (cash in minus cash out) that were projected within this opening Best Estimate for the period considered—This isolated amount of cash flow shall come in addition to Opening Best Estimate (for neutralisation effect) — and be filled in cell C0010/R0070 and C0020/R0070.
+
+
+c0010–c0020r0080 - Variation of Best Estimate due to experience — risks accepted prior to period
+------------------------------------------------------------------------------------------------
+
+
+The variation of Best Estimate captured here shall strictly relate to the strict realisation of cash flows when compared to the cash flows that were projected.For calculation purposes, and in case of non–availability of information of realised cash flows, the variation due to experience may be calculated as the difference between realised technical flows and projected cash–flow.Realised technical flows refer to those reported under Solvency II principles i.e. premiums effectively written, claims effectively paid and expenses effectively recorded.
+
+
+c0010–c0020r0090 - Variation of Best Estimate due to changes in non–economic assumptions — risks accepted prior to period
+-------------------------------------------------------------------------------------------------------------------------
+
+
+It mainly refers to changes in RBNS not driven by realised technical flows (e.g. revision on a case by case basis of the amount of IBNR) and changes assumptions directly linked to insurance risks (i.e. lapse rates), which can be referred to as non–economic assumptions.In order to isolate the strict scope of variation due to changes in assumptions, the calculation may be as follows:—Consider the opening Best Estimate (cell C0010/R0010) including the adjustment to opening Best Estimate (cell C0010/R0010 to R0040) and the impact of unwinding, of year N projected cash–flows and (C0010/R0060 to R0080 and C0020/R0060 to R0080 respectively);—Based on this figure, run calculations with new assumptions not related to discount rates — that applied at year end N (if any)This will provide the variation of Best Estimate strictly related to changes in these assumptions. This may not capture the variation due to case–by–case revision of RBNS, which would thus have to be added.For Non–Life, cases can be expected where these changes cannot be discerned separately from changes due to experience (C0020/R0080). In such cases, report the total figure under C0020/R0080.
+
+
+c0010–c0020r0100 - Variation of Best Estimate due to changes in economic environment — risks accepted prior to period
+---------------------------------------------------------------------------------------------------------------------
+
+
+It mainly refers to assumptions not directly linked to insurance risks, i.e. mainly the impact of the changes in economic environment on the cash flows (taking management actions into account, e.g. reduction of future discretionary benefits (‘FDB’)) and changes in discount rates.For non–life (C0020/R0100), in case variation due to inflation cannot be discerned from changes due to experience, the whole amount would be reported under C0020/R0080.In order to isolate this strict scope of variation, the calculation may be as follows:—Consider the opening Best Estimate including the adjustment to opening Best Estimate (cell C0010/R0010 to R0040) and the impact of unwinding, of year N projected cash–flows and experience (C0010/R0060 to R0080 and C0020/R0060 to R0080 respectively, or alternatively, C0010/R0060 to R0090 and C0020/R0060 to R0090 respectively)—Based on this figure, run calculations with new discount rates that applied during year N, together with related financial assumptions (if any).This will provide the variation of Best Estimate strictly related to changes in discount rates and related financial assumptions.
+
+
+c0010–c0020r0110 - Other changes not elsewhere explained
+--------------------------------------------------------
+
+
+Corresponds to other variations in Best Estimate, not captured in cells C0010/R0010 to R0100 (for Life) or C0020/R0010 to R0100 (Non–Life).
+
+
+c0010–c0020r0120 - Closing Best Estimate — gross of reinsurance
+---------------------------------------------------------------
+
+
+Amount of Best Estimate as stated in the Balance Sheet at closing year N related to those lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, for which an underwriting year approach (UWY) is used for Best Estimate calculation.These cells might be nil (if no UWY approach is used), or might total the closing Best Estimate figure in the Balance Sheet if no accident Year approach (AY) is used.
+
+
+c0030–c0040r0130 - Opening Best Estimate
+----------------------------------------
+
+
+Amount of Best Estimate of reinsurance recoverable as stated in the Balance Sheet at closing year N–1 related to those lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, for which an underwriting year approach (UWY) is used for Best Estimate calculation.
+
+
+c0030–c0040r0140 - Closing Best Estimate
+----------------------------------------
+
+
+Amount of Best Estimate of reinsurance recoverable as stated in the Balance Sheet at closing year N related to those lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, for which an underwriting year approach (UWY) is used for Best Estimate calculation.
+
+
+c0050–c0060r0150 - Opening Best Estimate
+----------------------------------------
+
+
+Amount of Best Estimate — gross of reinsurance — as stated in the Balance Sheet at closing year N–1 related to those lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, for which an accident year approach (AY) is used for Best Estimate calculation.
+
+
+c0050–c0060r0160 - Exceptional elements triggering restating of opening Best Estimate
+-------------------------------------------------------------------------------------
+
+
+Same as for C0010 and C0020/R0020
+
+
+c0050–c0060r0170 - Changes in perimeter
+---------------------------------------
+
+
+Same as for C0010 and C0020/R0030
+
+
+c0050–c0060r0180 - Foreign exchange variation
+---------------------------------------------
+
+
+Same as for C0010 and C0020/R0040
+
+
+c0050–c0060r0190 - Variation of Best Estimate on risk covered after the period
+------------------------------------------------------------------------------
+
+
+It is expected that these cells mainly concerns Non–Life and refers to changes in (part of) Premiums Provisions (i.e. in relation to all recognised obligations within the boundary of the contract at the valuation date where the claim has not yet occurred) as follows:—Identify the part of premiums provisions at Year end (N–1) related to a coverage period starting after the closing Year end N–1;—Have the same considerations and identifications for Premiums Provisions at year end N;—Derive the variation from the two figures.
+
+
+c0050–c0060r0200 - Variation of Best Estimate on risks covered during the period
+--------------------------------------------------------------------------------
+
+
+It is expected that these cells mainly concerns Non–Life, and refers to the following cases:a)(part of) Premiums Provisions at Year end N–1 which turned to Claims Provisions at year end N because claim has occurred during the periodb)claims provisions related to claims occurred during the period (for which there was no Premiums provisions at year end N–1)Calculation may be as follows:—Identify the part of premiums provisions at Year end (N–1) for which cover had already incepted;—Identify the part of claims provisions at Year end (N) related to risks covered during the period;—Derive the variation from the two figures.
+
+
+c0050–c0060r0210 - Variation of Best Estimate due to unwinding of discount rate — risks covered prior to period
+---------------------------------------------------------------------------------------------------------------
+
+
+The concept of unwinding may be illustrated as follows: Calculate the Best Estimate of year N–1 again but using the shifted interest rate term structure.In order to isolate this strict scope of variation, the calculation may be as follows:—Consider part of the Opening Best Estimate related to risks covered prior to period, i.e. Opening Best Estimate excluding Premiums provisions but including opening adjustments if any (see cells C0050/R0160 to R0180 and C0060/R0160 to R0180;—Based on this figure, run the calculation of the unwinding of discount rates that applied during year N.
+
+
+c0050–c0060r0220 - Variation of Best Estimate due to year N projected in and out flows — risks covered prior to period
+----------------------------------------------------------------------------------------------------------------------
+
+
+Premiums, claims, and surrenders that were forecasted on the Opening Best Estimate (related to risks covered prior to period) as to be paid during the year, will not be in the closing Best Estimate anymore as they would have been paid/received during the year.A neutralization adjustment has thus to be performed.In order to isolate this adjustment, the calculation may be as follows:—Consider part of the Opening Best Estimate related to risks covered prior to period, i.e. Opening Best Estimate excluding Premiums provisions;—Isolate the amount of cash flows (cash in minus cash out) that were projected within this opening Best Estimate for the period considered;—This isolated amount of cash flow shall come in addition to Opening Best Estimate (for neutralisation effect) — and be filled in cell C0050 and C0060/R0220.
+
+
+c0050–c0060r0230 - Variation of Best Estimate due to experience risks — covered prior to period
+-----------------------------------------------------------------------------------------------
+
+
+The variation of Best Estimate captured here shall strictly relate to the strict realisation of cash flows when compared to the cash flows that were projected.For calculation purposes, and in case on non–availability of information of realised cash flows, the variation due to experience may be calculated as the difference between realised technical flows and projected cash–flow.
+
+
+c0050–c0060r0240 - Variation of Best Estimate due to changes in non–economic assumptions — risks covered prior to period
+------------------------------------------------------------------------------------------------------------------------
+
+
+It mainly refers to changes in RBNS not driven by realised technical flows (e.g. revision on a case by case basis of the amount of IBNR) and changes assumptions directly linked to insurance risks (i.e. lapse rates), which can be referred to as non–economic assumptions.In order to isolate the strict scope of variation due to changes in assumptions, the calculation may be as follows:—Consider the opening Best Estimate (cell C0050/R0150) including the adjustment to opening Best Estimate (cells C0050/R0160 to R0180) and the impact of unwinding, of year N projected cash–flows and (C0050/R0210 to R0230 and C0060/R0210 to R0230 respectively);—Based on this figure, run calculations with new assumptions not related to discount rates — that applied at year end N (if any);This will provide the variation of Best Estimate strictly related to changes in these assumptions. This may not capture the variation due to case–by–case revision of RBNS, which would thus have to be added.For Non–Life, in cases where these changes cannot be discerned separately from changes due to experience, report the total figure under C0060/R0230.
+
+
+c0050–c0060r0250 - Variation of Best Estimate due to changes in economic environment — risks covered prior to period
+--------------------------------------------------------------------------------------------------------------------
+
+
+It mainly refers to assumptions not directly linked to insurance risks, i.e. mainly the impact of the changes in economic environment on the cash flows (taking management actions into account, e. g. reduction of FDB) and changes in discount rates.For non–life (C0060/R0250), in case variation due to inflation cannot be discerned from changes due to experience, the whole amount would be reported under C0060/R0230.In order to isolate this strict scope of variation, the calculation may be as follows:—Consider the opening Best Estimate including the adjustment to opening Best Estimate (cells C0050/R0160 to R0180) and the impact of unwinding, of year N projected cash–flows and experience (C0050/R0210 to R0230 and C0060/R0210 toR0230 respectively, or alternatively, C0050/R0210 to R0240 and C0060/R0210 toR0240, respectively);—Based on this figure, run calculations with new discount rates that applied during year N, together with related financial assumptions (if any).This will provide the variation of Best Estimate strictly related to changes in discount rates and related financial assumptions.
+
+
+c0050–c0060r0260 - Other changes not elsewhere explained
+--------------------------------------------------------
+
+
+Corresponds to other variations in Best Estimate, not captured in cells C0010/R0010 to R0100 (for Life) or C0020/R0010 to R0100 (Non–Life).
+
+
+c0050–c0060r0270 - Closing Best Estimate
+----------------------------------------
+
+
+Amount of Best Estimate as stated in the Balance Sheet at closing year N related to those lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, for which an accident year approach (AY) is used for Best Estimate calculation.
+
+
+c0070–c0080r0280 - Opening Best Estimate
+----------------------------------------
+
+
+Amount of Best Estimate of reinsurance recoverable as stated in the Balance Sheet at closing year N–1 related to those lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, for which an accident year approach (AY) is used for Best Estimate calculation.
+
+
+c0070–c0080r0290 - Closing Best Estimate
+----------------------------------------
+
+
+Amount of Best Estimate of reinsurance recoverable as stated in the Balance Sheet at closing year N related to those lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35 for which an accident year approach (AY) is used for Best Estimate calculation.
+
+
+c0090r0300 - Variation in Investments in unit–linked
+----------------------------------------------------
+
+
+Amount shall represent the variation, in Balance Sheet, of the Assets held for index–linked and unit–linked funds.It discloses the neutralisation of the assets and liabilities movements due to unit linked products.
+
+
+c0100–c0110r0310 - Premiums written during the period
+-----------------------------------------------------
+
+
+Amount of written premiums under Solvency II principles and not included in BE, respectively for Life and Non–life.
+
+
+c0100–c0110r0320 - Claims and benefits during the period, net of salvages and subrogations
+------------------------------------------------------------------------------------------
+
+
+Amount of claims and benefits during the period, net of salvages and subrogations, respectively for Life and Non–life.If amounts are already captured in the best estimate, they shall not be part of this item.
+
+
+c0100–c0110r0330 - Expenses (excluding Investment expenses)
+-----------------------------------------------------------
+
+
+Amount of expenses (excluding investment expenses — which are reported under S.29.02), respectively for Life and Non–life.If amounts are already captured in the best estimate, they shall not be part of this item.
+
+
+c0100–c0110r0340 - Total technical flows on gross Technical Provisions
+----------------------------------------------------------------------
+
+
+Total amount of technical flows affecting gross TP.
+
+
+c0100–c0110r0350 - Technical flows related to reinsurance during the period (recoverables received net of premiums paid)
+------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of technical flows related to reinsurance recoverable during the period, i.e. recoverable received net of premiums, respectively for Life and Non–life.
+
+
+c0120–c0130r0360 - Variation in Excess of Assets over Liabilities explained by Technical provisions management — Gross Technical Provisions
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This calculation corresponds to the following principle:—consider the variation in BE, RM and TP calculated as a whole;—deduct the variation in unit–linked (C0090/R0300);—add total amount of net technical flows, i.e.: inflows minus outflows (C0100/R0340 for Life and C0110/R0340 for Non–Life).If the amount has a negative impact on Excess of Assets over Liabilities, this shall a negative amount.
+
+
+c0120–c0130r0370 - Variation in Excess of Assets over Liabilities explained by Technical provisions management — Reinsurance recoverables
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This calculation corresponds to the following principle:—consider the variation in Reinsurance recoverables;—add total amount of net technical flows, i.e.: inflows minus outflows, related to reinsurance during the period.If the amount has a positive impact on Excess of Assets over Liabilities, this shall be a positive amount.
+
+

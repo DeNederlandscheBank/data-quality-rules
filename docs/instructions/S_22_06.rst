@@ -1,0 +1,103 @@
+================================================================================
+S.22.06 - Best estimate subject to volatility adjustment by country and currency
+================================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template shall only be reported by insurance and reinsurance undertakings that apply volatility adjustment in accordance with Article 77d of the Directive 2009/138/EC.
+
+This template shall reflect the gross best estimate of insurance and reinsurance life obligations subject to volatility adjustment split by currency of the obligations and by country in which the contract was entered into. The best estimate reported shall take into account the volatility adjustment. The best estimate subject to any matching adjustment shall not be reported in this template.
+
+Information shall be reported in relation to material obligations in countries and currencies for which a currency volatility adjustment, and a country increase if applicable, is applied until 90 % of the total best estimate subject to volatility adjustment is reported.
+
+
+z0010 - Line of Business
+------------------------
+
+
+Identify if the information is being reported in relation to life or non-life activity. The following close list shall be used: 1 — Life and health SLT 2 — Non–life and health other than that pursued on a similar basis to that of life insurance
+
+
+c0010r0010 - By currency
+------------------------
+
+
+Report the ISO 4217 alphabetic code of each currency reported.
+
+
+c0030r0020 - Total value of Best Estimate subject to volatility adjustment (for all currencies)/Total value of all countries
+----------------------------------------------------------------------------------------------------------------------------
+
+
+Total value, for all currencies and all countries, of the best estimate of the insurance and reinsurance obligations subject to volatility adjustment.
+
+
+c0040r0020 - Part of the Best Estimate subject to volatility adjustment written in the reporting currency/Total value of all countries
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total value for all countries, of the best estimate of the insurance and reinsurance obligations subject to volatility adjustment for the reporting currency.
+
+
+c0050r0020 - Part of the Best Estimate subject to volatility adjustment written in currencies/Total value of all countries
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Total value for all countries of the best estimate of the insurance and reinsurance obligations subject to volatility adjustment split by currency.
+
+
+c0030r0030 - Total value of Best Estimate subject to volatility adjustment (for all currencies)/Home country
+------------------------------------------------------------------------------------------------------------
+
+
+Total value, for all currencies for the home country, of the best estimate of the insurance and reinsurance obligations subject to volatility adjustment.
+
+
+c0040r0030 - Part of the Best Estimate subject to volatility adjustment written in the reporting currency/Home country
+----------------------------------------------------------------------------------------------------------------------
+
+
+Total value for the home country, of the best estimate of the insurance and reinsurance obligations subject to volatility adjustment for the reporting currency.
+
+
+c0050r0030 - Part of the Best Estimate subject to volatility adjustment written in currencies/Home country
+----------------------------------------------------------------------------------------------------------
+
+
+Value of the best estimate of the insurance and reinsurance obligations subject to volatility adjustment split by currency for the home country.
+
+
+c0020r0040 - Countries
+----------------------
+
+
+Report the ISO 3166–1 alpha–2 code of each country reported.
+
+
+c0030r0040 - Total value of Best Estimate subject to volatility adjustment (for all currencies) — by country
+------------------------------------------------------------------------------------------------------------
+
+
+Total value, for all currencies by country, of the best estimate of the insurance and reinsurance obligations subject to volatility adjustment.
+
+
+c0040r0040 - Part of the Best Estimate subject to volatility adjustment written in the reporting currency — by country
+----------------------------------------------------------------------------------------------------------------------
+
+
+Value of the best estimate of the insurance and reinsurance obligations subject to volatility adjustment for the reporting currency split by country.
+
+
+c0050r0040 - Part of the Best Estimate subject to volatility adjustment written in currencies — by country
+----------------------------------------------------------------------------------------------------------
+
+
+Value of the best estimate of the insurance and reinsurance obligations subject to volatility adjustment split by currency and by country.
+
+

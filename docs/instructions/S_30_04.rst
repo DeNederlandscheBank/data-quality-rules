@@ -1,0 +1,241 @@
+==================================================
+S.30.04 - Outgoing Reinsurance Program shares data
+==================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template is relevant to insurance and reinsurance undertakings with an outgoing; reinsurance and/or retrocession program including any coverage provided by State backed reinsurance pool arrangements, excluding facultative covers.
+
+This template shall be filled by the insurance and reinsurance undertaking which is transferring underwriting risk to the reinsurers through a reinsurance treaty whose period of validity includes or overlaps the next reporting year and are known when filling the template. If reinsurance strategy changes materially after that date or if the renovation of the reinsurance contracts are performed later than the reporting date and before next 1 January, the information on this template shall be re–submitted when adequate.
+
+
+c0010 - Reinsurance program code
+--------------------------------
+
+
+Unique code (undertaking specific) covering all the individual reinsurance placements and/or treaties which belong to the same reinsurance program.
+
+
+c0020 - Treaty identification code
+----------------------------------
+
+
+Treaty identification code that identifies it exclusively and must be maintained in subsequent reports, usually the original treaty number registered in the company's books.
+
+
+c0030 - Progressive section number in treaty
+--------------------------------------------
+
+
+The progressive section number assigned by the undertaking to the various sections of the treaty, in those cases where the treaty, for example, covers more than one line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, or covers different lines of activity with different limits. Treaties with different conditions are considered different treaties for the submission of information and shall be reported in different sections. For different lines of business covered under the same treaty, the conditions referring to each line of business will be detailed separately under each section number. Treaties covering different type of reinsurance (e.g. one section on a Quota Share basis and another one on XL) in the same treaty shall be reported in different sections. Treaties covering different layers of the same program shall be reported in different sections.
+
+
+c0040 - Progressive number of surplus/layer in program
+------------------------------------------------------
+
+
+The progressive surplus/layer number, when the treaty is part of a wider program.
+
+
+c0050 - Code reinsurer
+----------------------
+
+
+Identification code of the reinsurer by this order of priority:—Legal Entity Identifier (LEI);—Specific code attributed by the undertakingIn case a specific code is attributed by the undertaking, the code shall be unique for the specific reinsurer and shall not overlap with any other code, attributed by the undertaking or LEI code.
+
+
+c0060 - Type of code reinsurer
+------------------------------
+
+
+Identification of the code used in item ‘Code reinsurer’. One of the options in the following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0070 - Code broker
+-------------------
+
+
+Identification code of the broker by this order of priority:—Legal Entity Identifier (LEI);—Specific code attributed by the undertakingIn case a specific code is attributed by the undertaking, the code shall be unique for the specific broker and shall not overlap with any other code, attributed by the undertaking or LEI code.Where more than one broker was involved in the reinsurance placement only the main dominant broker is required.
+
+
+c0080 - Type of code broker
+---------------------------
+
+
+Identification of the code used in item ‘Code broker’: 1 — LEI 2 — Specific code
+
+
+c0090 - Activity code broker
+----------------------------
+
+
+Representing the activities of the broker involved, as considered by the undertaking. In case the activities are combined all activities must be mentioned separated by ‘,’:—Intermediary for placement—Underwriting on behalf of—Financial services
+
+
+c0100 - Share reinsurer (%)
+---------------------------
+
+
+Percentage of the reinsurance treaty accepted by reinsurer identified in item C0050, expressed as absolute percentage of the treaty placement.Percentages shall be reported as a decimal.
+
+
+c0110 - Exposure ceded for reinsurer's share
+--------------------------------------------
+
+
+Amount of the exposure reinsured with the reinsurer. This amount is based on the maximum cover per risk/event and is calculated with the formula: Item Maximum cover per risk or event (reported in item C0230 of S.30.03) x Item Share reinsurer (%) (reported in item C0100 of S.30.04).If C0230 from S.30.03 is Unlimited fill this cell with ‘– 1’.
+
+
+c0120 - Type of collateral (if applicable)
+------------------------------------------
+
+
+Type of collateral held. The following closed list shall be used: 1 — Cash or equivalent in Trust 2 — Cash or Funds Withheld 3 — Letter of Credit 4 — Other 5 — None
+
+
+c0130 - Description of the reinsurers limit collateralised
+----------------------------------------------------------
+
+
+Description of the reinsurer limit collateralised referring to the specific item specified in the treaty (e.g. 90 % of the technical provisions or 90 % of the premiums), if applicable.
+
+
+c0140 - Code collateral provider (if applicable)
+------------------------------------------------
+
+
+Identification code using the Legal Entity Identifier (LEI) if available.If none is available this item shall not be reported.
+
+
+c0150 - Type of code of collateral provider
+-------------------------------------------
+
+
+Identification of the code used in item ‘Code collateral provider (if applicable)’: 1 — LEI 9 — None
+
+
+c0160 - Estimated outgoing reinsurance premium for reinsurer's share
+--------------------------------------------------------------------
+
+
+The estimated gross reinsurance premium of the treaty, to be paid by the undertaking, according to the next reporting year (N+1) for the share of each reinsurer. This amount is calculated according to the following examples: Case 1: For Quota Share and Surplus; the share reported in item Share reinsurer (C0100) multiplied by item Gross Estimated Treaty Premium Income (C0160) reported in S.30.03; Case 2: For XL–treaties if the treaty is subject to a fixed rate; the rate reported in item XL rate 1 (C0360) as reported in S.30.03 multiplied by the item Estimated Subject premium income (C0150) reported in S.30.03 multiplied by the share reported in item Share reinsurer (C0100). Case 3: For XL–treaties if the treaty is subject to a sliding rate; the rate reported in item XL rate 2 (C0370) as reported in S.30.03 multiplied by the item Estimated Subject premium income (C0150) reported in S.30.03 multiplied by the share reported in item Share reinsurer (C0100).
+
+
+c0170 - Annotations
+-------------------
+
+
+Description of cases where either the reinsurer's participation is at conditions different from those of the standard facultative or treaty placement, or to provide any other information that the undertaking has to bring to the attention of the Supervisory Authority.
+
+
+c0180 - Code reinsurer
+----------------------
+
+
+Identification code of the reinsurer by this order of priority:—Legal Entity Identifier (LEI);—Specific code attributed by the undertakingIn case a specific code is attributed by the undertaking, the code shall be unique for the specific reinsurer and shall not overlap with any other code, attributed by the undertaking or LEI code.
+
+
+c0190 - Type of code reinsurer
+------------------------------
+
+
+Identification of the code used in item ‘Code reinsurer’. One of the options in the following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0200 - Legal name reinsurer
+----------------------------
+
+
+Legal name of the reinsurer to whom the underwriting risk has been transferred. The official name of the risk–carrier reinsurer is stated in the reinsurance contract. It is not permitted to fill in the name of a reinsurance broker. Nor is it permitted to state a general or incomplete name as international reinsurers have several operating companies that may be based in different countries.In case of pooling arrangements, the name of the Pool (or Pool manager) can be filled only if the Pool is a legal entity.
+
+
+c0210 - Type of reinsurer
+-------------------------
+
+
+Type of reinsurer to whom the underwriting risk has been transferred.The following closed list shall be used: 1 — Direct Life insurer 2 — Direct Non–life insurer 3 — Direct Composite insurer 4 — Captive insurance undertaking 5 — Internal reinsurer (reinsurance undertaking which primary focus is to take risk from other insurance undertakings within the group) 6 — External reinsurer (reinsurance undertaking that takes risks from undertakings other than from insurance undertakings within the group) 7 — Captive reinsurance undertaking 8 — Special purpose vehicle 9 — Pool entity (where more than one insurance or reinsurance undertakings are involved) 10 — State pool
+
+
+c0220 - Country of residency
+----------------------------
+
+
+Identify the ISO 3166–1 alpha–2 code for the country where the reinsurer is legally authorised/licensed.
+
+
+c0230 - External rating assessment by nominated ECAI
+----------------------------------------------------
+
+
+Rating of the reinsurer at the reporting reference date issued by the nominated credit assessment institution (ECAI).This item is not applicable to reinsurers for which undertakings using internal model use internal ratings. If undertakings using internal model do not use internal rating, this item shall be reported.
+
+
+c0240 - Nominated ECAI
+----------------------
+
+
+Identify the credit assessment institution (ECAI) giving the external rating, by using the name of the ECAI as published at ESMA website.
+
+
+c0250 - Credit quality step
+---------------------------
+
+
+Identify the credit quality step attributed to the reinsurer. The credit quality step shall reflect any readjustments to the credit quality made internally by the undertakings that use the standard formulaThis item is not applicable to reinsurers for which undertakings using internal model use internal ratings. If undertakings using internal model do not use internal rating, this item shall be reported.One of the options in the following closed list shall be used: 0 — Credit quality step 0 1 — Credit quality step 1 2 — Credit quality step 2 3 — Credit quality step 3 4 — Credit quality step 4 5 — Credit quality step 5 6 — Credit quality step 6 9 — No rating available
+
+
+c0260 - Internal rating
+-----------------------
+
+
+Internal rating of reinsurers for undertakings using internal model to the extent that the internal ratings are used in their internal modelling. If an internal model undertaking is using solely external ratings this item shall not be reported.
+
+
+c0270 - Code broker
+-------------------
+
+
+Identification code of the broker by this order of priority:—Legal Entity Identifier (LEI);—Specific code attributed by the undertakingIn case a specific code is attributed by the undertaking, the code shall be unique for the specific broker and shall not overlap with any other code, attributed by the undertaking or LEI code.Where a reinsurance treaty is covered by more than one broker only the dominant broker shall be reported.
+
+
+c0280 - Type of code broker
+---------------------------
+
+
+Identification of the code used in item ‘Code broker’: 1 — LEI 2 — Specific code
+
+
+c0290 - Legal name broker
+-------------------------
+
+
+Statutory name of the broker.
+
+
+c0300 - Code collateral provider (if applicable)
+------------------------------------------------
+
+
+Identification code using the Legal Entity Identifier (LEI) if available.If none is available this item shall not be reported.
+
+
+c0310 - Type of code collateral provider (if applicable)
+--------------------------------------------------------
+
+
+Identification of the code used for the ‘Issuer Code’ item. One of the options in the following closed list shall be used: 1 — LEI 9 — None
+
+
+c0320 - Collateral provider name
+--------------------------------
+
+
+Name of the collateral provider will depend on the type of collateral specified in C0120.—Where collateral is held in trust the collateral provider will be the Trust provider.—Where the collateral is on a Cash or Funds withheld basis this cell can remain blank.—Where the collateral is a Letters of Credit it will be the underlying Financial Institution providing this facility.—Where other report only if applicable.
+
+

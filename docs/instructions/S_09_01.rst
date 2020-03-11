@@ -1,0 +1,150 @@
+==============================================================
+S.09.01 - Information on gains/income and losses in the period
+==============================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template contains information on gains/income and losses by asset category (including derivatives). i.e., no item–by–item reporting is required. The asset categories considered in this template are the ones defined in Annex IV — Assets Categories.
+
+Items shall be reported with positive values unless otherwise stated in the respective instructions.
+
+
+c0040 - Asset category
+----------------------
+
+
+Identify the asset categories present in the portfolio.Use the categories defined in Annex IV — Assets Categories.
+
+
+c0050 - Portfolio
+-----------------
+
+
+Distinction between life, non–life, shareholder's funds, other internal funds, general (no split) and ring fenced funds. One of the options in the following closed list shall be used: 1 — Life 2 — Non–life 3 — Ring fenced funds 4 — Other internal funds 5 — Shareholders' funds 6 — GeneralThe split is not mandatory, except for identifying ring fenced funds, but shall be reported if the undertaking uses it internally. When an undertaking does not apply a split ‘general’ must be used.
+
+
+c0060 - Asset held in unit linked and index linked contracts
+------------------------------------------------------------
+
+
+Identify the assets that are held by unit linked and index linked contracts. One of the options in the following closed list shall be used: 1 — Unit–linked or index–linked 2 — Neither unit–linked nor index–linked
+
+
+c0070 - Dividends
+-----------------
+
+
+Amount of dividends earned over the reporting period, i.e. dividends received less the right to receive a dividend already recognised at the beginning of the reporting period, plus the right to receive a dividend recognised at the end of the reporting period. Applicable to dividend paying assets such as equity, preferred securities and collective investment undertakings.Includes also dividends received from assets that have been sold or matured.
+
+
+c0080 - Interest
+----------------
+
+
+Amount of interest earned, i.e. interest received less accrued interest at the start of the period plus accrued interest at the end of the reporting period.Includes interest received when the asset is sold/matured or when the coupon is received.Applicable to coupon and interest paying assets such as bonds, loans and deposits.
+
+
+c0090 - Rent
+------------
+
+
+Amount of rent earned i.e. rent received less accrued rent at the start of the period plus accrued rent at the end of the reporting period. Includes also rents received when the asset is sold or matured.Only applicable to properties, regardless of the function.
+
+
+c0100 - Net gains and losses
+----------------------------
+
+
+Net gains and losses resulting from assets sold or matured during the reporting period.The gains and losses are calculated as the difference between selling or maturity value and the value according to Article 75 of Directive 2009/138/EC at the end of the prior reporting year (or, in case of assets acquired during the reporting period, the acquisition value).The net value can be positive, negative or zero.
+
+
+c0110 - Unrealised gains and losses
+-----------------------------------
+
+
+Unrealised gains and losses resulting from assets not sold nor matured during the reporting period.The unrealised gains and losses are calculated as the difference between the value according to Article 75 of Directive 2009/138/EC at the end of the reporting year end and the value according to Article 75 of Directive 2009/138/EC at the end of the prior reporting year (or, in case of assets acquired during the reporting period, the acquisition value).The net value can be positive, negative or zero.
+
+
+c0010 - Legal name of the undertaking
+-------------------------------------
+
+
+Identify the legal name of the undertaking within the scope of group supervision for which the return on investment relates to.This item shall be filled in only when it relates to the return on investment by asset category for assets held by subsidiaries consolidated under deduction and aggregation method.The cell shall be filled in only when it relates to the list portfolio by portfolio of assets, each reported by asset category, held by subsidiaries under method 2.When the cell is filled in, the portfolios held by subsidiaries under method 2 cannot be reconciled with template S.06.02.When the cell is blank, the portfolios held by the group can be reconciled with template S.06.02.
+
+
+c0020 - Identification code of the undertaking
+----------------------------------------------
+
+
+Identification code by this order of priority if existent:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of group supervision: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of group supervision, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0030 - Type of code of the ID of the undertaking
+-------------------------------------------------
+
+
+Type of ID Code used for the ‘Identification code of the undertaking’ item. One of the options in the following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0040 - Asset category
+----------------------
+
+
+Identify the asset categories present in the portfolio.Use the categories defined in Annex IV — Assets Categories.
+
+
+c0050 - Portfolio
+-----------------
+
+
+Distinction between life, non–life, shareholder's funds, general (no split) and ring fenced funds. One of the options in the following closed list shall be used: 1 — Life 2 — Non–life 3 — Ring fenced funds 4 — Other internal funds 5 — Shareholders' funds 6 — GeneralThe split is not mandatory, except for identifying ring fenced funds, but shall be reported if the undertaking uses it internally. When an undertaking does not apply a split ‘general’ must be used.
+
+
+c0060 - Asset held in unit linked and index linked contracts
+------------------------------------------------------------
+
+
+Identify the assets that are held by unit linked and index linked contracts. One of the options in the following closed list shall be used: 1– Unit–linked or index–linked 2 — Neither unit–linked nor index–linked
+
+
+c0070 - Dividends
+-----------------
+
+
+Amount of dividends earned over the reporting period,, i.e. dividends received less the right to receive a dividend already recognised at the beginning of the reporting period, plus the right to receive a dividend recognised at the end of the reporting period. Applicable to dividend paying assets such as equity, preferred securities and collective investment undertakings.Includes also dividends received from assets that have been sold or matured.
+
+
+c0080 - Interest
+----------------
+
+
+Amount of interest earned, i.e. interest received less accrued interest at the start of the period plus accrued interest, at the end of the reporting period.Includes interest received when the asset is sold/ matured or when the coupon is received.Applicable to coupon and interest paying assets such as bonds, loans and deposits.
+
+
+c0090 - Rent
+------------
+
+
+Amount of rent earned, i.e. rent received less accrued rent at the start of the period plus accrued rent, at the end of the reporting period.Includes also rents received when the asset is sold or matured.Only applicable to properties, regardless of the function.
+
+
+c0100 - Net gains and losses
+----------------------------
+
+
+Net gains and losses resulting from assets sold or matured during the reporting period.The gains and losses are calculated as the difference between selling or maturity value and the value according to Article 75 of Directive 2009/138/EC at the end of the prior reporting year (or, in case of assets acquired during the reporting period, the acquisition value).The net value can be positive, negative or zero.
+
+
+c0110 - Unrealised gains and losses
+-----------------------------------
+
+
+Unrealised gains and losses resulting from assets not sold nor matured during the reporting period.The unrealised gains and losses are calculated as the difference between the value according to Article 75 of Directive 2009/138/EC at the end of the reporting year end and the value according to Article 75 of Directive 2009/138/EC at the end of the prior reporting year (or, in case of assets acquired during the reporting period, the acquisition value).The net value can be positive, negative or zero.
+
+

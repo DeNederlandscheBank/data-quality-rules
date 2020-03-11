@@ -1,0 +1,244 @@
+======================================
+S.10.01 - Securities lending and repos
+======================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template contains an item–by–item list of securities lending transactions and repurchase agreements (buyer and seller) contracts, held directly by the undertaking (i.e. not on a look–through basis), which include also the liquidity swaps referred to in Article 309 (2)(f) of the Delegated Regulation (EU) 2015/35.
+
+It shall be reported only when the value of the underlying securities on and off balance sheet involved in lending or repurchase agreements, with maturity date falling after the reporting reference date represent more than 5 % of the total investments as reported in C0010/R0070 and C0010/R0220 of template S.02.01.
+
+All contracts that are on the balance sheet or off balance sheet shall be reported. The information shall include all contracts in the reporting period regardless of whether they were open or closed at the reporting date. For contracts which are part of a roll–over strategy, where they substantially are the same transaction, only open positions shall be reported.
+
+A repurchase agreement (repo) is defined as the sale of securities together with an agreement for the seller to buy back the securities at a later date. Securities lending is defined as the lending of securities by one party to another, which requires that the borrower provides the lender with collateral.
+
+Items shall be reported with positive values unless otherwise stated in the respective instructions.
+
+The asset categories referred to in this template are the ones defined in Annex IV — Assets Categories of this Regulation and references to CIC codes refer to Annex VI — CIC table of this Regulation.
+
+Each repo and securities lending contract shall be reported in as many rows as needed to provide the information requested. If for one item one option fits one part of the instrument being reported and a different option fits the other part then the contract needs to be unbundled unless is stated otherwise in the instructions.
+
+
+c0040 - Portfolio
+-----------------
+
+
+Distinction between life, non–life, shareholder's funds, general (no split) and ring fenced funds. One of the options in the following closed list shall be used: 1 — Life 2 — Non–life: 3 — Ring fenced funds 4 — Other internal fund 5 — Shareholders' funds 6 — GeneralThe split is not mandatory, except for identifying ring fenced funds, but shall be reported if the undertaking uses it internally. When an undertaking does not apply a split ‘general’ must be used.For assets held off–balance sheet this item shall not be reported.
+
+
+c0050 - Fund number
+-------------------
+
+
+Applicable to assets held in ring fenced funds or other internal funds (defined according to national markets).Number which is attributed by the undertaking, corresponding to the unique number assigned to each fund. This number has to be consistent over time and shall be used to identify the funds in other templates. It shall not be re–used for a different fund.
+
+
+c0060 - Asset category
+----------------------
+
+
+Identify the asset category of the underlying asset lent/provided as part of a securities lending transactions or repurchase agreements.Use the categories defined in Annex IV — Assets Categories of this Regulation.
+
+
+c0070 - Counterparty Name
+-------------------------
+
+
+Name of the counterparty of the contract.When available, this item corresponds to the entity name in the LEI database. When not available, corresponds to the legal name.
+
+
+c0080 - Counterparty code
+-------------------------
+
+
+Identification code of the counterparty using the Legal Entity Identifier (LEI) if available.If none is available, this item shall not be reported.
+
+
+c0090 - Type of counterparty code
+---------------------------------
+
+
+Identification of the code used for the ‘Counterparty Code’ item. One of the options in the following closed list shall be used: 1 — LEI 9 — None
+
+
+c0100 - Counterparty asset category
+-----------------------------------
+
+
+Identify the most significant asset category borrowed/received as part of a securities lending transactions or repurchase agreements.Use the asset categories defined in Annex IV — Assets Categories of this Regulation.
+
+
+c0110 - Asset held in unit–linked and index–linked contracts
+------------------------------------------------------------
+
+
+Identify if the underlying asset identified in C0060 is held by unit linked and index linked contracts. One of the options in the following closed list shall be used: 1 — Unit–linked or index–linked 2 — Neither unit–linked nor index–linked
+
+
+c0120 - Position in the contract
+--------------------------------
+
+
+Identify whether the undertaking is a buyer or seller in the repo or a lender or borrower in the securities lending. One of the options in the following closed list shall be used: 1 — Buyer in a repo 2 — Seller in a repo 3 — Lender in a securities lending 4 — Borrower in a securities lending
+
+
+c0130 - Near leg amount
+-----------------------
+
+
+Represents the following amounts:—Buyer in a repo: amount received at the contract inception—Seller in a repo: amount ceded at the contract inception—Lender in a securities lending: amount received as guarantee at the contract inception—Borrower in a securities lending: amount or market value of the securities received at the contract inception
+
+
+c0140 - Far leg amount
+----------------------
+
+
+This item is only applicable for repos and represents the following amounts:—Buyer in a repo: amount ceded at the contract maturity—Seller in a repo: amount received at the contract maturity
+
+
+c0150 - Start date
+------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the contract start date. The contract start date refers to the date when obligations under the contract come into effect.
+
+
+c0160 - Maturity date
+---------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the contract closing date. Even if the contract is on an open call basis, there is usually a date when the contract expires. In these cases this date must be reported, if no call occurs before.An agreement is considered closed when it has matured, a call occurs or the agreement is cancelled.For contracts with no defined maturity date report ‘9999–12–31’.
+
+
+c0170 - Solvency II Value
+-------------------------
+
+
+This item is only applicable for contracts that are still open at the reporting date.Value of the repo or securities lending contract, following Article 75 of Directive 2009/138/EC rules for valuation of contracts.This value can be positive, negative or zero.
+
+
+c0010 - Legal name of the undertaking
+-------------------------------------
+
+
+Identify the legal name of the undertaking within the scope of group supervision that holds the repo and securities lending.This item shall be filled in only when it relates to the repos and securities lending contracts held by participating undertakings, insurance holding companies or mixed–financial holding companies and subsidiaries under deduction and aggregation method.
+
+
+c0020 - Identification code of the undertaking
+----------------------------------------------
+
+
+Identification code by this order of priority if existent:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of group supervision: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of group supervision, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0030 - Type of code of the ID of the undertaking
+-------------------------------------------------
+
+
+Type of ID Code used for the ‘Identification code of the undertaking’ item. One of the options in the following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0040 - Portfolio
+-----------------
+
+
+Distinction between life, non–life, shareholder's funds, general (no split) and ring fenced funds. One of the options in the following closed list shall be used: 1 — Life 2 — Non–life: 3 — Ring fenced funds 4 — Other internal fund 5 — Shareholders' funds 6 — GeneralThe split is not mandatory, except for identifying ring fenced funds, but shall be reported if the undertaking uses it internally. When an undertaking does not apply a split ‘general’ must be used.For assets held off–balance sheet this item shall not be reported.
+
+
+c0050 - Fund number
+-------------------
+
+
+Applicable to assets held in ring fenced funds or other internal funds (defined according to national markets).Number which is attributed by the undertaking, corresponding to the unique number assigned to each fund. This number has to be consistent over time and shall be used to identify the funds in other templates. It shall not be re–used for a different fund.
+
+
+c0060 - Asset category
+----------------------
+
+
+Identify the asset categories of the underlying asset lent/provided as part of a securities lending transactions or repurchase agreements).Use the categories defined in Annex IV — Assets Categories of this Regulation.
+
+
+c0070 - Counterparty Name
+-------------------------
+
+
+Name of the counterparty of the contract.When available, this item corresponds to the entity name in the LEI database. When not available, corresponds to the legal name.
+
+
+c0080 - Counterparty code
+-------------------------
+
+
+Identification code of the counterparty using the Legal Entity Identifier (LEI) if available.If none is available, this item shall not be reported.
+
+
+c0090 - Type of counterparty code
+---------------------------------
+
+
+Identification of the code used for the ‘Counterparty Code’ item. One of the options in the following closed list shall be used: 1 — LEI 9 — None
+
+
+c0100 - Counterparty asset category
+-----------------------------------
+
+
+Identify the most significant asset category borrowed/received as part of a securities lending transactions or repurchase agreements.Use the asset categories defined in Annex IV — Assets Categories of this Regulation.
+
+
+c0110 - Asset held in unit–linked and index–linked contracts
+------------------------------------------------------------
+
+
+Identify if the underlying asset identified in C0060 is held by unit linked and index linked contracts. One of the options in the following closed list shall be used: 1 — Unit–linked or index–linked 2 — Neither unit–linked nor index–linked
+
+
+c0120 - Position in the contract
+--------------------------------
+
+
+Identify whether the undertaking is a buyer or seller in the repo or a lender or borrower in the securities lending. One of the options in the following closed list shall be used: 1 — Buyer in a repo 2 — Seller in a repo 3 — Lender in a securities lending 4 — Borrower in a securities lending
+
+
+c0130 - Near leg amount
+-----------------------
+
+
+Represents the following amounts:—Buyer in a repo: amount received at the contract inception—Seller in a repo: amount ceded at the contract inception—Lender in a securities lending: amount received as guarantee at the contract inception—Borrower in a securities lending: amount or market value of the securities received at the contract inception
+
+
+c0140 - Far leg amount
+----------------------
+
+
+This item is only applicable for repos and represents the following amounts:—Buyer in a repo: amount ceded at the contract maturity—Seller in a repo: amount received at the contract maturity
+
+
+c0150 - Start date
+------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the contract start date. The contract start date refers to the date when obligations under the contract come into effect.
+
+
+c0160 - Maturity date
+---------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the contract closing date. Even if the contract is on an open call basis, there is usually a date when the contract expires. In these cases this date must be reported, if no call occurs before.An agreement is considered closed when it has matured, a call occurs or the agreement is cancelled.For contracts with no defined maturity date report ‘9999–12–31’.
+
+
+c0170 - Solvency II Value
+-------------------------
+
+
+This item is only applicable for contracts that are still open at the reporting date.Value of the repo or securities lending contract, following Article 75 of Directive 2009/138/EC rules for valuation of contracts.This value can be positive, negative or zero.
+
+

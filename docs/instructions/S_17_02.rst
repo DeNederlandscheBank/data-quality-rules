@@ -1,0 +1,98 @@
+====================================================
+S.17.02 - Non-Life Technical Provisions , By country
+====================================================
+
+Instructions
+------------
+
+
+General comments:
+
+Line of Business for non–life obligations: the lines of business, referred to in Article 80 of Directive 2009/138/EC, as defined in Annex I to Delegated Regulation (EU) 2015/35, referred to direct business.
+
+Health direct insurance business pursued on a non–similar technical basis to life insurance shall be segmented into Non–Life line of business 1 to 3.
+
+Undertakings shall take into account all the obligations in different currencies and convert them into the reporting currency.
+
+The information by country shall be reported according to the following:
+
+a)
+
+Information on the home country shall be always reported regardless of the amount of Technical Provisions as a whole and Gross Best Estimate (referred to direct business);
+
+b)
+
+Information reported by country shall at least represent 90 % of the total Technical Provisions as a whole and Gross Best Estimate (referred to direct business) of any line of business;
+
+c)
+
+If a specific country has to be reported for a particular line of business to comply with sub–paragraph b) then that country shall be reported for all lines of business;
+
+d)
+
+The other countries shall be reported aggregated in ‘other–EEA’ or ‘other–non EEA’;
+
+e)
+
+For the direct insurance business for the lines of business ‘Medical expense’, ‘Income protection’, ‘Workers' compensation’, ‘Fire and other damage to property’ and ‘Credit and suretyship’ information shall be reported by country where the risk is situated as defined in Article 13 (13) of Directive 2009/138/EC;
+
+f)
+
+For direct insurance business for all other lines of business not referred in sub–paragraph e) information shall be reported by country where the contract was entered into;
+
+For the purposes of this template ‘country where the contract was entered into’ means:
+
+o)
+
+The country where the insurance undertaking is established (home country) when the contract was not sold through a branch or freedom to provide services;
+
+p)
+
+The country where the branch is located (host country) when the contract was sold through a branch;
+
+q)
+
+The country where the freedom to provide services was notified (host country) when the contract was sold through freedom to provide services.
+
+r)
+
+If an intermediary is used or in any other situation, it is a), b) or c) depending on who sold the contract.
+
+The information to be reported shall include the volatility adjustment, the matching adjustment, the transitional adjustment to the relevant risk-free interest rate term structure and the transitional deduction to technical provisions.
+
+
+c0010r0040 - Country 1…
+-----------------------
+
+
+Report the country ISO 3166–1 alpha–2 code of each required country, row by row.
+
+
+c0020 to c0130r0010 - Gross TP calculated as a whole and Gross BE for different countries — Home country
+--------------------------------------------------------------------------------------------------------
+
+
+Amount of gross technical provision calculated as a whole and gross best estimate, by country where the risk is situated or country where the contract was entered into when the country is the Home country, for each Line of Business, regarding direct business only (excluding accepted reinsurance).In some cases undertaking may need to use their judgment/approximations to provide correct data, in line with assumptions used for the calculation of Technical Provisions.
+
+
+c0020 to c0130r0020 - Gross TP calculated as a whole and Gross BE for different countries — EEA countries outside the materiality threshold — not reported by country
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of gross technical provision calculated as a whole and gross best estimate, for EEA countries outside the materiality threshold (i.e. those not reported separately by country), except the home country for each Line of Business, regarding direct business only (excluding accepted reinsurance)In some cases undertaking may need to use their judgment/approximations to provide correct data, in line with assumptions used for the calculation of TP.
+
+
+c0020 to c0130r0030 - Gross TP calculated as a whole and Gross BE for different countries — Non–EEA countries outside the materiality threshold — not reported by country
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of gross technical provision calculated as a whole and gross best estimate, for non–EEA countries outside the materiality threshold (i.e. those not reported separately by country), for each Line of Business, regarding direct business only (excluding accepted reinsurance).In some cases undertaking may need to use their judgment/approximations to provide correct data, in line with assumptions used for the calculation of TP.
+
+
+c0020 to c0130r0040 - Gross TP calculated as a whole and Gross BE for different countries — Country 1 [one row for each country in the materiality threshold]
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of gross technical provision calculated as a whole and gross best estimate, by country where the risk is situated or country where the contract was entered into, for each Line of Business, regarding direct business only (excluding accepted reinsurance).In some cases undertaking may need to use their judgment/approximations to provide correct data, in line with assumptions used for the calculation of TP.
+
+

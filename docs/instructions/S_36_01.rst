@@ -1,0 +1,319 @@
+=================================================================
+S.36.01 - IGT , Equity–type transactions, debt and asset transfer
+=================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+The purpose of this template is to collect information according to Article 265 of Directive 2009/138/EC on all (significant, very significant and transactions required to be reported in all circumstances) IGTs related to equity, debt, reciprocal financing and asset transfers related transactions within a group according to Article 213 (2)(d) of Directive 2009/138/EC. These include, but are not limited to:
+
+—
+
+equity and other capital items including participations in related entities and transfer shares of related entities of the group;
+
+—
+
+debt including bonds, loans, collateralised debt, and other transactions of similar nature e.g. with periodic pre–determined interest or coupon or premium payments for a pre–determined period of time.
+
+—
+
+other asset transfer such as transfer of properties and transfer of shares of other companies unrelated (i.e. outside) to the group.
+
+The insurance undertaking is expected to complete this template for all significant, very significant and transactions required to be reported in all circumstances for IGTs between the individual undertaking and the mixed–activity insurance holding company and its related undertakings.
+
+This template shall include IGTs that were:
+
+—
+
+in–force at the start of the reporting period.
+
+—
+
+incepted during the reporting period and outstanding at the reporting date.
+
+—
+
+incepted and expired/matured during the reporting period.
+
+Where similar transactions with a related entity may be excluded from IGT reporting when considered individually against the thresholds for significant and very significant, these transactions must nevertheless be individually reported where collectively they are at or above the corresponding threshold values for significant or very significant IGTs.
+
+Each transaction shall be reported separately.
+
+Any additions/top–ups to significant IGTs shall be reported as a separate IGT, even if the top–up in its own right falls below the significant threshold limit. For example, if an undertaking increases the initial loan amount to another related undertaking the addition to the loan should be recorded as a separate item with its issue date as the date of the top–up.
+
+Where the transaction value is different for two transacting parties (e.g. a EUR 10 m transaction between A and B where A records EUR 10 m but B only receive EUR 9,5 m because of transactions costs, of say EUR 0,5 m has been expensed) the template shall record the maximum amount as the transaction amount, in this case EUR 10 m.
+
+Where there is a chain of related IGTs (say A invests in B and B invests in C), each link of the chain needs to be reported as a separate IGT.
+
+
+c0010 - ID of intragroup transaction
+------------------------------------
+
+
+Unique internal identification code for each intragroup transaction. Should be consistent over time.
+
+
+c0020 - Investor/lender name
+----------------------------
+
+
+Name of the entity that is buying the equity or lending to a related undertaking within the group. I.e. the entity that recognises the transaction as an asset on their balance sheet (debit — balance sheet).
+
+
+c0030 - Identification code for investor/lender
+-----------------------------------------------
+
+
+The unique identification code attached to the investor/buyer/transferee by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the group: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the group, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0040 - ID code type of code of the investor/lender
+---------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code for the investor/lender’: 1 — LEI 2 — Specific code
+
+
+c0050 - Issuer/borrower name
+----------------------------
+
+
+Name of the entity that is issuing the equity/capital item, or borrowing money (issuing debt). I.e. the entity that recognises the transaction as a liability or capital on their balance sheet (credit — balance sheet).
+
+
+c0060 - Identification code for issuer/borrower
+-----------------------------------------------
+
+
+The unique identification code attached to the investor/buyer/transferee by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the group: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the group, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0070 - ID code type of code of the issuer/borrower
+---------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code for the issuer/borrower’: 1 — LEI 2 — Specific code
+
+
+c0080 - ID Code of the instrument
+---------------------------------
+
+
+This is the identification code of the instrument (capital, debt etc.) between the two counterparties identified using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be consistent over time.This may be different from the intragroup transaction code provided in cell C0010.
+
+
+c0090 - ID Code Type of the instrument
+--------------------------------------
+
+
+Type of ID Code used for the ‘ID Code of the instrument’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertaking
+
+
+c0100 - Transaction type
+------------------------
+
+
+Identify the transaction type. The following close list shall be used: 1 — Bonds/Debt — collateralised 2 — Bonds/Debt — uncollateralised 3 — Equity type — shares/participations 4 — Equity type — others 5 — Other asset transfer — properties 6 — Other asset transfer — others
+
+
+c0110 - Transaction Issue date
+------------------------------
+
+
+This is the earlier of the transaction/debt issue date or the date the IGT is effective from if different from the issue date.The date should follow the ISO 8601 (yyyy–mm–dd) format.
+
+
+c0120 - Maturity date of transaction
+------------------------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the date when the transaction expires/reaches maturity if applicable.—For IGTs with no maturity date use ‘9999–12–31’.—For perpetual securities use ‘9999–12–31’
+
+
+c0130 - Currency of transaction
+-------------------------------
+
+
+Identify the ISO 4217 alphabetic code of the currency in which the transaction took place.
+
+
+c0140 - Contractual amount of transaction/Transaction price
+-----------------------------------------------------------
+
+
+Amount of the transaction or price as per agreement/contract.
+
+
+c0150 - Value of collateral/asset
+---------------------------------
+
+
+The value of collateral for collaterised debt or asset value for IGT involving asset transfer.
+
+
+c0160 - Amount of redemption/prepayments/paybacks during reporting period
+-------------------------------------------------------------------------
+
+
+Amount of total redemptions/prepayments/paybacks during the reporting period if applicable.
+
+
+c0170 - Amount of dividends/interest/coupon and other payments made during reporting period
+-------------------------------------------------------------------------------------------
+
+
+This cell shall capture any payments made in relation to the IGTs recorded in this template for the reporting period (12 months up to the reporting date).This includes, but not limited to:—Dividends for the current year including paid or declared but unpaid dividends.—Any deferred dividends from previous years paid during the reporting period (i.e. any deferred dividends paid that impacted the P&L for the reporting period).—Interest payments made in relation to debt instruments.—Any other payments made in relation to the IGTs that are reported in this template, e.g. charges on asset transfers.Amount of total tops–ups if applicable, i.e. total additional money invested during the reporting period such as a additional payments on partly paid shares or increasing loan amount during the period,
+
+
+c0180 - Balance of contractual amount of transaction at reporting date
+----------------------------------------------------------------------
+
+
+Outstanding amount of the transaction at the reporting date if applicable e.g. for debt issue. If there has been a full early settlement/prepayment, the balance of contractual amount will be zero.
+
+
+c0190 - Coupon/Interest rate
+----------------------------
+
+
+The interest or coupon rate as a percentage, if applicable. For variable interest rate, this shall include the reference rate and the interest rate above it.
+
+
+c0010 - ID of intragroup transaction
+------------------------------------
+
+
+Unique internal identification code for each intragroup transaction. Shall be consistent over time.
+
+
+c0020 - Investor/ lender name
+-----------------------------
+
+
+Name of the entity that is buying the equity or lending to a related undertaking within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC, i.e. the entity that recognises the transaction as an asset on their balance sheet (debit — balance sheet).
+
+
+c0030 - Identification code for investor / lender
+-------------------------------------------------
+
+
+The unique identification code attached to the investor/buyer/transferee by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0040 - ID code type of code of the investor/lender
+---------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code for the investor/lender’: 1 — LEI 2 — Specific code
+
+
+c0050 - Issuer/ borrower name
+-----------------------------
+
+
+Name of the entity that is issuing the equity/capital item, or borrowing money (issuing debt). I.e. the entity that recognises the transaction as a liability or capital on their balance sheet (credit — balance sheet).
+
+
+c0060 - Identification code for issuer / borrower
+-------------------------------------------------
+
+
+The unique identification code attached to the investor/buyer/transferee by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0070 - ID code type of code of the issuer / borrower
+-----------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code for the issuer/borrower’: 1 — LEI 2 — Specific code
+
+
+c0080 - ID Code of the instrument
+---------------------------------
+
+
+This is the identification code of the instrument (capital, debt etc.) between the two counterparties identified using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be consistent over time.This may be different from the intragroup transaction code provided in cell C0010.
+
+
+c0090 - ID Code Type of the instrument
+--------------------------------------
+
+
+Type of ID Code used for the ‘ID Code of the instrument’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertaking
+
+
+c0100 - Transaction type
+------------------------
+
+
+Identify the transaction type. The following close list shall be used: 1 — Bonds / Debt — collateralised 2 — Bonds / Debt — uncollateralised 3 — Equity type — shares / participations 4 — Equity type — others 5 — Other asset transfer — properties 6 — Other asset transfer — others
+
+
+c0110 - Transaction Issue date
+------------------------------
+
+
+This is the earlier of the transaction/debt issue date or the date the IGT is effective from if different from the issue date.The date should follow the ISO 8601 (yyyy–mm–dd) format.
+
+
+c0120 - Maturity date of transaction
+------------------------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the date when the transaction expires/reaches maturity if applicable.—For IGTs with no maturity date use ‘9999–12–31’.—For perpetual securities use ‘9999–12–31’
+
+
+c0130 - Currency of transaction
+-------------------------------
+
+
+Identify the ISO 4217 alphabetic code of the currency in which the transaction took place.
+
+
+c0140 - Contractual amount of transaction/ Transaction price
+------------------------------------------------------------
+
+
+Amount of the transaction or price as per agreement/contract, reported in the reporting currency of the group.
+
+
+c0150 - Value of collateral/ asset
+----------------------------------
+
+
+The value of collateral for collaterised debt or asset value for IGT involving asset transfer, reported in the reporting currency of the group.If either one of the counterparties involved in the IGTs is valued in accordance with the Solvency II valuations rules as part of the group solvency calculation then the Solvency II value shall be used to value the collateral. At minimum (not an exhaustive list), collateral between the following entities is expected to be valued in accordance with the Solvency II valuation principles:—EEA insurance and reinsurance undertakings—EEA Insurance holding companies and mixed financial holding companies—Third country insurance, reinsurance, insurance holding companies and mixed financial holding companies included in the group solvency calculation through method 1—Third country insurance, reinsurance, insurance holding companies and mixed financial holding companies included in the group solvency calculation through method 2 based in non–equivalent regimesCollateral arrangement between other types of undertakings, e.g. IGTs between two credit institutions within a group, may be valued in accordance with the sectoral rules.
+
+
+c0160 - Amount of redemption/ prepayments/ paybacks during reporting period
+---------------------------------------------------------------------------
+
+
+Amount of total redemptions/prepayments/paybacks during the reporting period if applicable, reported in the reporting currency of the group.
+
+
+c0170 - Amount of dividends/ interest/ coupon and other payments made during reporting period
+---------------------------------------------------------------------------------------------
+
+
+This cell shall capture any payments made in relation to the IGTs recorded in this template for the reporting period (12 months up to the reporting date).This includes, but not limited to:—Dividends for the current year including paid or declared but unpaid dividends.—Any deferred dividends from previous years paid during the reporting period (i.e. any deferred dividends paid that impacted the P&L for the reporting period).—Interest payments made in relation to debt instruments.—Any other payments made in relation to the IGTs that are reported in this template, e.g. charges on asset transfers.—Amount of total tops–ups if applicable, i.e. total additional money invested during the reporting period such as a additional payments on partly paid shares or increasing loan amount during the period (when reporting tops–ups as a separate item).This amount shall be reported in the reporting currency of the group.
+
+
+c0180 - Balance of contractual amount of transaction at reporting date
+----------------------------------------------------------------------
+
+
+Outstanding amount of the transaction at the reporting date if applicable e.g. for debt issue, reported in the reporting currency of the group. If there has been a full early settlement/prepayment, the balance of contractual amount will be zero.
+
+
+c0190 - Coupon/ Interest rate
+-----------------------------
+
+
+The interest or coupon rate as a percentage, if applicable. For variable interest rate, this shall include the reference rate and the interest rate above it.
+
+

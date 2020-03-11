@@ -1,0 +1,714 @@
+=================================================================================
+S.28.02 - Minimum Capital Requirement , Both life and non–life insurance activity
+=================================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to opening, quarterly and annual submission of information for individual entities.
+
+In particular, S.28.02 is to be submitted by insurance undertakings engaged in both life and non–life insurance activity. Insurance and reinsurance undertakings other than insurance undertakings engaged in both life and non–life insurance activity shall submit S.28.01 instead.
+
+This template shall be completed on the basis of Solvency II valuation, i.e. written premiums are defined as the premiums due to be received by the undertaking in the period (as defined in Article 1(11) of Delegated Regulation (EU) 2015/35).
+
+All references to technical provisions address technical provisions after application of Long Term Guarantee measures and transitionals.
+
+The calculation of MCR combines a linear formula with a floor of 25 % and a cap of 45 % of the SCR. The MCR is subject to an absolute floor depending on the nature of the undertaking (as defined in Article 129 (1) (d) of the Directive 2009/138/EC).
+
+
+c0010r0010 - Linear Formula component for non-life insurance and reinsurance obligations — MCR(NL,NL) result — non-life activities
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the linear formula component for non-life insurance and reinsurance obligations relating to non-life insurance activities calculated in accordance with Article 252 (4) and (5) of Delegated Regulation (EU) 2015/35.
+
+
+c0020r0010 - Linear Formula component for non-life insurance and reinsurance obligations — MCR(NL,L) result
+-----------------------------------------------------------------------------------------------------------
+
+
+This is the linear formula component for non-life insurance and reinsurance obligations relating to life insurance activities calculated in accordance with Article 252 (9) and (10) of Delegated Regulation (EU) 2015/35.
+
+
+c0030r0020 - Medical expense insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for medical expense insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0020 - Medical expense insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for medical expense insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0020 - Medical expense insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for medical expense insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0020 - Medical expense insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for medical expense insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0030 - Income protection insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for income protection insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0030 - Income protection insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for income protections insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0030 - Income protection insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for income protection insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0030 - Income protection insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for income protections insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0040 - Workers' compensation insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for workers' compensation insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0040 - Workers' compensation insurance and proportional reinsurance- Net (of reinsurance) written premiums in the last 12 months — non-life activities
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for workers' compensations insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0040 - Workers' compensation insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for workers' compensation insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0040 - Workers' compensation insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for workers' compensations insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0050 - Motor vehicle liability insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for motor vehicle liability insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0050 - Motor vehicle liability insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for motor vehicle liability insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0050 - Motor vehicle liability insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for motor vehicle liability insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0050 - Motor vehicle liability insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for motor vehicle liability insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0060 - Other motor insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for other motor insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0060 - Other motor insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for other motor insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0060 - Other motor insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for other motor insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0060 - Other motor insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for other motor insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0070 - Marine, aviation and transport insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for marine, aviation and transport insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0070 - Marine, aviation and transport insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for marine, aviation and transport insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0070 - Marine, aviation and transport insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for marine, aviation and transport insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0070 - Marine, aviation and transport insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for marine, aviation and transport insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0080 - Fire and other damage to property insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for fire and other damage to property insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0080 - Fire and other damage to property insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for fire and other damage to property insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0080 - Fire and other damage to property insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for fire and other damage to property insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0080 - Fire and other damage to property insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for fire and other damage to property insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0090 - General liability insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for general liability insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0090 - General liability insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for general liability insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0090 - General liability insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for general liability insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0090 - General liability insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for general liability insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0100 - Credit and suretyship insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for credit and suretyship insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0100 - Credit and suretyship insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for credit and suretyship insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0100 - Credit and suretyship insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for credit and suretyship insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0100 - Credit and suretyship insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for credit and suretyship insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0110 - Legal expenses insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for legal expenses insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0110 - Legal expenses insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for legal expenses insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0110 - Legal expenses insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for legal expenses insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0110 - Legal expenses insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for legal expenses insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0120 - Assistance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for assistance and its proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0120 - Assistance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for assistance and its proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0120 - Assistance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for assistance and its proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0120 - Assistance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for assistance and its proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0130 - Miscellaneous financial loss insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for miscellaneous financial loss insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0130 - Miscellaneous financial loss insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for miscellaneous financial loss insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0130 - Miscellaneous financial loss insurance and proportional reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for miscellaneous financial loss insurance and proportional reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0130 - Miscellaneous financial loss insurance and proportional reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for miscellaneous financial loss insurance and proportional reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0140 - Non-proportional health reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for non-proportional health reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0140 - Non-proportional health reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for non-proportional health reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0140 - Non-proportional health reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for non-proportional health reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0140 - Non-proportional health reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for non-proportional health reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0150 - Non-proportional casualty reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for non-proportional casualty reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0150 - Non-proportional casualty reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for non-proportional casualty reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0150 - Non-proportional casualty reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for non-proportional casualty reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0150 - Non-proportional casualty reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for non-proportional casualty reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0160 - Non-proportional marine, aviation and transport reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for non-proportional marine, aviation and transport reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0160 - Non-proportional marine, aviation and transport reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for non-proportional marine, aviation and transport reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0160 - Non-proportional marine, aviation and transport reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for non-proportional marine, aviation and transport reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0160 - Non-proportional marine, aviation and transport reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for non-proportional marine, aviation and transport reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0030r0170 - Non-proportional property reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for non-proportional property reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0040r0170 - Non-proportional property reinsurance — Net (of reinsurance) written premiums in the last 12 months — non-life activities
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for non-proportional property reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to non-life activities.
+
+
+c0050r0170 - Non-proportional property reinsurance — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions for non-proportional property reinsurance, without risk margin after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0060r0170 - Non-proportional property reinsurance — Net (of reinsurance) written premiums in the last 12 months — life activities
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the premiums written for non-proportional property reinsurance during the (rolling) last 12 months, after deduction of premiums for reinsurance contracts, with a floor equal to zero, relating to life activities.
+
+
+c0070r0200 - Linear Formula component for life insurance and reinsurance obligations MCR(L,NL) Result
+-----------------------------------------------------------------------------------------------------
+
+
+This is the linear formula component for life insurance and reinsurance obligations relating to non-life insurance activities calculated in accordance with Article 252 (4) and (5) of Delegated Regulation (EU) 2015/35.
+
+
+c0080r0200 - Linear Formula component for life insurance and reinsurance obligations MCR(L,L) Result
+----------------------------------------------------------------------------------------------------
+
+
+This is the linear formula component for life insurance and reinsurance obligations relating to life insurance activities calculated in accordance with Article 252 (9) and (10) of Delegated Regulation (EU) 2015/35.
+
+
+c0090r0210 - Obligations with profit participation — guaranteed benefits — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions without a risk margin for guaranteed benefits in respect of life insurance obligations with profit participation, after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities and technical provisions without a risk margin for reinsurance obligations where the underlying insurance obligations include profit participation, after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0110r0210 - Obligations with profit participation — guaranteed benefits — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions without a risk margin for guaranteed benefits in respect of life insurance obligations with profit participation, after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities and technical provisions without a risk margin for reinsurance obligations where the underlying insurance obligations include profit participation, after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0090r0220 - Obligations with profit participation — future discretionary benefits — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions without a risk margin for future discretionary benefits in respect of life insurance obligations with profit participation, after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0110r0220 - Obligations with profit participation — future discretionary benefits — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions without a risk margin for future discretionary benefits in respect of life insurance obligations with profit participation, after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0090r0230 - Index-linked and unit-linked insurance obligations — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions without a risk margin for index-linked and unit-linked life insurance obligations and reinsurance obligations relating to such insurance obligations, after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to non-life activities.
+
+
+c0110r0230 - Index-linked and unit-linked insurance obligations — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions without a risk margin for index-linked and unit-linked life insurance obligations and reinsurance obligations relating to such insurance obligations, after deduction of the amounts recoverable from reinsurance contracts and SPVs, with a floor equal to zero, relating to life activities.
+
+
+c0090r0240 - Other life (re)insurance and health (re)insurance obligations — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — non-life activities
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions without a risk margin for other life insurance obligations and reinsurance obligations relating to such insurance obligations, after deduction of the amounts recoverable from reinsurance contracts and SPV, with a floor equal to zero, relating to non-life activities.
+
+
+c0110r0240 - Other life (re)insurance and health (re)insurance obligations — Net (of reinsurance/SPV) best estimate and TP calculated as a whole — life activities
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+These are the technical provisions without a risk margin for other life insurance obligations and reinsurance obligations relating to such insurance obligations, after deduction of the amounts recoverable from reinsurance contracts and SPV, with a floor equal to zero, relating to life activities.
+
+
+c0100r0250 - Total capital at risk for all life (re)insurance obligations — Net (of reinsurance/SPV) total capital at risk — non-life activities
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital at risk, being the sum over all contracts that give rise to life insurance or reinsurance obligations of the highest amounts that the insurance undertaking would pay in the event of the death or disability of the persons insured under the contract after deduction of the amounts recoverable from reinsurance contracts and special purpose vehicles in such event, and the expected present value of annuities payable on death or disability less the net best estimate, with a floor equal to zero, relating to non-life activities.
+
+
+c0120r0250 - Total capital at risk for all life (re)insurance obligations — Net (of reinsurance/SPV) total capital at risk — life activities
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total capital at risk, being the sum over all contracts that give rise to life insurance or reinsurance obligations of the highest amounts that the insurance undertaking would pay in the event of the death or disability of the persons insured under the contract after deduction of the amounts recoverable from reinsurance contracts and special purpose vehicles in such event, and the expected present value of annuities payable on death or disability less the net best estimate, with a floor equal to zero, relating to life activities.
+
+
+c0130r0300 - Overall MCR calculation — Linear MCR
+-------------------------------------------------
+
+
+The linear Minimum Capital Requirement shall equal to the sum of the MCR linear formula component for non-life insurance and reinsurance and the MCR linear formula component for life insurance and reinsurance obligations calculated in accordance with Article 249 of Delegated Regulation (EU) 2015/35.
+
+
+c0130r0310 - Overall MCR calculation — SCR
+------------------------------------------
+
+
+This is the latest SCR to be calculated and reported in accordance with Articles 103 to 127 of Directive 2009/138/EC, either the annual one or a more recent one in case the SCR has been recalculated (e.g. due to a change in risk profile), including capital add-on. Undertakings using internal model or partial internal model to calculate the SCR shall refer to the relevant SCR, except where under Article 129(3) of Directive 2009/138/EC the national supervisor requires a reference to the standard formula.
+
+
+c0130r0320 - Overall MCR calculation — MCR cap
+----------------------------------------------
+
+
+This is calculated as 45 % of the SCR including any capital add-on in accordance with Article 129(3) of the Directive 2009/138/EC.
+
+
+c0130r0330 - Overall MCR calculation — MCR floor
+------------------------------------------------
+
+
+This is calculated as 25 % of the SCR including any capital add-on in accordance with Article 129(3) of Directive 2009/138/EC.
+
+
+c0130r0340 - Overall MCR calculation — Combined MCR
+---------------------------------------------------
+
+
+This is the result of the formula component calculated in accordance with Article 248 (2) of Delegated Regulation (EU) 2015/35.
+
+
+c0130r0350 - Overall MCR calculation — Absolute floor of the MCR
+----------------------------------------------------------------
+
+
+This is calculated as defined in Article 129(1)d of Directive 2009/138/EC.
+
+
+c0130r0400 - Minimum Capital Requirement
+----------------------------------------
+
+
+This is the result of the formula component calculated in accordance with Article 248 (1) of Delegated Regulation (EU) 2015/35.
+
+
+c0140r0500 - Notional non-life and life MCR calculation — Notional linear MCR — non-life activities
+---------------------------------------------------------------------------------------------------
+
+
+This is calculated in accordance with Article 252 (3) of Delegated Regulation (EU) 2015/35.
+
+
+c0150r0500 - Notional non-life and life MCR calculation — Notional linear MCR -life activities
+----------------------------------------------------------------------------------------------
+
+
+This is calculated in accordance with Article 252 (9) of Delegated Regulation (EU) 2015/35.
+
+
+c0140r0510 - Notional non-life and life MCR calculation — Notional SCR excluding add-on (annual or latest calculation) — non-life activities
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the latest notional SCR to be calculated and reported in accordance with in accordance with Articles 103 to 127 of Directive 2009/138/EC, either the annual one or a more recent one in case the notional SCR has been recalculated (e.g. due to a change in risk profile), excluding capital add-on. Undertakings using internal model or partial internal model to calculate the SCR shall refer to the relevant SCR, except where under Article 129(3) of Directive 2009/138/EC the national supervisor requires a reference to the standard formula.
+
+
+c0150r0510 - Notional non-life and life MCR calculation — Notional SCR excluding add-on (annual or latest calculation) -life activities
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the latest notional SCR to be calculated and reported in accordance with in accordance with Articles 103 to 127 of Directive 2009/138/EC, either the annual one or a more recent one in case the notional SCR has been recalculated (e.g. due to a change in risk profile), excluding capital add-on. Undertakings using internal model or partial internal model to calculate the SCR shall refer to the relevant SCR, except where under Article 129(3) of Directive 2009/138/EC the national supervisor requires a reference to the standard formula.
+
+
+c0140r0520 - Notional non-life and life MCR calculation — Notional MCR cap — non-life activities
+------------------------------------------------------------------------------------------------
+
+
+This is calculated as 45 % of the notional non-life SCR including the non-life capital add-on in accordance with Article 129 (3) of Directive 2009/138/EC.
+
+
+c0150r0520 - Notional non-life and life MCR calculation — Notional MCR cap -life activities
+-------------------------------------------------------------------------------------------
+
+
+This is calculated as 45 % of the notional life SCR including the life capital add-on in accordance with Article 129 (3) of Directive 2009/138/EC.
+
+
+c0140r0530 - Notional non-life and life MCR calculation — Notional MCR floor — non-life activities
+--------------------------------------------------------------------------------------------------
+
+
+This is calculated as 25 % of the notional non-life SCR including the non-life capital add-on in accordance with Article 129 (3) of Directive 2009/138/EC.
+
+
+c0150r0530 - Notional non-life and life MCR calculation — Notional MCR floor -life activities
+---------------------------------------------------------------------------------------------
+
+
+This is calculated as 25 % of the notional life SCR including the life capital add-on in accordance with Article 129 (3) of Directive 2009/138/EC.
+
+
+c0140r0540 - Notional non-life and life MCR calculation — Notional Combined MCR — non-life activities
+-----------------------------------------------------------------------------------------------------
+
+
+This is calculated in accordance with Article 252 (3) of Delegated Regulation (EU) 2015/35.
+
+
+c0150r0540 - Notional non-life and life MCR calculation — Notional Combined MCR -life activities
+------------------------------------------------------------------------------------------------
+
+
+This is calculated in accordance with Article 252 (8) of Delegated Regulation (EU) 2015/35.
+
+
+c0140r0550 - Notional non-life and life MCR calculation — Absolute floor of the notional MCR — non-life activities
+------------------------------------------------------------------------------------------------------------------
+
+
+This is the amount defined in Article 129(1)(d)(i) of Directive 2009/138/EC.
+
+
+c0150r0550 - Notional non-life and life MCR calculation — Absolute floor of the notional MCR — life activities
+--------------------------------------------------------------------------------------------------------------
+
+
+This is the amount defined in Article 129(1)(d)(ii) Directive 2009/138/EC.
+
+
+c0140r0560 - Notional non-life and life MCR calculation — Notional MCR — non-life activities
+--------------------------------------------------------------------------------------------
+
+
+This is the notional non-life MCR calculated in accordance with Article 252 (2) of Delegated Regulation (EU) 2015/35.
+
+
+c0150r0560 - Notional non-life and life MCR calculation — Notional MCR — life activities
+----------------------------------------------------------------------------------------
+
+
+This is the notional life MCR calculated in accordance with Article 252 (7) of Delegated Regulation (EU) 2015/35.
+
+

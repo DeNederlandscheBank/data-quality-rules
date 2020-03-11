@@ -1,0 +1,500 @@
+=============================================================================
+S.25.01 - Solvency Capital Requirement , for undertakings on Standard Formula
+=============================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to opening and annual submission of information for individual entities, ring fenced–funds, matching adjustment portfolios and remaining part.
+
+Template SR.25.01 has to be filled in for each ring–fenced fund (RFF), each matching adjustment portfolio (MAP) and for the remaining part. However, where a RFF/MAP includes a MAP/RFF embedded, the fund should be treated as different funds. This template shall be reported for all sub–funds of a material RFF/MAP as identified in the second table of template S.01.03.
+
+Where the entity has MAP or RFF (except those under the scope of Article 304 of Directive 2009/138/EC) when reporting at the level of the whole undertaking, the notional Solvency Capital Requirement (‘nSCR’) at risk module level and the loss–absorbing capacity (LAC) of technical provisions and deferred taxes to be reported shall be calculated as follows:
+
+—
+
+Where the undertaking applies the full adjustment due to the aggregation of the nSCR of the RFF/MAP at entity level the nSCR is calculated as if no loss of diversification exists and the LAC shall be calculated as the sum of the LAC across all RFF/MAP and remaining part;
+
+—
+
+Where the undertaking applies the Simplification at risk sub–module level to aggregate the nSCR of the RFF/MAP at entity level the nSCR is calculated considering a direct summation at sub–module level method and the LAC shall be calculated as the sum of the LAC across all RFF/MAP and remaining part,
+
+—
+
+Where the undertaking applies the simplification at risk module level to aggregate the nSCR of the RFF/MAP at entity level the nSCR is calculated considering a direct summation at module level method and the LAC shall be calculated as the sum of the LAC across all RFF/MAP and remaining part.
+
+The adjustment due to the aggregation of the nSCR of the RFF/MAP at entity level shall be allocated (C0050) to the relevant risk modules (i.e. market risk, counterparty default risk, life underwriting risk, health underwriting risk and non–life underwriting risk). The amount to be allocated to each relevant risk module shall be calculated as follows:
+
+—
+
+, where
+
+—
+
+adjustment
+
+= Adjustment calculated according to one of the three methods referred above
+
+—
+
+BSCR′
+
+= Basic solvency capital requirement calculated according to the information reported in this template (C0030/R0100)
+
+—
+
+nSCR
+
+int
+
+= nSCR for intangible assets risk according to the information reported in this template (C0030/R0070)
+
+—
+
+Multiplication of this ‘q factor’ by the nSCR of each relevant risk module (i.e. market risk, counterparty default risk, life underwriting risk, health underwriting risk and non–life underwriting risk)
+
+
+z0010 - Article 112
+-------------------
+
+
+Identifies whether the reported figures have been requested under Article 112(7) of Directive 2009/138/EC, to provide an estimate of the SCR using standard formula.One of the options in the following closed list shall be used: 1 — Article 112(7) reporting 2 — Regular reporting
+
+
+z0020 - Ring–fenced fund, matching adjustment portfolio or remaining part
+-------------------------------------------------------------------------
+
+
+Identifies whether the reported figures are with regard to a RFF, matching adjustment portfolio or to the remaining part. One of the options in the following closed list shall be used: 1 — RFF/MAP 2 — Remaining part
+
+
+z0030 - Fund/Portfolio number
+-----------------------------
+
+
+When item Z0020 = 1, identification number for a ring fenced fund or matching adjustment portfolio. This number is attributed by the undertaking and must be consistent over time and with the fund/portfolio number reported in other templates.When item Z0020 = 2, then report ‘0’
+
+
+r0010–r0050c0030 - Net solvency capital requirement
+---------------------------------------------------
+
+
+Amount of the net capital charge for each risk module, as calculated using the standard formula.The difference between the net and the gross SCR is the consideration of the future discretionary benefits according to Article 205 of Delegated Regulation (EU) 2015/35.This amount shall fully consider diversification effects according to Article 304 of Directive 2009/138/EC where applicable.These cells do not include the allocation of the adjustment due to the aggregation of the nSCR of the RFF/MAP at entity level. These figures represent the SCR as if there was no loss of diversification.
+
+
+r0010–r0050c0040 - Gross solvency capital requirement
+-----------------------------------------------------
+
+
+Amount of the gross capital charge for each risk module, as calculated using the standard formula.The difference between the net and the gross SCR is the consideration of the future discretionary benefits according to Article 205 of Delegated Regulation (EU) 2015/35.This amount shall fully consider diversification effects according to Article 304 of Directive 2009/138/EC where applicable.These cells do not include the allocation of the adjustment due to the aggregation of the nSCR of the RFF/MAP at entity level. These figures represent the SCR as if there was no loss of diversification.
+
+
+r0010–r0050c0050 - Allocation of RFF adjustment due to RFF and Matching adjustments portfolios
+----------------------------------------------------------------------------------------------
+
+
+Part of the adjustment allocated to each risk module according to the procedure described in the general comments. This amount shall be positive.
+
+
+r0060c0030 - Net solvency capital requirement Diversification
+-------------------------------------------------------------
+
+
+Amount of the diversification effects between Basic SCR of net risk modules due to the application of the correlation matrix defined in Annex IV of Directive 2009/138/EC.This amount shall be reported as a negative value.
+
+
+r0060c0040 - Gross solvency capital requirement Diversification
+---------------------------------------------------------------
+
+
+Amount of the diversification effects between Basic SCR of gross risk modules due to the application of the correlation matrix defined in Annex IV of Directive 2009/138/EC.This amount shall be reported as a negative value.
+
+
+r0070c0030 - Net solvency capital requirement Intangible asset risk
+-------------------------------------------------------------------
+
+
+Amount of the capital charge, after the adjustment for the loss–absorbing capacity of technical provisions, for intangible assets risk, as calculated using the standard formula.
+
+
+r0070c0040 - Gross solvency capital requirement Intangible assets risk
+----------------------------------------------------------------------
+
+
+The future discretionary benefits according to Article 205 of the Delegated Regulation (EU) 2015/35 for intangible assets risk is zero under standard formula, hence R0070/C0040 equals R0070/C0030.
+
+
+r0100c0030 - Net solvency capital requirement — Basic Solvency Capital Requirement
+----------------------------------------------------------------------------------
+
+
+Amount of the basic capital requirements, after the consideration of future discretionary benefits according to Article 205 of Delegated Regulation (EU) 2015/35, as calculated using the standard formula.This amount shall fully consider diversification effects according to Article 304 of Directive 2009/138/EC where applicable.This cell does not include the allocation of the adjustment due to the aggregation of the nSCR of the RFF/MAP at entity level. These figures represent the SCR as if there was no loss of diversification.This amount shall be calculated as a sum of the net capital charges for each risk module within the standard formula, including adjustment for diversification effect within standard formula.
+
+
+r0100c0040 - Gross solvency capital requirement — Basic Solvency Capital Requirement
+------------------------------------------------------------------------------------
+
+
+Amount of the basic capital requirements, before the consideration of future discretionary benefits according to Article 205 of Delegated Regulation (EU) 2015/35, as calculated using the standard formula.This amount shall fully consider diversification effects according to Article 304 of Directive 2009/138/EC where applicable.This cell does not include the allocation of the adjustment due to the aggregation of the nSCR of the RFF/MAP at entity level. These figures represent the SCR as if there was no loss of diversification.This amount shall be calculated as a sum of the gross capital charges for each risk module within the standard formula, including adjustment for diversification effect within standard formula
+
+
+r0120c0100 - Adjustment due to RFF/MAP nSCR aggregation
+-------------------------------------------------------
+
+
+Adjustment to correct the bias on SCR calculation due to aggregation of RFF/MAP nSCR at risk module level. This amount shall be positive.
+
+
+r0130c0100 - Operational risk
+-----------------------------
+
+
+Amount of the capital requirements for operational risk module as calculated using the standard formula.
+
+
+r0140c0100 - Loss–absorbing capacity of technical provisions
+------------------------------------------------------------
+
+
+Amount of the adjustment for loss–absorbing capacity of technical provisions calculated according to the standard formula.This amount shall be reported as a negative value.At RFF/MAP level and at entity level where there are no RFF (other than those under Article 304 of Directive 2009/138/EC) nor MAP it is the maximum between zero and the amount corresponding to the minimum between the amount of technical provisions without risk margin in relation to future discretionary benefits net of reinsurance and the difference between gross and net basic solvency capital requirement.Where there are RFF (other than those under Article 304 of Directive 2009/138/EC) or MAP, this amount shall be calculated as the sum of the loss–absorbing capacity of technical provisions of each RFF/MAP and remaining part, taking into account the net future discretionary benefits as a top limit.
+
+
+r0150c0100 - Loss–absorbing capacity of deferred taxes
+------------------------------------------------------
+
+
+Amount of the adjustment for loss–absorbing capacity of deferred taxes calculated according to the standard formula.This amount shall be negative.
+
+
+r0160c0100 - Capital requirement for business operated in accordance with Art. 4 of Directive 2003/41/EC
+--------------------------------------------------------------------------------------------------------
+
+
+Amount of the capital requirement, calculated according to the rules stated in article 17 of Directive 2003/41/EC, for ring–fenced funds relating to pension business operated under article 4 of Directive 2003/41/EC to which transitional measures are applied. This item is to be reported only during the transitional period.
+
+
+r0200c0100 - Solvency capital requirement excluding capital add–on
+------------------------------------------------------------------
+
+
+Amount of the total diversified SCR before any capital add–on.
+
+
+r0210c0100 - Capital add–ons already set
+----------------------------------------
+
+
+Amount of capital add–on that had been set at the reporting reference date. It will not include capital add–ons set between that date and the submission of the data to the supervisory authority, nor any set after the submission of the data.
+
+
+r0220c0100 - Solvency capital requirement
+-----------------------------------------
+
+
+Amount of the Solvency Capital Requirement.
+
+
+r0400c0100 - Capital requirement for duration–based equity risk sub–module
+--------------------------------------------------------------------------
+
+
+Amount of the capital requirement for duration–based equity risk sub–module.
+
+
+r0410c0100 - Total amount of notional Solvency Capital Requirements for remaining part
+--------------------------------------------------------------------------------------
+
+
+Amount of the notional SCRs of remaining part when undertaking has RFF.
+
+
+r0420c0100 - Total amount of notional Solvency Capital Requirements for ring–fenced funds
+-----------------------------------------------------------------------------------------
+
+
+Amount of the sum of notional SCRs of all ring–fenced funds when undertaking has RFF (other than those related to business operated in accordance with article 4 of Directive 2003/41/EC (transitional)).
+
+
+r0430c0100 - Total amount of Notional Solvency Capital Requirements for matching adjustment portfolios
+------------------------------------------------------------------------------------------------------
+
+
+Amount of the sum of notional SCRs of all matching adjustment portfolios.
+
+
+r0440c0100 - Diversification effects due to RFF nSCR aggregation for article 304
+--------------------------------------------------------------------------------
+
+
+Amount of the adjustment for a diversification effect between ring–fenced funds under Article 304 of Directive 2009/138/EC and the remaining part where applicable.
+
+
+r0450c0100 - Method used to calculate the adjustment due to RFF/MAP nSCR aggregation
+------------------------------------------------------------------------------------
+
+
+Method used to calculate the adjustment due to RFF nSCR aggregation. One of the options in the following closed list shall be used: 1 — Full recalculation 2 — Simplification at risk sub–module level 3 — Simplification at risk module level 4 — No adjustmentWhen the undertaking has no RFF (or have only RFF under Article 304 of Directive 2009/138/EC) it shall select option 4.
+
+
+r0460c0100 - Net future discretionary benefits
+----------------------------------------------
+
+
+Amount of technical provisions without risk margin in relation to future discretionary benefits net of reinsurance.
+
+
+z0010 - Article 112
+-------------------
+
+
+Identifies whether the reported figures have been requested under Article 112(7) of Solvency II, to provide an estimate of the SCR using standard formula.One of the options in the following closed list shall be used: 1 — Article 112(7) reporting 2 — Regular reporting
+
+
+z0020 - Ring–fenced fund, matching adjustment portfolio or remaining part
+-------------------------------------------------------------------------
+
+
+Identifies whether the reported figures are with regard to a RFF, matching adjustment portfolio or to the remaining part. One of the options in the following closed list shall be used: 1 — RFF/MAP 2 — Remaining part
+
+
+z0030 - Fund/Portfolio number
+-----------------------------
+
+
+When item Z0020 = 1, identification number for a ring fenced fund or matching adjustment portfolio. This number is attributed by the undertaking within the scope of group supervision and must be consistent over time and with the fund/portfolio number reported in other templates.When item Z0020 = 2, then report ‘0’
+
+
+r0010–r0050c0030 - Net solvency capital requirement
+---------------------------------------------------
+
+
+Amount of the net capital charge for each risk module, as calculated using the standard formula.The difference between the net and the gross SCR is the consideration of the future discretionary benefits according to Article 205 of Delegated Regulation (EU) 2015/35.This amount shall fully consider diversification effects according to Article 304 of Directive 2009/138/EC where applicable.These cells do not include the allocation of the adjustment due to the aggregation of the nSCR of the RFF/MAP at entity level. These figures represent the SCR as if there was no loss of diversification.
+
+
+r0010–r0050c0040 - Gross solvency capital requirement
+-----------------------------------------------------
+
+
+Amount of the gross capital charge for each risk module, as calculated using the standard formula.The difference between the net and the gross SCR is the consideration of the future discretionary benefits according to Article 205 of Delegated Regulation (EU) 2015/35.This amount shall fully consider diversification effects according to Article 304 of Directive 2009/138/EC where applicable.These cells do not include the allocation of the adjustment due to the aggregation of the nSCR of the RFF/MAP at entity level. These figures represent the SCR as if there was no loss of diversification.
+
+
+r0010–r0050c0050 - Allocation of RFF adjustment due to RFF and Matching adjustments portfolios
+----------------------------------------------------------------------------------------------
+
+
+Part of the adjustment allocated to each risk module according to the procedure described in the general comments.This amount shall be positive.
+
+
+r0060c0030 - Net solvency capital requirement Diversification
+-------------------------------------------------------------
+
+
+Amount of the diversification effects between Basic SCR of net risk modules due to the application of the correlation matrix defined in Annex IV of Directive 2009/138/EC.This amount shall be reported as a negative value.
+
+
+r0060c0040 - Gross solvency capital requirement Diversification
+---------------------------------------------------------------
+
+
+Amount of the diversification effects between Basic SCR of gross risk modules due to the application of the correlation matrix defined in Annex IV of Directive 2009/138/EC.This amount shall be reported as a negative value.
+
+
+r0070c0030 - Net solvency capital requirement Intangible asset risk
+-------------------------------------------------------------------
+
+
+Amount of the capital charge, after the adjustment for the loss–absorbing capacity of technical provisions, for intangible assets risk, as calculated using the standard formula.
+
+
+r0070c0040 - Gross solvency capital requirement Intangible assets risk
+----------------------------------------------------------------------
+
+
+The future discretionary benefits according to Article 205 of Delegated Regulation (EU) 2015/35for intangible assets risk is zero under standard formula hence R0070/C0040 equals R0070/C0030.
+
+
+r0100c0030 - Net solvency capital requirement — Basic Solvency Capital Requirement
+----------------------------------------------------------------------------------
+
+
+Amount of the basic capital requirements, after the consideration of future discretionary benefits according to Article 205 of Delegated Regulation (EU) 2015/35, as calculated using the standard formula.This amount shall fully consider diversification effects according to Article 304 of Directive 2009/138/EC where applicable.This cell does not include the allocation of the adjustment due to the aggregation of the nSCR of the RFF/MAP at entity level. These figures represent the SCR as if there was no loss of diversification.This amount shall be calculated as a sum of the net capital charges for each risk module within the standard formula, including adjustment for diversification effect within standard formula.
+
+
+r0100c0040 - Gross solvency capital requirement — Basic Solvency Capital Requirement
+------------------------------------------------------------------------------------
+
+
+Amount of the basic capital requirements, before the consideration of future discretionary benefits according to Article 205 of Delegated Regulation (EU) 2015/35, as calculated using the standard formula.This amount shall fully consider diversification effects according to Article 304 of Directive 2009/138/EC where applicable.This cell does not include the allocation of the adjustment due to the aggregation of the nSCR of the RFF/MAP at entity level. These figures represent the SCR as if there was no loss of diversification.This amount shall be calculated as a sum of the gross capital charges for each risk module within the standard formula, including adjustment for diversification effect within standard formula
+
+
+r0120c0100 - Adjustment due to RFF/MAP nSCR aggregation
+-------------------------------------------------------
+
+
+Adjustment to correct the bias on SCR calculation due to aggregation of RFF/MAP nSCR at risk module level.This amount shall be positive.
+
+
+r0130c0100 - Operational risk
+-----------------------------
+
+
+Amount of the capital requirements for operational risk module as calculated using the standard formula.
+
+
+r0140c0100 - Loss–absorbing capacity of technical provisions
+------------------------------------------------------------
+
+
+Amount of the adjustment for loss–absorbing capacity of technical provisions calculated according to the standard formula.This amount shall be reported as a negative value.At RFF/MAP level and at entity level where there are no RFF (other than those under Article 304 of Directive 2009/138/EC) nor MAP it is the maximum between zero and the amount corresponding to the minimum between the amount of technical provisions without risk margin in relation to future discretionary benefits net of reinsurance and the difference between gross and net basic solvency capital requirement.Where there are RFF (other than those under Article 304 of Directive 2009/138/EC) or MAP, this amount shall be calculated as the sum of the loss–absorbing capacity of technical provisions of each RFF/MAP and remaining part, taking into account the net future discretionary benefits as a top limit.
+
+
+r0150c0100 - Loss–absorbing capacity of deferred taxes
+------------------------------------------------------
+
+
+Amount of the adjustment for loss–absorbing capacity of deferred taxes calculated according to the standard formula.This amount shall be negative.
+
+
+r0160c0100 - Capital requirement for business operated in accordance with Art. 4 of Directive 2003/41/EC
+--------------------------------------------------------------------------------------------------------
+
+
+Amount of the capital requirement, calculated according to the rules stated in article 17 of Directive 2003/41/EC, for ring–fenced funds relating to pension business operated under article 4 of Directive 2003/41/EC to which transitional measures are applied. This item is to be reported only during the transitional period.
+
+
+r0200c0100 - Solvency capital requirement excluding capital add–on
+------------------------------------------------------------------
+
+
+Amount of the total diversified SCR before any capital add–on.
+
+
+r0210c0100 - Capital add–ons already set
+----------------------------------------
+
+
+Amount of capital add–on that had been set at the reporting reference date. It will not include capital add–ons set between that date and the submission of the data to the supervisory authority, nor any set after the submission of the data.
+
+
+r0220c0100 - Solvency capital requirement for undertakings under consolidated method
+------------------------------------------------------------------------------------
+
+
+Amount of the Solvency Capital Requirement for undertakings under method 1 as defined in Article 230 of Directive 2009/138/EC.
+
+
+r0400c0100 - Capital requirement for duration–based equity risk sub–module
+--------------------------------------------------------------------------
+
+
+Amount of the capital requirement for duration–based equity risk sub–module.
+
+
+r0410c0100 - Total amount of notional Solvency Capital Requirements for remaining part
+--------------------------------------------------------------------------------------
+
+
+Amount of the notional SCRs of remaining part when group has RFF.
+
+
+r0420c0100 - Total amount of notional Solvency Capital Requirements for ring–fenced funds
+-----------------------------------------------------------------------------------------
+
+
+Amount of the sum of notional SCRs of all ring–fenced funds when group has RFF (other than those related to business operated in accordance with article 4 of Directive 2003/41/EC (transitional)).
+
+
+r0430c0100 - Total amount of Notional Solvency Capital Requirements for matching adjustment portfolios
+------------------------------------------------------------------------------------------------------
+
+
+Amount of the sum of notional SCRs of all matching adjustment portfolios.
+
+
+r0440c0100 - Diversification effects due to RFF nSCR aggregation for Article 304
+--------------------------------------------------------------------------------
+
+
+Amount of the adjustment for a diversification effect between ring–fenced funds under Article 304 of Directive 2009/138/EC and the remaining part where applicable.
+
+
+r0450c0100 - Method used to calculate the adjustment due to RFF/MAP nSCR aggregation
+------------------------------------------------------------------------------------
+
+
+Method used to calculate the adjustment due to RFF nSCR aggregation. One of the options in the following closed list shall be used: 1 — Full recalculation 2 — Simplification at risk sub–module level 3 — Simplification at risk module level 4 — No adjustmentWhen the group has no RFF (or have only RFF under Article 304 of Directive 2009/138/EC) it shall select option 4.
+
+
+r0460c0100 - Net future discretionary benefits
+----------------------------------------------
+
+
+Amount of technical provisions without risk margin in relation to future discretionary benefits net of reinsurance.
+
+
+r0470c0100 - Minimum consolidated group solvency capital requirement
+--------------------------------------------------------------------
+
+
+Amount of the minimum consolidated group Solvency Capital Requirement as stated in article 230 of Directive 2009/138/EC. This item is applicable to group reporting only.
+
+
+r0500c0100 - Capital requirement for other financial sectors (Non–insurance capital requirements)
+-------------------------------------------------------------------------------------------------
+
+
+Amount of capital requirement for other financial sectors.This item is only applicable to group reporting where the group includes an undertaking which is subject to non–insurance capital requirements, such as a bank, and is the capital requirement calculated in accordance with the appropriate requirements.
+
+
+r0510c0100 - Capital requirement for other financial sectors (Non–insurance capital requirements) — Credit institutions, investment firms and financial institutions, alternative investment funds managers, UCITS management companies
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of capital requirement for credit institutions, investment firms and financial institutions.This item is only applicable to group reporting where the group includes undertakings which are credit institutions, investment firms and financial institutions, alternative investment funds managers, UCITS management companies and they are subject to capital requirements, calculated in accordance with the relevant sectoral rules.
+
+
+r0520c0100 - Capital requirement for other financial sectors (Non–insurance capital requirements) — Institutions for occupational retirement provisions
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of capital requirement for institutions for occupational retirement provisions.This item is only applicable to group reporting where the group includes undertaking which are institutions for occupational retirement provision and subject to non–insurance capital requirements calculated in accordance with the relevant sectoral rules.
+
+
+r0530c0100 - Capital requirement for other financial sectors (Non–insurance capital requirements) — Capital requirement for non–regulated entities carrying out financial activities
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of capital requirement for non–regulated entities carrying out financial activities. This figure represents a notional solvency requirement, calculated if the relevant sectoral rules were to be applied.This item is only applicable to group reporting where the group includes undertakings which are non — regulated entities carrying out financial activities.
+
+
+r0540c0100 - Capital requirement for non–controlled participation requirements
+------------------------------------------------------------------------------
+
+
+Amount of the proportional share of the Solvency Capital Requirements of the related insurance and reinsurance undertakings and insurance holding companies which are not subsidiaries.This item is only applicable to group reporting and corresponds, for those entities which are not subsidiaries, to the capital requirement calculated in accordance with Solvency 2.
+
+
+r0550c0100 - Capital requirement for residual undertakings
+----------------------------------------------------------
+
+
+Amount determined in accordance with Article 336 (1) (d) of Delegated Regulation (EU) 2015/35.
+
+
+r0560c0100 - SCR for undertakings included via D and A
+------------------------------------------------------
+
+
+Amount of the Solvency Capital Requirement for undertakings included under method 2 as defined in Article 233 of Directive 2009/138/EC when the combination of methods is used.
+
+
+r0570c0100 - Solvency capital requirement
+-----------------------------------------
+
+
+Overall SCR for all undertakings regardless of the method used.
+
+

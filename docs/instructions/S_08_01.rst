@@ -1,0 +1,524 @@
+==========================
+S.08.01 - Open derivatives
+==========================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to quarterly and annual submission of information for individual entities.
+
+The derivatives categories referred to in this template are the ones defined in Annex IV — Assets Categories of this Regulation and references to CIC codes refer to Annex VI — CIC table of this Regulation. This template contains an item–by–item list of derivatives held directly by the undertaking (i.e. not on a look–through basis), classifiable as asset categories A to F.
+
+Derivatives are considered assets if their Solvency II value is positive or zero. They are considered liabilities if their Solvency II value is negative or if they are issued by the undertaking. Both derivatives considered as assets or considered as liabilities shall be included.
+
+Information shall include all derivatives contracts that existed during the reporting period and were not closed prior to the reporting reference date.
+
+If there are frequent trades on the same derivative, resulting in multiple open positions, the derivative can be reported on an aggregated or net basis, as long as all the relevant characteristics are common and following the specific instruction for each relevant item.
+
+Items shall be reported with positive values unless otherwise stated in the respective instructions.
+
+A derivative is a financial instrument or other contract with all three of the following characteristics:
+
+a)
+
+Its value changes in response to the change in a specified interest rate, financial instrument price, commodity price, foreign exchange rate, index of prices or rates, credit rating or credit index, or other variable, provided in the case of a non–financial variable that the variable is not specific to a party to the contract (sometimes called the ‘underlying’).
+
+b)
+
+It requires no initial net investment or an initial net investment that is smaller than would be required for other types of contracts that would be expected to have a similar response to changes in market factors.
+
+c)
+
+It is settled at a future date.
+
+This template comprises two tables: Information on positions held and Information on derivatives.
+
+On the table Information on positions held, each derivative shall be reported separately in as many rows as needed in order to properly fill in all items requested in that table. If for the same derivative two values can be attributed to one variable, then this derivative needs to be reported in more than one line.
+
+In particular, for derivatives that have more than a pair of currencies, it shall be split into the pair components and reported in different rows.
+
+On the table Information on derivative, each derivative shall be reported separately, with one row for each derivative, filling in all variables requested in that table.
+
+The information regarding the External rating (C0290) and Nominated ECAI (C0300) may be limited (not reported) in the following circumstances:
+
+c)
+
+through a decision of the national supervisory authority under Article 35 (6) and (7) of the Directive 2009/138/EC; or
+
+d)
+
+through a decision of the national supervisory authority in the cases where the insurance and reinsurance undertakings have in place outsourcing arrangements in the area of investments that lead to this specific information not being available directly to the undertaking.
+
+
+c0040 - Derivative ID Code
+--------------------------
+
+
+Derivative ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available, and must be consistent over time
+
+
+c0050 - Derivative ID Code type
+-------------------------------
+
+
+Type of ID Code used for the ‘Derivative ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO/6166 for ISIN 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertaking
+
+
+c0060 - Portfolio
+-----------------
+
+
+Distinction between life, non–life, shareholder's funds, general (no split) and ring fenced funds. One of the options in the following closed list shall be used: 1 — Life 2 — Non–life 3 — Ring fenced funds 4 — Other internal fund 5 — Shareholders' funds 6 — GeneralThe split is not mandatory, except for identifying ring fenced funds, but shall be reported if the undertaking uses it internally. When an undertaking does not apply a split ‘general’ shall be used.
+
+
+c0070 - Fund number
+-------------------
+
+
+Applicable to derivatives held in ring fenced funds or other internal funds (defined according to national markets).Number which is attributed by the undertaking, corresponding to the unique number assigned to each fund. This number has to be consistent over time and shall be used to identify the funds in other templates. It shall not be re–used for a different fund.
+
+
+c0080 - Derivatives held in unit linked and index linked contracts
+------------------------------------------------------------------
+
+
+Identify the derivatives that are held by unit linked and index linked contracts. One of the options in the following closed list shall be used: 1 — Unit–linked or index–linked 2 — Neither unit–linked nor index–linked
+
+
+c0090 - Instrument underlying the derivative
+--------------------------------------------
+
+
+ID Code of the instrument (asset or liability) underlying the derivative contract. This item is to be provided only for derivatives that have a single or multiple underlying instruments in the undertakings' portfolio. An index is considered a single instrument and shall be reported.Identification code of the instrument underlying the derivative using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available, and must be consistent over time—‘Multiple assets/liabilities’, if the underlying assets or liabilities are more than oneIf the underlying is an index then the code of the index shall be reported.
+
+
+c0100 - Type of code of asset or liability underlying the derivative
+--------------------------------------------------------------------
+
+
+Type of ID Code used for the ‘Instrument underlying the derivative’ item. One of the options in the following closed list shall be used: 1 — ISO/6166 for ISIN 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingThis item is not reported for derivatives which have as underlying more than one asset or liability.
+
+
+c0110 - Use of derivative
+-------------------------
+
+
+Describe the use of the derivative (micro/macro hedge, efficient portfolio management).Micro hedge refers to derivatives covering a single financial instrument (asset or liability), forecasted transaction or other liability.Macro hedge refers to derivatives covering a set of financial instruments (assets or liabilities), forecasted transactions or other liabilities.Efficient portfolio management refers usually to operations where the manager wishes to improve a portfolio' income by exchanging a (lower) cash–flow pattern by another with a higher value, using a derivative or set of derivatives, without changing the asset' portfolio composition, having a lower investment amount and less transaction costs.One of the options in the following closed list shall be used: 1 — Micro hedge 2 — Macro hedge 3 — Matching assets and liabilities cash–flows used in the context of matching adjustment portfolios 4 — Efficient portfolio management, other than ‘Matching assets and liabilities cash–flows used in the context of matching adjustment portfolios’
+
+
+c0120 - Delta
+-------------
+
+
+Only applicable to CIC categories B and C (Call and put options), with reference to the reporting date.Measures the rate of change of option value with respect to changes in the underlying asset's price.This shall be reported as a decimal.
+
+
+c0130 - Notional amount of the derivative
+-----------------------------------------
+
+
+The amount covered or exposed to the derivative.For futures and options corresponds to contract size multiplied by the trigger value and by the number of contracts reported in that line. For swaps and forwards it corresponds to the contract amount of the contracts reported in that line. When the trigger value corresponds to a range, the average value of the range shall be used.The notional amount refers to the amount that is being hedged/invested (when not covering risks). If several trades occur, it shall be the net amount at the reporting date.
+
+
+c0140 - Buyer/Seller
+--------------------
+
+
+Only for futures and options, swaps and credit derivatives contracts (currency, credit and securities swaps).Identify whether the derivative contract was bought or sold.The buyer and seller position for swaps is defined relatively to the security or notional amount and the swap flows.A seller of a swap owns the security or notional amount at the contract inception and agrees to deliver during the contract term that security or notional amount, including any other outflows related to the contract, when applicable.A buyer of a swap will own the security or the notional amount at the end of the derivatives contact and will receive during the contract term that security or notional amount, including any other inflows related to the contract, when applicable.One of the options in the following closed list shall be used, with the exception of Interest Rate Swaps: 1 — Buyer 2 — SellerFor interest rate swaps one of the options in the following closed list shall be use: 3 — FX–FL: Deliver fixed–for–floating 4 — FX–FX: Deliver fixed–for–fixed 5 — FL–FX: Deliver floating–for–fixed 6 — FL–FL: Deliver floating–for–floating
+
+
+c0150 - Premium paid to date
+----------------------------
+
+
+The payment made (if bought), for options and also up–front and periodical premium amounts paid for swaps, since inception.
+
+
+c0160 - Premium received to date
+--------------------------------
+
+
+The payment received (if sold), for options and also up–front and periodical premium amounts received for swaps, since inception.
+
+
+c0170 - Number of contracts
+---------------------------
+
+
+Number of similar derivative contracts reported in the line. It shall be the number of contracts entered into. For Over–The–Counter derivatives, e.g., one swap contract, ‘1’ shall be reported, if ten swaps with the same characteristics, ‘10’ shall be reported.The number of contracts shall be the ones outstanding at the reporting date.
+
+
+c0180 - Contract size
+---------------------
+
+
+Number of underlying assets in the contract (e.g. for equity futures it is the number of equities to be delivered per derivative contract at maturity, for bond futures it is the reference amount underlying each contract).The way the contract size is defined varies according with the type of instrument. For futures on equities it is common to find the contract size defined as a function of the number of shares underlying the contract.For futures on bonds, it is the bond nominal amount underlying the contract.Only applicable for futures and options.
+
+
+c0190 - Maximum loss under unwinding event
+------------------------------------------
+
+
+Maximum amount of loss if an unwinding event occurs. Applicable to CIC category F.Where a credit derivative is 100 % collateralised, the maximum loss under an unwinding event is zero.
+
+
+c0200 - Swap outflow amount
+---------------------------
+
+
+Amount delivered under the swap contract (other than premiums), during the reporting period. Corresponds to interest paid for IRS and amounts delivered for currency swaps, credit swaps, total return swaps and other swaps.In the cases where the settlement is made on a net basis then only one of the items C0200 and C0210 shall be reported.
+
+
+c0210 - Swap inflow amount
+--------------------------
+
+
+Amount received under the swap contract (other than premiums), during the reporting period. Corresponds to interest received for IRS and amounts received for currency swaps, credit swaps, total return swaps and other swaps.In the cases where the settlement is made on a net basis then only one of the items C0200 and C0210 shall be reported.
+
+
+c0220 - Initial date
+--------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the date when obligations under the contract come into effect.When various dates occur for the same derivative, report only the one regarding the first trade date of the derivative and only one row for each derivative (no different rows for each trade) reflecting the total amount invested in that derivative considering the different dates of trade.In case of novation, the novation date becomes the trade date for that derivative.
+
+
+c0230 - Duration
+----------------
+
+
+Derivative duration, defined as the residual modified duration, for derivatives for which a duration measure is applicable.Calculated as the net duration between in and out flows from the derivative, when applicable.
+
+
+c0240 - Solvency II value
+-------------------------
+
+
+Value of the derivative as of the reporting date calculated as defined by Article 75 of the Directive 2009/138/EC. It can be positive, negative or zero.
+
+
+c0250 - Valuation method
+------------------------
+
+
+Identify the valuation method used when valuing derivatives. One of the options in the following closed list shall be used: 1 — quoted market price in active markets for the same assets or liabilities 2 — quoted market price in active markets for similar assets or liabilities 3 — alternative valuation methods 6 — Market valuation according to Article 9(4) of Delegated Regulation (EU) 2015/35
+
+
+c0040 - Derivative ID Code
+--------------------------
+
+
+Derivative ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available, and must be consistent over time
+
+
+c0050 - Derivative ID Code type
+-------------------------------
+
+
+Type of ID Code used for the ‘Derivative ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO/6166 for ISIN 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertaking
+
+
+c0260 - Counterparty Name
+-------------------------
+
+
+Name of the counterparty of the derivative. When available, this item corresponds to the entity name in the LEI database. When not available, corresponds to the legal name.The following shall be considered:—Name of the exchange market for exchanged traded derivatives; or—Name of Central Counterparty (‘CCP’) for Over–The–Counter derivatives where they are cleared through a CCP; or—Name of the contractual counterparty for the other Over–The–Counter derivatives.
+
+
+c0270 - Counterparty Code
+-------------------------
+
+
+Only applicable to Over–The–Counter derivatives, regarding contractual counterparties other than an exchange market and Central Counterparty (CCP).Identification code of the counterparty using the Legal Entity Identifier (LEI) if available.If none is available this item shall not be reported
+
+
+c0280 - Type of counterparty code
+---------------------------------
+
+
+Only applicable to Over–The–Counter derivatives.Identification of the code used for the ‘Counterparty Code’ item. One of the options in the following closed list shall be used: 1 — LEI 9 — None
+
+
+c0290 - External rating
+-----------------------
+
+
+Only applicable to Over–The–Counter derivatives.The rating of the counterparty of the derivative at the reporting reference date issued by the nominated credit assessment institution (ECAI).This item is not applicable to derivatives for which undertakings using internal model use internal ratings. If undertakings using internal model do not use internal rating, this item shall be reported.
+
+
+c0300 - Nominated ECAI
+----------------------
+
+
+Identify the credit assessment institution (ECAI) giving the external rating, by using the name of the ECAI as published at ESMA website.This item shall be reported when External rating (C0290) is reported.
+
+
+c0310 - Credit quality step
+---------------------------
+
+
+Identify the credit quality step attributed to the counterparty of the derivative, as defined by Article 109a(1) of Directive 2009/138/EC. The credit quality step shall reflect any readjustments to the credit quality made internally by the undertakings that use the standard formula.This item is not applicable to derivatives for which undertakings using internal model use internal ratings. If undertakings using internal model do not use internal rating, this item shall be reported.One of the options in the following closed list shall be used: 0 — Credit quality step 0 1 — Credit quality step 1 2 — Credit quality step 2 3 — Credit quality step 3 4 — Credit quality step 4 5 — Credit quality step 5 6 — Credit quality step 6 9 — No rating available
+
+
+c0320 - Internal rating
+-----------------------
+
+
+Internal rating of assets for undertakings using internal model to the extent that the internal ratings are used in their internal modelling. If an internal model undertaking is using solely external ratings this item shall not be reported.
+
+
+c0330 - Counterparty group
+--------------------------
+
+
+Only applicable to Over–The–Counter derivatives, regarding contractual counterparties other than an exchange market and Central Counterparty (CCP).Name of the ultimate parent entity of counterparty. When available, this item corresponds to the entity name in the LEI database. When not available, corresponds to the legal name.
+
+
+c0340 - Counterparty group code
+-------------------------------
+
+
+Only applicable to Over–The–Counter derivatives, regarding contractual counterparties other than an exchange market and Central Counterparty (CCP).Identification code using the Legal Entity Identifier (LEI) if available.If none is available this item shall not be reported.
+
+
+c0350 - Type of counterparty group code
+---------------------------------------
+
+
+Identification of the code used for the ‘Counterparty group Code’ item. One of the options in the following closed list shall be used: 1 — LEI 9 — None
+
+
+c0360 - Contract name
+---------------------
+
+
+Name of the derivative contract.
+
+
+c0370 - Currency
+----------------
+
+
+Identify the ISO 4217 alphabetic code of the currency of the derivative, i.e., currency of the notional amount of the derivative (e.g.: option having as underlying an amount in USD, currency for which the notional amount is expressed contractually for FX swap, etc.).
+
+
+c0380 - CIC
+-----------
+
+
+Complementary Identification Code used to classify assets, as set out in Annex — VI CIC Table of this Regulation. When classifying derivatives using the CIC table, undertakings shall take into consideration the most representative risk to which the derivative is exposed to.
+
+
+c0390 - Trigger value
+---------------------
+
+
+Reference price for futures, strike price for options (for bonds, price shall be a percentage of the par amount), currency exchange rate or interest rate for forwards, etc.Not applicable to CIC D3 — Interest rate and currency swaps. For CIC F1 — Credit default swaps it shall not be completed if not possible.In the case of more than one trigger over time, report the next trigger occurring.When the derivative has a range of trigger values, report the set separated by comma ‘,’ if the range is not continuous and report the range separated by ‘–’ if it is continuous.
+
+
+c0400 - Unwind trigger of contract
+----------------------------------
+
+
+Identify the event that causes the unwinding of the contract, out of the regular expiration or term conditions. One of the options in the following closed list shall be used: 1 — Bankruptcy of the underlying or reference entity 2 — Adverse fall in value of the underlying reference asset 3 — Adverse change in credit rating of the underlying assets or entity 4 — Novation, i.e. the act of replacing an obligation under the derivative with a new obligation, or replacing a party of the derivative with a new party 5 — Multiple events or a combination of events 6 — Other events not covered by the previous options 9 — No unwind trigger
+
+
+c0410 - Swap delivered currency
+-------------------------------
+
+
+Identify the ISO 4217 alphabetic code of the currency of the swap price (only for currency swaps and currency and interest rate swaps).
+
+
+c0420 - Swap received currency
+------------------------------
+
+
+Identify the ISO 4217 alphabetic code of the currency of the swap notional amount (only for currency swaps and currency and interest rate swaps).
+
+
+c0430 - Maturity date
+---------------------
+
+
+Identify the contractually defined ISO 8601 (yyyy–mm–dd) code of the date of close of the derivative contract, whether at maturity date, expiring date for options (European or American), etc.
+
+
+c0010 - Legal name of the undertaking
+-------------------------------------
+
+
+Identify the legal name of the undertaking within the scope of group supervision that holds the derivative.This item shall be filled in only when it relates to derivatives held by participating undertakings, insurance holding companies, mixed–financial holding companies and subsidiaries under deduction and aggregation method.
+
+
+c0020 - Identification code of the undertaking
+----------------------------------------------
+
+
+Identification code by this order of priority if existent:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of group supervision: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of group supervision, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0030 - Type of code of the ID of the undertaking
+-------------------------------------------------
+
+
+Type of ID Code used for the ‘Identification code of the undertaking’ item. One of the options in the following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0040 - Derivative ID Code
+--------------------------
+
+
+Derivative ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available, and must be consistent over time
+
+
+c0050 - Derivative ID Code type
+-------------------------------
+
+
+Type of ID Code used for the ‘Derivative ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO/6166 for ISIN 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertaking
+
+
+c0060 - Portfolio
+-----------------
+
+
+Distinction between life, non–life, shareholder's funds, general (no split) and ring fenced funds. One of the options in the following closed list shall be used: 1 — Life 2 — Non–life 3 — Ring fenced funds 4 — Other internal fund 5 — Shareholders' funds 6 — GeneralThe split is not mandatory, except for identifying ring fenced funds, but shall be reported if the undertaking uses it internally. When an undertaking does not apply a split ‘general’ shall be used.
+
+
+c0070 - Fund number
+-------------------
+
+
+Applicable to derivatives held in ring fenced funds or other internal funds (defined according to national markets).Number which is attributed by the undertaking, corresponding to the unique number assigned to each fund. This number has to be consistent over time and shall be used to identify the funds in other templates. It shall not be re–used for a different fund.
+
+
+c0080 - Derivatives held in unit linked and index linked contracts
+------------------------------------------------------------------
+
+
+Identify the derivatives that are held by unit linked and index linked contracts. One of the options in the following closed list shall be used: 1 — Unit–linked or index–linked 2 — Neither unit–linked nor index–linked
+
+
+c0090 - Instrument underlying the derivative
+--------------------------------------------
+
+
+ID Code of the instrument (asset or liability) underlying the derivative contract. This item is to be provided only for derivatives that have a single or multiple underlying instruments in the undertakings' portfolio. An index is considered a single instrument and shall be reported.Identification code of the instrument underlying the derivative using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available, and must be consistent over time—‘Multiple assets/liabilities’, if the underlying assets or liabilities are more than oneIf the underlying is an index then the code of the index shall be reported.
+
+
+c0100 - Type of code of asset or liability underlying the derivative
+--------------------------------------------------------------------
+
+
+Type of ID Code used for the ‘Instrument underlying the derivative’ item. One of the options in the following closed list shall be used: 1 — ISO/6166 for ISIN 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingThis item is not reported for derivatives which have as underlying more than one asset or liability.
+
+
+c0110 - Use of derivative
+-------------------------
+
+
+Describe the use of the derivative (micro / macro hedge, efficient portfolio management).Micro hedge refers to derivatives covering a single financial instrument (asset or liability), forecasted transaction or other liability.Macro hedge refers to derivatives covering a set of financial instruments (assets or liabilities), forecasted transactions or other liabilities.Efficient portfolio management refers usually to operations where the manager wishes to improve a portfolio' income by exchanging a (lower) cash–flow pattern by another with a higher value, using a derivative or set of derivatives, without changing the asset' portfolio composition, having a lower investment amount and less transaction costs.One of the options in the following closed list shall be used: 1 — Micro hedge 2 — Macro hedge 3 — Matching assets and liabilities cash–flows used in the context of matching adjustment portfolios 4 — Efficient portfolio management, other than ‘Matching assets and liabilities cash–flows’ used in the context of matching adjustment portfolios
+
+
+c0120 - Delta
+-------------
+
+
+Only applicable to CIC categories B and C (Call and put options), with reference to the reporting date.Measures the rate of change of option value with respect to changes in the underlying asset's price.This shall be reported as a decimal.
+
+
+c0130 - Notional amount of the derivative
+-----------------------------------------
+
+
+The amount covered or exposed to the derivative.For futures and options corresponds to contract size multiplied by the trigger value and by the number of contracts reported in that line. For swaps and forwards it corresponds to the contract amount of the contracts reported in that line. When the trigger value corresponds to a range, the average value of the range shall be used.The notional amount refers to the amount that is being hedged / invested (when not covering risks). If several trades occur, it shall be the net amount at the reporting date.
+
+
+c0140 - Buyer/Seller
+--------------------
+
+
+Only for futures and options, swaps and credit derivatives contracts (currency, credit and securities swaps).Identify whether the derivative contract was bought or sold.The buyer and seller position for swaps is defined relatively to the security or notional amount and the swap flows.A seller of a swap owns the security or notional amount at the contract inception and agrees to deliver during the contract term that security or notional amount, including any other outflows related to the contract, when applicable.A buyer of a swap will own the security or the notional amount at the end of the derivatives contact and will receive during the contract term that security or notional amount, including any other inflows related to the contract, when applicable.One of the options in the following closed list shall be used, with the exception of Interest Rate Swaps: 1 — Buyer 2 — SellerFor interest rate swaps one of the options in the following closed list shall be use: 3 — FX–FL: Deliver fixed–for–floating 4 — FX–FX: Deliver fixed–for–fixed 5 — FL–FX: Deliver floating–for–fixed 6 — FL–FL: Deliver floating–for–floating
+
+
+c0150 - Premium paid to date
+----------------------------
+
+
+The payment made (if bought), for options and also up–front and periodical premium amounts paid for swaps, since inception.
+
+
+c0160 - Premium received to date
+--------------------------------
+
+
+The payment received (if sold), for options and also up–front and periodical premium amounts received for swaps, since inception.
+
+
+c0170 - Number of contracts
+---------------------------
+
+
+Number of similar derivative contracts reported in the line. It shall be the number of contracts entered into. For Over–The–Counter derivatives, e.g., one swap contract, ‘1’ shall be reported, if ten swaps with the same characteristics, ‘10’ shall be reported.The number of contracts shall be the ones outstanding at the reporting date.
+
+
+c0180 - Contract size
+---------------------
+
+
+Number of underlying assets in the contract (e.g. for equity futures it is the number of equities to be delivered per derivative contract at maturity, for bond futures it is the reference amount underlying each contract).The way the contract size is defined varies according with the type of instrument. For futures on equities it is common to find the contract size defined as a function of the number of shares underlying the contract.For futures on bonds, it is the bond nominal amount underlying the contract.Only applicable for futures and options.
+
+
+c0190 - Maximum loss under unwinding event
+------------------------------------------
+
+
+Maximum amount of loss if an unwinding event occurs. Applicable to CIC category F.Where a credit derivative is 100 % collateralised, the maximum loss under an unwinding event is zero.
+
+
+c0200 - Swap outflow amount
+---------------------------
+
+
+Amount delivered under the swap contract (other than premiums), during the reporting period. Corresponds to interest paid for IRS and amounts delivered for currency swaps, credit swaps, total return swaps and other swaps.In the cases where the settlement is made on a net basis then only one of the items C0200 and C0210 shall be reported.
+
+
+c0210 - Swap inflow amount
+--------------------------
+
+
+Amount received under the swap contract (other than premiums), during the reporting period. Corresponds to interest received for IRS and amounts received for currency swaps, credit swaps, total return swaps and other swaps.In the cases where the settlement is made on a net basis then only one of the items C0200 and C0210 shall be reported.
+
+
+c0220 - Initial date
+--------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the date when obligations under the contract come into effect.When various dates occur for the same derivative, report only the one regarding the first trade date of the derivative and only one row for each derivative (no different rows for each trade) reflecting the total amount invested in that derivative considering the different dates of trade.In case of novation, the novation date becomes the trade date for that derivative.
+
+
+c0230 - Duration
+----------------
+
+
+Derivative duration, defined as the residual modified duration, for derivatives for which a duration measure is applicable.Calculated as the net duration between in and out flows from the derivative, when applicable.
+
+
+c0240 - Solvency II value
+-------------------------
+
+
+Value of the derivative as of the reporting date calculated as defined by Article 75 of the Directive 2009/138/EC. It can be positive, negative or zero.
+
+
+c0250 - Valuation method
+------------------------
+
+
+Identify the valuation method used when valuing derivatives. One of the options in the following closed list shall be used: 1 — quoted market price in active markets for the same assets or liabilities 2 — quoted market price in active markets for similar assets or liabilities 3 — alternative valuation methods 6 — Market valuation according to Article 9(4) of Delegated Regulation 2015/35
+
+

@@ -1,0 +1,71 @@
+======================================================================================================================================================================
+S.34.01 - Other regulated and non–regulated financial undertakings including insurance holding companies and mixed financial holding companies individual requirements
+======================================================================================================================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to opening and annual submission of information for groups.
+
+This template is relevant under method 1 as defined in Article 230 of Directive 2009/138/EC, method 2 as defined in Article 233 of the Directive 2009/138/EC and a combination of methods and covers the individual requirements of financial undertakings other than insurance and reinsurance undertakings, and of non-regulated undertakings carrying out financial activities as defined in Article 1(52) of Delegated Regulation (EU) 2015/35, such as credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies, institutions for occupational retirement provisions, non–regulated undertakings carrying out financial activities, insurance holding companies and mixed financial holding companies.
+
+
+c0010 - Legal name of the undertaking
+-------------------------------------
+
+
+Legal name of each undertaking.
+
+
+c0020 - Identification code of the undertaking
+----------------------------------------------
+
+
+Identification code by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of group supervision: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of group supervision, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0030 - Type of code of the ID of the undertaking
+-------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code of the undertaking’: 1 — LEI 2 — Specific code
+
+
+c0040 - Aggregated or not
+-------------------------
+
+
+When the entities of other financial sectors form a group with a specific capital requirement, this consolidated capital requirement can be accepted instead of the list of each individual requirement. The following closed list shall be used: 1 — Aggregated 2 — Not aggregated
+
+
+c0050 - Type of capital requirement
+-----------------------------------
+
+
+Identify the type of capital requirement. The following closed list shall be used: 1 — Sectoral (for credit institutions, investment firms, financial institutions, alternative investment fund managers, UCITS management companies, institutions for occupational retirement provisions) 2 — Notional (for non–regulated undertakings) 3 — No capital requirement
+
+
+c0060 - Notional SCR or Sectoral capital requirement
+----------------------------------------------------
+
+
+The capital requirement, either sectoral or notional, that triggers first intervention by individual supervisor, assuming a so–called intervention ladder.
+
+
+c0070 - Notional MCR or Sectoral minimum capital requirement
+------------------------------------------------------------
+
+
+Minimum capital requirement, either sectoral or notional, that triggers final intervention, assuming a so–called intervention ladder where available.This item is not requested for entities for which a final trigger level is not set.
+
+
+c0080 - Notional or Sectoral Eligible Own Funds
+-----------------------------------------------
+
+
+Total own funds to cover the (notional or sectoral) capital requirement. No restrictions on availability for the group apply.
+
+

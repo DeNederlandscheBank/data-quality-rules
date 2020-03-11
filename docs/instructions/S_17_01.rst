@@ -1,0 +1,709 @@
+=======================================
+S.17.01 - Non–life Technical Provisions
+=======================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to quarterly and annual submission of information for individual entities, ring fenced–funds, matching adjustment portfolios and remaining part.
+
+Undertakings may apply appropriate approximations in the calculation of the technical provisions as referred to in Article 21 of Delegated Regulation (EU) 2015/35. In addition, Article 59 of the Delegated Regulation (EU) 2015/35 may be applied to calculate the risk margin during the financial year.
+
+Line of Business for non–life obligations: The lines of business, referred to in Article 80 of the Directive 2009/138/EC, as defined in Annex I to Delegated Regulation (EU) 2015/35, referred to direct business/accepted proportional reinsurance and accepted non–proportional reinsurance. The segmentation shall reflect the nature of the risks underlying the contract (substance), rather than the legal form of the contract (form).
+
+Health direct insurance business pursued on a non–similar technical basis to life insurance shall be segmented into Non–Life line of business 1 to 3.
+
+Accepted proportional reinsurance shall be considered together with the direct business in the C0020 to C0130.
+
+The information to be reported between R0010 and R0280 shall be after the volatility adjustment, the matching adjustment and the transitional adjustment to the relevant risk-free interest rate term structure if applied but shall not include the transitional deduction to technical provisions. The amount of transitional deduction to technical provisions is requested separately between rows R0290 and R0310.
+
+
+z0020 - Ring Fenced Fund/Matching adjustment portfolio or remaining part
+------------------------------------------------------------------------
+
+
+Identifies whether the reported figures are with regard to a RFF, matching adjustment portfolio or to the remaining part. One of the options in the following closed list shall be used: 1 — RFF/MAP 2 — Remaining part
+
+
+z0030 - Fund/Portfolio number
+-----------------------------
+
+
+Identification number for a ring fenced fund or matching adjustment portfolio. This number is attributed by the undertaking and must be consistent over time and with the fund/portfolio number reported in other templates.This item is to be completed only when item Z0020 = 1.
+
+
+c0020 to c0170r0010 - Technical provisions calculated as a whole
+----------------------------------------------------------------
+
+
+The amount of technical provisions calculated as a whole per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted business.This amount shall be gross of any recoverable from reinsurance contract/SPV and Finite Re related to this business.
+
+
+c0180r0010 - Technical provisions calculated as a whole — Total Non–Life obligation
+-----------------------------------------------------------------------------------
+
+
+The total amount of technical provisions calculated as a whole regarding direct and accepted business.This amount shall be gross of any recoverable from reinsurance contract/SPV and Finite Re related to this business.
+
+
+c0020 to c0130r0020 - Technical provisions calculated as a whole — direct business
+----------------------------------------------------------------------------------
+
+
+The amount of technical provisions calculated as a whole per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, for the direct business.This amount shall be gross of any recoverable from reinsurance contract/SPV and Finite Re related to this business.
+
+
+c0180r0020 - Total Non–Life obligations, Technical provisions calculated as a whole, total direct business
+----------------------------------------------------------------------------------------------------------
+
+
+The total amount of technical provisions calculated as a whole, for the direct business.This amount shall be gross of any recoverable from reinsurance contract/SPV and Finite Re related to this business.
+
+
+c0020 to c0130r0030 - Technical provisions calculated as a whole — accepted proportional reinsurance business
+-------------------------------------------------------------------------------------------------------------
+
+
+The amount of technical provisions calculated as a whole per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, for the accepted proportional reinsurance business.This amount shall be gross of any recoverable from reinsurance contract/SPV and Finite Re related to this business.
+
+
+c0180r0030 - Total Non–Life obligations, Technical provisions calculated as a whole, total accepted proportional reinsurance business
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of technical provisions calculated as a whole, for the accepted proportional reinsurance business.This amount shall be gross of any recoverable from reinsurance contract/SPV and Finite Re related to this business.
+
+
+c0140 to c0170r0040 - Technical provisions calculated as a whole — accepted non–proportional reinsurance business
+-----------------------------------------------------------------------------------------------------------------
+
+
+The amount of technical provisions calculated as a whole per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, for the accepted non–proportional reinsurance business.This amount shall be gross of any recoverable from reinsurance contract/SPV and Finite Re related to this business.
+
+
+c0180r0040 - Total Non–Life obligations, Technical provisions calculated as a whole, total accepted non proportional reinsurance business
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of technical provisions calculated as a whole, for the accepted non–proportional reinsurance business.This amount shall be gross of any recoverable from reinsurance contract/SPV and Finite Re related to this business.
+
+
+c0020 to c0170r0050 - Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default of technical provisions calculated as a whole per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35
+
+
+c0180r0050 - Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount, for all lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, of recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default of technical provisions calculated as a whole per each line of business.
+
+
+c0020 to c0170r0060 - Best Estimate of Premium provisions, Gross, total
+-----------------------------------------------------------------------
+
+
+The amount of best estimate for premium provisions, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted business.
+
+
+c0180r0060 - Total Non–Life obligations, Best Estimate of Premium provisions, Gross, total
+------------------------------------------------------------------------------------------
+
+
+The total amount of best estimate for premium provisions, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance regarding direct and accepted business.
+
+
+c0020 to c0130r0070 - Best Estimate of Premium provisions, Gross — direct business
+----------------------------------------------------------------------------------
+
+
+The amount of best estimate for premium provisions, for the direct business, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0180r0070 - Total Non–Life obligations, Best Estimate of Premium provisions, Gross, total direct business
+----------------------------------------------------------------------------------------------------------
+
+
+The total amount of best estimate for premium provisions, for the direct business, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance.
+
+
+c0020 to c0130r0080 - Best Estimate of Premium provisions, Gross — accepted proportional reinsurance business
+-------------------------------------------------------------------------------------------------------------
+
+
+The amount of best estimate for premium provisions, for accepted proportional reinsurance business, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0180r0080 - Total Non–Life obligations, Best Estimate of Premium provisions, Gross, total accepted proportional reinsurance business
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of best estimate for premium provisions, for the accepted proportional reinsurance business, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance.
+
+
+c0140 to c0170r0090 - Best Estimate of Premium provisions, Gross — accepted non proportional reinsurance business
+-----------------------------------------------------------------------------------------------------------------
+
+
+The amount of best estimate for premium provisions, for accepted non–proportional reinsurance business, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0180r0090 - Total Non–Life obligations, Best Estimate of Premium provisions, Gross, total accepted non proportional reinsurance business
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of best estimate for premium provisions, for accepted non–proportional reinsurance business, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance.
+
+
+c0020 to c0170r0100 - Best estimate of Premium provisions, Total recoverable from reinsurance/SPV and Finite re before the adjustment for expected losses due to counterparty default Direct and accepted reinsurance business
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total recoverable from reinsurance/SPV and Finite reinsurance before the adjustment for expected losses due to counterparty default, referred to the best estimate for premium provisions for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0180r0100 - Total Non–Life obligations, Best estimate of Premium provisions, Total recoverable from reinsurance/SPV and Finite re before the adjustment for expected losses due to counterparty default
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The Total recoverable from reinsurance/SPV and Finite reinsurance before the adjustment for expected losses due to counterparty default, referred to the best estimate for premium provisions.
+
+
+c0020 to c0170r0110 - Best Estimate of Premium provisions, Recoverables from reinsurance (except SPV and Finite Reinsurance) before adjustment for expected losses — Direct and accepted reinsurance business
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of Recoverables from reinsurance (except SPV and Finite Reinsurance) before adjustment for expected losses, referred to the best estimate for premium provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35 regarding direct and accepted reinsurance business.
+
+
+c0180r0110 - Total Non–Life obligations, Best Estimate of Premium provisions, Recoverables from reinsurance (except SPV and Finite Reinsurance) before adjustment for expected losses
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Recoverables from reinsurance (except SPV and Finite Reinsurance) before adjustment for expected losses, referred to the best estimate for premium provisions.
+
+
+c0020 to c0170r0120 - Best Estimate of Premium provisions, Recoverables from SPV before adjustment for expected losses — Direct and accepted reinsurance business.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of Recoverables from SPV before adjustment for expected losses, referred to the best estimate for premium provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business.
+
+
+c0180r0120 - Total Non–Life obligations, Best Estimate of Premium provisions, Recoverables from SPV before adjustment for expected losses
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Recoverables from SPV before adjustment for expected losses, referred to the best estimate for premium provisions.
+
+
+c0020 to c0170r0130 - Best Estimate of Premium provisions, Recoverables from Finite Reinsurance before adjustment for expected losses — Direct and accepted reinsurance business
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of Recoverables from Finite Reinsurance before adjustment for expected losses, referred to the best estimate for premium provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business.
+
+
+c0180r0130 - Total Non–Life obligations, Best Estimate of Premium provisions, Recoverables from Finite Reinsurance before adjustment for expected losses.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Recoverables from Finite Reinsurance before adjustment for expected losses, referred to the best estimate for premium provisions.
+
+
+c0020 to c0170r0140 - Best Estimate of Premium provisions, Total recoverable from reinsurance/SPV and Finite reinsurance after the adjustment for expected losses due to counterparty default — Direct and accepted reinsurance business
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of recoverable from reinsurance/SPV and Finite reinsurance after the adjustment for expected losses due to counterparty default, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted reinsurance business.
+
+
+c0180r0140 - Total Non–Life obligations, Best Estimate of Premium provisions, Recoverable from reinsurance/SPV and Finite reinsurance after the adjustment for expected losses due to counterparty default.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Recoverable from reinsurance/SPV and Finite reinsurance after the adjustment for expected losses due to counterparty default, referred to the best estimate for premium provisions.
+
+
+c0020 to c0170r0150 - Net best estimate of Premium provisions — Direct and accepted reinsurance business
+--------------------------------------------------------------------------------------------------------
+
+
+The amount of net best estimate for premium provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0180r0150 - Total Non–Life obligations, Net best estimate of Premium provisions
+--------------------------------------------------------------------------------
+
+
+The total amount of net best estimate for premium provisions.
+
+
+c0020 to c0170r0160 - Best Estimate of Claims Provisions, Gross, Total
+----------------------------------------------------------------------
+
+
+The amount of best estimate for Claims Provisions, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted business.
+
+
+c0180r0160 - Total Non–Life obligations, Best Estimate of Claims Provisions, Gross, total
+-----------------------------------------------------------------------------------------
+
+
+The total amount of best estimate for Claims Provisions, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance.
+
+
+c0020 to c0130r0170 - Best Estimate of Claims Provisions, Gross — direct business
+---------------------------------------------------------------------------------
+
+
+The amount of best estimate for claims provisions, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business.
+
+
+c0180r0170 - Total Non–Life obligations, Best Estimate of Claims Provisions, Gross, total direct business
+---------------------------------------------------------------------------------------------------------
+
+
+The total amount of best estimate for Claims provisions, direct business, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance.
+
+
+c0020 to c0130r0180 - Best Estimate of Claims Provisions, Gross — accepted proportional reinsurance business
+------------------------------------------------------------------------------------------------------------
+
+
+The amount of best estimate for claims provisions, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding accepted proportional reinsurance.
+
+
+c0180r0180 - Total Non–Life obligations, Best Estimate of Claims Provisions, Gross, total accepted proportional reinsurance business
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of best estimate for Claims provisions, accepted proportional reinsurance business, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance.
+
+
+c0140 to c0170r0190 - Best Estimate of Claims Provisions, Gross — accepted non proportional reinsurance business
+----------------------------------------------------------------------------------------------------------------
+
+
+The amount of best estimate for Claims Provisions, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding accepted non proportional reinsurance.
+
+
+c0180r0190 - Total Non–Life obligations, Best Estimate of Claims Provisions, Gross — accepted non proportional reinsurance business
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of best estimate for Claims Provisions, gross of the amounts recoverable from reinsurance contracts, special purpose vehicles and finite reinsurance.
+
+
+c0020 to c0170r0200 - Best Estimate of Claims provisions, Total recoverable from reinsurance/SPV and Finite before the adjustment for expected losses due to counterparty default
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total recoverable from reinsurance/SPV and Finite Re, before the adjustment for expected losses due to counterparty default, referred to the Best Estimate for Claims Provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business.
+
+
+c0180r0200 - Total Non–Life obligations, Best estimate of Claims Provisions, Total recoverable from reinsurance/SPV and Finite re before the adjustment for expected losses due to counterparty default
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The Total recoverable from reinsurance/SPV, and Finite before the adjustment for expected losses due to counterparty default, referred to the Best Estimate for Claims Provisions.
+
+
+c0020 to c0170r0210 - Best Estimate of Claims provisions, Recoverables from reinsurance (except SPV and Finite Reinsurance) before adjustment for expected losses — Direct and accepted reinsurance business
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of Recoverables from reinsurance (except SPV and Finite Reinsurance) before adjustment for expected losses, referred to the Best Estimate for Claims Provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business.
+
+
+c0180r0210 - Total Non–Life obligations, Best estimate of Claims provisions, Total Recoverables from reinsurance (except SPV and Finite Reinsurance) before adjustment for expected losses — Direct and accepted reinsurance business
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Recoverables from reinsurance (except SPV and Finite Reinsurance) before adjustment for expected losses, referred to the Best Estimate for Claims Provisions.
+
+
+c0020 to c0170r0220 - Best Estimate of Claims provisions, Recoverables from SPV before adjustment for expected losses — Direct and accepted reinsurance business.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of Recoverables from SPV before adjustment for expected losses, referred to the Best Estimate for Claims Provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business.
+
+
+c0180r0220 - Total Non–Life obligations, Best Estimate of Claims Provisions, Recoverables from SPV before adjustment for expected losses
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Recoverables from SPV before adjustment for expected losses, referred to the Best Estimate for Claims Provisions.
+
+
+c0020 to c0170r0230 - Best Estimate of Claims provisions, Recoverables from Finite Reinsurance before adjustment for expected losses — Direct and accepted reinsurance business.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of Recoverables from Finite Reinsurance before adjustment for expected losses, referred to the best estimate for claims provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted reinsurance business.
+
+
+c0180r0230 - Total Non–Life obligations, Best Estimate of Claims Provisions, Recoverables from Finite Reinsurance before adjustment for expected losses.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Recoverables from Finite Reinsurance before adjustment for expected losses, referred to the Best Estimate for Claims Provisions.
+
+
+c0020 to c0170r0240 - Best Estimate of Claims provisions, Total recoverable from reinsurance/SPV and Finite re after the adjustment for expected losses due to counterparty default — Direct and accepted reinsurance business
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount recoverable from reinsurance/SPV and Finite re after the adjustment for expected losses due to counterparty default, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business.
+
+
+c0180r0240 - Total Non–Life obligations, Best Estimate of Claims Provisions, Recoverable from reinsurance/SPV and Finite re after the adjustment for expected losses due to counterparty default.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Recoverable from reinsurance/SPV and Finite re after the adjustment for expected losses due to counterparty default, referred to the Best Estimate for Claims Provisions.
+
+
+c0020 to c0170r0250 - Net best estimate of Claims provisions — Direct and accepted reinsurance business
+-------------------------------------------------------------------------------------------------------
+
+
+The amount of net best estimate for claims provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business.
+
+
+c0180r0250 - Total Non–Life obligations, Net best estimate of Claims Provisions
+-------------------------------------------------------------------------------
+
+
+The total amount of net Best Estimate for Claims Provisions.
+
+
+c0020 to c0170r0260 - Total best estimate, Gross — Direct and accepted reinsurance business
+-------------------------------------------------------------------------------------------
+
+
+The amount of Total gross best estimate, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business.
+
+
+c0180r0260 - Total Non–Life obligations, Total Best Estimate, Gross
+-------------------------------------------------------------------
+
+
+The total amount of Gross Best Estimate (sum of the Premium Provision and Claims Provisions).
+
+
+c0020 to c0170r0270 - Total best estimate, Net — Direct and accepted reinsurance business
+-----------------------------------------------------------------------------------------
+
+
+The amount of Total net best estimate, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business.
+
+
+c0180r0270 - Total Non–Life obligations, Total Best Estimate, Net
+-----------------------------------------------------------------
+
+
+The total amount of Net Best Estimate (sum of the Premium Provision and Claims Provisions).
+
+
+c0020 to c0170r0280 - Technical provisions calculated as a sum of a best estimate and a risk margin — Risk margin
+-----------------------------------------------------------------------------------------------------------------
+
+
+The amount of risk margin, as required by Directive 2009/138/EC (Article 77 (3)). The risk margin is calculated to whole portfolio of (re)insurance obligations and then allocated to each single line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted reinsurance business.
+
+
+c0180r0280 - Total Non–Life obligations, Total risk margin
+----------------------------------------------------------
+
+
+The total amount of risk margin, as required by Directive 2009/138/EC (Article 77 (3)).
+
+
+c0020 to c0170r0290 - Amount of the transitional on Technical Provisions — Technical Provisions calculated as a whole
+---------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the transitional deduction to Technical Provisions allocated to the technical provisions calculated as a whole, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.This value shall be reported as a negative value.
+
+
+c0180r0290 - Amount of the transitional on Technical Provisions — Technical Provisions calculated as a whole
+------------------------------------------------------------------------------------------------------------
+
+
+Total amount, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, of the transitional deduction to technical provisions allocated to the technical provisions calculated as a whole.This value shall be reported as a negative value.
+
+
+c0020 to c0170r0300 - Amount of the transitional on Technical Provisions — Best Estimate
+----------------------------------------------------------------------------------------
+
+
+Amount of the transitional deduction to technical provisions allocated to the best estimate, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.This value shall be reported as a negative value.
+
+
+c0180r0300 - Amount of the transitional on Technical Provisions — Best Estimate
+-------------------------------------------------------------------------------
+
+
+Total amount, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, of the transitional deduction to technical provisions allocated to the best estimate.This value shall be reported as a negative value.
+
+
+c0020 to c0170r0310 - Amount of the transitional on Technical Provisions — Risk Margin
+--------------------------------------------------------------------------------------
+
+
+Amount of the transitional deduction to technical provisions allocated to the risk margin, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.This value shall be reported as a negative value.
+
+
+c0180r0310 - Amount of the transitional on Technical Provisions — Risk Margin
+-----------------------------------------------------------------------------
+
+
+Total amount, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, of the transitional deduction to technical provisions allocated to the risk margin.This value shall be reported as a negative value.
+
+
+c0020 to c0170r0320 - Technical provisions, Total — Direct and accepted reinsurance business
+--------------------------------------------------------------------------------------------
+
+
+The total amount of gross technical provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business, including technical provisions calculated as a whole and after the transitional deduction to technical provisions.
+
+
+c0180r0320 - Total Non–Life obligations, Technical Provision — total
+--------------------------------------------------------------------
+
+
+The total amount of gross technical provisions regarding direct and accepted reinsurance business, including technical provisions calculated as a whole and after the transitional deduction to technical provisions.
+
+
+c0020 to c0170r0330 - Technical provisions, Total — Recoverable from reinsurance contract/SPV and Finite reinsurance, after the adjustment for expected losses due to counterparty default — Direct and accepted reinsurance business
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of recoverable from reinsurance contract/SPV and Finite reinsurance, after the adjustment for expected losses due to counterparty default, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business.
+
+
+c0180r0330 - Total Non–Life obligations, Recoverable from reinsurance contract/SPV and Finite re, after the adjustment for expected losses due to counterparty default — Direct and accepted reinsurance business
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of recoverable from reinsurance contract/SPV and Finite reinsurance, after the adjustment for expected losses due to counterparty default regarding direct and accepted reinsurance business.
+
+
+c0020 to c0170r0340 - Technical provisions, Total — Technical provisions minus recoverables from reinsurance/SPV and Finite reinsurance — Direct and accepted reinsurance business
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of net technical provisions, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct and accepted reinsurance business, including technical provisions calculated as a whole and after the transitional deduction to technical provisions.
+
+
+c0180r0340 - Total Non–Life obligations, Technical provisions minus recoverables from reinsurance and SPV — Direct and accepted reinsurance business
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of net technical provisions regarding direct and accepted reinsurance business, including technical provisions calculated as a whole and after the transitional deduction to technical provisions.
+
+
+c0020 to c0170r0350 - Line of Business, further segmentation by (Homogeneous Risk Groups) — Premium provisions — Total number of homogeneous risk groups
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Information regarding the number of HRG in the segmentation, if the (re)insurance undertaking further segmented line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, into homogenous risk groups according to nature of the risks underlying the contract, for each line of business where that segmentation was performed, regarding direct business and accepted proportional reinsurance and accepted non–proportional reinsurance, in respect of premium provisions.
+
+
+c0020 to c0170r0360 - Line of Business, further segmentation by (Homogeneous Risk Groups) — Claims provisions — Total number of homogeneous risk groups
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Information regarding the number of HRG in the segmentation, if the (re)insurance undertaking further segmented line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, into homogenous risk groups according to nature of the risks underlying the contract, for each line of business where that segmentation was performed, regarding direct business and accepted proportional reinsurance and accepted non–proportional reinsurance, in respect of claims provisions.
+
+
+c0020 to c0170r0370 - Best estimate Premium Provisions, Cash out–flows, future benefits and claims
+--------------------------------------------------------------------------------------------------
+
+
+The amount of split, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted proportional reinsurance and Accepted non–proportional reinsurance, of cash flows for future benefits and claims used to determine the gross best estimate of premium provisions, i.e. the probability–weighted average of future cash out–flows, discounted to take into account the time value of money (expected present value of future cash–flows). In case of use of a stochastic methodology for the cash–flow projection, it is required to report the average scenario.
+
+
+c0180r0370 - Best estimate Premium Provisions, Cash out–flows, future benefits and claims — Total
+-------------------------------------------------------------------------------------------------
+
+
+The total amount of cash flows for future benefits and claims used to determine the gross best estimate of premium provisions.
+
+
+c0020 to c0170r0380 - Best estimate Premium Provisions, Cash out–flows, future expenses and other cash–out flows
+----------------------------------------------------------------------------------------------------------------
+
+
+The amount of split, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted proportional reinsurance and Accepted non–proportional reinsurance, of cash flows for future expenses and other cash out–flows used to determine the gross best estimate of premium provisions, i.e. the probability–weighted average of future cash out–flows, discounted to take into account the time value of money (expected present value of future cash–flows). In case of use of a stochastic methodology for the cash–flow projection, it is required to report the average scenario.
+
+
+c0180r0380 - Best estimate Premium Provisions, Cash out–flows, future expenses and other cash–out flows — Total
+---------------------------------------------------------------------------------------------------------------
+
+
+The total amount of future expenses and other cash–out flows used to determine the gross best estimate of premium provisions.
+
+
+c0020 to c0170r0390 - Best estimate Premium Provisions, Cash in–flows, future premiums
+--------------------------------------------------------------------------------------
+
+
+The amount of split, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted proportional reinsurance and accepted non–proportional reinsurance, of cash flows for future premiums used to determine the gross best estimate of premium provisions, i.e. the probability–weighted average of future cash in–flows, discounted to take into account the time value of money (expected present value of future cash–flows). In case of use of a stochastic methodology for the cash–flow projection, it is required to report the average scenario.
+
+
+c0180r0390 - Best estimate Premium Provisions, Cash in–flows, future premiums — Total
+-------------------------------------------------------------------------------------
+
+
+The total amount of future premiums used to determine the gross best estimate of premium provisions.
+
+
+c0020 to c0170r0400 - Best estimate Premium Provisions, Cash in–flows, Other cash–in flows (incl. Recoverables from salvages and subrogations)
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of split, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted proportional reinsurance and Accepted non–proportional reinsurance, of cash flows for other cash in–flows, including recoverables from salvages and subrogations, used to determine the gross best estimate of premium provisions, i.e. the probability–weighted average of future cash in–flows, discounted to take into account the time value of money (expected present value of future cash–flows). In case of use of a stochastic methodology for the cash–flow projection, it is required to report the average scenario.
+
+
+c0180r0400 - Best estimate Premium Provisions, Cash in–flows, Other cash–in flows (incl. recoverables from salvages and subrogations) — Total
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Other cash–in flows (including recoverables from salvages and subrogations) used to determine the gross best estimate of premium provisions.
+
+
+c0020 to c0170r0410 - Best estimate Claims Provisions, Cash out–flows, future benefits and claims
+-------------------------------------------------------------------------------------------------
+
+
+The amount of split, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted proportional reinsurance and Accepted non–proportional reinsurance, of cash flows for future benefits and claims used to determine the gross best estimate of Claims provisions, i.e. the probability–weighted average of future cash out–flows, discounted to take into account the time value of money (expected present value of future cash–flows). In case of use of a stochastic methodology for the cash–flow projection, it is required to report the average scenario.
+
+
+c0180r0410 - Best estimate Claims Provisions, Cash out–flows, future benefits and claims — Total
+------------------------------------------------------------------------------------------------
+
+
+The total amount of Claims Provisions, Cash out–flows, future benefits and claims used to determine the gross best estimate of claims provisions.
+
+
+c0020 to c0170r0420 - Best estimate Claims Provisions, Cash out–flows, future expenses and other cash–out flows
+---------------------------------------------------------------------------------------------------------------
+
+
+The amount of split, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted proportional reinsurance and Accepted non–proportional reinsurance, of cash flows for future expenses and other cash out–flows used to determine the gross best estimate of Claims provisions, i.e. the probability–weighted average of future cash out–flows, discounted to take into account the time value of money (expected present value of future cash–flows). In case of use of a stochastic methodology for the cash–flow projection, it is required to report the average scenario.
+
+
+c0180r0420 - Best estimate Claims Provisions, Cash out–flows, future expenses and other cash–out flows — Total
+--------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Claims Provisions, Cash out–flows, future expenses and other cash–out flows used to determine the gross best estimate of claims provisions.
+
+
+c0020 to c0170r0430 - Best estimate Claims Provisions, Cash in–flows, future premiums
+-------------------------------------------------------------------------------------
+
+
+The amount of split, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted proportional reinsurance and accepted non–proportional reinsurance, of cash flows for future premiums used to determine the gross best estimate of claims provisions, i.e. the probability–weighted average of future cash in–flows, discounted to take into account the time value of money (expected present value of future cash–flows). In case of use of a stochastic methodology for the cash–flow projection, it is required to report the average scenario.
+
+
+c0180r0430 - Best estimate Claims Provisions, Cash in–flows, future premiums — Total
+------------------------------------------------------------------------------------
+
+
+The total amount of Claims Provisions, cash in–flows, future premiums used to determine the gross best estimate of claims provisions.
+
+
+c0020 to c0170r0440 - Best estimate Claims Provisions, Cash in–flows, Other cash–in flows (incl. Recoverable from salvages and subrogations)
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of split, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, regarding direct business and accepted proportional reinsurance and accepted non–proportional reinsurance, of other cash–in flows (including Recoverable from salvages and subrogations) used to determine the gross best estimate of Claims provisions, i.e. the probability–weighted average of future cash in–flows, discounted to take into account the time value of money (expected present value of future cash–flows). In case of use of a stochastic methodology for the cash–flow projection, it is required to report the average scenario.
+
+
+c0180r0440 - Best estimate Claims Provisions, Cash in–flows, Other cash–in flows (incl. Recoverable from salvages and subrogations) — Total
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The total amount of Claims Provisions, cash in–flows, Other cash–in flows (including Recoverable from salvages and subrogations) used to determine the gross best estimate of claims provisions.
+
+
+c0020 to c0170r0450 - Use of simplified methods and techniques to calculate technical provisions — Percentage of gross Best Estimate calculated using approximations
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Indicate the percentage of gross best estimate included in Total Best Estimate Gross (R0260) calculated using approximations as established in Article 21 of Delegated Regulation (EU) 2015/35, per each Line of Business.
+
+
+c0180r0450 - Use of simplified methods and techniques to calculate technical provisions — Percentage of gross Best Estimate calculated using approximations — Total
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Indicate the percentage of total gross best estimate included in Total Best Estimate Gross (R0260) calculated using approximations as established in Article 21 of Delegated Regulation (EU) 2015/35, per each Line of Business regarding direct business and accepted proportional reinsurance and accepted non–proportional reinsurance.
+
+
+c0020 to c0170r0460 - Best estimate subject to transitional of the interest rate
+--------------------------------------------------------------------------------
+
+
+Indicate the amount of best estimate reported in R0260 subject to transitional adjustment to the relevant risk-free interest rate term structure, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0180r0460 - Best estimate subject to transitional of the interest rate — Total Non–Life obligation
+---------------------------------------------------------------------------------------------------
+
+
+Indicate the total amount, for all lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, of Best estimate reported in R0260 subject to transitional adjustment to the relevant risk-free interest rate term structure.
+
+
+c0020 to c0170r0470 - Technical provisions without transitional of the interest rate
+------------------------------------------------------------------------------------
+
+
+Indicate the amount of the technical provisions where the transitional adjustment to the relevant risk-free interest rate term structure has been applied calculated without the transitional adjustment to the relevant risk-free interest rate term structure, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.In the cases where the same best estimates were also subject to the volatility adjustment, the amount reported in this item shall reflect the value without the transitional adjustment to the relevant risk-free interest rate term structure but with the volatility adjustment.
+
+
+c0180r0470 - Technical provisions without transitional of the interest rate — Total Non–Life obligation
+-------------------------------------------------------------------------------------------------------
+
+
+Indicate the total amount, for all lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, of the technical provisions where the transitional adjustment to the relevant risk-free interest rate term structure has been applied calculated without the transitional adjustment to the relevant risk-free interest rate term structure.In the cases where the same best estimates were also subject to the volatility adjustment, the amount reported in this item shall reflect the value without the transitional adjustment to the relevant risk-free interest rate term structure but with the volatility adjustment.
+
+
+c0020 to c0170r0480 - Best estimate subject to volatility adjustment
+--------------------------------------------------------------------
+
+
+Indicate the amount of best estimate reported in R0260 subject to volatility adjustment, for each Line of Business.
+
+
+c0180r0480 - Best estimate subject to volatility adjustment — Total Non–Life obligation
+---------------------------------------------------------------------------------------
+
+
+Indicate the total amount, for all lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, of the best estimate reported in R0260 subject to volatility adjustment.
+
+
+c0020 to c0170r0490 - Technical provisions without volatility adjustment and without others transitional measures
+-----------------------------------------------------------------------------------------------------------------
+
+
+Indicate the amount of Technical provisions without volatility adjustment, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.In the cases where the same best estimates were also subject to the transitional deduction to technical provisions/transitional adjustment to the relevant risk-free interest rate term structure, the amount reported in this item shall reflect the value without both the transitional adjustment to the relevant risk-free interest rate term structure and without the volatility adjustment.
+
+
+c0180r0490 - Technical provisions without volatility adjustment and without others transitional measures — Total Non–Life obligation
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+Indicate the total amount, for all lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, of technical provisions without volatility adjustment.In the cases where the same best estimates were also subject to the transitional deduction to technical provisions/transitional adjustment to the relevant risk-free interest rate term structure, the amount reported in this item shall reflect the value without both the transitional adjustment to the relevant risk-free interest rate term structure and without the volatility adjustment.
+
+

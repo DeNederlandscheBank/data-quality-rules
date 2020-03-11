@@ -1,0 +1,643 @@
+=============================
+S.24.01 - Participations held
+=============================
+
+Instructions
+------------
+
+
+General Comments:
+
+This section relates to annual submission of information for individual entities.
+
+
+c0010 - Name of related undertaking
+-----------------------------------
+
+
+This is the name of the related undertaking in which the participation is held. These are participations in financial and credit institutions which individually exceed 10 % of items included in (a) (i), (ii), iv) and (vi), of Article 69 of Delegated Regulation (EU) 2015/35. This does not include consolidated strategic participations.
+
+
+c0020 - Asset ID Code
+---------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be unique and kept consistent over time.When the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies, it is necessary to specify the Asset ID code and the ISO 4217 alphabetic code of the currency, as in the following example: ‘code+EUR’
+
+
+c0030 - Asset ID Code type
+--------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingWhen the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies and the code in C0020 is defined by Asset ID code and the ISO 4217 alphabetic code of the currency, the Asset ID Code Type shall refer to option 9 and the option of the original Asset ID Code, as in the following example for which the code reported was ISIN code+currency: ‘9/1’.
+
+
+c0040 - Total
+-------------
+
+
+This is the full total value for all tiers held in each participation in financial and credit institutions which individually exceed 10 % of items included in (a) (i), (ii), iv) and (vi) of Article 69. This does not include consolidated strategic participations.
+
+
+c0050 - Common Equity Tier 1
+----------------------------
+
+
+This is the full value of Common Equity Tier 1 held in each participation in financial and credit institutions which individually exceed 10 % of items included in (a) (i), (ii), iv) and (vi), of Article 69). This does not include consolidated strategic participations. Common Equity Tier 1 has the meaning as defined in the relevant sector rules.
+
+
+c0060 - Additional Tier 1
+-------------------------
+
+
+This is the full value of Additional Tier 1 held in each participation in financial and credit institutions which individually exceed 10 % of items included in (a) (i), (ii), iv) and (vi), of Article 69). This does not include consolidated strategic participations. Additional Tier 1 has the meaning as defined in the relevant sector rules.
+
+
+c0070 - Tier 2
+--------------
+
+
+This is the full value of Tier 2 held in each participation in financial and credit institutions which individually exceed 10 % of items included in (a) (i), (ii), iv) and (vi), of Article 69). This does not include consolidated strategic participations. Tier 2 has the meaning as defined in the relevant sector rules.
+
+
+c0080 - Name of related undertaking
+-----------------------------------
+
+
+This is the name of the related undertaking in which the participation is held.These are participations in financial and credit institutions which when aggregated exceed 10 % of items included in (a) (i), (ii), (iv) and (vi) of Article 69 of Delegated Regulation (EU) 2015/35, not including consolidated strategic participations.
+
+
+c0090 - Asset ID Code
+---------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be unique and kept consistent over time.When the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies, it is necessary to specify the Asset ID code and the ISO 4217 alphabetic code of the currency, as in the following example: ‘code+EUR’
+
+
+c0100 - Asset ID Code type
+--------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingWhen the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies and the code in C0090 is defined by Asset ID code and the ISO 4217 alphabetic code of the currency, the Asset ID Code Type shall refer to option 9 and the option of the original Asset ID Code, as in the following example for which the code reported was ISIN code+currency: ‘9/1’.
+
+
+c0110 - Total
+-------------
+
+
+This is the total value held in the participation (not yet the amount to be deducted).These are participations in financial and credit institutions which when aggregated exceed 10 % of items included in (a) (i),(ii),(iv) and (vi) of Article 69 of Delegated Regulation (EU) 2015/35, not including consolidated strategic participations.
+
+
+c0120 - Common Equity Tier 1
+----------------------------
+
+
+This is the value of Common Equity Tier 1 held in the participation (not only the part to be deducted).Common Equity Tier 1 has the meaning as defined in the relevant sector rules.These are participations in financial and credit institutions which when aggregated exceed 10 % of items included in (a) (i), (ii), (iv) and (vi) of Article 69 of Delegated Regulation (EU) 2015/35, not including consolidated strategic participations.
+
+
+c0130 - Additional Tier 1
+-------------------------
+
+
+This is the value of Additional Tier 1 held in the participation (not only the part to be deducted)..Additional Tier 1 has the meaning as defined in the relevant sector rules.These are participations in financial and credit institutions which when aggregated exceed 10 % of items included in (a) (i), (ii), (iv) and (vi) of Article 69 of Delegated Regulation (EU) 2015/35, not including consolidated strategic participations.
+
+
+c0140 - Tier 2
+--------------
+
+
+This is the value of Tier 2 held in the participation.Tier 2 has the meaning as defined in relevant sector rules (not only the part to be deducted).These are participations in financial and credit institutions which when aggregated exceed 10 % of items included in (a) (i), (ii), (iv) and (vi) of Article 69 of Delegated Regulation (EU) 2015/35, not including consolidated strategic participations
+
+
+c0150 - Total participations in financial and credit institutions — Total
+-------------------------------------------------------------------------
+
+
+This is the total value of participations in financial and credit institutions. (for which there is an OF deduction)
+
+
+c0160 - Total participations in financial and credit institutions — Common Equity Tier 1
+----------------------------------------------------------------------------------------
+
+
+This is the total value of Common Equity Tier 1 held in financial and credit institutions. (for which there is an OF deduction)
+
+
+c0170 - Total participations in financial and credit institutions — Additional Tier 1
+-------------------------------------------------------------------------------------
+
+
+This is the total value of Additional Tier 1 held in financial and credit institutions. (for which there is an OF deduction)
+
+
+c0180 - Total participations in financial and credit institutions– Tier 2
+-------------------------------------------------------------------------
+
+
+This is the total value of Tier 2 held in financial and credit institutions. (for which there is an OF deduction)
+
+
+r0010c0190 - Article 68 (1) deduction — total
+---------------------------------------------
+
+
+This is the total value of the Article 68 (1) deduction, specified in Delegated Regulation (EU) 2015/35.
+
+
+r0010c0200 - Article 68 (1) deduction — tier 1 unrestricted
+-----------------------------------------------------------
+
+
+This is the value of the Article 68(1) deduction which is deducted from tier 1 unrestricted items in accordance with Article 68 (5) of Delegated Regulation (EU) 2015/35.
+
+
+r0010c0210 - Article 68 (1) deduction — tier 1 restricted
+---------------------------------------------------------
+
+
+This is the value of the Article 68(1) deduction which is deducted from tier 1 restricted items in accordance with Article 68 (5) of Delegated Regulation (EU) 2015/35.
+
+
+r0010c0220 - Article 68 (1) deduction — Tier 2
+----------------------------------------------
+
+
+This is the value of the Article 68(1) deduction which is deducted from tier 2 items in accordance with Article 68 (5) of Delegated Regulation (EU) 2015/35.
+
+
+r0020c0190 - Article 68(2) deduction — total
+--------------------------------------------
+
+
+This is the total value of the Article 68 (2) deduction of Delegated Regulation (EU) 2015/35.
+
+
+r0020c0200 - Article 68 (2) deduction — tier 1 unrestricted
+-----------------------------------------------------------
+
+
+This is the value of the Article 68(2) deduction which is deducted from tier 1 unrestricted items in accordance with Article 68 (5) of Delegated Regulation (EU) 2015/35.
+
+
+r0020c0210 - Article 68 (2) deduction — tier 1 restricted
+---------------------------------------------------------
+
+
+This is the value of the Article 68 (2) deduction which is deducted from tier 1 restricted items in accordance with Article 68 (5) of Delegated Regulation (EU) 2015/35.
+
+
+r0020c0220 - Article 68 (2) deduction — tier 2
+----------------------------------------------
+
+
+This is the value of the Article 68(2) deduction which is deducted from tier 2 items in accordance with Article 68 (5) of Delegated Regulation (EU) 2015/35.
+
+
+r0030c0190 - Total deductions
+-----------------------------
+
+
+The overall total of all deductions for participations under Article 68 (1) and Article 68 (2) of Delegated Regulation (EU) 2015/35.
+
+
+r0030c0200 - Total deductions — tier 1 unrestricted
+---------------------------------------------------
+
+
+The overall total of all deductions for participations for tier 1 unrestricted under Article 68 (1) and Article 68 (2) of Delegated Regulation (EU) 2015/35.
+
+
+r0030c0210 - Total deductions — tier 1 restricted
+-------------------------------------------------
+
+
+The overall total of all deductions for participations for tier 1 restricted under Article 68 (1) and Article 68 (2) of Delegated Regulation (EU) 2015/35.
+
+
+r0030c0220 - Total deductions — tier 2
+--------------------------------------
+
+
+The overall total of all deductions for participations for tier 2 under Article 68 (1) and Article 68 (2) of Delegated Regulation (EU) 2015/35.
+
+
+c0230 - Name of related undertaking
+-----------------------------------
+
+
+This is the name of the related undertaking in which the participation is held. These are participations in financial and credit institutions which are considered strategic as defined in Article 171 of the Delegated Regulation (EU) 2015/35) and which are included in the calculation of the group solvency on the basis of method 1.
+
+
+c0240 - Asset ID Code
+---------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be unique and kept consistent over time.When the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies, it is necessary to specify the Asset ID code and the ISO 4217 alphabetic code of the currency, as in the following example: ‘code+EUR’
+
+
+c0250 - Asset ID Code type
+--------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingWhen the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies and the code in C0240 is defined by Asset ID code and the ISO 4217 alphabetic code of the currency, the Asset ID Code Type shall refer to option 9 and the option of the original Asset ID Code, as in the following example for which the code reported was ISIN code+currency: ‘9/1’.
+
+
+c0260 - Total
+-------------
+
+
+This is the total value for all tiers held in each participation in financial and credit institutions which are considered strategic as defined in Article 171 of the Delegated Regulation (EU) 2015/35) and which are included in the calculation of the group solvency on the basis of method 1.
+
+
+c0270 - Type 1 Equity
+---------------------
+
+
+This is the value of type 1 equity held in each participation in financial and credit institutions which are considered strategic as defined in Article 171 of the Delegated Regulation (EU) 2015/35) and which are included in the calculation of the group solvency on the basis of method 1.Type 1 equity has the meaning as defined in Article 168 (2) of the Delegated Regulation (EU) 2015/35).
+
+
+c0280 - Type 2 Equity
+---------------------
+
+
+This is the value of type 2 equity held in each participation. in financial and credit institutions which are considered strategic as defined in Article 171 of the Delegated Regulation (EU) 2015/35) and which are included in the calculation of the group solvency on the basis of method 1.Type 2 equity has the meaning as defined in Article 168(3) of the Delegated Regulation (EU) 2015/35).
+
+
+c0290 - Subordinated liabilities
+--------------------------------
+
+
+This is the value of subordinated liabilities held in each participations in financial and credit institutions which are considered strategic as defined in Article 171 of the Delegated Regulation (EU) 2015/35) and which are included in the calculation of the group solvency on the basis of method 1.
+
+
+c0300 - Name of related undertaking
+-----------------------------------
+
+
+This is the name of the related undertaking that is financial or credit institution in which the participation is held. The participations in this related undertakings is strategic (as defined in Article 171 of the Delegated Regulation (EU) 2015/35)), not included in the calculation of the group solvency on the basis of method 1 and not deducted according to art 68(1) and art 68(2).
+
+
+c0310 - Asset ID Code
+---------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be unique and kept consistent over time.When the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies, it is necessary to specify the Asset ID code and the ISO 4217 alphabetic code of the currency, as in the following example: ‘code+EUR’
+
+
+c0320 - Asset ID Code type
+--------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingWhen the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies and the code in C0310 is defined by Asset ID code and the ISO 4217 alphabetic code of the currency, the Asset ID Code Type shall refer to option 9 and the option of the original Asset ID Code, as in the following example for which the code reported was ISIN code+currency: ‘9/1’.
+
+
+c0330 - Total
+-------------
+
+
+This is the total value for all tiers of each participation in related undertakings that are financial and credit institutions which are strategic, not included in the calculation of the group solvency on the basis of method 1 and which are not deducted according to Article 68(1) and Article 68(2) of Delegated Regulation (EU) 2015/35, meaning the sum of:.1)the value of strategic participations in financial and credit institutions which are not deducted according to both Article 68(1) and 68(2) of Delegated Regulation (EU) 2015/35, because the sum of participations in financial and credit institutions is less than 10 %,2)the remainder of the strategic participations which are deducted following the Article 68(2) of Delegated Regulation (EU) 2015/35.
+
+
+c0340 - Type 1 Equity
+---------------------
+
+
+This is the value of each participation in related undertakings that are financial and credit institutions which are strategic, not included in the calculation of the group solvency on the basis of method 1, not deducted according to Article 68(1) and Article 68(2) of Delegated Regulation (EU) 2015/35and held in Type 1 equities, meaning the sum of:.1)the value of strategic participations in financial and credit institutions which are not deducted according to both Article 68(1) and 68(2) of Delegated Regulation (EU) 2015/35, because the sum of participations in financial and credit institutions is less than 10 %,2)the remainder of the strategic participations which are deducted following the Article 68(2) of Delegated Regulation (EU) 2015/35.Type 1 equity has the meaning as defined in Article 168 (2) of the Delegated Regulation (EU) 2015/35.
+
+
+c0350 - Type 2 Equity
+---------------------
+
+
+This is the value of each participation in related undertakings that are financial and credit institutions which are strategic, not included in the calculation of the group solvency on the basis of method 1, not deducted according to Article 68(1) and Article 68(2) of Delegated Regulation (EU) 2015/35 and held in Type 2 equities, meaning the sum of:.1)the value of strategic participations in financial and credit institutions which are not deducted according to both Article 68(1) and 68(2) of Delegated Regulation (EU) 2015/35, because the sum of participations in financial and credit institutions is less than 10 %,2)the remainder of the strategic participations which are deducted following the Article 68(2) of Delegated Regulation (EU) 2015/35.Type 2 equity has the meaning as defined in Article 168 (3) of the Delegated Regulation (EU) 2015/35.
+
+
+c0360 - Subordinated liabilities
+--------------------------------
+
+
+This is the value of each participation in related undertakings that are financial and credit institutions which are strategic, not included in the calculation of the group solvency on the basis of method 1, not deducted according to Article 68(1) and Article 68(2) of Delegated Regulation (EU) 2015/35 and held in subordinated liabilities, meaning the sum of:.1)the value of strategic participations in financial and credit institutions which are not deducted according to both Article 68(1) and 68(2) of Delegated Regulation (EU) 2015/35, because the sum of participations in financial and credit institutions is less than 10 %,2)the remainder of the strategic participations which are deducted following the Article 68(2) of Delegated Regulation (EU) 2015/35.
+
+
+c0370 - Name of related undertaking
+-----------------------------------
+
+
+This is the name of the related undertaking that are financial and credit institutions in which the participation is held. These are participations in related undertakings which are not strategic and not deducted according to art 68(1) and 68 (2) of Delegated Regulation (EU) 2015/35.
+
+
+c0380 - Asset ID Code
+---------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be unique and kept consistent over time.When the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies, it is necessary to specify the Asset ID code and the ISO 4217 alphabetic code of the currency, as in the following example: ‘code+EUR’
+
+
+c0390 - Asset ID Code type
+--------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingWhen the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies and the code in C0380 is defined by Asset ID code and the ISO 4217 alphabetic code of the currency, the Asset ID Code Type shall refer to option 9 and the option of the original Asset ID Code, as in the following example for which the code reported was ISIN code+currency: ‘9/1’.
+
+
+c0400 - Total
+-------------
+
+
+This is the total value for all tiers of each participation in related undertakings that are financial and credit institutions, which are not strategic and which are not deducted according to art 68(1) and 68 (2) of Delegated Regulation (EU) 2015/35 meaning the sum of:.1)the value of non–strategic participations in financial and credit institutions which are not deducted according to both Articles 68(1) and 68(2) of Delegated Regulation (EU) 2015/35, because the sum of participations in financial and credit institutions is less than 10 %,2)the remainder of the non–strategic participations which are deducted following the Article 68(2) of Delegated Regulation (EU) 2015/35.
+
+
+c0410 - Type 1 Equity
+---------------------
+
+
+This is the value of each participation in related undertakings that are financial and credit institutions which are not strategic, not deducted according to art 68(1) and art 68(2) of Delegated Regulation (EU) 2015/35 and held in Type 1 equities, meaning the sum of:.1)the value of non–strategic participations in financial and credit institutions which are not deducted according to both Articles 68(1) and 68(2) of Delegated Regulation (EU) 2015/35, because the sum of participations in financial and credit institutions is less than 10 %,2)the remainder of the non–strategic participations which are deducted following the Article 68(2) of Delegated Regulation (EU) 2015/35.Type 1 equity has the meaning as defined in Article 168 (2) of the Delegated Regulation (EU) 2015/35.
+
+
+c0420 - Type 2 Equity
+---------------------
+
+
+This is the value of each participation in related undertakings that are financial and credit institutions, which are not strategic, not deducted according to art 68(1) and art 68(2) of Delegated Regulation (EU) 2015/35 and held in Type 2 equities, meaning the sum of:.1)the value of non–strategic participations in financial and credit institutions which are not deducted according to both Article 68(1) and 68(2) of Delegated Regulation (EU) 2015/35, because the sum of participations in financial and credit institutions is less than 10 %,2)the remainder of the non–strategic participations which are deducted following the Article 68(2) of Delegated Regulation (EU) 2015/35.Type 2 equity has the meaning as defined in Article 168 (3) of the Delegated Regulation (EU) 2015/35.
+
+
+c0430 - Subordinated liabilities
+--------------------------------
+
+
+This is the value of each participation in related undertakings that are financial and credit institutions, which are not strategic, not deducted according to art 68(1) and art 68(2) of Delegated Regulation (EU) 2015/35 and held in subordinated liabilities, meaning the sum of:.1)the value of non–strategic participations in financial and credit institutions which are not deducted according to both Article 68(1) and 68(2) of Delegated Regulation (EU) 2015/35, because the sum of participations in financial and credit institutions is less than 10 %,2)the remainder of the non–strategic participations which are deducted following the Article 68(2) of Delegated Regulation (EU) 2015/35.
+
+
+c0440 - Name of related undertaking
+-----------------------------------
+
+
+This is the name of the related undertaking in which the participation is held.These are participations which are not in financial and credit institutions and which are considered strategic.
+
+
+c0450 - Asset ID Code
+---------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be unique and kept consistent over time.When the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies, it is necessary to specify the Asset ID code and the ISO 4217 alphabetic code of the currency, as in the following example: ‘code+EUR’
+
+
+c0460 - Asset ID Code type
+--------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingWhen the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies and the code in C0450 is defined by Asset ID code and the ISO 4217 alphabetic code of the currency, the Asset ID Code Type shall refer to option 9 and the option of the original Asset ID Code, as in the following example for which the code reported was ISIN code+currency: ‘9/1’.
+
+
+c0470 - Total
+-------------
+
+
+This is the total value held for all tiers in each participation that are not financial and credit institutions and that are considered strategic.
+
+
+c0480 - Type 1 Equity
+---------------------
+
+
+This is the value of type 1 equity held in each participation that are not financial and credit institutions and that are considered strategic.Type 1 equity has the meaning as defined in Article 168 (2) of the Delegated Regulation (EU) 2015/35).
+
+
+c0490 - Type 2 Equity
+---------------------
+
+
+This is the value of type 2 equity held in each participation that are not financial and credit institutions and that are considered strategic.Type 2 equity has the meaning as defined in Article 168 (3) of Delegated Regulation (EU) 2015/35.
+
+
+c0500 - Subordinated liabilities
+--------------------------------
+
+
+This is the value of subordinated liabilities held in each participation that are not financial and credit institutions and that are considered strategic.
+
+
+c0510 - Name of related undertaking
+-----------------------------------
+
+
+This is the name of the related undertaking in which the participation is held.These are participations which are not in financial and credit institutions and which are not considered strategic.
+
+
+c0520 - Asset ID Code
+---------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be unique and kept consistent over time.When the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies, it is necessary to specify the Asset ID code and the ISO 4217 alphabetic code of the currency, as in the following example: ‘code+EUR’
+
+
+c0530 - Asset ID Code type
+--------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingWhen the same Asset ID Code needs to be reported for one asset that is issued in 2 or more different currencies and the code in C0520 is defined by Asset ID code and the ISO 4217 alphabetic code of the currency, the Asset ID Code Type shall refer to option 9 and the option of the original Asset ID Code, as in the following example for which the code reported was ISIN code+currency: ‘9/1’.
+
+
+c0540 - Total
+-------------
+
+
+This is the total value held for all tiers in each participation that are not financial and credit institutions and that are not considered strategic.
+
+
+c0550 - Type 1 Equity
+---------------------
+
+
+This is the value of type 1 equity held in each participation that are not financial and credit institutions and that are not considered strategic.Type 1 equity has the meaning as defined in Article 168 (2) of the Delegated Regulation (EU) 2015/35.
+
+
+c0560 - Type 2 Equity
+---------------------
+
+
+This is the value of type 2 equity held in each participation that are not financial and credit institutions and that are not considered strategic.Type 2 equity has the meaning as defined in Article 168 (3) of Delegated Regulation (EU) 2015/35.
+
+
+c0570 - Subordinated liabilities
+--------------------------------
+
+
+This is the value of subordinated liabilities held in each participations that are not financial and credit institutions and that are not considered strategic.
+
+
+r0040c0580 - Total participations in related undertakings that are financial and credit institutions –Total
+-----------------------------------------------------------------------------------------------------------
+
+
+This is the total value of participations in undertakings which are financial and credit institutions.
+
+
+r0040c0590 - Total participations in related undertakings that are financial and credit institutions — Type 1 Equity
+--------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 1 Equity of participations in undertakings which are financial and credit institutions.Type 1 equity has the meaning as defined in Article 168 (2) of the Delegated Regulation (EU) 2015/35.
+
+
+r0040c0600 - Total participations in related undertakings that are financial and credit institutions — Type 2 Equity
+--------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 2 Equity of participations in undertakings which are financial and credit institutions.Type 2 equity has the meaning as defined in Article 168 (3) of Delegated Regulation (EU) 2015/35.
+
+
+r0040c0610 - Total participations in related undertakings that are financial and credit institutions — Subordinated liabilities
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Subordinated liabilities of participations in undertakings which are financial and credit institutions.
+
+
+r0050c0580 - Total participations in related undertakings that are financial and credit institutions, of which strategic (method 1 or less than 10 % not method –Total
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of strategic participations in undertakings (method 1 or less than 10 % not method 1) which are financial and credit institutions.
+
+
+r0050c0590 - Total participations in related undertakings that are financial and credit institutions, of which strategic (method 1 or less than 10 % not method 1) — Type 1 Equity
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 1 Equity of strategic participations in undertakings (method 1 or less than 10 % not method 1) which are financial and credit institutions.Type 1 equity has the meaning as defined in Article 168 (2) of the Delegated Regulation (EU) 2015/35.
+
+
+r0050c0600 - Total participations in related undertakings that are financial and credit institutions, of which strategic (method 1 or less than 10 % not method 1) — Type 2 Equity
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 2 Equity of strategic participations in undertakings (method 1 or less than 10 % not method 1) which are financial and credit institutions.Type 2 equity has the meaning as defined in Article 168 (3) of Delegated Regulation (EU) 2015/35.
+
+
+r0050c0610 - Total participations in related undertakings that are financial and credit institutions, of which strategic (method 1 or less than 10 % not method 1) — Subordinated liabilities
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Subordinated liabilities of strategic participations in undertakings (method 1 or less than 10 % not method 1) which are financial and credit institutions.
+
+
+r0060c0580 - Total participations in related undertakings that are financial and credit institutions of which non–strategic (less than 10 %) –Total
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of not strategic participations in undertakings (less than 10 %) which are financial and credit institutions.
+
+
+r0060c0590 - Total participations in related undertakings that are financial and credit institutions of which non–strategic (less than 10 %) — Type 1 Equity
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 1 Equity of not strategic participations in undertakings (less than 10 % — C0500) which are financial and credit institutions.Type 1 equity has the meaning as defined in Article 168 (2) of the Delegated Regulation (EU) 2015/35.
+
+
+r0060c0600 - Total participations in related undertakings that are financial and credit institutions of which non–strategic (less than 10 %) — Type 2 Equity
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 2 Equity of not strategic participations in undertakings (less than 10 %) which are financial and credit institutions.Type 2 equity has the meaning as defined in Article 168 (3) of Delegated Regulation (EU) 2015/35.
+
+
+r0060c0610 - Total participations in related undertakings that are financial and credit institutions of which non–strategic (less than 10 %) — Subordinated liabilities
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Subordinated liabilities of not strategic participations in undertakings (less than 10 %) which are financial and credit institutions.
+
+
+r0070c0580 - Total participations in related undertakings that are not financial and credit institutions –Total
+---------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of participations in undertakings which are not financial and credit institutions. This is the sum of C0470 and C0540.
+
+
+r0070c0590 - Total participations in related undertakings that are not financial and credit institutions — Type 1 Equity
+------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 1 Equities held in participations in undertakings which are not financial and credit institutions.Type 1 equity has the meaning as defined in Article 168 (2) of Delegated Regulation (EU) 2015/35. This is the sum of C0480 and C550.
+
+
+r0070c0600 - Total participations in related undertakings that are not financial and credit institutions — Type 2 Equity
+------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 2 Equities held in participations in undertakings which are not financial and credit institutions.Type 2 equity has the meaning as defined in Article 168 (3) of Delegated Regulation (EU) 2015/35. This is the sum of C0490 and C0560)
+
+
+r0070c0610 - Total participations in related undertakings that are not financial and credit institutions — Subordinated liabilities
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of subordinated liabilities held in participations in undertakings which are not financial and credit institutions. This is the sum of C0500 and C0570.
+
+
+r0080c0580 - Total participations in related undertakings that are not financial and credit institutions — Total– of which strategic
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of strategic participations in undertakings which are not financial and credit institutions. This is the sum of C0470.
+
+
+r0080c0590 - Total participations in related undertakings that are not financial and credit institutions — Type 1 Equity — of which strategic
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 1 Equities held in strategic participations in undertakings which are not financial and credit institutions.Type 1 equity has the meaning as defined in Article 168 (2) of Delegated Regulation (EU) 2015/35. This is the sum of C0480.
+
+
+r0080c0600 - Total participations in related undertakings that are not financial and credit institutions — Type 2 Equity — of which strategic
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 2 Equities held in strategic participations in undertakings which are not financial and credit institutions. This is the sum of C0490).
+
+
+r0080c0610 - Total participations in related undertakings that are not financial and credit institutions — Subordinated liabilities — of which strategic
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of subordinated liabilities held in strategic participations in undertakings which are not financial and credit institutions. This is the sum of C0500.
+
+
+r0090c0580 - Total participations in related undertakings that are not financial and credit institutions — total — of which non–strategic
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of non–strategic participations in undertakings which are not financial and credit institutions. This is the sum of C0540.
+
+
+r0090c0590 - Total participations in related undertakings that are not financial and credit institutions — Type 1 Equity — of which non–strategic
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 1 Equities held in non–strategic participations in undertakings which are not financial and credit institutions. Type 1 equity has the meaning as defined in Article 168 (2) of Delegated Regulation (EU) 2015/35. This is the sum of C0550.
+
+
+r0090c0600 - Total participations in related undertakings that are not financial and credit institutions — Type 2 Equity — of which non–strategic
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of Type 2 Equities held in non–strategic participations in undertakings which are not financial and credit institutions. This is the sum of C0560.
+
+
+r0090c0610 - Total participations in related undertakings that are not financial and credit institutions — Subordinated liabilities — of which non–strategic
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+This is the total value of subordinated liabilities held in non–strategic participations in undertakings which are not financial and credit institutions. This is the sum of C0570.
+
+
+c0620 - Total of all participations
+-----------------------------------
+
+
+This is the total value of all participations.
+
+

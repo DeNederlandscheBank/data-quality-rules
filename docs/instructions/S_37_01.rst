@@ -1,0 +1,136 @@
+============================
+S.37.01 - Risk concentration
+============================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for groups.
+
+This template shall include all significant risk concentrations between entities in scope of group supervision and third parties, irrespective of the choice of calculation method or whether sectoral solvency rules have been used for the purposes of the group solvency calculation.
+
+The aim is to list the most important exposure (value of the exposure) by counterparty and by type of exposure (group or/and entity) outside the scope of the re/insurance group (maximum exposure per contract and if a reinsurer fails; off balance sheet risk concentration). It can be understood as the maximum possible exposure on a contractual basis and not necessarily be reflected on the balance sheet, but not taking into account any risk mitigation instruments or techniques. Thresholds can be fixed by the group supervisor after consulting the group itself and the college.
+
+
+c0010 - Name of the external counterparty
+-----------------------------------------
+
+
+This is the name of the external counterparty of the group.
+
+
+c0020 - Identification code of the counterparty of the Group
+------------------------------------------------------------
+
+
+The Legal Entity Identifier (LEI) attached to the investor/buyer/transferee if existent.If none is available this item shall not be reported.
+
+
+c0030 - ID code type of the counterparty of the Group
+-----------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code of the counterparty of the Group’: 1 — LEI 9 — None
+
+
+c0040 - Country of the exposure
+-------------------------------
+
+
+Identify the ISO Code (3166–1 alpha–2) of country from which the exposure comes from. If there is an issuer of for example a bond, this is the country where the headquarter of the entity issuing the bond is located.
+
+
+c0050 - Nature of exposure
+--------------------------
+
+
+Description of the type of exposure. Derivatives and collaterals are also to be included as well as exposures to sovereign counterparties. If there is more than one type of exposure per counterparty, separate entries have to be reported in separate rows. The following closed list shall be used:: 1 — Assets — bonds 2 — Assets — equity 3 — Assets — reinsurance 4 — Assets — others 5 — Liabilities — insurance 6 — Liabilities — loans 7 — Liabilities — debts 8 — Liabilities — others 9 — Off–balance–sheet (contingent asset) 10 — Off–balance–sheet (contingent liability)Derivatives shall be reported net of collateral.
+
+
+c0060 - Identification code of the exposure
+-------------------------------------------
+
+
+Exposure ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available. This code must be consistent over time.For exposures types 3 and 5 of C0050 reporting should be done by the counterparty and this cell should not be reported.
+
+
+c0070 - Identification code type of the exposure
+------------------------------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertakingFor exposures types 3 and 5 of C0050 reporting should be done by counterparty and this cell should not be reported.If a particular exposure consists of more than one code, each code shall be listed in a separate line.
+
+
+c0080 - External rating
+-----------------------
+
+
+Rating of the exposure at the reporting reference date issued by the nominated credit assessment institution (ECAI).
+
+
+c0090 - Nominated ECAI
+----------------------
+
+
+Identify the credit assessment institution (ECAI) giving the external rating.
+
+
+c0100 - Sector
+--------------
+
+
+Identify the economic sector of issuer based on the latest version of NACE code. The letter reference of the NACE code identifying the Section should be used as a minimum for identifying sectors (e.g. ‘A’ or ‘A0111’ would be acceptable) except for the NACE relating to Financial and Insurance activities, for which the letter identifying the Section followed by the 4 digits code for the class should be used (e.g. ‘K6411’).
+
+
+c0110 - Group entity subject to the exposure
+--------------------------------------------
+
+
+List of all involved entities of the group in the exposure. It concerns all entities and for each entity a separate entry has to be reported. If more than one entity of the group is involved, for each entity a separate row is necessary.
+
+
+c0120 - Identification code of the group entity
+-----------------------------------------------
+
+
+The unique identification code as reported in S.32.01.Identification code by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of group supervision: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of group supervision, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0130 - ID code type of the group entity
+----------------------------------------
+
+
+Identification of the code used in item ‘Identification code of the group entity’: 1 — LEI 2 — Specific code
+
+
+c0140 - Maturity (asset side) / Validity (liability side)
+---------------------------------------------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the maturity date of assets and the validity date of liabilities. A fixed date should be indicated for the maturity date of assets and for the validity date of liabilities which should be understood as a contractual termination date or the last projected cash flow point depending on which is the earlier of both.If more than one maturity date is applicable, each maturity date shall be listed in a separate line.
+
+
+c0150 - Value of the exposure
+-----------------------------
+
+
+Solvency II value of the exposure as of the reporting date for the balance–sheet type of exposures (code 1 to 8 from C0050) and maximum possible value, if possible, regardless of their probability for off–balance sheet items (code 9 to 10 from C0050).It is also applicable for reinsurance contracts:—For reinsurance ceded the amount of the reinsurance recoverables shall be reported;—For reinsurance accepted the amount of technical provisions shall be reported.
+
+
+c0160 - Currency
+----------------
+
+
+Identify the ISO 4217 alphabetic code of the original currency of the exposure.
+
+
+c0170 - Maximum amount to be paid by the reinsurer
+--------------------------------------------------
+
+
+Only applicable if the exposure is ‘Assets — Reinsurance’: In the case the reinsurer has to pay resulting from a reinsurance contract, this is the maximum amount to be payable to the contract party by the reinsurer taking into account the specificities of the reinsurance contract.
+
+

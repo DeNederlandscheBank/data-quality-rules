@@ -1,0 +1,184 @@
+=============================
+S.04.01 - Activity by country
+=============================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template is to be reported from an accounting perspective, i.e.: Local GAAP or IFRS if accepted as local GAAP. It shall however be fulfilled using the lines of business as defined in Annex I to Delegated Regulation (EU) 2015/35. Undertakings shall use the recognition and valuation basis as for the published financial statements, no new recognition or re–valuation is required.
+
+When the insurance and reinsurance undertaking has business outside the home–country information shall be reported distinguishing between the home country, each of the other countries belonging to the European Economic Area and material non–EEA countries;
+
+a)
+
+The information in relation to EEA countries shall cover the following:
+
+i.
+
+Business underwritten by the undertaking in the country where it is established;
+
+ii.
+
+Business underwritten by the undertaking under freedom to provide services (‘FPS’) in other EEA members;
+
+iii.
+
+Business underwritten by each EEA branch in the country where they are established;
+
+iv.
+
+Business underwritten by each EEA branch under freedom to provide services in other EEA members;
+
+v.
+
+Premiums written in the country under freedom to provide services by the undertaking or any of the undertaking's EEA branches;
+
+b)
+
+Material non–EEA shall be reported when needed to report at least 90 % of the gross written premiums or if gross written premiums of a non–EEA country are higher than 5 % of the total gross written premiums;
+
+c)
+
+The information not reported by non–EEA country shall be reported as a sum. The localisation of business by country shall depend on where the business is underwritten, meaning that the business performed by a branch under FPS shall be reported under the country where the branch is established.
+
+Information shall include direct business and accepted reinsurance business and be presented gross, without deduction of reinsurance ceded.
+
+
+z0010 - Line of Business
+------------------------
+
+
+Identification of the line of business as defined in Annex I to Delegated Regulation (EU) 2015/35, reported. The following closed list shall be used: 1 — Medical expense insurance 2 — Income protection insurance 3 — Workers' compensation insurance 4 — Motor vehicle liability insurance 5 — Other motor insurance 6 — Marine, aviation and transport insurance 7 — Fire and other damage to property insurance 8 — General liability insurance 9 — Credit and suretyship insurance 10 — Legal expenses insurance 11 — Assistance 12 — Miscellaneous financial loss 13 — Proportional medical expense reinsurance 14 — Proportional income protection reinsurance 15 — Proportional workers' compensation reinsurance 16 — Proportional motor vehicle liability reinsurance 17 — Proportional other motor reinsurance 18 — Proportional marine, aviation and transport reinsurance 19 — Proportional fire and other damage to property reinsurance 20 — Proportional general liability reinsurance 21 — Proportional credit and suretyship reinsurance 22 — Proportional legal expenses reinsurance 23 — Proportional assistance reinsurance 24 — Proportional miscellaneous financial loss reinsurance 25 — Non–proportional health reinsurance 26 — Non–proportional casualty reinsurance 27 — Non–proportional marine, aviation and transport reinsurance 28 — Non–proportional property reinsurance 29 — Health insurance 30 — Insurance with profit participation 31 — Index–linked and unit–linked insurance 32 — Other life insurance 33 — Annuities stemming from non–life insurance contracts and relating to health insurance obligations 34 — Annuities stemming from non–life insurance contracts and relating to insurance obligations other than health insurance obligations 35 — Health reinsurance 36 — Life reinsurance
+
+
+c0010 - Undertaking — Business underwritten in the home country, by the undertaking
+-----------------------------------------------------------------------------------
+
+
+Amount of business underwritten in the home country, by the undertaking.This excludes the business underwritten by branches and it excludes the business underwritten through FPS, by the undertaking in the EEA countries different from the home country.
+
+
+c0020 - Undertaking — Business underwritten through FPS, by the undertaking in the EEA countries different from the home country
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+Business underwritten through FPS, by the undertaking in the EEA countries different from the home country.This excludes the business underwritten by branches.
+
+
+c0030 - Undertaking — Business underwritten through FPS in the home country, by any EEA branch
+----------------------------------------------------------------------------------------------
+
+
+Business underwritten through FPS in the home country, by any EEA branch
+
+
+c0040 - All EEA members — Total business underwritten by all EEA branches in the country where they are established
+-------------------------------------------------------------------------------------------------------------------
+
+
+Total of business underwritten by EEA branches in the country where they are established.This shall be the sum of C0080 for all branches.
+
+
+c0050 - All EEA members — Total business underwritten through FPS, by all EEA branches
+--------------------------------------------------------------------------------------
+
+
+Total of business underwritten through FPS by EEA branches in countries of EEA where they are not established.This shall be the sum of C0090 for all branches.
+
+
+c0060 - All EEA members — Total of the business underwritten through FPS by the undertaking and all EEA branches
+----------------------------------------------------------------------------------------------------------------
+
+
+Total of business underwritten through FPS by the undertaking and all EEA branches in EEA countries where they are not established.This shall be the sum of C0100 for all branches.
+
+
+c0070 - Total business underwritten by all non–EEA branches
+-----------------------------------------------------------
+
+
+Amount of the business underwritten by all non–EEA branches.
+
+
+c0080 - By EEA member — Business underwritten in the considered country, by the EEA branch established in this country
+----------------------------------------------------------------------------------------------------------------------
+
+
+Amount of business underwritten in the country, by the EEA branch that is established in this country.
+
+
+c0090 - By EEA member — Business underwritten through FPS, by the EEA branch established in the considered country
+------------------------------------------------------------------------------------------------------------------
+
+
+Amount of business underwritten through FPS, by the EEA branch in the EEA countries where it is not established.
+
+
+c0100 - By EEA member — Business underwritten in the considered country through FPS, by the undertaking or any EEA branch
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of business underwritten through FPS, by the undertaking or any EEA branch in the considered country.This column shall be reported in relation to all EEA countries were the undertaking or any branch does business through FPS, except for the home country. In this latter case the relevant amount shall be reported in C0030.
+
+
+c0110 - By material non–EEA member — Business underwritten by material non–EEA country branches
+-----------------------------------------------------------------------------------------------
+
+
+Amount of business underwritten by material non–EEA country branches in the country where it is established.
+
+
+r0010c0080 - Country
+--------------------
+
+
+ISO 3166–1 alpha–2 code of the EEA member where branch is established.
+
+
+r0010c0090 - By EEA member — Country
+------------------------------------
+
+
+ISO 3166–1 alpha–2 code of the EEA member where the branch is established
+
+
+r0010c0100 - By EEA member — Country
+------------------------------------
+
+
+ISO 3166–1 alpha–2 code of the EEA member where FPS is done
+
+
+r0010c0110 - By material non–EEA member — Country
+-------------------------------------------------
+
+
+ISO 3166–1 alpha–2 code of the non–EEA member where branch is established
+
+
+r0020 - Premiums written
+------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts due during the financial year in respect of insurance contracts, regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+r0030 - Claims incurred
+-----------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to insurance contracts.This shall exclude claims management expenses.
+
+
+r0040 - Commissions
+-------------------
+
+
+Acquisition expenses incurred, including renewal expenses, which can be identified at the level of individual insurance contract and have been incurred because the undertaking has issued that particular contract. These are commission costs, costs of selling, underwriting and initiating an insurance contract that has been issued. It includes movements in deferred acquisition costs.For reinsurance undertakings, definition shall be applied mutatis mutandis.
+
+

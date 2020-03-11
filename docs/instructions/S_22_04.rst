@@ -1,0 +1,94 @@
+=======================================================================
+S.22.04 - Information on the transitional on interest rates calculation
+=======================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template shall be reported by currency for which the transitional adjustment to the relevant risk-free interest rate term structure is applied. When filling C0020 only the guaranteed Best Estimate of obligations stemming from products providing a guaranteed rate shall be considered. The Future Discretionary Benefits shall not be considered.
+
+The assessment to distinguish between the Solvency I interest rate intervals might be done by Homogeneous Risk Groups (HRG).
+
+
+z0010 - Currency
+----------------
+
+
+Identify the ISO 4217 alphabetic code of each of the currency for which the transitional adjustment to the relevant risk-free interest rate term structure is applied.
+
+
+c0010r0010 - Solvency I interest rate
+-------------------------------------
+
+
+The interest rate (as a decimal) as determined by the insurance or reinsurance undertaking in accordance with the laws, regulations and administrative provisions which are adopted pursuant to Article 20 of Directive 2002/83/EC at the last date of the application of that Directive.
+
+
+c0010r0020 - Annual effective rate
+----------------------------------
+
+
+The annual effective rate, calculated as the single discount rate that, where applied to the cash flows of the portfolio of admissible insurance and reinsurance obligations, results in a value that is equal to the value of the best estimate of the portfolio of admissible insurance and reinsurance obligations where the time value of money is taken into account using the relevant risk–free interest rate term structure referred to in Article 77(2) of Directive 2009/138/EC.
+
+
+c0010r0030 - Portion of the difference applied at the reporting date
+--------------------------------------------------------------------
+
+
+Percentage (as a decimal) of the difference between the Solvency I interest rate (R0010) and the Annual effective rate (R0020) (e.g. 1,00 at the beginning of the transitional period and 0,00 at the end).
+
+
+c0010r0040 - Adjustment to risk free rate
+-----------------------------------------
+
+
+Transitional adjustment to the risk free rate expressed as a percentage (as a decimal).
+
+
+c0020r0100 - Best estimate — Up to 0.5 per cent
+-----------------------------------------------
+
+
+Value of the best estimate of the insurance and reinsurance obligations for which the interest rate as determined by the insurance or reinsurance undertaking in accordance with the laws, regulations and administrative provisions which are adopted pursuant to Article 20 of Directive 2002/83/EC at the last date of the application of that Directive was up to 0,5 % (inclusive).Only the guaranteed Best Estimate of obligations stemming from products providing a guaranteed rate shall be considered. The Future Discretionary Benefits shall not be considered.
+
+
+c0020r0110 to r0200 - Best estimate — Best estimate
+---------------------------------------------------
+
+
+Value of the best estimate of the insurance and reinsurance obligations for which the interest rate as determined by the insurance or reinsurance undertaking in accordance with the laws, regulations and administrative provisions which are adopted pursuant to Article 20 of Directive 2002/83/EC at the last date of the application of that Directive was in the correspondent interval.The lower reference is exclusive and the higher reference is inclusive.Only the guaranteed Best Estimate of obligations stemming from products providing a guaranteed rate shall be considered. The Future Discretionary Benefits shall not be considered.
+
+
+c0020r0210 - Best estimate — Above 8.0 per cent
+-----------------------------------------------
+
+
+Value of the best estimate of the insurance and reinsurance obligations for which the interest rate as determined by the insurance or reinsurance undertaking in accordance with the laws, regulations and administrative provisions which are adopted pursuant to Article 20 of Directive 2002/83/EC at the last date of the application of that Directive was above 8,0 % (exclusive).Only the guaranteed Best Estimate of obligations stemming from products providing a guaranteed rate shall be considered. The Future Discretionary Benefits shall not be considered.
+
+
+c0030r0100 - Average duration of insurance and reinsurance obligations — Up to 0.5 per cent
+-------------------------------------------------------------------------------------------
+
+
+Residual Macaulay duration of the insurance and reinsurance obligations for which the interest rate as determined by the insurance or reinsurance undertaking in accordance with the laws, regulations and administrative provisions which are adopted pursuant to Article 20 of Directive 2002/83/EC at the last date of the application of that Directive was up to 0,5 % (inclusive).
+
+
+c0030r0110 to r0200 - Average duration of insurance and reinsurance obligations — Average duration of insurance and reinsurance obligations
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Residual Macaulay duration of the insurance and reinsurance obligations for which the interest rate as determined by the insurance or reinsurance undertaking in accordance with the laws, regulations and administrative provisions which are adopted pursuant to Article 20 of Directive 2002/83/EC at the last date of the application of that Directive was in the correspondent interval.The lower reference is exclusive and the higher reference is inclusive.
+
+
+c0030r0210 - Average duration of insurance and reinsurance obligations — Above 8.0 per cent
+-------------------------------------------------------------------------------------------
+
+
+Residual Macaulay duration of the insurance and reinsurance obligations for which the interest rate as determined by the insurance or reinsurance undertaking in accordance with the laws, regulations and administrative provisions which are adopted pursuant to Article 20 of Directive 2002/83/EC at the last date of the application of that Directive was above 8,0 % (exclusive).
+
+

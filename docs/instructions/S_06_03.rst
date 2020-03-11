@@ -1,0 +1,107 @@
+====================================================================
+S.06.03 - Collective investment undertakings , look–through approach
+====================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to quarterly and annual submission of information for individual entities.
+
+This template contains information on the look through of collective investment undertakings or investments packaged as funds, including when they are participations, by underlying asset category, country of issue and currency. The look through shall be performed until the asset categories, countries and currencies are identified. In case of funds of funds the look–through shall follow the same approach.
+
+For the identification of countries the look–through should be implemented in order to identify all countries that represent more than 5 % of the fund being looked–through and until 90 % of the value of the fund is identified by country.
+
+Quarterly information shall only be reported when the ratio of collective investments undertakings held by the undertaking to total investments, measured as the ratio between item C0010/R0180 of template S.02.01 plus collective investments undertakings included in item C0010/R0220 of template S.02.01 plus collective investments undertakings included in item C0010/R0090 and the sum of item C0010/R0070 and C0010/RC0220 of template S.02.01, is higher than 30 %.
+
+Items shall be reported with positive values unless otherwise stated in the respective instructions.
+
+The asset categories referred to in this template are the ones defined in Annex IV — Assets Categories of this Regulation and references to CIC codes refer to Annex VI — CIC table of this Regulation.
+
+
+c0010 - Collective Investments Undertaking ID Code
+--------------------------------------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the undertaking, when the options above are not available, and must be consistent over time
+
+
+c0020 - Collective Investments Undertaking ID Code type
+-------------------------------------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO/6166 for ISIN 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertaking
+
+
+c0030 - Underlying asset category
+---------------------------------
+
+
+Identify the assets categories, receivables and derivatives within the collective investment undertaking. One of the options in the following closed list shall be used: 1 — Government bonds 2 — Corporate bonds 3L — Listed equity 3X — Unlisted equity 4 — Collective Investment Undertakings 5 — Structured notes 6 — Collateralised securities 7 — Cash and deposits 8 — Mortgages and loans 9 — Properties 0 — Other investments (including receivables) A — Futures B-Call Options C — Put Options D — Swaps E — Forwards F — Credit derivatives L — LiabilitiesWhen the look–through regards a fund of funds, category ‘4 — Collective Investment Units’ shall be used only for non–material residual values.
+
+
+c0040 - Country of issue
+------------------------
+
+
+Breakdown of each asset category identified in C0030 by issuer country. Identify the country of localisation of the issuer.The localisation of the issuer is assessed by the address of the entity issuing the asset.One of the options shall be used:—ISO 3166–1 alpha–2 code—XA: Supranational issuers—EU: European Union Institutions—AA: aggregated countries due to application of thresholdThis item is not applicable to Categories 8 and 9 as reported in C0030.
+
+
+c0050 - Currency
+----------------
+
+
+Identify whether the currency of the asset category is the reporting currency or a foreign currency. All other currencies than the reporting currency are referred to as foreign currencies. One of the options in the following closed list shall be used: 1 — Reporting currency 2 — Foreign currency
+
+
+c0060 - Total amount
+--------------------
+
+
+Total amount invested by asset category, country and currency through collective investment undertakings.For liabilities a positive amount shall be reported.For derivatives the Total amount can be positive (if an asset) or negative (if a liability).
+
+
+c0010 - Collective Investments Undertaking ID Code
+--------------------------------------------------
+
+
+Asset ID code using the following priority:—ISO 6166 code of ISIN when available—Other recognised codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC)—Code attributed by the group, when the options above are not available, and must be consistent over time.
+
+
+c0020 - Collective Investments Undertaking ID Code type
+-------------------------------------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO/6166 for ISIN 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the group
+
+
+c0030 - Underlying asset category
+---------------------------------
+
+
+Identify the assets categories, receivables and derivatives within the collective investment undertaking. One of the options in the following closed list shall be used: 1 — Government bonds 2 — Corporate bonds 3L — Listed equity 3X — Unlisted equity 4 — Collective Investment Undertakings 5 — Structured notes 6 — Collateralised securities 7 — Cash and deposits 8 — Mortgages and loans 9 — Properties 0 — Other investments (including receivables) A — Futures B-Call Options C — Put Options D — Swaps E — Forwards F — Credit derivatives L — LiabilitiesWhen the look–through regards a fund of funds, category ‘4 — Collective Investment Units’ shall be used only for non–material residual values.
+
+
+c0040 - Country of issue
+------------------------
+
+
+Breakdown of each asset category identified in C0030 by issuer country. Identify the country of localisation of the issuer.The localisation of the issuer is assessed by the address of the entity issuing the asset.One of the options shall be used:—ISO 3166–1 alpha–2 code—XA: Supranational issuers—EU: European Union Institutions—AA: aggregated countries due to application of thresholdThis item is not applicable to Categories 8 and 9 as reported in C0030.
+
+
+c0050 - Currency
+----------------
+
+
+Identify whether the currency of the asset category is the reporting currency or a foreign currency. All other currencies than the reporting currency are referred to as foreign currencies. One of the options in the following closed list shall be used: 1 — Reporting currency 2 — Foreign currency
+
+
+c0060 - Total amount
+--------------------
+
+
+Total amount invested by asset category, country and currency through collective investment undertakings.For liabilities a positive amount shall be reported.For derivatives the Total amount can be positive (if an asset) or negative (if a liability).
+
+

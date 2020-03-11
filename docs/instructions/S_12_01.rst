@@ -1,0 +1,619 @@
+==================================================
+S.12.01 - Life and Health SLT Technical Provisions
+==================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to quarterly and annual submission of information for individual entities, ring fenced–funds, matching adjustment portfolios and remaining part.
+
+Undertakings may apply appropriate approximations in the calculation of the technical provisions as referred to in Article 21 of Delegated Regulation (EU) 2015/35. In addition, Article 59 of the Delegated Regulation (EU) 2015/35 may be applied to calculate the risk margin during the financial year.
+
+Line of business for life obligations: The lines of business, referred to in Article 80 of the Directive 2009/138/EC, as defined in Annex I to Delegated Regulation (EU) 2015/35. The segmentation shall reflect the nature of the risks underlying the contract (substance), rather than the legal form of the contract (form). By default, where an insurance or reinsurance contract covers risks across the lines of business undertakings shall, where possible, unbundled the obligations into the appropriate lines of business (Article 55 of Delegated Regulation (EU) 2015/35).
+
+Lines of business ‘Index–linked and unit–linked insurance’, ‘Other life insurance’ and ‘Health insurance’ are split between ‘Contracts without options and guarantees’ and ‘Contracts with options or guarantees’. For this split the following shall be considered:
+
+—
+
+‘Contracts without options and guarantees’ shall include the amounts related to contracts without any financial guarantees or contractual options, meaning that the technical provision calculation does not reflect the amount of any financial guarantees or contractual options. Contracts with non–material contractual options or financial guarantees that are not reflected in the technical provisions calculation shall also be reported in this column;
+
+—
+
+‘Contracts with options or guarantees’ shall include contracts that have either financial guarantees, contractual options, or both as far as the technical provision calculation reflect the existence of those financial guarantees or contractual options.
+
+The information reported shall be gross of reinsurance as information on Recoverables from reinsurance/SPV and Finite reinsurance is requested in specific rows.
+
+The information to be reported between R0010 and R0100 shall be after the volatility adjustment, the matching adjustment and the transitional adjustment to the relevant risk-free interest rate term structure if applied but shall not include the transitional deduction to technical provisions. The amount of transitional deduction to technical provisions is requested separately between rows R0110 and R0130.
+
+
+z0020 - Ring Fenced Fund/Matching adjustment portfolio or remaining part
+------------------------------------------------------------------------
+
+
+Identifies whether the reported figures are with regard to a RFF, matching adjustment portfolio or to the remaining part. One of the options in the following closed list shall be used: 1 — RFF/MAP 2 — Remaining part
+
+
+z0030 - Fund/Portfolio number
+-----------------------------
+
+
+Identification number for a ring fenced fund or matching adjustment portfolio. This number is attributed by the undertaking and must be consistent over time and with the fund/portfolio number reported in other templates.This item is to be completed only when item Z0020 = 1
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0010 - Technical provisions calculated as a whole
+--------------------------------------------------------------------------------------------------------
+
+
+Amount of Technical provisions calculated as a whole per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0010 - Technical provisions calculated as a whole — Total (Life other than health insurance, incl. Unit–Linked)
+---------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of technical provisions calculated as a whole for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0010 - Technical provisions calculated as a whole — Total (Health similar to life insurance)
+--------------------------------------------------------------------------------------------------
+
+
+Total amount of technical provisions calculated as a whole for Health similar to life insurance.
+
+
+c0020, c0030, c0060, c0090, c0100 to c0140, c0160, c0190, c0200r0020 - Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of recoverables from reinsurance/SPV and finite reinsurance (‘Finite Re’) after the adjustment for expected losses due to counterparty default of technical provisions (‘TP’) calculated as a whole per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0020 - Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole — Total (Life other than health insurance, incl. Unit–Linked)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default of technical provisions calculated as a whole for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0020 - Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default associated to TP calculated as a whole — Total (Health similar to life insurance)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default of technical provisions calculated as a whole for Health similar to life insurance.
+
+
+c0020, c0040, c0050, c0070, c0080, c0090, c0100 to c0140, c0170, c0180, c0190, c0200r0030 - Technical provisions calculated as a sum of Best Estimate (‘BE’) and Risk Margin (‘RM’), Gross Best Estimate
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of Gross Best estimate (no deduction of reinsurance, SPVs and Finite Re according to Article 77(2) of Directive 2009/138/EC) per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0030 - Technical provisions calculated as a sum of BE and RM, Gross Best Estimate — Total (Life other than health insurance, incl. Unit–Linked)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of Gross Best estimate (no deduction of reinsurance, SPVs and Finite Re according to Article 77(2) of Directive 2009/138/EC), for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0030 - Technical provisions calculated as a sum of BE and RM, Gross Best Estimate — Total (Health similar to life insurance)
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of Gross Best estimate (no deduction of reinsurance, SPVs and Finite Re according to Article 77(2) of Directive 2009/138/EC), for Health similar to life insurance.
+
+
+c0020, c0040, c0050, c0070, c0080, c0090, c0100, c0170, c0180, c0190, c0200r0040 - Total Recoverables from reinsurance/SPV and Finite Re before the adjustment for expected losses due to counterparty default
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of recoverables before adjustment for expected losses due to possibility of default of the reinsurer, as defined in Article 81 of Directive 2009/138/EC, including ceded intra group reinsurance, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0040 - Total Recoverables from reinsurance/SPV and Finite Re before the adjustment for expected losses due to counterparty default — Total (Life other than health insurance, incl. Unit–Linked)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of recoverables before adjustment for expected losses due to possibility of default of the reinsurer, as defined in art. 81 of Directive 2009/138/EC, including ceded intra group reinsurance, for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0040 - Total Recoverables from reinsurance/SPV and Finite Re before the adjustment for expected losses due to counterparty default — Total (Health similar to life insurance)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of the recoverables from reinsurance and SPVs before the adjustment for expected losses due to counterparty default for Health similar to life insurance.
+
+
+c0020, c0040, c0050, c0070, c0080, c0090, c0100, c0170, c0180, c0190, c0200r0050 - Recoverables from reinsurance (except SPV and Finite Re) before adjustment for expected losses
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of recoverables (before adjustment for expected losses) from ‘traditional’ reinsurance, i.e. without SPVs and Finite Reinsurance, calculated consistently with the boundaries of the contracts to which they relate, including ceded intra group reinsurance, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0050 - Total Recoverables from reinsurance (except SPV and Finite Re) before adjustment for expected losses — Total (Life other than health insurance, incl. Unit–Linked)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total Amount of recoverables (before adjustment for expected losses) from ‘traditional’ reinsurance, i.e. without SPVs and Finite Reinsurance, calculated consistently with the boundaries of the contracts to which they relate, including ceded intra group reinsurance, for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0050 - Total Recoverables from reinsurance (except SPV and Finite Re) before adjustment for expected losses — Total (Health similar to life insurance)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of recoverables from reinsurance (except SPVs and Finite Reinsurance) before adjustment for expected losses, calculated consistently with the boundaries of the contracts to which they relate, for Health similar to life insurance.
+
+
+c0020, c0040, c0050, c0070, c0080, c0090, c0100, c0170, c0180, c0190, c0200r0060 - Recoverables from SPV before adjustment for expected losses
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of recoverables from SPVs before adjustment for expected losses, calculated consistently with the boundaries of the contracts to which they relate, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, including ceded intra group reinsurance, per each line of business.
+
+
+c0150r0060 - Total Recoverables from SPV before adjustment for expected losses — Total (Life other than health insurance, incl. Unit–Linked)
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of recoverables from SPVs before adjustment for expected losses, calculated consistently with the boundaries of the contracts to which they relate, for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0060 - Total Recoverables from SPV before adjustment for expected losses — Total (Health similar to life insurance)
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of recoverables from SPVs before adjustment for expected losses for Health similar to life insurance
+
+
+c0020, c0040, c0050, c0070, c0080, c0090, c0100, c0170, c0180, c0190, c0200r0070 - Recoverables from Finite Re before adjustment for expected losses
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of recoverables from Finite Re before adjustment for expected losses, calculated consistently with the boundaries of the contracts to which they relate, including ceded intra group reinsurance, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0070 - Total Recoverables from Finite Re before adjustment for expected losses — Total (Life other than health insurance, incl. Unit–Linked)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of recoverables from Finite Re before adjustment for expected losses, calculated consistently with the boundaries of the contracts to which they relate, including ceded intra group reinsurance, for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0070 - Total Recoverables from Finite Re before adjustment for expected losses — Total (Health similar to life insurance)
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of recoverables from Finite Reinsurance before adjustment for expected losses for Health similar to life insurance.
+
+
+c0020, c0040, c0050, c0070, c0080, c0090, c0100 to c0140, c0170, c0180, c0190, c0200r0080 - Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of recoverables after adjustment for expected losses due to possibility of default of the reinsurer, as defined in art. 81 of Directive 2009/138/EC, including ceded intra group reinsurance, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0080 - Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default — Total (Life other than health insurance, incl. Unit–Linked)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of recoverables after adjustment for expected losses due to possibility of default of the reinsurer, as defined in art. 81 of Directive 2009/138/EC, including ceded intra group reinsurance, for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0080 - Total Recoverables from reinsurance/SPV and Finite Re after the adjustment for expected losses due to counterparty default — Total (Health similar to life insurance)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of recoverables after adjustment for expected losses due to possibility of default of the reinsurer, as defined in art. 81 of Directive 2009/138/EC, including ceded intra group reinsurance, for Health similar to life insurance.
+
+
+c0020, c0040, c0050, c0070, c0080, c0090, c0100, c0170, c0180, c0190, c0200r0090 - Best Estimate minus recoverables from reinsurance/SPV and Finite Re
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of Best Estimate minus recoverables from reinsurance/SPV and Finite Re after adjustment for expected losses due to possibility of default of the reinsurer, as defined in art. 81 of Directive 2009/138/EC, per each Line of Business.
+
+
+c0150r0090 - Best Estimate minus recoverables from reinsurance/SPV and Finite Re — Total (Life other than health insurance, incl. Unit–Linked)
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of Best Estimate minus recoverables from reinsurance/SPV and Finite Re, after adjustment for expected losses due to possibility of default of the reinsurer, as defined in art. 81 of Directive 2009/138/EC, for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0090 - Best estimate minus recoverables from reinsurance/SPV and Finite Re — Total (Health similar to life insurance)
+---------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of Best estimate minus recoverables from reinsurance/SPV and Finite Re after adjustment for expected losses due to possibility of default of the reinsurer, as defined in art. 81 of Directive 2009/138/EC, for Health similar to life insurance.
+
+
+c0020, c0030, c0060, c0090, c0100 to c0140, c0160, c0190, c0200r0100 - Risk Margin
+----------------------------------------------------------------------------------
+
+
+Amount of Risk margin, as defined in Article 77(3) of Directive 2009/138/EC, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0100 - Risk Margin — Total (Life other than health insurance, incl. Unit–Linked)
+--------------------------------------------------------------------------------------
+
+
+Total amount of Risk Margin for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0100 - Risk Margin — Total (Health similar to life insurance)
+-------------------------------------------------------------------
+
+
+Total amount of Risk Margin for Health similar to life insurance.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0110 - Technical Provisions calculated as a whole
+--------------------------------------------------------------------------------------------------------
+
+
+Amount of the transitional deduction to technical provisions allocated to the technical provisions calculated as a whole, per each Line of Business.This value shall be reported as a negative value.
+
+
+c0150r0110 - Technical Provisions calculated as a whole — Total (Life other than health insurance, including Unit–Linked)
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of the transitional deduction to technical provisions allocated to the technical provisions calculated as a whole for Life other than health insurance, including Unit–Linked.This value shall be reported as a negative value.
+
+
+c0210r0110 - Technical Provisions calculated as a whole — Total (Health similar to life insurance)
+--------------------------------------------------------------------------------------------------
+
+
+Amount of the transitional deduction to technical provisions allocated to the technical provisions calculated as a whole for Health similar to life insurance.This value shall be reported as a negative value.
+
+
+c0020, c0040, c0050, c0070, c0080, c0090, c0100, c0170, c0180, c0190, c0200r0120 - Best Estimate
+------------------------------------------------------------------------------------------------
+
+
+Amount of the transitional deduction to technical provisions allocated to the best estimate, per each Line of Business.This value shall be reported as a negative value.
+
+
+c0150r0120 - Best Estimate — Total (Life other than health insurance, including Unit–Linked)
+--------------------------------------------------------------------------------------------
+
+
+Total amount of the transitional deduction to technical provisions allocated to the best estimate for Life other than health insurance, including Unit–Linked.This value shall be reported as a negative value.
+
+
+c0210r0120 - Best Estimate — Total (Health similar to life insurance)
+---------------------------------------------------------------------
+
+
+Total amount of the transitional deduction to technical provisions allocated to the best estimate for Health similar to life insurance.This value shall be reported as a negative value.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0130 - Risk Margin
+-------------------------------------------------------------------------
+
+
+Amount of the transitional deduction to technical provisions allocated to the risk margin, per each Line of Business.This value shall be reported as a negative value.
+
+
+c0150r0130 - Risk Margin — Total (Life other than health insurance, including Unit–Linked)
+------------------------------------------------------------------------------------------
+
+
+Total amount of the transitional deduction to technical provisions allocated to the risk margin for Life other than health insurance, including Unit–Linked.This value shall be reported as a negative value.
+
+
+c0210r0130 - Risk Margin — Total (Health similar to life insurance)
+-------------------------------------------------------------------
+
+
+Total amount of the transitional deduction to technical provisions allocated to the risk margin for Health similar to life insurance.This value shall be reported as a negative value.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0200 - Technical Provisions — Total
+------------------------------------------------------------------------------------------
+
+
+Total amount of Technical Provisions for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, including technical provisions calculated as a whole and after the transitional deduction to technical provisions.
+
+
+c0150r0200 - Technical Provisions — Total — Total (Life other than health insurance, including Unit–Linked)
+-----------------------------------------------------------------------------------------------------------
+
+
+Total amount of Technical Provisions for Life other than health insurance, including Unit–Linked, including technical provisions calculated as a whole and after the transitional deduction to technical provisions.
+
+
+c0210r0200 - Technical Provisions — Total — Total (Health similar to life insurance)
+------------------------------------------------------------------------------------
+
+
+Total amount of Technical Provisions for Health similar to life insurance, including technical provisions calculated as a whole and after the transitional deduction to technical provisions.
+
+
+c0020, c0030, c0060, c0090, c0100, c0110, c0120, c0130, c0140, c0160, c0190, c0200r0210 - Technical Provisions minus Recoverables from reinsurance/SPV and Finite Re — Total
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of Technical Provisions minus Recoverables from reinsurance/SPV and Finite Re per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, including technical provisions calculated as a whole and after the transitional deduction to technical provisions.
+
+
+c0150r0210 - Technical Provisions minus Recoverables from reinsurance/SPV and Finite Re — Total — Total (Life other than health insurance, including Unit–Linked)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of Technical Provisions minus Recoverables from reinsurance/SPV and Finite Re for Life other than health insurance, including Unit–Linked, including technical provisions calculated as a whole and after the transitional deduction to technical provisions.
+
+
+c0210r0210 - Technical Provisions minus Recoverables from reinsurance/SPV and Finite Re — Total — Total (Health similar to life insurance)
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of Technical Provisions minus Recoverables from reinsurance/SPV and Finite Re for Health similar to life insurance, including technical provisions calculated as a whole and after the transitional deduction to technical provisions.
+
+
+c0020, c0030, c0060, c0090, c0160, c0190,r0220 - Best Estimate of products with a surrender option
+--------------------------------------------------------------------------------------------------
+
+
+Amount of gross Best Estimate of products with a surrender option per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, except for accepted reinsurance.This amount shall also be included in R0030 to R0090.
+
+
+c0150r0220 - Best Estimate of products with a surrender option — Total (Life other than health insurance, including Unit–Linked)
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of gross Best Estimate of products with a surrender option for Life other than health insurance, including Unit–Linked.This amount shall also be included in R0030 to R0090.
+
+
+c0210r0220 - Best Estimate of products with a surrender option — Total (Health similar to life insurance)
+---------------------------------------------------------------------------------------------------------
+
+
+Total amount of gross Best Estimate of products with a surrender option for Health similar to life insurance.This amount shall also be included in R0030 to R0090.
+
+
+c0030, c0060, c0090, c0160, c0190, c0200r0230 - Gross Best Estimate for Cash flow, Cash out–flow, Future guaranteed and discretionary benefits
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of discounted Cash out–flows (payments to policyholders and beneficiaries) for future guaranteed benefits and for future discretionary benefits, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.Future Discretionary Benefits means future benefits other than index–linked or unit–linked benefits of insurance or reinsurance contracts which have one of the following characteristics:a)The benefits are legally or contractually based on one or several of the following results:i.the performance of a specified group of contracts or a specified type of contract or a single contract;ii.the realised or unrealised investment return on a specified pool of assets held by the insurance or reinsurance undertaking;iii.the profit or loss of the insurance or reinsurance undertaking or fund corresponding to the contract;b)the benefits are based on a declaration of the insurance or reinsurance undertaking and the timing or the amount of the benefits is at its full or partial discretion.
+
+
+c0020, c0100r0240 - Gross Best Estimate for Cash flow, Cash out–flow, Future guaranteed benefits — Insurance with profit participation
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of discounted Cash out–flows (payments to policyholders and beneficiaries) for future guaranteed benefits, regarding line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, ‘Insurance with profit participation’.
+
+
+c0020, c0100r0250 - Gross Best Estimate for Cash flow, Cash out–flows, Future discretionary benefits — Insurance with profit participation
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of discounted Cash out–flows (payments to policyholders and beneficiaries) for future discretionary benefits, regarding line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, ‘Insurance with profit participation’.Future Discretionary Benefits means future benefits other than index–linked or unit–linked benefits of insurance or reinsurance contracts which have one of the following characteristics:a)The benefits are legally or contractually based on one or several of the following results:i.the performance of a specified group of contracts or a specified type of contract or a single contract;ii.the realised or unrealised investment return on a specified pool of assets held by the insurance or reinsurance undertaking;iii.the profit or loss of the insurance or reinsurance undertaking or fund corresponding to the contract;b)the benefits are based on a declaration of the insurance or reinsurance undertaking and the timing or the amount of the benefits is at its full or partial discretion.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0260 - Gross Best Estimate for Cash flow, Cash out–flow, Future expenses and other cash out–flows
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of discounted Cash out–flows for Future expenses and other cash out–flows, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35. Shall reflect expenses that will be incurred in servicing insurance and reinsurance obligations, and other cash–flow items such as taxation payments which are, or are expected to be, charged to policyholders, or are required to settle the insurance or reinsurance obligations.
+
+
+c0150r0260 - Gross Best Estimate for Cash flow, Cash out–flow, Future expenses and other cash out–flows — Total (Life other than health insurance, including Unit–Linked)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of discounted Cash out–flows for Future expenses and other cash out–flows, for Life other than health insurance, including Unit–LinkedShall reflect expenses that will be incurred in servicing insurance and reinsurance obligations, and other cash–flow items such as taxation payments which are, or are expected to be, charged to policyholders, or are required to settle the insurance or reinsurance obligations.
+
+
+c0210r0260 - Gross Best Estimate for Cash flow, Cash out–flow, Future expenses and other cash out–flows — Total (Health similar to life insurance)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of discounted Cash out–flows for Future expenses and other cash out–flows, for Health similar to life insurance.Shall reflect expenses that will be incurred in servicing insurance and reinsurance obligations, and other cash–flow items such as taxation payments which are, or are expected to be, charged to policyholders, or are required to settle the insurance or reinsurance obligations.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0270 - Gross Best Estimate for Cash flow, Cash in–flows, Future premiums
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of discounted Cash in–flows from future premiums and any additional cash–flows that results from those premiums, including accepted reinsurance premiums, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0270 - Gross Best Estimate for Cash flow, Cash in–flows, Future premiums — Total (Life other than health insurance, including Unit–Linked)
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of discounted Cash in–flows from future premiums and any additional cash–flows that results from those premiums, including accepted reinsurance premiums, for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0270 - Gross Best Estimate for Cash flow, Cash in–flows, Future premiums — Total (Health similar to life insurance)
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of discounted Cash in–flows from future premiums and any additional cash–flows that results from those premiums, including accepted reinsurance premiums, for Health similar to life insurance.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0280 - Gross Best Estimate for Cash flow, Cash in–flows, Other cash in–flows
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of any other discounted cash in–flows not included in Future premiums and not including investment returns, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0280 - Gross Best Estimate for Cash flow, Cash in–flows, Other cash in–flows — Total (Life other than health insurance, including Unit–Linked)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of any other discounted cash in–flows not included in Future premiums and not including investment returns, for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0280 - Gross Best Estimate for Cash flow, Cash in–flows, Other cash in–flows — Total (Health similar to life insurance)
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of any other discounted cash in–flows not included in Future premiums and not including investment returns, for Health similar to life insurance.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0290 - Percentage of gross Best Estimate calculated using approximations
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+Indicate the percentage of gross best estimate included in Gross Best Estimate (R0030) calculated using approximations as established in Article 21 of Delegated Regulation (EU) 2015/35, per each Line of Business.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0300 - Surrender value
+-----------------------------------------------------------------------------
+
+
+Indicate the amount of surrender value, per each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, as mentioned in Article 185 (3) (f) of Directive 2009/138/EC, net of taxes.Shall reflect the amount, defined contractually, to be paid to the policyholder in case of early termination of the contract (i.e. before it becomes payable by maturity or occurrence of the insured event, such as death), net of charges and policy loans. It includes surrender values guaranteed and not guaranteed.
+
+
+c0150r0300 - Surrender value, Total (Life other than health insurance, including Unit–Linked)
+---------------------------------------------------------------------------------------------
+
+
+Total surrender value for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0300 - Surrender value, Total (Health similar to life insurance)
+----------------------------------------------------------------------
+
+
+Total surrender value for Health similar to life insurance.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0310 - Best estimate subject to transitional of the interest rate
+------------------------------------------------------------------------------------------------------------------------
+
+
+Indicate the amount of gross best estimate (R0030) subject to the transitional adjustment to the relevant risk-free interest rate term structure, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0310 - Best estimate subject to transitional of the interest rate — Total (Life other than health insurance, including Unit–Linked)
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of gross best estimate (R0030) subject to the transitional adjustment to the relevant risk-free interest rate term structure, for Life other than health insurance, including Unit–Linked.
+
+
+c0210r0310 - Best estimate subject to transitional of the interest rate — Total (Health similar to life insurance)
+------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of gross best estimate (R0030) subject to transitional adjustment to the relevant risk-free interest rate term structure, for Health similar to life insurance.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0320 - Technical provisions without transitional on interest rate
+------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of technical provisions where the transitional adjustment to the relevant risk-free interest rate term structure has been applied calculated without the transitional adjustment to the relevant risk-free interest rate term structure, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.In the cases where the same best estimates were also subject to the volatility adjustment, the amount reported in this item shall reflect the value without the transitional adjustment to the relevant risk-free interest rate term structure but with the volatility adjustment.
+
+
+c0150r0320 - Technical provisions without transitional on interest rate
+-----------------------------------------------------------------------
+
+
+Total amount of technical provisions where the transitional adjustment to the relevant risk-free interest rate term structure has been applied calculated without the transitional adjustment to the relevant risk-free interest rate term structure, for Life other than health insurance, including Unit–Linked.In the cases where the same best estimates were also subject to the volatility adjustment, the amount reported in this item shall reflect the value without the transitional adjustment to the relevant risk-free interest rate term structure but with the volatility adjustment.
+
+
+c0210r0320 - Technical provisions without transitional on interest rate
+-----------------------------------------------------------------------
+
+
+Total amount of technical provisions where the transitional adjustment to the relevant risk-free interest rate term structure has been applied calculated without the transitional adjustment to the relevant risk-free interest rate term structure, for Health similar to life insurance.In the cases where the same best estimates were also subject to the volatility adjustment, the amount reported in this item shall reflect the value without the transitional adjustment to the relevant risk-free interest rate term structure but with the volatility adjustment.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0330 - Best estimate subject to volatility adjustment
+------------------------------------------------------------------------------------------------------------
+
+
+Indicate the amount of gross best estimate (R0030) subject to volatility adjustment, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0330 - Best estimate subject to volatility adjustment — Total (Life other than health insurance, including Unit–Linked)
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of gross best estimate (R0030) subject to volatility adjustment, for Life other than health insurance, including Unit–Linked
+
+
+c0210r0330 - Best estimate subject to volatility adjustment — Total (Health similar to life insurance)
+------------------------------------------------------------------------------------------------------
+
+
+Total amount of gross best estimate (R0030) subject to volatility adjustment, for Health similar to life insurance.
+
+
+c0020, c0020, c0060, c0090, c0100, c0160, c0190, c0200r0340 - Technical provisions without volatility adjustment and without others transitional measures
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of technical provisions where the volatility adjustment has been applied calculated without volatility adjustment, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.In the cases where the same technical provisions were also subject to the transitional deduction to technical provisions/transitional adjustment to the relevant risk-free interest rate term structure, the amount reported in this item shall reflect the value with neither the volatility adjustment nor the transitional deduction to technical provisions/transitional adjustment to the relevant risk-free interest rate term structure.
+
+
+c0150r0340 - Technical provisions without volatility adjustment and without others transitional measures — Total (Life other than health insurance, including Unit–Linked)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of technical provisions where the volatility adjustment has been applied calculated without volatility adjustment, for Life other than health insurance, including Unit–Linked.In the cases where the same technical provisions were also subject to the transitional deduction to technical provisions/transitional adjustment to the relevant risk-free interest rate term structure, the amount reported in this item shall reflect the value with neither the volatility adjustment nor the transitional deduction to technical provisions/transitioanl adjustment to the relevant risk-free interest rate term structure.
+
+
+c0210r0340 - Technical provisions without volatility adjustment and without others transitional measures — Total (Health similar to life insurance)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of technical provisions where the volatility adjustment has been applied calculated without volatility adjustment, for Health similar to life insurance.In the cases where the same technical provisions were also subject to the transitional deduction to technical provisions/transitional adjustment to the relevant risk-free interest rate term structure, the amount reported in this item shall reflect the value with neither the volatility adjustment nor the transitional deduction to technical provisions/transitional adjustment to the relevant risk-free interest rate term structure.
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0350 - Best estimate subject to matching adjustment
+----------------------------------------------------------------------------------------------------------
+
+
+Indicate the amount of gross best estimate (R0030) subject to matching adjustment, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.
+
+
+c0150r0350 - Best estimate subject to matching adjustment — Total (Life other than health insurance, including Unit–Linked)
+---------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of gross best estimate (R0030) subject to matching adjustment, for Life other than health insurance, including Unit–Linked
+
+
+c0210r0350 - Best estimate subject to matching adjustment — Total (Health similar to life insurance)
+----------------------------------------------------------------------------------------------------
+
+
+Total amount of gross best estimate (R0030) subject to matching adjustment, for Health similar to life insurance
+
+
+c0020, c0030, c0060, c0090, c0100, c0160, c0190, c0200r0360 - Technical provisions without matching adjustment and without all the others
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Amount of technical provisions where the matching adjustment has been applied calculated without matching adjustment, for each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35.In the cases where the same technical provisions were also subject to the transitional deduction to technical provisions, the amount reported in this item shall reflect the value with neither the matching adjustment nor the transitional deduction to technical provisions.
+
+
+c0150r0360 - Technical provisions without matching adjustment and without all the others — Total (Life other than health insurance, including Unit–Linked)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of technical provisions where the matching adjustment has been applied calculated without matching adjustment, for Life other than health insurance, including Unit–Linked.In the cases where the same technical provisions were also subject to the transitional deduction to technical provisions, the amount reported in this item shall reflect the value with neither the matching adjustment nor the transitional deduction to technical provisions.
+
+
+c0210r0360 - Technical provisions without matching adjustment and without all the others — Total (Health similar to life insurance)
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+Total amount of technical provisions where the matching adjustment has been applied calculated without matching adjustment, for Health similar to life insurance.In the cases where the same technical provisions were also subject to the transitional deduction to technical provisions, the amount reported in this item shall reflect the value with neither the matching adjustment nor the transitional deduction to technical provisions.
+
+

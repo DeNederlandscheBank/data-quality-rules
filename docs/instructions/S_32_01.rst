@@ -1,0 +1,217 @@
+================================================
+S.32.01 - Undertakings in the scope of the group
+================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to opening and annual submission of information for groups.
+
+This template is relevant under method 1 as defined in Article 230 of Directive 2009/138/EC, method 2 as defined in Article 233 of the Directive 2009/138/EC and a combination of methods. It is a list of all undertakings in the scope of the group in the meaning of Article 212(1)(c) of Directive 2009/138/EC, including the participating insurance and reinsurance undertakings, insurance holding companies, mixed financial holding companies or mixed activity insurance holding company.
+
+—
+
+Cells C0010 to C0080 are related to the identification of the undertaking;
+
+—
+
+Cells C0090 to C0170 are related to ranking criteria (in the group reporting currency);
+
+—
+
+Cells C0180 to C0230 are related to criteria of influence;
+
+—
+
+Cells C0240 and C0250 are related to the inclusion in the scope of group supervision;
+
+—
+
+Cell C0260 is related to group solvency calculation.
+
+
+c0010 - Country
+---------------
+
+
+Identify the ISO 3166–1 alpha–2 code of the country in which the registered head office of each undertaking within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC, is located
+
+
+c0020 - Identification code of the undertaking
+----------------------------------------------
+
+
+Identification code by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of the group, in the meaning of Article 212(1)(c) of Directive 2009/138/EC, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0030 - Type of code of the ID of the undertaking
+-------------------------------------------------
+
+
+Identification of the code used in item ‘Identification code of the undertaking’: 1 — LEI 2 — Specific code
+
+
+c0040 - Legal name of the undertaking
+-------------------------------------
+
+
+Legal name of the undertaking
+
+
+c0050 - Type of undertaking
+---------------------------
+
+
+Identify the type of undertaking giving information on the type of activity of the undertaking. This is applicable to both EEA and third–country undertakings. The following closed list of options shall be used: 1 — Life insurance undertaking 2 — Non life insurance undertaking 3 — Reinsurance undertaking 4 — Composite undertaking 5 — Insurance holding company as defined in Article 212(1) (f) of Directive 2009/138/EC 6 — Mixed–activity insurance holding company as defined in Article 212(1) (g) of Directive 2009/138/EC 7 –Mixed financial holding company as defined in Article 212 (1)(h) of Directive 2009/138/EC 8 — Credit institution, investment firm and financial institution 9 — Institution for occupational retirement provision 10 — Ancillary services undertaking as defined in Article 1 (53) of Delegated Regulation (EU) 2015/35 11 — Non–regulated undertaking carrying out financial activities as defined in Article 1 (52) of Delegated Regulation (EU) 2015/35 12 — Special purpose vehicle authorised in accordance with Article 211 of Directive 2009/138/EC 13 — Special purpose vehicle other than special purpose vehicle authorised in accordance with article 211 of Directive 2009/138/EC 14 — UCITS management companies as defined in Article 1 (54) of Delegated Regulation (EU) 2015/35 15 — Alternative investment funds managers as defined in Article 1 (55) of Delegated Regulation (EU) 2015/35 99 — Other
+
+
+c0060 - Legal form
+------------------
+
+
+Identify the form of the undertaking.For categories 1 to 4 in cell ‘Type of undertaking’, the legal form shall be consistent with Annex III of Directive 2009/138/EC.
+
+
+c0070 - Category (mutual/non mutual)
+------------------------------------
+
+
+Indicate high level information on the legal form, i.e. whether the undertaking is a mutual or not.The following closed list shall be used: 1 — Mutual 2 — Non–mutual
+
+
+c0080 - Supervisory Authority
+-----------------------------
+
+
+Name of the Supervisory Authority responsible for the supervision of the individual undertaking which category falls under categories 1 to 4, 8, 9 and 12 in the cell ‘Type of undertaking’, where applicable.Please use the full name of the authority.
+
+
+c0090 - Total Balance Sheet (for (re)insurance undertakings)
+------------------------------------------------------------
+
+
+For EEA (re)insurance undertakings, total amount of Solvency II balance sheet as reported in item C0010/R0500 in S.02.01. For non EEA (re)insurance undertakings, total amount of balance–sheet according to the relevant sectoral rules.The currency used shall be the group reporting currency.
+
+
+c0100 - Total Balance Sheet (for other regulated undertakings)
+--------------------------------------------------------------
+
+
+For other regulated undertakings, total amount of balance sheet according to the relevant sectoral rules. The currency used shall be the group reporting currency.
+
+
+c0110 - Total Balance Sheet (non–regulated undertakings)
+--------------------------------------------------------
+
+
+For non–regulated undertakings, total amount of balance sheet used for IFRS or local GAAP. The currency used shall be the group reporting currency.
+
+
+c0120 - Written premiums net of reinsurance ceded under IFRS or local GAAP for (re)insurance undertakings
+---------------------------------------------------------------------------------------------------------
+
+
+For insurance and reinsurance undertakings written premiums net of reinsurance ceded under IFRS or local GAAP. The currency used shall be the group currency.
+
+
+c0130 - Turn over defined as the gross revenue under IFRS or local GAAP for other types of undertakings or insurance holding companies
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+For other types of undertakings turn over defined as the gross revenue under IFRS or local GAAP.For insurance holding companies or mixed financial holding companies where appropriate turnover defined as the gross revenue under IFRS or local GAAP will be used as a ranking criteria.The currency used shall be the group reporting currency.
+
+
+c0140 - Underwriting performance
+--------------------------------
+
+
+(Re)insurance undertakings shall report their underwriting performance in accordance with their financial statements. An absolute amount shall be reported. The currency used shall be the group reporting currency.
+
+
+c0150 - Investment performance
+------------------------------
+
+
+(Re)insurance undertakings shall report their investment performance in accordance with their financial statements. An absolute amount shall be reported. The currency used shall be the group reporting currency.This value shall not include any value already reported in C0140.
+
+
+c0160 - Total performance
+-------------------------
+
+
+All the related undertakings within the scope of group supervision, in the meaning of Article 212(1)(c) of Directive 2009/138/EC, shall report their total performance in accordance with their financial statements. An absolute amount shall be reported. The currency used shall be the group reporting currency.
+
+
+c0170 - Accounting standard
+---------------------------
+
+
+Identification of the accounting standard used for reporting items in cells C0100 to C0160. All items shall be reported consistently on the same accounting standard. The following closed list of options shall be used: 1 — IFRS 2 — Local GAAP
+
+
+c0180 - % capital share
+-----------------------
+
+
+Proportion of the subscribed capital that is held, directly or indirectly, by the participating undertaking in the undertaking (as referred to in Article 221 of Directive 2009/138/EC).This cell is not applicable for the ultimate parent undertaking.
+
+
+c0190 - % used for establishment of consolidated accounts
+---------------------------------------------------------
+
+
+Percentage as defined by IFRS or local GAAP for the integration of consolidated undertakings into the consolidation which may differ from item C0180. For full integration, minority interests shall also be reported in this item.This cell is not applicable for the ultimate parent undertaking.
+
+
+c0200 - % voting rights
+-----------------------
+
+
+Proportion of voting rights that is held, directly or indirectly, by the participating undertaking in the undertakingThis cell is not applicable for the ultimate parent undertaking.
+
+
+c0210 - Other criteria
+----------------------
+
+
+Other criteria useful to assess the level of influence exercised by the participating undertaking, e.g centralised risk management.This cell is not applicable for the ultimate parent undertaking.
+
+
+c0220 - Level of influence
+--------------------------
+
+
+Influence can be either dominant or significant, depending on former criteria mentioned; the group is responsible for assessing the level of influence exercised by the participating undertaking over any undertaking but as stated in Article 212(2) of Directive 2009/138/EC the group supervisor may have a differing view from the group's assessment and if so the group shall take into account any decision made by the group supervisor.This cell is not applicable for the ultimate parent undertaking.The following closed list shall be used: 1 — Dominant 2 — Significant
+
+
+c0230 - Proportional share used for the group solvency calculation
+------------------------------------------------------------------
+
+
+Proportional share is the proportion that will be used to calculate the group solvency.This cell is not applicable for the ultimate parent undertaking.
+
+
+c0240 - Inclusion in the scope of group supervision — Yes/No
+------------------------------------------------------------
+
+
+Indicate if the undertaking is included or not in the scope of group supervision as referred in Article 214 of Directive 2009/138/EC; if an undertaking is not included in the scope of group supervision as provided for in Article 214, then it shall be indicated which paragraph from Article 214(2) is the reason.The following closed list shall be used: 1 — Included in the scope 2 — Not included in the scope (article 214 (a) 3 — Not included in the scope (article 214 (b) 4 — Not included in the scope (article 214 (c)
+
+
+c0250 - Inclusion in the scope of group supervision — Date of decision if art.214 is applied
+--------------------------------------------------------------------------------------------
+
+
+Identify the ISO 8601 (yyyy–mm–dd) code of the date where the decision of exclusion has been taken.
+
+
+c0260 - Method used and under method 1, treatment of the undertaking
+--------------------------------------------------------------------
+
+
+The item gathers information on the method used for group solvency calculation and the treatment of each undertaking.The following closed list shall be used: 1 — Method 1: Full consolidation 2 — Method 1: Proportional consolidation 3 — Method 1: Adjusted equity method 4 — Method 1: Sectoral rules 5 — Method 2: Solvency II 6 — Method 2: Other sectoral Rules 7 — Method 2: Local rules 8 — Deduction of the participation in relation to Article 229 of Directive 2009/138/EC 9 — No inclusion in the scope of group supervision as defined in article 214 Directive 2009/138/EC 10 — Other method
+
+

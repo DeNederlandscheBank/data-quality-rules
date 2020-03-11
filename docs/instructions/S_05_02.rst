@@ -1,0 +1,611 @@
+==================================================
+S.05.02 - Premiums, claims and expenses by country
+==================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template shall be reported from an accounting perspective, i.e.: Local GAAP or IFRS if accepted as local GAAP The template is based on a year–to–date basis Undertakings shall use the recognition and valuation basis as for the published financial statements, no new recognition or re–valuation is required.
+
+The following criteria for the classification by country shall be used:
+
+—
+
+The information, provided by country, shall be completed for the five countries with the biggest amount of gross written premiums in addition to the home country or until reaching 90 % of the total gross written premiums;
+
+—
+
+For the direct insurance business for the lines of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, ‘Medical expense’, ‘Income protection’, ‘Workers' compensation’, ‘Fire and other damage to property’ and ‘Credit and suretyship’ information shall be reported by country where the risk is situated as defined in Article 13 (13) of Directive 2009/138/EC;
+
+—
+
+For direct insurance business for all other line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, information shall be reported by country where the contract was entered into;
+
+—
+
+For proportional and non–proportional reinsurance information shall be reported by country of localisation of the ceding undertaking.
+
+For the purposes of this template ‘country where the contract was entered into’ means:
+
+a)
+
+The country where the insurance undertaking is established (home country) when the contract was not sold through a branch or freedom to provide services;
+
+b)
+
+The country where the branch is located (host country) when the contract was sold through a branch;
+
+c)
+
+The country where the freedom to provide services was notified (host country) when the contract was sold through freedom to provide services.
+
+d)
+
+If an intermediary is used or in any other situation, it is a), b) or c) depending on who sold the contract.
+
+
+c0020 to c0060r0010 - Top 5 countries (by amount of gross premiums written) — non–life obligations
+--------------------------------------------------------------------------------------------------
+
+
+Identify the ISO 3166–1 alpha–2 code of the countries being reported for the non–life obligations.
+
+
+c0080 to c0140r0110 - Premiums written — Gross — Direct Business
+----------------------------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts due during the financial year in respect of insurance contracts, arising from direct business, regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0080 to c0140r0120 - Premiums written — Gross — Proportional reinsurance accepted
+----------------------------------------------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts due during the financial year in respect of insurance contracts, arising from proportional reinsurance accepted business, regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0080 to c0140r0130 - Premiums written — Gross — Non proportional reinsurance accepted
+--------------------------------------------------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts due during the financial year in respect of insurance contracts, arising from non–proportional reinsurance accepted business, regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0080 to c0140r0140 - Premiums written — Reinsurers' share
+----------------------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts ceded to reinsurers during the financial year in respect of insurance contracts regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0080 to c0140r0200 - Premiums written — net
+--------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: the net premiums written represent the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0080 to c0140r0210 - Premiums earned — Gross — Direct business
+---------------------------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to insurance direct business.
+
+
+c0080 to c0140r0220 - Premiums earned — Gross — Proportional reinsurance accepted
+---------------------------------------------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to proportional reinsurance accepted business.
+
+
+c0080 to c0140r0230 - Premiums earned — Gross — Non proportional reinsurance accepted
+-------------------------------------------------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to non–proportional reinsurance accepted business.
+
+
+c0080 to c0140r0240 - Premiums earned — reinsurers' share
+---------------------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of reinsurer's share in gross premiums written minus the change in the reinsurer's share in provision for unearned premiums.
+
+
+c0080 to c0140r0300 - Premiums earned — Net
+-------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0080 to c0140r0310 - Claims incurred Gross — Direct business
+-------------------------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to insurance contracts arising from direct business.This shall exclude claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0080 to c0140r0320 - Claims incurred Gross — Proportional reinsurance accepted
+-------------------------------------------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable:the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to insurance contracts arising from proportional reinsurance accepted.This shall exclude claims management expenses and the movement in provisions in claims management expenses..
+
+
+c0080 to c0140r0330 - Claims incurred — Gross — Non proportional reinsurance accepted
+-------------------------------------------------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to insurance contracts arising from non–proportional reinsurance accepted.This shall exclude claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0080 to c0140r0340 - Claims incurred — Reinsurers' share
+---------------------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: it is the reinsurer's share in sum of the claims paid and the change in the provision for claims during the financial year.This shall exclude claims management expenses and the movement in provisions in claims management expenses..
+
+
+c0080 to c0140r0400 - Claims incurred — Net
+-------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.This shall exclude claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0080 to c0140r0410 - Changes in other technical provisions — Gross — Direct business
+-------------------------------------------------------------------------------------
+
+
+Changes in other technical provisions as defined in directive 91/674/EEC where applicable: it is the changes in other technical provisions for the gross direct business.
+
+
+c0080 to c0140r0420 - Changes in other technical provisions — Gross — Proportional reinsurance accepted
+-------------------------------------------------------------------------------------------------------
+
+
+Changes in other technical provisions as defined in directive 91/674/EEC where applicable: it is the changes in other technical provisions for the gross proportional reinsurance accepted.
+
+
+c0080 to c0140r0430 - Changes in other technical provisions — Gross — Non– proportional reinsurance accepted
+------------------------------------------------------------------------------------------------------------
+
+
+Changes in other technical provisions as defined in directive 91/674/EEC where applicable: it is the changes in other technical provisions for the gross non– proportional reinsurance accepted.
+
+
+c0080 to c0140r0440 - Changes in other technical provisions — Reinsurers' share
+-------------------------------------------------------------------------------
+
+
+Changes in other technical provisions as defined in directive 91/674/EEC where applicable: it is the changes in other technical provisions related to the amounts ceded to reinsurers.
+
+
+c0080 to c0140r0500 - Changes in other technical provisions — Net
+-----------------------------------------------------------------
+
+
+Changes in other technical provisions as defined in directive 91/674/EEC where applicable: the net amount of changes in other technical provisions represent the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0080 to c0140r0550 - Expenses incurred
+---------------------------------------
+
+
+All technical expenses incurred by the undertaking during the reporting period, on accrual basis.
+
+
+c0140r1200 - Other expenses
+---------------------------
+
+
+Other technical expenses not covered by above mentioned expenses and not split by lines of business.Shall not include non–technical expenses such as tax, interest expenses, losses on disposals, etc
+
+
+c0140r1300 - Total expenses
+---------------------------
+
+
+Amount of all technical expenses corresponding to countries covered by this template.
+
+
+c0160 to c0200r1400 - Top 5 countries (by amount of gross premiums written) — life obligations
+----------------------------------------------------------------------------------------------
+
+
+Identify the ISO 3166–1 alpha–2 code of the countries being reported for the life obligations.
+
+
+c0220 to c0280r1410 - Premiums written — Gross
+----------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts due during the financial year in respect of insurance contracts, arising from gross business, regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0220 to c0280r1420 - Premiums written — Reinsurers' share
+----------------------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts ceded to reinsurers due during the financial year in respect of insurance contracts regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0220 to c0280r1500 - Premiums written — net
+--------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: the net premiums written represent the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0220 to c0280r1510 - Premiums earned — Gross
+---------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to direct and reinsurance accepted gross business.
+
+
+c0220 to c0280r1520 - Premiums earned — reinsurers' share
+---------------------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the reinsurer's share in gross premiums written minus the change in the reinsurer's share in provision for unearned premiums.
+
+
+c0220 to c0280r1600 - Premiums earned — Net
+-------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0220 to c0280r1610 - Claims incurred — Gross
+---------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to insurance contracts arising from the gross direct and reinsurance business.It excludes claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0220 to c0280r1620 - Claims incurred — Reinsurers' share
+---------------------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: it is the reinsurers' share in the sum of the claims paid and the change in the provision for claims during the financial year.It excludes claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0220 to c0280r1700 - Claims incurred — Net
+-------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.It excludes claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0220 to c0280r1710 - Changes in other technical provisions — Gross
+-------------------------------------------------------------------
+
+
+Definition of changes in other technical provisions provided in directive 91/674/EEC where applicable: it is the changes in other technical provisions relating to insurance contracts arising from the gross direct and reinsurance business.
+
+
+c0220 to c0280r1720 - Change in other technical provisions — Reinsurers' share
+------------------------------------------------------------------------------
+
+
+Definition of changes in other technical provisions provided in directive 91/674/EEC where applicable: it is the reinsurers' share in changes in other technical provisions.
+
+
+c0220 to c0280r1800 - Change in other technical provisions — Net
+----------------------------------------------------------------
+
+
+Definition of changes in other technical provisions provided in directive 91/674/EEC where applicable: it is the changes in other technical provisions related to the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0220 to c0280r1900 - Expenses incurred
+---------------------------------------
+
+
+All technical expenses incurred by the undertaking during the reporting period, on accrual basis.
+
+
+c0280r2500 - Other expenses
+---------------------------
+
+
+Other technical expenses not covered by above mentioned expenses and not split by lines of business.Shall not include non–technical expenses such as tax, interest expenses, losses on disposals, etc.
+
+
+c0280r2600 - Total expenses
+---------------------------
+
+
+Amount of all technical expenses corresponding to countries covered by this template.
+
+
+c0020 to c0060r0010 - Top 5 countries (by amount of gross premiums written) — non–life obligations
+--------------------------------------------------------------------------------------------------
+
+
+Identify the ISO 3166–1 alpha–2 code of the countries being reported for the non–life obligations.
+
+
+c0080 to c0140r0110 - Premiums written — Gross — Direct Business
+----------------------------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts due during the financial year in respect of insurance contracts, arising from direct business, regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0080 to c0140r0120 - Premiums written — Gross — Proportional reinsurance accepted
+----------------------------------------------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts due during the financial year in respect of insurance contracts, arising from proportional reinsurance accepted business, regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0080 to c0140r0130 - Premiums written — Gross — Non proportional reinsurance accepted
+--------------------------------------------------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts due during the financial year in respect of insurance contracts, arising from non–proportional reinsurance accepted business, regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0080 to c0140r0140 - Premiums written — Reinsurers' share
+----------------------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts ceded to reinsurers during the financial year in respect of insurance contracts regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0080 to c0140r0200 - Premiums written — net
+--------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: the net premiums written represent the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0080 to c0140r0210 - Premiums earned — Gross — Direct business
+---------------------------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to insurance direct business.
+
+
+c0080 to c0140r0220 - Premiums earned — Gross — Proportional reinsurance accepted
+---------------------------------------------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to proportional reinsurance accepted business.
+
+
+c0080 to c0140r0230 - Premiums earned — Gross — Non proportional reinsurance accepted
+-------------------------------------------------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to non–proportional reinsurance accepted business.
+
+
+c0080 to c0140r0240 - Premiums earned — reinsurers' share
+---------------------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of reinsurer's share in gross premiums written minus the change in the reinsurer's share in provision for unearned premiums.
+
+
+c0080 to c0140r0300 - Premiums earned — Net
+-------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0080 to c0140r0310 - Claims incurred Gross — Direct business
+-------------------------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to insurance contracts arising from direct business.This shall exclude claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0080 to c0140r0320 - Claims incurred Gross — Proportional reinsurance accepted
+-------------------------------------------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to insurance contracts arising from proportional reinsurance accepted.This shall exclude claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0080 to c0140r0330 - Claims incurred — Gross — Non proportional reinsurance accepted
+-------------------------------------------------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to insurance contracts arising from non–proportional reinsurance accepted.This shall exclude claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0080 to c0140r0340 - Claims incurred — Reinsurers' share
+---------------------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: it is the reinsurer's share in sum of the claims paid and the change in the provision for claims during the financial year.This shall exclude claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0080 to c0140r0400 - Claims incurred — Net
+-------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.This shall exclude claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0080 to c0140r0410 - Changes in other technical provisions — Gross — Direct business
+-------------------------------------------------------------------------------------
+
+
+Changes in other technical provisions as defined in directive 91/674/EEC where applicable: it is the changes in other technical provisions for the gross direct business.
+
+
+c0080 to c0140r0420 - Changes in other technical provisions — Gross — Proportional reinsurance accepted
+-------------------------------------------------------------------------------------------------------
+
+
+Changes in other technical provisions as defined in directive 91/674/EEC where applicable: it is the changes in other technical provisions for the gross proportional reinsurance accepted.
+
+
+c0080 to c0140r0430 - Changes in other technical provisions — Gross — Non– proportional reinsurance accepted
+------------------------------------------------------------------------------------------------------------
+
+
+Changes in other technical provisions as defined in directive 91/674/EEC where applicable: it is the changes in other technical provisions for the gross non– proportional reinsurance accepted.
+
+
+c0080 to c0140r0440 - Changes in other technical provisions — Reinsurers' share
+-------------------------------------------------------------------------------
+
+
+Changes in other technical provisions as defined in directive 91/674/EEC where applicable: it is the changes in other technical provisions related to the amounts ceded to reinsurers.
+
+
+c0080 to c0140r0500 - Changes in other technical provisions — Net
+-----------------------------------------------------------------
+
+
+Changes in other technical provisions as defined in directive 91/674/EEC where applicable: the net amount of changes in other technical provisions represent the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0080 to c0140r0550 - Expenses incurred
+---------------------------------------
+
+
+All technical expenses incurred by the group during the reporting period, on accrual basis.
+
+
+c0140r1200 - Other expenses
+---------------------------
+
+
+Other technical expenses not covered by above mentioned expenses and not split by lines of business.Shall not include non–technical expenses such as tax, interest expenses, losses on disposals, etc.
+
+
+c0140r1300 - Total expenses
+---------------------------
+
+
+Amount of all technical expenses corresponding to countries covered by this template.
+
+
+c0160 to c0200r1400 - Top 5 countries (by amount of gross premiums written) — life obligations
+----------------------------------------------------------------------------------------------
+
+
+Identify the ISO 3166–1 alpha–2 code of the countries being reported for the life obligations.
+
+
+c0220 to c0280r1410 - Premiums written — Gross
+----------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts due during the financial year in respect of insurance contracts, arising from gross business, regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0220 to c0280r1420 - Premiums written — Reinsurers' share
+----------------------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: gross premiums written shall comprise all amounts ceded to reinsurers due during the financial year in respect of insurance contracts regardless of the fact that such amounts may relate in whole or in part to a later financial year.
+
+
+c0220 to c0280r1500 - Premiums written — net
+--------------------------------------------
+
+
+Definition of premiums written provided in application of directive 91/674/EEC where applicable: the net premiums written represent the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0220 to c0280r1510 - Premiums earned — Gross
+---------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to direct and reinsurance accepted gross business.
+
+
+c0220 to c0280r1520 - Premiums earned — reinsurers' share
+---------------------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the reinsurer's share in gross premiums written minus the change in the reinsurer's share in provision for unearned premiums.
+
+
+c0220 to c0280r1600 - Premiums earned — Net
+-------------------------------------------
+
+
+Definition of earned premiums provided in directive 91/674/EEC where applicable: it is the sum of gross premiums written minus the change in the gross provision for unearned premiums related to the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0220 to c0280r1610 - Claims incurred — Gross
+---------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to insurance contracts arising from the gross direct and reinsurance business.It excludes claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0220 to c0280r1620 - Claims incurred — Reinsurers' share
+---------------------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: it is the reinsurers' share in the sum of the claims paid and the change in the provision for claims during the financial year.It excludes claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0220 to c0280r1700 - Claims incurred — Net
+-------------------------------------------
+
+
+Claims incurred in the reporting period as defined in directive 91/674/EEC where applicable: the claims incurred means the sum of the claims paid and the change in the provision for claims during the financial year related to the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.It excludes claims management expenses and the movement in provisions in claims management expenses.
+
+
+c0220 to c0280r1710 - Changes in other technical provisions — Gross
+-------------------------------------------------------------------
+
+
+Definition of changes in other technical provisions provided in directive 91/674/EEC where applicable: it is the changes in other technical provisions relating to insurance contracts arising from the gross direct and reinsurance business.
+
+
+c0220 to c0280r1720 - Change in other technical provisions — Reinsurers' share
+------------------------------------------------------------------------------
+
+
+Definition of changes in other technical provisions provided in directive 91/674/EEC where applicable: it is the reinsurers' share in changes in other technical provisions.
+
+
+c0220 to c0280r1800 - Change in other technical provisions — Net
+----------------------------------------------------------------
+
+
+Definition of changes in other technical provisions provided in directive 91/674/EEC where applicable: it is the changes in other technical provisions related to the sum of the direct business and the accepted reinsurance business reduced by the amount ceded to reinsurance undertakings.
+
+
+c0220 to c0280r1900 - Expenses incurred
+---------------------------------------
+
+
+All technical expenses incurred by the group during the reporting period, on accrual basis.
+
+
+c0280r2500 - Other expenses
+---------------------------
+
+
+Other technical expenses not covered by above mentioned expenses and not split by lines of business.Shall not include non–technical expenses such as tax, interest expenses, losses on disposals, etc.
+
+
+c0280r2600 - Total expenses
+---------------------------
+
+
+Amount of all technical expenses corresponding to countries covered by this template.
+
+

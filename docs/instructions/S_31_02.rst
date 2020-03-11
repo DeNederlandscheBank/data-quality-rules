@@ -1,0 +1,441 @@
+==================================
+S.31.02 - Special Purpose Vehicles
+==================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template is relevant for each insurance or reinsurance undertaking transferring risk(s) to a Special Purpose Vehicle (SPV), to ensure sufficient disclosure has been made where SPVs are used as alternative risk transfer methods to traditional reinsurance treaties.
+
+The template applies to the use of:
+
+a)
+
+SPVs defined under Article 13(26) and authorised under Article 211(1) of Directive 2009/138/EC;
+
+b)
+
+SPVs meeting conditions of Article 211(3) of Directive 2009/138/EC;
+
+c)
+
+SPVs regulated by third country supervisors where these meet equivalent measures to the conditions set out in Article 211(2) of Directive 2009/138/EC;
+
+d)
+
+Other SPVs, not meeting the definitions above, where risks are transferred under arrangements with the economic substance of a reinsurance contract.
+
+The template covers risk mitigation techniques (recognised or not) carried out by the (re)insurance undertaking whereby a SPV assumes risks from the reporting undertaking through a reinsurance contract; or assume insurance risks from the reporting undertaking transferred through a similar arrangement that is ‘reinsurance like’.
+
+
+c0030 - Internal code of SPV
+----------------------------
+
+
+Internal code attributed to the SPV by the undertaking by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the group: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the group, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits.This code shall be unique to each SPV and remain constant over subsequent reports.
+
+
+c0040 - ID Code of SPV notes or other financing mechanism issued
+----------------------------------------------------------------
+
+
+For the notes or other financing mechanism issued by the SPV and hold by the insurance and reinsurance undertaking identify the ID code by this order of priority if existent:—ISO 6166 ISIN when available;—Other ‘recognised’ codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC);—Code attributed by the undertaking, when the options above are not available, and must be consistent over time.
+
+
+c0050 - ID Code Type of SPV notes or other financing mechanism issued
+---------------------------------------------------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertaking
+
+
+c0060 - Lines of Business SPV securitisation relates
+----------------------------------------------------
+
+
+Identification of the line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, reported. The following closed list shall be used: 1 — Medical expense insurance 2 — Income protection insurance 3 — Workers' compensation insurance 4 — Motor vehicle liability insurance 5 — Other motor insurance 6 — Marine, aviation and transport insurance 7 — Fire and other damage to property insurance 8 — General liability insurance 9 — Credit and suretyship insurance 10 — Legal expenses insurance 11 — Assistance 12 — Miscellaneous financial loss 13 — Proportional medical expense reinsurance 14 — Proportional income protection reinsurance 15 — Proportional workers' compensation reinsurance 16 — Proportional motor vehicle liability reinsurance 17 — Proportional other motor reinsurance 18 — Proportional marine, aviation and transport reinsurance 19 — Proportional fire and other damage to property reinsurance 20 — Proportional general liability reinsurance 21 — Proportional credit and suretyship reinsurance 22 — Proportional legal expenses reinsurance 23 — Proportional assistance reinsurance 24 — Proportional miscellaneous financial loss reinsurance 25 — Non–proportional health reinsurance 26 — Non–proportional casualty reinsurance 27 — Non–proportional marine, aviation and transport reinsurance 28 — Non–proportional property reinsurance 29 — Health insurance 30 — Insurance with profit participation 31 — Index–linked and unit–linked insurance 32 — Other life insurance 33 — Annuities stemming from non–life insurance contracts and relating to health insurance obligations 34 — Annuities stemming from non–life insurance contracts and relating to insurance obligations other than health insurance obligations 35 — Health reinsurance 36 — Life reinsurance 37 — MultilineWhere the reinsurance treaty or a similar arrangement provides cover for more than one line of business and the terms of cover differ between lines of business then the treaty needs to be specified over multiple rows. The first row entry for the treaty needs to be entered as ‘Multiline’ that provides details of the overall terms of the treaty, with the subsequent rows providing details of the individual terms of the reinsurance treaty to each relevant line of business. Where the term of the cover do not differ by line of business only the dominant Solvency II line of business is required.
+
+
+c0070 - Type of Trigger(s) in the SPV
+-------------------------------------
+
+
+Identify the trigger mechanisms used by the SPV as trigger events that would oblige the SPV to make payment to the ceding (re)insurance undertaking. The following closed list shall be used: 1 — Indemnity 2 — Model Loss 3 — Index or Parametric 4 — Hybrids (including components from the above–mentioned techniques) 5 — Other
+
+
+c0080 - Contractual Trigger Event
+---------------------------------
+
+
+Description of the specific trigger that would oblige the SPV to make payment to the ceding (re)insurance undertaking. This information should be complementary to the information on ‘Type of Trigger(s) in the SPV’ and should be descriptive enough to allow supervisors to identify the concrete trigger, e.g. specific weather/storm indices for cat risks or general mortality tables for longevity risks.
+
+
+c0090 - Same trigger as in underlying cedant's portfolio
+--------------------------------------------------------
+
+
+Identify if the trigger defined in the underlying (re)insurance policy with the pay–out trigger defined in the treaty is the same as the one defined in the SPV. The following closed list shall be used: 1 — Same trigger 2 — Different trigger
+
+
+c0100 - Basis risk arising from risk–transfer structure
+-------------------------------------------------------
+
+
+Identify the causes of basis risk (i.e. that the exposure covered by the risk–mitigation technique does not correspond to the risk exposure of the insurance or reinsurance undertaking). The following close list shall be used: 1 — No basis risk 2 — Insufficient subordination for note holders, 3 — Investors' additional recourse against cedant, 4 — Additional risks were securitised subsequent to authorisation, 5 — Cedants hold exposure to notes issued, 9 — Other
+
+
+c0110 - Basis risk arising from contractual terms
+-------------------------------------------------
+
+
+Identify the basis risk arising from contractual terms. 1 — No basis risk 2 — Substantial part of risks insured not transferred 3 — Insufficient trigger to match risk exposure of cedant
+
+
+c0120 - SPV assets ring–fenced to settle cedant–specific obligations
+--------------------------------------------------------------------
+
+
+The amount of SPV assets ring–fenced for the reporting cedant, which are available to settle the contractual liabilities reinsured by the SPV for that specific cedant only (collateral assets specifically recognised on balance sheet of the SPV in relation to the obligation assumed).
+
+
+c0130 - Other non cedant–specific SPV Assets for which recourse may exist
+-------------------------------------------------------------------------
+
+
+The amount of SPV assets (recognised on balance sheet of the SPV), not directly related to the reporting cedant but for which recourse exists. This would include any ‘free assets’ of the SPV, which may be available to settle the reporting cedant's liabilities.
+
+
+c0140 - Other recourse arising from securitisation
+--------------------------------------------------
+
+
+The amount of contingent assets of the SPV (held off balance sheet), not directly related to the reporting cedant but for which recourse exists. This includes recourse against other counterparties of the SPV, including guarantees, reinsurance contracts and derivative commitments to SPV made by the SPV sponsor, note holders, or other third parties.
+
+
+c0150 - Total maximum possible obligations from SPV under reinsurance policy
+----------------------------------------------------------------------------
+
+
+Amount of total maximum possible obligations from reinsurance contract (cedant–specific).
+
+
+c0160 - SPV fully funded in relation to cedant obligations throughout the reporting period
+------------------------------------------------------------------------------------------
+
+
+Identify if the protection offered by the risk–mitigation technique may only be partially recognised where counterparty to a reinsurance contract ceases to be able to provide effective and continuing risk–transfer. The following closed list shall be used: 1 — SPV fully funded in relation to cedant obligations 2 — SPV not fully funded in relation to cedant obligations
+
+
+c0170 - Current recoverables from SPV
+-------------------------------------
+
+
+Amount of SPV Recoverables recognised on the Solvency II balance sheet of the reporting undertaking (prior to adjustments made for expected losses due to counterparty default). This shall be calculated in accordance with the requirements of Article 41of Delegated Regulation (EU) 2015/35.
+
+
+c0180 - Identification of material investments held by cedant in SPV
+--------------------------------------------------------------------
+
+
+Identify whether material investments held by the cedant in the SPV exist, according to Article 210 of Delegated Regulation (EU) 2015/35. 1 — Not applicable 2 — Investments of SPV controlled by cedant and/or sponsor (where it differs from cedant); 3 — Investments of SPV held by cedant (equity, notes or other subordinated debt of the SPV); 4 — Cedant sells reinsurance or other risk mitigation protection to the SPV; 5 — Cedant has provided guarantee or other credit enhancement to SPV or note holders; 6 — Sufficient basis risk retained by cedant; 9 — Other.If this is reported then cells C0030 and C0040 needs to identify the instrument.
+
+
+c0190 - Securitisation assets related to cedant held in trust with other third party than cedant/sponsor?
+---------------------------------------------------------------------------------------------------------
+
+
+Identify if there are securitisation assets related to cedant held in trust with other third party than cedant/sponsor, considering the provisions of Articles 214(2) and 326 of Delegated Regulation (EU) 2015/35. One of the options in the following closed list shall be used: 1 — Held in trust with other third party than cedant/sponsor 2 — Not held in trust with other third party than cedant/sponsor
+
+
+c0200 - Internal code of SPV
+----------------------------
+
+
+Internal code attributed to the SPV by the undertaking by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the group: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the group, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digitsThis code shall be unique to each SPV and remain constant over subsequent reports.
+
+
+c0210 - Type of code SPV
+------------------------
+
+
+Identification of the code used in item ‘internal code of SPV’. One of the options in the following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0220 - Legal nature of SPV
+---------------------------
+
+
+Identify the legal nature of the SPV securitisation, according to Article 13(26) of Directive 2009/138/EC.Closed list 1 — Trusts 2 — Partnerships 3 — Limited liability companies 4 — Other legal entity form not referred above 5 — Not incorporated
+
+
+c0230 - Name of SPV
+-------------------
+
+
+Identify the name of the SPV
+
+
+c0240 - Incorporation no. of SPV
+--------------------------------
+
+
+Registration number received at incorporation of the SPV. For un–incorporated SPVs, the undertaking should report the regulatory number or equivalent number obtained from the supervisory authority at the time of authorisation.If the SPV is not incorporated this cell doesn't apply.
+
+
+c0250 - SPV country of authorisation
+------------------------------------
+
+
+Identify the ISO 3166–1 alpha–2 code for the country where the SPV is established and has received authorisation, where applicable.
+
+
+c0260 - SPV authorisation conditions
+------------------------------------
+
+
+Identify authorisation conditions of the SPV according to Article 211 of the Directive 2009/138/EC or equivalent legal instrument. One of the options in the following closed list shall be used: 1 — SPV authorised under Article 211(1) of Directive 2009/138/EC 2 — SPV authorised under Article 211(3) of Directive 2009/138/EC (grandfathered) 3 — SPV regulated by a third country supervisory authority where requirements equivalent to those set out in Article 211(2) of Directive 2009/138/EC are met by the special purpose vehicle 4 — SPV not covered above
+
+
+c0270 - External rating assessment by nominated ECAI
+----------------------------------------------------
+
+
+Rating of the SPV (if any) that is considered by the undertaking and given by an external rating agency.
+
+
+c0280 - Nominated ECAI
+----------------------
+
+
+Rating agency giving the external rating of the SPV, as reported in item C0260.
+
+
+c0290 - Credit quality step
+---------------------------
+
+
+Identify the credit quality step attributed to the SPV. The credit quality step shall reflect any readjustments to the credit quality made internally by the undertaking.
+
+
+c0300 - Internal rating
+-----------------------
+
+
+Internal rating of the SPV for undertakings using internal model to the extent that the internal ratings are used in their internal modelling. If an internal model undertaking is using solely external ratings this item shall not be reported.
+
+
+c0010 - Name of reinsured undertaking
+-------------------------------------
+
+
+Identify the legal name of the reinsured undertaking, identifying the cedent (re)insurance undertaking within the scope of group supervision.
+
+
+c0020 - Identification code of the undertaking
+----------------------------------------------
+
+
+Identification code by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of group supervision: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of group supervision, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits
+
+
+c0030 - Internal code of SPV
+----------------------------
+
+
+Internal code attributed to the SPV by the undertaking by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of group supervision: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of group supervision, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digits.This code shall be unique to each SPV and remain constant over subsequent reports.
+
+
+c0040 - ID Code of SPV notes or other financing mechanism issued
+----------------------------------------------------------------
+
+
+For the notes or other financing mechanism issued by the SPV and hold by the insurance and reinsurance undertaking within the scope of group supervision identify the ID code by this order of priority if existent:—ISO 6166 ISIN when available;—Other ‘recognised’ codes (e.g.: CUSIP, Bloomberg Ticker, Reuters RIC);—Code attributed by the undertaking within the scope of group supervision, when the options above are not available, and must be consistent over time.
+
+
+c0050 - ID Code Type of SPV notes or other financing mechanism issued
+---------------------------------------------------------------------
+
+
+Type of ID Code used for the ‘Asset ID Code’ item. One of the options in the following closed list shall be used: 1 — ISO 6166 for ISIN code 2 — CUSIP (The Committee on Uniform Securities Identification Procedures number assigned by the CUSIP Service Bureau for U.S. and Canadian companies) 3 — SEDOL (Stock Exchange Daily Official List for the London Stock Exchange) 4 — WKN (Wertpapier Kenn–Nummer, the alphanumeric German identification number) 5 — Bloomberg Ticker (Bloomberg letters code that identify a company's securities) 6 — BBGID (The Bloomberg Global ID) 7 — Reuters RIC (Reuters instrument code) 8 — FIGI (Financial Instrument Global Identifier) 9 — Other code by members of the Association of National Numbering Agencies 99 — Code attributed by the undertaking within the scope of group supervision
+
+
+c0060 - Lines of Business SPV securitisation relates
+----------------------------------------------------
+
+
+Identification of the line of business as defined in Annex I to Delegated Regulation (EU) 2015/35 reported. The following closed list shall be used: 1 — Medical expense insurance 2 — Income protection insurance 3 — Workers' compensation insurance 4 — Motor vehicle liability insurance 5 — Other motor insurance 6 — Marine, aviation and transport insurance 7 — Fire and other damage to property insurance 8 — General liability insurance 9 — Credit and suretyship insurance 10 — Legal expenses insurance 11 — Assistance 12 — Miscellaneous financial loss 13 — Proportional medical expense reinsurance 14 — Proportional income protection reinsurance 15 — Proportional workers' compensation reinsurance 16 — Proportional motor vehicle liability reinsurance 17 — Proportional other motor reinsurance 18 — Proportional marine, aviation and transport reinsurance 19 — Proportional fire and other damage to property reinsurance 20 — Proportional general liability reinsurance 21 — Proportional credit and suretyship reinsurance 22 — Proportional legal expenses reinsurance 23 — Proportional assistance reinsurance 24 — Proportional miscellaneous financial loss reinsurance 25 — Non–proportional health reinsurance 26 — Non–proportional casualty reinsurance 27 — Non–proportional marine, aviation and transport reinsurance 28 — Non–proportional property reinsurance 29 — Health insurance 30 — Insurance with profit participation 31 — Index–linked and unit–linked insurance 32 — Other life insurance 33 — Annuities stemming from non–life insurance contracts and relating to health insurance obligations 34 — Annuities stemming from non–life insurance contracts and relating to insurance obligations other than health insurance obligations 35 — Health reinsurance 36 — Life reinsurance 37 — Multiline (as defined hereunder)Where the reinsurance treaty or a similar arrangement provides cover for more than one line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, and the terms of cover differ between lines of business then the treaty needs to be specified over multiple rows. The first row entry for the treaty needs to be entered as ‘Multiline’ that provides details of the overall terms of the treaty, with the subsequent rows providing details of the individual terms of the reinsurance treaty to each relevant line of business. Where the term of the cover do not differ by line of business only the dominant line of business is required.
+
+
+c0070 - Type of Trigger(s) in the SPV
+-------------------------------------
+
+
+Identify the trigger mechanisms used by the SPV as trigger events that would oblige the SPV to make payment to the ceding (re)insurance undertaking within the scope of group supervision. The following closed list shall be used: 1 — Indemnity 2 — Model Loss 3 — Index or Parametric 4 — Hybrids (including components from the above–mentioned techniques) 5 — Other
+
+
+c0080 - Contractual Trigger Event
+---------------------------------
+
+
+Description of the specific trigger that would oblige the SPV to make payment to the ceding (re)insurance undertaking within the scope of group supervision. This information should be complementary to the information on ‘Type of Trigger(s) in the SPV’ and should be descriptive enough to allow supervisors to identify the concrete trigger, e.g. specific weather/storm indices for cat risks or general mortality tables for longevity risks.
+
+
+c0090 - Same trigger as in underlying cedant's portfolio
+--------------------------------------------------------
+
+
+Identify if the trigger defined in the underlying (re)insurance policy with the pay–out trigger defined in the treaty is the same as the one defined in the SPV. The following closed list shall be used: 1 — Same trigger 2 — Different trigger
+
+
+c0100 - Basis risk arising from risk–transfer structure
+-------------------------------------------------------
+
+
+Identify the causes of basis risk (i.e. that the exposure covered by the risk–mitigation technique does not correspond to the risk exposure of the insurance or reinsurance undertaking within the scope of group supervision). The following close list shall be used: 1 — No basis risk 2 — Insufficient subordination for note holders, 3 — Investors' additional recourse against cedant, 4 — Additional risks were securitised subsequent to authorisation, 5 — Cedants hold exposure to notes issued, 9 — Other
+
+
+c0110 - Basis risk arising from contractual terms
+-------------------------------------------------
+
+
+Identify the basis risk arising from contractual terms. 1 — No basis risk 2 — Substantial part of risks insured not transferred 3 — Insufficient trigger to match risk exposure of cedant
+
+
+c0120 - SPV assets ring–fenced to settle cedant–specific obligations
+--------------------------------------------------------------------
+
+
+The amount of SPV assets ring–fenced for the reporting cedant, which are available to settle the contractual liabilities reinsured by the SPV for that specific cedant only (collateral assets specifically recognised on balance sheet of the SPV in relation to the obligation assumed).
+
+
+c0130 - Other non cedant–specific SPV Assets for which recourse may exist
+-------------------------------------------------------------------------
+
+
+The amount of SPV assets (recognised on balance sheet of the SPV), not directly related to the reporting cedant but for which recourse exists. This would include any ‘free assets’ of the SPV, which may be available to settle the reporting cedant's liabilities.
+
+
+c0140 - Other recourse arising from securitisation
+--------------------------------------------------
+
+
+The amount of contingent assets of the SPV (held off balance sheet), not directly related to the reporting cedant but for which recourse exists. This includes recourse against other counterparties of the SPV, including guarantees, reinsurance contracts and derivative commitments to SPV made by the SPV sponsor, note holders, or other third parties.
+
+
+c0150 - Total maximum possible obligations from SPV under reinsurance policy
+----------------------------------------------------------------------------
+
+
+Amount of total maximum possible obligations from reinsurance contract (cedant–specific).
+
+
+c0160 - SPV fully funded in relation to cedant obligations throughout the reporting period
+------------------------------------------------------------------------------------------
+
+
+Identify if the protection offered by the risk–mitigation technique may only be partially recognised where counterparty to a reinsurance contract ceases to be able to provide effective and continuing risk–transfer. The following closed list shall be used: 1 — SPV fully funded in relation to cedant obligations 2 — SPV not fully funded in relation to cedant obligations
+
+
+c0170 - Current recoverables from SPV
+-------------------------------------
+
+
+Amount of SPV Recoverables recognised on the Solvency II balance sheet of the undertaking within the scope of group supervision (prior to adjustments made for expected losses due to counterparty default). This should be calculated in accordance with the requirements of Article 41of Delegated Regulation (EU) 2015/35.
+
+
+c0180 - Identification of material investments held by cedant in SPV
+--------------------------------------------------------------------
+
+
+Identify whether material investments held by the cedant in the SPV exist, according to Article 210 of Delegated Regulation (EU) 2015/35. 1 — Not applicable 2 — Investments of SPV controlled by cedant and/or sponsor (where it differs from cedant); 3 — Investments of SPV held by cedant (equity, notes or other subordinated debt of the SPV); 4 — Cedant sells reinsurance or other risk mitigation protection to the SPV; 5 — Cedant has provided guarantee or other credit enhancement to SPV or note holders; 6 — Sufficient basis risk retained by cedant; 9 — Other.If this is reported then cells C0030 and C0040 needs to identify the instrument.
+
+
+c0190 - Securitisation assets related to cedant held in trust with other third party than cedant / sponsor
+----------------------------------------------------------------------------------------------------------
+
+
+Identify if there are securitisation assets related to cedant held in trust with other third party than cedant / sponsor, considering the provisions of Articles 214(2) and 326 of Delegated Regulation (EU) 2015/35. One of the options in the following closed list shall be used: 1 — Held in trust with other third party than cedant / sponsor 2 — Not held in trust with other third party than cedant / sponsor
+
+
+c0200 - Internal code of SPV
+----------------------------
+
+
+Internal code attributed to the SPV by the undertaking within the scope of group supervision by this order of priority:—Legal Entity Identifier (LEI);—Specific codeSpecific code:—For EEA insurance and reinsurance undertakings and other EEA regulated undertakings within the scope of group supervision: identification code used in the local market, attributed by the undertaking's competent supervisory authority;—For non–EEA undertakings and non–regulated undertakings within the scope of group supervision, identification code will be provided by the group. When allocating an identification code to each non–EEA or non–regulated undertaking, the group should comply with the following format in a consistent manner:identification code of the parent undertaking + ISO 3166–1 alpha–2 code of the country of the undertaking + 5 digitsThis code shall be unique to each SPV and remain constant over subsequent reports.
+
+
+c0210 - Type of code SPV
+------------------------
+
+
+Identification of the code used in item ‘internal code of SPV’. One of the options in the following closed list shall be used: 1 — LEI 2 — Specific code
+
+
+c0220 - Legal nature of SPV
+---------------------------
+
+
+Identify the legal nature of the SPV securitisation, according to Article 13(26) of Directive 2009/138/EC.Closed list 1 — Trusts 2 — Partnerships 3 — Limited liability companies 4 — Other legal entity form not referred above 5 — Not incorporated
+
+
+c0230 - Name of SPV
+-------------------
+
+
+Identify the name of the SPV
+
+
+c0240 - Incorporation no. of SPV
+--------------------------------
+
+
+Registration number received at incorporation of the SPV. For un–incorporated SPVs, the groups shall report the regulatory number or equivalent number obtained from the supervisory authority at the time of authorisation.If the SPV is not incorporated this cell doesn't apply.
+
+
+c0250 - SPV country of authorisation
+------------------------------------
+
+
+Identify the ISO 3166–1 alpha–2 code for the country where the SPV is established and has received authorisation, where applicable.
+
+
+c0260 - SPV authorisation conditions
+------------------------------------
+
+
+Identify authorisation conditions of the SPV according to Article 211 of Directive 2009/138/EC or equivalent legal instrument. One of the options in the following closed list shall be used: 1 — SPV authorised under Article 211(1) of the Directive 2009/138/EC 2 — SPV authorised under Article 211(3) of the Directive 2009/138/EC (grandfathered) 3 — SPV regulated by a third country supervisory authority where requirements equivalent to those set out in Article 211(2) of Directive 2009/138/EC are met by the special purpose vehicle 4 — SPV not covered above
+
+
+c0270 - External rating assessment by nominated ECAI
+----------------------------------------------------
+
+
+Rating of the SPV (if any) that is considered by the group and given by an external rating agency.
+
+
+c0280 - Nominated ECAI
+----------------------
+
+
+Rating agency giving the external rating of the SPV, as reported in item C0260.
+
+
+c0290 - Credit quality step
+---------------------------
+
+
+Identify the credit quality step attributed to the SPV. The credit quality step shall reflect any readjustments to the credit quality made internally by the group.
+
+
+c0300 - Internal rating
+-----------------------
+
+
+Internal rating of the SPV for groups using internal model to the extent that the internal ratings are used in their internal modelling. If an internal model group is using solely external ratings this item shall not be reported.
+
+

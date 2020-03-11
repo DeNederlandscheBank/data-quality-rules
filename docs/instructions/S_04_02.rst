@@ -1,0 +1,66 @@
+==============================================================================================================
+S.04.02 - Information on class 10 in Part A of Annex I of Solvency II Directive, excluding carrier's liability
+==============================================================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section relates to annual submission of information for individual entities.
+
+This template is to be reported according to Article 159 of directive 2009/138/EC and addresses only direct business.
+
+Information shall be reported in relation to freedom to provide services performed by the undertaking and by EEA country, identifying separately the business performed by branch and through freedom to provide services.
+
+
+c0010r0010… - Country
+---------------------
+
+
+ISO 3166–1 alpha–2 code of the EEA member where the branch is located
+
+
+c0010r0020 - Undertaking — FPS — Frequency of claims for Motor Vehicle Liability (except carrier's liability)
+-------------------------------------------------------------------------------------------------------------
+
+
+Number of claims, in relation to the business performed by the undertaking through freedom to provide services, incurred with regard to class 10 in Part A of Annex I of Solvency II Directive (except carrier's liability), over the average insured vehicles in the reporting period. The average insured vehicles correspond to the mean between the number of insured vehicles at the end of the reporting year and the number of insured vehicles at the end of the year before the reporting year. Claims without any incurred amounts shall not be taken into account.
+
+
+c0010r0030 - Undertaking — FPS — Average cost of claims for Motor Vehicle Liability (except carrier's liability)
+----------------------------------------------------------------------------------------------------------------
+
+
+Average of claims incurred, in relation to the business performed by the undertaking through freedom to provide services, with regard to class 10 in Part A of Annex I of Solvency II Directive (except carrier's liability), measured as amount of claims incurred divided by the number of claims incurred. Claims without any incurred amounts shall not be taken into account.
+
+
+c0020r0020… - Branch — Frequency of claims for Motor Vehicle Liability (except carrier's liability)
+---------------------------------------------------------------------------------------------------
+
+
+Number of claims, for each branch in relation to the business performed in the country where the branch is established, incurred with regard to class 10 in Part A of Annex I of Solvency II Directive (except carrier's liability), over the average insured vehicles in the reporting period. The average insured vehicles correspond to the mean between the number of insured vehicles at the end of the reporting year and the number of insured vehicles at the end of the year before the reporting year. Claims without any incurred amounts shall not be taken into account.
+
+
+c0030r0020… - FPS — Frequency of claims for Motor Vehicle Liability (except carrier's liability)
+------------------------------------------------------------------------------------------------
+
+
+Number of claims, for each branch in relation to the business performed through freedom to provide services, incurred with regard to class 10 in Part A of Annex I of Solvency II Directive (except carrier's liability), over the average insured vehicles in the reporting period. The average insured vehicles correspond to the mean between the number of insured vehicles at the end of the reporting year and the number of insured vehicles at the end of the year before the reporting year. Claims without any incurred amounts shall not be taken into account.
+
+
+c0020r0030… - Branch — Average cost of claims for Motor Vehicle Liability (except carrier's liability)
+------------------------------------------------------------------------------------------------------
+
+
+Average of claims incurred, for each branch in relation to the business performed in the country where the branch is established, with regard to class 10 in Part A of Annex I of Solvency II Directive (except carrier's liability), measured as amount of claims incurred divided by the number of claims incurred. Claims without any incurred amounts shall not be taken into account.
+
+
+c0030r0030… - FPS — Average cost of claims for Motor Vehicle Liability (except carrier's liability)
+---------------------------------------------------------------------------------------------------
+
+
+Average of claims incurred, for each branch in relation to the business performed through freedom to provide services, with regard to class 10 in Part A of Annex I of Solvency II Directive (except carrier's liability), measured as amount of claims incurred divided by the number of claims incurred. Claims without any incurred amounts shall not be taken into account.
+
+

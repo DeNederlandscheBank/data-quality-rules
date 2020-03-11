@@ -1,0 +1,259 @@
+================================================================
+S.20.01 - Development of the distribution of the claims incurred
+================================================================
+
+Instructions
+------------
+
+
+General comments:
+
+This section provides an overview about the run–off/movement of non–life claims portfolios, in terms of both claims paid (split by different type of claims) and RBNS claims (as defined in S.19.01).
+
+This template must be filled for each Line of Business (12 line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, in total) with regards to gross direct business (i.e. undertakings are exempted to report the accepted — proportional and non–proportional — business); in case of RBNS denominated in different currencies, it is required to report only the total in the reporting currency.
+
+With regard to the number of claims to be reported, undertakings will use their specific definition or, if available, specification existing at national level (for instance requirement laid down by the National Supervisory Authority). However, each claim shall be reported once. If any claim is closed and reopened during the year, it shall not be reported in the column ‘Reopen Claims during the year’ but it shall be reported in relevant column regarding ‘Open Claims at the beginning of the year’ or ‘Claims reported during the year’.
+
+Undertakings are required to report data on accident year or underwriting year basis, in accordance with any requirements of the National Supervisory Authority. If the National Supervisory Authority has not stipulated which to use then the undertaking may use accident or underwriting year according to how they manage each line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, provided that they use the same year consistently, year on year.
+
+As per the number of years to be reported, the same reporting requirement introduced in S.19.01 applies.
+
+
+z0010 - Line of business
+------------------------
+
+
+Identification of the line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, reported. The following closed list shall be used: 1 — Medical expense insurance 2 — Income protection insurance 3 — Workers' compensation insurance 4 — Motor vehicle liability insurance 5 — Other motor insurance 6 — Marine, aviation and transport insurance 7 — Fire and other damage to property insurance 8 — General liability insurance 9 — Credit and suretyship insurance 10 — Legal expenses insurance 11 — Assistance 12 — Miscellaneous financial loss
+
+
+z0020 - Accident year/Underwriting year
+---------------------------------------
+
+
+Report the standard used by the undertakings for reporting of claims development. One of the options from the following closed list shall be used: 1 — Accident year 2 — Underwriting year
+
+
+c0020r0010 to r0160 - RBNS claims. Open Claims at the beginning of the year, Open Claims at the end of the year — Number of claims
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+The number of open claims at the beginning of the year and still open at the end of the reporting year, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.
+
+
+c0030r0010 to r0160 - RBNS claims. Open Claims at the beginning of the year, Open Claims at the end of the year — Gross RBNS at the beginning of the year
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross RBNS Claims, net of salvage and subrogation, at the beginning of the year and still open at the end of the reporting year, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0040r0010 to r0160 - RBNS claims. Open Claims at the beginning of the year, Open Claims at the end of the year — Gross payments made during the current year
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross payments, net of salvage and subrogation, made during the current year regarding claims still open at the end of the reporting year, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0050r0010 to r0160 - RBNS claims. Open Claims at the beginning of the year, Open Claims at the end of the year — Gross RBNS at the end of the period
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross RBNS Claims, net of salvage and subrogation, at the end of the period regarding claims still open at the end of the reporting year, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0060r0010 to r0160 - RBNS claims. Open Claims at the beginning of the year, Closed Claims at the end of the year, settled with payment — Number of claims ended with payments
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The number of Claims open at the beginning of the year and closed at the end of the year and settled with payments, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.
+
+
+c0070r0010 to r0160 - RBNS claims. Open Claims at the beginning of the year, Closed Claims at the end of the year, settled with payment — Gross RBNS at the beginning of the year
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross RBNS Claims, net of salvage and subrogation, open at the beginning of the year and closed at the end of the year and settled with payments, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0080r0010 to r0160 - RBNS claims. Open Claims at the beginning of the year, Closed Claims at the end of the year, settled with payment — Gross payments made during the current year
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross payments, net of salvage and subrogation, made during the current year regarding claims closed at the end of the reporting year and settled with payments, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims
+
+
+c0090r0010 to r0160 - RBNS claims. Open Claims at the beginning of the year, Closed Claims at the end of the year, settled without any payment — Number of claims ended without any payment
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The number of Claims open at the beginning of the year and closed at the end of the year and settled without any payment, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.
+
+
+c0100r0010 to r0160 - RBNS claims. Open Claims at the beginning of the year, Closed Claims at the end of the year, settled without any payment — Gross RBNS at the beginning of the year referred to claims settled without any payment
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross RBNS Claims, net of salvage and subrogation, open at the beginning of the year and closed at the end of the year and settled without any payment, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0110r0010 to r0160 - Claims reported during the year, Open Claims at the end of the year — Number of claims
+------------------------------------------------------------------------------------------------------------
+
+
+The number of claims reported during the year and still open at the end of the year, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.
+
+
+c0120r0010 to r0160 - Claims reported during the year, Open Claims at the end of the year — Gross payments made during the current year
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross payments, net of salvage and subrogation, made during the current year regarding claims reported during the year and still open at the end of the reporting year, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0130r0010 to r0160 - Claims reported during the year, Open Claims at the end of the year — Gross RBNS at the end of the period
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross RBNS Claims, net of salvage and subrogation, at the end of the period regarding claims reported during the year and still open at the end of the reporting year, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0140r0010 to r0160 - Claims reported during the year, Closed Claims at the end of the year, settled with payment — Number of claims ended with payments
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The number of Claims reported during the year and closed at the end of the year and settled with payments, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.
+
+
+c0150r0010 to r0160 - Claims reported during the year, Closed Claims at the end of the year, settled with payment — Gross payments made during the current year
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross payments, net of salvage and subrogation, made during the current year regarding claims reported during the year and closed at the end of the year and settled with payments, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0160r0010 to r0160 - Claims reported during the year, Closed Claims at the end of the year, settled without any payment — Number of claims ended without any payment
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The number of Claims reported during the year and closed at the end of the year and settled without any payment, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.
+
+
+c0170r0010 to r0160 - Reopen claims during the year, Open Claims at the end of the year — Number of claims
+----------------------------------------------------------------------------------------------------------
+
+
+The number of Claims reopened during the year and still open at the end of the year, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.
+
+
+c0180r0010 to r0160 - Reopen claims during the year, Open Claims at the end of the year — Gross payments made during the current year
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross payments, net of salvage and subrogation, made during the current year regarding claims reopened during the year and still open at the end of the year, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0190r0010 to r0160 - Reopen claims during the year, Open Claims at the end of the year — Gross RBNS at the end of the period
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross RBNS Claims, net of salvage and subrogation,at the end of the period regarding claims reopened during the year and still open at the end of the year, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0200r0010 to r0160 - Reopen claims during the year, Closed Claims at the end of the period — Number of claims ended with payments
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+The number of Claims reopened during the year and closed at the end of the year and ended with payments, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.
+
+
+c0210r0010 to r0160 - Reopen claims during the year, Closed Claims at the end of the period — Gross payments made during the current year
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross payments, net of salvage and subrogation, made during the current year regarding claims reopened during the year and closed at the end of the year with payments, by accident/underwriting years from the year N–1 (the year before the reporting year) to N–14, amount of all previous reporting periods prior to N–14 and the total of all the years from N–1 to prior to year N–14.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0110r0170 - Claims reported during the year, Open Claims at the end of the year — Number of claims
+---------------------------------------------------------------------------------------------------
+
+
+The number of claims reported during the year and still open at the end of the year, for the accident/underwriting year, regarding the reporting year N.
+
+
+c0120r0170 - Claims reported during the year, Open Claims at the end of the year — Gross payments made during the current year
+------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross payments, net of salvage and subrogation, made during the current year regarding claims reported during the year and still open at the end of the reporting year, for the accident/underwriting year, regarding the reporting year N.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0130r0170 - Claims reported during the year, Open Claims at the end of the year — Gross RBNS at the end of the period
+----------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross RBNS Claims, net of salvage and subrogation, at the end of the period regarding claims reported during the year and still open at the end of the reporting year, for the accident/underwriting year, regarding the reporting year N.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0140r0170 - Claims reported during the year, Closed Claims at the end of the year, settled with payment — Number of claims ended with payments
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The number of Claims reported during the year and closed at the end of the year and settled with payments, for the accident/underwriting year, regarding the reporting year N.
+
+
+c0150r0170 - Claims reported during the year, Closed Claims at the end of the year, settled with payment — Gross payments made during the current year
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The amount of gross payments, net of salvage and subrogation, made during the current year regarding claims reported during the year and closed at the end of the year and settled with payments, for the accident/underwriting year, regarding the reporting year N.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0160r0170 - Claims reported during the year, Closed Claims at the end of the year, settled without any payment — Number of claims ended without any payment
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The number of Claims reported during the year and closed at the end of the year and settled without any payment, for the accident/underwriting year, regarding the reporting year N.
+
+
+c0110r0180 - Total Claims reported during the year, Open Claims at the end of the year — Number of claims
+---------------------------------------------------------------------------------------------------------
+
+
+Total number of claims reported during the year still open at the end of the year.
+
+
+c0120r0180 - Total Claims reported during the year, Open Claims at the end of the year — Gross payments made during the current year
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total of gross payments, net of salvage and subrogation,made during the current year in relation to total number of claims reported during the year still open at the end of the year.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0130r0180 - Total Claims reported during the year, Open Claims at the end of the year — Gross RBNS at the end of the period
+----------------------------------------------------------------------------------------------------------------------------
+
+
+Total of Gross RBNS, net of salvage and subrogation,at the end of the period in relation to total number of claims reported during the year still open at the end of the year.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0140r0180 - Total Claims reported during the year, Closed Claims at the end of the year, settled with payment — Number of claims ended with payments
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total number of claims reported during the year and settled with payments.
+
+
+c0150r0180 - Total Claims reported during the year, Closed Claims at the end of the year, settled with payment — Gross payments made during the current year
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Gross payments, net of salvage and subrogation, made during the current year in relation to claims reported during the year and settled with payments.The amount includes all the elements that compose the claim itself but excludes any expenses except those attributable to specific claims.
+
+
+c0160r0180 - Total Claims reported during the year, Closed Claims at the end of the year, settled without any payment — Number of claims ended without any payment
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Total number of claims reported during the year and settled without any payment.
+
+
