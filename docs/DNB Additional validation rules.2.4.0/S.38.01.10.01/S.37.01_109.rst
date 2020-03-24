@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.38.01.10.01 Duration of technical provisions
-
+S.38.01.10.01
 
 Datapoints labels
 -----------------
 
-S.38.01.10.01,r0020,c0010 [duration of technical provisions, non-life, none]
-
+S.38.01.10.01,r0020,c0010 [unknown label]
 
 

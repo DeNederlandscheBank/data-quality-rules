@@ -11,17 +11,13 @@ IF {S.01.02.04.01,r0160,c0010}<> "ACCOUNTING CONSOLIDATION-BASED METHOD [METHOD 
 Template references
 -------------------
 
-S.01.01.04.01 Content of the submission
-
-S.01.02.04.01 Basic Information - General
-
+S.01.01.04.01
+S.01.02.04.01
 
 Datapoints labels
 -----------------
 
-S.01.01.04.01,r0710,c0010 [s.33.01.04 - insurance and reinsurance individual requirements, none]
-
-S.01.02.04.01,r0160,c0010 [method of group solvency calculation, none]
-
+S.01.01.04.01,r0710,c0010 [unknown label]
+S.01.02.04.01,r0160,c0010 [unknown label]
 
 

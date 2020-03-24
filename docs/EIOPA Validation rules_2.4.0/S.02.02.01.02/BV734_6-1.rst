@@ -1,0 +1,27 @@
+=========
+BV734_6-1
+=========
+
+Rule definition
+---------------
+
+BV734_6-1: empty({{S.02.02.01.02,r0070,c0050}}) where ExDimVal({{S.02.02.01.02,r0070,c0050}},OC) = {{S.01.02.07.01,r0110,c0010}}
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.02.02.01.02 Material currencies
+
+
+Datapoints labels
+-----------------
+
+S.01.02.07.01,r0110,c0010 [currency used for reporting, none]
+
+S.02.02.01.02,r0070,c0050 [any other assets, temporary identifier for currency 2]
+
+
+

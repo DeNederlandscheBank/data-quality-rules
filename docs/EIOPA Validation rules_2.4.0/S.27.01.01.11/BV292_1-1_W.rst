@@ -1,0 +1,31 @@
+===========
+BV292_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV292_1-1_W: [ (c0760;0780)] {{S.27.01.01.11, r2410}} = {{S.27.01.01.11, r2420}} - {{S.27.01.01.11, r2400}}
+
+
+Template references
+-------------------
+
+S.27.01.01.11 Man made catastrophe risk - Marine
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.11,r2400 [total before diversification]
+
+S.27.01.01.11,r2410 [diversification between type of event]
+
+S.27.01.01.11,r2420 [total after diversification]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0760;0780)]

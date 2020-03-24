@@ -1,0 +1,23 @@
+=========
+BV690_3-1
+=========
+
+Rule definition
+---------------
+
+BV690_3-1: {{S.22.01.01.01, r0050,c0010}} != 0
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints labels
+-----------------
+
+S.22.01.01.01,r0050,c0010 [eligible own funds to meet solvency capital requirement, amount with long term guarantee measures and transitionals]
+
+
+

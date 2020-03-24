@@ -1,0 +1,31 @@
+======
+BV87-2
+======
+
+Rule definition
+---------------
+
+BV87-2: [ (c0010)] {{S.23.01.07.01, r0620}} * {{S.23.01.07.01, r0580}} = {{S.23.01.07.01, r0540}}
+
+
+Template references
+-------------------
+
+S.23.01.07.01 Own funds
+
+
+Datapoints labels
+-----------------
+
+S.23.01.07.01,r0540 [total eligible own funds to meet the scr]
+
+S.23.01.07.01,r0580 [scr]
+
+S.23.01.07.01,r0620 [ratio of eligible own funds to scr]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0010)]

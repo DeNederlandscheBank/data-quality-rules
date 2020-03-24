@@ -1,0 +1,27 @@
+=======
+BV934-2
+=======
+
+Rule definition
+---------------
+
+BV934-2: if (not(empty({{S.31.01.01.01, c0100}}))) then not(empty({{S.31.01.01.02, c0200}}))
+
+
+Template references
+-------------------
+
+S.31.01.01.01 Share of reinsurers
+
+S.31.01.01.02 Information on reinsurers
+
+
+Datapoints labels
+-----------------
+
+S.31.01.01.01,c0100 [reinsurance recoverables: total reinsurance recoverables]
+
+S.31.01.01.02,c0200 [country of residency]
+
+
+

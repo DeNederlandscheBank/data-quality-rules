@@ -1,0 +1,31 @@
+=========
+BV297_1-1
+=========
+
+Rule definition
+---------------
+
+BV297_1-1: [ (c0960;0980)] {{S.27.01.01.15, r2810}} = {{S.27.01.01.15, r2820}} - {{S.27.01.01.15, r2800}}
+
+
+Template references
+-------------------
+
+S.27.01.01.15 Man made catastrophe risk - Liability
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.15,r2800 [total before diversification]
+
+S.27.01.01.15,r2810 [diversification between type of cover]
+
+S.27.01.01.15,r2820 [total after diversification]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0960;0980)]

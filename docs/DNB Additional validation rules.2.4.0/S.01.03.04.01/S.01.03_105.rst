@@ -11,14 +11,12 @@ IF {S.01.03.04.01,c0040}<>" " THEN {S.01.03.04.01,c0070}<>" "
 Template references
 -------------------
 
-S.01.03.04.01 List of all RFF/MAP (overlaps allowed)
-
+S.01.03.04.01
 
 Datapoints labels
 -----------------
 
 S.01.03.04.01,c0040 [unknown label]
-S.01.03.04.01,c0070 [rff/map with sub rff/map]
-
+S.01.03.04.01,c0070 [unknown label]
 
 

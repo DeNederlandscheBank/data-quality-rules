@@ -1,0 +1,33 @@
+=========
+BV310_1-1
+=========
+
+Rule definition
+---------------
+
+BV310_1-1: [ (r3300-3600)] {{S.27.01.01.20, c1300}} = {{S.27.01.01.20, c1270}} - {{S.27.01.01.20, c1280}} + {{S.27.01.01.20, c1290}}
+
+
+Template references
+-------------------
+
+S.27.01.01.20 Health Catastrophe risk - Mass accident
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.20,c1270 [catastrophe risk charge before risk mitigation]
+
+S.27.01.01.20,c1280 [estimated risk mitigation]
+
+S.27.01.01.20,c1290 [estimated reinstatement premiums]
+
+S.27.01.01.20,c1300 [catastrophe risk charge after risk mitigation]
+
+
+
+Datapoint references
+--------------------
+
+[ (r3300-3600)]

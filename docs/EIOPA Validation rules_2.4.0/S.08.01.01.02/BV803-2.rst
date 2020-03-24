@@ -1,0 +1,27 @@
+=======
+BV803-2
+=======
+
+Rule definition
+---------------
+
+BV803-2: not(empty({{S.08.01.01.01,c0140}})) where not(matches({{S.08.01.01.02,c0380}},"^..E.$"))
+
+
+Template references
+-------------------
+
+S.08.01.01.01 Information on positions held
+
+S.08.01.01.02 Information on derivatives
+
+
+Datapoints labels
+-----------------
+
+S.08.01.01.01,c0140 [buyer / seller]
+
+S.08.01.01.02,c0380 [cic]
+
+
+

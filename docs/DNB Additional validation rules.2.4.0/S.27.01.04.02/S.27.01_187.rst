@@ -11,14 +11,12 @@ IF {S.27.01.04.02,c0050}<>" " THEN {c0080}<>"PLEASE SELECT"
 Template references
 -------------------
 
-S.27.01.04.02 Natural Catastrophe risk - Windstorm
-
+S.27.01.04.02
 
 Datapoints labels
 -----------------
 
-S.27.01.04.02,c0050 [exposure]
-
+S.27.01.04.02,c0050 [unknown label]
 c0080 [unknown label]
 
 

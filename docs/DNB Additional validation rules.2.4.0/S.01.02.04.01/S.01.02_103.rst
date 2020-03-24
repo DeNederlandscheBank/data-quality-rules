@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.01.02.04.01 Basic Information - General
-
+S.01.02.04.01
 
 Datapoints labels
 -----------------
 
-S.01.02.04.01,r0050,c0010 [country of the group supervisor, none]
-
+S.01.02.04.01,r0050,c0010 [unknown label]
 
 

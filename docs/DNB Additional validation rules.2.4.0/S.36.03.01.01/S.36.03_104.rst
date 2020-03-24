@@ -11,14 +11,12 @@ IF {S.36.03.01.01,c0010} <> " " THEN {S.36.03.01.01,c0080} > 0
 Template references
 -------------------
 
-S.36.03.01.01 IGT - Internal reinsurance
-
+S.36.03.01.01
 
 Datapoints labels
 -----------------
 
 S.36.03.01.01,c0010 [unknown label]
-S.36.03.01.01,c0080 [validity period (start date)]
-
+S.36.03.01.01,c0080 [unknown label]
 
 

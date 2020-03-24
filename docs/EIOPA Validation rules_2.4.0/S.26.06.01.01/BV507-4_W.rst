@@ -1,0 +1,39 @@
+=========
+BV507-4_W
+=========
+
+Rule definition
+---------------
+
+BV507-4_W: if ({{S.01.02.07.01,r0150,c0010}}=[s2c_PU:x17] and {{S.01.02.07.01,r0170,c0010}}=[s2c_PU:x52] and {{SE.01.01.18.01,r0460,c0010}}=[s2c_CN:x59]) then {{S.26.06.01.01,r0310,c0020}}=(0.3*{{S.25.01.01.01,r0100,c0040}}) where ExDimVal({{S.25.01.01.01,r0100,c0040}},AO)=x0 and ExDimVal({{S.26.06.01.01,r0310,c0020}},AO)=x0
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.25.01.01.01 Basic Solvency Capital Requirement
+
+S.26.06.01.01 Operational risk - basic information
+
+
+Datapoints labels
+-----------------
+
+S.01.02.07.01,r0150,c0010 [ring-fenced funds, none]
+
+S.01.02.07.01,r0170,c0010 [matching adjustment, none]
+
+S.25.01.01.01,r0100,c0040 [basic solvency capital requirement, gross solvency capital requirement]
+
+S.26.06.01.01,r0310,c0020 [percentage of basic solvency capital requirement, capital requirement]
+
+SE.01.01.18.01,r0460,c0010 [s.25.01.01 - solvency capital requirement - for undertakings on standard formula, none]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x17] and {{S.01.02.07.01,r0170,c0010}}=[s2c_PU:x52] and {{SE.01.01.18.01,r0460,c0010}}=[s2c_CN:x59]

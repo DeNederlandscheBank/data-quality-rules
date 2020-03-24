@@ -1,0 +1,27 @@
+===========
+BV919_2-1_W
+===========
+
+Rule definition
+---------------
+
+BV919_2-1_W: [ (r0020-0170)] {{S.28.02.01.02, c0060}} ge 0
+
+
+Template references
+-------------------
+
+S.28.02.01.02 Background information
+
+
+Datapoints labels
+-----------------
+
+S.28.02.01.02,c0060 [net (of reinsurance) written premiums in the last 12 months]
+
+
+
+Datapoint references
+--------------------
+
+[ (r0020-0170)]

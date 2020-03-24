@@ -1,0 +1,33 @@
+=======
+BV907-1
+=======
+
+Rule definition
+---------------
+
+BV907-1: if ({{SE.01.01.18.01,r0500,c0010}}=[s2c_CN:x1] and not(empty({{S.26.01.01.02,r0420,c0060}}))) then not(empty({{S.26.01.01.02,r0430,c0060}})) or not(empty({{S.26.01.01.02,r0440,c0060}})) where ExDimVal({{S.26.01.01.02,r0420,c0060}},AO)=x0 and ExDimVal({{S.26.01.01.02,r0430,c0060}},AO)=x0 and ExDimVal({{S.26.01.01.02,r0440,c0060}},AO)=x0
+
+
+Template references
+-------------------
+
+S.26.01.01.02 Market risk - basic information, part 2
+
+
+Datapoints labels
+-----------------
+
+S.26.01.01.02,r0420,c0060 [credit derivatives, net solvency capital requirement]
+
+S.26.01.01.02,r0430,c0060 [downward shock on credit derivatives, net solvency capital requirement]
+
+S.26.01.01.02,r0440,c0060 [upward shock on credit derivatives, net solvency capital requirement]
+
+SE.01.01.18.01,r0500,c0010 [s.26.01.01 - solvency capital requirement - market risk, none]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CN:x1]

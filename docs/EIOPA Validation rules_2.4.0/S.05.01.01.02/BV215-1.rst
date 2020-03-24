@@ -1,0 +1,43 @@
+=======
+BV215-1
+=======
+
+Rule definition
+---------------
+
+BV215-1: [ (r1410-1900)] {{S.05.01.01.02, c0300}} = {{S.05.01.01.02, c0210}} + {{S.05.01.01.02, c0220}} + {{S.05.01.01.02, c0230}} + {{S.05.01.01.02, c0240}} + {{S.05.01.01.02, c0250}} + {{S.05.01.01.02, c0260}} + {{S.05.01.01.02, c0270}} + {{S.05.01.01.02, c0280}}
+
+
+Template references
+-------------------
+
+S.05.01.01.02 Life
+
+
+Datapoints labels
+-----------------
+
+S.05.01.01.02,c0210 [health insurance]
+
+S.05.01.01.02,c0220 [insurance with profit participation]
+
+S.05.01.01.02,c0230 [index-linked and unit-linked insurance]
+
+S.05.01.01.02,c0240 [other life insurance]
+
+S.05.01.01.02,c0250 [annuities stemming from non-life insurance contracts and relating to health insurance obligations]
+
+S.05.01.01.02,c0260 [annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations]
+
+S.05.01.01.02,c0270 [health reinsurance]
+
+S.05.01.01.02,c0280 [life reinsurance]
+
+S.05.01.01.02,c0300 [total]
+
+
+
+Datapoint references
+--------------------
+
+[ (r1410-1900)]

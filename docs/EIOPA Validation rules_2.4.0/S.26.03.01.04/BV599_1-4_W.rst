@@ -1,0 +1,41 @@
+===========
+BV599_1-4_W
+===========
+
+Rule definition
+---------------
+
+BV599_1-4_W: if ({{S.26.03.01.03, r0050,c0010}} = [s2c_AP:x34]) then {{S.26.03.01.04, r0500,c0080}} = max(0, ({{S.26.03.01.01, r0500,c0020}} - {{S.26.03.01.01, r0500,c0030}}) - ({{S.26.03.01.01, r0500,c0040}} - {{S.26.03.01.01, r0500,c0070}}))
+
+
+Template references
+-------------------
+
+S.26.03.01.01 Life underwriting risk
+
+S.26.03.01.03 Simplifications used
+
+S.26.03.01.04 Life underwriting risk
+
+
+Datapoints labels
+-----------------
+
+S.26.03.01.01,r0500,c0020 [life expense risk, assets]
+
+S.26.03.01.01,r0500,c0030 [life expense risk, liabilities]
+
+S.26.03.01.01,r0500,c0040 [life expense risk, assets]
+
+S.26.03.01.01,r0500,c0070 [life expense risk, liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.03.01.03,r0050,c0010 [simplifications - life expense risk, simplifications used]
+
+S.26.03.01.04,r0500,c0080 [life expense risk, gross solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x34]

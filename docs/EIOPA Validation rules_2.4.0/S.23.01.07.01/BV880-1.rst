@@ -1,0 +1,31 @@
+=======
+BV880-1
+=======
+
+Rule definition
+---------------
+
+BV880-1: {{S.23.01.07.01, r0500,c0010}} = {{S.23.01.07.01, r0500,c0020}} + {{S.23.01.07.01, r0500,c0030}} + {{S.23.01.07.01, r0500,c0040}} + {{S.23.01.07.01, r0500,c0050}}
+
+
+Template references
+-------------------
+
+S.23.01.07.01 Own funds
+
+
+Datapoints labels
+-----------------
+
+S.23.01.07.01,r0500,c0010 [total available own funds to meet the scr, total]
+
+S.23.01.07.01,r0500,c0020 [total available own funds to meet the scr, tier 1 - unrestricted]
+
+S.23.01.07.01,r0500,c0030 [total available own funds to meet the scr, tier 1 - restricted]
+
+S.23.01.07.01,r0500,c0040 [total available own funds to meet the scr, tier 2]
+
+S.23.01.07.01,r0500,c0050 [total available own funds to meet the scr, tier 3]
+
+
+

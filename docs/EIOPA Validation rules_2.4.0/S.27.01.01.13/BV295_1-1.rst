@@ -1,0 +1,33 @@
+=========
+BV295_1-1
+=========
+
+Rule definition
+---------------
+
+BV295_1-1: [ (r2600)] {{S.27.01.01.13, c0880}} = {{S.27.01.01.13, c0850}} - {{S.27.01.01.13, c0860}} + {{S.27.01.01.13, c0870}}
+
+
+Template references
+-------------------
+
+S.27.01.01.13 Man made catastrophe risk - Fire
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.13,c0850 [catastrophe risk charge fire before risk mitigation]
+
+S.27.01.01.13,c0860 [estimated risk mitigation]
+
+S.27.01.01.13,c0870 [estimated reinstatement premiums]
+
+S.27.01.01.13,c0880 [catastrophe risk charge fire after risk mitigation]
+
+
+
+Datapoint references
+--------------------
+
+[ (r2600)]

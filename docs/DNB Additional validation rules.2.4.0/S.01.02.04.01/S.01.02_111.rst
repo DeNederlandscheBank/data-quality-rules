@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.01.02.04.01 Basic Information - General
-
+S.01.02.04.01
 
 Datapoints labels
 -----------------
 
-S.01.02.04.01,r0100,c0010 [regular/ad-hoc submission, none]
-
+S.01.02.04.01,r0100,c0010 [unknown label]
 
 

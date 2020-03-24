@@ -1,0 +1,35 @@
+===========
+BV629_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV629_1-1_W: [ (r0600)] {{S.26.04.01.01, c0080}} = max(0, ({{S.26.04.01.01, c0020}} - {{S.26.04.01.01, c0030}}) - ({{S.26.04.01.01, c0040}} - {{S.26.04.01.01, c0070}}))
+
+
+Template references
+-------------------
+
+S.26.04.01.01 SLT health underwriting risk
+
+
+Datapoints labels
+-----------------
+
+S.26.04.01.01,c0020 [assets]
+
+S.26.04.01.01,c0030 [liabilities]
+
+S.26.04.01.01,c0040 [assets]
+
+S.26.04.01.01,c0070 [liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.04.01.01,c0080 [gross solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[ (r0600)]

@@ -1,0 +1,40 @@
+=======
+BV453-1
+=======
+
+Rule definition
+---------------
+
+BV453-1: {{S.17.02.01.01, r0010,c0090}} + {{S.17.02.01.01, r0020,c0090}} + {{S.17.02.01.01, r0030,c0090}} + sum({{S.17.02.01.02, r0040, c0090, snnn}}) le {{S.17.01.01.01, r0010,c0090}} + {{S.17.01.01.01, r0260,c0090}} + {{S.17.01.01.01, r0290,c0090}} + {{S.17.01.01.01, r0300,c0090}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+S.17.02.01.01 Gross TP calculated as a whole and Gross BE for different countries - Home country and countries outside the materiality threshold
+
+S.17.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0010,c0090 [technical provisions calculated as a whole, general liability insurance]
+
+S.17.01.01.01,r0260,c0090 [total best estimate - gross, general liability insurance]
+
+S.17.01.01.01,r0290,c0090 [tp as a whole, general liability insurance]
+
+S.17.01.01.01,r0300,c0090 [best estimate, general liability insurance]
+
+S.17.02.01.01,r0010,c0090 [home country, general liability insurance]
+
+S.17.02.01.01,r0020,c0090 [eea countries outside the materiality threshold - not reported by country, general liability insurance]
+
+S.17.02.01.01,r0030,c0090 [non-eea countries outside the materiality threshold - not reported by country, general liability insurance]
+
+S.17.02.01.02,r0040,c0090,snnn [unknown label]
+
+

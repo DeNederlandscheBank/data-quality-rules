@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.04 Natural Catastrophe risk - Flood
-
+S.27.01.04.04
 
 Datapoints labels
 -----------------
 
-S.27.01.04.04,r1610 [diversification effect between regions]
-
+S.27.01.04.04,r1610 [unknown label]
 
 

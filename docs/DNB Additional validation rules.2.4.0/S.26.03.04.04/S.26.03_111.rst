@@ -11,19 +11,14 @@ IF ({S.26.03.04.04,r0700,c0060}>0 OR {S.26.03.04.04,r0700,c0080}>0) THEN ({S.26.
 Template references
 -------------------
 
-S.26.03.04.03 Simplifications used
-
-S.26.03.04.04 Life underwriting risk
-
+S.26.03.04.03
+S.26.03.04.04
 
 Datapoints labels
 -----------------
 
-S.26.03.04.03,r0060,c0010 [simplifications - life catastrophe risk, simplifications used]
-
-S.26.03.04.04,r0700,c0060 [life catastrophe risk, net solvency capital requirement]
-
-S.26.03.04.04,r0700,c0080 [life catastrophe risk, gross solvency capital requirement]
-
+S.26.03.04.03,r0060,c0010 [unknown label]
+S.26.03.04.04,r0700,c0060 [unknown label]
+S.26.03.04.04,r0700,c0080 [unknown label]
 
 

@@ -1,0 +1,25 @@
+=========
+BV920-1_W
+=========
+
+Rule definition
+---------------
+
+BV920-1_W: {{S.28.02.01.05, r0320,c0130}} = 0.45 * {{S.28.02.01.05, r0310,c0130}}
+
+
+Template references
+-------------------
+
+S.28.02.01.05 Overall MCR calculation
+
+
+Datapoints labels
+-----------------
+
+S.28.02.01.05,r0310,c0130 [scr, none]
+
+S.28.02.01.05,r0320,c0130 [mcr cap, none]
+
+
+

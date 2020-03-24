@@ -1,0 +1,25 @@
+=========
+BV435-4_W
+=========
+
+Rule definition
+---------------
+
+BV435-4_W: if (not(empty({{S.07.01.01.01, c0060}}))) then not(empty({{SE.06.02.18.02, c0290}}))
+
+
+Template references
+-------------------
+
+S.07.01.01.01 Structured products
+
+
+Datapoints labels
+-----------------
+
+S.07.01.01.01,c0060 [collateral type]
+
+SE.06.02.18.02,c0290 [cic]
+
+
+

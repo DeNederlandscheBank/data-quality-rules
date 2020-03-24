@@ -11,15 +11,12 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.19 Man made catastrophe risk - Other non-life catastrophe risk
-
+S.27.01.04.19
 
 Datapoints labels
 -----------------
 
-S.27.01.04.19,r3230,c1130 [non-proportional casualty reinsurance other than general liability, estimation of the gross premiums to be earned]
-
-S.27.01.04.19,r3230,c1140 [non-proportional casualty reinsurance other than general liability, catastrophe risk charge other non-life catastrophe risk before risk mitigation]
-
+S.27.01.04.19,r3230,c1130 [unknown label]
+S.27.01.04.19,r3230,c1140 [unknown label]
 
 

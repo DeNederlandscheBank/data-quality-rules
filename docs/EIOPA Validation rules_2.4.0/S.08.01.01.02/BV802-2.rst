@@ -1,0 +1,29 @@
+=======
+BV802-2
+=======
+
+Rule definition
+---------------
+
+BV802-2: empty({{S.08.01.01.01,c0150}}) and empty({{S.08.01.01.01,c0160}}) where matches({{S.08.01.01.02,c0380}},"^..((A)|(E)).$")
+
+
+Template references
+-------------------
+
+S.08.01.01.01 Information on positions held
+
+S.08.01.01.02 Information on derivatives
+
+
+Datapoints labels
+-----------------
+
+S.08.01.01.01,c0150 [premium paid to date]
+
+S.08.01.01.01,c0160 [premium received to date]
+
+S.08.01.01.02,c0380 [cic]
+
+
+

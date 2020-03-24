@@ -1,0 +1,44 @@
+=========
+BV835-1_W
+=========
+
+Rule definition
+---------------
+
+BV835-1_W: [ (c0020;0090;0100;0150;0190;0200;0210)] {{S.12.02.01.01, r0010}} + {{S.12.02.01.01, r0020}} + {{S.12.02.01.01, r0030}} + sum({{S.12.02.01.02, r0040, snnn}}) = {{S.12.01.01.01, r0010}} + {{S.12.01.01.01, r0030}} + {{S.12.01.01.01, r0110}} + {{S.12.01.01.01, r0120}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+S.12.02.01.01 Gross TP calculated as a whole and Gross BE for different countries - Home country and countries outside the materiality threshold
+
+S.12.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
+
+
+Datapoints labels
+-----------------
+
+S.12.01.01.01,r0010 [technical provisions calculated as a whole]
+
+S.12.01.01.01,r0030 [gross best estimate]
+
+S.12.01.01.01,r0110 [technical provisions calculated as a whole]
+
+S.12.01.01.01,r0120 [best estimate]
+
+S.12.02.01.01,r0010 [home country]
+
+S.12.02.01.01,r0020 [eea countries outside the materiality threshold - not reported by country]
+
+S.12.02.01.01,r0030 [non-eea countries outside the materiality threshold - not reported by country]
+
+S.12.02.01.02,r0040,snnn [unknown label]
+
+
+Datapoint references
+--------------------
+
+[ (c0020;0090;0100;0150;0190;0200;0210)]

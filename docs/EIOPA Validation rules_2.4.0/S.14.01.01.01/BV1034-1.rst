@@ -1,0 +1,29 @@
+========
+BV1034-1
+========
+
+Rule definition
+---------------
+
+BV1034-1: if ({{S.14.01.01.01, c0030}} = [s2c_LB:x10] or {{S.14.01.01.01, c0030}} = [s2c_LB:x11]) then empty({{S.14.01.01.01, c0060}})
+
+
+Template references
+-------------------
+
+S.14.01.01.01 Portfolio
+
+
+Datapoints labels
+-----------------
+
+S.14.01.01.01,c0030 [line of business]
+
+S.14.01.01.01,c0060 [total amount of written premiums]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_LB:x10] or {{S.14.01.01.01, c0030}} = [s2c_LB:x11]

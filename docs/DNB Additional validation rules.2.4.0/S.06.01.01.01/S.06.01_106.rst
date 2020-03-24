@@ -11,31 +11,20 @@ IF {S.01.01.01.01,r0140,c0010}="NOT DUE IN ACCORDANCE WITH ARTICLE 35"  THEN {S.
 Template references
 -------------------
 
-S.01.01.01.01 Content of the submission
-
-S.02.01.01.01 Balance sheet
-
-S.06.01.01.01 Summary of assets
-
+S.01.01.01.01
+S.02.01.01.01
+S.06.01.01.01
 
 Datapoints labels
 -----------------
 
-S.01.01.01.01,r0140,c0010 [s.06.02.01 - list of assets, none]
-
-S.02.01.01.01,r0180,c0010 [collective investments undertakings, solvency ii value]
-
-S.06.01.01.01,r0070,c0010 [collective investment undertakings, life]
-
-S.06.01.01.01,r0070,c0020 [collective investment undertakings, non-life]
-
-S.06.01.01.01,r0070,c0030 [collective investment undertakings, ring-fenced funds]
-
-S.06.01.01.01,r0070,c0040 [collective investment undertakings, other internal funds]
-
-S.06.01.01.01,r0070,c0050 [collective investment undertakings, shareholders' funds]
-
-S.06.01.01.01,r0070,c0060 [collective investment undertakings, general]
-
+S.01.01.01.01,r0140,c0010 [unknown label]
+S.02.01.01.01,r0180,c0010 [unknown label]
+S.06.01.01.01,r0070,c0010 [unknown label]
+S.06.01.01.01,r0070,c0020 [unknown label]
+S.06.01.01.01,r0070,c0030 [unknown label]
+S.06.01.01.01,r0070,c0040 [unknown label]
+S.06.01.01.01,r0070,c0050 [unknown label]
+S.06.01.01.01,r0070,c0060 [unknown label]
 
 

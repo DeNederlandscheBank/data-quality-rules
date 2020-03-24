@@ -1,0 +1,33 @@
+=========
+BV508-2_W
+=========
+
+Rule definition
+---------------
+
+BV508-2_W: {{S.29.01.07.01, r0200,c0030}} = {{S.29.03.01.07, r0360,c0120}} + {{S.29.03.01.07, r0370,c0120}} + {{S.29.03.01.07, r0360,c0130}} + {{S.29.03.01.07, r0370,c0130}}
+
+
+Template references
+-------------------
+
+S.29.01.07.01 Reconciliation with Own funds - Items reported in "Own funds"
+
+S.29.03.01.07 Variation in Excess of Assets over Liabilities explained by Technical provisions
+
+
+Datapoints labels
+-----------------
+
+S.29.01.07.01,r0200,c0030 [variations due to net technical provisions, variation]
+
+S.29.03.01.07,r0360,c0120 [gross technical provisions, life]
+
+S.29.03.01.07,r0360,c0130 [gross technical provisions, non life]
+
+S.29.03.01.07,r0370,c0120 [reinsurance recoverables, life]
+
+S.29.03.01.07,r0370,c0130 [reinsurance recoverables, non life]
+
+
+

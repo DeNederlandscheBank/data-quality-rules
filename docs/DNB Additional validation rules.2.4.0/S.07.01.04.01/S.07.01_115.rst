@@ -11,15 +11,12 @@ IF {S.07.01.04.01,c0140} = "COLLATERALISATION PERFORMED ON A SINGLE CONTRACT BAS
 Template references
 -------------------
 
-S.07.01.04.01 Structured products
-
+S.07.01.04.01
 
 Datapoints labels
 -----------------
 
-S.07.01.04.01,c0130 [collateral value]
-
-S.07.01.04.01,c0140 [collateral portfolio]
-
+S.07.01.04.01,c0130 [unknown label]
+S.07.01.04.01,c0140 [unknown label]
 
 

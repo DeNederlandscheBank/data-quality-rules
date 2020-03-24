@@ -1,0 +1,29 @@
+=======
+BV339-4
+=======
+
+Rule definition
+---------------
+
+BV339-4: if ({{S.01.02.07.01, r0190,c0010}} = [s2c_AP:x9]) then {{SE.01.01.18.01, r0370,c0010}} = [s2c_CN:x1]
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+
+Datapoints labels
+-----------------
+
+S.01.02.07.01,r0190,c0010 [transitional measure on the risk-free interest rate, none]
+
+SE.01.01.18.01,r0370,c0010 [s.22.01.01 - impact of long term guarantees measures and transitionals, none]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x9]) then {{SE.01.01.18.01, r0370,c0010}} = [s2c_CN:x1]

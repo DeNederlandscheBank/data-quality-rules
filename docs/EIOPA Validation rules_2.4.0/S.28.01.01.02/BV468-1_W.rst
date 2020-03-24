@@ -1,0 +1,35 @@
+=========
+BV468-1_W
+=========
+
+Rule definition
+---------------
+
+BV468-1_W: {{S.28.01.01.02, r0120,c0020}} ge {{S.17.01.01.01, r0010,c0120}} - {{S.17.01.01.01, r0050,c0120}} + {{S.17.01.01.01, r0270,c0120}} + {{S.17.01.01.01, r0290,c0120}} + {{S.17.01.01.01, r0300,c0120}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+S.28.01.01.02 Background information
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0010,c0120 [technical provisions calculated as a whole, assistance]
+
+S.17.01.01.01,r0050,c0120 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, assistance]
+
+S.17.01.01.01,r0270,c0120 [total best estimate - net, assistance]
+
+S.17.01.01.01,r0290,c0120 [tp as a whole, assistance]
+
+S.17.01.01.01,r0300,c0120 [best estimate, assistance]
+
+S.28.01.01.02,r0120,c0020 [assistance and proportional reinsurance, net (of reinsurance/spv) best estimate and tp calculated as a whole]
+
+
+

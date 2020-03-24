@@ -11,14 +11,12 @@ IF {S.36.03.01.01,c0010} <> " " THEN {S.36.03.01.01,c0050} <> " "
 Template references
 -------------------
 
-S.36.03.01.01 IGT - Internal reinsurance
-
+S.36.03.01.01
 
 Datapoints labels
 -----------------
 
 S.36.03.01.01,c0010 [unknown label]
-S.36.03.01.01,c0050 [name of reinsurer]
-
+S.36.03.01.01,c0050 [unknown label]
 
 

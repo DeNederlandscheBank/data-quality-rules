@@ -11,23 +11,16 @@ Rule definition
 Template references
 -------------------
 
-S.26.01.04.01 Market risk - basic information, part 1
-
-S.26.01.04.02 Market risk - basic information, part 2
-
+S.26.01.04.01
+S.26.01.04.02
 
 Datapoints labels
 -----------------
 
-S.26.01.04.01,r0414,c0020 [loans and bonds (qualifying infrastructure corporate investment), assets]
-
-S.26.01.04.01,r0414,c0030 [loans and bonds (qualifying infrastructure corporate investment), liabilities]
-
-S.26.01.04.01,r0414,c0040 [loans and bonds (qualifying infrastructure corporate investment), assets]
-
-S.26.01.04.01,r0414,c0050 [loans and bonds (qualifying infrastructure corporate investment), liabilities (after the loss absorbing capacity of technical provisions)]
-
-S.26.01.04.02,r0414,c0060 [loans and bonds (qualifying infrastructure corporate investment), net solvency capital requirement]
-
+S.26.01.04.01,r0414,c0020 [unknown label]
+S.26.01.04.01,r0414,c0030 [unknown label]
+S.26.01.04.01,r0414,c0040 [unknown label]
+S.26.01.04.01,r0414,c0050 [unknown label]
+S.26.01.04.02,r0414,c0060 [unknown label]
 
 

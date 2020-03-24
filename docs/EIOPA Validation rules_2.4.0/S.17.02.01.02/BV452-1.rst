@@ -1,0 +1,40 @@
+=======
+BV452-1
+=======
+
+Rule definition
+---------------
+
+BV452-1: {{S.17.02.01.01, r0010,c0080}} + {{S.17.02.01.01, r0020,c0080}} + {{S.17.02.01.01, r0030,c0080}} + sum({{S.17.02.01.02, r0040, c0080, snnn}}) le {{S.17.01.01.01, r0010,c0080}} + {{S.17.01.01.01, r0260,c0080}} + {{S.17.01.01.01, r0290,c0080}} + {{S.17.01.01.01, r0300,c0080}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+S.17.02.01.01 Gross TP calculated as a whole and Gross BE for different countries - Home country and countries outside the materiality threshold
+
+S.17.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0010,c0080 [technical provisions calculated as a whole, fire and other damage to property insurance]
+
+S.17.01.01.01,r0260,c0080 [total best estimate - gross, fire and other damage to property insurance]
+
+S.17.01.01.01,r0290,c0080 [tp as a whole, fire and other damage to property insurance]
+
+S.17.01.01.01,r0300,c0080 [best estimate, fire and other damage to property insurance]
+
+S.17.02.01.01,r0010,c0080 [home country, fire and other damage to property insurance]
+
+S.17.02.01.01,r0020,c0080 [eea countries outside the materiality threshold - not reported by country, fire and other damage to property insurance]
+
+S.17.02.01.01,r0030,c0080 [non-eea countries outside the materiality threshold - not reported by country, fire and other damage to property insurance]
+
+S.17.02.01.02,r0040,c0080,snnn [unknown label]
+
+

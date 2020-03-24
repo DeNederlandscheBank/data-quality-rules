@@ -11,17 +11,13 @@ IF {S.32.01.04.01,c0020} <> " " AND ({S.32.01.04.01,c0050}="LIFE UNDERTAKINGS" A
 Template references
 -------------------
 
-S.32.01.04.01 Undertakings in the scope of the group
-
+S.32.01.04.01
 
 Datapoints labels
 -----------------
 
-S.32.01.04.01,c0020 [*natural key*|"mandatory"]
-
-S.32.01.04.01,c0050 [type of undertaking]
-
-S.32.01.04.01,c0120 [written premiums net of reinsurance ceded under ifrs or local gaap for (re)insurance undertakings]
-
+S.32.01.04.01,c0020 [unknown label]
+S.32.01.04.01,c0050 [unknown label]
+S.32.01.04.01,c0120 [unknown label]
 
 

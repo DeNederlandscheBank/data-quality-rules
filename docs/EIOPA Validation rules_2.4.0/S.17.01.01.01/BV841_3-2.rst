@@ -1,0 +1,23 @@
+=========
+BV841_3-2
+=========
+
+Rule definition
+---------------
+
+BV841_3-2: {{S.17.01.01.01, r0280,c0040}} ge 0
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0280,c0040 [risk margin, workers' compensation insurance]
+
+
+

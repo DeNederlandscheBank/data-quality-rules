@@ -1,0 +1,29 @@
+=========
+BV298_1-1
+=========
+
+Rule definition
+---------------
+
+BV298_1-1: {{S.27.01.01.15, r2800,c0970}} = {{S.27.01.01.14, r2750,c0930}} - {{S.27.01.01.14, r2750,c0940}}
+
+
+Template references
+-------------------
+
+S.27.01.01.14 Man made catastrophe risk - Liability
+
+S.27.01.01.15 Man made catastrophe risk - Liability
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.14,r2750,c0930 [total, estimated risk mitigation]
+
+S.27.01.01.14,r2750,c0940 [total, estimated reinstatement premiums]
+
+S.27.01.01.15,r2800,c0970 [total before diversification, estimated total risk mitigation]
+
+
+

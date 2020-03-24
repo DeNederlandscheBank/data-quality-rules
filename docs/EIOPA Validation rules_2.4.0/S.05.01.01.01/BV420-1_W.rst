@@ -1,0 +1,31 @@
+=========
+BV420-1_W
+=========
+
+Rule definition
+---------------
+
+BV420-1_W: [ (c0130-0160)] {{S.05.01.01.01, r0900}} = {{S.05.01.01.01, r0830}} - {{S.05.01.01.01, r0840}}
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+
+Datapoints labels
+-----------------
+
+S.05.01.01.01,r0830 [gross - non-proportional reinsurance accepted]
+
+S.05.01.01.01,r0840 [reinsurers' share]
+
+S.05.01.01.01,r0900 [net]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0130-0160)]

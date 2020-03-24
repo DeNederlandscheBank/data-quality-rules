@@ -1,0 +1,29 @@
+=========
+BV255_1-1
+=========
+
+Rule definition
+---------------
+
+BV255_1-1: [ (r0070)] {{S.25.01.01.01, c0040}} = {{S.25.01.01.01, c0030}}
+
+
+Template references
+-------------------
+
+S.25.01.01.01 Basic Solvency Capital Requirement
+
+
+Datapoints labels
+-----------------
+
+S.25.01.01.01,c0030 [net solvency capital requirement]
+
+S.25.01.01.01,c0040 [gross solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[ (r0070)]

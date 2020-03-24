@@ -1,0 +1,28 @@
+========
+BV59-1_W
+========
+
+Rule definition
+---------------
+
+BV59-1_W: [ (c0040-0060)] {{S.21.03.01.01, r0220}} = sum({{S.21.03.01.01, r0010-0210}})
+
+
+Template references
+-------------------
+
+S.21.03.01.01 Non-life underwriting mass risks
+
+
+Datapoints labels
+-----------------
+
+S.21.03.01.01,r0010-0210 [unknown label]
+S.21.03.01.01,r0220 [total]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0040-0060)]

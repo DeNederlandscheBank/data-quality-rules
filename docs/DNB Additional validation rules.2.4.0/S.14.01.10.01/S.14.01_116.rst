@@ -11,15 +11,12 @@ IF {S.14.01.10.01,c0180}<>0 THEN {S.14.01.10.01,c0170}<>" "
 Template references
 -------------------
 
-S.14.01.10.01 Information on homogenous risk group
-
+S.14.01.10.01
 
 Datapoints labels
 -----------------
 
-S.14.01.10.01,c0170 [*natural key*|"mandatory"]
-
-S.14.01.10.01,c0180 [best estimate and technical provisions as a whole]
-
+S.14.01.10.01,c0170 [unknown label]
+S.14.01.10.01,c0180 [unknown label]
 
 

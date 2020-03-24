@@ -1,0 +1,37 @@
+========
+BV1084-1
+========
+
+Rule definition
+---------------
+
+BV1084-1: if ({{S.25.03.01.03, r0590,c0109}} = [s2c_AP:x55]) then empty({{S.25.03.01.04, r0600,c0120}}) and empty({{S.25.03.01.04, r0610,c0120}}) and empty({{S.25.03.01.04, r0620,c0120}}) and empty({{S.25.03.01.04, r0630,c0120}})
+
+
+Template references
+-------------------
+
+S.25.03.01.03 Approach to tax rate
+
+S.25.03.01.04 Calculation of loss absorbing capacity of deferred taxes
+
+
+Datapoints labels
+-----------------
+
+S.25.03.01.03,r0590,c0109 [approach based on average tax rate, yes/no]
+
+S.25.03.01.04,r0600,c0120 [dta, after the shock]
+
+S.25.03.01.04,r0610,c0120 [dta carry forward, after the shock]
+
+S.25.03.01.04,r0620,c0120 [dta due to deductible temporary differences, after the shock]
+
+S.25.03.01.04,r0630,c0120 [dtl, after the shock]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x55]

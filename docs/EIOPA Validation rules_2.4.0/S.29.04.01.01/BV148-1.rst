@@ -1,0 +1,37 @@
+=======
+BV148-1
+=======
+
+Rule definition
+---------------
+
+BV148-1: [ (c0010-0020)] {{S.29.04.01.01, r0070}} = {{S.29.04.01.01, r0010}} - {{S.29.04.01.01, r0020}} - {{S.29.04.01.01, r0030}} - {{S.29.04.01.01, r0040}} - {{S.29.04.01.01, r0050}}
+
+
+Template references
+-------------------
+
+S.29.04.01.01 Detailed analysis per period - Technical flows versus Technical provisions - UWY
+
+
+Datapoints labels
+-----------------
+
+S.29.04.01.01,r0010 [written premiums underwritten during period]
+
+S.29.04.01.01,r0020 [claims and benefits - net of salvages and subrogations recovered]
+
+S.29.04.01.01,r0030 [expenses (related to insurance and reinsurance obligations)]
+
+S.29.04.01.01,r0040 [variation of best estimate]
+
+S.29.04.01.01,r0050 [variation of tp as a whole]
+
+S.29.04.01.01,r0070 [total]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0010-0020)]

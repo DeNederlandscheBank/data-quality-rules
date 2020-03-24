@@ -11,17 +11,13 @@ IF {S.35.01.04.01,c0130} <> 0 AND {S.35.01.04.01,c0040}<>"DEDUCTION AND AGGREGAT
 Template references
 -------------------
 
-S.35.01.04.01 Contribution to group Technical Provisions
-
+S.35.01.04.01
 
 Datapoints labels
 -----------------
 
-S.35.01.04.01,c0040 [method of group solvency calculation used]
-
-S.35.01.04.01,c0130 [amount of tp gross of igt]
-
-S.35.01.04.01,c0140 [amount of tp net of igt]
-
+S.35.01.04.01,c0040 [unknown label]
+S.35.01.04.01,c0130 [unknown label]
+S.35.01.04.01,c0140 [unknown label]
 
 

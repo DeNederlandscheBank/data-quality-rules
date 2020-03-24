@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.11 Man made catastrophe risk - Marine
-
+S.27.01.04.11
 
 Datapoints labels
 -----------------
 
-S.27.01.04.11,r2410 [diversification between type of event]
-
+S.27.01.04.11,r2410 [unknown label]
 
 

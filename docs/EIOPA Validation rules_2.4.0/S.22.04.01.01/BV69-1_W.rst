@@ -1,0 +1,33 @@
+========
+BV69-1_W
+========
+
+Rule definition
+---------------
+
+BV69-1_W: [ (c0010)] {{S.22.04.01.01, r0040}} = ({{S.22.04.01.01, r0010}} - {{S.22.04.01.01, r0020}}) * {{S.22.04.01.01, r0030}}
+
+
+Template references
+-------------------
+
+S.22.04.01.01 Overall calculation of the transitional adjustment
+
+
+Datapoints labels
+-----------------
+
+S.22.04.01.01,r0010 [solvency i interest rate]
+
+S.22.04.01.01,r0020 [annual effective rate]
+
+S.22.04.01.01,r0030 [portion of the difference applied at the reporting date]
+
+S.22.04.01.01,r0040 [adjustment to risk free rate]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0010)]

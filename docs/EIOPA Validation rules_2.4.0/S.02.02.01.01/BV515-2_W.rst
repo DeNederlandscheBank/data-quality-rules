@@ -1,0 +1,33 @@
+=========
+BV515-2_W
+=========
+
+Rule definition
+---------------
+
+BV515-2_W: {{SE.02.01.18.01, r0030,c0010}} + {{SE.02.01.18.01, r0040,c0010}} + {{SE.02.01.18.01, r0050,c0010}} + {{SE.02.01.18.01, r0380,c0010}} + {{SE.02.01.18.01, r0420,c0010}} = {{S.02.02.01.01, r0070,c0020}}
+
+
+Template references
+-------------------
+
+S.02.02.01.01 All currencies
+
+
+Datapoints labels
+-----------------
+
+S.02.02.01.01,r0070,c0020 [any other assets, total value of all currencies]
+
+SE.02.01.18.01,r0030,c0010 [intangible assets, solvency ii value]
+
+SE.02.01.18.01,r0040,c0010 [deferred tax assets, solvency ii value]
+
+SE.02.01.18.01,r0050,c0010 [pension benefit surplus, solvency ii value]
+
+SE.02.01.18.01,r0380,c0010 [receivables (trade, not insurance), solvency ii value]
+
+SE.02.01.18.01,r0420,c0010 [any other assets, not elsewhere shown, solvency ii value]
+
+
+

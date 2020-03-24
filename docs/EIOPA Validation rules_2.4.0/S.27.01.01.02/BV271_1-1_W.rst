@@ -1,0 +1,33 @@
+===========
+BV271_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV271_1-1_W: [ (r0400-0600)] {{S.27.01.01.02, c0120}} = {{S.27.01.01.02, c0090}} - {{S.27.01.01.02, c0100}} + {{S.27.01.01.02, c0110}}
+
+
+Template references
+-------------------
+
+S.27.01.01.02 Natural Catastrophe risk - Windstorm
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.02,c0090 [catastrophe risk charge before risk mitigation]
+
+S.27.01.01.02,c0100 [estimated risk mitigation]
+
+S.27.01.01.02,c0110 [estimated reinstatement premiums]
+
+S.27.01.01.02,c0120 [catastrophe risk charge after risk mitigation]
+
+
+
+Datapoint references
+--------------------
+
+[ (r0400-0600)]

@@ -1,0 +1,23 @@
+========
+BV1021-2
+========
+
+Rule definition
+---------------
+
+BV1021-2: {{S.08.02.01.01, c0190}} ge 0
+
+
+Template references
+-------------------
+
+S.08.02.01.01 Information on positions held
+
+
+Datapoints labels
+-----------------
+
+S.08.02.01.01,c0190 [maximum loss under unwinding event]
+
+
+

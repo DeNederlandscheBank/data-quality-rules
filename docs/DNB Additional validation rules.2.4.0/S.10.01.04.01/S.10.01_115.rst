@@ -11,14 +11,12 @@ IF {S.10.01.04.01,C0180} <>" " THEN {S.10.01.04.01,c0160} > 0
 Template references
 -------------------
 
-S.10.01.04.01 Securities lending and repos
-
+S.10.01.04.01
 
 Datapoints labels
 -----------------
 
 S.10.01.04.01,C0180 [unknown label]
-S.10.01.04.01,c0160 [maturity date]
-
+S.10.01.04.01,c0160 [unknown label]
 
 

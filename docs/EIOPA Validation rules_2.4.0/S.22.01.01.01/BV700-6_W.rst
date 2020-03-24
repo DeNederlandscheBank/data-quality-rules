@@ -1,0 +1,31 @@
+=========
+BV700-6_W
+=========
+
+Rule definition
+---------------
+
+BV700-6_W: if ({{S.01.02.07.01, r0170,c0010}} = [s2c_PU:x52]) then {{S.22.01.01.01, r0040,c0090}} = 0
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints labels
+-----------------
+
+S.01.02.07.01,r0170,c0010 [matching adjustment, none]
+
+S.22.01.01.01,r0040,c0090 [restricted own funds due to ring-fencing and matching portfolio, impact of matching adjustment set to zero]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x52]

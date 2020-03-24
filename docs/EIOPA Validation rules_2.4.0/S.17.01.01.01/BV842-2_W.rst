@@ -1,0 +1,27 @@
+=========
+BV842-2_W
+=========
+
+Rule definition
+---------------
+
+BV842-2_W: [ (c0020-0180)] {{S.17.01.01.01, r0290}} le 0
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0290 [tp as a whole]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0020-0180)]

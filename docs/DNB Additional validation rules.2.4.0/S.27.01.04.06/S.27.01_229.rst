@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.06 Natural Catastrophe risk -Subsidence
-
+S.27.01.04.06
 
 Datapoints labels
 -----------------
 
-S.27.01.04.06,r1960 [diversification effect between zones]
-
+S.27.01.04.06,r1960 [unknown label]
 
 

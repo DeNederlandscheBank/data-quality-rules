@@ -13,8 +13,6 @@ nosetests.xml
 .xbrl_rss_cache
 www.sec.gov
 dist/*
-notebooks/*
-src/*
-data/*
+notebooks/temp/
+src/arelle/*
 *.egg-info/
-

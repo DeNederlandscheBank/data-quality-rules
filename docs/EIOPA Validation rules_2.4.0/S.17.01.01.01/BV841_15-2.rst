@@ -1,0 +1,23 @@
+==========
+BV841_15-2
+==========
+
+Rule definition
+---------------
+
+BV841_15-2: {{S.17.01.01.01, r0280,c0160}} ge 0
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0280,c0160 [risk margin, non-proportional marine, aviation and transport reinsurance]
+
+
+

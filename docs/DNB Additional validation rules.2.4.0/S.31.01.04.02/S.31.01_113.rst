@@ -11,17 +11,13 @@ IF {S.31.01.04.02,c0160} <> " " AND {S.31.01.04.02,c0230} <> "NO RATING AVAILABL
 Template references
 -------------------
 
-S.31.01.04.02 Information on reinsurers
-
+S.31.01.04.02
 
 Datapoints labels
 -----------------
 
-S.31.01.04.02,c0160 [*natural key*|"mandatory"]
-
-S.31.01.04.02,c0210 [external rating assessment by nominated ecai]
-
-S.31.01.04.02,c0230 [credit quality step]
-
+S.31.01.04.02,c0160 [unknown label]
+S.31.01.04.02,c0210 [unknown label]
+S.31.01.04.02,c0230 [unknown label]
 
 

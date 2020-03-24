@@ -1,0 +1,39 @@
+=======
+BV677-2
+=======
+
+Rule definition
+---------------
+
+BV677-2: if ({{S.26.05.01.05, r0010,c0010}} = [s2c_AP:x33] and not(empty({{S.05.01.01.01, r0200,c0090}}))) then not(empty({{S.26.05.01.01, r0150,c0060}})) and not(empty({{S.26.05.01.01, r0150,c0070}})) and not(empty({{S.26.05.01.01, r0150,c0090}}))
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+S.26.05.01.01 Non-life premium and reserve Risk
+
+S.26.05.01.05 Simplifications used
+
+
+Datapoints labels
+-----------------
+
+S.05.01.01.01,r0200,c0090 [net, credit and suretyship insurance]
+
+S.26.05.01.01,r0150,c0060 [credit and suretyship, vprem]
+
+S.26.05.01.01,r0150,c0070 [credit and suretyship, vres]
+
+S.26.05.01.01,r0150,c0090 [credit and suretyship, v]
+
+S.26.05.01.05,r0010,c0010 [captives simplifications - premium and reserve risk, simplifications used]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x33]

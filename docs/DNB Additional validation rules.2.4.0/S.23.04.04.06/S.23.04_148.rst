@@ -11,15 +11,12 @@ IF {S.23.04.04.06,c0600} > 0 THEN {S.23.04.04.06,c0620} >0
 Template references
 -------------------
 
-S.23.04.04.06 Ancillary own funds
-
+S.23.04.04.06
 
 Datapoints labels
 -----------------
 
-S.23.04.04.06,c0600 [amount]
-
-S.23.04.04.06,c0620 [issue date]
-
+S.23.04.04.06,c0600 [unknown label]
+S.23.04.04.06,c0620 [unknown label]
 
 

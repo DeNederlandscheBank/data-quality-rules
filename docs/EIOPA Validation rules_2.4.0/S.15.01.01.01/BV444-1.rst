@@ -1,0 +1,27 @@
+=======
+BV444-1
+=======
+
+Rule definition
+---------------
+
+BV444-1: if (not(empty({{S.15.01.01.01, c0050}}))) then not(empty({{S.14.01.01.02, c0120}}))
+
+
+Template references
+-------------------
+
+S.14.01.01.02 Characteristics of product
+
+S.15.01.01.01 Description of the guarantees of variable annuities
+
+
+Datapoints labels
+-----------------
+
+S.14.01.01.02,c0120 [product denomination]
+
+S.15.01.01.01,c0050 [product denomination]
+
+
+

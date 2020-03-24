@@ -11,17 +11,13 @@ IF {S.27.01.04.08,r2100,c0540}<>0 THEN {S.27.01.04.08,r2100,c0540}=MAX(6000000, 
 Template references
 -------------------
 
-S.27.01.04.08 Man made catastrophe risk - Motor Vehicle Liability
-
+S.27.01.04.08
 
 Datapoints labels
 -----------------
 
-S.27.01.04.08,r2100,c0520 [motor vehicle liability, number of vehicles policy limit above 24m€]
-
-S.27.01.04.08,r2100,c0530 [motor vehicle liability, number of vehicles policy limit below or equal to 24m€]
-
-S.27.01.04.08,r2100,c0540 [motor vehicle liability, catastrophe risk charge motor vehicle liability before risk mitigation]
-
+S.27.01.04.08,r2100,c0520 [unknown label]
+S.27.01.04.08,r2100,c0530 [unknown label]
+S.27.01.04.08,r2100,c0540 [unknown label]
 
 

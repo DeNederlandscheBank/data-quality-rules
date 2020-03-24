@@ -11,16 +11,14 @@ Rule definition
 Template references
 -------------------
 
-S.02.01.01.01 Balance sheet
-
+S.02.01.01.01
 S.24.01.01.11 Total all participations
 
 
 Datapoints labels
 -----------------
 
-S.02.01.01.01,r0090,c0010 [holdings in related undertakings, including participations, solvency ii value]
-
+S.02.01.01.01,r0090,c0010 [unknown label]
 S.24.01.01.11,r0100,c0620 [total all participations, total]
 
 

@@ -1,0 +1,23 @@
+=========
+BV690_5-1
+=========
+
+Rule definition
+---------------
+
+BV690_5-1: {{S.22.01.01.01, r0010,c0020}} != 0
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints labels
+-----------------
+
+S.22.01.01.01,r0010,c0020 [technical provisions, without transitional on technical provisions]
+
+
+

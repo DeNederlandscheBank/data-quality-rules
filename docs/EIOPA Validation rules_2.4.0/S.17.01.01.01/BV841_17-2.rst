@@ -1,0 +1,23 @@
+==========
+BV841_17-2
+==========
+
+Rule definition
+---------------
+
+BV841_17-2: {{S.17.01.01.01, r0280,c0180}} ge 0
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0280,c0180 [risk margin, total non-life obligation]
+
+
+

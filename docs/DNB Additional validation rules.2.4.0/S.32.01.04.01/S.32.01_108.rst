@@ -11,15 +11,12 @@ IF {S.32.01.04.01,c0020} <> " " THEN {S.32.01.04.01,c0170} <> " "
 Template references
 -------------------
 
-S.32.01.04.01 Undertakings in the scope of the group
-
+S.32.01.04.01
 
 Datapoints labels
 -----------------
 
-S.32.01.04.01,c0020 [*natural key*|"mandatory"]
-
-S.32.01.04.01,c0170 [accounting standard]
-
+S.32.01.04.01,c0020 [unknown label]
+S.32.01.04.01,c0170 [unknown label]
 
 

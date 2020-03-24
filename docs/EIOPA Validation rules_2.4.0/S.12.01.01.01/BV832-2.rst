@@ -1,0 +1,25 @@
+=======
+BV832-2
+=======
+
+Rule definition
+---------------
+
+BV832-2: (not(empty({{S.12.01.01.01,r0030,c0020}})) and not(empty({{S.12.01.01.01,r0100,c0020}}))) or (empty({{S.12.01.01.01,r0030,c0020}}) and empty({{S.12.01.01.01,r0100,c0020}}))
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.12.01.01.01,r0030,c0020 [gross best estimate, insurance with profit participation]
+
+S.12.01.01.01,r0100,c0020 [risk margin, insurance with profit participation]
+
+
+

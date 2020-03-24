@@ -11,15 +11,12 @@ IF {S.10.01.04.01,c0180} <>" " THEN {S.10.01.04.01,c0060} <> " "
 Template references
 -------------------
 
-S.10.01.04.01 Securities lending and repos
-
+S.10.01.04.01
 
 Datapoints labels
 -----------------
 
-S.10.01.04.01,c0060 [asset category]
-
-S.10.01.04.01,c0180 [*artificial key*|"mandatory"]
-
+S.10.01.04.01,c0060 [unknown label]
+S.10.01.04.01,c0180 [unknown label]
 
 

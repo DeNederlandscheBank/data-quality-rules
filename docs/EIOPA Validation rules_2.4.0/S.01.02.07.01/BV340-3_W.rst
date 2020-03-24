@@ -1,0 +1,31 @@
+=========
+BV340-3_W
+=========
+
+Rule definition
+---------------
+
+BV340-3_W: if ({{S.01.02.07.01, r0200,c0010}} = [s2c_AP:x11]) then {{SE.01.01.18.01, r0370,c0010}} = [s2c_CN:x1] and {{SE.01.01.18.01, r0390,c0010}} = [s2c_CN:x1]
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+
+Datapoints labels
+-----------------
+
+S.01.02.07.01,r0200,c0010 [transitional measure on technical provisions, none]
+
+SE.01.01.18.01,r0370,c0010 [s.22.01.01 - impact of long term guarantees measures and transitionals, none]
+
+SE.01.01.18.01,r0390,c0010 [s.22.05.01 - overall calculation of the transitional on technical provisions, none]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x11]) then {{SE.01.01.18.01, r0370,c0010}} = [s2c_CN:x1] and {{SE.01.01.18.01, r0390,c0010}} = [s2c_CN:x1]

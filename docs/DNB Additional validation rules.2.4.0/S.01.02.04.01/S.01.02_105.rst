@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.01.02.04.01 Basic Information - General
-
+S.01.02.04.01
 
 Datapoints labels
 -----------------
 
-S.01.02.04.01,r0070,c0010 [language of reporting, none]
-
+S.01.02.04.01,r0070,c0010 [unknown label]
 
 

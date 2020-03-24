@@ -1,0 +1,59 @@
+========
+BV1074-1
+========
+
+Rule definition
+---------------
+
+BV1074-1: if ({{S.25.01.01.03, r0590,c0109}} = [s2c_AP:x77]) then empty({{S.25.01.01.04, r0600,c0110}}) and empty({{S.25.01.01.04, r0610,c0110}}) and empty({{S.25.01.01.04, r0620,c0110}}) and empty({{S.25.01.01.04, r0630,c0110}}) and empty({{S.25.01.01.04, r0600,c0120}}) and empty({{S.25.01.01.04, r0610,c0120}}) and empty({{S.25.01.01.04, r0620,c0120}}) and empty({{S.25.01.01.04, r0630,c0120}}) and empty({{S.25.01.01.05, r0640,c0130}}) and empty({{S.25.01.01.05, r0650,c0130}}) and empty({{S.25.01.01.05, r0660,c0130}}) and empty({{S.25.01.01.05, r0670,c0130}}) and empty({{S.25.01.01.05, r0680,c0130}}) and empty({{S.25.01.01.05, r0690,c0130}})
+
+
+Template references
+-------------------
+
+S.25.01.01.03 Approach to tax rate
+
+S.25.01.01.04 Calculation of loss absorbing capacity of deferred taxes
+
+S.25.01.01.05 Calculation of loss absorbing capacity of deferred taxes
+
+
+Datapoints labels
+-----------------
+
+S.25.01.01.03,r0590,c0109 [approach based on average tax rate, yes/no]
+
+S.25.01.01.04,r0600,c0110 [dta, before the shock]
+
+S.25.01.01.04,r0600,c0120 [dta, after the shock]
+
+S.25.01.01.04,r0610,c0110 [dta carry forward, before the shock]
+
+S.25.01.01.04,r0610,c0120 [dta carry forward, after the shock]
+
+S.25.01.01.04,r0620,c0110 [dta due to deductible temporary differences, before the shock]
+
+S.25.01.01.04,r0620,c0120 [dta due to deductible temporary differences, after the shock]
+
+S.25.01.01.04,r0630,c0110 [dtl, before the shock]
+
+S.25.01.01.04,r0630,c0120 [dtl, after the shock]
+
+S.25.01.01.05,r0640,c0130 [lac dt, lac dt]
+
+S.25.01.01.05,r0650,c0130 [lac dt justified by reversion of deferred tax liabilities, lac dt]
+
+S.25.01.01.05,r0660,c0130 [lac dt justified by reference to probable future taxable economic profit, lac dt]
+
+S.25.01.01.05,r0670,c0130 [lac dt justified by carry back, current year, lac dt]
+
+S.25.01.01.05,r0680,c0130 [lac dt justified by carry back, future years, lac dt]
+
+S.25.01.01.05,r0690,c0130 [maximum lac dt, lac dt]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x77]

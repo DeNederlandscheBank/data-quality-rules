@@ -1,0 +1,23 @@
+========
+BV1024-2
+========
+
+Rule definition
+---------------
+
+BV1024-2: {{S.08.01.01.01, c0160}} gt 0
+
+
+Template references
+-------------------
+
+S.08.01.01.01 Information on positions held
+
+
+Datapoints labels
+-----------------
+
+S.08.01.01.01,c0160 [premium received to date]
+
+
+

@@ -1,0 +1,31 @@
+=========
+BV299_1-1
+=========
+
+Rule definition
+---------------
+
+BV299_1-1: [ (c0990;1010-1040)] {{S.27.01.01.16, r2920}} = {{S.27.01.01.16, r2900}} + {{S.27.01.01.16, r2910}}
+
+
+Template references
+-------------------
+
+S.27.01.01.16 Man made catastrophe risk - Credit & Suretyship - Large Credit Default
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.16,r2900 [largest exposure 1]
+
+S.27.01.01.16,r2910 [largest exposure 2]
+
+S.27.01.01.16,r2920 [total]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0990;1010-1040)]

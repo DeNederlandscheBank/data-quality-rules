@@ -11,15 +11,12 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.17 Man made catastrophe risk - Credit & Suretyship - Recession Risk
-
+S.27.01.04.17
 
 Datapoints labels
 -----------------
 
-S.27.01.04.17,r3000,c1050 [total, earned premium following 12 months]
-
-S.27.01.04.17,r3000,c1060 [total, catastrophe risk charge credit & suretyship before risk mitigation - recession risk]
-
+S.27.01.04.17,r3000,c1050 [unknown label]
+S.27.01.04.17,r3000,c1060 [unknown label]
 
 

@@ -11,15 +11,12 @@ IF {S.34.01.04.01,c0050} <> "NO CAPITAL REQUIREMENT" THEN SUM({S.34.01.04.01,c00
 Template references
 -------------------
 
-S.34.01.04.01 Other regulated and non-regulated financial undertakings including insurance holding companies and mixed financial holding company individual requirements
-
+S.34.01.04.01
 
 Datapoints labels
 -----------------
 
-S.34.01.04.01,c0050 [type of capital requirement]
-
-S.34.01.04.01,c0060 [notional scr or sectoral capital requirement]
-
+S.34.01.04.01,c0050 [unknown label]
+S.34.01.04.01,c0060 [unknown label]
 
 

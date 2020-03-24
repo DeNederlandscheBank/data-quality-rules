@@ -1,0 +1,35 @@
+========
+BV25-1_W
+========
+
+Rule definition
+---------------
+
+BV25-1_W: [ (r0010;0020;0030;0080;0100;0210)] {{S.12.01.01.01, c0100}} = {{S.12.01.01.01, c0110}} + {{S.12.01.01.01, c0120}} + {{S.12.01.01.01, c0130}} + {{S.12.01.01.01, c0140}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.12.01.01.01,c0100 [life and annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations]
+
+S.12.01.01.01,c0110 [insurance with profit participation]
+
+S.12.01.01.01,c0120 [index-linked and unit-linked insurance]
+
+S.12.01.01.01,c0130 [other life insurance]
+
+S.12.01.01.01,c0140 [annuities stemming from non-life accepted insurance contracts and relating to insurance obligation other than health insurance obligations]
+
+
+
+Datapoint references
+--------------------
+
+[ (r0010;0020;0030;0080;0100;0210)]

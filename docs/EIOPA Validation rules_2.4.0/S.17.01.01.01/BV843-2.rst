@@ -1,0 +1,27 @@
+=======
+BV843-2
+=======
+
+Rule definition
+---------------
+
+BV843-2: [ (c0020-0180)] {{S.17.01.01.01, r0300}} le 0
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0300 [best estimate]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0020-0180)]

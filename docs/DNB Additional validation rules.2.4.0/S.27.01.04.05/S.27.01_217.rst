@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.05 Natural Catastrophe risk - Hail
-
+S.27.01.04.05
 
 Datapoints labels
 -----------------
 
-S.27.01.04.05,r1930 [diversification effect between regions]
-
+S.27.01.04.05,r1930 [unknown label]
 
 

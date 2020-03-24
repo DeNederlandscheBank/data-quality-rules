@@ -1,0 +1,43 @@
+=========
+BV570_1-1
+=========
+
+Rule definition
+---------------
+
+BV570_1-1: if (matches({{S.26.01.01.03, r0012,c0010}},"^9$") and {{S.26.01.01.03, r0030,c0010}} = [s2c_AP:x34]) then {{S.26.01.01.02, r0410,c0080}} = max(0, ({{S.26.01.01.01, r0410,c0020}} - {{S.26.01.01.01, r0410,c0030}}) - ({{S.26.01.01.01, r0410,c0040}} - {{S.26.01.01.01, r0410,c0070}}))
+
+
+Template references
+-------------------
+
+S.26.01.01.01 Market risk - basic information, part 1
+
+S.26.01.01.02 Market risk - basic information, part 2
+
+S.26.01.01.03 Simplifications used
+
+
+Datapoints labels
+-----------------
+
+S.26.01.01.01,r0410,c0020 [bonds and loans, assets]
+
+S.26.01.01.01,r0410,c0030 [bonds and loans, liabilities]
+
+S.26.01.01.01,r0410,c0040 [bonds and loans, assets]
+
+S.26.01.01.01,r0410,c0070 [bonds and loans, liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.01.01.02,r0410,c0080 [bonds and loans, gross solvency capital requirement]
+
+S.26.01.01.03,r0012,c0010 [simplifications spread risk – bonds and loans, simplifications used]
+
+S.26.01.01.03,r0030,c0010 [captives simplifications - spread risk on bonds and loans, simplifications used]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x34]

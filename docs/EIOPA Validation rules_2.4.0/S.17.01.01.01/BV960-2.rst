@@ -1,0 +1,27 @@
+=======
+BV960-2
+=======
+
+Rule definition
+---------------
+
+BV960-2: if (not(empty({{S.05.01.01.01, r0200,c0050}}))) then not(empty({{S.17.01.01.01, r0320,c0060}}))
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.05.01.01.01,r0200,c0050 [net, other motor insurance]
+
+S.17.01.01.01,r0320,c0060 [technical provisions - total, other motor insurance]
+
+
+

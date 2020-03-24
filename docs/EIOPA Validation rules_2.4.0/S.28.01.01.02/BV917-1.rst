@@ -1,0 +1,27 @@
+=======
+BV917-1
+=======
+
+Rule definition
+---------------
+
+BV917-1: [ (r0020-0170)] {{S.28.01.01.02, c0020}} ge 0
+
+
+Template references
+-------------------
+
+S.28.01.01.02 Background information
+
+
+Datapoints labels
+-----------------
+
+S.28.01.01.02,c0020 [net (of reinsurance/spv) best estimate and tp calculated as a whole]
+
+
+
+Datapoint references
+--------------------
+
+[ (r0020-0170)]

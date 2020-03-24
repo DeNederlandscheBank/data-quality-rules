@@ -11,15 +11,12 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.02 Natural Catastrophe risk - Windstorm
-
+S.27.01.04.02
 
 Datapoints labels
 -----------------
 
-S.27.01.04.02,r0600,c0060 [total windstorm specified regions before diversification, specified gross loss]
-
-S.27.01.04.02,r0600,c0090 [total windstorm specified regions before diversification, catastrophe risk charge before risk mitigation]
-
+S.27.01.04.02,r0600,c0060 [unknown label]
+S.27.01.04.02,r0600,c0090 [unknown label]
 
 

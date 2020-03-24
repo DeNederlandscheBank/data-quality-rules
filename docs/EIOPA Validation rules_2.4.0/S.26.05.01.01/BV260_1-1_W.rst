@@ -1,0 +1,28 @@
+===========
+BV260_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV260_1-1_W: [ (c0090)] {{S.26.05.01.01, r0220}} = sum({{S.26.05.01.01, r0100-0210}})
+
+
+Template references
+-------------------
+
+S.26.05.01.01 Non-life premium and reserve Risk
+
+
+Datapoints labels
+-----------------
+
+S.26.05.01.01,r0100-0210 [unknown label]
+S.26.05.01.01,r0220 [total volume measure]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0090)]

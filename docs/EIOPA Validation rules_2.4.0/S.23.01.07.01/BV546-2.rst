@@ -1,0 +1,31 @@
+=======
+BV546-2
+=======
+
+Rule definition
+---------------
+
+BV546-2: {{S.23.01.07.01, r0550,c0040}} = min(0.2 * {{S.23.01.07.01, r0600,c0010}}, {{S.23.01.07.01, r0510,c0030}} - {{S.23.01.07.01, r0550,c0030}} + {{S.23.01.07.01, r0510,c0040}})
+
+
+Template references
+-------------------
+
+S.23.01.07.01 Own funds
+
+
+Datapoints labels
+-----------------
+
+S.23.01.07.01,r0510,c0030 [total available own funds to meet the mcr, tier 1 - restricted]
+
+S.23.01.07.01,r0510,c0040 [total available own funds to meet the mcr, tier 2]
+
+S.23.01.07.01,r0550,c0030 [total eligible own funds to meet the mcr, tier 1 - restricted]
+
+S.23.01.07.01,r0550,c0040 [total eligible own funds to meet the mcr, tier 2]
+
+S.23.01.07.01,r0600,c0010 [mcr, total]
+
+
+

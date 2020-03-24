@@ -11,17 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.23.01.04.01 Own funds
-
+S.23.01.04.01
 
 Datapoints labels
 -----------------
 
-S.23.01.04.01,r0590,c0010 [consolidated group scr, total]
-
-S.23.01.04.01,r0670,c0010 [scr for entities included with d&a method, total]
-
-S.23.01.04.01,r0680,c0010 [group scr, total]
-
+S.23.01.04.01,r0590,c0010 [unknown label]
+S.23.01.04.01,r0670,c0010 [unknown label]
+S.23.01.04.01,r0680,c0010 [unknown label]
 
 

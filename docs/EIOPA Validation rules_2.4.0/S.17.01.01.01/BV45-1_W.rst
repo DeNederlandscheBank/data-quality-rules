@@ -1,0 +1,28 @@
+========
+BV45-1_W
+========
+
+Rule definition
+---------------
+
+BV45-1_W: [ (r0020;0030;0070;0080;0170;0180)] {{S.17.01.01.01, c0180}} = sum({{S.17.01.01.01, c0020-0130}})
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,c0020-0130 [unknown label]
+S.17.01.01.01,c0180 [total non-life obligation]
+
+
+
+Datapoint references
+--------------------
+
+[ (r0020;0030;0070;0080;0170;0180)]

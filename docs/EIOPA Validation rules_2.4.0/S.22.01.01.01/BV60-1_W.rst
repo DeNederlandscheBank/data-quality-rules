@@ -1,0 +1,31 @@
+========
+BV60-1_W
+========
+
+Rule definition
+---------------
+
+BV60-1_W: [ (r0010-0090)] {{S.22.01.01.01, c0030}} = {{S.22.01.01.01, c0020}} - {{S.22.01.01.01, c0010}}
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints labels
+-----------------
+
+S.22.01.01.01,c0010 [amount with long term guarantee measures and transitionals]
+
+S.22.01.01.01,c0020 [without transitional on technical provisions]
+
+S.22.01.01.01,c0030 [impact of transitional on technical provisions]
+
+
+
+Datapoint references
+--------------------
+
+[ (r0010-0090)]

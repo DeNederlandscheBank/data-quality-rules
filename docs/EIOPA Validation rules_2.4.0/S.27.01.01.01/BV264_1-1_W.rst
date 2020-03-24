@@ -1,0 +1,35 @@
+===========
+BV264_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV264_1-1_W: [ (c0010;0030)] {{S.27.01.01.01, r0190}} = {{S.27.01.01.01, r0010}} + {{S.27.01.01.01, r0080}} + {{S.27.01.01.01, r0090}} + {{S.27.01.01.01, r0170}}
+
+
+Template references
+-------------------
+
+S.27.01.01.01 Non-life and Health catastrophe risk - Summary
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.01,r0010 [natural catastrophe risk]
+
+S.27.01.01.01,r0080 [catastrophe risk non-proportional property reinsurance]
+
+S.27.01.01.01,r0090 [man-made catastrophe risk]
+
+S.27.01.01.01,r0170 [other non-life catastrophe risk]
+
+S.27.01.01.01,r0190 [total non-life catastrophe risk before diversification]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0010;0030)]

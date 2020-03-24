@@ -1,0 +1,29 @@
+======
+BV51-1
+======
+
+Rule definition
+---------------
+
+BV51-1: [ (c0140-0170)] {{S.17.01.01.01, r0060}} = {{S.17.01.01.01, r0090}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0060 [gross - total]
+
+S.17.01.01.01,r0090 [gross - accepted non-proportional reinsurance business]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0140-0170)]

@@ -1,0 +1,29 @@
+=======
+BV545-2
+=======
+
+Rule definition
+---------------
+
+BV545-2: {{S.23.01.07.01,r0540,c0050}}=min(0.5*{{S.23.01.07.01,r0580,c0010}}-{{S.23.01.07.01,r0540,c0040}},0.15*{{S.23.01.07.01,r0580,c0010}},{{S.23.01.07.01,r0500,c0050}})
+
+
+Template references
+-------------------
+
+S.23.01.07.01 Own funds
+
+
+Datapoints labels
+-----------------
+
+S.23.01.07.01,r0500,c0050 [total available own funds to meet the scr, tier 3]
+
+S.23.01.07.01,r0540,c0040 [total eligible own funds to meet the scr, tier 2]
+
+S.23.01.07.01,r0540,c0050 [total eligible own funds to meet the scr, tier 3]
+
+S.23.01.07.01,r0580,c0010 [scr, total]
+
+
+

@@ -1,0 +1,40 @@
+=======
+BV456-1
+=======
+
+Rule definition
+---------------
+
+BV456-1: {{S.17.02.01.01, r0010,c0120}} + {{S.17.02.01.01, r0020,c0120}} + {{S.17.02.01.01, r0030,c0120}} + sum({{S.17.02.01.02, r0040, c0120, snnn}}) le {{S.17.01.01.01, r0010,c0120}} + {{S.17.01.01.01, r0260,c0120}} + {{S.17.01.01.01, r0290,c0120}} + {{S.17.01.01.01, r0300,c0120}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+S.17.02.01.01 Gross TP calculated as a whole and Gross BE for different countries - Home country and countries outside the materiality threshold
+
+S.17.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0010,c0120 [technical provisions calculated as a whole, assistance]
+
+S.17.01.01.01,r0260,c0120 [total best estimate - gross, assistance]
+
+S.17.01.01.01,r0290,c0120 [tp as a whole, assistance]
+
+S.17.01.01.01,r0300,c0120 [best estimate, assistance]
+
+S.17.02.01.01,r0010,c0120 [home country, assistance]
+
+S.17.02.01.01,r0020,c0120 [eea countries outside the materiality threshold - not reported by country, assistance]
+
+S.17.02.01.01,r0030,c0120 [non-eea countries outside the materiality threshold - not reported by country, assistance]
+
+S.17.02.01.02,r0040,c0120,snnn [unknown label]
+
+

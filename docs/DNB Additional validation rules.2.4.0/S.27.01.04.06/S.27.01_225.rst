@@ -11,15 +11,12 @@ IF {S.27.01.04.06,r1950,c0420} <>0 THEN {S.27.01.04.06,r1950,c0420}=({S.27.01.04
 Template references
 -------------------
 
-S.27.01.04.06 Natural Catastrophe risk -Subsidence
-
+S.27.01.04.06
 
 Datapoints labels
 -----------------
 
-S.27.01.04.06,r1950,c0410 [total subsidence before diversification, specified gross loss]
-
-S.27.01.04.06,r1950,c0420 [total subsidence before diversification, catastrophe risk charge factor before risk mitigation]
-
+S.27.01.04.06,r1950,c0410 [unknown label]
+S.27.01.04.06,r1950,c0420 [unknown label]
 
 

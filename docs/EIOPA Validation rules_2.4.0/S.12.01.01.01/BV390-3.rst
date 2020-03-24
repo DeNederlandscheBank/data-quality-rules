@@ -1,0 +1,33 @@
+=======
+BV390-3
+=======
+
+Rule definition
+---------------
+
+BV390-3: {{SE.02.01.18.01, r0710,c0010}} le {{S.12.01.01.01, r0030,c0040}} + {{S.12.01.01.01, r0030,c0050}} + {{S.12.01.01.01, r0030,c0120}} + {{S.12.01.01.01, r0120,c0040}} + {{S.12.01.01.01, r0120,c0050}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.12.01.01.01,r0030,c0040 [gross best estimate, contracts without options and guarantees]
+
+S.12.01.01.01,r0030,c0050 [gross best estimate, contracts with options or guarantees]
+
+S.12.01.01.01,r0030,c0120 [gross best estimate, index-linked and unit-linked insurance]
+
+S.12.01.01.01,r0120,c0040 [best estimate, contracts without options and guarantees]
+
+S.12.01.01.01,r0120,c0050 [best estimate, contracts with options or guarantees]
+
+SE.02.01.18.01,r0710,c0010 [best estimate, solvency ii value]
+
+
+

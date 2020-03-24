@@ -1,0 +1,41 @@
+=========
+BV144-2_W
+=========
+
+Rule definition
+---------------
+
+BV144-2_W: [ (c0030)] {{S.29.01.07.01, r0250}} = {{S.29.01.07.01, r0130}} - {{S.29.01.07.01, r0190}} - {{S.29.01.07.01, r0200}} - {{S.29.01.07.01, r0210}} - {{S.29.01.07.01, r0220}} - {{S.29.01.07.01, r0230}} - {{S.29.01.07.01, r0240}}
+
+
+Template references
+-------------------
+
+S.29.01.07.01 Reconciliation with Own funds - Items reported in "Own funds"
+
+
+Datapoints labels
+-----------------
+
+S.29.01.07.01,r0130 [excess of assets over liabilities (variations of bof explained by variation analysis templates)]
+
+S.29.01.07.01,r0190 [variations due to investments and financial liabilities]
+
+S.29.01.07.01,r0200 [variations due to net technical provisions]
+
+S.29.01.07.01,r0210 [variations in capital basic own fund items and other items approved]
+
+S.29.01.07.01,r0220 [variation in deffered tax position]
+
+S.29.01.07.01,r0230 [income tax of the reporting period]
+
+S.29.01.07.01,r0240 [dividend distribution]
+
+S.29.01.07.01,r0250 [other variations in excess of assets over liabilities]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0030)]

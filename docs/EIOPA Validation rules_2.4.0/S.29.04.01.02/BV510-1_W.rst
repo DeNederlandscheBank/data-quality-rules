@@ -1,0 +1,34 @@
+=========
+BV510-1_W
+=========
+
+Rule definition
+---------------
+
+BV510-1_W: sum({{S.29.04.01.01, r0030, c0010, snnn}}) + sum({{S.29.04.01.01, r0030, c0020, snnn}}) + sum({{S.29.04.01.02, r0100, c0030, snnn}}) + sum({{S.29.04.01.02, r0100, c0040, snnn}}) + sum({{S.29.04.01.02, r0100, c0050, snnn}}) = {{S.29.03.01.06, r0330,c0100}} + {{S.29.03.01.06, r0330,c0110}}
+
+
+Template references
+-------------------
+
+S.29.03.01.06 Technical flows affecting Technical provisions
+
+S.29.04.01.01 Detailed analysis per period - Technical flows versus Technical provisions - UWY
+
+S.29.04.01.02 Detailed analysis per period - Technical flows versus Technical provisions - AY
+
+
+Datapoints labels
+-----------------
+
+S.29.03.01.06,r0330,c0100 [expenses (excluding investment expenses), life]
+
+S.29.03.01.06,r0330,c0110 [expenses (excluding investment expenses), non life]
+
+S.29.04.01.01,r0030,c0010,snnn [unknown label]
+S.29.04.01.01,r0030,c0020,snnn [unknown label]
+S.29.04.01.02,r0100,c0030,snnn [unknown label]
+S.29.04.01.02,r0100,c0040,snnn [unknown label]
+S.29.04.01.02,r0100,c0050,snnn [unknown label]
+
+

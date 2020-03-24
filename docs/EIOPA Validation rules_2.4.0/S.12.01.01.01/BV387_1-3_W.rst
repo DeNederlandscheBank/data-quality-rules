@@ -1,0 +1,37 @@
+===========
+BV387_1-3_W
+===========
+
+Rule definition
+---------------
+
+BV387_1-3_W: {{SE.02.01.18.01, r0670,c0010}} ge {{S.12.01.01.01, r0030,c0150}} - {{S.12.01.01.01, r0030,c0040}} - {{S.12.01.01.01, r0030,c0050}} - {{S.12.01.01.01, r0030,c0120}} + {{S.12.01.01.01, r0120,c0150}} - {{S.12.01.01.01, r0120,c0040}} - {{S.12.01.01.01, r0120,c0050}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.12.01.01.01,r0030,c0040 [gross best estimate, contracts without options and guarantees]
+
+S.12.01.01.01,r0030,c0050 [gross best estimate, contracts with options or guarantees]
+
+S.12.01.01.01,r0030,c0120 [gross best estimate, index-linked and unit-linked insurance]
+
+S.12.01.01.01,r0030,c0150 [gross best estimate, total (life other than health insurance, incl. unit-linked)]
+
+S.12.01.01.01,r0120,c0040 [best estimate, contracts without options and guarantees]
+
+S.12.01.01.01,r0120,c0050 [best estimate, contracts with options or guarantees]
+
+S.12.01.01.01,r0120,c0150 [best estimate, total (life other than health insurance, incl. unit-linked)]
+
+SE.02.01.18.01,r0670,c0010 [best estimate, solvency ii value]
+
+
+

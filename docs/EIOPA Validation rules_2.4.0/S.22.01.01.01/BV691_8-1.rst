@@ -1,0 +1,23 @@
+=========
+BV691_8-1
+=========
+
+Rule definition
+---------------
+
+BV691_8-1: {{S.22.01.01.01, r0110,c0060}} gt 0
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints labels
+-----------------
+
+S.22.01.01.01,r0110,c0060 [minimum capital requirement, without volatility adjustment and without other transitional measures]
+
+
+

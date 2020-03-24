@@ -1,0 +1,57 @@
+=======
+BV656-3
+=======
+
+Rule definition
+---------------
+
+BV656-3: {{S.05.01.01.01, r1300,c0200}} = {{S.05.01.01.01, r0550,c0010}} + {{S.05.01.01.01, r0550,c0020}} + {{S.05.01.01.01, r0550,c0030}} + {{S.05.01.01.01, r0550,c0040}} + {{S.05.01.01.01, r0550,c0050}} + {{S.05.01.01.01, r0550,c0060}} + {{S.05.01.01.01, r0550,c0070}} + {{S.05.01.01.01, r0550,c0080}} + {{S.05.01.01.01, r0550,c0090}} + {{S.05.01.01.01, r0550,c0100}} + {{S.05.01.01.01, r0550,c0110}} + {{S.05.01.01.01, r0550,c0120}} + {{S.05.01.01.01, r0550,c0130}} + {{S.05.01.01.01, r0550,c0140}} + {{S.05.01.01.01, r0550,c0150}} + {{S.05.01.01.01, r0550,c0160}} + {{S.05.01.01.01, r1200,c0200}}
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+
+Datapoints labels
+-----------------
+
+S.05.01.01.01,r0550,c0010 [expenses incurred, medical expense insurance]
+
+S.05.01.01.01,r0550,c0020 [expenses incurred, income protection insurance]
+
+S.05.01.01.01,r0550,c0030 [expenses incurred, workers' compensation insurance]
+
+S.05.01.01.01,r0550,c0040 [expenses incurred, motor vehicle liability insurance]
+
+S.05.01.01.01,r0550,c0050 [expenses incurred, other motor insurance]
+
+S.05.01.01.01,r0550,c0060 [expenses incurred, marine, aviation and transport insurance]
+
+S.05.01.01.01,r0550,c0070 [expenses incurred, fire and other damage to property insurance]
+
+S.05.01.01.01,r0550,c0080 [expenses incurred, general liability insurance]
+
+S.05.01.01.01,r0550,c0090 [expenses incurred, credit and suretyship insurance]
+
+S.05.01.01.01,r0550,c0100 [expenses incurred, legal expenses insurance]
+
+S.05.01.01.01,r0550,c0110 [expenses incurred, assistance]
+
+S.05.01.01.01,r0550,c0120 [expenses incurred, miscellaneous financial loss]
+
+S.05.01.01.01,r0550,c0130 [expenses incurred, health]
+
+S.05.01.01.01,r0550,c0140 [expenses incurred, casualty]
+
+S.05.01.01.01,r0550,c0150 [expenses incurred, marine, aviation, transport]
+
+S.05.01.01.01,r0550,c0160 [expenses incurred, property]
+
+S.05.01.01.01,r1200,c0200 [other expenses, total]
+
+S.05.01.01.01,r1300,c0200 [total expenses, total]
+
+
+

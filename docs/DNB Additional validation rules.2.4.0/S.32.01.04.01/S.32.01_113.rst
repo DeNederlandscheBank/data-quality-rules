@@ -11,15 +11,12 @@ IF {S.32.01.04.01,c0240} = "NOT INCLUDED INTO SCOPE OF GROUP SUPERVISION (ART. 2
 Template references
 -------------------
 
-S.32.01.04.01 Undertakings in the scope of the group
-
+S.32.01.04.01
 
 Datapoints labels
 -----------------
 
-S.32.01.04.01,c0240 [yes/no]
-
-S.32.01.04.01,c0260 [method used and under method 1, treatment of the undertaking]
-
+S.32.01.04.01,c0240 [unknown label]
+S.32.01.04.01,c0260 [unknown label]
 
 

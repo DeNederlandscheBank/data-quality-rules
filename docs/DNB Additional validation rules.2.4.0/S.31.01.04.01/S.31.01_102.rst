@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.31.01.04.01 Share of reinsurers
-
+S.31.01.04.01
 
 Datapoints labels
 -----------------
 
-S.31.01.04.01,c0090 [adjustment for expected losses due to counterparty default]
-
+S.31.01.04.01,c0090 [unknown label]
 
 

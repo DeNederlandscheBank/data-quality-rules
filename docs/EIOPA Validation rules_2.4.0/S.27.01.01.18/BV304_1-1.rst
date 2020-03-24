@@ -1,0 +1,31 @@
+=========
+BV304_1-1
+=========
+
+Rule definition
+---------------
+
+BV304_1-1: [ (r3100)] {{S.27.01.01.18, c1110}} = {{S.27.01.01.18, c1100}} - {{S.27.01.01.18, c1120}}
+
+
+Template references
+-------------------
+
+S.27.01.01.18 Man made catastrophe risk - Credit & Suretyship
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.18,c1100 [catastrophe risk charge credit & suretyship before risk mitigation]
+
+S.27.01.01.18,c1110 [estimated total risk mitigation]
+
+S.27.01.01.18,c1120 [catastrophe risk charge credit & suretyship after risk mitigation]
+
+
+
+Datapoint references
+--------------------
+
+[ (r3100)]

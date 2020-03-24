@@ -1,0 +1,33 @@
+========
+BV17-3_W
+========
+
+Rule definition
+---------------
+
+BV17-3_W: {{SE.02.01.18.01, r0060,c0010}} + {{SE.02.01.18.01, r0410,c0010}} + {{SE.02.01.18.01, r0240,c0010}} + {{SE.02.01.18.01, r0250,c0010}} + {{SE.02.01.18.01, r0260,c0010}} = {{S.02.02.01.01, r0030,c0020}}
+
+
+Template references
+-------------------
+
+S.02.02.01.01 All currencies
+
+
+Datapoints labels
+-----------------
+
+S.02.02.01.01,r0030,c0020 [other assets: property, plant & equipment held for own use, cash and cash equivalents, loans on policies, loans & mortgages to individuals and other loans & mortgages (other than index-linked and unit-linked contracts), total value of all currencies]
+
+SE.02.01.18.01,r0060,c0010 [property, plant & equipment held for own use, solvency ii value]
+
+SE.02.01.18.01,r0240,c0010 [loans on policies, solvency ii value]
+
+SE.02.01.18.01,r0250,c0010 [loans and mortgages to individuals, solvency ii value]
+
+SE.02.01.18.01,r0260,c0010 [other loans and mortgages, solvency ii value]
+
+SE.02.01.18.01,r0410,c0010 [cash and cash equivalents, solvency ii value]
+
+
+

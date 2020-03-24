@@ -11,20 +11,16 @@ Rule definition
 Template references
 -------------------
 
-S.02.01.01.01 Balance sheet
-
+S.02.01.01.01
 S.12.01.01.01 Life and Health SLT Technical Provisions
 
 
 Datapoints labels
 -----------------
 
-S.02.01.01.01,r0610,c0010 [technical provisions - health (similar to life), solvency ii value]
-
-S.02.01.01.01,r0650,c0010 [technical provisions – life (excluding health and index-linked and unit-linked), solvency ii value]
-
-S.02.01.01.01,r0690,c0010 [technical provisions – index-linked and unit-linked, solvency ii value]
-
+S.02.01.01.01,r0610,c0010 [unknown label]
+S.02.01.01.01,r0650,c0010 [unknown label]
+S.02.01.01.01,r0690,c0010 [unknown label]
 S.12.01.01.01,r0010,c0020 [technical provisions calculated as a whole, insurance with profit participation]
 
 S.12.01.01.01,r0010,c0030 [technical provisions calculated as a whole, none]

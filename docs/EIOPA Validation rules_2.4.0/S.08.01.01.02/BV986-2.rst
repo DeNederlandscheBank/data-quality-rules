@@ -1,0 +1,25 @@
+=======
+BV986-2
+=======
+
+Rule definition
+---------------
+
+BV986-2: (empty({{S.08.01.01.02,c0290}}) and empty({{S.08.01.01.02,c0300}})) or (not(empty({{S.08.01.01.02,c0290}})) and not(empty({{S.08.01.01.02,c0300}})))
+
+
+Template references
+-------------------
+
+S.08.01.01.02 Information on derivatives
+
+
+Datapoints labels
+-----------------
+
+S.08.01.01.02,c0290 [external rating]
+
+S.08.01.01.02,c0300 [nominated ecai]
+
+
+

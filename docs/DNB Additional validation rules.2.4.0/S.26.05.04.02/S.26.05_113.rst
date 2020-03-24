@@ -11,19 +11,14 @@ Rule definition
 Template references
 -------------------
 
-S.26.05.04.01 Non-life premium and reserve Risk
-
-S.26.05.04.02 Non-life premium and reserve risk
-
+S.26.05.04.01
+S.26.05.04.02
 
 Datapoints labels
 -----------------
 
-S.26.05.04.01,r0220,c0090 [total volume measure, v]
-
-S.26.05.04.01,r0230,c0020 [combined standard deviation, usp standard deviation]
-
-S.26.05.04.02,r0300,c0100 [non-life premium and reserve risk, solvency capital requirement]
-
+S.26.05.04.01,r0220,c0090 [unknown label]
+S.26.05.04.01,r0230,c0020 [unknown label]
+S.26.05.04.02,r0300,c0100 [unknown label]
 
 

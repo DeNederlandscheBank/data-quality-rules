@@ -11,17 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.01 Non-life and Health catastrophe risk - Summary
-
-S.27.01.04.25 Health Catastrophe risk - Pandemic. Total
-
+S.27.01.04.01
+S.27.01.04.25
 
 Datapoints labels
 -----------------
 
-S.27.01.04.01,r0330,c0030 [pandemic, scr after risk mitigation]
-
-S.27.01.04.25,r4420,c1540 [total pandemic all countries, catastrophe risk charge after risk mitigation]
-
+S.27.01.04.01,r0330,c0030 [unknown label]
+S.27.01.04.25,r4420,c1540 [unknown label]
 
 

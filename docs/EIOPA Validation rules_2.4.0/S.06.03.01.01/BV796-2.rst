@@ -1,0 +1,29 @@
+=======
+BV796-2
+=======
+
+Rule definition
+---------------
+
+BV796-2: empty({{S.06.03.01.01,c0040}})  where {{S.06.03.01.01,c0030}}=[s2c_MC:x81] or {{S.06.03.01.01,c0030}}=[s2c_MC:x115]
+
+
+Template references
+-------------------
+
+S.06.03.01.01 Collective investment undertakings - look-through approach
+
+
+Datapoints labels
+-----------------
+
+S.06.03.01.01,c0030 [underlying asset category]
+
+S.06.03.01.01,c0040 [country of issue]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_MC:x81] or {{S.06.03.01.01,c0030}}=[s2c_MC:x115]

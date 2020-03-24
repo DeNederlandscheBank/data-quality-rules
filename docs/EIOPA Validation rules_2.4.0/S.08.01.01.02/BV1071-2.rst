@@ -1,0 +1,27 @@
+========
+BV1071-2
+========
+
+Rule definition
+---------------
+
+BV1071-2: not(empty({{S.08.01.01.01,c0180}})) where matches({{S.08.01.01.02,c0380}},"^..((A.)|(B.)|(C.)|(F2))$")
+
+
+Template references
+-------------------
+
+S.08.01.01.01 Information on positions held
+
+S.08.01.01.02 Information on derivatives
+
+
+Datapoints labels
+-----------------
+
+S.08.01.01.01,c0180 [contract size]
+
+S.08.01.01.02,c0380 [cic]
+
+
+

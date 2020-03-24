@@ -1,0 +1,27 @@
+=======
+BV962-2
+=======
+
+Rule definition
+---------------
+
+BV962-2: if (not(empty({{S.05.01.01.01, r0200,c0070}}))) then not(empty({{S.17.01.01.01, r0320,c0080}}))
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.05.01.01.01,r0200,c0070 [net, fire and other damage to property insurance]
+
+S.17.01.01.01,r0320,c0080 [technical provisions - total, fire and other damage to property insurance]
+
+
+

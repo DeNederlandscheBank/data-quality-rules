@@ -11,15 +11,12 @@ IF {S.27.01.04.05,r1940,c0350}>0 THEN {S.27.01.04.05,r1700,c0350}>0
 Template references
 -------------------
 
-S.27.01.04.05 Natural Catastrophe risk - Hail
-
+S.27.01.04.05
 
 Datapoints labels
 -----------------
 
-S.27.01.04.05,r1700,c0350 [kingdom of the netherlands, catastrophe risk charge before risk mitigation]
-
-S.27.01.04.05,r1940,c0350 [total hail after diversification, catastrophe risk charge before risk mitigation]
-
+S.27.01.04.05,r1700,c0350 [unknown label]
+S.27.01.04.05,r1940,c0350 [unknown label]
 
 

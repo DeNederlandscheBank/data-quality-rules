@@ -11,19 +11,14 @@ IF ({S.26.04.04.01,r0500,c0060} > 0 OR {S.26.04.04.01,r0500,c0080} > 0) THEN ({S
 Template references
 -------------------
 
-S.26.04.04.01 SLT health underwriting risk
-
-S.26.04.04.09 Simplifications used
-
+S.26.04.04.01
+S.26.04.04.09
 
 Datapoints labels
 -----------------
 
-S.26.04.04.01,r0500,c0060 [health expense risk, net solvency capital requirement]
-
-S.26.04.04.01,r0500,c0080 [health expense risk, gross solvency capital requirement]
-
-S.26.04.04.09,r0060,c0010 [simplifications - health expense risk, simplifications used]
-
+S.26.04.04.01,r0500,c0060 [unknown label]
+S.26.04.04.01,r0500,c0080 [unknown label]
+S.26.04.04.09,r0060,c0010 [unknown label]
 
 

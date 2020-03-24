@@ -1,0 +1,53 @@
+=======
+BV440-1
+=======
+
+Rule definition
+---------------
+
+BV440-1: {{S.28.02.01.04, r0210,c0090}} + {{S.28.02.01.04, r0210,c0110}} + {{S.28.02.01.04, r0220,c0090}} + {{S.28.02.01.04, r0220,c0110}} ge {{S.12.01.01.01, r0010,c0020}} - {{S.12.01.01.01, r0020,c0020}} + {{S.12.01.01.01, r0090,c0020}} + {{S.12.01.01.01, r0110,c0020}} + {{S.12.01.01.01, r0120,c0020}} + {{S.12.01.01.01, r0010,c0110}} - {{S.12.01.01.01, r0020,c0110}} + {{S.12.01.01.01, r0030,c0110}} - {{S.12.01.01.01, r0080,c0110}} + {{S.12.01.01.01, r0110,c0100}} + {{S.12.01.01.01, r0120,c0100}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+S.28.02.01.04 Total capital at risk for all life (re)insurance obligations
+
+
+Datapoints labels
+-----------------
+
+S.12.01.01.01,r0010,c0020 [technical provisions calculated as a whole, insurance with profit participation]
+
+S.12.01.01.01,r0010,c0110 [technical provisions calculated as a whole, insurance with profit participation]
+
+S.12.01.01.01,r0020,c0020 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, insurance with profit participation]
+
+S.12.01.01.01,r0020,c0110 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, insurance with profit participation]
+
+S.12.01.01.01,r0030,c0110 [gross best estimate, insurance with profit participation]
+
+S.12.01.01.01,r0080,c0110 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, insurance with profit participation]
+
+S.12.01.01.01,r0090,c0020 [best estimate minus recoverables from reinsurance/spv and finite re, insurance with profit participation]
+
+S.12.01.01.01,r0110,c0020 [technical provisions calculated as a whole, insurance with profit participation]
+
+S.12.01.01.01,r0110,c0100 [technical provisions calculated as a whole, life and annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations]
+
+S.12.01.01.01,r0120,c0020 [best estimate, insurance with profit participation]
+
+S.12.01.01.01,r0120,c0100 [best estimate, life and annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations]
+
+S.28.02.01.04,r0210,c0090 [obligations with profit participation - guaranteed benefits, net (of reinsurance/spv) best estimate and tp calculated as a whole]
+
+S.28.02.01.04,r0210,c0110 [obligations with profit participation - guaranteed benefits, net (of reinsurance/spv) best estimate and tp calculated as a whole]
+
+S.28.02.01.04,r0220,c0090 [obligations with profit participation - future discretionary benefits, net (of reinsurance/spv) best estimate and tp calculated as a whole]
+
+S.28.02.01.04,r0220,c0110 [obligations with profit participation - future discretionary benefits, net (of reinsurance/spv) best estimate and tp calculated as a whole]
+
+
+

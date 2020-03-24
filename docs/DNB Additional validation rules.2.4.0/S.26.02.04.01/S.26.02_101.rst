@@ -11,17 +11,13 @@ Rule definition
 Template references
 -------------------
 
-S.26.02.04.01 Counterparty default risk - basic information
-
+S.26.02.04.01
 
 Datapoints labels
 -----------------
 
-S.26.02.04.01,r0100,c0080 [type 1 exposures, gross solvency capital requirement]
-
-S.26.02.04.01,r0300,c0080 [type 2 exposures, gross solvency capital requirement]
-
-S.26.02.04.01,r0400,c0080 [total counterparty default risk, gross solvency capital requirement]
-
+S.26.02.04.01,r0100,c0080 [unknown label]
+S.26.02.04.01,r0300,c0080 [unknown label]
+S.26.02.04.01,r0400,c0080 [unknown label]
 
 

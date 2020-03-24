@@ -1,0 +1,346 @@
+﻿Formula object,,,Label,Cover,Com­ple­ment,Bind as se­quence,Expression
+valueAssertion fc_tep,,,fc_tep,,,,"$filingIndicator = ('S.01.01','SR.01.01','SE.01.01','S.01.02','S.01.03','S.02.01','SR.02.01','SE.02.01','S.02.02','S.02.03','S.03.01','S.03.02','S.03.03','S.04.01','S.04.02','S.05.01','S.05.02','S.06.01','S.06.02','SE.06.02','S.06.03','S.07.01','S.08.01','S.08.02','S.09.01','S.10.01','S.11.01','S.12.01','SR.12.01','S.12.02','S.13.01','S.14.01','S.15.01','S.15.02','S.16.01','S.17.01','SR.17.01','S.17.02','S.18.01','S.19.01','S.20.01','S.21.01','S.21.02','S.21.03','S.22.01','SR.22.02','SR.22.03','S.22.04','S.22.05','S.22.06','S.23.01','S.23.02','S.23.03','S.23.04','S.24.01','S.25.01','SR.25.01','S.25.02','SR.25.02','S.25.03','SR.25.03','S.25.04','S.26.01','SR.26.01','S.26.02','SR.26.02','S.26.03','SR.26.03','S.26.04','SR.26.04','S.26.05','SR.26.05','S.26.06','SR.26.06','S.26.07','SR.26.07','S.27.01','SR.27.01','S.28.01','S.28.02','S.29.01','S.29.02','S.29.03','S.29.04','S.30.01','S.30.02','S.30.03','S.30.04','S.31.01','S.31.02','S.32.01','S.33.01','S.34.01','S.35.01','S.36.01','S.36.02','S.36.03','S.36.04','S.37.01','S.38.01','S.39.01','S.40.01','S.41.01','E.01.01','E.02.01','E.03.01','SPV.01.01','SPV.01.02','SPV.02.01','SPV.02.02','SPV.03.01','SPV.03.02','T.99.01')"
+,factVariable $filingIndicator,,fc.fv_tep,,,false,
+,,conceptName,fc.fv.cn_tep,true,false,,find:filingIndicator
+,message,,label_tep,,,,Filing indicator value {$filingIndicator} is incorrect for a module.
+valueAssertion filingIndicatorOutsidefIndicatorsTupleAssertion,,,filingIndicatorOutsidefIndicatorsTupleAssertion,,,,false()
+,factVariable $filingIndicator,,filingIndicatorOutsidefIndicatorsVariable,,,false,
+,,parentFilter,fIndicators,true,true,,find:fIndicators
+,,conceptName,filingIndicator,true,false,,find:filingIndicator
+,message,,filingIndicatorOutsidefIndicatorsTuple_msg,,,,Filing indicator not in find:fIndicators tuple.
+existenceAssertion filingIndicatorsExistanceAssertion,,,filingIndicatorsExistanceAssertion,,,,. gt 0
+,factVariable $filingIndicator,,filingIndicatorsExistaneVariable,,,true,fallbackValue =.
+,,parentFilter,fIndicators,true,false,,find:fIndicators
+,,conceptName,filingIndicator,true,false,,find:filingIndicator
+,message,,filingIndicatorsExistanceAssertion_msg,,,,Filing indicators missing in the report.
+function,,,function_numeric-equal,,,,"cmf:numeric-equal(item(), item(), item()) as xs:boolean"
+,implementation,,implementation_numeric-equal,,,,"step $output: 
+abs($paramA - $paramB) le $paramC 
+output: 
+$output"
+function,,,function_numeric-greater-equal-than,,,,"cmf:numeric-greater-equal-than(item(), item(), item()) as xs:boolean"
+,implementation,,implementation_numeric-greater-equal-than,,,,"step $output: 
+($paramB - $paramA) le $paramC 
+output: 
+$output"
+function,,,function_numeric-greater-than,,,,"cmf:numeric-greater-than(item(), item(), item()) as xs:boolean"
+,implementation,,implementation_numeric-greater-than,,,,"step $output: 
+($paramB - $paramA) lt $paramC 
+output: 
+$output"
+function,,,function_numeric-less-equal-than,,,,"cmf:numeric-less-equal-than(item(), item(), item()) as xs:boolean"
+,implementation,,implementation_numeric-less-equal-than,,,,"step $output: 
+($paramA - $paramB) le $paramC 
+output: 
+$output"
+function,,,function_numeric-less-than,,,,"cmf:numeric-less-than(item(), item(), item()) as xs:boolean"
+,implementation,,implementation_numeric-less-than,,,,"step $output: 
+($paramA - $paramB) lt $paramC 
+output: 
+$output"
+function,,,function_iff,,,,"efn:iff(xs:boolean, xs:boolean) as xs:boolean"
+,implementation,,implementation_iff,,,,"output: 
+if ($cond1) then $cond2 else not($cond2)"
+function,,,function_imp,,,,"efn:imp(xs:boolean, xs:boolean) as xs:boolean"
+,implementation,,implementation_imp,,,,"output: 
+if ($precond) then $test else true()"
+function,,,function_abs,,,,iaf:abs(item()) as item()
+,implementation,,implementation_abs,,,,"step $item: 
+if (empty($input)) then 0 else $input 
+step $output: 
+if ($item instance of element() and empty($item[2])) then
+    iaf:joinValueThreshold(abs($item), iaf-int:fact-threshold($item)) else (if (not($item instance of
+    element()) and empty($item[2]) and not(contains(string($item), "";""))) then
+    iaf:joinValueThreshold(abs($item), 0) else
+    iaf:joinValueThreshold(abs(xs:decimal(substring-before($item, "";""))),
+    xs:decimal(substring-after($item, "";""))))  
+output: 
+$output"
+function,,,function_joinValueThreshold,,,,"iaf:joinValueThreshold(item(), item()) as xs:string"
+,implementation,,implementation_joinValueThreshold,,,,"step $output: 
+concat(string($value),"";"",string($threshold)) 
+output: 
+$output"
+function,,,function_max,,,,iaf:max(item()*) as item()
+,implementation,,implementation_max,,,,"step $facts: 
+if (empty($params)) then (0) else one-or-more($params) 
+step $values: 
+for $i in $facts return (iaf:splitValueThreshold($i)[1]) 
+step $thresholds: 
+for $i in $facts return (iaf:splitValueThreshold($i)[2]) 
+step $maxValue: 
+max($values) 
+step $indexMax: 
+index-of($values, $maxValue)[1] 
+step $maxThreshold: 
+$thresholds[$indexMax] 
+step $output: 
+iaf:joinValueThreshold($maxValue,$maxThreshold) 
+output: 
+$output"
+function,,,function_min,,,,iaf:min(item()*) as item()
+,implementation,,implementation_min,,,,"step $facts: 
+if (empty($params)) then (0) else one-or-more($params) 
+step $values: 
+for $i in $facts return (iaf:splitValueThreshold($i)[1]) 
+step $thresholds: 
+for $i in $facts return (iaf:splitValueThreshold($i)[2]) 
+step $minValue: 
+min($values) 
+step $indexMin: 
+index-of($values, $minValue)[1] 
+step $minThreshold: 
+$thresholds[$indexMin] 
+step $output: 
+iaf:joinValueThreshold($minValue,$minThreshold) 
+output: 
+$output"
+function,,,function_multiply-recursive,,,,"iaf:multiply-recursive(item()+, item(), item()) as item()"
+,implementation,,implementation_multiply-recursive,,,,"step $facts: 
+if (empty($sequence)) then (0) else
+    one-or-more($sequence) 
+step $numberOfParams: 
+count($facts) 
+step $subtotal: 
+if ($count eq 1) then $facts[1] else $subtotalParam 
+step $multiply: 
+if($count lt $numberOfParams) then iaf:multiply-two-elements($subtotal,
+    $facts[$count + 1]) else $subtotal 
+step $output: 
+if($count lt $numberOfParams) then iaf:multiply-recursive($sequence,
+    ($count +1), $multiply) else $multiply 
+output: 
+$output"
+function,,,function_multiply-two-elements,,,,"iaf:multiply-two-elements(item(), item()) as item()"
+,implementation,,implementation_multiply-two-elements,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $A: 
+$itemA[1] 
+step $B: 
+$itemB[1] 
+step $deltaA: 
+$itemA[2] 
+step $deltaB: 
+$itemB[2] 
+step $AxB: 
+$A * $B 
+step $threshold: 
+sum((abs($A * $deltaB), abs($B * $deltaA), $deltaA * $deltaB)) 
+output: 
+iaf:joinValueThreshold($AxB, $threshold)"
+function,,,function_numeric-add,,,,"iaf:numeric-add(item(), item()) as item()"
+,implementation,,implementation_numeric-add,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $value: 
+$itemA[1]+$itemB[1] 
+step $threshold: 
+$itemA[2]+$itemB[2] 
+step $output: 
+iaf:joinValueThreshold($value,$threshold) 
+output: 
+$output"
+function,,,function_numeric-divide,,,,"iaf:numeric-divide(item(), item()) as item()"
+,implementation,,implementation_numeric-divide,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $A: 
+$itemA[1] 
+step $B: 
+$itemB[1] 
+step $deltaA: 
+$itemA[2] 
+step $deltaB: 
+$itemB[2] 
+step $AdivB: 
+$A div $B 
+step $J0: 
+($A + $deltaA) div ($B + $deltaB) 
+step $J1: 
+($A + $deltaA) div ($B - $deltaB) 
+step $J2: 
+($A - $deltaA) div ($B + $deltaB) 
+step $J3: 
+($A - $deltaA) div ($B - $deltaB) 
+step $threshold: 
+max((abs($AdivB - $J0), abs($AdivB - $J1), abs($AdivB - $J2), abs($AdivB - $J3))) 
+step $output: 
+iaf:joinValueThreshold($AdivB, $threshold) 
+output: 
+$output"
+function,,,function_numeric-equal,,,,"iaf:numeric-equal(item(), item()) as xs:boolean"
+,implementation,,implementation_numeric-equal,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $output: 
+abs($itemA[1] - $itemB[1]) le ($itemA[2] + $itemB[2]) 
+output: 
+$output"
+function,,,function_numeric-equal-test,,,,"iaf:numeric-equal-test(item(), item()) as item()+"
+,implementation,,implementation_numeric-equal-test,,,,"step $valueA: 
+iaf:splitValueThreshold($paramA)[1] 
+step $valueB: 
+iaf:splitValueThreshold($paramB)[1] 
+step $thA: 
+iaf:splitValueThreshold($paramA)[2] 
+step $thB: 
+iaf:splitValueThreshold($paramB)[2] 
+step $absol: 
+abs($valueA - $valueB) 
+step $sumTh: 
+$thA + $thB 
+output: 
+($valueA, $valueB, $thA, $thB, $absol, $sumTh)"
+function,,,function_numeric-equal-threshold,,,,"iaf:numeric-equal-threshold(item(), item()) as item()"
+,implementation,,implementation_numeric-equal-threshold,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $output: 
+($itemA[2] + $itemB[2]) 
+output: 
+$output"
+function,,,function_numeric-greater-equal-than,,,,"iaf:numeric-greater-equal-than(item(), item()) as xs:boolean"
+,implementation,,implementation_numeric-greater-equal-than,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $output: 
+$itemA[1] ge ($itemB[1] - ($itemA[2] + $itemB[2])) 
+output: 
+$output"
+function,,,function_numeric-greater-equal-than-threshold,,,,"iaf:numeric-greater-equal-than-threshold(item(), item()) as item()"
+,implementation,,implementation_numeric-greater-equal-than-threshold,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $output: 
+($itemA[2] + $itemB[2]) 
+output: 
+$output"
+function,,,function_numeric-greater-than,,,,"iaf:numeric-greater-than(item(), item()) as xs:boolean"
+,implementation,,implementation_numeric-greater-than,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $output: 
+$itemA[1] gt ($itemB[1] - ($itemA[2] + $itemB[2])) 
+output: 
+$output"
+function,,,function_numeric-greater-than-threshold,,,,"iaf:numeric-greater-than-threshold(item(), item()) as item()"
+,implementation,,implementation_numeric-greater-than-threshold,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $output: 
+($itemA[2] + $itemB[2]) 
+output: 
+$output"
+function,,,function_numeric-less-equal-than,,,,"iaf:numeric-less-equal-than(item(), item()) as xs:boolean"
+,implementation,,implementation_numeric-less-equal-than,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $output: 
+($itemA[1] - $itemB[1]) le ($itemA[2] + $itemB[2]) 
+output: 
+$output"
+function,,,function_numeric-less-equal-than-threshold,,,,"iaf:numeric-less-equal-than-threshold(item(), item()) as item()"
+,implementation,,implementation_numeric-less-equal-than-threshold,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $output: 
+($itemA[2] + $itemB[2]) 
+output: 
+$output"
+function,,,function_numeric-less-than,,,,"iaf:numeric-less-than(item(), item()) as xs:boolean"
+,implementation,,implementation_numeric-less-than,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $output: 
+($itemA[1] - $itemB[1]) lt ($itemA[2] + $itemB[2]) 
+output: 
+$output"
+function,,,function_numeric-less-than-threshold,,,,"iaf:numeric-less-than-threshold(item(), item()) as item()"
+,implementation,,implementation_numeric-less-than-threshold,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $output: 
+($itemA[2] + $itemB[2]) 
+output: 
+$output"
+function,,,function_numeric-multiply,,,,iaf:numeric-multiply(item()+) as item()
+,implementation,,implementation_numeric-multiply,,,,"step $output: 
+iaf:multiply-recursive($params, 1, 0) 
+output: 
+$output"
+function,,,function_numeric-multiply-simple,,,,"iaf:numeric-multiply(item(), item()) as item()"
+,implementation,,implementation_numeric-multiply-simple,,,,"output: 
+iaf:multiply-two-elements($paramA, $paramB)"
+function,,,function_numeric-subtract,,,,"iaf:numeric-subtract(item(), item()) as item()"
+,implementation,,implementation_numeric-subtract,,,,"step $itemA: 
+iaf:splitValueThreshold($paramA) 
+step $itemB: 
+iaf:splitValueThreshold($paramB) 
+step $value: 
+$itemA[1]-$itemB[1] 
+step $threshold: 
+$itemA[2]+$itemB[2] 
+step $output: 
+iaf:joinValueThreshold($value,$threshold) 
+output: 
+$output"
+function,,,function_numeric-unary-minus,,,,iaf:numeric-unary-minus(item()) as item()
+,implementation,,implementation_numeric-unary-minus,,,,"step $output: 
+if ($item instance of element() and empty($item[2])) then
+    iaf:joinValueThreshold(-($item), iaf-int:fact-threshold($item)) else (if (not($item instance of
+    element()) and empty($item[2]) and not(contains(string($item), "";""))) then
+    iaf:joinValueThreshold(-($item), 0) else
+    iaf:joinValueThreshold(-(xs:decimal(substring-before($item, "";""))),
+    xs:decimal(substring-after($item, "";""))))  
+output: 
+$output"
+function,,,function_precision,,,,iaf:precision(item()+) as xs:decimal
+,implementation,,implementation_precision,,,,"step $ouput: 
+xfi:decimals($item) 
+output: 
+$ouput"
+function,,,function_splitValueThreshold,,,,iaf:splitValueThreshold(item()) as item()+
+,implementation,,implementation_splitValueThreshold,,,,"step $valorUmbral: 
+if ($item instance of element() and empty($item[2])) then ($item,
+    iaf-int:fact-threshold($item)) else (if (not($item instance of element()) and empty($item[2])
+    and not(contains(string($item), "";""))) then ($item, 0) else
+    (xs:decimal(substring-before($item, "";"")), xs:decimal(substring-after($item, "";""))))  
+output: 
+$valorUmbral"
+function,,,function_sum,,,,iaf:sum(item()*) as item()+
+,implementation,,implementation_sum,,,,"step $facts: 
+if (empty($params)) then (0) else one-or-more($params) 
+step $values: 
+for $i in $facts return (iaf:splitValueThreshold($i)[1]) 
+step $thresholds: 
+for $i in $facts return (iaf:splitValueThreshold($i)[2]) 
+step $sumValues: 
+sum($values) 
+step $sumThresholds: 
+sum($thresholds) 
+step $output: 
+iaf:joinValueThreshold($sumValues, $sumThresholds) 
+output: 
+$output"
+function,,,function_exp10,,,,iaf-int:exp10(xs:integer) as xs:decimal
+,implementation,,implementation_exp10,,,,"output: 
+if ($power eq 0) then 1 else if ($power gt 0) then 10 * iaf-int:exp10($power - 1) else 1 div iaf-int:exp10(-$power)"
+function,,,function_fact-threshold,,,,iaf-int:fact-threshold(item()) as xs:decimal
+,implementation,,implementation_fact-threshold,,,,"step $decimals: 
+xfi:decimals($fact) 
+output: 
+if (string($decimals) = 'INF') then 0 else iaf-int:exp10(-xs:integer($decimals)) div 2"

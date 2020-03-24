@@ -1,0 +1,29 @@
+=========
+BV196-1_W
+=========
+
+Rule definition
+---------------
+
+BV196-1_W: [ (c0010;0020)] {{S.03.01.01.01, r0040}} le {{S.03.01.01.01, r0030}}
+
+
+Template references
+-------------------
+
+S.03.01.01.01 Value of guarantee / collateral / contingent liabilities
+
+
+Datapoints labels
+-----------------
+
+S.03.01.01.01,r0030 [guarantees received by the undertaking, including letters of credit]
+
+S.03.01.01.01,r0040 [of which, guarantees, including letters of credit received from other undertakings of the same group]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0010;0020)]

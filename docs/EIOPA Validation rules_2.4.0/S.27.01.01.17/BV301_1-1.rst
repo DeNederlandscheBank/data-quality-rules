@@ -1,0 +1,33 @@
+=========
+BV301_1-1
+=========
+
+Rule definition
+---------------
+
+BV301_1-1: [ (r3000)] {{S.27.01.01.17, c1090}} = {{S.27.01.01.17, c1060}} - {{S.27.01.01.17, c1070}} + {{S.27.01.01.17, c1080}}
+
+
+Template references
+-------------------
+
+S.27.01.01.17 Man made catastrophe risk - Credit & Suretyship - Recession Risk
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.17,c1060 [catastrophe risk charge credit & suretyship before risk mitigation - recession risk]
+
+S.27.01.01.17,c1070 [estimated risk mitigation]
+
+S.27.01.01.17,c1080 [estimated reinstatement premiums]
+
+S.27.01.01.17,c1090 [catastrophe risk charge credit & suretyship after risk mitigation - recession risk]
+
+
+
+Datapoint references
+--------------------
+
+[ (r3000)]

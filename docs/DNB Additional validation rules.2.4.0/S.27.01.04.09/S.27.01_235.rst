@@ -11,19 +11,14 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.09 Man made catastrophe risk - Marine Tanker Collision
-
+S.27.01.04.09
 
 Datapoints labels
 -----------------
 
-S.27.01.04.09,r2200,c0580 [marine tanker collision, catastrophe risk charge share marine hull in tanker t before risk mitigation]
-
-S.27.01.04.09,r2200,c0590 [marine tanker collision, catastrophe risk charge share marine liability in tanker t before risk mitigation]
-
-S.27.01.04.09,r2200,c0600 [marine tanker collision, catastrophe risk charge share marine oil pollution liability in tanker t before risk mitigation]
-
-S.27.01.04.09,r2200,c0610 [marine tanker collision, catastrophe risk charge marine tanker collision before risk mitigation]
-
+S.27.01.04.09,r2200,c0580 [unknown label]
+S.27.01.04.09,r2200,c0590 [unknown label]
+S.27.01.04.09,r2200,c0600 [unknown label]
+S.27.01.04.09,r2200,c0610 [unknown label]
 
 

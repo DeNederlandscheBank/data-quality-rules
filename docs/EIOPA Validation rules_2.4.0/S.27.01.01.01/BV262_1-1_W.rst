@@ -1,0 +1,39 @@
+===========
+BV262_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV262_1-1_W: [ (c0010;0030)] {{S.27.01.01.01, r0070}} = {{S.27.01.01.01, r0010}} - ({{S.27.01.01.01, r0020}} + {{S.27.01.01.01, r0030}} + {{S.27.01.01.01, r0040}} + {{S.27.01.01.01, r0050}} + {{S.27.01.01.01, r0060}})
+
+
+Template references
+-------------------
+
+S.27.01.01.01 Non-life and Health catastrophe risk - Summary
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.01,r0010 [natural catastrophe risk]
+
+S.27.01.01.01,r0020 [windstorm]
+
+S.27.01.01.01,r0030 [earthquake]
+
+S.27.01.01.01,r0040 [flood]
+
+S.27.01.01.01,r0050 [hail]
+
+S.27.01.01.01,r0060 [subsidence]
+
+S.27.01.01.01,r0070 [diversification between perils]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0010;0030)]

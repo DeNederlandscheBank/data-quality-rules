@@ -1,0 +1,45 @@
+===========
+BV582_1-4_W
+===========
+
+Rule definition
+---------------
+
+BV582_1-4_W: if ({{S.26.03.01.03, r0060,c0010}} = [s2c_AP:x33]) then not(empty({{S.26.03.01.04, r0700,c0060}})) and not(empty({{S.26.03.01.04, r0700,c0080}})) and empty({{S.26.03.01.01, r0700,c0020}}) and empty({{S.26.03.01.01, r0700,c0030}}) and empty({{S.26.03.01.01, r0700,c0040}}) and empty({{S.26.03.01.01, r0700,c0050}}) and empty({{S.26.03.01.01, r0700,c0070}})
+
+
+Template references
+-------------------
+
+S.26.03.01.01 Life underwriting risk
+
+S.26.03.01.03 Simplifications used
+
+S.26.03.01.04 Life underwriting risk
+
+
+Datapoints labels
+-----------------
+
+S.26.03.01.01,r0700,c0020 [life catastrophe risk, assets]
+
+S.26.03.01.01,r0700,c0030 [life catastrophe risk, liabilities]
+
+S.26.03.01.01,r0700,c0040 [life catastrophe risk, assets]
+
+S.26.03.01.01,r0700,c0050 [life catastrophe risk, liabilities (after the loss absorbing capacity of technical provisions)]
+
+S.26.03.01.01,r0700,c0070 [life catastrophe risk, liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.03.01.03,r0060,c0010 [simplifications - life catastrophe risk, simplifications used]
+
+S.26.03.01.04,r0700,c0060 [life catastrophe risk, net solvency capital requirement]
+
+S.26.03.01.04,r0700,c0080 [life catastrophe risk, gross solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x33]

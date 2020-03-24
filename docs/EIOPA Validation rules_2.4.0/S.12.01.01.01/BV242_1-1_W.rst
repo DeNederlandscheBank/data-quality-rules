@@ -1,0 +1,37 @@
+===========
+BV242_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV242_1-1_W: [ (r0010;0020;0100;0110;0130;0200)] {{S.12.01.01.01, c0150}} = {{S.12.01.01.01, c0020}} + {{S.12.01.01.01, c0030}} + {{S.12.01.01.01, c0060}} + {{S.12.01.01.01, c0090}} + {{S.12.01.01.01, c0100}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.12.01.01.01,c0020 [insurance with profit participation]
+
+S.12.01.01.01,c0030 [none]
+
+S.12.01.01.01,c0060 [none]
+
+S.12.01.01.01,c0090 [annuities stemming from non-life insurance contracts and relating to insurance obligation other than health insurance obligations]
+
+S.12.01.01.01,c0100 [life and annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations]
+
+S.12.01.01.01,c0150 [total (life other than health insurance, incl. unit-linked)]
+
+
+
+Datapoint references
+--------------------
+
+[ (r0010;0020;0100;0110;0130;0200)]

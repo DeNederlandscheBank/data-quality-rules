@@ -1,0 +1,33 @@
+============
+BV575_1-33_W
+============
+
+Rule definition
+---------------
+
+BV575_1-33_W: {{S.26.01.01.02, r0450,c0080}} = max(0, ({{S.26.01.01.01, r0450,c0020}} - {{S.26.01.01.01, r0450,c0030}}) - ({{S.26.01.01.01, r0450,c0040}} - {{S.26.01.01.01, r0450,c0070}}))
+
+
+Template references
+-------------------
+
+S.26.01.01.01 Market risk - basic information, part 1
+
+S.26.01.01.02 Market risk - basic information, part 2
+
+
+Datapoints labels
+-----------------
+
+S.26.01.01.01,r0450,c0020 [securitisation positions, assets]
+
+S.26.01.01.01,r0450,c0030 [securitisation positions, liabilities]
+
+S.26.01.01.01,r0450,c0040 [securitisation positions, assets]
+
+S.26.01.01.01,r0450,c0070 [securitisation positions, liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.01.01.02,r0450,c0080 [securitisation positions, gross solvency capital requirement]
+
+
+

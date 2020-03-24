@@ -11,19 +11,14 @@ IF {S.32.01.04.01,c0020} <> " " AND ({S.32.01.04.01,c0050}<>"LIFE UNDERTAKINGS" 
 Template references
 -------------------
 
-S.32.01.04.01 Undertakings in the scope of the group
-
+S.32.01.04.01
 
 Datapoints labels
 -----------------
 
-S.32.01.04.01,c0020 [*natural key*|"mandatory"]
-
-S.32.01.04.01,c0050 [type of undertaking]
-
-S.32.01.04.01,c0100 [total balance sheet (for other regulated undertakings)]
-
-S.32.01.04.01,c0110 [total balance sheet (non-regulated undertakings)]
-
+S.32.01.04.01,c0020 [unknown label]
+S.32.01.04.01,c0050 [unknown label]
+S.32.01.04.01,c0100 [unknown label]
+S.32.01.04.01,c0110 [unknown label]
 
 

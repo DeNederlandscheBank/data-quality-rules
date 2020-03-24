@@ -1,0 +1,31 @@
+=========
+BV231-2-1
+=========
+
+Rule definition
+---------------
+
+BV231-2-1: [ (c0230)] {{S.05.02.01.05, r1500}} = {{S.05.02.01.05, r1410}} - {{S.05.02.01.05, r1420}}
+
+
+Template references
+-------------------
+
+S.05.02.01.05 Top 5 countries (by amount of gross premiums written) - life obligations
+
+
+Datapoints labels
+-----------------
+
+S.05.02.01.05,r1410 [gross]
+
+S.05.02.01.05,r1420 [reinsurers' share]
+
+S.05.02.01.05,r1500 [net]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0230)]

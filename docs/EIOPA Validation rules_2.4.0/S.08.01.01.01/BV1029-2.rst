@@ -1,0 +1,23 @@
+========
+BV1029-2
+========
+
+Rule definition
+---------------
+
+BV1029-2: {{S.08.01.01.01, c0210}} ge 0
+
+
+Template references
+-------------------
+
+S.08.01.01.01 Information on positions held
+
+
+Datapoints labels
+-----------------
+
+S.08.01.01.01,c0210 [swap inflow amount]
+
+
+

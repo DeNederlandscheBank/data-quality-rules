@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.25.01.04.01 Basic Solvency Capital Requirement
-
+S.25.01.04.01
 
 Datapoints labels
 -----------------
 
-S.25.01.04.01,r0060 [diversification]
-
+S.25.01.04.01,r0060 [unknown label]
 
 

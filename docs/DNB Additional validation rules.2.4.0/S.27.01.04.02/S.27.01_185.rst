@@ -11,8 +11,7 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.02 Natural Catastrophe risk - Windstorm
-
+S.27.01.04.02
 
 Datapoints labels
 -----------------

@@ -1,0 +1,33 @@
+=========
+BV381_1-3
+=========
+
+Rule definition
+---------------
+
+BV381_1-3: {{SE.02.01.18.01, r0340,c0010}} = {{S.12.01.01.01, r0020,c0030}} + {{S.12.01.01.01, r0080,c0040}} + {{S.12.01.01.01, r0080,c0050}} + {{S.12.01.01.01, r0020,c0120}} + {{S.12.01.01.01, r0080,c0120}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.12.01.01.01,r0020,c0030 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, none]
+
+S.12.01.01.01,r0020,c0120 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, index-linked and unit-linked insurance]
+
+S.12.01.01.01,r0080,c0040 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, contracts without options and guarantees]
+
+S.12.01.01.01,r0080,c0050 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, contracts with options or guarantees]
+
+S.12.01.01.01,r0080,c0120 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, index-linked and unit-linked insurance]
+
+SE.02.01.18.01,r0340,c0010 [life index-linked and unit-linked, solvency ii value]
+
+
+

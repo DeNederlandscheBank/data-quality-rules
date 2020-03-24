@@ -1,0 +1,35 @@
+=======
+BV895-1
+=======
+
+Rule definition
+---------------
+
+BV895-1: [(r1110-1200)] if (not(empty({{S.23.03.07.02,c0060}})) and (not(empty({{S.23.03.07.02,c0110}})) or not(empty({{S.23.03.07.02,c0120}})) or not(empty({{S.23.03.07.02,c0130}})))) then not(empty({{S.23.03.07.02,c0010}}))
+
+
+Template references
+-------------------
+
+S.23.03.07.02 Ancillary own funds - movements in the reporting period
+
+
+Datapoints labels
+-----------------
+
+S.23.03.07.02,c0010 [balance b/fwd]
+
+S.23.03.07.02,c0060 [balance c/fwd]
+
+S.23.03.07.02,c0110 [new amount made available]
+
+S.23.03.07.02,c0120 [reduction to amount available]
+
+S.23.03.07.02,c0130 [called up to basic own fund]
+
+
+
+Datapoint references
+--------------------
+
+[(r1110-1200)]

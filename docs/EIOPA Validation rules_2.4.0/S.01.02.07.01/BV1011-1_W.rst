@@ -1,0 +1,154 @@
+==========
+BV1011-1_W
+==========
+
+Rule definition
+---------------
+
+BV1011-1_W: if ({{S.01.02.07.01, r0100,c0010}} = [s2c_CS:x45]) then {{SE.01.01.18.01, r0010,c0010}} = [s2c_CN:x1] and {{SE.01.01.18.01, r0020,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, er0030,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0040,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0050,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0060,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0070,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0080,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0110,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0120,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, er0140,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0150,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0160,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0170,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0180,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0190,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0200,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0210,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0220,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0230,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0240,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0250,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0260,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0270,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0280,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0290,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0300,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0310,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0320,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0330,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0340,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0350,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0360,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0370,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0380,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0390,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0400,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0410,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0430,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0450,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0460,c0010}} != [s2c_CN:x59] and {{SE.01.01.18.01, r0460,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0470,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0480,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0500,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0500,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0500,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0510,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0510,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0510,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0520,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0520,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0520,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0530,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0530,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0530,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0540,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0540,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0540,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0550,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0550,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0550,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0560,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0560,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0560,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0570,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0580,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0590,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0600,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0610,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0620,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0630,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0640,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0650,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0660,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0670,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0680,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0690,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, er1000,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, er1010,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, er1020,c0010}} != [s2c_CN:x1]
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+
+Datapoints labels
+-----------------
+
+S.01.02.07.01,r0100,c0010 [regular/ad-hoc submission, none]
+
+SE.01.01.18.01,er0030,c0010 [unknown label]
+SE.01.01.18.01,er0140,c0010 [unknown label]
+SE.01.01.18.01,er1000,c0010 [unknown label]
+SE.01.01.18.01,er1010,c0010 [unknown label]
+SE.01.01.18.01,er1020,c0010 [unknown label]
+SE.01.01.18.01,r0010,c0010 [s.01.02.07 - basic information - general, none]
+
+SE.01.01.18.01,r0020,c0010 [s.01.03.01 - basic information - rff and matching adjustment portfolios, none]
+
+SE.01.01.18.01,r0040,c0010 [s.02.02.01 - assets and liabilities by currency, none]
+
+SE.01.01.18.01,r0050,c0010 [s.02.03.07 - additional branch balance sheet information, none]
+
+SE.01.01.18.01,r0060,c0010 [s.03.01.01 - off-balance sheet items -general, none]
+
+SE.01.01.18.01,r0070,c0010 [s.03.02.01 - off-balance sheet items - list of unlimited guarantees received by the undertaking, none]
+
+SE.01.01.18.01,r0080,c0010 [s.03.03.01 - off-balance sheet items - list of unlimited guarantees provided by the undertaking, none]
+
+SE.01.01.18.01,r0110,c0010 [s.05.01.01 - premiums, claims and expenses by line of business, none]
+
+SE.01.01.18.01,r0120,c0010 [s.05.02.01 - premiums, claims and expenses by country, none]
+
+SE.01.01.18.01,r0150,c0010 [s.06.03.01 - collective investment undertakings - look-through approach, none]
+
+SE.01.01.18.01,r0160,c0010 [s.07.01.01 - structured products, none]
+
+SE.01.01.18.01,r0170,c0010 [s.08.01.01 - open derivatives, none]
+
+SE.01.01.18.01,r0180,c0010 [s.08.02.01 - derivatives transactions, none]
+
+SE.01.01.18.01,r0190,c0010 [s.09.01.01 - income/gains and losses in the period, none]
+
+SE.01.01.18.01,r0200,c0010 [s.10.01.01 - securities lending and repos, none]
+
+SE.01.01.18.01,r0210,c0010 [s.11.01.01 - assets held as collateral, none]
+
+SE.01.01.18.01,r0220,c0010 [s.12.01.01 - life and health slt technical provisions, none]
+
+SE.01.01.18.01,r0230,c0010 [s.12.02.01 - life and health slt technical provisions - by country, none]
+
+SE.01.01.18.01,r0240,c0010 [s.13.01.01 - projection of future gross cash flows, none]
+
+SE.01.01.18.01,r0250,c0010 [s.14.01.01 - life obligations analysis, none]
+
+SE.01.01.18.01,r0260,c0010 [s.15.01.01 - description of the guarantees of variable annuities, none]
+
+SE.01.01.18.01,r0270,c0010 [s.15.02.01 - hedging of guarantees of variable annuities, none]
+
+SE.01.01.18.01,r0280,c0010 [s.16.01.01 - information on annuities stemming from non-life insurance obligations, none]
+
+SE.01.01.18.01,r0290,c0010 [s.17.01.01 - non-life technical provisions, none]
+
+SE.01.01.18.01,r0300,c0010 [s.17.02.01 - non-life technical provisions - by country, none]
+
+SE.01.01.18.01,r0310,c0010 [s.18.01.01 - projection of future cash flows (best estimate - non-life), none]
+
+SE.01.01.18.01,r0320,c0010 [s.19.01.01 - non-life insurance claims, none]
+
+SE.01.01.18.01,r0330,c0010 [s.20.01.01 - development of the distribution of the claims incurred, none]
+
+SE.01.01.18.01,r0340,c0010 [s.21.01.01 - loss distribution risk profile, none]
+
+SE.01.01.18.01,r0350,c0010 [s.21.02.01 - underwriting risks non-life, none]
+
+SE.01.01.18.01,r0360,c0010 [s.21.03.01 - non-life distribution of underwriting risks - by sum insured, none]
+
+SE.01.01.18.01,r0370,c0010 [s.22.01.01 - impact of long term guarantees measures and transitionals, none]
+
+SE.01.01.18.01,r0380,c0010 [s.22.04.01 - information on the transitional on interest rates calculation, none]
+
+SE.01.01.18.01,r0390,c0010 [s.22.05.01 - overall calculation of the transitional on technical provisions, none]
+
+SE.01.01.18.01,r0400,c0010 [s.22.06.01 - best estimate subject to volatility adjustment by country and currency, none]
+
+SE.01.01.18.01,r0410,c0010 [s.23.01.07 - own funds, none]
+
+SE.01.01.18.01,r0430,c0010 [s.23.03.07 - annual movements on own funds, none]
+
+SE.01.01.18.01,r0450,c0010 [s.24.01.01 - participations held, none]
+
+SE.01.01.18.01,r0460,c0010 [s.25.01.01 - solvency capital requirement - for undertakings on standard formula, none]
+
+SE.01.01.18.01,r0470,c0010 [s.25.02.01 - solvency capital requirement - for undertakings using the standard formula and partial internal model, none]
+
+SE.01.01.18.01,r0480,c0010 [s.25.03.01 - solvency capital requirement - for undertakings on full internal models, none]
+
+SE.01.01.18.01,r0500,c0010 [s.26.01.01 - solvency capital requirement - market risk, none]
+
+SE.01.01.18.01,r0510,c0010 [s.26.02.01 - solvency capital requirement - counterparty default risk, none]
+
+SE.01.01.18.01,r0520,c0010 [s.26.03.01 - solvency capital requirement - life underwriting risk, none]
+
+SE.01.01.18.01,r0530,c0010 [s.26.04.01 - solvency capital requirement - health underwriting risk, none]
+
+SE.01.01.18.01,r0540,c0010 [s.26.05.01 - solvency capital requirement - non-life underwriting risk, none]
+
+SE.01.01.18.01,r0550,c0010 [s.26.06.01 - solvency capital requirement - operational risk, none]
+
+SE.01.01.18.01,r0560,c0010 [s.26.07.01 - solvency capital requirement - simplifications, none]
+
+SE.01.01.18.01,r0570,c0010 [s.27.01.01 - solvency capital requirement - non-life and health catastrophe risk, none]
+
+SE.01.01.18.01,r0580,c0010 [s.28.01.01 - minimum capital requirement - only life or only non-life insurance or reinsurance activity, none]
+
+SE.01.01.18.01,r0590,c0010 [s.28.02.01 - minimum capital requirement - both life and non-life insurance activity, none]
+
+SE.01.01.18.01,r0600,c0010 [s.29.01.07 - excess of assets over liabilities, none]
+
+SE.01.01.18.01,r0610,c0010 [s.29.02.01 - excess of assets over liabilities - explained by investments and financial liabilities, none]
+
+SE.01.01.18.01,r0620,c0010 [s.29.03.01 - excess of assets over liabilities - explained by technical provisions, none]
+
+SE.01.01.18.01,r0630,c0010 [s.29.04.01 - detailed analysis per period - technical flows versus technical provisions, none]
+
+SE.01.01.18.01,r0640,c0010 [s.30.01.01 - facultative covers for non-life and life business basic data, none]
+
+SE.01.01.18.01,r0650,c0010 [s.30.02.01 - facultative covers for non-life and life business shares data, none]
+
+SE.01.01.18.01,r0660,c0010 [s.30.03.01 - outgoing reinsurance program basic data, none]
+
+SE.01.01.18.01,r0670,c0010 [s.30.04.01 - outgoing reinsurance program shares data, none]
+
+SE.01.01.18.01,r0680,c0010 [s.31.01.01 - share of reinsurers (including finite reinsurance and spv's), none]
+
+SE.01.01.18.01,r0690,c0010 [s.31.02.01 - special purpose vehicles, none]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_CS:x45]) then {{SE.01.01.18.01, r0010,c0010}} = [s2c_CN:x1] and {{SE.01.01.18.01, r0020,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, er0030,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0040,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0050,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0060,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0070,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0080,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0110,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0120,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, er0140,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0150,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0160,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0170,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0180,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0190,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0200,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0210,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0220,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0230,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0240,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0250,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0260,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0270,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0280,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0290,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0300,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0310,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0320,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0330,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0340,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0350,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0360,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0370,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0380,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0390,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0400,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0410,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0430,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0450,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0460,c0010}} != [s2c_CN:x59] and {{SE.01.01.18.01, r0460,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0470,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0480,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0500,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0500,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0500,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0510,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0510,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0510,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0520,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0520,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0520,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0530,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0530,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0530,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0540,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0540,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0540,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0550,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0550,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0550,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0560,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0560,c0010}} != [s2c_CN:x60] and {{SE.01.01.18.01, r0560,c0010}} != [s2c_CN:x71] and {{SE.01.01.18.01, r0570,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0580,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0590,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0600,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0610,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0620,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0630,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0640,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0650,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0660,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0670,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0680,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, r0690,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, er1000,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, er1010,c0010}} != [s2c_CN:x1] and {{SE.01.01.18.01, er1020,c0010}} != [s2c_CN:x1]

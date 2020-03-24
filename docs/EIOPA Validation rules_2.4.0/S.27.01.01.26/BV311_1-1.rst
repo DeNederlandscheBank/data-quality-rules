@@ -1,0 +1,94 @@
+=========
+BV311_1-1
+=========
+
+Rule definition
+---------------
+
+BV311_1-1: [ (c1370;1380;1390;1400)] {{S.27.01.01.26, r4020}} = {{S.27.01.01.21, r3700}} + {{S.27.01.01.21, r3710}} + {{S.27.01.01.21, r3720}} + {{S.27.01.01.21, r3730}} + {{S.27.01.01.21, r3740}} + {{S.27.01.01.21, r3750}} + {{S.27.01.01.21, r3760}} + {{S.27.01.01.21, r3770}} + {{S.27.01.01.21, r3780}} + {{S.27.01.01.21, r3790}} + {{S.27.01.01.21, r3800}} + {{S.27.01.01.21, r3810}} + {{S.27.01.01.21, r3820}} + {{S.27.01.01.21, r3830}} + {{S.27.01.01.21, r3840}} + {{S.27.01.01.21, r3850}} + {{S.27.01.01.21, r3860}} + {{S.27.01.01.21, r3870}} + {{S.27.01.01.21, r3880}} + {{S.27.01.01.21, r3890}} + {{S.27.01.01.21, r3900}} + {{S.27.01.01.21, r3910}} + {{S.27.01.01.21, r3920}} + {{S.27.01.01.21, r3930}} + {{S.27.01.01.21, r3940}} + {{S.27.01.01.21, r3950}} + {{S.27.01.01.21, r3960}} + {{S.27.01.01.21, r3970}} + {{S.27.01.01.21, r3980}} + {{S.27.01.01.21, r3990}} + {{S.27.01.01.21, r4000}} + sum({{S.27.01.01.23, r4010, snnn}})
+
+
+Template references
+-------------------
+
+S.27.01.01.21 Health Catastrophe risk - Concentration accident
+
+S.27.01.01.23 Health Catastrophe risk - Concentration accident
+
+S.27.01.01.26 Health Catastrophe risk - Concentration accident
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.21,r3700 [republic of austria]
+
+S.27.01.01.21,r3710 [kingdom of belgium]
+
+S.27.01.01.21,r3720 [republic of bulgaria]
+
+S.27.01.01.21,r3730 [republic of croatia]
+
+S.27.01.01.21,r3740 [republic of cyprus]
+
+S.27.01.01.21,r3750 [czech republic]
+
+S.27.01.01.21,r3760 [kingdom of denmark]
+
+S.27.01.01.21,r3770 [republic of estonia]
+
+S.27.01.01.21,r3780 [republic of finland]
+
+S.27.01.01.21,r3790 [french republic]
+
+S.27.01.01.21,r3800 [hellenic republic]
+
+S.27.01.01.21,r3810 [federal republic of germany]
+
+S.27.01.01.21,r3820 [republic of hungary]
+
+S.27.01.01.21,r3830 [republic of iceland]
+
+S.27.01.01.21,r3840 [ireland]
+
+S.27.01.01.21,r3850 [italian republic]
+
+S.27.01.01.21,r3860 [republic of latvia]
+
+S.27.01.01.21,r3870 [republic of lithuania]
+
+S.27.01.01.21,r3880 [grand duchy of luxemburg]
+
+S.27.01.01.21,r3890 [republic of malta]
+
+S.27.01.01.21,r3900 [kingdom of the netherlands]
+
+S.27.01.01.21,r3910 [kingdom of norway]
+
+S.27.01.01.21,r3920 [republic of poland]
+
+S.27.01.01.21,r3930 [portuguese republic]
+
+S.27.01.01.21,r3940 [romania]
+
+S.27.01.01.21,r3950 [slovak republic]
+
+S.27.01.01.21,r3960 [republic of slovenia]
+
+S.27.01.01.21,r3970 [kingdom of spain]
+
+S.27.01.01.21,r3980 [kingdom of sweden]
+
+S.27.01.01.21,r3990 [swiss confederation]
+
+S.27.01.01.21,r4000 [united kingdom of great britain and northern ireland]
+
+S.27.01.01.23,r4010,snnn [unknown label]
+S.27.01.01.26,r4020 [total concentration accident all countries before diversification]
+
+
+
+Datapoint references
+--------------------
+
+[ (c1370;1380;1390;1400)]

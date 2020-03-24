@@ -1,0 +1,31 @@
+=========
+BV853-1_W
+=========
+
+Rule definition
+---------------
+
+BV853-1_W: [ (r0100;0110)] {{S.22.01.01.01, c0070}} = {{S.22.01.01.01, c0060}} - {{S.22.01.01.01, c0040}}
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints labels
+-----------------
+
+S.22.01.01.01,c0040 [without transitional on interest rate]
+
+S.22.01.01.01,c0060 [without volatility adjustment and without other transitional measures]
+
+S.22.01.01.01,c0070 [impact of volatility adjustment set to zero]
+
+
+
+Datapoint references
+--------------------
+
+[ (r0100;0110)]

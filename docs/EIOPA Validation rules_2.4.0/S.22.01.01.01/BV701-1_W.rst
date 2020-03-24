@@ -1,0 +1,31 @@
+=========
+BV701-1_W
+=========
+
+Rule definition
+---------------
+
+BV701-1_W: if ({{S.01.02.07.01, r0170,c0010}} = [s2c_PU:x52]) then {{S.22.01.01.01, r0110,c0090}} = 0
+
+
+Template references
+-------------------
+
+S.01.02.07.01 Basic Information
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints labels
+-----------------
+
+S.01.02.07.01,r0170,c0010 [matching adjustment, none]
+
+S.22.01.01.01,r0110,c0090 [minimum capital requirement, impact of matching adjustment set to zero]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_PU:x52]

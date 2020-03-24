@@ -1,0 +1,35 @@
+=======
+BV473-1
+=======
+
+Rule definition
+---------------
+
+BV473-1: {{S.28.01.01.02, r0170,c0020}} ge {{S.17.01.01.01, r0010,c0170}} - {{S.17.01.01.01, r0050,c0170}} + {{S.17.01.01.01, r0270,c0170}} + {{S.17.01.01.01, r0290,c0170}} + {{S.17.01.01.01, r0300,c0170}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+S.28.01.01.02 Background information
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0010,c0170 [technical provisions calculated as a whole, non-proportional property reinsurance]
+
+S.17.01.01.01,r0050,c0170 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, non-proportional property reinsurance]
+
+S.17.01.01.01,r0270,c0170 [total best estimate - net, non-proportional property reinsurance]
+
+S.17.01.01.01,r0290,c0170 [tp as a whole, non-proportional property reinsurance]
+
+S.17.01.01.01,r0300,c0170 [best estimate, non-proportional property reinsurance]
+
+S.28.01.01.02,r0170,c0020 [non-proportional property reinsurance, net (of reinsurance/spv) best estimate and tp calculated as a whole]
+
+
+

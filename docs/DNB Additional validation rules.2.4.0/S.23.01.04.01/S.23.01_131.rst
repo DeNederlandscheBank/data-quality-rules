@@ -11,19 +11,14 @@ Rule definition
 Template references
 -------------------
 
-S.23.01.04.01 Own funds
-
+S.23.01.04.01
 
 Datapoints labels
 -----------------
 
-S.23.01.04.01,r0530,c0010 [total available own funds to meet the minimum consolidated group scr, total]
-
-S.23.01.04.01,r0530,c0020 [total available own funds to meet the minimum consolidated group scr, tier 1 - unrestricted]
-
-S.23.01.04.01,r0530,c0030 [total available own funds to meet the minimum consolidated group scr, tier 1 - restricted]
-
-S.23.01.04.01,r0530,c0040 [total available own funds to meet the minimum consolidated group scr, tier 2]
-
+S.23.01.04.01,r0530,c0010 [unknown label]
+S.23.01.04.01,r0530,c0020 [unknown label]
+S.23.01.04.01,r0530,c0030 [unknown label]
+S.23.01.04.01,r0530,c0040 [unknown label]
 
 

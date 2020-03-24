@@ -1,0 +1,39 @@
+=========
+BV138-6_W
+=========
+
+Rule definition
+---------------
+
+BV138-6_W: {{SE.02.01.18.01, r0270,c0010}} = {{S.12.01.01.01, r0080,c0150}} + {{S.12.01.01.01, r0080,c0210}} + {{S.12.01.01.01, r0020,c0150}} + {{S.12.01.01.01, r0020,c0210}} + {{S.17.01.01.01, r0140,c0180}} + {{S.17.01.01.01, r0240,c0180}} + {{S.17.01.01.01, r0050,c0180}}
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.12.01.01.01,r0020,c0150 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, total (life other than health insurance, incl. unit-linked)]
+
+S.12.01.01.01,r0020,c0210 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, total (health similar to life insurance)]
+
+S.12.01.01.01,r0080,c0150 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, total (life other than health insurance, incl. unit-linked)]
+
+S.12.01.01.01,r0080,c0210 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, total (health similar to life insurance)]
+
+S.17.01.01.01,r0050,c0180 [total recoverables from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default associated to tp calculated as a whole, total non-life obligation]
+
+S.17.01.01.01,r0140,c0180 [total recoverable from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, total non-life obligation]
+
+S.17.01.01.01,r0240,c0180 [total recoverable from reinsurance/spv and finite re after the adjustment for expected losses due to counterparty default, total non-life obligation]
+
+SE.02.01.18.01,r0270,c0010 [reinsurance recoverables from:, solvency ii value]
+
+
+

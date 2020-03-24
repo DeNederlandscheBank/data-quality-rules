@@ -1,0 +1,27 @@
+=======
+BV818-2
+=======
+
+Rule definition
+---------------
+
+BV818-2: empty({{S.08.02.01.01,c0190}})  where not(matches({{S.08.02.01.02,c0320}},"^..F.$"))
+
+
+Template references
+-------------------
+
+S.08.02.01.01 Information on positions held
+
+S.08.02.01.02 Information on derivatives
+
+
+Datapoints labels
+-----------------
+
+S.08.02.01.01,c0190 [maximum loss under unwinding event]
+
+S.08.02.01.02,c0320 [cic]
+
+
+

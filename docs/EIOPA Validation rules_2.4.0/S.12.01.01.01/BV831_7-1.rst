@@ -1,0 +1,23 @@
+=========
+BV831_7-1
+=========
+
+Rule definition
+---------------
+
+BV831_7-1: {{S.12.01.01.01, r0100,c0120}} ge 0
+
+
+Template references
+-------------------
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.12.01.01.01,r0100,c0120 [risk margin, index-linked and unit-linked insurance]
+
+
+

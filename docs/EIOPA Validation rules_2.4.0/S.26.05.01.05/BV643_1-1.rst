@@ -1,0 +1,37 @@
+=========
+BV643_1-1
+=========
+
+Rule definition
+---------------
+
+BV643_1-1: if ({{S.26.05.01.05, r0010,c0010}} = [s2c_AP:x34]) then {{S.26.05.01.01, r0180,c0090}} = ({{S.26.05.01.01, r0180,c0060}} + {{S.26.05.01.01, r0180,c0070}}) * (0.75 + 0.25 * {{S.26.05.01.01, r0180,c0080}})
+
+
+Template references
+-------------------
+
+S.26.05.01.01 Non-life premium and reserve Risk
+
+S.26.05.01.05 Simplifications used
+
+
+Datapoints labels
+-----------------
+
+S.26.05.01.01,r0180,c0060 [miscellaneous, vprem]
+
+S.26.05.01.01,r0180,c0070 [miscellaneous, vres]
+
+S.26.05.01.01,r0180,c0080 [miscellaneous, geographical diversification]
+
+S.26.05.01.01,r0180,c0090 [miscellaneous, v]
+
+S.26.05.01.05,r0010,c0010 [captives simplifications - premium and reserve risk, simplifications used]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x34]

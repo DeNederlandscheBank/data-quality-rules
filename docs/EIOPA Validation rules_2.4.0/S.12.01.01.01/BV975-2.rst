@@ -1,0 +1,27 @@
+=======
+BV975-2
+=======
+
+Rule definition
+---------------
+
+BV975-2: if (not(empty({{S.05.01.01.02, r1500,c0240}}))) then not(empty({{S.12.01.01.01, r0200,c0060}}))
+
+
+Template references
+-------------------
+
+S.05.01.01.02 Life
+
+S.12.01.01.01 Life and Health SLT Technical Provisions
+
+
+Datapoints labels
+-----------------
+
+S.05.01.01.02,r1500,c0240 [net, other life insurance]
+
+S.12.01.01.01,r0200,c0060 [technical provisions - total, none]
+
+
+

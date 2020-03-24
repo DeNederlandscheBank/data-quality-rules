@@ -1,0 +1,42 @@
+========
+BV1033-1
+========
+
+Rule definition
+---------------
+
+BV1033-1: if ({{S.17.01.01.01, r0290,c0020}} lt 0 and {{S.17.01.01.01, r0300,c0020}} lt 0) then {{S.17.02.01.01, r0010,c0020}} + {{S.17.02.01.01, r0020,c0020}} + {{S.17.02.01.01, r0030,c0020}} + sum({{S.17.02.01.02, r0040, c0020, snnn}}) ge {{S.17.01.01.01, r0020,c0020}} + {{S.17.01.01.01, r0070,c0020}} + {{S.17.01.01.01, r0170,c0020}} + {{S.17.01.01.01, r0290,c0020}} + {{S.17.01.01.01, r0300,c0020}}
+
+
+Template references
+-------------------
+
+S.17.01.01.01 Non-Life Technical Provisions
+
+S.17.02.01.01 Gross TP calculated as a whole and Gross BE for different countries - Home country and countries outside the materiality threshold
+
+S.17.02.01.02 Gross TP calculated as a whole and Gross BE for different countries - Countries in the materiality threshold
+
+
+Datapoints labels
+-----------------
+
+S.17.01.01.01,r0020,c0020 [direct business, medical expense insurance]
+
+S.17.01.01.01,r0070,c0020 [gross - direct business, medical expense insurance]
+
+S.17.01.01.01,r0170,c0020 [gross - direct business, medical expense insurance]
+
+S.17.01.01.01,r0290,c0020 [tp as a whole, medical expense insurance]
+
+S.17.01.01.01,r0300,c0020 [best estimate, medical expense insurance]
+
+S.17.02.01.01,r0010,c0020 [home country, medical expense insurance]
+
+S.17.02.01.01,r0020,c0020 [eea countries outside the materiality threshold - not reported by country, medical expense insurance]
+
+S.17.02.01.01,r0030,c0020 [non-eea countries outside the materiality threshold - not reported by country, medical expense insurance]
+
+S.17.02.01.02,r0040,c0020,snnn [unknown label]
+
+

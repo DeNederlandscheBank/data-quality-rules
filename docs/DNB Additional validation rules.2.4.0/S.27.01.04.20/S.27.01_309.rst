@@ -11,22 +11,16 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.20 Health Catastrophe risk - Mass accident
-
+S.27.01.04.20
 
 Datapoints labels
 -----------------
 
-S.27.01.04.20,r3500,c1180 [kingdom of the netherlands, total value of benefits payable]
-
-S.27.01.04.20,r3500,c1200 [kingdom of the netherlands, total value of benefits payable]
-
+S.27.01.04.20,r3500,c1180 [unknown label]
+S.27.01.04.20,r3500,c1200 [unknown label]
 S.27.01.04.20,r3500,c1220 [unknown label]
-S.27.01.04.20,r3500,c1240 [kingdom of the netherlands, total value of benefits payable]
-
-S.27.01.04.20,r3500,c1260 [kingdom of the netherlands, total value of benefits payable]
-
-S.27.01.04.20,r3500,c1270 [kingdom of the netherlands, catastrophe risk charge before risk mitigation]
-
+S.27.01.04.20,r3500,c1240 [unknown label]
+S.27.01.04.20,r3500,c1260 [unknown label]
+S.27.01.04.20,r3500,c1270 [unknown label]
 
 

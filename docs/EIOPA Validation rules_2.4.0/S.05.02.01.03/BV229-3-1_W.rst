@@ -1,0 +1,35 @@
+===========
+BV229-3-1_W
+===========
+
+Rule definition
+---------------
+
+BV229-3-1_W: [ (c0140)] {{S.05.02.01.03, r0500}} = {{S.05.02.01.03, r0410}} + {{S.05.02.01.03, r0420}} + {{S.05.02.01.03, r0430}} - {{S.05.02.01.03, r0440}}
+
+
+Template references
+-------------------
+
+S.05.02.01.03 Total Top 5 and home country - non-life obligations
+
+
+Datapoints labels
+-----------------
+
+S.05.02.01.03,r0410 [gross - direct business]
+
+S.05.02.01.03,r0420 [gross - proportional reinsurance accepted]
+
+S.05.02.01.03,r0430 [gross - non-proportional reinsurance accepted]
+
+S.05.02.01.03,r0440 [reinsurers' share]
+
+S.05.02.01.03,r0500 [net]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0140)]

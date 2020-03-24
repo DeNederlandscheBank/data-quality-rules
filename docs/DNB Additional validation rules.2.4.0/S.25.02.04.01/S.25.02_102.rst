@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.25.02.04.01 Component-specific information
-
+S.25.02.04.01
 
 Datapoints labels
 -----------------
 
-S.25.02.04.01,c0050 [allocation from adjustments due to rff and matching adjustments portfolios]
-
+S.25.02.04.01,c0050 [unknown label]
 
 

@@ -1,0 +1,31 @@
+=========
+BV232-1-2
+=========
+
+Rule definition
+---------------
+
+BV232-1-2: [ (c0220)] {{S.05.02.01.04, r1600}} = {{S.05.02.01.04, r1510}} - {{S.05.02.01.04, r1520}}
+
+
+Template references
+-------------------
+
+S.05.02.01.04 Home Country - life obligations
+
+
+Datapoints labels
+-----------------
+
+S.05.02.01.04,r1510 [gross]
+
+S.05.02.01.04,r1520 [reinsurers' share]
+
+S.05.02.01.04,r1600 [net]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0220)]

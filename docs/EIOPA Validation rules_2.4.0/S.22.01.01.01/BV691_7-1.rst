@@ -1,0 +1,23 @@
+=========
+BV691_7-1
+=========
+
+Rule definition
+---------------
+
+BV691_7-1: {{S.22.01.01.01, r0090,c0060}} gt 0
+
+
+Template references
+-------------------
+
+S.22.01.01.01 Impact of long term guarantees measures and transitionals
+
+
+Datapoints labels
+-----------------
+
+S.22.01.01.01,r0090,c0060 [solvency capital requirement, without volatility adjustment and without other transitional measures]
+
+
+

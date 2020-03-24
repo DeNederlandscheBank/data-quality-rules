@@ -1,0 +1,33 @@
+=========
+BV300_1-1
+=========
+
+Rule definition
+---------------
+
+BV300_1-1: [ (r2900;2910;2920)] {{S.27.01.01.16, c1040}} = {{S.27.01.01.16, c1010}} - {{S.27.01.01.16, c1020}} + {{S.27.01.01.16, c1030}}
+
+
+Template references
+-------------------
+
+S.27.01.01.16 Man made catastrophe risk - Credit & Suretyship - Large Credit Default
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.16,c1010 [catastrophe risk charge credit & surety before risk mitigation - large credit default]
+
+S.27.01.01.16,c1020 [estimated risk mitigation]
+
+S.27.01.01.16,c1030 [estimated reinstatement premiums]
+
+S.27.01.01.16,c1040 [catastrophe risk charge credit & surety after risk mitigation - large credit default]
+
+
+
+Datapoint references
+--------------------
+
+[ (r2900;2910;2920)]

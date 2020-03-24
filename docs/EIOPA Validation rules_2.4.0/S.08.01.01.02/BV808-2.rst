@@ -1,0 +1,25 @@
+=======
+BV808-2
+=======
+
+Rule definition
+---------------
+
+BV808-2: empty({{S.08.01.01.02,c0410}}) where not(matches({{S.08.01.01.02,c0380}},"^..((D2)|(D3))$"))
+
+
+Template references
+-------------------
+
+S.08.01.01.02 Information on derivatives
+
+
+Datapoints labels
+-----------------
+
+S.08.01.01.02,c0380 [cic]
+
+S.08.01.01.02,c0410 [swap delivered currency]
+
+
+

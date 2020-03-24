@@ -1,0 +1,23 @@
+=======
+BV823-2
+=======
+
+Rule definition
+---------------
+
+BV823-2: {{S.08.02.01.01, c0140}} gt 0
+
+
+Template references
+-------------------
+
+S.08.02.01.01 Information on positions held
+
+
+Datapoints labels
+-----------------
+
+S.08.02.01.01,c0140 [premium paid to date]
+
+
+

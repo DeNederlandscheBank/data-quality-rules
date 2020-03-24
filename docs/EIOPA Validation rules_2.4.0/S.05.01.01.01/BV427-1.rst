@@ -1,0 +1,35 @@
+=======
+BV427-1
+=======
+
+Rule definition
+---------------
+
+BV427-1: [ (c0200)] {{S.05.01.01.01, r1100}} = {{S.05.01.01.01, r1010}} + {{S.05.01.01.01, r1020}} + {{S.05.01.01.01, r1030}} - {{S.05.01.01.01, r1040}}
+
+
+Template references
+-------------------
+
+S.05.01.01.01 Non-Life (direct business/accepted proportional reinsurance and accepted non-proportional reinsurance)
+
+
+Datapoints labels
+-----------------
+
+S.05.01.01.01,r1010 [gross - direct business]
+
+S.05.01.01.01,r1020 [gross - proportional reinsurance accepted]
+
+S.05.01.01.01,r1030 [gross - non-proportional reinsurance accepted]
+
+S.05.01.01.01,r1040 [reinsurers' share]
+
+S.05.01.01.01,r1100 [net]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0200)]

@@ -1,0 +1,31 @@
+=========
+BV285_1-1
+=========
+
+Rule definition
+---------------
+
+BV285_1-1: [ (c0350;0380)] {{S.27.01.01.05, r1930}} = {{S.27.01.01.05, r1940}} - {{S.27.01.01.05, r1920}}
+
+
+Template references
+-------------------
+
+S.27.01.01.05 Natural Catastrophe risk - Hail
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.05,r1920 [total hail all regions before diversification]
+
+S.27.01.01.05,r1930 [diversification effect between regions]
+
+S.27.01.01.05,r1940 [total hail after diversification]
+
+
+
+Datapoint references
+--------------------
+
+[ (c0350;0380)]

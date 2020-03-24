@@ -1,0 +1,31 @@
+===========
+BV284_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV284_1-1_W: [ (r1630-1720)] {{S.27.01.01.05, c0330}} * {{S.27.01.01.05, c0310}} = {{S.27.01.01.05, c0320}}
+
+
+Template references
+-------------------
+
+S.27.01.01.05 Natural Catastrophe risk - Hail
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.05,c0310 [exposure]
+
+S.27.01.01.05,c0320 [specified gross loss]
+
+S.27.01.01.05,c0330 [catastrophe risk charge factor before risk mitigation]
+
+
+
+Datapoint references
+--------------------
+
+[ (r1630-1720)]

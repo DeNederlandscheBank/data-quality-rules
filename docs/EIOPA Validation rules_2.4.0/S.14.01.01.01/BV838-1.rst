@@ -1,0 +1,23 @@
+=======
+BV838-1
+=======
+
+Rule definition
+---------------
+
+BV838-1: {{S.14.01.01.01, c0050}} ge 0
+
+
+Template references
+-------------------
+
+S.14.01.01.01 Portfolio
+
+
+Datapoints labels
+-----------------
+
+S.14.01.01.01,c0050 [number of new contracts during year]
+
+
+

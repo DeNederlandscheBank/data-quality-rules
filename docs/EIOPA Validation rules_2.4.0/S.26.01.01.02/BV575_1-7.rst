@@ -1,0 +1,33 @@
+=========
+BV575_1-7
+=========
+
+Rule definition
+---------------
+
+BV575_1-7: {{S.26.01.01.02, r0430,c0080}} = max(0, ({{S.26.01.01.01, r0430,c0020}} - {{S.26.01.01.01, r0430,c0030}}) - ({{S.26.01.01.01, r0430,c0040}} - {{S.26.01.01.01, r0430,c0070}}))
+
+
+Template references
+-------------------
+
+S.26.01.01.01 Market risk - basic information, part 1
+
+S.26.01.01.02 Market risk - basic information, part 2
+
+
+Datapoints labels
+-----------------
+
+S.26.01.01.01,r0430,c0020 [downward shock on credit derivatives, assets]
+
+S.26.01.01.01,r0430,c0030 [downward shock on credit derivatives, liabilities]
+
+S.26.01.01.01,r0430,c0040 [downward shock on credit derivatives, assets]
+
+S.26.01.01.01,r0430,c0070 [downward shock on credit derivatives, liabilities (before the loss-absorbing capacity of technical provisions)]
+
+S.26.01.01.02,r0430,c0080 [downward shock on credit derivatives, gross solvency capital requirement]
+
+
+

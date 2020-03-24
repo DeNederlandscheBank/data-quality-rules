@@ -1,0 +1,25 @@
+=======
+BV397-4
+=======
+
+Rule definition
+---------------
+
+BV397-4: {{S.03.01.01.01, r0330,c0020}} le {{SE.02.01.18.01, r0740,c0010}}
+
+
+Template references
+-------------------
+
+S.03.01.01.01 Value of guarantee / collateral / contingent liabilities
+
+
+Datapoints labels
+-----------------
+
+S.03.01.01.01,r0330,c0020 [contingent liabilities in solvency ii balance sheet, value of guarantee / collateral / contingent liabilities]
+
+SE.02.01.18.01,r0740,c0010 [contingent liabilities, solvency ii value]
+
+
+

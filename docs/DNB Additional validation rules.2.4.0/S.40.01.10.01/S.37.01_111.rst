@@ -11,13 +11,11 @@ Rule definition
 Template references
 -------------------
 
-S.40.01.10.01 Profit or Loss sharing
-
+S.40.01.10.01
 
 Datapoints labels
 -----------------
 
-S.40.01.10.01,r0010,c0010 [discretionary benefits (profit or loss sharing) allocated to policyholders., none]
-
+S.40.01.10.01,r0010,c0010 [unknown label]
 
 

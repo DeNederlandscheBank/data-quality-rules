@@ -1,0 +1,33 @@
+===========
+BV286_1-1_W
+===========
+
+Rule definition
+---------------
+
+BV286_1-1_W: [ (r1630-1720;1910;1920)] {{S.27.01.01.05, c0380}} = {{S.27.01.01.05, c0350}} - {{S.27.01.01.05, c0360}} + {{S.27.01.01.05, c0370}}
+
+
+Template references
+-------------------
+
+S.27.01.01.05 Natural Catastrophe risk - Hail
+
+
+Datapoints labels
+-----------------
+
+S.27.01.01.05,c0350 [catastrophe risk charge before risk mitigation]
+
+S.27.01.01.05,c0360 [estimated risk mitigation]
+
+S.27.01.01.05,c0370 [estimated reinstatement premiums]
+
+S.27.01.01.05,c0380 [catastrophe risk charge after risk mitigation]
+
+
+
+Datapoint references
+--------------------
+
+[ (r1630-1720;1910;1920)]

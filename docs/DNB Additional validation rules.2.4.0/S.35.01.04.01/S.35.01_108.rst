@@ -11,25 +11,17 @@ IF {S.35.01.04.01,c0020}<>" " AND {S.35.01.04.01,c0040}<>"DEDUCTION AND AGGREGAT
 Template references
 -------------------
 
-S.35.01.04.01 Contribution to group Technical Provisions
-
+S.35.01.04.01
 
 Datapoints labels
 -----------------
 
-S.35.01.04.01,c0020 [*natural key*|"mandatory"]
-
-S.35.01.04.01,c0040 [method of group solvency calculation used]
-
-S.35.01.04.01,c0070 [amount of tp gross of igt]
-
-S.35.01.04.01,c0100 [amount of tp gross of igt]
-
-S.35.01.04.01,c0130 [amount of tp gross of igt]
-
-S.35.01.04.01,c0160 [amount of tp gross of igt]
-
-S.35.01.04.01,c0190 [amount of tp gross of igt]
-
+S.35.01.04.01,c0020 [unknown label]
+S.35.01.04.01,c0040 [unknown label]
+S.35.01.04.01,c0070 [unknown label]
+S.35.01.04.01,c0100 [unknown label]
+S.35.01.04.01,c0130 [unknown label]
+S.35.01.04.01,c0160 [unknown label]
+S.35.01.04.01,c0190 [unknown label]
 
 

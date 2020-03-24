@@ -1,0 +1,29 @@
+=======
+BV806-2
+=======
+
+Rule definition
+---------------
+
+BV806-2: not(empty({{S.08.01.01.01,c0200}})) or not(empty({{S.08.01.01.01,c0210}}))  where matches({{S.08.01.01.02,c0380}},"^..((F)|(D)).$")
+
+
+Template references
+-------------------
+
+S.08.01.01.01 Information on positions held
+
+S.08.01.01.02 Information on derivatives
+
+
+Datapoints labels
+-----------------
+
+S.08.01.01.01,c0200 [swap outflow amount]
+
+S.08.01.01.01,c0210 [swap inflow amount]
+
+S.08.01.01.02,c0380 [cic]
+
+
+

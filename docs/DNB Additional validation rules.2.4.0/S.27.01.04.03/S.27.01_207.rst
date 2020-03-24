@@ -11,15 +11,12 @@ Rule definition
 Template references
 -------------------
 
-S.27.01.04.03 Natural Catastrophe risk - Earthquake
-
+S.27.01.04.03
 
 Datapoints labels
 -----------------
 
-S.27.01.04.03,r1030,c0150 [total earthquake specified regions before diversification, specified gross loss]
-
-S.27.01.04.03,r1030,c0170 [total earthquake specified regions before diversification, catastrophe risk charge before risk mitigation]
-
+S.27.01.04.03,r1030,c0150 [unknown label]
+S.27.01.04.03,r1030,c0170 [unknown label]
 
 

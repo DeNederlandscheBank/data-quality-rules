@@ -1,0 +1,41 @@
+=========
+BV584_1-4
+=========
+
+Rule definition
+---------------
+
+BV584_1-4: if ({{S.26.03.01.03, r0010,c0010}} = [s2c_AP:x34]) then {{S.26.03.01.04, r0100,c0060}} = max(0, ({{S.26.03.01.01, r0100,c0020}} - {{S.26.03.01.01, r0100,c0030}}) - ({{S.26.03.01.01, r0100,c0040}} - {{S.26.03.01.01, r0100,c0050}}))
+
+
+Template references
+-------------------
+
+S.26.03.01.01 Life underwriting risk
+
+S.26.03.01.03 Simplifications used
+
+S.26.03.01.04 Life underwriting risk
+
+
+Datapoints labels
+-----------------
+
+S.26.03.01.01,r0100,c0020 [mortality risk, assets]
+
+S.26.03.01.01,r0100,c0030 [mortality risk, liabilities]
+
+S.26.03.01.01,r0100,c0040 [mortality risk, assets]
+
+S.26.03.01.01,r0100,c0050 [mortality risk, liabilities (after the loss absorbing capacity of technical provisions)]
+
+S.26.03.01.03,r0010,c0010 [simplifications - mortality risk, simplifications used]
+
+S.26.03.01.04,r0100,c0060 [mortality risk, net solvency capital requirement]
+
+
+
+Datapoint references
+--------------------
+
+[s2c_AP:x34]
