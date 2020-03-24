@@ -14,5 +14,6 @@ nosetests.xml
 www.sec.gov
 dist/*
 notebooks/temp/
+notebooks/.ipynb_checkpoints/
 src/arelle/*
 *.egg-info/
