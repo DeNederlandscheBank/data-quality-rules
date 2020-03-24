@@ -18,7 +18,7 @@ Online installation
 
 Clone the project::
 
-    git clone https://github.com/DeNederlandscheBank/solvenc2-rules.git
+    git clone https://github.com/DeNederlandscheBank/solvency2-rules.git
 
 Then start with a clean environment::
     
@@ -35,5 +35,7 @@ Make sure you are in the root of the cloned project. Install the required packag
 Then install the Arelle package::
 
     pip install -e git+https://git@github.com/arelle/arelle.git@master#egg=Arelle --user
+
+For now we included the taxonomy in the package, so you do not have to download this from the EIOPA website.
 
 
