@@ -38,4 +38,25 @@ Then install the Arelle package::
 
 For now we included the taxonomy in the package, so you do not have to download this from the EIOPA website.
 
+You have to make two changes to the Arelle package:
 
+In src/arelle/arelle/ModelXbrl.py, line 969-970, replace::
+
+            codeEffective = (messageCode and
+                             (not logger.messageCodeFilter or logger.messageCodeFilter.match(messageCode))) 
+
+by::
+
+            codeEffective = (messageCode) 
+
+And lines 1145-1147::
+
+        elif (messageCode and
+              (not logger.messageCodeFilter or logger.messageCodeFilter.match(messageCode)) and
+              (not logger.messageLevelFilter or logger.messageLevelFilter.match(level.lower()))):
+
+by::
+
+        elif (messageCode):
+
+(if you have a better quick fix, please let me know)
