@@ -13,7 +13,9 @@ nosetests.xml
 .xbrl_rss_cache
 www.sec.gov
 dist/*
-results/*
+results/*.xlsx
+results/*.csv
+results/*.html
 notebooks/temp/*
 notebooks/.ipynb_checkpoints/*
 src/arelle/*
