@@ -16,6 +16,7 @@ dist/*
 results/*.xlsx
 results/*.csv
 results/*.html
+results/*.pickle
 notebooks/temp/*
 notebooks/.ipynb_checkpoints/*
 src/arelle/*

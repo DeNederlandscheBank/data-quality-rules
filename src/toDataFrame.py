@@ -18,6 +18,9 @@ from arelle.PrototypeInstanceObject import FactPrototype
 from arelle.ValidateXbrlDimensions import isFactDimensionallyValid
 from arelle.ValidateInfoset import validateRenderingInfoset
 
+from arelle import ModelValue
+from arelle.ValidateXbrlCalcs import roundValue
+
 from typing import List, Union
 from collections import defaultdict
 
@@ -71,6 +74,7 @@ class GenerateCSVTables(object):
                     self.xAxis(xTopNode, xNodes)
                 self.bodyCells(yTopNode, xNodes, zAspectNodes, df)
             df.to_csv(os.path.join(results_path if results_path else '.', os.path.basename(table_uri) + ".csv"))
+            df.to_pickle(os.path.join(results_path if results_path else '.', os.path.basename(table_uri) + ".pickle"))
         return None
         
     # def yAxisByRow(self, yParentNode):
@@ -172,13 +176,9 @@ class GenerateCSVTables(object):
                         cellDefaultedDims = _DICT_SET(dimDefaults) - _DICT_SET(cellAspectValues.keys())
                         priItemQname = cellAspectValues.get(Aspect.CONCEPT)
                         concept = self.modelXbrl.qnameConcepts.get(priItemQname)
-                        conceptNotAbstract = concept is None or not concept.isAbstract
-                        fact = None
-                        value = None
-                        objectId = None
-                        justify = None
                         fp = FactPrototype(self, cellAspectValues)
-                        if conceptNotAbstract:
+                        value = 0
+                        if concept is None or not concept.isAbstract:
                             # reduce set of matchable facts to those with pri item qname and have dimension aspects
                             facts = self.modelXbrl.factsByQname[priItemQname] if priItemQname else self.modelXbrl.factsInInstance
                             if self.hasTableFilters:
@@ -199,14 +199,13 @@ class GenerateCSVTables(object):
                                         dimMemQname = None # match facts that report this dimension
                                     facts = facts & self.modelXbrl.factsByDimMemQname(aspect, dimMemQname)
                             for fact in facts:
-
                                 if (all(aspectMatches(self.rendrCntx, fact, fp, aspect) for aspect in matchableAspects) and
                                     all(fact.context.dimMemberQname(dim,includeDefaults=True) in (dimDefaults[dim], None)
                                         for dim in cellDefaultedDims)):
                                     if yNode.hasValueExpression(xNode):
                                         value = yNode.evalValueExpression(fact, xNode)
                                     else:
-                                        value = fact.effectiveValue
+                                        value = parse_value(fact)
                                     break
 
                         # define verbose and column labels 
@@ -226,7 +225,7 @@ class GenerateCSVTables(object):
                             # print(str(a))
                             # print(fact.qname)
                             # print(fact.contextID)
-                            # print(fact.effectiveValue[:32])
+                            # print(fact.value)
                             # print(fact.modelDocument.basename)
                             # print(fact.sourceline)
                             data_point_def  = str(self.roledefinition) + ","+ str(short_x).lower()
@@ -234,11 +233,37 @@ class GenerateCSVTables(object):
                             df.loc[label_y, data_point_def] = value
                             df.index.name = str(self.roledefinition) + "," + index_name
                         else:
-                            data_point_def  = str(self.roledefinition) + "," + str(label_y).lower() + ","+ str(label_x).lower()
+                            data_point_def  = str(self.roledefinition) + "," + str(short_y).lower() + ","+ str(short_x).lower()
                             df.loc[0, data_point_def] = value
                         fp.clear()
                 self.bodyCells(yNode, xNodes, zAspectNodes, df)
         return None
+
+def parse_value(fact):
+    '''Parse value to Python datatype
+    '''
+    concept = fact.concept  # type: ModelConcept
+    if concept is None or concept.isTuple or fact.isNil:
+        return None
+    if concept.isFraction:
+        num, den = map(fractions.Fraction, fact.fractionValue)
+        return num / den
+    val = fact.value.strip()
+    if concept.isInteger:
+        return int(val)
+    elif concept.isNumeric:
+        dec = fact.decimals
+        if dec is None or dec == "INF":  # show using decimals or reported format
+            dec = len(val.partition(".")[2])
+        else:  # max decimals at 28
+            dec = max(min(int(dec), 28), -28)  # 2.7 wants short int, 3.2 takes regular int, don't use _INT here
+        num = float(roundValue(val, fact.precision, dec))  # round using reported decimals
+        return num
+    elif concept.baseXbrliType == 'dateItemType':
+        return ModelValue.dateTime(val).strftime("%Y-%m-%d %H:%M:%S")
+    elif concept.baseXbrliType == 'booleanItemType':
+        return val.lower() in ('1', 'true')
+    return val
 
 def get_label_list(relationship_set, concepts, relationship=None):
     if relationship is None:

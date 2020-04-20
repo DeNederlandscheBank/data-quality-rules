@@ -60,3 +60,14 @@ by::
         elif (messageCode):
 
 (if you have a better quick fix, please let me know)
+
+The current XBRL taxonomy is located in data/taxonomy/arelle/cache/http
+
+This directory should contains::
+	dev.eiopa.europa.eu/
+	eiopa.europa.eu/
+	META-INF/
+	www.eurofiling.info/
+	www.xbrl.org/
+	MDMetricDetails.xml
+
