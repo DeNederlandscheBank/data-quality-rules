@@ -18,7 +18,7 @@ class Evaluator:
         self.df_patterns = None
 
     def datapoints2pandas(self, s):
-        """Transform EVA2 datapoints to Python Pandas datapoints"""
+        """Transform EVA2 datapoints to Python Pandas datapoints by making letters uppercase"""
         datapoints = []
         for item in re.findall(r'{(.*?)}', s):
             datapoints.append(item.upper())
@@ -28,21 +28,16 @@ class Evaluator:
 
 
     def make_expression(self, expression):
-        """Evaluate Python Pandas string for confirmation and exceptions"""
+        """Make expressions for the miner"""
 
-        parameters = {'min_confidence': 0,'min_support'   : 0, 'solvency' : True}
+        parameters = {'min_confidence': 0,'min_support'   : 0, 'solvency' : True} # solvency needs to be true
         p2 = {'name'      : 'Pattern 1',
             'expression' : expression,
              'parameters':parameters}
         return p2
-        # df_patterns = miner.find(p2)
-        # co = df_patterns.loc[0,'support']
-        # ex = df_patterns.loc[0,'exceptions']
-        # if df_patterns.loc[0,'Error message'] != '':
-        #     return "ERROR: "+ df_patterns.loc[0,'Error message']
-        # return "Correctly parsed (#co=" + str(co)+", #ex="+str(ex)+")"
 
     def transform_rules(self):
+        """Transform rules so that we can evaluate them. Not all rules are fit to be evaluated"""
         for row in self.df_rules.index:
             rule_original = self.df_rules.loc[row, 'Formule']
             if not isinstance(rule_original, str):
@@ -59,10 +54,14 @@ class Evaluator:
                 self.df_rules.loc[row, 'Formule_input'] = rule_original
 
     def evaluate_rule(self, expression, datapoints, substitutions, expansion_dict):
+        """Some rules have multiple rows or columns. This function makes all the expressions with every row/column"""
+
+        # if datapoints is empty then make expression
         if datapoints == []:
             for item in substitutions.keys():
                 expression = expression.replace(item, substitutions[item])
             self.expressions.append(self.make_expression(expression))
+        # if there are datapoints see if we can change it by adding rows and columns
         else:
             datapoint = datapoints.pop()
             if datapoint in expansion_dict.keys():
@@ -72,10 +71,12 @@ class Evaluator:
             else:
                 self.evaluate_rule(expression, datapoints, substitutions, expansion_dict)
 
+
     def evaluate_rules(self):
+        """Evaluate all rules and stores the result in df_rules"""
         self.expressions = []
         count_expression = 0
-        self.df_rules['final'] = ''
+        self.df_rules['final'] = '' # final result
         for idx in range(len(self.df_rules.index)):
             row = self.df_rules.index[idx]
             rule_original = self.df_rules.loc[row, 'Formule_input']
@@ -92,17 +93,17 @@ class Evaluator:
                 expansion_dict = {}
                 # are the datapoints in the rule in the instance?
                 for datapoint in datapoints:
-                    if datapoint not in self.df.columns:
+                    if datapoint not in self.df.columns: # if datapoint is not there, see if we need to add rows or columns
                         all_datapoints_found = False
                         new_list = []
                         if datapoint[14]=="C":
                             for col in self.df.columns:
-                                reg = re.search(datapoint[0:14] + "R....," + datapoint[14:], col)
+                                reg = re.search(datapoint[0:14] + "R....," + datapoint[14:], col) # do for all rows if necessary
                                 if reg:
                                     new_list.append(reg.group(0))
                         if datapoint[14]=="R":
                             for col in self.df.columns:
-                                reg = re.search(datapoint + ",C....", col)
+                                reg = re.search(datapoint + ",C....", col)# do for all columns if necessary
                                 if reg:
                                     new_list.append(reg.group(0))
                         if new_list != []:
@@ -112,17 +113,18 @@ class Evaluator:
                 if datapoints_not_found == []:
                     expression = rule_original
                     self.evaluate_rule(expression, datapoints, {}, expansion_dict)
-                    self.df_rules.loc[row, 'final'] = len(self.expressions) - count_expression
+                    self.df_rules.loc[row, 'final'] = len(self.expressions) - count_expression # if there are points then store how many
                     count_expression = len(self.expressions)
                 else:
                     self.df_rules.loc[row, 'final'] = 'No datapoint'
             else:
                 self.df_rules.loc[row, 'final'] = 'No template'
-        self.df_patterns = self.miner.find(self.expressions)
+        self.df_patterns = self.miner.find(self.expressions) # go trough list of expressions at once
 
 
     def print_result(self):
-        patterns_counter = 0
+        """Print results of the function evaluate"""
+        patterns_counter = 0 # keep track of the expressions
         for idx in range(len(self.df_rules.index)):
             row = self.df_rules.index[idx]
             print(str(idx) + ": ", end='')
@@ -131,7 +133,7 @@ class Evaluator:
             elif self.df_rules.loc[row, 'final'] == 'No datapoint':
                 print("Datapoints not found: " +str(self.df_rules.loc[row, 'datapoints']))
             else:
-                for i in range(self.df_rules.loc[row, 'final']):
+                for i in range(self.df_rules.loc[row, 'final']): # one rules can have many expressions
                     if self.df_patterns.loc[patterns_counter,'Error message'] != '':
                         print("ERROR: "+  self.df_patterns.loc[patterns_counter,'Error message'])
                     co =  self.df_patterns.loc[patterns_counter,'support']
