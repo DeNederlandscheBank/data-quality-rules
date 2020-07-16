@@ -21,18 +21,21 @@ class Evaluator:
         datapoints = []
         for item in re.findall(r'{(.*?)}', s):
             datapoints.append(item.upper())
-            s = s.replace(item,  item.upper() )
+            s = s.replace(item, item.upper())
         return s, datapoints
 
 
-    def make_expression(self, expression):
+    def make_pattern_expression(self, expression, name):
         """Make expressions for the miner"""
+        parameters = {}
+        pandas_expressions = data_patterns.to_pandas_expressions(expression, {}, parameters, None)
+        pattern = [[name, 0] + [expression] + [0, 0, 0] + ["DNB"] + [{}] + pandas_expressions + ["", "", ""]]
+        return pattern
 
-        parameters = {'min_confidence': 0, 'min_support': 0, 'solvency': True} # solvency needs to be true
-        p2 = {'name'      : 'DNB-rules',
-              'expression': expression,
-              'parameters': parameters}
-        return p2
+# PATTERNS_COLUMNS            = [PATTERN_ID, CLUSTER,
+#                                PATTERN_DEF,
+#                                SUPPORT, EXCEPTIONS, CONFIDENCE, PATTERN_STATUS, ENCODINGS, PANDAS_CO, PANDAS_EX, XBRL_CO, XBRL_EX, ERROR]
+
 
 
     def transform_rules(self):
@@ -53,23 +56,23 @@ class Evaluator:
                 self.df_rules.loc[row, 'Formule_input'] = rule_original
 
 
-    def evaluate_rule(self, expression, datapoints, substitutions, expansion_dict):
+    def evaluate_rule(self, expression, name, datapoints, substitutions, expansion_dict):
         """Some rules have multiple rows or columns. This function makes all the expressions with every row/column"""
 
         # if datapoints is empty then make expression
         if datapoints == []:
             for item in substitutions.keys():
                 expression = expression.replace(item, substitutions[item])
-            self.expressions.append(self.make_expression(expression))
+            self.expressions.extend(self.make_pattern_expression(expression, name))
         # if there are datapoints see if we can change it by adding rows and columns
         else:
             datapoint = datapoints.pop()
             if datapoint in expansion_dict.keys():
                 for d in expansion_dict[datapoint]:
                     substitutions[datapoint] = d
-                    self.evaluate_rule(expression, datapoints, substitutions, expansion_dict)
+                    self.evaluate_rule(expression, name, datapoints, substitutions, expansion_dict)
             else:
-                self.evaluate_rule(expression, datapoints, substitutions, expansion_dict)
+                self.evaluate_rule(expression, name, datapoints, substitutions, expansion_dict)
 
 
     def evaluate_rules(self):
@@ -80,6 +83,7 @@ class Evaluator:
         for idx in range(len(self.df_rules.index)):
             row = self.df_rules.index[idx]
             rule_original = self.df_rules.loc[row, 'Formule_input']
+            rule_name = self.df_rules.index[idx]
             datapoints = self.df_rules.loc[row, 'datapoints'].copy()
             templates = self.df_rules.loc[row, 'templates']
             # are the templates in the rule in the instance?
@@ -112,14 +116,18 @@ class Evaluator:
                             datapoints_not_found.append(datapoint)
                 if datapoints_not_found == []:
                     expression = rule_original
-                    self.evaluate_rule(expression, datapoints, {}, expansion_dict)
+                    self.evaluate_rule(expression, rule_name, datapoints, {}, expansion_dict)
                     self.df_rules.loc[row, 'final'] = len(self.expressions) - count_expression # if there are points then store how many
                     count_expression = len(self.expressions)
                 else:
                     self.df_rules.loc[row, 'final'] = 'No datapoint'
             else:
                 self.df_rules.loc[row, 'final'] = 'No template'
-        self.df_patterns = self.miner.find(self.expressions) # go through list of expressions at once
+        
+        self.df_patterns = pd.DataFrame(data = self.expressions, columns = data_patterns.PATTERNS_COLUMNS)
+        self.df_patterns.index.name = 'index'
+        return self.df_patterns
+        #self.df_patterns = self.miner.find(self.expressions) # go through list of expressions at once
 
 
     def print_result(self):
