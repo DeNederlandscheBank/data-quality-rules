@@ -21,13 +21,35 @@ class Evaluator:
         datapoints = []
         for item in re.findall(r'{(.*?)}', s):
             datapoints.append(item.upper())
-            s = s.replace(item, item.upper())
+            s = s.replace(item, '"' + item.upper() + '"')
+        s = self.preprocess_pattern(s)
         return s, datapoints
 
+    def replace_and_or(self, s):
+        """Replace and by & and or by |, but not within strings"""
+        if re.search(r"(.*?)\'(.*?)\'(.*)", s) is None: # input text does not contain strings
+            s = s.replace("OR", "|")
+            s = s.replace("AND", "&")
+        for item in re.findall(r"(.*?)\'(.*?)\'(.*)", s):
+            s = s.replace(item[0], item[0].replace("OR", "|"))
+            s = s.replace(item[0], item[0].replace("AND", "&"))
+            s = s.replace(item[2], self.replace_and_or(item[2]))
+        return s
+
+
+    def preprocess_pattern(self, pattern):
+
+        pattern = pattern.replace("<>", "!=")
+        pattern = pattern.replace("< >", "!=") # the space between < and > should be deleted in EVA2
+        pattern = pattern.replace(';', ",") # this should be corrected in EVA2
+
+        pattern = pattern.replace('"', "'")
+        pattern = self.replace_and_or(pattern)
+        return pattern
 
     def make_pattern_expression(self, expression, name):
         """Make expressions for the miner"""
-        parameters = {}
+        parameters = {'solvency': True}
         pandas_expressions = data_patterns.to_pandas_expressions(expression, {}, parameters, None)
         pattern = [[name, 0] + [expression] + [0, 0, 0] + ["DNB"] + [{}] + pandas_expressions + ["", "", ""]]
         return pattern
@@ -123,7 +145,7 @@ class Evaluator:
                     self.df_rules.loc[row, 'final'] = 'No datapoint'
             else:
                 self.df_rules.loc[row, 'final'] = 'No template'
-        
+
         self.df_patterns = pd.DataFrame(data = self.expressions, columns = data_patterns.PATTERNS_COLUMNS)
         self.df_patterns.index.name = 'index'
         return self.df_patterns
