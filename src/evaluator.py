@@ -43,7 +43,7 @@ class Evaluator:
         pattern = pattern.replace("< >", "!=") # the space between < and > should be deleted in EVA2
         pattern = pattern.replace(';', ",") # this should be corrected in EVA2
 
-        pattern = pattern.replace('"', "'")
+        # pattern = pattern.replace('"', "'")
         pattern = self.replace_and_or(pattern)
         return pattern
 
