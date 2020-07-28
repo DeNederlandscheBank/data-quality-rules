@@ -1,0 +1,6 @@
+INFO: Calling function derive_results
+ERROR: Error in analyze: unorderable types: str() > int()
+ERROR: Error in analyze: unorderable types: str() > int()
+ERROR: Error in analyze: unorderable types: str() > int()
+ERROR: Error in analyze: unorderable types: str() > int()
+INFO: Rows in analyze: 1243
