@@ -66,7 +66,7 @@ Taxonomy location
 
 The taxonomy should be in a specific location, otherwise it won't work. 
 
-You can download the taxonomy that you want to use from the EIOPA-website.
+You can download the taxonomy that you want to use from the EIOPA-website (https://www.eiopa.europa.eu/tools-and-data/supervisory-reporting-dpm-and-xbrl_en#XBRLTaxonomyReleases).
 
 For now, we included the zip file in the repository (in subdirectory data/taxonomy)
 
