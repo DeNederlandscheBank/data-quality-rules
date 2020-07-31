@@ -13,11 +13,22 @@ nosetests.xml
 .xbrl_rss_cache
 www.sec.gov
 dist/*
+
+notebooks/temp/*
+notebooks/.ipynb_checkpoints/*
+*.egg-info/
+
+# exclude unzipped taxonomy
+data/taxonomy/arelle/*
+
+#exclude arelle source code
+src/arelle/*
+
+#exclude results
 results/*.xlsx
 results/*.csv
 results/*.html
 results/*.pickle
-notebooks/temp/*
-notebooks/.ipynb_checkpoints/*
-src/arelle/*
-*.egg-info/
+
+#exclude docs
+docs/*

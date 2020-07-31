@@ -59,15 +59,23 @@ by::
 
         elif (messageCode):
 
-(if you have a better quick fix, please let me know)
+(if you have a better quick fix, please let us know)
 
-The current XBRL taxonomy is located in data/taxonomy/arelle/cache/http
+Taxonomy location
+-----------------
 
-This directory should contains::
+The taxonomy should be in a specific location, otherwise it won't work. 
+
+You can download the taxonomy that you want to use from the EIOPA-website.
+
+For now, we included the zip file in the repository (in subdirectory data/taxonomy)
+
+Unzip the taxonomy in data/taxonomy/arelle/cache/http
+
+After unzipping this directory should contain::
 	dev.eiopa.europa.eu/
 	eiopa.europa.eu/
 	META-INF/
 	www.eurofiling.info/
 	www.xbrl.org/
 	MDMetricDetails.xml
-
