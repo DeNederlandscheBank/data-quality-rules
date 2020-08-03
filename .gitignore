@@ -16,14 +16,15 @@ dist/*
 notebooks/temp/*
 notebooks/.ipynb_checkpoints/*
 *.egg-info/
+
 # exclude unzipped taxonomy
-data/taxonomy/arelle
+/data/taxonomy/arelle/*
 #exclude arelle source code
-src/arelle
+/src/arelle/*
 #exclude results
-results/*.xlsx
-results/*.csv
-results/*.html
-results/*.pickle
+/results/*.xlsx
+/results/*.csv
+/results/*.html
+/results/*.pickle
 #exclude docs
-docs
+/docs/*

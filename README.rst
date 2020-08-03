@@ -61,6 +61,47 @@ by::
 
 (if you have a better quick fix, please let us know)
 
+Offline installation
+-------------------
+
+We included all the required packages in the project, so you should be able to do an offline installation.
+
+Make sure you have at least Anaconda 5.3.1 installed. 
+
+Make sure you have the zip file from https://github.com/DeNederlandscheBank/solvency2-rules.git. Extract the zip file to the desired location.
+
+Then start with a clean and empty environment::
+    
+    conda create -n your_env_name --offline
+
+And activate the environment::
+
+    conda activate your_env_name
+
+Install the following packages::
+
+  conda install pkgs/vc-14-0.tar.bz2
+
+  conda install pkgs/vs2015_runtime-14.0.25420-0.tar.bz2
+
+Then install Python 3.6::
+
+  conda install python=3.6 --offline
+
+(if you get an error you need to copy the required packages from Internet)
+
+Make sure you are in the root of the cloned project. Then install the remaining packages in pkgs/.::
+
+  pip install -r requirements.txt --no-index --find-links pkgs/
+
+(if you get an error you could add the parameter --user)
+
+Then unzip the file pkgs/arelle-1.0.0.zip to the subdirectory src, such that src contains the subdirectory with the name arelle.
+
+Install the data_patterns package.
+
+Make the corrections in Arelle described in the online installation procedure.
+
 Taxonomy location
 -----------------
 
