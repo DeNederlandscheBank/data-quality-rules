@@ -120,9 +120,16 @@ For now, we included the zip file in the repository (in subdirectory data/taxono
 Unzip the taxonomy in data/taxonomy/arelle/cache/http
 
 After unzipping this directory should contain::
+
 	dev.eiopa.europa.eu/
+
 	eiopa.europa.eu/
+
 	META-INF/
+
 	www.eurofiling.info/
+
 	www.xbrl.org/
+
 	MDMetricDetails.xml
+
