@@ -9,6 +9,13 @@ Solvency2-rules
         :target: https://github.com/DeNederlandscheBank/dsolvency2-rules/blob/master/LICENSE
         :alt: License
 
+This is the Data Quality Repository for Solvency 2 reporting templates. 
+
+It is part of the iForum pilot 'Data Quality Rules'.
+
+Want to know more? Please contact P.M.Willems@dnb.nl
+
+*The repository is currently under construction.*
 
 Installation
 ============
@@ -37,6 +44,9 @@ Then install the Arelle package::
     pip install -e git+https://git@github.com/arelle/arelle.git@master#egg=Arelle --user
 
 For now we included the taxonomy in the package, so you do not have to download this from the EIOPA website.
+
+Changes to the Arelle package
+-----------------------------
 
 You have to make two changes to the Arelle package:
 
