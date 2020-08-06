@@ -127,7 +127,7 @@ You can download the taxonomy that you want to use from the EIOPA-website (https
 
 For now, we included the zip file in the repository (in subdirectory data/taxonomy)
 
-Unzip the taxonomy in data/taxonomy/arelle/cache/http
+Unzip the taxonomy in data/taxonomy/arelle/cache/https
 
 After unzipping this directory should contain::
 
