@@ -236,7 +236,6 @@ class GenerateCSVTables(object):
                 priItemQname = cellAspectValues.get(Aspect.CONCEPT)
                 concept = self.modelXbrl.qnameConcepts.get(priItemQname)
                 fp = FactPrototype(self, cellAspectValues)
-                print(fp.propertyView)
                 value = 0
 
                 if (concept is None) or (not concept.isAbstract):
