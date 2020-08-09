@@ -3,14 +3,12 @@ import pandas as pd
 import re
 import ast
 import functools
+import src
 
 from lxml import etree
 from arelle import ViewFile, XbrlConst
 from arelle.ModelFormulaObject import Aspect, aspectModels, aspectRuleAspects, aspectModelAspect, aspectStr
-from arelle.RenderingResolver import RENDER_UNITS_PER_CHAR
-
 from arelle.RenderingResolver import resolveAxesStructure, RENDER_UNITS_PER_CHAR
-
 from arelle.ModelObject import ModelObject
 from arelle.FormulaEvaluator import aspectMatches
 from arelle.ModelInstanceObject import ModelDimensionValue
@@ -238,11 +236,14 @@ class GenerateCSVTables(object):
                 priItemQname = cellAspectValues.get(Aspect.CONCEPT)
                 concept = self.modelXbrl.qnameConcepts.get(priItemQname)
                 fp = FactPrototype(self, cellAspectValues)
+                print(fp.propertyView)
                 value = 0
 
                 if (concept is None) or (not concept.isAbstract):
-                    facts = set()
-                    facts_per_aspect = []
+                  # reduce set of matchable facts to those with pri item qname and have dimension aspects
+                    facts = self.modelXbrl.factsByQname[priItemQname] if priItemQname else self.modelXbrl.factsInInstance
+                    if self.hasTableFilters:
+                        facts = self.modelTable.filterFacts(self.rendrCntx, facts)
                     for aspect in matchableAspects:  # trim down facts with explicit dimensions match or just present
                         if isinstance(aspect, QName):
                             aspectValue = cellAspectValues.get(aspect, None)
@@ -251,18 +252,19 @@ class GenerateCSVTables(object):
                                     dimMemQname = aspectValue.memberQname # match facts with this explicit value
                                 else:
                                     dimMemQname = None  # match facts that report this dimension
-                            elif isinstance(aspectValue, QName):
+                            elif isinstance(aspectValue, QName): 
                                 dimMemQname = aspectValue  # match facts that have this explicit value
                             elif aspectValue is None: # match typed dims that don't report this value
                                 dimMemQname = DEFAULT
                             else:
                                 dimMemQname = None # match facts that report this dimension
-                            facts_per_aspect.append(self.modelXbrl.factsByDimMemQname(aspect, dimMemQname))
-
-                    if len(facts_per_aspect) > 0:
-                        facts = functools.reduce(set.intersection, facts_per_aspect)
+                            facts = facts & self.modelXbrl.factsByDimMemQname(aspect, dimMemQname)
 
                     for fact in facts:
+                        # print("fact : " + str(fact))
+                        # print(all(aspectMatches(self.rendrCntx, fact, fp, aspect) for aspect in matchableAspects))
+                        # print(all(fact.context.dimMemberQname(dim, includeDefaults = True) in (dimDefaults[dim], None)
+                                # for dim in cellDefaultedDims))
                         if (all(aspectMatches(self.rendrCntx, fact, fp, aspect) for aspect in matchableAspects) and
                             all(fact.context.dimMemberQname(dim, includeDefaults = True) in (dimDefaults[dim], None)
                                 for dim in cellDefaultedDims)):

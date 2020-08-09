@@ -142,4 +142,3 @@ After unzipping this directory should contain::
 	www.xbrl.org/
 
 	MDMetricDetails.xml
-
