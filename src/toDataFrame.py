@@ -217,6 +217,8 @@ class GenerateCSVTables(object):
  
         for yNode in yNodes:
             for xNode in xNodes:
+                # if isinstance(yNode.definitionNode, ModelFilterDefinitionNode):
+                #     print("Facts in yNode: " + str(len(yNode.factsPartition)))
                 cellTagSelectors = yNode.tagSelectors | xNode.tagSelectors
                 cellAspectValues = {}
                 matchableAspects = set()
@@ -235,14 +237,16 @@ class GenerateCSVTables(object):
                 cellDefaultedDims = _DICT_SET(dimDefaults) - _DICT_SET(cellAspectValues.keys())
                 priItemQname = cellAspectValues.get(Aspect.CONCEPT)
                 concept = self.modelXbrl.qnameConcepts.get(priItemQname)
+                value = 0.0
+
                 fp = FactPrototype(self, cellAspectValues)
-                value = 0
 
                 if (concept is None) or (not concept.isAbstract):
-                  # reduce set of matchable facts to those with pri item qname and have dimension aspects
+                    # reduce set of matchable facts to those with pri item qname and have dimension aspects
                     facts = self.modelXbrl.factsByQname[priItemQname] if priItemQname else self.modelXbrl.factsInInstance
                     if self.hasTableFilters:
                         facts = self.modelTable.filterFacts(self.rendrCntx, facts)
+
                     for aspect in matchableAspects:  # trim down facts with explicit dimensions match or just present
                         if isinstance(aspect, QName):
                             aspectValue = cellAspectValues.get(aspect, None)
@@ -259,25 +263,31 @@ class GenerateCSVTables(object):
                                 dimMemQname = None # match facts that report this dimension
                             facts = facts & self.modelXbrl.factsByDimMemQname(aspect, dimMemQname)
 
-                    for fact in facts:
-                        # print("fact : " + str(fact))
-                        # print(all(aspectMatches(self.rendrCntx, fact, fp, aspect) for aspect in matchableAspects))
-                        # print(all(fact.context.dimMemberQname(dim, includeDefaults = True) in (dimDefaults[dim], None)
-                                # for dim in cellDefaultedDims))
-                        if (all(aspectMatches(self.rendrCntx, fact, fp, aspect) for aspect in matchableAspects) and
-                            all(fact.context.dimMemberQname(dim, includeDefaults = True) in (dimDefaults[dim], None)
-                                for dim in cellDefaultedDims)):
+                    if isinstance(yNode.definitionNode, ModelFilterDefinitionNode):
+                        inter = facts.intersection(yNode.factsPartition)
+                        for fact in inter:
                             if yNode.hasValueExpression(xNode):
                                 # this code is not reached with example instance
                                 value = yNode.evalValueExpression(fact, xNode)
                             else:
                                 value = parse_value(fact)
-                            break
+                            break;
+                    else:        
+                        for fact in facts:
+                            if (all(aspectMatches(self.rendrCntx, fact, fp, aspect) for aspect in matchableAspects) and
+                                all(fact.context.dimMemberQname(dim, includeDefaults = True) in (dimDefaults[dim], None)
+                                    for dim in cellDefaultedDims)):
+                                if yNode.hasValueExpression(xNode):
+                                    # this code is not reached with example instance
+                                    value = yNode.evalValueExpression(fact, xNode)
+                                else:
+                                    value = parse_value(fact)
+                                break
 
                 # store value in dataframe
                 self.store_datapoint(xNode, yNode, row, value, df)
 
-                fp.clear()
+#                fp.clear()
 
             row += 1
 
