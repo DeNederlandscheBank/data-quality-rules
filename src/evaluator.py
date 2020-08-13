@@ -49,7 +49,7 @@ class Evaluator:
 
     def make_pattern_expression(self, expression, name):
         """Make expressions for the miner"""
-        parameters = {'solvency': True}
+        parameters = {'solvency': True, 'decimal' : 2}
         pandas_expressions = data_patterns.to_pandas_expressions(expression, {}, parameters, None)
         pattern = [[name, 0] + [expression] + [0, 0, 0] + ["DNB"] + [{}] + pandas_expressions + ["", "", ""]]
         return pattern
