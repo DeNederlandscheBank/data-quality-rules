@@ -18,7 +18,7 @@ notebooks/.ipynb_checkpoints/*
 *.egg-info/
 
 # exclude unzipped taxonomy
-/data/taxonomy/arelle/*
+/data/taxonomy/*
 #exclude arelle source code
 /src/arelle
 #exclude results

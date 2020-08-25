@@ -31,7 +31,7 @@
 </xbrli:unit>
 <xbrli:context id="c">
     <xbrli:entity>
-        <xbrli:identifier scheme="http://standards.iso.org/iso/17442">Q1W2E3R4T5Y6U7I8O9P0</xbrli:identifier>
+        <xbrli:identifier scheme="http://standards.iso.org/iso/17442">0LFF1WMNTWG5PTIYYI38</xbrli:identifier>
     </xbrli:entity>
     <xbrli:period>
         <xbrli:instant>2019-12-31</xbrli:instant>
@@ -45,41 +45,41 @@
 	<find:filingIndicator contextRef="c">S.41.01</find:filingIndicator>
 	<find:filingIndicator contextRef="c">T.99.01</find:filingIndicator>
 </find:fIndicators>
-<s2md_met:di1043 contextRef="c">2019-12-31</s2md_met:di1043>
-<s2md_met:di1044 contextRef="c">2019-12-31</s2md_met:di1044>
-<s2md_met:di2502 contextRef="c">2019-12-31</s2md_met:di2502>
+<s2md_met:di1043 contextRef="c">2006-12-26</s2md_met:di1043>
+<s2md_met:di1044 contextRef="c">2012-02-22</s2md_met:di1044>
+<s2md_met:di2502 contextRef="c">2014-08-28</s2md_met:di2502>
 <s2md_met:ei1633 contextRef="c">s2c_CN:x1</s2md_met:ei1633>
-<s2md_met:ei1676 contextRef="c">s2c_AP:x1</s2md_met:ei1676>
-<s2md_met:ei1677 contextRef="c">s2c_CS:x44</s2md_met:ei1677>
+<s2md_met:ei1676 contextRef="c">s2c_AP:x3</s2md_met:ei1676>
+<s2md_met:ei1677 contextRef="c">s2c_CS:x36</s2md_met:ei1677>
 <s2md_met:ei1678 contextRef="c">s2c_AP:x6</s2md_met:ei1678>
 <s2md_met:ei1679 contextRef="c">s2c_PU:x51</s2md_met:ei1679>
-<s2md_met:ei1680 contextRef="c">s2c_AP:x7</s2md_met:ei1680>
+<s2md_met:ei1680 contextRef="c">s2c_AP:x8</s2md_met:ei1680>
 <s2md_met:ei1681 contextRef="c">s2c_AP:x10</s2md_met:ei1681>
 <s2md_met:ei1682 contextRef="c">s2c_AP:x11</s2md_met:ei1682>
-<s2md_met:ei1683 contextRef="c">s2c_LA:ie</s2md_met:ei1683>
+<s2md_met:ei1683 contextRef="c">s2c_LA:ts</s2md_met:ei1683>
 <s2md_met:ei1684 contextRef="c">s2c_CS:x37</s2md_met:ei1684>
-<s2md_met:ei1687 contextRef="c">s2c_AM:x45</s2md_met:ei1687>
-<s2md_met:ei1930 contextRef="c">s2c_CU:RON</s2md_met:ei1930>
-<s2md_met:ei1931 contextRef="c">s2c_PU:x4</s2md_met:ei1931>
+<s2md_met:ei1687 contextRef="c">s2c_AM:x50</s2md_met:ei1687>
+<s2md_met:ei1930 contextRef="c">s2c_CU:EUR</s2md_met:ei1930>
+<s2md_met:ei1931 contextRef="c">s2c_PU:x17</s2md_met:ei1931>
 <s2md_met:ei2138 contextRef="c">s2c_AO:x0</s2md_met:ei2138>
-<s2md_met:ei2171 contextRef="c">s2c_CN:x1</s2md_met:ei2171>
-<s2md_met:ei2174 contextRef="c">s2c_CN:x1</s2md_met:ei2174>
-<s2md_met:ei2466 contextRef="c">s2c_GA:x113</s2md_met:ei2466>
-<s2md_met:ei2467 contextRef="c">s2c_GA:AM</s2md_met:ei2467>
-<s2md_met:ei2500 contextRef="c">s2c_SE:x130</s2md_met:ei2500>
-<s2md_met:ei2513 contextRef="c">s2c_CN:x1</s2md_met:ei2513>
-<s2md_met:ei2514 contextRef="c">s2c_CN:x77</s2md_met:ei2514>
-<s2md_met:pi542 contextRef="c" decimals="4" unitRef="p">0.0000</s2md_met:pi542>
-<s2md_met:pi543 contextRef="c" decimals="4" unitRef="p">0.0000</s2md_met:pi543>
-<s2md_met:si1376 contextRef="c" xml:lang="en">abc</s2md_met:si1376>
-<s2md_met:si2131 contextRef="c" xml:lang="en">abc</s2md_met:si2131>
-<s2md_met:si2132 contextRef="c" xml:lang="en">abc</s2md_met:si2132>
-<s2md_met:si2548 contextRef="c" xml:lang="en">abc</s2md_met:si2548>
-<s2md_met:si2549 contextRef="c" xml:lang="en">abc</s2md_met:si2549>
-<s2md_met:si2550 contextRef="c" xml:lang="en">abc</s2md_met:si2550>
+<s2md_met:ei2171 contextRef="c">s2c_CN:x2</s2md_met:ei2171>
+<s2md_met:ei2174 contextRef="c">s2c_CN:x57</s2md_met:ei2174>
+<s2md_met:ei2466 contextRef="c">s2c_GA:WS</s2md_met:ei2466>
+<s2md_met:ei2467 contextRef="c">s2c_GA:x115</s2md_met:ei2467>
+<s2md_met:ei2500 contextRef="c">s2c_SE:x129</s2md_met:ei2500>
+<s2md_met:ei2513 contextRef="c">s2c_CN:x17</s2md_met:ei2513>
+<s2md_met:ei2514 contextRef="c">s2c_CN:x75</s2md_met:ei2514>
+<s2md_met:pi542 contextRef="c" decimals="4" unitRef="p">0.0439</s2md_met:pi542>
+<s2md_met:pi543 contextRef="c" decimals="4" unitRef="p">0.5627</s2md_met:pi543>
+<s2md_met:si1376 contextRef="c" xml:lang="en">pt nc</s2md_met:si1376>
+<s2md_met:si2131 contextRef="c" xml:lang="en">cn lbod mrddqg</s2md_met:si2131>
+<s2md_met:si2132 contextRef="c" xml:lang="en">vppbzz cebkvq jcvenr nkdn</s2md_met:si2132>
+<s2md_met:si2548 contextRef="c" xml:lang="en">jnio ff yk</s2md_met:si2548>
+<s2md_met:si2549 contextRef="c" xml:lang="en">wpusia mbmrkw xc</s2md_met:si2549>
+<s2md_met:si2550 contextRef="c" xml:lang="en">amtnpb mx fopq</s2md_met:si2550>
 <xbrli:context id="LGSE">
     <xbrli:entity>
-        <xbrli:identifier scheme="http://standards.iso.org/iso/17442">Q1W2E3R4T5Y6U7I8O9P0</xbrli:identifier>
+        <xbrli:identifier scheme="http://standards.iso.org/iso/17442">0LFF1WMNTWG5PTIYYI38</xbrli:identifier>
     </xbrli:entity>
     <xbrli:period>
         <xbrli:instant>2019-12-31</xbrli:instant>
@@ -88,10 +88,10 @@
 		<xbrldi:explicitMember dimension="s2c_dim:LG">s2c_GA:SE</xbrldi:explicitMember>
 	</xbrli:scenario>
 </xbrli:context>
-<s2md_met:si2131 contextRef="LGSE" xml:lang="en">abc</s2md_met:si2131>
+<s2md_met:si2131 contextRef="LGSE" xml:lang="en">cipb qgdcwh</s2md_met:si2131>
 <xbrli:context id="VGx80">
     <xbrli:entity>
-        <xbrli:identifier scheme="http://standards.iso.org/iso/17442">Q1W2E3R4T5Y6U7I8O9P0</xbrli:identifier>
+        <xbrli:identifier scheme="http://standards.iso.org/iso/17442">0LFF1WMNTWG5PTIYYI38</xbrli:identifier>
     </xbrli:entity>
     <xbrli:period>
         <xbrli:instant>2019-12-31</xbrli:instant>
@@ -100,11 +100,11 @@
 		<xbrldi:explicitMember dimension="s2c_dim:VG">s2c_AM:x80</xbrldi:explicitMember>
 	</xbrli:scenario>
 </xbrli:context>
-<s2md_met:mi1958 contextRef="VGx80" decimals="2" unitRef="u">0.00</s2md_met:mi1958>
-<s2md_met:mi1959 contextRef="VGx80" decimals="2" unitRef="u">0.00</s2md_met:mi1959>
+<s2md_met:mi1958 contextRef="VGx80" decimals="2" unitRef="u">294464493.26</s2md_met:mi1958>
+<s2md_met:mi1959 contextRef="VGx80" decimals="2" unitRef="u">125764311.03</s2md_met:mi1959>
 <xbrli:context id="VGx84">
     <xbrli:entity>
-        <xbrli:identifier scheme="http://standards.iso.org/iso/17442">Q1W2E3R4T5Y6U7I8O9P0</xbrli:identifier>
+        <xbrli:identifier scheme="http://standards.iso.org/iso/17442">0LFF1WMNTWG5PTIYYI38</xbrli:identifier>
     </xbrli:entity>
     <xbrli:period>
         <xbrli:instant>2019-12-31</xbrli:instant>
@@ -113,10 +113,10 @@
 		<xbrldi:explicitMember dimension="s2c_dim:VG">s2c_AM:x84</xbrldi:explicitMember>
 	</xbrli:scenario>
 </xbrli:context>
-<s2md_met:mi506 contextRef="VGx84" decimals="2" unitRef="u">0.00</s2md_met:mi506>
+<s2md_met:mi506 contextRef="VGx84" decimals="2" unitRef="u">538733306.64</s2md_met:mi506>
 <xbrli:context id="YMNB_YNNB_YONB_YRNB">
     <xbrli:entity>
-        <xbrli:identifier scheme="http://standards.iso.org/iso/17442">Q1W2E3R4T5Y6U7I8O9P0</xbrli:identifier>
+        <xbrli:identifier scheme="http://standards.iso.org/iso/17442">0LFF1WMNTWG5PTIYYI38</xbrli:identifier>
     </xbrli:entity>
     <xbrli:period>
         <xbrli:instant>2019-12-31</xbrli:instant>
@@ -129,11 +129,11 @@
 	</xbrli:scenario>
 </xbrli:context>
 <s2md_met:bi7 contextRef="YMNB_YNNB_YONB_YRNB">0</s2md_met:bi7>
-<s2md_met:di2509 contextRef="YMNB_YNNB_YONB_YRNB">2019-12-31</s2md_met:di2509>
-<s2md_met:ii2510 contextRef="YMNB_YNNB_YONB_YRNB" decimals="0" unitRef="p">0</s2md_met:ii2510>
-<s2md_met:mi2507 contextRef="YMNB_YNNB_YONB_YRNB" decimals="2" unitRef="u">0.00</s2md_met:mi2507>
-<s2md_met:pi1550 contextRef="YMNB_YNNB_YONB_YRNB" decimals="4" unitRef="p">0.0000</s2md_met:pi1550>
-<s2md_met:ri2511 contextRef="YMNB_YNNB_YONB_YRNB" decimals="0" unitRef="p">0</s2md_met:ri2511>
-<s2md_met:si2508 contextRef="YMNB_YNNB_YONB_YRNB" xml:lang="en">abc</s2md_met:si2508>
-<s2md_met:si2512 contextRef="YMNB_YNNB_YONB_YRNB" xml:lang="en">abc</s2md_met:si2512>
+<s2md_met:di2509 contextRef="YMNB_YNNB_YONB_YRNB">2004-09-21</s2md_met:di2509>
+<s2md_met:ii2510 contextRef="YMNB_YNNB_YONB_YRNB" decimals="0" unitRef="p">417873</s2md_met:ii2510>
+<s2md_met:mi2507 contextRef="YMNB_YNNB_YONB_YRNB" decimals="2" unitRef="u">341685281.83</s2md_met:mi2507>
+<s2md_met:pi1550 contextRef="YMNB_YNNB_YONB_YRNB" decimals="4" unitRef="p">0.1083</s2md_met:pi1550>
+<s2md_met:ri2511 contextRef="YMNB_YNNB_YONB_YRNB" decimals="0" unitRef="p">176415</s2md_met:ri2511>
+<s2md_met:si2508 contextRef="YMNB_YNNB_YONB_YRNB" xml:lang="en">jfqk lrflxr afggkl hmgi</s2md_met:si2508>
+<s2md_met:si2512 contextRef="YMNB_YNNB_YONB_YRNB" xml:lang="en">lrhl gs</s2md_met:si2512>
 </xbrli:xbrl>
