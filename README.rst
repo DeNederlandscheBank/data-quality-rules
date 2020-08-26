@@ -9,9 +9,9 @@ Solvency2-rules
         :target: https://github.com/DeNederlandscheBank/dsolvency2-rules/blob/master/LICENSE
         :alt: License
 
-This is the Data Quality Repository for Solvency 2 reporting templates. 
+This is the Data Quality Rules repository for the Solvency 2 quantitative reporting templates (QRTs). In this repository De Nederlandsche Bank publishes additional validation rules to improve the data quality of the QRTs.
 
-It is part of the iForum pilot 'Data Quality Rules'.
+This repository is part of the iForum pilot 'Data Quality Rules'.
 
 Want to know more? Please contact P.M.Willems@dnb.nl
 
@@ -48,28 +48,7 @@ For now we included the taxonomy in the package, so you do not have to download 
 Changes to the Arelle package
 -----------------------------
 
-You have to make two changes to the Arelle package:
-
-In src/arelle/arelle/ModelXbrl.py, line 969-970, replace::
-
-            codeEffective = (messageCode and
-                             (not logger.messageCodeFilter or logger.messageCodeFilter.match(messageCode))) 
-
-by::
-
-            codeEffective = (messageCode) 
-
-And lines 1145-1147::
-
-        elif (messageCode and
-              (not logger.messageCodeFilter or logger.messageCodeFilter.match(messageCode)) and
-              (not logger.messageLevelFilter or logger.messageLevelFilter.match(level.lower()))):
-
-by::
-
-        elif (messageCode):
-
-(if you have a better quick fix, please let us know)
+None at this time.
 
 Offline installation
 -------------------
