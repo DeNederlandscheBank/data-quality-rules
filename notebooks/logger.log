@@ -316,3 +316,130 @@ INFO:generating template T.99.01.01.01
 INFO: ... resolving axes structure
 INFO: ... filling table content
 INFO: ... writing results to ..\results\T.99.01.01.01.csv
+ERROR:qrs-ignore-val.xml: file error: [Errno 2] No such file or directory: '..\\data\\taxonomy\\arelle\\cache\\https\\dev.eiopa.europa.eu\\Taxonomy\\Full\\deactivations\\240\\qrs-ignore-val.xml'
+INFO:Formula xpath2 grammar initialized in 3,03 secs
+INFO:... formula parameter checks 4,493 secs
+
+INFO:... custom function checks and compilation 3,771 secs
+
+INFO:generating template S.01.01.02.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.01.01.02.01.csv
+INFO:generating template S.01.02.01.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.01.02.01.01.csv
+INFO:generating template S.02.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.02.01.02.01.csv
+INFO:generating template S.05.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.05.01.02.01.csv
+INFO:generating template S.05.01.02.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.05.01.02.02.csv
+INFO:generating template S.06.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.06.02.01.01.csv
+INFO:generating template S.06.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.06.02.01.02.csv
+INFO:generating template S.06.03.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.06.03.01.01.csv
+INFO:generating template S.08.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.08.01.01.01.csv
+INFO:generating template S.08.01.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.08.01.01.02.csv
+INFO:generating template S.08.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.08.02.01.01.csv
+INFO:generating template S.08.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.08.02.01.02.csv
+INFO:generating template S.12.01.02.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.12.01.02.01.csv
+INFO:generating template S.17.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.17.01.02.01.csv
+INFO:generating template S.23.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.23.01.01.01.csv
+INFO:generating template S.23.01.01.02
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.23.01.01.02.csv
+INFO:generating template S.28.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.01.01.01.csv
+INFO:generating template S.28.01.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.01.01.02.csv
+INFO:generating template S.28.01.01.03
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.01.01.03.csv
+INFO:generating template S.28.01.01.04
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.01.01.04.csv
+INFO:generating template S.28.01.01.05
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.01.01.05.csv
+INFO:generating template S.28.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.02.01.01.csv
+INFO:generating template S.28.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.02.01.02.csv
+INFO:generating template S.28.02.01.03
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.02.01.03.csv
+INFO:generating template S.28.02.01.04
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.02.01.04.csv
+INFO:generating template S.28.02.01.05
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.02.01.05.csv
+INFO:generating template S.28.02.01.06
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\S.28.02.01.06.csv
+INFO:generating template T.99.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\results\T.99.01.01.01.csv
