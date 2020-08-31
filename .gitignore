@@ -20,8 +20,8 @@ notebooks/.ipynb_checkpoints/*
 *.egg
 
 # exclude unzipped taxonomy
-/data/taxonomy/*
-!/data/taxonomy/.gitkeep
+/data/taxonomy/arelle/cache
+!/data/taxonomy/arelle/cache/.gitkeep
 /data/instances/*
 !/data/instances/.gitkeep
 /data/downloaded files/*
