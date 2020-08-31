@@ -7,6 +7,8 @@ openpyxl==2.3.3
 isodate==0.5.4
 aniso8601
 regex==2018.08.29
+requests
+tqdm
 tabulate
 click
 python-dotenv>=0.5.1

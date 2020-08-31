@@ -4,7 +4,7 @@ setup(
     name='src',
     packages=find_packages(),
     version='0.1.0',
-    description='Solvency 2 Data Quality Rules and Patterns',
+    description='Data Quality Rules for Solvency 2 and FTK',
     author='DeNederlandscheBank',
     license='MIT',
 )

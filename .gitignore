@@ -15,16 +15,23 @@ www.sec.gov
 dist/*
 notebooks/temp/*
 notebooks/.ipynb_checkpoints/*
+
 *.egg-info/
+*.egg
 
 # exclude unzipped taxonomy
 /data/taxonomy/*
+/data/instances/*
+/data/downloaded files/*
+
 #exclude arelle source code
 /src/arelle
+
 #exclude results
-/results/*.xlsx
-/results/*.csv
-/results/*.html
-/results/*.pickle
+/results
+/results
+/results
+/results
+
 #exclude docs
 /docs/*

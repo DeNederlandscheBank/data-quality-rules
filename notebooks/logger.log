@@ -1,0 +1,601 @@
+INFO:Formula xpath2 grammar initialized in 0,91 secs
+INFO:... formula parameter checks 1,316 secs
+
+INFO:... custom function checks and compilation 1,416 secs
+
+INFO:Formula xpath2 grammar initialized in 0,94 secs
+INFO:... formula parameter checks 1,292 secs
+
+INFO:... custom function checks and compilation 1,422 secs
+
+INFO:Formula xpath2 grammar initialized in 0,88 secs
+INFO:... formula parameter checks 1,234 secs
+
+INFO:... custom function checks and compilation 1,385 secs
+
+INFO:Formula xpath2 grammar initialized in 0,93 secs
+INFO:... formula parameter checks 1,234 secs
+
+INFO:... custom function checks and compilation 1,434 secs
+
+INFO:Formula xpath2 grammar initialized in 0,95 secs
+INFO:... formula parameter checks 1,244 secs
+
+INFO:... custom function checks and compilation 1,415 secs
+
+INFO:generating template S.01.01.02.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... filling table content
+INFO:Formula xpath2 grammar initialized in 0,92 secs
+INFO:... formula parameter checks 1,274 secs
+
+INFO:... custom function checks and compilation 1,415 secs
+
+INFO:generating template S.01.01.02.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.01.02.01.csv and .pickle
+INFO:generating template S.01.02.01.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.02.01.01.csv and .pickle
+INFO:generating template S.02.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.02.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.02.csv and .pickle
+INFO:generating template S.06.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.01.csv and .pickle
+INFO:generating template S.06.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.02.csv and .pickle
+INFO:generating template S.06.03.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.03.01.01.csv and .pickle
+INFO:generating template S.08.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.01.csv and .pickle
+INFO:generating template S.08.01.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.02.csv and .pickle
+INFO:generating template S.08.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.01.csv and .pickle
+INFO:generating template S.08.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.02.csv and .pickle
+INFO:generating template S.12.01.02.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.12.01.02.01.csv and .pickle
+INFO:generating template S.17.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.17.01.02.01.csv and .pickle
+INFO:generating template S.23.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.01.csv and .pickle
+INFO:generating template S.23.01.01.02
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.01.csv and .pickle
+INFO:generating template S.28.01.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.03
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.03.csv and .pickle
+INFO:generating template S.28.01.01.04
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.04.csv and .pickle
+INFO:generating template S.28.01.01.05
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.05.csv and .pickle
+INFO:generating template S.28.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.01.csv and .pickle
+INFO:generating template S.28.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.02.csv and .pickle
+INFO:generating template S.28.02.01.03
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.03.csv and .pickle
+INFO:generating template S.28.02.01.04
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.04.csv and .pickle
+INFO:generating template S.28.02.01.05
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.05.csv and .pickle
+INFO:generating template S.28.02.01.06
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.06.csv and .pickle
+INFO:generating template T.99.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\T.99.01.01.01.csv and .pickle
+INFO:generating template S.01.01.02.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.01.02.01.csv and .pickle
+INFO:generating template S.01.02.01.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.02.01.01.csv and .pickle
+INFO:generating template S.02.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.02.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.02.csv and .pickle
+INFO:generating template S.06.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.01.csv and .pickle
+INFO:generating template S.06.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.02.csv and .pickle
+INFO:generating template S.06.03.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.03.01.01.csv and .pickle
+INFO:generating template S.08.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.01.csv and .pickle
+INFO:generating template S.08.01.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.02.csv and .pickle
+INFO:generating template S.08.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.01.csv and .pickle
+INFO:generating template S.08.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.02.csv and .pickle
+INFO:generating template S.12.01.02.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.12.01.02.01.csv and .pickle
+INFO:generating template S.17.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.17.01.02.01.csv and .pickle
+INFO:generating template S.23.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.01.csv and .pickle
+INFO:generating template S.23.01.01.02
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.01.csv and .pickle
+INFO:generating template S.28.01.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.03
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.03.csv and .pickle
+INFO:generating template S.28.01.01.04
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.04.csv and .pickle
+INFO:generating template S.28.01.01.05
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.05.csv and .pickle
+INFO:generating template S.28.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.01.csv and .pickle
+INFO:generating template S.28.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.02.csv and .pickle
+INFO:generating template S.28.02.01.03
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.03.csv and .pickle
+INFO:generating template S.28.02.01.04
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.04.csv and .pickle
+INFO:generating template S.28.02.01.05
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.05.csv and .pickle
+INFO:generating template S.28.02.01.06
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.06.csv and .pickle
+INFO:generating template T.99.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\T.99.01.01.01.csv and .pickle
+INFO:generating template S.01.01.02.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.01.02.01.csv and .pickle
+INFO:generating template S.01.02.01.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.02.01.01.csv and .pickle
+INFO:generating template S.02.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.02.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.02.csv and .pickle
+INFO:generating template S.06.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.01.csv and .pickle
+INFO:generating template S.06.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.02.csv and .pickle
+INFO:generating template S.06.03.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.03.01.01.csv and .pickle
+INFO:generating template S.08.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.01.csv and .pickle
+INFO:generating template S.08.01.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.02.csv and .pickle
+INFO:generating template S.08.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.01.csv and .pickle
+INFO:generating template S.08.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.02.csv and .pickle
+INFO:generating template S.12.01.02.01
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.12.01.02.01.csv and .pickle
+INFO:generating template S.17.01.02.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.17.01.02.01.csv and .pickle
+INFO:generating template S.23.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.01.csv and .pickle
+INFO:generating template S.23.01.01.02
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.01.csv and .pickle
+INFO:generating template S.28.01.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.03
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.03.csv and .pickle
+INFO:generating template S.28.01.01.04
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.04.csv and .pickle
+INFO:generating template S.28.01.01.05
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.05.csv and .pickle
+INFO:generating template S.28.02.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.01.csv and .pickle
+INFO:generating template S.28.02.01.02
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.02.csv and .pickle
+INFO:generating template S.28.02.01.03
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.03.csv and .pickle
+INFO:generating template S.28.02.01.04
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.04.csv and .pickle
+INFO:generating template S.28.02.01.05
+INFO: ... resolving axes structure
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.05.csv and .pickle
+INFO:generating template S.28.02.01.06
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.06.csv and .pickle
+INFO:generating template T.99.01.01.01
+INFO: ... resolving axes structure
+INFO: ... filling table content
+INFO: ... writing results to ..\data\instances\qrs_240_instance\T.99.01.01.01.csv and .pickle
+INFO:Formula xpath2 grammar initialized in 0,91 secs
+INFO:... formula parameter checks 1,244 secs
+
+INFO:... custom function checks and compilation 1,413 secs
+
+INFO:generating template S.01.01.02.01
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... directory ..\data\instances\qrs_240_instance created
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.01.02.01.csv and .pickle
+INFO:generating template S.01.02.01.01
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.02.01.01.csv and .pickle
+INFO:generating template S.02.01.02.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.02.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.02.csv and .pickle
+INFO:generating template S.06.02.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.01.csv and .pickle
+INFO:generating template S.06.02.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.02.csv and .pickle
+INFO:generating template S.06.03.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.03.01.01.csv and .pickle
+INFO:generating template S.08.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.01.csv and .pickle
+INFO:generating template S.08.01.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.02.csv and .pickle
+INFO:generating template S.08.02.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.01.csv and .pickle
+INFO:generating template S.08.02.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.02.csv and .pickle
+INFO:generating template S.12.01.02.01
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.12.01.02.01.csv and .pickle
+INFO:generating template S.17.01.02.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.17.01.02.01.csv and .pickle
+INFO:generating template S.23.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.01.csv and .pickle
+INFO:generating template S.23.01.01.02
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.01.csv and .pickle
+INFO:generating template S.28.01.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.03
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.03.csv and .pickle
+INFO:generating template S.28.01.01.04
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.04.csv and .pickle
+INFO:generating template S.28.01.01.05
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.05.csv and .pickle
+INFO:generating template S.28.02.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.01.csv and .pickle
+INFO:generating template S.28.02.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.02.csv and .pickle
+INFO:generating template S.28.02.01.03
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.03.csv and .pickle
+INFO:generating template S.28.02.01.04
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.04.csv and .pickle
+INFO:generating template S.28.02.01.05
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.05.csv and .pickle
+INFO:generating template S.28.02.01.06
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.06.csv and .pickle
+INFO:generating template T.99.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\T.99.01.01.01.csv and .pickle
+INFO:... formula parameter checks 1,326 secs
+
+INFO:... custom function checks and compilation 1,587 secs
+
+INFO:generating template S.01.01.02.01
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.01.02.01.csv and .pickle
+INFO:generating template S.01.02.01.01
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.02.01.01.csv and .pickle
+INFO:generating template S.02.01.02.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.02.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.02.csv and .pickle
+INFO:generating template S.06.02.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.01.csv and .pickle
+INFO:generating template S.06.02.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.02.csv and .pickle
+INFO:generating template S.06.03.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.03.01.01.csv and .pickle
+INFO:generating template S.08.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.01.csv and .pickle
+INFO:generating template S.08.01.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.02.csv and .pickle
+INFO:generating template S.08.02.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.01.csv and .pickle
+INFO:generating template S.08.02.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.02.csv and .pickle
+INFO:generating template S.12.01.02.01
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.12.01.02.01.csv and .pickle
+INFO:generating template S.17.01.02.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.17.01.02.01.csv and .pickle
+INFO:generating template S.23.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.01.csv and .pickle
+INFO:generating template S.23.01.01.02
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.01.csv and .pickle
+INFO:generating template S.28.01.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.03
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.03.csv and .pickle
+INFO:generating template S.28.01.01.04
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.04.csv and .pickle
+INFO:generating template S.28.01.01.05
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.05.csv and .pickle
+INFO:generating template S.28.02.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.01.csv and .pickle
+INFO:generating template S.28.02.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.02.csv and .pickle
+INFO:generating template S.28.02.01.03
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.03.csv and .pickle
+ERROR:qrs_240_instance.xbrl: file error: [Errno 2] No such file or directory: 'H:\\30_code\\python\\solvency2-rules\\data\\instances\\qrs_240_instance.xbrl'
+ERROR:qrs-ignore-val.xml: file error: [Errno 2] No such file or directory: '..\\data\\taxonomy\\arelle\\cache\\https\\dev.eiopa.europa.eu\\Taxonomy\\Full\\deactivations\\240\\qrs-ignore-val.xml'
+INFO:Formula xpath2 grammar initialized in 0,83 secs
+INFO:... formula parameter checks 1,321 secs
+
+INFO:... custom function checks and compilation 1,459 secs
+
+INFO:generating template S.01.01.02.01
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... directory ..\data\instances\qrs_240_instance created
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.01.02.01.csv and .pickle
+INFO:generating template S.01.02.01.01
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.01.02.01.01.csv and .pickle
+INFO:generating template S.02.01.02.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.02.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.01.csv and .pickle
+INFO:generating template S.05.01.02.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.05.01.02.02.csv and .pickle
+INFO:generating template S.06.02.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.01.csv and .pickle
+INFO:generating template S.06.02.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.02.01.02.csv and .pickle
+INFO:generating template S.06.03.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.06.03.01.01.csv and .pickle
+INFO:generating template S.08.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.01.csv and .pickle
+INFO:generating template S.08.01.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.01.01.02.csv and .pickle
+INFO:generating template S.08.02.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.01.csv and .pickle
+INFO:generating template S.08.02.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.08.02.01.02.csv and .pickle
+INFO:generating template S.12.01.02.01
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.12.01.02.01.csv and .pickle
+INFO:generating template S.17.01.02.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.17.01.02.01.csv and .pickle
+INFO:generating template S.23.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.01.csv and .pickle
+INFO:generating template S.23.01.01.02
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.23.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.01.csv and .pickle
+INFO:generating template S.28.01.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.02.csv and .pickle
+INFO:generating template S.28.01.01.03
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.03.csv and .pickle
+INFO:generating template S.28.01.01.04
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.04.csv and .pickle
+INFO:generating template S.28.01.01.05
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.01.01.05.csv and .pickle
+INFO:generating template S.28.02.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.01.csv and .pickle
+INFO:generating template S.28.02.01.02
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.02.csv and .pickle
+INFO:generating template S.28.02.01.03
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.03.csv and .pickle
+INFO:generating template S.28.02.01.04
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.04.csv and .pickle
+INFO:generating template S.28.02.01.05
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.05.csv and .pickle
+INFO:generating template S.28.02.01.06
+INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.06.csv and .pickle
+INFO:generating template T.99.01.01.01
+INFO: ... writing results to ..\data\instances\qrs_240_instance\T.99.01.01.01.csv and .pickle
