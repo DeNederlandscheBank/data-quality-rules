@@ -86,7 +86,7 @@ class ZipfileLongPaths(zipfile.ZipFile):
 
 # Needed for long paths
 def winapi_path(dos_path, encoding=None):
-    if _platform == 'win32' | _platform == 'win64':
+    if (_platform == 'win32') or (_platform == 'win64'):
         path = os.path.abspath(dos_path)
         if path.startswith("\\\\"):
             path = "\\\\?\\UNC\\" + path[2:]
