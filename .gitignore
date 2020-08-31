@@ -21,16 +21,18 @@ notebooks/.ipynb_checkpoints/*
 
 # exclude unzipped taxonomy
 /data/taxonomy/*
+!/data/taxonomy/.gitkeep
 /data/instances/*
+!/data/instances/.gitkeep
 /data/downloaded files/*
+!/data/downloaded_files/.gitkeep
+/data/documentation/*
+!/data/documentation/.gitkeep
 
 #exclude arelle source code
 /src/arelle
 
 #exclude results
-/results
-/results
-/results
 /results
 
 #exclude docs
