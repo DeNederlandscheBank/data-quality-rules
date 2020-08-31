@@ -28,36 +28,6 @@ Martijn Source code to extract csv-, Pandas pickles- and html-files from XBRL in
 
 * Notebook tutorials to get you started
 
-Repository overview
-===================
-
-The directory structure of this repository is as follows: 
-
-├── LICENSE
-├── README.md          <- The top-level README for users of the this project
-├── requirements.txt   <- The requirements file for reproducing the environment
-│
-├── data
-│   ├── taxonomy       <- XBRL Taxonomies used by the repository
-│   ├── instances      <- Example XBRL-instances and extracted files
-│   └── ...            <- 
-│
-├── docs               <- Documentation
-│
-├── notebooks          <- Jupyter notebooks with tutorials
-│
-├── solvency2-rules    <- (Statistical) validation rules for Solvency 2 QRTSs
-│
-├── ftk-rules          <- (Statistical) validation rules for FTK QRTs
-│
-├── tests              <- Unittests of the source code provided
-│
-└── src                <- Source code for use in this project.
-    ├── __init__.py    <- Makes src a Python module
-    │
-    │
-    └── arelle         <- Scripts to create exploratory and results oriented visualizations
-
 .. include:: INSTALLATION.rst
 
 .. include:: AUTHORS.rst
