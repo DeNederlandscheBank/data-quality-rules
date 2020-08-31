@@ -22,7 +22,7 @@ Here is what the package contains:
 
 * (Statistical) validation rules for Solvency 2 and FTK QRTs
 
-* Source code to extract csv-, Pandas pickles- and html-files from XBRL instance files
+Martijn Source code to extract csv-, Pandas pickles- and html-files from XBRL instance files
 
 * Source code to evaluate validation rules on Pandas pickle-files
 
@@ -33,7 +33,6 @@ Repository overview
 
 The directory structure of this repository is as follows: 
 
-```
 ├── LICENSE
 ├── README.md          <- The top-level README for users of the this project
 ├── requirements.txt   <- The requirements file for reproducing the environment
@@ -58,7 +57,6 @@ The directory structure of this repository is as follows:
     │
     │
     └── arelle         <- Scripts to create exploratory and results oriented visualizations
-```
 
 .. include:: INSTALLATION.rst
 
