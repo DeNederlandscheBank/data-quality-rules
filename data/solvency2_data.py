@@ -42,9 +42,9 @@ def main(delete_old_files):
 
     # Delete content if there is content
     if delete_old_files == 'Y':
-        if os.path.exists(path_zipfile_inst):
+        if os.path.exists(path_zipfile_taxo):
             logger.info("Deleting files in %s (this might take a while)", path_zipfile_taxo)
-            shutil.rmtree(winapi_path(path_zipfile_taxo))
+            shutil.rmtree(path_zipfile_taxo)
         if os.path.exists(path_zipfile_inst):
             logger.info("Deleting files in %s", path_zipfile_inst)
             shutil.rmtree(path_zipfile_inst)
