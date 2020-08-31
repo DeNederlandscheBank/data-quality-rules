@@ -29,7 +29,7 @@ notebooks/.ipynb_checkpoints/*
 /data/documentation/*
 !/data/documentation/.gitkeep
 /data/downloaded files/*
-!/data/downloaded_files/.gitkeep
+!/data/downloaded files/.gitkeep
 
 
 #exclude arelle source code
