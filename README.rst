@@ -97,7 +97,7 @@ And install the package by going to the root of the arelle project, where the se
 
   pip install -e . --user
 
-Then install the data_patterns package. Make sure you have the zip file from https://github.com/DeNedRuuerlandscheBank/data-patterns.git. Extract the zip file to the desired location.
+Then install the data_patterns package. Make sure you have the zip file from https://github.com/DeNederlandscheBank/data-patterns.git. Extract the zip file to the desired location.
 
 Changes to the Arelle package
 -----------------------------
