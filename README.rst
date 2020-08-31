@@ -22,7 +22,7 @@ Here is what the package contains:
 
 * (Statistical) validation rules for Solvency 2 and FTK QRTs
 
-Martijn Source code to extract csv-, Pandas pickles- and html-files from XBRL instance files
+* Source code to extract csv-, Pandas pickles- and html-files from XBRL instance files
 
 * Source code to evaluate validation rules on Pandas pickle-files
 
