@@ -37,24 +37,27 @@ Online installation
 
 Clone the project::
 
-    git clone https://github.com/DeNederlandscheBank/data-quality-rules.git
+  git clone https://github.com/DeNederlandscheBank/data-quality-rules.git
 
 Then start with a clean environment::
-    
-    conda create -n your_env_name python=3.6
+
+  conda create -n your_env_name python=3.6
 
 And activate the environment::
 
-    conda activate your_env_name
+  conda activate your_env_name
 
 Make sure you are in the root of the cloned project. Install the required packages::
 
-    pip install -r requirements.txt
+  pip install -r requirements.txt
 
 Then install the Arelle package::
 
-    pip install -e git+https://git@github.com/arelle/arelle.git@master#egg=Arelle --user
+  pip install -e git+https://git@github.com/arelle/arelle.git@master#egg=Arelle --user
 
+The install the data-patterns package::
+
+  pip install data-patterns
 
 Offline installation
 --------------------
@@ -69,16 +72,18 @@ To do an offline installation you need some files from the internet downloaded i
 
 * the zip files with the taxonomy and example instances from the EIOPA website.
 
+Install data-quality-rules repository
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Extract the zip file from the data-quality-rules repository to the desired location.
 
 Then start with a clean and empty environment::
-    
-    conda create -n your_env_name --offline
+
+  conda create -n your_env_name --offline
 
 And activate the environment::
 
-    conda activate your_env_name
+  conda activate your_env_name
 
 Install the following packages::
 
@@ -106,9 +111,17 @@ And install the package by going to the root of the arelle project, where the se
 
   pip install -e . --user
 
-Then install the data_patterns package. Make sure you have the zip file from https://github.com/DeNederlandscheBank/data-patterns.git. Extract the zip file to the desired location.
+Install data-patterns repository
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Download the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples (both zip files) and put the files in data/downloaded files.
+Then install the data_patterns package. Make sure you have the zip file from https://github.com/DeNederlandscheBank/data-patterns.git. Extract the zip file to the desired location, go to the root of the repo and execute::
+
+  pip install -e .
+
+Copy taxonomy and instance files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Copy the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples (both zip files) to the directory data/downloaded files.
 
 Changes to the Arelle package
 -----------------------------
@@ -133,7 +146,7 @@ Go to submap data/ and execute::
 
   python solvency2_data.py
 
-This downloads the taxonomy and the example instance files and extracts them in the proper directories.
+This downloads the Solvency 2 XBRL taxonomy 2.4 and the corresponding example instance files and extracts them in the proper directories.
 
 Contributing
 ============
