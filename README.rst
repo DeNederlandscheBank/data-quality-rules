@@ -56,11 +56,6 @@ Then install the Arelle package::
     pip install -e git+https://git@github.com/arelle/arelle.git@master#egg=Arelle --user
 
 
-Changes to the Arelle package
------------------------------
-
-None at this time.
-
 Offline installation
 --------------------
 
@@ -102,9 +97,31 @@ And install the package by going to the root of the arelle project, where the se
 
   pip install -e . --user
 
-Then install the data_patterns package. Make sure you have the zip file from https://github.com/DeNederlandscheBank/data-patterns.git. Extract the zip file to the desired location.
+Then install the data_patterns package. Make sure you have the zip file from https://github.com/DeNedRuuerlandscheBank/data-patterns.git. Extract the zip file to the desired location.
 
-Make the corrections in Arelle described in the online installation procedure.
+Changes to the Arelle package
+-----------------------------
+
+To improve performance change in src/arelle/arelle/FormulaEvaluator.py the function def factsPartitions(xpCtx, facts, aspects) to
+
+def factsPartitions(xpCtx, facts, aspects):
+    contexts_dict = dict()
+    for fact in facts:
+        if fact.context not in contexts_dict.keys():
+            contexts_dict[fact.context] = [fact]
+        else:
+            contexts_dict[fact.context].append(fact)
+    return list(contexts_dict.values())
+
+
+Installing taxonomy and example instance files
+==============================================
+
+Go to submap data/ and execute::
+
+  python solvency2_data.py
+
+This downloads the taxonomy and the example instance files and extracts them in the proper directories.
 
 Contributing
 ============
