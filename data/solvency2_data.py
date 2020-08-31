@@ -16,6 +16,7 @@ import io
 import shutil
 from pathlib import Path
 from tqdm import tqdm
+from sys import platform as _platform
 
 # variables
 make_folder = True
@@ -39,6 +40,8 @@ extension_inst =  join('EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0', 'random
 
 def main(delete_old_files):
     logger = logging.getLogger(__name__)
+
+    logger.info("Platform %s", str(_platform))
 
     # Delete content if there is content
     if delete_old_files == 'Y':
@@ -77,19 +80,21 @@ def main(delete_old_files):
 
 # Needed for long paths
 class ZipfileLongPaths(zipfile.ZipFile):
-
     def _extract_member(self, member, targetpath, pwd):
         targetpath = winapi_path(targetpath)
         return zipfile.ZipFile._extract_member(self, member, targetpath, pwd)
 
 # Needed for long paths
 def winapi_path(dos_path, encoding=None):
-    path = os.path.abspath(dos_path)
-    if path.startswith("\\\\"):
-        path = "\\\\?\\UNC\\" + path[2:]
+    if _platform == 'win32' | _platform == 'win64':
+        path = os.path.abspath(dos_path)
+        if path.startswith("\\\\"):
+            path = "\\\\?\\UNC\\" + path[2:]
+        else:
+            path = "\\\\?\\" + path
+        return path
     else:
-        path = "\\\\?\\" + path
-    return path
+        return dos_path
 
 def make_path(path_zipfile):
     logger = logging.getLogger(__name__)

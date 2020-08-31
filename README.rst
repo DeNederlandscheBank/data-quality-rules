@@ -61,7 +61,16 @@ Offline installation
 
 We included all the required packages in the project, so you should be able to do an offline installation. Make sure you have at least Anaconda 5.3.1 installed.
 
-Make sure you have the zip file from https://github.com/DeNederlandscheBank/data-quality-rules.git. Extract the zip file to the desired location.
+To do an offline installation you need some files from the internet downloaded in advance: 
+
+* the zip file with the data-quality-rules repository from https://github.com/DeNederlandscheBank/data-quality-rules.git;
+
+* the zip file with the data-patterns repository from https://github.com/DeNederlandscheBank/data-patterns.git; and 
+
+* the zip files with the taxonomy and example instances from the EIOPA website.
+
+
+Extract the zip file from the data-quality-rules repository to the desired location.
 
 Then start with a clean and empty environment::
     
@@ -99,10 +108,12 @@ And install the package by going to the root of the arelle project, where the se
 
 Then install the data_patterns package. Make sure you have the zip file from https://github.com/DeNederlandscheBank/data-patterns.git. Extract the zip file to the desired location.
 
+Download the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples (both zip files) and put the files in data/downloaded files.
+
 Changes to the Arelle package
 -----------------------------
 
-To improve performance change in src/arelle/arelle/FormulaEvaluator.py the function def factsPartitions(xpCtx, facts, aspects) to::
+To improve performance change in src/arelle/arelle/FormulaEvaluator.py the function factsPartitions(xpCtx, facts, aspects) to::
 
   def factsPartitions(xpCtx, facts, aspects):
       contexts_dict = dict()
@@ -113,6 +124,7 @@ To improve performance change in src/arelle/arelle/FormulaEvaluator.py the funct
               contexts_dict[fact.context].append(fact)
       return list(contexts_dict.values())
 
+*This only works for EIOPA taxonomies, but not in general!*
 
 Installing taxonomy and example instance files
 ==============================================
@@ -179,8 +191,8 @@ Development Lead
 Contributors
 ------------
 
-* Annick van Ool (DNB, TV-ECDB)
-* Richard Lieverse (DNB, STAT-TVP)
-* Jan Huiskes (DNB, TV-ECDB)
+* Annick van Ool (DNB)
+* Richard Lieverse (DNB)
+* Jan Huiskes (DNB)
 
 Your name could be here, see how to `contribute <https://github.com/DeNederlandscheBank/data-quality-rules/blob/master/CONTRIBUTING.rst>`_
