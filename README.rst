@@ -102,16 +102,16 @@ Then install the data_patterns package. Make sure you have the zip file from htt
 Changes to the Arelle package
 -----------------------------
 
-To improve performance change in src/arelle/arelle/FormulaEvaluator.py the function def factsPartitions(xpCtx, facts, aspects) to
+To improve performance change in src/arelle/arelle/FormulaEvaluator.py the function def factsPartitions(xpCtx, facts, aspects) to::
 
-def factsPartitions(xpCtx, facts, aspects):
-    contexts_dict = dict()
-    for fact in facts:
-        if fact.context not in contexts_dict.keys():
-            contexts_dict[fact.context] = [fact]
-        else:
-            contexts_dict[fact.context].append(fact)
-    return list(contexts_dict.values())
+  def factsPartitions(xpCtx, facts, aspects):
+      contexts_dict = dict()
+      for fact in facts:
+          if fact.context not in contexts_dict.keys():
+              contexts_dict[fact.context] = [fact]
+          else:
+              contexts_dict[fact.context].append(fact)
+      return list(contexts_dict.values())
 
 
 Installing taxonomy and example instance files
