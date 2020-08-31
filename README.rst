@@ -28,10 +28,10 @@ Here is what the package contains:
 
 * Notebook tutorials to get you started
 
-.. include:: INSTALLATION.rst
+.. include:: ./INSTALLATION.rst
 
-.. include:: AUTHORS.rst
+.. include:: ./AUTHORS.rst
 
-.. include:: CONTRIBUTING.rst
+.. include:: ./CONTRIBUTING.rst
 
-.. include:: HISTORY.rst
+.. include:: ./HISTORY.rst
