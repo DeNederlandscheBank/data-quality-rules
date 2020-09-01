@@ -124,7 +124,7 @@ Copy taxonomy and instance files
 Copy the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples (both zip files) to the directory data/downloaded files.
 
 Changes to the Arelle package
------------------------------
+=============================
 
 To improve performance change in src/arelle/arelle/FormulaEvaluator.py the function factsPartitions(xpCtx, facts, aspects) to::
 
