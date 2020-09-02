@@ -86,7 +86,7 @@ class GenerateCSVTables(object):
             self.zOrdinateChoices = {}
 
             self.tableLabel = (table.genLabel(lang=self.lang, strip=True, role = euRCcode) or self.roledefinition)
-            self.modelXbrl.modelManager.addToLog(_("generating template {0}").format(self.tableLabel))
+#            self.modelXbrl.modelManager.addToLog(_("generating template {0}").format(self.tableLabel))
 
             # self.modelXbrl.modelManager.addToLog(" ... resolving axes structure")
             tblAxisRelSet, xTopNode, yTopNode, zTopNode = resolveAxesStructure(self, table)
@@ -126,7 +126,7 @@ class GenerateCSVTables(object):
                     os.makedirs(path_name)
                     self.modelXbrl.modelManager.addToLog(_(" ... directory {0} created").format(path_name))
                 file_name = os.path.join(path_name, self.tableLabel)
-                self.modelXbrl.modelManager.addToLog(_(" ... writing results to {0}").format(file_name + '.csv and .pickle'))
+                self.modelXbrl.modelManager.addToLog(_(" ... saved output {0}").format(file_name + '.csv and .pickle'))
                 df.to_csv(file_name + ".csv")
                 df.to_pickle(file_name + ".pickle")
             else:
@@ -309,7 +309,8 @@ class GenerateCSVTables(object):
              if value in self.label_dict.keys():
                  value = self.label_dict[value]
 
-        if short_y[0] != "R": # we have a z-axis
+        # put value in dataframe with proper indices and columns
+        if self.z_axis:
             column_name = str(self.tableLabel) + ","+ str(label_x).upper()
             df.loc[tuple([reporting_entity, reporting_period] + self.index_values[row]), column_name] = value
         else:
