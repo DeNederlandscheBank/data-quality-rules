@@ -55,9 +55,15 @@ Then install the Arelle package::
 
   pip install -e git+https://git@github.com/arelle/arelle.git@master#egg=Arelle --user
 
+If this doesn't work, unzip the file pkgs/arelle-1.0.0.zip to the subdirectory src, such that src contains the subdirectory with the name arelle. Then install the package by going to the root of the arelle project, where the setup.py file is, and execute::
+
+  pip install -e . --user
+
 The install the data-patterns package::
 
   pip install data-patterns
+
+*Continue at 'Changes to the Arelle package' -->*
 
 Offline installation
 --------------------
@@ -70,7 +76,9 @@ To do an offline installation you need some files from the internet downloaded i
 
 * the zip file with the data-patterns repository from https://github.com/DeNederlandscheBank/data-patterns.git; and 
 
-* the zip files with the taxonomy and example instances from the EIOPA website.
+* the zip files with the taxonomy and example instances from the EIOPA website:
+    https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip; and
+    https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip
 
 Install data-quality-rules repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
