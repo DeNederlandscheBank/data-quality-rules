@@ -45,6 +45,7 @@ class GenerateCSVTables(object):
         self.lang = lang
         self.verbose_labels = verbose_labels
         self.processedXbrl = ProcessXbrl(modelXbrl = modelXbrl, lang = lang)
+        self.FTK = False
 
         # create a quick way to find the labels from the taxonomy
         self.labels = []
@@ -125,7 +126,10 @@ class GenerateCSVTables(object):
                 if not os.path.exists(path_name):
                     os.makedirs(path_name)
                     self.modelXbrl.modelManager.addToLog(_(" ... directory {0} created").format(path_name))
-                file_name = os.path.join(path_name, self.tableLabel)
+                if self.FTK:
+                    file_name = os.path.join(path_name, "FTK." + self.tableLabel)
+                else:
+                    file_name = os.path.join(path_name, self.tableLabel)
                 self.modelXbrl.modelManager.addToLog(_(" ... saved output {0}").format(file_name + '.csv and .pickle'))
                 df.to_csv(file_name + ".csv")
                 df.to_pickle(file_name + ".pickle")
@@ -313,12 +317,14 @@ class GenerateCSVTables(object):
         if self.z_axis:
             if len(label_x)==3:
                 column_name = "FTK." + str(self.tableLabel) + ",C"+ str(label_x).upper()
+                self.FTK = True
             else:
                 column_name = str(self.tableLabel) + ","+ str(label_x).upper()
             df.loc[tuple([reporting_entity, reporting_period] + self.index_values[row]), column_name] = value
         else:
             if len(label_x)==3:
                 column_name = "FTK." + str(self.tableLabel) + ",R" + str(label_y).upper() + ",C" + str(label_x).upper()
+                self.FTK = True
             else:
                 column_name = str(self.tableLabel) + "," + str(label_y).upper() + ","+ str(label_x).upper()
             df.loc[tuple([reporting_entity, reporting_period]), column_name] = value
