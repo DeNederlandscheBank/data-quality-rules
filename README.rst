@@ -218,4 +218,4 @@ Contributors
 * Richard Lieverse (DNB)
 * Jan Huiskes (DNB)
 
-Your name could be here, see how to `contribute <https://github.com/DeNederlandscheBank/data-quality-rules/blob/master/CONTRIBUTING.rst>`_
+Your name could be here, see how to contribute in the above text.
