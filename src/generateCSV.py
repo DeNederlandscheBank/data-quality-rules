@@ -311,10 +311,16 @@ class GenerateCSVTables(object):
 
         # put value in dataframe with proper indices and columns
         if self.z_axis:
-            column_name = str(self.tableLabel) + ","+ str(label_x).upper()
+            if len(label_x)==3:
+                column_name = "FTK." + str(self.tableLabel) + ",C"+ str(label_x).upper()
+            else:
+                column_name = str(self.tableLabel) + ","+ str(label_x).upper()
             df.loc[tuple([reporting_entity, reporting_period] + self.index_values[row]), column_name] = value
         else:
-            column_name = str(self.tableLabel) + "," + str(label_y).upper() + ","+ str(label_x).upper()
+            if len(label_x)==3:
+                column_name = "FTK." + str(self.tableLabel) + ",R" + str(label_y).upper() + ",C" + str(label_x).upper()
+            else:
+                column_name = str(self.tableLabel) + "," + str(label_y).upper() + ","+ str(label_x).upper()
             df.loc[tuple([reporting_entity, reporting_period]), column_name] = value
 
         return None
