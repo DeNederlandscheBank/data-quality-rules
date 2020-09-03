@@ -148,6 +148,8 @@ Go to submap data/ and execute::
 
 This downloads the Solvency 2 XBRL taxonomy 2.4 and the corresponding example instance files and extracts them in the proper directories.
 
+The FTK taxonomy is not yet automatically downloaded, but you can download the zip-file and extract it, and then copy the files to data/taxonomy/arelle/cache/http. You can use both taxonomies at the same time. Some files in the FTK taxonomy already exists in the Solvency 2 taxonomy; you do not need to replace these.
+
 Contributing
 ============
 
