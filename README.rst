@@ -77,6 +77,7 @@ To do an offline installation you need some files from the internet downloaded i
 * the zip file with the data-patterns repository from https://github.com/DeNederlandscheBank/data-patterns.git; and 
 
 * the zip files with the taxonomy and example instances from the EIOPA website
+
     https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip; and
     https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip
 
@@ -218,4 +219,4 @@ Contributors
 * Richard Lieverse (DNB)
 * Jan Huiskes (DNB)
 
-Your name could be here, see how to contribute in the above text.
+Your name could be here, see how to contribute in the text above.
