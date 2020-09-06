@@ -59,9 +59,11 @@ If this doesn't work, unzip the file pkgs/arelle-1.0.0.zip to the subdirectory s
 
   pip install -e . --user
 
-Then install the data-patterns package::
+The requirements.txt file contains the data-patterns package we need to evaluate the rules. Check with 'pip list' that the package is installed. Otherwise install the data-patterns package via::
 
   pip install data-patterns
+
+(this installs the package from pypi.org)
 
 *Continue at 'Changes to the Arelle package' -->*
 
@@ -76,10 +78,7 @@ To do an offline installation you need some files from the internet downloaded i
 
 * the zip file with the data-patterns repository from https://github.com/DeNederlandscheBank/data-patterns.git; and 
 
-* the zip files with the taxonomy and example instances from the EIOPA website
-
-    https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip; and
-    https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip
+* the zip files with the taxonomy and example instances from the EIOPA website (https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip; and https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip)
 
 Install data-quality-rules repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
