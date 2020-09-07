@@ -20,7 +20,7 @@ Features
 
 Here is what the package contains:
 
-* (Statistical) validation rules for Solvency 2 and FTK QRTs
+* (Statistical) validation rules for Solvency 2
 
 * Source code to extract csv-, Pandas pickles- and html-files from XBRL instance files
 
@@ -55,9 +55,17 @@ Then install the Arelle package::
 
   pip install -e git+https://git@github.com/arelle/arelle.git@master#egg=Arelle --user
 
-The install the data-patterns package::
+If this doesn't work, unzip the file pkgs/arelle-1.0.0.zip to the subdirectory src, such that src contains the subdirectory with the name arelle. Then install the package by going to the root of the arelle project, where the setup.py file is, and execute::
+
+  pip install -e . --user
+
+The requirements.txt file contains the data-patterns package we need to evaluate the rules. Check with 'pip list' that the package is installed. Otherwise install the data-patterns package via::
 
   pip install data-patterns
+
+(this installs the package from pypi.org)
+
+*Continue at 'Changes to the Arelle package' -->*
 
 Offline installation
 --------------------
@@ -70,7 +78,7 @@ To do an offline installation you need some files from the internet downloaded i
 
 * the zip file with the data-patterns repository from https://github.com/DeNederlandscheBank/data-patterns.git; and 
 
-* the zip files with the taxonomy and example instances from the EIOPA website.
+* the zip files with the taxonomy and example instances from the EIOPA website (https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip; and https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip)
 
 Install data-quality-rules repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -148,6 +156,8 @@ Go to submap data/ and execute::
 
 This downloads the Solvency 2 XBRL taxonomy 2.4 and the corresponding example instance files and extracts them in the proper directories.
 
+The FTK taxonomy is not yet automatically downloaded, but you can download the zip-file and extract it, and then copy the files to data/taxonomy/arelle/cache/http. You can use both taxonomies at the same time. Some files in the FTK taxonomy already exists in the Solvency 2 taxonomy; you do not need to replace these.
+
 Contributing
 ============
 
@@ -208,4 +218,4 @@ Contributors
 * Richard Lieverse (DNB)
 * Jan Huiskes (DNB)
 
-Your name could be here, see how to `contribute <https://github.com/DeNederlandscheBank/data-quality-rules/blob/master/CONTRIBUTING.rst>`_
+Your name could be here, see how to contribute in the text above.
