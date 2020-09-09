@@ -69,3 +69,47 @@ INFO:generating template S.28.02.01.06
 INFO: ... writing results to ..\data\instances\qrs_240_instance\S.28.02.01.06.csv and .pickle
 INFO:generating template T.99.01.01.01
 INFO: ... writing results to ..\data\instances\qrs_240_instance\T.99.01.01.01.csv and .pickle
+INFO:Formula xpath2 grammar initialized in 2.87 secs
+INFO:... formula parameter checks 3.864 secs
+
+INFO:... custom function checks and compilation 2.285 secs
+
+INFO:... parameter checks and select evaluation 2.424 secs
+
+INFO: ... directory ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL created
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K000.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K050.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K101-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K101-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K201-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K201-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K202.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K203.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K204.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K205.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K206.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K207.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K208A.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K208B.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K209A.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K209B.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K210A.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K210B.csv and .pickle
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K000.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K050.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K101-1.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K101-2.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K201-1.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K201-2.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K202.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K203.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K204.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K205.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K206.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K207.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K208A.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K208B.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K209A.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K209B.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K210A.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K210B.html
