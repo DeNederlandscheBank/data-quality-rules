@@ -35,11 +35,10 @@ extension_inst =  join('EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0', 'random
 path_zipfile_taxo = join('.', 'taxonomies')
 
 @click.command()
-@click.option('--delete_old_files', prompt = "Delete old files? (Y/N)", default='N', help='Delete files in existing taxonomy directory')
 
-def main(delete_old_files):
+def main():
+
     logger = logging.getLogger(__name__)
-
     logger.info("Platform %s", str(_platform))
 
     # Delete content if there is content
@@ -71,12 +70,13 @@ def main(delete_old_files):
             output = open(join(path_zipfiles, name_zipfile_taxo), "wb")
             output.write(r.content)
             output.close()
-
         logger.info("Moving taxonomy to %s", path_zipfile_taxo)
-        shutil.move(join(path_zipfiles, name_zipfile_taxo), path_zipfile_taxo)
+        shutil.copy(join(path_zipfiles, name_zipfile_taxo), path_zipfile_taxo)
     else:
         logger.info("taxonomy already exists")
 
+    logger.info("Cleaning up files in %s", path_zipfiles)
+    shutil.rmtree(winapi_path(join(path_zipfiles, 'EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0')))
 
     logger.info("Thank you for waiting!")
 
