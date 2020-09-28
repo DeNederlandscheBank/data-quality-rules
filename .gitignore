@@ -22,9 +22,11 @@ notebooks/.ipynb_checkpoints/*
 
 *.log
 
-# exclude unzipped taxonomy
+# exclude taxonomies
 /data/taxonomies/arelle/*
 !/data/taxonomies/arelle/.gitkeep
+/data/taxonomies/*
+!/data/taxonomies/.gitkeep
 /data/instances/*
 !/data/instances/.gitkeep
 /data/downloaded files/*
