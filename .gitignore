@@ -30,7 +30,7 @@ notebooks/.ipynb_checkpoints/*
 /data/instances/*
 !/data/instances/.gitkeep
 /data/downloaded files/*
-!/data/downloaded_files/.gitkeep
+!/data/downloaded files/.gitkeep
 /data/documentation/*
 !/data/documentation/.gitkeep
 

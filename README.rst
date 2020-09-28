@@ -56,6 +56,13 @@ Offline installation
 
 We included all the required packages in the project, so you should be able to do an offline installation. Make sure you have at least Anaconda 5.3.1 installed.
 
+To do an offline installation you need some files from the internet downloaded in advance: 
+
+* the zip file with the data-quality-rules repository from https://github.com/DeNederlandscheBank/data-quality-rules.git;
+
+* the zip files with the taxonomy and example instances from the EIOPA website (https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip; and https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip)
+
+
 Install data-quality-rules repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -83,11 +90,27 @@ Then install the following packages::
 
   conda install pkgs/setuptools-40.6.3-py36_0.tar.bz2
 
-(if you get an error you need to copy the required packages from Internet)
+(if you get an error you need to copy the required packages from internet)
 
 Make sure you are in the root of the cloned project. Then install the project with the packages in pkgs/.::
 
   pip install -e . --no-index --find-links pkgs/
+
+
+Copy taxonomy and instance files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Copy the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples (both zip files) to the directory data/downloaded files.
+
+
+Installing taxonomy and example instance files
+==============================================
+
+Go to submap data/ and execute::
+
+  python solvency2_data.py
+
+This downloads the Solvency 2 XBRL taxonomy 2.4 and the corresponding example instance files and extracts them in the proper directories.
 
 
 Contributing
