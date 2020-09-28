@@ -56,10 +56,6 @@ Offline installation
 
 We included all the required packages in the project, so you should be able to do an offline installation. Make sure you have at least Anaconda 5.3.1 installed.
 
-To do an offline installation you need some files from internet downloaded in advance: 
-
-* the zip files with the taxonomy and example instances from the EIOPA website (https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip; and https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip)
-
 Install data-quality-rules repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -93,37 +89,6 @@ Make sure you are in the root of the cloned project. Then install the project wi
 
   pip install -e . --no-index --find-links pkgs/
 
-Copy taxonomy and instance files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Copy the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples (both zip files) to the directory data/downloaded files.
-
-The Arelle package
-=============================
-
-The code uses a fork of the arelle package at github.com/DeNederlandscheBank/arelle. To improve performance we changed in arelle/arelle/FormulaEvaluator.py the function factsPartitions(xpCtx, facts, aspects) to::
-
-  def factsPartitions(xpCtx, facts, aspects):
-      contexts_dict = dict()
-      for fact in facts:
-          if fact.context not in contexts_dict.keys():
-              contexts_dict[fact.context] = [fact]
-          else:
-              contexts_dict[fact.context].append(fact)
-      return list(contexts_dict.values())
-
-*This only works for EIOPA and FTK taxonomies, but not in general!*
-
-Installing taxonomy and example instance files
-==============================================
-
-Go to submap data/ and execute::
-
-  python solvency2_data.py
-
-This downloads the Solvency 2 XBRL taxonomy 2.4 and the corresponding example instance files and extracts them in the proper directories.
-
-The FTK taxonomy is not yet automatically downloaded, but you can download the zip-file and extract it, and then copy the files to data/taxonomy/arelle/cache/http. You can use both taxonomies at the same time. Some files in the FTK taxonomy already exists in the Solvency 2 taxonomy; you do not need to replace these.
 
 Contributing
 ============

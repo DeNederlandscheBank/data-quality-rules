@@ -14,26 +14,27 @@ nosetests.xml
 www.sec.gov
 dist/*
 notebooks/temp/*
+notebooks/*.log
 notebooks/.ipynb_checkpoints/*
 
 *.egg-info/
 *.egg
 
+*.log
+
 # exclude unzipped taxonomy
-/data/taxonomy/arelle/cache/*
-!/data/taxonomy/arelle/cache/.gitkeep
+/data/taxonomies/arelle/*
+!/data/taxonomies/arelle/.gitkeep
 /data/instances/*
 !/data/instances/.gitkeep
 /data/downloaded files/*
 !/data/downloaded_files/.gitkeep
 /data/documentation/*
 !/data/documentation/.gitkeep
-/data/downloaded files/*
-!/data/downloaded files/.gitkeep
 
-
-#exclude arelle source code
-/src/arelle
+# exclude test results
+/tests/data/test_instances/actual/*
+!/tests/data/test_instances/actual/.gitkeep
 
 #exclude results
 /results
