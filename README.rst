@@ -47,36 +47,16 @@ And activate the environment::
 
   conda activate your_env_name
 
-Make sure you are in the root of the cloned project. Install the required packages::
+Make sure you are in the root of the cloned project. Install the code and the required packages::
 
-  pip install -r requirements.txt
-
-Then install the Arelle package::
-
-  pip install -e git+https://git@github.com/arelle/arelle.git@master#egg=Arelle --user
-
-If this doesn't work, unzip the file pkgs/arelle-1.0.0.zip to the subdirectory src, such that src contains the subdirectory with the name arelle. Then install the package by going to the root of the arelle project, where the setup.py file is, and execute::
-
-  pip install -e . --user
-
-The requirements.txt file contains the data-patterns package we need to evaluate the rules. Check with 'pip list' that the package is installed. Otherwise install the data-patterns package via::
-
-  pip install data-patterns
-
-(this installs the package from pypi.org)
-
-*Continue at 'Changes to the Arelle package' -->*
+  pip install -e .
 
 Offline installation
 --------------------
 
 We included all the required packages in the project, so you should be able to do an offline installation. Make sure you have at least Anaconda 5.3.1 installed.
 
-To do an offline installation you need some files from the internet downloaded in advance: 
-
-* the zip file with the data-quality-rules repository from https://github.com/DeNederlandscheBank/data-quality-rules.git;
-
-* the zip file with the data-patterns repository from https://github.com/DeNederlandscheBank/data-patterns.git; and 
+To do an offline installation you need some files from internet downloaded in advance: 
 
 * the zip files with the taxonomy and example instances from the EIOPA website (https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip; and https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip)
 
@@ -109,32 +89,19 @@ Then install the following packages::
 
 (if you get an error you need to copy the required packages from Internet)
 
-Make sure you are in the root of the cloned project. Then install the remaining packages in pkgs/.::
+Make sure you are in the root of the cloned project. Then install the project with the packages in pkgs/.::
 
-  pip install -r requirements.txt --no-index --find-links pkgs/
-
-Then unzip the file pkgs/arelle-1.0.0.zip to the subdirectory src, such that src contains the subdirectory with the name arelle.
-
-And install the package by going to the root of the arelle project, where the setup.py file is, and execute::
-
-  pip install -e . --user
-
-Install data-patterns repository
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Then install the data_patterns package. Make sure you have the zip file from https://github.com/DeNederlandscheBank/data-patterns.git. Extract the zip file to the desired location, go to the root of the repo and execute::
-
-  pip install -e .
+  pip install -e . --no-index --find-links pkgs/
 
 Copy taxonomy and instance files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Copy the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples (both zip files) to the directory data/downloaded files.
 
-Changes to the Arelle package
+The Arelle package
 =============================
 
-To improve performance change in src/arelle/arelle/FormulaEvaluator.py the function factsPartitions(xpCtx, facts, aspects) to::
+The code uses a fork of the arelle package at github.com/DeNederlandscheBank/arelle. To improve performance we changed in arelle/arelle/FormulaEvaluator.py the function factsPartitions(xpCtx, facts, aspects) to::
 
   def factsPartitions(xpCtx, facts, aspects):
       contexts_dict = dict()
@@ -145,7 +112,7 @@ To improve performance change in src/arelle/arelle/FormulaEvaluator.py the funct
               contexts_dict[fact.context].append(fact)
       return list(contexts_dict.values())
 
-*This only works for EIOPA taxonomies, but not in general!*
+*This only works for EIOPA and FTK taxonomies, but not in general!*
 
 Installing taxonomy and example instance files
 ==============================================
