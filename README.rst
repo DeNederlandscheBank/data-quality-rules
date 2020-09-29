@@ -5,6 +5,9 @@ data-quality-rules
 .. image:: https://img.shields.io/github/release/DeNederlandscheBank/solvency2-rules.svg
            :target: https://github.com/DeNederlandscheBank/data-quality-rules/releases/
            :alt: Github release
+.. image:: https://img.shields.io/travis/DeNederlandscheBank/data-patterns.svg
+        :target: https://travis-ci.org/DeNederlandscheBank/data-patterns
+        :alt: Build Status
 .. image:: https://img.shields.io/badge/License-MIT/X-blue.svg
         :target: https://github.com/DeNederlandscheBank/data-quality-rules/blob/master/LICENSE
         :alt: License
@@ -106,11 +109,17 @@ Copy the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples
 Installing taxonomy and example instance files
 ==============================================
 
-Go to submap data/ and execute::
+For Solvency 2 execute (in the root of the project)::
 
-  python solvency2_data.py
+  python src/solvency2_data.py
 
 This downloads the Solvency 2 XBRL taxonomy 2.4 and the corresponding example instance files and extracts them in the proper directories.
+
+For FTK, execute (in the root of the project)::
+
+  python src/ftk_data.py
+
+This downloads the FTK taxonomy and the corresponding example instance files and extracts them in the proper directories.
 
 
 Contributing
