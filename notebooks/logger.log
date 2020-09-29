@@ -6406,3 +6406,88 @@ ERROR:Closed definition node s2md_c8968 does not contribute at least one structu
 INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.05.html
 INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.06.html
 INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\T.99.01.01.01.html
+INFO:[FileNotFoundError] [Errno 2] No such file or directory: 'H:\\30_code\\python\\data-quality-rules\\data\\taxonomies\\FTK Taxonomy 2.1.0_tcm46-386386.zip'
+WARNING:Packages overlap the same rewrite start string http://www.eurofiling.info/
+WARNING:Packages overlap the same rewrite start string http://www.xbrl.org/
+INFO:Formula xpath2 grammar initialized in 0,92 secs
+INFO:... formula parameter checks 1,214 secs
+
+INFO:... custom function checks and compilation 1,376 secs
+
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.01.01.02.01.csv and .pickle
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.01.02.01.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.02.01.02.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.05.01.02.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.05.01.02.02.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.06.02.01.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.06.02.01.02.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.06.03.01.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.08.01.01.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.08.01.01.02.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.08.02.01.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.08.02.01.02.csv and .pickle
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.12.01.02.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.17.01.02.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.23.01.01.01.csv and .pickle
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.23.01.01.02.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.01.01.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.01.01.02.csv and .pickle
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.01.01.03.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.01.01.04.csv and .pickle
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.01.01.05.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.01.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.02.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.03.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.04.csv and .pickle
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.05.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.06.csv and .pickle
+INFO: ... saved output ..\tests\data\test_instances\actual\qrs_240_instance\T.99.01.01.01.csv and .pickle
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.01.01.02.01.html
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.01.02.01.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.02.01.02.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.05.01.02.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.05.01.02.02.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.06.02.01.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.06.02.01.02.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.06.03.01.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.08.01.01.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.08.01.01.02.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.08.02.01.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.08.02.01.02.html
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.12.01.02.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.17.01.02.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.23.01.01.01.html
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.23.01.01.02.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.01.01.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.01.01.02.html
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.01.01.03.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.01.01.04.html
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.01.01.05.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.01.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.02.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.03.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.04.html
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.05.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.06.html
+INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\T.99.01.01.01.html

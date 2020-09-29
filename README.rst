@@ -2,7 +2,7 @@
 data-quality-rules
 ==================
 
-.. image:: https://img.shields.io/github/release/DeNederlandscheBank/solvency2-rules.svg
+.. image:: https://img.shields.io/github/release/DeNederlandscheBank/data-quality-rules.svg
            :target: https://github.com/DeNederlandscheBank/data-quality-rules/releases/
            :alt: Github release
 .. image:: https://img.shields.io/travis/DeNederlandscheBank/data-quality-rules.svg
