@@ -17,39 +17,55 @@ import shutil
 from pathlib import Path
 from tqdm import tqdm
 from sys import platform as _platform
-import re
 
 # variables
-url = 'https://www.dnb.nl/binaries/'
+make_folder = True
 
-path_zipfiles = join('downloaded files')
+url_taxo = 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/'
+url_inst = 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/'
 
-name_zipfile_taxo = join('FTK Taxonomy 2.1.0_tcm46-386386.zip')
-path_zipfile_taxo = join('taxonomy', 'arelle', 'cache', 'http')
-extension_taxo = join('Taxonomy')
+name_zipfile_taxo = 'EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip'
+name_zipfile_inst = 'EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip'
+extension_inst =  join('EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0', 'random')
 
-name_zipfile_inst = join('FTK Sample Intances 2.1.0_tcm46-386385.zip')
-path_zipfile_inst = join('.', 'instances')
+path_zipfiles = join('.', 'data', 'downloaded files')
+path_zipfile_inst = join('.', 'data', 'instances')
+path_zipfile_taxo = join('.', 'data', 'taxonomies')
+
+@click.command()
 
 def main():
-    logger = logging.getLogger(__name__)
 
+    logger = logging.getLogger(__name__)
     logger.info("Platform %s", str(_platform))
 
-    logger.info("Extracting example instance files from %s", url)
-    extract(url, name_zipfile_inst, path_zipfiles)
+    if not os.path.exists(path_zipfile_taxo):
+        make_path(path_zipfile_taxo)
+    if not os.path.exists(path_zipfile_inst):
+        make_path(path_zipfile_inst)
+
+    logger.info("Extracting example instance files from %s", url_inst)
+    extract(url_inst, name_zipfile_inst, path_zipfiles)
 
     logger.info("Moving example instance files to %s", path_zipfile_inst)
-    move_files(path_zipfiles, path_zipfile_inst, '\.XBRL')
+    move_files(join(path_zipfiles, extension_inst), path_zipfile_inst)
 
-    logger.info("Extracting taxonomy from %s", url)
-    extract(url, name_zipfile_taxo, path_zipfiles)
-
-    logger.info("Moving taxonomy files to %s", path_zipfile_taxo)
-    move_files(join(path_zipfiles, extension_taxo), path_zipfile_taxo)
+    if not os.path.isfile(join(path_zipfile_taxo, name_zipfile_taxo)):
+        if os.path.isfile(join(path_zipfiles, name_zipfile_taxo)):
+            logger.info('Zip file %s exists, using this one' % str(name_zipfile_taxo))
+        else:
+            logger.info('Zip file %s does not exists, downloading from Internet' % str(name_zipfile_taxo))
+            r = requests.get(join(url_inst, name_zipfile_taxo))
+            output = open(join(path_zipfiles, name_zipfile_taxo), "wb")
+            output.write(r.content)
+            output.close()
+        logger.info("Moving taxonomy to %s", path_zipfile_taxo)
+        shutil.copy(join(path_zipfiles, name_zipfile_taxo), path_zipfile_taxo)
+    else:
+        logger.info("taxonomy already exists")
 
     logger.info("Cleaning up files in %s", path_zipfiles)
-    shutil.rmtree(winapi_path(join(path_zipfiles, 'Taxonomy')))
+    shutil.rmtree(winapi_path(join(path_zipfiles, name_zipfile_inst[:-4])))
 
     logger.info("Thank you for waiting!")
 
@@ -85,7 +101,7 @@ def extract(url_inst, name_zipfile, path_zipfile):
         z = ZipfileLongPaths(join(path_zipfile, name_zipfile))
     else:
         logger.info('Zip file %s does not exists, downloading from Internet' % str(name_zipfile))
-        r = requests.get(url_inst + name_zipfile)
+        r = requests.get(join(url_inst, name_zipfile))
         output = open(join(path_zipfile, name_zipfile), "wb")
         output.write(r.content)
         output.close()
@@ -98,12 +114,9 @@ def extract(url_inst, name_zipfile, path_zipfile):
     z.close()
 
 # Move files examples
-def move_files(source, dest1, file_ext = None):
+def move_files(source, dest1):
     files = os.listdir(source)
     for f in files:
-        if file_ext:
-            if not re.search(file_ext,f):
-                continue
         if not os.path.exists(join(dest1, f)):
             shutil.move(join(source, f), dest1)
 

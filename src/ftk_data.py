@@ -17,56 +17,36 @@ import shutil
 from pathlib import Path
 from tqdm import tqdm
 from sys import platform as _platform
+import re
 
 # variables
-make_folder = True
+url = 'https://www.dnb.nl/binaries/'
 
-url_taxo = 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/'
-url_inst = 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/'
+path_zipfiles = join('.', 'data', 'downloaded files')
+extension_taxo = join('.', 'data', 'taxonomies')
+path_zipfile_inst = join('.', 'data', 'instances')
+path_zipfile_taxo = join('.', 'data', 'taxonomies')
 
-path_zipfiles = join('downloaded files')
-
-name_zipfile_taxo = 'EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip'
-
-name_zipfile_inst = 'EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip'
-path_zipfile_inst = join('.', 'instances')
-extension_inst =  join('EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0', 'random')
-
-path_zipfile_taxo = join('.', 'taxonomies')
-
-@click.command()
+name_zipfile_taxo = join('FTK Taxonomy 2.1.0_tcm46-386386.zip')
+name_zipfile_inst = join('FTK Sample Intances 2.1.0_tcm46-386385.zip')
 
 def main():
 
     logger = logging.getLogger(__name__)
     logger.info("Platform %s", str(_platform))
 
-    # Delete content if there is content
-    # if delete_old_files == 'Y':
-    #     if os.path.exists(path_zipfile_taxo):
-    #         logger.info("Deleting files in %s (this might take a while)", path_zipfile_taxo)
-    #         shutil.rmtree(winapi_path(path_zipfile_taxo))
-    #     if os.path.exists(path_zipfile_inst):
-    #         logger.info("Deleting files in %s", path_zipfile_inst)
-    #         shutil.rmtree(path_zipfile_inst)
-
-    if not os.path.exists(path_zipfile_taxo):
-        make_path(path_zipfile_taxo)
-    if not os.path.exists(path_zipfile_inst):
-        make_path(path_zipfile_inst)
-
-    logger.info("Extracting example instance files from %s", url_inst)
-    extract(url_inst, name_zipfile_inst, path_zipfiles)
+    logger.info("Extracting example instance files from %s", url)
+    extract(url, name_zipfile_inst, path_zipfiles)
 
     logger.info("Moving example instance files to %s", path_zipfile_inst)
-    move_files(join(path_zipfiles, extension_inst), path_zipfile_inst)
+    move_files(path_zipfiles, path_zipfile_inst, '\.XBRL')
 
     if not os.path.isfile(join(path_zipfile_taxo, name_zipfile_taxo)):
         if os.path.isfile(join(path_zipfiles, name_zipfile_taxo)):
             logger.info('Zip file %s exists, using this one' % str(name_zipfile_taxo))
         else:
             logger.info('Zip file %s does not exists, downloading from Internet' % str(name_zipfile_taxo))
-            r = requests.get(url_inst + name_zipfile_taxo)
+            r = requests.get(join(url, name_zipfile_taxo))
             output = open(join(path_zipfiles, name_zipfile_taxo), "wb")
             output.write(r.content)
             output.close()
@@ -75,8 +55,8 @@ def main():
     else:
         logger.info("taxonomy already exists")
 
-    logger.info("Cleaning up files in %s", path_zipfiles)
-    shutil.rmtree(winapi_path(join(path_zipfiles, 'EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0')))
+    # logger.info("Cleaning up files in %s", path_zipfiles)
+    # shutil.rmtree(winapi_path(join(path_zipfiles, name_zipfile_inst)))
 
     logger.info("Thank you for waiting!")
 
@@ -105,14 +85,14 @@ def make_path(path_zipfile):
         os.makedirs(path_zipfile)
 
 # Extract files
-def extract(url_inst, name_zipfile, path_zipfile):
+def extract(url, name_zipfile, path_zipfile):
     logger = logging.getLogger(__name__)
     if os.path.isfile(join(path_zipfile, name_zipfile)):
         logger.info('Zip file %s exists, using this one' % str(name_zipfile))
         z = ZipfileLongPaths(join(path_zipfile, name_zipfile))
     else:
         logger.info('Zip file %s does not exists, downloading from Internet' % str(name_zipfile))
-        r = requests.get(url_inst + name_zipfile)
+        r = requests.get(join(url, name_zipfile))
         output = open(join(path_zipfile, name_zipfile), "wb")
         output.write(r.content)
         output.close()
@@ -125,11 +105,16 @@ def extract(url_inst, name_zipfile, path_zipfile):
     z.close()
 
 # Move files examples
-def move_files(source, dest1):
+def move_files(source, dest1, file_ext = None):
     files = os.listdir(source)
     for f in files:
+        if file_ext:
+            if not re.search(file_ext,f):
+                continue
         if not os.path.exists(join(dest1, f)):
             shutil.move(join(source, f), dest1)
+        else:
+            os.remove(join(source, f))
 
 if __name__ == '__main__':
     log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
