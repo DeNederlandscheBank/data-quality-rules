@@ -6491,3 +6491,350 @@ ERROR:Closed definition node s2md_c8968 does not contribute at least one structu
 INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.05.html
 INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\S.28.02.01.06.html
 INFO:Saved output HTML to ..\tests\data\test_instances\actual\qrs_240_instance\T.99.01.01.01.html
+WARNING:Packages overlap the same rewrite start string http://www.eurofiling.info/
+WARNING:Packages overlap the same rewrite start string http://www.xbrl.org/
+INFO:Formula xpath2 grammar initialized in 0,90 secs
+INFO:... formula parameter checks 1,264 secs
+
+INFO:... custom function checks and compilation 1,356 secs
+
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... directory ..\data\instances\actual\qrs_240_instance created
+INFO: ... saved output ..\data\instances\actual\qrs_240_instance\S.01.01.02.01.csv and .pickle
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\actual\qrs_240_instance\S.01.02.01.01.csv and .pickle
+WARNING:Packages overlap the same rewrite start string http://www.eurofiling.info/
+WARNING:Packages overlap the same rewrite start string http://www.xbrl.org/
+INFO:Formula xpath2 grammar initialized in 0,91 secs
+INFO:... formula parameter checks 1,215 secs
+
+INFO:... custom function checks and compilation 1,356 secs
+
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... directory ..\data\instances\qrs_240_instance created
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.01.01.02.01.csv and .pickle
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.01.02.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.02.01.02.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.05.01.02.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.05.01.02.02.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.06.02.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.06.02.01.02.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.06.03.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.08.01.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.08.01.01.02.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.08.02.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.08.02.01.02.csv and .pickle
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.12.01.02.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.17.01.02.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.23.01.01.01.csv and .pickle
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.23.01.01.02.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.01.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.01.01.02.csv and .pickle
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.01.01.03.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.01.01.04.csv and .pickle
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.01.01.05.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.02.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.03.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.04.csv and .pickle
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.05.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.06.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\T.99.01.01.01.csv and .pickle
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.01.01.02.01.html
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.01.02.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.02.01.02.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.05.01.02.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.05.01.02.02.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.06.02.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.06.02.01.02.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.06.03.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.08.01.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.08.01.01.02.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.08.02.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.08.02.01.02.html
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.12.01.02.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.17.01.02.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.23.01.01.01.html
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.23.01.01.02.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.01.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.01.01.02.html
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.01.01.03.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.01.01.04.html
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.01.01.05.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.02.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.03.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.04.html
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.05.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.06.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\T.99.01.01.01.html
+INFO:... custom function checks and compilation 1,717 secs
+
+INFO:... parameter checks and select evaluation 2,742 secs
+
+INFO: ... directory ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL created
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF001-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF001-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF002.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF003.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF004.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF005.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF006-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF006-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF006-3.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF006-4.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF006-5.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF006-6.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.APF006-7.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.HBT.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-10.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-11.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-12.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-3.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-4.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-5.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-6.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-7.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-8.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J101-9.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J102-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J102-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J102-3.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-10.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-11.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-12.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-13.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-14.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-3.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-4.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-5.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-6.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-7.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-8.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J301-9.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-10.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-11.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-12.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-3.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-4.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-5.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-6.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-7.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-8.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J302-9.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J307.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J309-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J309-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J311.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J312-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J312-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J401.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J402-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J402-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J402-3.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J402-4.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J402-5.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J403-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J403-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J403-3.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J403-4.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J403-5.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J403-6.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J501.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J502-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J502-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J502-3.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J503.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J601-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J601-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J601-3.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J601-4.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J601-5.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-ALL\FTK.J603.csv and .pickle
+INFO:... formula parameter checks 2,040 secs
+
+INFO: ... directory ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL created
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K000.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K050.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K101-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K101-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K201-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K201-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K202.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K203.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K204.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K205.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K206.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K207.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K208A.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K208B.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K209A.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K209B.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K210A.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K210B.csv and .pickle
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K000.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K050.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K101-1.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K101-2.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K201-1.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K201-2.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K202.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K203.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K204.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K205.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K206.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K207.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K208A.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K208B.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K209A.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K209B.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K210A.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K210B.html
+INFO:... formula parameter checks 1,956 secs
+
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K000.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K050.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K101-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K101-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K201-1.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K201-2.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K202.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K203.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K204.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K205.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K206.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K207.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K208A.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K208B.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K209A.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K209B.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K210A.csv and .pickle
+INFO: ... saved output ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\FTK.K210B.csv and .pickle
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K000.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K050.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K101-1.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K101-2.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K201-1.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K201-2.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K202.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K203.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K204.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K205.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K206.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K207.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K208A.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K208B.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K209A.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K209B.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K210A.html
+INFO:Saved output HTML to ..\data\instances\DNB-NR_FTK-2019-06_2019-12-31_MOD_FTK-BEL\K210B.html
+WARNING:Packages overlap the same rewrite start string http://www.eurofiling.info/
+WARNING:Packages overlap the same rewrite start string http://www.xbrl.org/
+INFO:Formula xpath2 grammar initialized in 0,92 secs
+INFO:... formula parameter checks 1,246 secs
+
+INFO:... custom function checks and compilation 1,336 secs
+
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.01.01.02.01.csv and .pickle
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.01.02.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.02.01.02.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.05.01.02.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.05.01.02.02.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.06.02.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.06.02.01.02.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.06.03.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.08.01.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.08.01.01.02.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.08.02.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.08.02.01.02.csv and .pickle
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.12.01.02.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.17.01.02.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.23.01.01.01.csv and .pickle
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.23.01.01.02.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.01.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.01.01.02.csv and .pickle
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.01.01.03.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.01.01.04.csv and .pickle
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.01.01.05.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.01.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.02.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.03.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.04.csv and .pickle
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.05.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\S.28.02.01.06.csv and .pickle
+INFO: ... saved output ..\data\instances\qrs_240_instance\T.99.01.01.01.csv and .pickle
+ERROR:Closed definition node s2md_c74 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.01.01.02.01.html
+ERROR:Closed definition node s2md_c499 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.01.02.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.02.01.02.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.05.01.02.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.05.01.02.02.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.06.02.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.06.02.01.02.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.06.03.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.08.01.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.08.01.01.02.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.08.02.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.08.02.01.02.html
+ERROR:Closed definition node s2md_c2703 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2707 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c2714 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.12.01.02.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.17.01.02.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.23.01.01.01.html
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c4300 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.23.01.01.02.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.01.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.01.01.02.html
+ERROR:Closed definition node s2md_c8902 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.01.01.03.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.01.01.04.html
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c8912 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.01.01.05.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.01.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.02.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.03.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.04.html
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+ERROR:Closed definition node s2md_c8968 does not contribute at least one structural node
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.05.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\S.28.02.01.06.html
+INFO:Saved output HTML to ..\data\instances\qrs_240_instance\T.99.01.01.01.html
