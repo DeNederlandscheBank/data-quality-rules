@@ -1,8 +1,9 @@
 from setuptools import find_packages, setup
 
 setup(
-    name = 'data-quality-rules',
-    packages = find_packages(include = ['src', 'src.*']),
+    name='data-quality-rules',
+    packages=find_packages(include = ['src', 'src.*']),
+    include_package_data=True,    
     version='0.1.0',
     description='Data Quality Rules for Solvency 2 and FTK',
     author='DeNederlandscheBank',

@@ -1,14 +1,12 @@
 language: python
 
 python:
-  - 3.6
+  - "3.6"
 
 branches:
   only:
   - master
   - develop
-
-  matrix:
 
 # Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install: pip install -U tox-travis
