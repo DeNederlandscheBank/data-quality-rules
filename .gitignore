@@ -12,7 +12,6 @@ nosetests.xml
 .filing_cache
 .xbrl_rss_cache
 www.sec.gov
-dist/*
 notebooks/temp/*
 notebooks/*.log
 notebooks/.ipynb_checkpoints/*
@@ -21,6 +20,10 @@ notebooks/.ipynb_checkpoints/*
 *.egg
 
 *.log
+
+.tox/
+build/
+dist/
 
 # exclude taxonomies
 /data/taxonomies/arelle/*
