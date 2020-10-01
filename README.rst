@@ -2,9 +2,12 @@
 data-quality-rules
 ==================
 
-.. image:: https://img.shields.io/github/release/DeNederlandscheBank/solvency2-rules.svg
+.. image:: https://img.shields.io/github/release/DeNederlandscheBank/data-quality-rules.svg
            :target: https://github.com/DeNederlandscheBank/data-quality-rules/releases/
            :alt: Github release
+.. image:: https://img.shields.io/travis/DeNederlandscheBank/data-quality-rules.svg
+        :target: https://travis-ci.org/DeNederlandscheBank/data-quality-rules
+        :alt: Build Status
 .. image:: https://img.shields.io/badge/License-MIT/X-blue.svg
         :target: https://github.com/DeNederlandscheBank/data-quality-rules/blob/master/LICENSE
         :alt: License
@@ -47,25 +50,9 @@ And activate the environment::
 
   conda activate your_env_name
 
-Make sure you are in the root of the cloned project. Install the required packages::
+Make sure you are in the root of the cloned project. Install the code and the required packages::
 
-  pip install -r requirements.txt
-
-Then install the Arelle package::
-
-  pip install -e git+https://git@github.com/arelle/arelle.git@master#egg=Arelle --user
-
-If this doesn't work, unzip the file pkgs/arelle-1.0.0.zip to the subdirectory src, such that src contains the subdirectory with the name arelle. Then install the package by going to the root of the arelle project, where the setup.py file is, and execute::
-
-  pip install -e . --user
-
-The requirements.txt file contains the data-patterns package we need to evaluate the rules. Check with 'pip list' that the package is installed. Otherwise install the data-patterns package via::
-
-  pip install data-patterns
-
-(this installs the package from pypi.org)
-
-*Continue at 'Changes to the Arelle package' -->*
+  pip install -e .
 
 Offline installation
 --------------------
@@ -76,9 +63,8 @@ To do an offline installation you need some files from the internet downloaded i
 
 * the zip file with the data-quality-rules repository from https://github.com/DeNederlandscheBank/data-quality-rules.git;
 
-* the zip file with the data-patterns repository from https://github.com/DeNederlandscheBank/data-patterns.git; and 
-
 * the zip files with the taxonomy and example instances from the EIOPA website (https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip; and https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip)
+
 
 Install data-quality-rules repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -107,56 +93,34 @@ Then install the following packages::
 
   conda install pkgs/setuptools-40.6.3-py36_0.tar.bz2
 
-(if you get an error you need to copy the required packages from Internet)
+(if you get an error you need to copy the required packages from internet)
 
-Make sure you are in the root of the cloned project. Then install the remaining packages in pkgs/.::
+Make sure you are in the root of the cloned project. Then install the project with the packages in pkgs/.::
 
-  pip install -r requirements.txt --no-index --find-links pkgs/
+  pip install -e . --no-index --find-links pkgs/
 
-Then unzip the file pkgs/arelle-1.0.0.zip to the subdirectory src, such that src contains the subdirectory with the name arelle.
-
-And install the package by going to the root of the arelle project, where the setup.py file is, and execute::
-
-  pip install -e . --user
-
-Install data-patterns repository
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Then install the data_patterns package. Make sure you have the zip file from https://github.com/DeNederlandscheBank/data-patterns.git. Extract the zip file to the desired location, go to the root of the repo and execute::
-
-  pip install -e .
 
 Copy taxonomy and instance files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Copy the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples (both zip files) to the directory data/downloaded files.
 
-Changes to the Arelle package
-=============================
-
-To improve performance change in src/arelle/arelle/FormulaEvaluator.py the function factsPartitions(xpCtx, facts, aspects) to::
-
-  def factsPartitions(xpCtx, facts, aspects):
-      contexts_dict = dict()
-      for fact in facts:
-          if fact.context not in contexts_dict.keys():
-              contexts_dict[fact.context] = [fact]
-          else:
-              contexts_dict[fact.context].append(fact)
-      return list(contexts_dict.values())
-
-*This only works for EIOPA taxonomies, but not in general!*
 
 Installing taxonomy and example instance files
 ==============================================
 
-Go to submap data/ and execute::
+For Solvency 2 execute (in the root of the project)::
 
-  python solvency2_data.py
+  python src/solvency2_data.py
 
 This downloads the Solvency 2 XBRL taxonomy 2.4 and the corresponding example instance files and extracts them in the proper directories.
 
-The FTK taxonomy is not yet automatically downloaded, but you can download the zip-file and extract it, and then copy the files to data/taxonomy/arelle/cache/http. You can use both taxonomies at the same time. Some files in the FTK taxonomy already exists in the Solvency 2 taxonomy; you do not need to replace these.
+For FTK, execute (in the root of the project)::
+
+  python src/ftk_data.py
+
+This downloads the FTK taxonomy and the corresponding example instance files and extracts them in the proper directories.
+
 
 Contributing
 ============

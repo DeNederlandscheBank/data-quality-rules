@@ -1,15 +1,15 @@
 language: python
+
 python:
   - "3.6"
+
 branches:
   only:
   - master
-  - /v.*/
-env:
-  global:
-    - EXPECTED=./tests/output
-    - CURDIR=$(pwd)
+  - develop
 
-  matrix:
-install:
-  - pip install -r requirements.txt
+# Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
+install: pip install -U tox-travis
+
+# Command to run tests, e.g. python setup.py test
+script: tox

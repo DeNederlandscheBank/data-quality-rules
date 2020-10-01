@@ -114,13 +114,17 @@ class GenerateCSVTables(object):
                 index_names = []
                 for item in list(self.modelTable.modelXbrl.relationshipSet((XbrlConst.tableBreakdown)).fromModelObject(self.modelTable)):
                     if len(item.toModelObject.definitionLabelsView) == 4:
-                        index_names.append(self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode))
+                        if self.FTK:
+                            index_names.append("FTK." + self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode))
+                        else:
+                            index_names.append(self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode))
                         self.z_axis = True
 
                 # self.modelXbrl.modelManager.addToLog(" ... filling table content")
                 df = pd.DataFrame(index = pd.MultiIndex.from_tuples((), names=['entity', 'period'] + index_names))
                 self.extract_content(self.dataFirstRow, yTopNode, xNodes, zAspectNodes, df)
-
+                df = df[df.columns.sort_values()]
+                
             if not df.empty:
                 path_name = os.path.join(results_path if results_path else '.')
                 if not os.path.exists(path_name):
