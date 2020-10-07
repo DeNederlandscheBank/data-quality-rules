@@ -9,12 +9,15 @@ import logging
 
 
 class Evaluator:
-    def __init__(self, df_data, df_rules, df_datapoints, parameters):
+    def __init__(self, df_rules, df_datapoints, parameters):
 
-        self.data_templates = df_data.columns.str[:13].tolist()
+        self.entrypoint_templates = sorted(list(df_datapoints['tabelcode'].unique()))
+        self.entrypoint_datapoints = sorted(list((df_datapoints['tabelcode'] + "," +
+                                                  df_datapoints['rij'] + "," +
+                                                  df_datapoints['kolom']
+                                                  ).str.replace(",,", ",")))
         self.df_rules = self.pre_process_rules(df_rules)
-        self.df_patterns = self.process_rules(df_data.columns, df_datapoints, parameters)
-        self.df_results = self.evaluate_rules(df_data)
+        self.df_patterns = self.process_rules(df_datapoints, parameters)
 
     def datapoints2pandas(self, s):
         """Transform EVA2 datapoints to Python Pandas datapoints by making letters uppercase"""
@@ -27,7 +30,7 @@ class Evaluator:
 
     def replace_and_or(self, s):
         """Replace and by & and or by |, but not within strings"""
-        if re.search(r"(.*?)\"(.*?)\"(.*)", s) is None: # input text does not contain strings
+        if re.search(r"(.*?)\"(.*?)\"(.*)", s) is None:  # input text does not contain strings
             s = s.replace("OR", "|")
             s = s.replace("AND", "&")
         for item in re.findall(r"(.*?)\"(.*?)\"(.*)", s):
@@ -103,7 +106,7 @@ class Evaluator:
 
         return expressions, invalid_expressions
 
-    def process_rules(self, columns, df_datapoints, parameters):
+    def process_rules(self, df_datapoints, parameters):
         """Evaluate all rules and stores the result in df_rules"""
         logger = logging.getLogger(__name__)
 
@@ -115,13 +118,15 @@ class Evaluator:
             rule_name = self.df_rules.index[idx]
             datapoints = self.df_rules.loc[row, 'datapoints'].copy()
             templates = self.df_rules.loc[row, 'templates']
+            self.df_rules['Rijen'] = self.df_rules['Rijen'].astype(str)
+            self.df_rules['Kolommen'] = self.df_rules['Kolommen'].astype(str)
             row_range = self.df_rules.loc[row, 'Rijen'].replace("(", "").replace(")", "").replace(",", ";").split(";")
             column_range = self.df_rules.loc[row, 'Kolommen'].replace("(", "").replace(")", "").replace(",", ";").split(";")
 
             # are the templates in the rule in the instance?
             templates_not_found = []
             for template in templates:
-                if template not in self.data_templates:
+                if template not in self.entrypoint_templates:
                     templates_not_found.append(template)
 
             if templates_not_found == []:
@@ -129,11 +134,11 @@ class Evaluator:
                 expansion_dict = {}
                 # are the datapoints in the rule in the instance?
                 for datapoint in datapoints:
-                    if datapoint not in columns: # if datapoint is not there, see if we need to add rows or columns
+                    if datapoint not in self.entrypoint_datapoints:  # if datapoint is not there, see if we need to add rows or columns
                         new_list = []
                         if datapoint[14] == "C" and (len(row_range) > 1 or row_range[0].upper() == "ALL"):
                             if len(row_range) == 1 and row_range[0].upper() == "ALL":
-                                for col in columns:
+                                for col in self.entrypoint_datapoints:
                                     reg = re.search(datapoint[0:14] + "R....," + datapoint[14:],col)  # do for all rows if necessary
                                     if reg:
                                         new_list.append(reg.group(0))
@@ -156,7 +161,7 @@ class Evaluator:
                                     new_list.append(datapoint[0:14] + r + "," + datapoint[14:])
                         if datapoint[14] == "R" and(len(column_range) > 1 or column_range[0].upper() == "ALL"):
                             if len(column_range) == 1 and column_range[0].upper() == "ALL":
-                                for col in columns:
+                                for col in self.entrypoint_datapoints:
                                     reg = re.search(datapoint + ",C....", col)  # do for all columns if necessary
                                     if reg:
                                         new_list.append(reg.group(0))
@@ -193,11 +198,11 @@ class Evaluator:
                     self.df_rules.loc[row, 'n_patterns'] = len(rule_expressions)
                     logger.info("Rule " + row + ", " + str(len(rule_expressions)) + " pattern(s) generated")
                 else:
-                    #expression = rule_original
+                    # expression = rule_original
                     self.df_rules.loc[row, 'error'] = 'missing datapoint(s): ' + str(datapoints_not_found)
                     logger.warning("Rule " + row + ", " + self.df_rules.loc[row, 'error'])
             else:
-                #expression = rule_original
+                # expression = rule_original
                 self.df_rules.loc[row, 'error'] = 'missing template(s): ' + str(templates_not_found)
                 logger.warning("Rule " + row + ", " + self.df_rules.loc[row, 'error'])
 
@@ -205,10 +210,3 @@ class Evaluator:
         df_patterns.index.name = 'index'
 
         return df_patterns
-
-    def evaluate_rules(self, df_data):
-
-        miner = data_patterns.PatternMiner(df_patterns=self.df_patterns)
-        df_results = miner.analyze(df_data)
-
-        return df_results
