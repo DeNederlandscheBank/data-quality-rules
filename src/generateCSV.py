@@ -75,6 +75,7 @@ class GenerateCSVTables(object):
         self.xAxisChildrenFirst = nonTkBooleanVar(value=True)
         self.yAxisChildrenFirst = nonTkBooleanVar(value=False)
 
+
     def generate(self, results_path = None, table = None):
         # generate for one table_uri is it is given, otherwise all available table_uris
         if table is not None:
@@ -111,17 +112,18 @@ class GenerateCSVTables(object):
                                 yTopNode, self.yAxisChildrenFirst.get(), True)
 
                 # derive index names directly from taxonomy
-                index_names = []
+                self.index_names = {}
                 for item in list(self.modelTable.modelXbrl.relationshipSet((XbrlConst.tableBreakdown)).fromModelObject(self.modelTable)):
                     if len(item.toModelObject.definitionLabelsView) == 4:
+                        xlinkLabel = item.toModelObject.xlinkLabel
                         if self.FTK:
-                            index_names.append("FTK." + self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode))
+                            self.index_names[xlinkLabel] = "FTK." + self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode)
                         else:
-                            index_names.append(self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode))
+                            self.index_names[xlinkLabel] = self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode)
                         self.z_axis = True
 
                 # self.modelXbrl.modelManager.addToLog(" ... filling table content")
-                df = pd.DataFrame(index = pd.MultiIndex.from_tuples((), names=['entity', 'period'] + index_names))
+                df = pd.DataFrame(index = pd.MultiIndex.from_tuples((), names=['entity', 'period'] + list(self.index_names.values())))
                 self.extract_content(self.dataFirstRow, yTopNode, xNodes, zAspectNodes, df)
                 df = df[df.columns.sort_values()]
                 
@@ -141,11 +143,9 @@ class GenerateCSVTables(object):
                 self.modelXbrl.modelManager.addToLog(" ... empty dataframe, no csv-file saved")
 
         return self
+
        
     def extract_indices(self, leftCol, row, yParentNode, childrenFirst, renderNow):
-
-        if row not in self.index_values.keys():
-            self.index_values[row] = []
 
         if yParentNode is not None:
             nestedBottomRow = row
@@ -157,13 +157,22 @@ class GenerateCSVTables(object):
                                not isinstance(yNode.definitionNode, (ModelClosedDefinitionNode, ModelEuAxisCoord))))
                 isNonAbstract = not isAbstract
                 isLabeled = yNode.isLabeled
-                topRow = row
+                if childrenFirst and isNonAbstract:
+                    row = nextRow
                 if renderNow and isLabeled:
+                    xlinkLabel = yNode.definitionNode.xlinkLabel
                     label = yNode.header(lang=self.lang,
                                          returnGenLabel=isinstance(yNode.definitionNode, ModelClosedDefinitionNode),
                                          recurseParent=not isinstance(yNode.definitionNode, ModelFilterDefinitionNode))
-                    #print ( "row {0} topRow {1} nxtRow {2} col {3} renderNow {4} label {5}".format(row, topRow, nextRow, leftCol, renderNow, label))
-                    self.index_values[row].append(label)
+                    # print ( "row {0} topRow {1} nxtRow {2} col {3} renderNow {4} label {5}".format(row, topRow, nextRow, leftCol, renderNow, label))
+                    if row not in self.index_values.keys():
+                        self.index_values[row] = {xlinkLabel: [label]}
+                    else:
+                        if xlinkLabel not in self.index_values[row].keys(): # only one value for one index level
+                            self.index_values[row][xlinkLabel] = [label]
+                        else:
+                            if self.index_values[row][xlinkLabel][0] != label:
+                                self.modelXbrl.modelManager.addToLog(_(" ... warning: two unequal values {0} for one index level {1}").format(label, str(self.index_values[row])))
 
                 if isNonAbstract:
                     row += 1
@@ -176,7 +185,8 @@ class GenerateCSVTables(object):
                 if not childrenFirst:
                     dummy, row = self.extract_indices(leftCol + 1, row, yNode, childrenFirst, renderNow) 
             return (nestedBottomRow, row)
-    
+
+
     def extract_zAxis(self, zNode, zAspectNodes, discriminatorsTable):
         if zNode is not None:
             effectiveNode = zNode
@@ -196,12 +206,14 @@ class GenerateCSVTables(object):
                         zAspectNodes[aspect].add(effectiveNode)
             for zNode in zNode.childStructuralNodes:
                 self.extract_zAxis(zNode, zAspectNodes, discriminatorsTable)
+
                             
     def extract_columns(self, xParent, xChilds):
         for xChild in xParent.childStructuralNodes:
             if not xChild.isAbstract:
                 xChilds.append(xChild)
             self.extract_columns(xChild, xChilds)
+
 
     def extract_content(self, row, yParent, xNodes, zAspectNodes, df):
 
@@ -296,6 +308,7 @@ class GenerateCSVTables(object):
                 row = self.extract_content(row, yNode, xNodes, zAspectNodes, df)
         return row
 
+
     def store_value(self, value, row, df, xNode, yNode, reporting_entity, reporting_period):
 
         # define verbose labels and row labels
@@ -324,7 +337,16 @@ class GenerateCSVTables(object):
                 self.FTK = True
             else:
                 column_name = str(self.tableLabel) + ","+ str(label_x).upper()
-            df.loc[tuple([reporting_entity, reporting_period] + self.index_values[row]), column_name] = value
+
+            idx_tuple = tuple([reporting_entity, reporting_period] + [l[0] for l in self.index_values[row].values()])
+
+            # print("index:  " + str(idx_tuple))
+            # print("column: " + str(column_name))
+            # print("value:  " + str(value))
+            # print("df:     " + str(df.index.names))
+
+            df.loc[idx_tuple, column_name] = value
+
         else:
             if len(label_x)==3:
                 column_name = "FTK." + str(self.tableLabel) + ",R" + str(label_y).upper() + ",C" + str(label_x).upper()
@@ -334,6 +356,7 @@ class GenerateCSVTables(object):
             df.loc[tuple([reporting_entity, reporting_period]), column_name] = value
 
         return None
+
 
 def parse_value(fact):
     '''Parse value to Python datatype
@@ -360,6 +383,7 @@ def parse_value(fact):
     elif concept.baseXbrliType == 'booleanItemType':
         return val.lower() in ('1', 'true')
     return val
+
 
 def get_label_list(relationship_set, concepts, relationship = None, lang = "en"):
     if relationship is None:
@@ -406,6 +430,7 @@ class Dimension(object):
             self._labels = labels
         return self._labels
 
+
 class ProcessXbrl(object):
     def __init__(self, modelXbrl, lang = "en"):
         self.modelXbrl = modelXbrl
@@ -450,11 +475,13 @@ class ProcessXbrl(object):
                 info = value
         return str(info)
 
+
 def saveCSVTablesMenuExtender(cntlr, menu, *args, **kwargs):
     # Extend menu with an item for the save infoset plugin
     menu.add_command(label="Save Solvency 2 CSV Tables", 
                      underline=0, 
                      command=lambda: saveCSVTablesMenuCommand(cntlr) )
+
 
 def saveCSVTablesMenuCommand(cntlr):
     # save Infoset menu item has been invoked
@@ -482,6 +509,7 @@ def saveCSVTablesMenuCommand(cntlr):
     thread.daemon = True
     thread.start()
 
+
 def saveCSVTablesCommandLineOptionExtender(parser, *args, **kwargs):
     # extend command line options with a save CSV Tables
     parser.add_option("--save-instance", 
@@ -489,10 +517,12 @@ def saveCSVTablesCommandLineOptionExtender(parser, *args, **kwargs):
                       dest="CSVTableset", 
                       help=_("Save Solvency 2 instance into CSV."))
 
+
 def saveCSVTablesCommandLineXbrlLoaded(cntlr, options, modelXbrl, *args, **kwargs):
     from arelle.ModelDocument import Type
     if getattr(options, "CSVTableset", None) and options.CSVTableset == "generateCSVFiles" and modelXbrl.modelDocument.type in (Type.TESTCASESINDEX, Type.TESTCASE):
         cntlr.modelManager.generateCSVFiles = True
+
 
 def saveCSVTablesCommandLineXbrlRun(cntlr, options, modelXbrl, *args, **kwargs):
     if getattr(options, "CSVTableset", None) and options.generateCSVFiles != "generateCSVFiles":
