@@ -172,7 +172,8 @@ class GenerateCSVTables(object):
                             self.index_values[row][xlinkLabel] = [label]
                         else:
                             if self.index_values[row][xlinkLabel][0] != label:
-                                self.modelXbrl.modelManager.addToLog(_(" ... warning: two unequal values {0} for one index level {1}").format(label, str(self.index_values[row])))
+                                self.modelXbrl.modelManager.addToLog(_(" ... warning: two unequal values {0} and {1} for one index level {2}").format(label, self.index_values[row][xlinkLabel][0], str(self.index_values[row])))
+                                self.index_values[row][xlinkLabel][0] = label
 
                 if isNonAbstract:
                     row += 1
