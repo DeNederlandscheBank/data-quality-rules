@@ -27,36 +27,49 @@ extension_taxo = join('.', 'data', 'taxonomies')
 path_zipfile_inst = join('.', 'data', 'instances')
 path_zipfile_taxo = join('.', 'data', 'taxonomies')
 
-name_zipfile_taxo = join('FTK Taxonomy 2.1.0_tcm46-386386.zip')
-name_zipfile_inst = join('FTK Sample Intances 2.1.0_tcm46-386385.zip')
-
+zipfilesets = {'FTK 2.1.0': {'taxonomy': 'FTK Taxonomy 2.1.0_tcm46-386386.zip',
+                             'instances': 'FTK Sample Intances 2.1.0_tcm46-386385.zip'},
+               'FTK 2.0.0': {'taxonomy': 'FTK Taxonomy 2.0.0_tcm46-385304.zip'},
+               'FTK 1.0.3': {'taxonomy': 'FTK Taxonomy 1.0.3_tcm46-380895.zip'},
+               'FTK 1.0.2': {'taxonomy': 'FTK Taxonomy 1.0.2_tcm46-378975.zip'},
+               'FTK 1.0.1': {'taxonomy': 'FTK Taxonomy 1.0.1_tcm46-378554.zip'},
+               'FTK 1.0.0': {'taxonomy': 'FTK Taxonomy 1.0.0_tcm46-377322.zip'},
+               'FTK 0.9.0': {'taxonomy': 'FTK Taxonomy 0.9.0_tcm46-374198.zip'}
+               }
 def main():
 
     logger = logging.getLogger(__name__)
     logger.info("Platform %s", str(_platform))
 
-    logger.info("Extracting example instance files from %s", url)
-    extract(url, name_zipfile_inst, path_zipfiles)
+    if not os.path.exists(path_zipfile_taxo):
+        make_path(path_zipfile_taxo)
+    if not os.path.exists(path_zipfile_inst):
+        make_path(path_zipfile_inst)
 
-    logger.info("Moving example instance files to %s", path_zipfile_inst)
-    move_files(path_zipfiles, path_zipfile_inst, '\.XBRL')
+    for zipfileset in zipfilesets.values():
 
-    if not os.path.isfile(join(path_zipfile_taxo, name_zipfile_taxo)):
-        if os.path.isfile(join(path_zipfiles, name_zipfile_taxo)):
-            logger.info('Zip file %s exists, using this one' % str(name_zipfile_taxo))
+        if 'instances' in zipfileset.keys():
+            logger.info("Extracting example instance files from %s", url)
+            extract(url, zipfileset['instances'], path_zipfiles)
+            logger.info("Moving example instance files to %s", path_zipfile_inst)
+            move_files(path_zipfiles, path_zipfile_inst, '\.XBRL')
+
+        if not os.path.isfile(join(path_zipfile_taxo, zipfileset['taxonomy'])):
+            if os.path.isfile(join(path_zipfiles, zipfileset['taxonomy'])):
+                logger.info('Zip file %s exists, using this one' % str(zipfileset['taxonomy']))
+            else:
+                logger.info('Zip file %s does not exists, downloading from Internet' % str(zipfileset['taxonomy']))
+                r = requests.get(join(url, zipfileset['taxonomy']))
+                output = open(join(path_zipfiles, zipfileset['taxonomy']), "wb")
+                output.write(r.content)
+                output.close()
+            logger.info("Moving taxonomy to %s", path_zipfile_taxo)
+            shutil.copy(join(path_zipfiles, zipfileset['taxonomy']), path_zipfile_taxo)
         else:
-            logger.info('Zip file %s does not exists, downloading from Internet' % str(name_zipfile_taxo))
-            r = requests.get(join(url, name_zipfile_taxo))
-            output = open(join(path_zipfiles, name_zipfile_taxo), "wb")
-            output.write(r.content)
-            output.close()
-        logger.info("Moving taxonomy to %s", path_zipfile_taxo)
-        shutil.copy(join(path_zipfiles, name_zipfile_taxo), path_zipfile_taxo)
-    else:
-        logger.info("taxonomy already exists")
+            logger.info("taxonomy already exists")
 
-    # logger.info("Cleaning up files in %s", path_zipfiles)
-    # shutil.rmtree(winapi_path(join(path_zipfiles, name_zipfile_inst)))
+        logger.info("Cleaning up files in %s", path_zipfiles)
+        shutil.rmtree(winapi_path(join(path_zipfiles, zipfileset['instances'])))
 
     logger.info("Thank you for waiting!")
 
