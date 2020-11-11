@@ -68,9 +68,6 @@ def main():
         else:
             logger.info("taxonomy already exists")
 
-        logger.info("Cleaning up files in %s", path_zipfiles)
-        shutil.rmtree(winapi_path(join(path_zipfiles, zipfileset['instances'])))
-
     logger.info("Thank you for waiting!")
 
 # Needed for long paths
