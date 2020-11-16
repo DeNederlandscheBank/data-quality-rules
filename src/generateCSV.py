@@ -98,34 +98,37 @@ class GenerateCSVTables(object):
 
             if tblAxisRelSet:
 
-                zAspectNodes = defaultdict(set)
-                self.extract_zAxis(zTopNode, zAspectNodes, False)
+                try:
+                    zAspectNodes = defaultdict(set)
+                    self.extract_zAxis(zTopNode, zAspectNodes, False)
 
-                xNodes = []
-                if (xTopNode and xTopNode.childStructuralNodes):
-                    self.extract_columns(xTopNode, xNodes)
+                    xNodes = []
+                    if (xTopNode and xTopNode.childStructuralNodes):
+                        self.extract_columns(xTopNode, xNodes)
 
-                self.index_values = {}
-                self.z_axis = False
+                    self.index_values = {}
+                    self.z_axis = False
 
-                self.extract_indices(1, self.dataFirstRow,
-                                yTopNode, self.yAxisChildrenFirst.get(), True)
+                    self.extract_indices(1, self.dataFirstRow,
+                                    yTopNode, self.yAxisChildrenFirst.get(), True)
 
-                # derive index names directly from taxonomy
-                self.index_names = {}
-                for item in list(self.modelTable.modelXbrl.relationshipSet((XbrlConst.tableBreakdown)).fromModelObject(self.modelTable)):
-                    if len(item.toModelObject.definitionLabelsView) == 4:
-                        xlinkLabel = item.toModelObject.xlinkLabel
-                        if self.FTK:
-                            self.index_names[xlinkLabel] = "FTK." + self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode)
-                        else:
-                            self.index_names[xlinkLabel] = self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode)
-                        self.z_axis = True
+                    # derive index names directly from taxonomy
+                    self.index_names = {}
+                    for item in list(self.modelTable.modelXbrl.relationshipSet((XbrlConst.tableBreakdown)).fromModelObject(self.modelTable)):
+                        if len(item.toModelObject.definitionLabelsView) == 4:
+                            xlinkLabel = item.toModelObject.xlinkLabel
+                            if self.FTK:
+                                self.index_names[xlinkLabel] = "FTK." + self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode)
+                            else:
+                                self.index_names[xlinkLabel] = self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode)
+                            self.z_axis = True
 
-                # self.modelXbrl.modelManager.addToLog(" ... filling table content")
-                df = pd.DataFrame(index = pd.MultiIndex.from_tuples((), names=['entity', 'period'] + list(self.index_names.values())))
-                self.extract_content(self.dataFirstRow, yTopNode, xNodes, zAspectNodes, df)
-                df = df[df.columns.sort_values()]
+                    # self.modelXbrl.modelManager.addToLog(" ... filling table content")
+                    df = pd.DataFrame(index = pd.MultiIndex.from_tuples((), names=['entity', 'period'] + list(self.index_names.values())))
+                    self.extract_content(self.dataFirstRow, yTopNode, xNodes, zAspectNodes, df)
+                    df = df[df.columns.sort_values()]
+                except:
+                    self.modelXbrl.modelManager.addToLog(_(" ... unable to extract content to dataframe for table {0}").format(self.tableLabel))
                 
             if not df.empty:
                 path_name = os.path.join(results_path if results_path else '.')
@@ -172,8 +175,7 @@ class GenerateCSVTables(object):
                             self.index_values[row][xlinkLabel] = [label]
                         else:
                             if self.index_values[row][xlinkLabel][0] != label:
-                                self.modelXbrl.modelManager.addToLog(_(" ... warning: two unequal values {0} and {1} for one index level {2}").format(label, self.index_values[row][xlinkLabel][0], str(self.index_values[row])))
-                                self.index_values[row][xlinkLabel][0] = label
+                                self.modelXbrl.modelManager.addToLog(_(" ... warning: two unequal values {0} for one index level {1}").format(label, str(self.index_values[row])))
 
                 if isNonAbstract:
                     row += 1

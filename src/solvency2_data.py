@@ -21,13 +21,21 @@ from sys import platform as _platform
 # variables
 make_folder = True
 
-url_taxo = 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/'
-url_inst = 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/'
-
-name_zipfile_taxo = 'EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip'
-name_zipfile_inst = 'EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip'
-extension_inst =  join('EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0', 'random')
-
+zipfilesets = {
+               'Solvency2 2.5.0': 
+                    {'url_taxo':  'https://dev.eiopa.europa.eu/Taxonomy/Full/2.5.0/S2/',
+                     'taxonomy' : 'EIOPA_SolvencyII_XBRL_Taxonomy_2.5.0_hotfix_with_External_Files.zip'},
+               'Solvency2 2.4.0': 
+                    {'url_taxo':  'https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/',
+                     'taxonomy':  'EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip',
+                     'url_inst':  'https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/',
+                     'instances': 'EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0.zip',
+                     'extension': join('EIOPA_SolvencyII_XBRL_Instance_documents_2.4.0', 'random')},
+               'Solvency2 2.3.0':
+                    {'url_taxo':  'https://dev.eiopa.europa.eu/Taxonomy/Full/2.3.0/S2/',
+                      'taxonomy': 'EIOPA_SolvencyII_XBRL_Taxonomy_2.3.0_Hotfix.zip'}
+               }
+                    
 path_zipfiles = join('.', 'data', 'downloaded files')
 path_zipfile_inst = join('.', 'data', 'instances')
 path_zipfile_taxo = join('.', 'data', 'taxonomies')
@@ -44,28 +52,29 @@ def main():
     if not os.path.exists(path_zipfile_inst):
         make_path(path_zipfile_inst)
 
-    logger.info("Extracting example instance files from %s", url_inst)
-    extract(url_inst, name_zipfile_inst, path_zipfiles)
+    for zipfileset in zipfilesets.values():
 
-    logger.info("Moving example instance files to %s", path_zipfile_inst)
-    move_files(join(path_zipfiles, extension_inst), path_zipfile_inst)
+        if 'instances' in zipfileset.keys():
+            logger.info("Extracting example instance files from %s", zipfileset['url_inst'])
+            extract(zipfileset['url_inst'], zipfileset['instances'], path_zipfiles)
+            logger.info("Moving example instance files to %s", path_zipfile_inst)
+            move_files(join(path_zipfiles, zipfileset['extension']), path_zipfile_inst)
+            logger.info("Cleaning up files in %s", path_zipfiles)
+            shutil.rmtree(winapi_path(join(path_zipfiles, zipfileset['instances'][:-4])))
 
-    if not os.path.isfile(join(path_zipfile_taxo, name_zipfile_taxo)):
-        if os.path.isfile(join(path_zipfiles, name_zipfile_taxo)):
-            logger.info('Zip file %s exists, using this one' % str(name_zipfile_taxo))
+        if not os.path.isfile(join(path_zipfile_taxo, zipfileset['taxonomy'])):
+            if os.path.isfile(join(path_zipfiles, zipfileset['taxonomy'])):
+                logger.info('Zip file %s exists, using this one' % str(zipfileset['taxonomy']))
+            else:
+                logger.info('Zip file %s does not exists, downloading from Internet' % str(zipfileset['taxonomy']))
+                r = requests.get(join(zipfileset['url_taxo'], zipfileset['taxonomy']))
+                output = open(join(path_zipfiles, zipfileset['taxonomy']), "wb")
+                output.write(r.content)
+                output.close()
+            logger.info("Moving taxonomy to %s", path_zipfile_taxo)
+            shutil.copy(join(path_zipfiles, zipfileset['taxonomy']), path_zipfile_taxo)
         else:
-            logger.info('Zip file %s does not exists, downloading from Internet' % str(name_zipfile_taxo))
-            r = requests.get(join(url_inst, name_zipfile_taxo))
-            output = open(join(path_zipfiles, name_zipfile_taxo), "wb")
-            output.write(r.content)
-            output.close()
-        logger.info("Moving taxonomy to %s", path_zipfile_taxo)
-        shutil.copy(join(path_zipfiles, name_zipfile_taxo), path_zipfile_taxo)
-    else:
-        logger.info("taxonomy already exists")
-
-    logger.info("Cleaning up files in %s", path_zipfiles)
-    shutil.rmtree(winapi_path(join(path_zipfiles, name_zipfile_inst[:-4])))
+            logger.info("taxonomy already exists")
 
     logger.info("Thank you for waiting!")
 
