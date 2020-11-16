@@ -30,3 +30,13 @@ History
 * Added code to construct one large Dataframe with all templates with closed axes to Tutorial
 * Added description of Data format requirements to README.rst
 * README.rst adapted to reflect changes
+
+0.4.0 (2020-11-16)
+------------------
+
+* Added Solvency 2 statistical validation rules to evaluate two periods for ARS and QRS
+* Added FTK statistical validation rules between to evaluate two periods for FTK-JS and FTK-BEL
+* Added tutorials for statistical validation rules
+* Added datapoints for Solvency 2 group reports (ARG and QRG)
+* Added taxonomies for Solvency 2 (versions 2.5.0, 2.4.0 and 2.3.0) and FTK (versions 2.1.0, 2.0.0, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.9.0)
+* README.rst adapted to reflect changes
