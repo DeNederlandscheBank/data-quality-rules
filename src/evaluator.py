@@ -22,7 +22,7 @@ class Evaluator:
     def datapoints2pandas(self, s):
         """Transform EVA2 datapoints to Python Pandas datapoints by making letters uppercase"""
         datapoints = []
-        for item in re.findall(r'{(.*?)}', s):
+        for item in list(set(re.findall(r'{(.*?)}', s))):
             datapoints.append(item.upper())
             s = s.replace(item, '"' + item.upper() + '"')
         s = self.preprocess_pattern(s)
