@@ -40,3 +40,13 @@ History
 * Added datapoints for Solvency 2 group reports (ARG and QRG)
 * Added taxonomies for Solvency 2 (versions 2.5.0, 2.4.0 and 2.3.0) and FTK (versions 2.1.0, 2.0.0, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.9.0)
 * README.rst adapted to reflect changes
+
+0.4.1 (2020-11-16)
+------------------
+
+* Bug fix for evaluation of additional rules for group reports
+
+0.4.2 (2020-11-26)
+------------------
+
+* Bug fix for tutorial to evaluate two periods
