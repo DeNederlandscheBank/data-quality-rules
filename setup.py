@@ -11,10 +11,10 @@ setup(
     install_requires=[
 		'jupyter',
 		'pandas==1.1.4',
-		'numpy==1.19.4',
+		'numpy==1.19.3',
 		'lxml>=3.4.4',
 		'cx_Freeze==6.1',
-		'openpyxl==2.3.3',
+		'openpyxl==3.0.5',
 		'isodate==0.5.4',
 		'aniso8601',
 		'regex==2018.08.29',

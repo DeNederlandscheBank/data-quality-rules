@@ -13,11 +13,11 @@ class TestEval_patterns(unittest.TestCase):
     def test_eval(self):
         """Test of read input date function"""
         # Input
-        df_rules = pd.read_excel('tests/data/unittest_testset_aanvullende_regels.xlsx', header = 1)
+        df_rules = pd.read_excel('tests/data/unittest_testset_aanvullende_regels.xlsx', engine='openpyxl', header = 1)
         df_rules.set_index('ControleRegelCode', inplace = True)
 
         # Expected output
-        expected = pd.read_excel('tests/data/unittest_resulterende_patterns.xlsx').fillna("")
+        expected = pd.read_excel('tests/data/unittest_resulterende_patterns.xlsx', engine='openpyxl').fillna("")
         expected.set_index('index', inplace=True)
 
         # Actual output
