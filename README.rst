@@ -6,7 +6,7 @@ data-quality-rules
            :target: https://github.com/DeNederlandscheBank/data-quality-rules/releases/
            :alt: Github release
 .. image:: https://img.shields.io/travis/DeNederlandscheBank/data-quality-rules.svg
-        :target: https://travis-ci.org/DeNederlandscheBank/data-quality-rules
+        :target: https://travis-ci.com/DeNederlandscheBank/data-quality-rules
         :alt: Build Status
 .. image:: https://img.shields.io/badge/License-MIT/X-blue.svg
         :target: https://github.com/DeNederlandscheBank/data-quality-rules/blob/master/LICENSE
