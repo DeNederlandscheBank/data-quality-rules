@@ -1,0 +1,201 @@
+from arelle import ModelManager, Cntlr, ModelFormulaObject, ModelXbrl, ViewFileFormulae, XbrlConst
+from arelle import ViewFileRenderedGrid
+from arelle import RenderingEvaluator 
+
+import pandas as pd
+import numpy as np
+import math
+from os import listdir, walk, makedirs, environ
+from os.path import isfile, join, exists, basename, isdir
+import re
+from src import Evaluator
+import logging
+import data_patterns
+import click
+import sys
+
+DECIMALS = 0
+RULES_PATH = join('solvency2-rules')
+INSTANCES_DATA_PATH = join('data', 'instances') #path of folder with converted xbrl-instance data
+RESULTS_PATH = join('results')
+DATA_PATH = join('data')
+DATAPOINTS_PATH = join('data', 'datapoints')
+
+logging.basicConfig(filename = join(RESULTS_PATH, 'rules.log'),level = logging.INFO, 
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+reports: list = [f for f in listdir(INSTANCES_DATA_PATH) if isdir(join(INSTANCES_DATA_PATH, f))]
+report_choices: str = "\n".join([str(idx)+": "+item
+                                 for idx, item in enumerate(reports) if item!='actual'])
+
+@click.command()
+@click.option('--rule_set', default=1, prompt="1: Rules for assets and derivatives\n2: Patterns between periods QRS\n3: Patterns between periods ARS")
+@click.option('--entity_category', default="Schade", prompt="Schade, Herverzekeraar, Leven")
+@click.option('--report_dir', default=5, prompt=report_choices)
+@click.option('--output_dir', default=RESULTS_PATH, prompt='output directory')
+
+def main(rule_set, entity_category, report_dir, output_dir):
+    if rule_set == 1:
+        financial(report_dir, output_dir)
+    elif rule_set == 2:
+        between_qrs(report_dir, output_dir, entity_category)
+    elif rule_set == 3:
+        between_ars(report_dir, output_dir, entity_category)
+
+def financial(report_dir, output_dir):
+
+    output_dir = join(output_dir, reports[report_dir])
+    report_dir = join(INSTANCES_DATA_PATH, reports[report_dir])
+
+    def capitalize_row_columns(df):
+        column_replace = set([column for sublist in [row for row in df['pandas ex'].str.findall(r'c\d\d\d\d')] for column in sublist])
+        for ref in column_replace:
+            df.replace(to_replace=ref, value=ref.capitalize(), inplace=True, regex=True)
+        return df
+
+    dfr_s06 = capitalize_row_columns(pd.read_excel(join(RULES_PATH, 'S2_06_02.xlsx'), engine='openpyxl'))
+    dfr_s06_2 = capitalize_row_columns(pd.read_excel(join(RULES_PATH,'S2_06_02_01_02.xlsx'), engine='openpyxl'))
+    dfr_s06_1 = capitalize_row_columns(pd.read_excel(join(RULES_PATH,'S2_06_02_01_01.xlsx'), engine='openpyxl'))
+    dfr_s08 = capitalize_row_columns(pd.read_excel(join(RULES_PATH,'S2_08_01_01.xlsx'), engine='openpyxl'))
+    dfr_s08_2 = capitalize_row_columns(pd.read_excel(join(RULES_PATH,'S2_08_01_01_02.xlsx'), engine='openpyxl'))
+
+    df_s06_1 = pd.read_pickle(join(report_dir,'S.06.02.01.01.pickle')).fillna(0).reset_index()
+    df_s06_1['S.06.02.01.01,C0040A'] = df_s06_1['S.06.02.01.01,C0040']
+
+    listt = list(df_s06_1['S.06.02.01.01,C0040A'])
+    for i in listt:
+        lenn = len(df_s06_1[df_s06_1['S.06.02.01.01,C0040A']==i])
+        if lenn > 1:
+            list_ind = list(df_s06_1.loc[df_s06_1['S.06.02.01.01,C0040A']==i].index)
+            temp = 0
+            for j in list_ind[1:]:
+                temp=temp+1
+                df_s06_1['S.06.02.01.01,C0040A'].iloc[j] = df_s06_1['S.06.02.01.01,C0040A'].iloc[j] + '_' + str(temp)
+    df_s06_1 = df_s06_1.set_index(['entity', 'period', 'S.06.02.01.01,C0040A'])
+
+    df_s06_2 = pd.read_pickle(join(report_dir, 'S.06.02.01.02.pickle')).fillna(0).reset_index()
+    df_s06_2 = df_s06_2.set_index(['entity', 'period', 'S.06.02.01.02,C0040'])
+    df_s06_2['S.06.02.01.02,C0040'] = df_s06_2.index.get_level_values(2)
+
+    df_s06 = pd.merge(pd.read_pickle(join(report_dir,'S.06.02.01.01.pickle')).reset_index(), 
+                      pd.read_pickle(join(report_dir, 'S.06.02.01.02.pickle')).reset_index(),
+                      how='inner', 
+                      left_on=['entity','period','S.06.02.01.01,C0040'], 
+                      right_on=['entity','period','S.06.02.01.02,C0040']).set_index(['entity', 'period', 'S.06.02.01.01,C0040'])
+    df_s06 = df_s06.fillna(0).reset_index()
+    df_s06['S.06.02.01.02,C0040A'] = df_s06['S.06.02.01.02,C0040']
+    listt=list(df_s06['S.06.02.01.02,C0040A'])
+    for i in listt:
+        lenn = len(df_s06[df_s06['S.06.02.01.02,C0040A']==i])
+        if lenn > 1:
+            list_ind = list(df_s06.loc[df_s06['S.06.02.01.02,C0040A']==i].index)
+            temp = 0
+            for j in list_ind[1:]:
+                temp=temp+1
+                df_s06['S.06.02.01.02,C0040A'].iloc[j] = df_s06['S.06.02.01.02,C0040A'].iloc[j] + '_' + str(temp)
+    df_s06 = df_s06.set_index(['entity', 'period', 'S.06.02.01.02,C0040A'])
+
+    df_s08_2 = pd.read_pickle(join(report_dir, 'S.08.01.01.02.pickle')).fillna(0).reset_index()
+    df_s08_2 = df_s08_2.set_index(['entity', 'period', 'S.08.01.01.02,C0040'])
+    df_s08_2['S.08.01.01.02,C0040'] = df_s08_2.index.get_level_values(2)
+
+    df_s08 = pd.merge(pd.read_pickle(join(report_dir,'S.08.01.01.01.pickle')).reset_index(),
+                      pd.read_pickle(join(report_dir, 'S.08.01.01.02.pickle')).reset_index(),
+                      how='inner', 
+                      left_on=['entity','period','S.08.01.01.01,C0040'], 
+                      right_on=['entity','period','S.08.01.01.02,C0040']).set_index(['entity', 'period', 'S.08.01.01.01,C0040'])
+    df_s08 = df_s08.fillna(0).reset_index()
+    df_s08['S.08.01.01.02,C0040A'] = df_s08['S.08.01.01.02,C0040']
+    listt=list(df_s08['S.08.01.01.02,C0040A'])
+    for i in listt:
+        lenn = len(df_s08[df_s08['S.08.01.01.02,C0040A']==i])
+        if lenn > 1:
+            list_ind = list(df_s08.loc[df_s08['S.08.01.01.02,C0040A']==i].index)
+            temp = 0
+            for j in list_ind[1:]:
+                temp=temp+1
+                df_s08['S.08.01.01.02,C0040A'].iloc[j] = df_s08['S.08.01.01.02,C0040A'].iloc[j] + '_' + str(temp)
+    df_s08 = df_s08.set_index(['entity', 'period', 'S.08.01.01.02,C0040A'])
+
+    if not exists(output_dir):
+        makedirs(output_dir)
+
+    miner = data_patterns.PatternMiner(df_patterns=dfr_s06)
+    results_06 = miner.analyze(df_s06)
+    results_06.to_excel(join(output_dir, "results_S2_06_02.xlsx"), engine='openpyxl')
+
+    miner = data_patterns.PatternMiner(df_patterns=dfr_s06_2)
+    results_06_2 = miner.analyze(df_s06_2)
+    results_06_2.to_excel(join(output_dir, "results_S2_06_02_01_02.xlsx"), engine='openpyxl')
+
+    miner = data_patterns.PatternMiner(df_patterns=dfr_s06_1)
+    results_06_1 = miner.analyze(df_s06_1)
+    results_06_1.to_excel(join(output_dir, "results_S2_06_02_01_01.xlsx"), engine='openpyxl')
+
+    miner = data_patterns.PatternMiner(df_patterns=dfr_s08)
+    results_08 = miner.analyze(df_s08)
+    results_08.to_excel(join(output_dir, "results_S2_08_01_01.xlsx"), engine='openpyxl')
+
+    miner2 = data_patterns.PatternMiner(df_patterns=dfr_s08_2)
+    results_08_2 = miner2.analyze(df_s08_2)
+    results_08_2.to_excel(join(output_dir, "results_S2_08_01_01_02.xlsx"), engine='openpyxl')
+
+def between_ars(report_dir, output_dir, entity_category):
+
+    output_dir = join(output_dir, reports[report_dir])
+    report_dir = join(INSTANCES_DATA_PATH, reports[report_dir])
+
+    dfr_ARS = pd.read_excel(join(RULES_PATH,'S2_betweenperiods_ARS.xlsx'), engine='openpyxl')
+
+    #Capitalize row-column references:
+    column_replace = set([column for sublist in [row for row in dfr_ARS['pandas ex'].str.findall(r'r\d\d\d\d')] for column in sublist])
+    for ref in column_replace:
+        dfr_ARS.replace(to_replace=ref, value=ref.capitalize(), inplace=True, regex=True)
+
+    df_datapoints = pd.read_csv(join(DATAPOINTS_PATH, 'ARS.csv'), sep=";").fillna("")  # load file to dataframe
+    dft = pd.DataFrame()
+    for instance in instances_ARS:
+        df_closed_axis = pd.DataFrame()
+        tables_closed_axis = []  # for listing all input tables with closed axis
+        tables_complete_set = df_datapoints.tabelcode.sort_values().unique().tolist()  # list of all ARS tables
+        tables = [table for table in tables_complete_set 
+            if isfile(join(report_dir, instance, table + '.pickle'))]  # ARS tables found in the specified instance path
+        for table in [table for table in tables if table not in ['S.14.01.01.04','S.30.03.01.01']]:  #tables:
+            if isfile(join(report_dir, instance, table + '.pickle')):
+                df = pd.read_pickle(join(report_dir, instance, table + '.pickle'))  # read dataframe
+            else:
+                continue   
+            if df.index.nlevels > 2:  # if more than 2 indexes (entity, period), then the table has an open axis
+                continue
+            else:  # closed axis
+                tables_closed_axis.append(table)  # add to relevant list
+                # Add table to dataframe with all data from closed axis tables
+                if len(df_closed_axis) == 0:  # no data yet --> copy dataframe
+                    df_closed_axis = df.copy()
+                else:  # join to existing dataframe
+                    df_closed_axis = df_closed_axis.join(df)
+        if len(dft) == 0:  # no data yet 
+            dft = df_closed_axis
+        else:  # join to existing dataframe
+            dft=dft.append(df_closed_axis)
+
+    dft=dft.reset_index()
+    dft['categorie']=categorie
+    numerical_columns = ['entity','period','categorie'] + [dft.columns[c] for c in range(len(dft.columns))
+                            if ((dft.dtypes[c] == 'float64') or (dft.dtypes[c] == 'int64'))] #select only numerical columns
+    df_ARS = dft[numerical_columns]
+    df_ARS['period']=df_ARS['period'].apply(lambda x: datetime.datetime.strptime(x,'%Y-%m-%d')) #convert to datetime
+    df_ARS.fillna(0,inplace=True)
+
+    miner = data_patterns.PatternMiner(df_patterns=dfr_ARS)
+    miner.df_data = df_ARS
+    miner.metapatterns = {'cluster':'categorie'}
+    miner.convert_to_time(['entity', 'categorie'], 'period')
+    miner.df_data = miner.df_data.reset_index()
+
+    results = miner.analyze()
+    results.to_excel(join(output_dir, "results_S2_betweenperiods_ARS.xlsx"), engine='openpyxl')
+
+if __name__ == "__main__":
+    sys.exit(main())
+

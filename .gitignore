@@ -43,6 +43,3 @@ dist/
 
 #exclude results
 /results
-
-#exclude docs
-/docs/*

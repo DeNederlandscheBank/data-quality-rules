@@ -21,11 +21,13 @@ setup(
 		'requests',
 		'tqdm',
 		'tabulate',
-		'click',
+		'click==7.1.2',
 		'python-dotenv>=0.5.1',
 		'xlrd>=0.9.0',
 		'dnb-arelle',
 		'data-patterns',
-		'tox==3.20.0'
+		'tox==3.20.0',
+		'Sphinx==1.8.5',
+		'sphinx-rtd-theme==0.5.1'
     ]
 )
