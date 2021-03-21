@@ -91,7 +91,7 @@ def main(taxo, instance, output, verbose_labels):
                     # join to existing dataframe
                     df_closed_axis = df_closed_axis.join(df)
 
-    df_closed_axis.to_pickle(subdir + '.pickle')
+    df_closed_axis.to_pickle(join(subdir, basename(instance).split(".")[0])+'.pickle')
 
 
 if __name__ == "__main__":
