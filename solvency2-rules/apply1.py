@@ -126,15 +126,16 @@ def additionalRules(entrypoint, report_dir, output_type, output_dir):
     list_col_order.extend(col for col in list(df_results.columns) if col not in list_col_order)
     df_results = df_results[list_col_order]
 
-    # To save all results use df_results
-    # To save all exceptions use df_results['result_type']==False 
-    # To save all confirmations use df_results['result_type']==True
-
     output_dir = join(output_dir, reports[report_dir])
     if not exists(output_dir):
         makedirs(output_dir)
-    df_results[df_results['result_type']==False].to_excel(join(output_dir, "results.xlsx"))
 
+    if output_type == 1:
+        df_results[df_results['result_type']==False].to_excel(join(output_dir, "results.xlsx"))
+    elif output_type == 2:
+        df_results[df_results['result_type']==True].to_excel(join(output_dir, "results.xlsx"))
+    elif output_type == 3:
+        df_results.to_excel(join(output_dir, "results.xlsx"))
 
 if __name__ == "__main__":
     sys.exit(main())
