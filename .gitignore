@@ -41,5 +41,8 @@ dist/
 /tests/data/test_instances/actual/*
 !/tests/data/test_instances/actual/.gitkeep
 
-#exclude results
+# exclude results
 /results
+
+# exclude 
+/docs/_build

@@ -3,7 +3,6 @@ Authors
 =======
 
 Development Lead
-----------------
 
 | Willem Jan Willemse <w.j.willemse@dnb.nl>
 | Expert Centre on Data Analysis & Operational Management
@@ -11,7 +10,6 @@ Development Lead
 | De Nederlandsche Bank (DNB)
 
 Contributors
-------------
 
 * Annick van Ool (DNB)
 * Richard Lieverse (DNB)

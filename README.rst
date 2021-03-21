@@ -8,6 +8,9 @@ data-quality-rules
 .. image:: https://img.shields.io/travis/DeNederlandscheBank/data-quality-rules.svg
         :target: https://travis-ci.com/DeNederlandscheBank/data-quality-rules
         :alt: Build Status
+.. image:: https://readthedocs.org/projects/data-quality-rules/badge/?version=latest
+        :target: https://data-quality-rules.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
 .. image:: https://img.shields.io/badge/License-MIT/X-blue.svg
         :target: https://github.com/DeNederlandscheBank/data-quality-rules/blob/master/LICENSE
         :alt: License

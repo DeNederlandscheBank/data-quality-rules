@@ -2,6 +2,10 @@
 Usage
 =====
 
+.. include:: usage_additionalrules.rst
+.. include:: usage_financialdatarules.rst
+.. include:: usage_reportscomparisonrules.rst
+
 Data format requirements
 ========================
 
