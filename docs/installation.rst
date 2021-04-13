@@ -4,8 +4,12 @@
 Installation
 ============
 
+We provide two installation methods: online and offline installation. For the online you need a connection to internet to download the required packages. For the offline installation you need to download a limited number of files (specified below) and then you can install everything without a connection to internet. After installation of the repository, you need to download the taxonomies and examples files you want to work with. We provided a script to download these files and put them in the correct location.
+
+For both methods we recommend to have Anaconda (> 5.3.1) installed.
+
 Online installation
--------------------
+===================
 
 Clone the project::
 
@@ -24,9 +28,9 @@ Make sure you are in the root of the cloned project. Install the code and the re
   pip install -e .
 
 Offline installation
---------------------
+====================
 
-We included all the required packages in the project, so you should be able to do an offline installation. Make sure you have at least Anaconda 5.3.1 installed.
+We included all the required packages in the project, so you should be able to do an offline installation.
 
 To do an offline installation you need some files from the internet downloaded in advance: 
 
@@ -36,7 +40,7 @@ To do an offline installation you need some files from the internet downloaded i
 
 
 Install data-quality-rules repository
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------
 
 Extract the zip file from the data-quality-rules repository to the desired location.
 
@@ -70,19 +74,19 @@ Make sure you are in the root of the cloned project. Then install the project wi
 
 
 Copy taxonomy and instance files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 Copy the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples (both zip files) to the directory data/downloaded files.
 
 
-Installing taxonomy and example instance files
-==============================================
+Taxonomy and example instance files
+===================================
 
 For Solvency 2 execute (in the root of the project)::
 
   python src/solvency2_data.py
 
-This downloads the Solvency 2 XBRL taxonomy 2.4 and the corresponding example instance files and extracts them in the proper directories.
+This downloads the Solvency 2 XBRL taxonomy and the corresponding example instance files and extracts them in the proper directories.
 
 For FTK, execute (in the root of the project)::
 

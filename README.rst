@@ -15,11 +15,14 @@ data-quality-rules
         :target: https://github.com/DeNederlandscheBank/data-quality-rules/blob/master/LICENSE
         :alt: License
 
-This is Data Quality Rules repository for the Solvency 2 and the Financial Assessment Framework (FTK) quantitative reporting templates (QRTs). In this repository De Nederlandsche Bank publishes additional validation rules to improve the data quality of the QRTs.
+This is Data Quality Rules repository for the Solvency 2 and the Financial Assessment Framework (FTK) quantitative reporting templates (QRTs). In this repository De Nederlandsche Bank (DNB) publishes additional validation rules to improve the data quality of the QRTs. This repository can be used by entities who submit supervisory reports to DNB.
 
-This repository is part of the iForum pilot 'Data Quality Rules'. Want to know more? Please contact P.M.Willems@dnb.nl
+The documentation can be found `here <https://data-quality-rules.readthedocs.io/en/latest/?badge=latest>`_.
 
-* Free software: MIT/X license
+License
+=======
+
+The Data Quality Rule repository is free software under `MIT/X license <https://github.com/DeNederlandscheBank/data-quality-rules/blob/master/LICENSE>`_.
 
 Features
 ========
