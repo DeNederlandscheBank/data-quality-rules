@@ -4,7 +4,6 @@ import math
 from os import listdir, walk, makedirs, environ
 from os.path import isfile, join, exists, basename, isdir
 import re
-from src import Evaluator
 import logging
 import data_patterns
 import click
@@ -25,7 +24,7 @@ report_choices: str = "\n".join([str(idx)+": "+item
                                  for idx, item in enumerate(reports) if item!='actual'])
 
 @click.command()
-@click.option('--report_dir', default=5, prompt=report_choices)
+@click.option('--report_dir', default=0, prompt=report_choices)
 @click.option('--output_dir', default=RESULTS_PATH, prompt='output directory')
 
 def main(report_dir, output_dir):
@@ -36,6 +35,19 @@ def financial(report_dir, output_dir):
     output_dir = join(output_dir, reports[report_dir])
     report_dir = join(INSTANCES_DATA_PATH, reports[report_dir])
 
+    if not isfile(join(report_dir,'S.06.02.01.01.pickle')):
+        print("ERROR: pickle not found: S.06.02.01.01.pickle")
+        return 0        
+    if not isfile(join(report_dir, 'S.06.02.01.02.pickle')):
+        print("ERROR: pickle not found: S.06.02.01.02.pickle")
+        return 0        
+    if not isfile(join(report_dir, 'S.08.01.01.02.pickle')):
+        print("ERROR: pickle not found: S.08.01.01.02.pickle")
+        return 0        
+    if not isfile(join(report_dir,'S.08.01.01.01.pickle')):
+        print("ERROR: pickle not found: S.08.01.01.01.pickle")
+        return 0        
+
     def capitalize_row_columns(df):
         column_replace = set([column for sublist in [row for row in df['pandas ex'].str.findall(r'c\d\d\d\d')] for column in sublist])
         for ref in column_replace:
@@ -45,7 +57,6 @@ def financial(report_dir, output_dir):
 	# We start with importing the new rules applicable to the assets and derivatives data. There are several sets of rules applicable to different templates:
 	# * S.06.02.01 (Information on positions held)
 	# * S.06.02.02 (Information on assets)
-	# * S.06.02.01 (Information on positions held) and S.06.02.02 (Information on assets)
 	# * S.08.01.01.01 (Information on positions held) and S2.08.01.01.02 (Information on derivatives)
 	# * S.08.01.01.02 (Information on derivatives)
 

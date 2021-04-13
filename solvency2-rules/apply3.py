@@ -24,15 +24,26 @@ reports: list = [f for f in listdir(INSTANCES_DATA_PATH) if isdir(join(INSTANCES
 report_choices: str = "\n".join([str(idx)+": "+item
                                  for idx, item in enumerate(reports) if item!='actual'])
 
+categories: list = ["Schade", "Herverzekeraar", "Leven"]
+category_choices: str = "\n".join([str(idx)+": "+item
+                                 for idx, item in enumerate(categories)])
+
 @click.command()
 @click.option('--rule_set', default=1, prompt="1: Patterns between periods QRS\n2: Patterns between periods ARS")
-@click.option('--entity_category', default="Schade", prompt="Schade, Herverzekeraar, Leven")
-@click.option('--report_dir_1', default=1, prompt=report_choices)
-@click.option('--report_dir_2', default=2, prompt=report_choices)
+@click.option('--entity_category', default=0, prompt=category_choices)
+@click.option('--report_dir_1', default=0, prompt=report_choices)
+@click.option('--report_dir_2', default=1, prompt=report_choices)
 @click.option('--output_dir', default=RESULTS_PATH, prompt='output directory')
 
 def main(rule_set, entity_category, report_dir_1, report_dir_2, output_dir):
 
+    if rule_set not in [1, 2]:
+        print("ERROR: incorrect rule set choice.")
+        return 0
+    if entity_category not in [1, 2, 3]:
+        print("ERROR: incorrect entity category choice.")
+        return 0
+ 
     output_dir = join(output_dir, reports[report_dir])
     report_dir_1 = join(INSTANCES_DATA_PATH, reports[report_dir_1])
     report_dir_2 = join(INSTANCES_DATA_PATH, reports[report_dir_2])
@@ -98,7 +109,7 @@ def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
     # of insurer separately.
 
     dft=dft.reset_index()
-    dft['categorie']=categorie
+    dft['categorie'] = categories[entity_category]
     numerical_columns = ['entity','period','categorie'] + [dft.columns[c] for c in range(len(dft.columns))
                             if ((dft.dtypes[c] == 'float64') or (dft.dtypes[c] == 'int64'))] #select only numerical columns
     df_ARS = dft[numerical_columns]
@@ -107,7 +118,7 @@ def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
 
     miner = data_patterns.PatternMiner(df_patterns=dfr_ARS)
     miner.df_data = df_ARS
-    miner.metapatterns = {'cluster':'categorie'}
+    miner.metapatterns = {'cluster': 'categorie'}
     miner.convert_to_time(['entity', 'categorie'], 'period')
     miner.df_data = miner.df_data.reset_index()
 

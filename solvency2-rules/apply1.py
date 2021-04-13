@@ -24,11 +24,19 @@ report_choices: str = "\n".join([str(idx)+": "+item
 
 @click.command()
 @click.option('--entrypoint', default=1, prompt='Select entrypoint:\n1: QRS\n2: ARS\n')
-@click.option('--report_dir', default=1, prompt=report_choices+"\n")
+@click.option('--report_dir', default=0, prompt=report_choices+"\n")
 @click.option('--output_type', default=1, prompt='Select output type:\n1: exceptions\n2: confirmation\n3: both')
 @click.option('--output_dir', default=RESULTS_PATH, prompt='Select output directory')
 
 def main(entrypoint, report_dir, output_type, output_dir):
+
+    if entrypoint not in [1, 2]:
+        print("ERROR: incorrect entrypoint choice.")
+        return 0
+    if output_type not in [1, 2, 3]:
+        print("ERROR: incorrect output type choice.")
+        return 0
+
     additionalRules(entrypoint, report_dir, output_type, output_dir)
 
 def additionalRules(entrypoint, report_dir, output_type, output_dir):
@@ -39,7 +47,7 @@ def additionalRules(entrypoint, report_dir, output_type, output_dir):
 
     # Read possible datapoints
 
-    df_datapoints = pd.read_csv(join(DATAPOINTS_PATH, ENTRYPOINTS[entrypoint] + '.csv'), sep=";").fillna("")  # load file to dataframe
+    df_datapoints = pd.read_csv(join(DATAPOINTS_PATH, ENTRYPOINTS[entrypoint-1] + '.csv'), sep=";").fillna("")  # load file to dataframe
 
     # Read data
 
@@ -110,7 +118,7 @@ def additionalRules(entrypoint, report_dir, output_type, output_dir):
     # The rules are already converted to a syntax Python can interpret, using the notebook: 'Convert DNBs Additional Validation Rules to Patterns'.  
     # In the next line of code we read these converted rules (patterns).
 
-    df_patterns = pd.read_excel(join(RULES_PATH, ENTRYPOINTS[entrypoint].lower()+'_patterns_additional_rules.xlsx'), 
+    df_patterns = pd.read_excel(join(RULES_PATH, ENTRYPOINTS[entrypoint-1].lower()+'_patterns_additional_rules.xlsx'), 
                                 engine='openpyxl').fillna("").set_index('index')
 
     # Evaluate rules
