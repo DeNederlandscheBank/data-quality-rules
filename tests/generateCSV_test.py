@@ -22,7 +22,7 @@ taxonomies = ['EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip',
 
 os.environ['XDG_CONFIG_HOME'] = XBRL_TAXONOMIES_PATH
 
-controller = Cntlr.Cntlr(logFileName = os.path.join('tests', "unittests.log"))
+controller = Cntlr.Cntlr(logFileName = os.path.join('tests', "unittests.log"), logFileMode="w")
 controller.webCache.workOffline = True
 controller.logger.messageCodeFilter = None
 
@@ -39,17 +39,19 @@ PackageManager.save(controller)
 
 def process_testcase(instance_name, unittest):
 
-    xbrl_instance = ModelXbrl.load(modelManager = modelmanager, 
-                                   url = os.path.join(XBRL_INSTANCES_PATH, instance_name))
-    RenderingEvaluator.init(xbrl_instance)
+    actual_subdir = os.path.join('actual', os.path.basename(instance_name).split(".")[0])
+    instance = os.path.join(XBRL_INSTANCES_PATH, instance_name)
+    subdir = os.path.join(XBRL_INSTANCES_PATH, actual_subdir)
 
     # Actual output
-    actual_subdir = os.path.join('actual', os.path.basename(instance_name).split(".")[0])
+    xbrl_instance = ModelXbrl.load(modelManager = modelmanager, url = instance)
+    RenderingEvaluator.init(xbrl_instance)
+
     tables = list(xbrl_instance.modelRenderingTables)
     tables.sort(key = lambda table: table.genLabel(lang = LANGUAGE,strip = True, role = euRCcode))        
     for table in tables:
         obj = src.generateCSV.generateCSVTables(xbrl_instance, 
-                                                os.path.join(XBRL_INSTANCES_PATH, actual_subdir), 
+                                                subdir, 
                                                 table = table, 
                                                 lang = LANGUAGE,
                                                 verbose_labels = False)        

@@ -31,17 +31,22 @@ report_choices: str = "\n".join([str(idx)+": "+item
 @click.option('--report_dir_2', default=2, prompt=report_choices)
 @click.option('--output_dir', default=RESULTS_PATH, prompt='output directory')
 
-def main(rule_set, entity_category, report_dir, output_dir):
-    if rule_set == 1:
-        between_qrs(report_dir, output_dir, entity_category)
-    elif rule_set == 2:
-        between_ars(report_dir, output_dir, entity_category)
-
-
-def between_ars(report_dir, output_dir, entity_category):
+def main(rule_set, entity_category, report_dir_1, report_dir_2, output_dir):
 
     output_dir = join(output_dir, reports[report_dir])
-    report_dir = join(INSTANCES_DATA_PATH, reports[report_dir])
+    report_dir_1 = join(INSTANCES_DATA_PATH, reports[report_dir_1])
+    report_dir_2 = join(INSTANCES_DATA_PATH, reports[report_dir_2])
+
+    if rule_set == 1:
+        between_qrs(report_dir_1, report_dir_2, output_dir, entity_category)
+    elif rule_set == 2:
+        between_ars(report_dir_1, report_dir_2, output_dir, entity_category)
+
+
+def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
+
+    # We start with importing the (t-1)-t rules that are applicable to two consecutive periods. 
+    # We import a set of rules used to evaluate year data and a set of rules for quarter data.
 
     dfr_ARS = pd.read_excel(join(RULES_PATH,'S2_betweenperiods_ARS.xlsx'), engine='openpyxl')
 
@@ -76,6 +81,21 @@ def between_ars(report_dir, output_dir, entity_category):
             dft = df_closed_axis
         else:  # join to existing dataframe
             dft=dft.append(df_closed_axis)
+
+    # Next we import the reporting data. We import the data of two consecutive periods. 
+    # In the tutorial 'Convert XBRL-instances to CSV, HTML and pickles' the XBRL-instances 
+    # are converted to pickle files per template. The pickle files are written to the 
+    # data/instances folder. The rules are applicable to all tables with closed axis. We 
+    # import these pickle files. When comparing two periods it can be the case that two 
+    # different taxonomies are applicable. The right taxonomy has to be selected in the 
+    # tutorial 'Convert XBRL-instances to CSV, HTML and pickles' to convert the 
+    # XBRL-instance properly. 
+
+    # The list _instances_ARS_ contains the names of the folders with the converted 
+    # XBRL-instance for yearly data. The list _instances_QRS_ contains the names of the 
+    # folders with the converted XBRL-instance for two consecutive quarters. Finally, we 
+    # also have to define the category of the insurer. The rules are set-up for each type 
+    # of insurer separately.
 
     dft=dft.reset_index()
     dft['categorie']=categorie

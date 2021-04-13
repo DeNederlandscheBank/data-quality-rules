@@ -42,11 +42,25 @@ def financial(report_dir, output_dir):
             df.replace(to_replace=ref, value=ref.capitalize(), inplace=True, regex=True)
         return df
 
+	# We start with importing the new rules applicable to the assets and derivatives data. There are several sets of rules applicable to different templates:
+	# * S.06.02.01 (Information on positions held)
+	# * S.06.02.02 (Information on assets)
+	# * S.06.02.01 (Information on positions held) and S.06.02.02 (Information on assets)
+	# * S.08.01.01.01 (Information on positions held) and S2.08.01.01.02 (Information on derivatives)
+	# * S.08.01.01.02 (Information on derivatives)
+
     dfr_s06 = capitalize_row_columns(pd.read_excel(join(RULES_PATH, 'S2_06_02.xlsx'), engine='openpyxl'))
     dfr_s06_2 = capitalize_row_columns(pd.read_excel(join(RULES_PATH,'S2_06_02_01_02.xlsx'), engine='openpyxl'))
     dfr_s06_1 = capitalize_row_columns(pd.read_excel(join(RULES_PATH,'S2_06_02_01_01.xlsx'), engine='openpyxl'))
     dfr_s08 = capitalize_row_columns(pd.read_excel(join(RULES_PATH,'S2_08_01_01.xlsx'), engine='openpyxl'))
     dfr_s08_2 = capitalize_row_columns(pd.read_excel(join(RULES_PATH,'S2_08_01_01_02.xlsx'), engine='openpyxl'))
+
+	# Next we import the reporting data. In the tutorial 'Convert XBRL-instances to CSV, 
+	# HTML and pickles' the XBRL-instances are converted to pickle files per template. 
+	# The pickle files are written to the data/instances folder. 
+	# We import these pickle files. We merge dataframes for the sets of rules that are 
+	# applicable to two templates. For the sake of simplicity we only import the 
+	# Quarterly Solvency II reporting Solo (QRS) templates.
 
     df_s06_1 = pd.read_pickle(join(report_dir,'S.06.02.01.01.pickle')).fillna(0).reset_index()
     df_s06_1['S.06.02.01.01,C0040A'] = df_s06_1['S.06.02.01.01,C0040']
@@ -108,6 +122,13 @@ def financial(report_dir, output_dir):
 
     if not exists(output_dir):
         makedirs(output_dir)
+
+    # Evaluate rules 
+
+	# Now we are ready to evaluate the different sets of rules. First, we construct 
+	# a PatternMiner-object with the data-patterns package using the rules dataframe. 
+	# Second, we use the analyze-function to get the results of the rules. We do this 
+	# for each set of rules separately.
 
     miner = data_patterns.PatternMiner(df_patterns=dfr_s06)
     results_06 = miner.analyze(df_s06)
