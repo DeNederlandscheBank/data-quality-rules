@@ -5,7 +5,7 @@ We use a command line interface to convert XBRL instance to Pandas and CSV. You 
 
 	python src\instance2csv.py
 
-The script will ask for the desired taxonomy, instance-file, output directory, and whether you want verbose column names instead of rc-codes (row-column codes). To evaluate rules you nee the templates with the rc-codes. You can also run the script with command line arguments --taxo, --instance, --output and --verbose_labels.
+The script will ask for the desired taxonomy, instance-file, output directory, and whether you want verbose column names instead of rc-codes (row-column codes). To evaluate rules you need the templates with the rc-codes. You can also run the script with command line arguments --taxo, --instance, --output and --verbose_labels.
 
 For each template in the XBRL instance the results are exported to a Pandas pickle-file and a csv-file. A Pandas pickle-file maintains the correct indices, whereas the csv does not, so if you want to access the data read the pickle-files. 
 

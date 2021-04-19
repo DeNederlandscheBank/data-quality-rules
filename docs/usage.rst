@@ -8,6 +8,8 @@ If you want to use the rules on your own data sets, then you have to make sure t
 
 If you want to apply the rules to the XBRL-instance you first need to convert the instance to Pandas files (see :ref:`Converting XBRL instances to Pandas and CSV`). The resulting files will be in the correct data format. We recommend you to start with this option. 
 
+Evaluation of the rule sets is done by a simple command line interface. We also added Jupyter notebooks with a step-by-step description of all parts of the code, in case you want to understand the separate steps.
+
 Currently we have three rules sets available:
 
 - Additional rules for Solvency 2 reports published by DNB (see :ref:`Evaluating additional Rules`)
@@ -22,6 +24,28 @@ All rule sets are evaluated with DNB's `data-patterns package <https://github.co
 .. include:: usage_additionalrules.rst
 .. include:: usage_financialdatarules.rst
 .. include:: usage_reportscomparisonrules.rst
+
+Reading the output
+==================
+
+All output of the evaluation of the rule sets described above are stored in the same format in Excel files. The columns are described here:
+
+- **pattern_id**: the name of the pattern or rule that was applied. A pattern or rule can apply to more than part of the report, but has the same form.
+
+- **cluster**: the group or cluster to which the pattern or rule applies (optional), for example life, non-life or reinsurance.
+
+- **pattern_def**: the definition of the pattern. The definition uses a simply syntax with references to the datapoints that should be relatively easy to read.
+
+- **support**: the number of occurences that satisfy this pattern or rule in reports that were previously submitted to DNB.
+
+- **exceptions**: the number of occurences that do not satisfy this pattern or rule in reports submitted to DNB.
+
+- **confidence**: the support divided by (support plus exceptions). This is an indicator for how exceptional this pattern or rule is. If the confidence is one, then the pattern or rule is in all cases satisfied. If the confidence is lower than one then this could point to an error in the data or an unusual but acceptable circumstance that led to this exception. Only patterns with very high confidences are published in this repository.
+
+- **pattern_status**: the status of the pattern or rule, i.e. blocking taxonomy rule, non-blocking taxonomy rule, validation rule or statistical validation rule.
+
+You can find the documentation of the data-patterns package `here <https://data-patterns.readthedocs.io/en/latest/>`_.
+
 
 Data format requirements
 ========================
