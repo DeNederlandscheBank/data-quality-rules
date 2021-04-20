@@ -17,6 +17,8 @@ data-quality-rules
 
 This is Data Quality Rules repository for the Solvency 2 and the Financial Assessment Framework (FTK) quantitative reporting templates (QRTs). In this repository De Nederlandsche Bank (DNB) publishes additional validation rules to improve the data quality of the QRTs. This repository can be used by entities who submit supervisory reports to DNB.
 
+The use of the validation rules published in this repository is not mandatory. You may choose to submit supervisory reports without prior evaluation of these validation rules. If you choose to use the validation rules published in this repository then you cannot derive any rights from this.
+
 The documentation can be found `here <https://data-quality-rules.readthedocs.io/en/latest/?badge=latest>`_.
 
 License
@@ -31,9 +33,10 @@ Here is what the package contains:
 
 * (Statistical) validation rules for Solvency 2 and FTK
 
-* Source code to extract csv-, Pandas pickles- and html-files from XBRL instance files
+* Source code to extract csv- and Pandas pickle-files from XBRL instance files
 
 * Source code to evaluate validation rules on Pandas pickle-files
 
-* Notebook tutorials to get you started
+* Command line interfaces and notebook tutorials to get you started
 
+Currently, a limited number of EIOPA-validation rules are included and the code to evaluate all EIOPA-validation is not yet included.
