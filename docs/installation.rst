@@ -4,7 +4,7 @@
 Installation
 ============
 
-We provide two installation methods: online and offline installation. For the online you need a connection to internet to download the required packages. For the offline installation you need to download a limited number of files (specified below) and then you can install everything without a connection to internet. After installation of the repository, you need to download the taxonomies and examples files you want to work with. We provided a script to download these files and put them in the correct location.
+We provide two installation methods: online and offline installation. For the online installation you need a connection to internet to download the required packages. For the offline installation you need to download a limited number of files (specified below) and then you can install everything without a connection to internet. After installation of the repository, you need to download the taxonomies and examples files you want to work with. We provided a script to download these files and put them in the correct location.
 
 For both methods we recommend to have Anaconda (> 5.3.1) installed.
 
