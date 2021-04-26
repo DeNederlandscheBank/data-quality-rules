@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='data-quality-rules',
+    name='dqr',
     packages=find_packages(include = ['src', 'src.*']),
     include_package_data=True,    
     version='0.4.2',

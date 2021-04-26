@@ -185,7 +185,6 @@ def additionalRules(entrypoint, report_dir, output_type, output_dir):
     df_results = df_results_closed_axis.copy()  # results for closed axis tables
     for table in list(output_open_axis.keys()):  # for all open axis tables with rules -> append and sort results
         df_results = transform_results_open_axis(output_open_axis[table]['results']).append(df_results, sort=False).sort_values(by=['pattern_id']).sort_index()
-
     # Change column order so the dataframe starts with the identifying columns:
 
     list_col_order = []
@@ -201,9 +200,11 @@ def additionalRules(entrypoint, report_dir, output_type, output_dir):
     # The dataframe df_results contains all output of the evaluation of the validation rules. 
 
     if output_type == 1:
-        df_results[df_results['result_type']==False].to_excel(join(output_dir, "results.xlsx"))
+        if len(df_results[df_results['result_type']==False]) > 0:
+            df_results[df_results['result_type']==False].to_excel(join(output_dir, "results.xlsx"))
     elif output_type == 2:
-        df_results[df_results['result_type']==True].to_excel(join(output_dir, "results.xlsx"))
+        if len(df_results[df_results['result_type']==True]) > 0:
+            df_results[df_results['result_type']==True].to_excel(join(output_dir, "results.xlsx"))
     elif output_type == 3:
         df_results.to_excel(join(output_dir, "results.xlsx"))
 

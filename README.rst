@@ -39,4 +39,4 @@ Here is what the package contains:
 
 * Command line interfaces and notebook tutorials to get you started
 
-Currently, a limited number of EIOPA-validation rules are included and the code to evaluate all EIOPA-validation is not yet included.
+Currently, the patterns and rules published here contain a limited number of EIOPA-validation rules and the code to evaluate the complete set of EIOPA-validation rules is not yet included.
