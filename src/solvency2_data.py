@@ -24,7 +24,10 @@ make_folder = True
 zipfilesets = {
                'Solvency2 2.5.0': 
                     {'url_taxo':  'https://dev.eiopa.europa.eu/Taxonomy/Full/2.5.0/S2/',
-                     'taxonomy' : 'EIOPA_SolvencyII_XBRL_Taxonomy_2.5.0_hotfix_with_External_Files.zip'},
+                     'taxonomy' : 'EIOPA_SolvencyII_XBRL_Taxonomy_2.5.0_hotfix_with_External_Files.zip',
+                     'url_inst':  'https://dev.eiopa.europa.eu/Taxonomy/Full/2.5.0/S2/',
+                     'instances': 'EIOPA_SolvencyII_XBRL_Instance_documents_2.5.0.zip',
+                     'extension': join('EIOPA_SolvencyII_XBRL_Instance_documents_2.5.0', 'random')},
                'Solvency2 2.4.0': 
                     {'url_taxo':  'https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/',
                      'taxonomy':  'EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip',
@@ -116,10 +119,14 @@ def extract(url_inst, name_zipfile, path_zipfile):
         output.close()
         z = ZipfileLongPaths(io.BytesIO(r.content))
     for file in tqdm(iterable=z.namelist(), total=len(z.namelist())):
-        try:
-            z.extract(member=file, path=path_zipfile)
-        except:
-            logger.info('Cannot extract %s' % str(file))
+        if ('ars' in file.lower()) or \
+           ('qrs' in file.lower()) or \
+           ('arg' in file.lower()) or \
+           ('qrg' in file.lower()):
+            try:
+                z.extract(member=file, path=path_zipfile)
+            except:
+                logger.info('Cannot extract %s' % str(file))
     z.close()
 
 # Move files examples
