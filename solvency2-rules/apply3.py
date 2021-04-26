@@ -96,7 +96,6 @@ def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
         else:  # join to existing dataframe
             dft = dft.append(df_closed_axis)
 
-
     # Next we import the reporting data. We import the data of two consecutive periods. 
     # In the tutorial 'Convert XBRL-instances to CSV, HTML and pickles' the XBRL-instances 
     # are converted to pickle files per template. The pickle files are written to the 
@@ -116,7 +115,8 @@ def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
     dft['categorie'] = category_choices[entity_category]
     numerical_columns = ['entity','period','categorie'] + [dft.columns[c] for c in range(len(dft.columns))
                             if ((dft.dtypes[c] == 'float64') or (dft.dtypes[c] == 'int64'))] #select only numerical columns
-    df_ARS = dft[numerical_columns]
+
+    df_ARS = dft[numerical_columns].copy()
     df_ARS['period'] = df_ARS['period'].apply(lambda x: datetime.datetime.strptime(x,'%Y-%m-%d')) #convert to datetime
     df_ARS.fillna(0, inplace=True)
 
@@ -172,7 +172,6 @@ def between_qrs(report_dir_1, report_dir_2, output_dir, entity_category):
         else:  # join to existing dataframe
             dft = dft.append(df_closed_axis)
 
-
     # Next we import the reporting data. We import the data of two consecutive periods. 
     # In the tutorial 'Convert XBRL-instances to CSV, HTML and pickles' the XBRL-instances 
     # are converted to pickle files per template. The pickle files are written to the 
@@ -192,7 +191,7 @@ def between_qrs(report_dir_1, report_dir_2, output_dir, entity_category):
     dft['categorie'] = category_choices[entity_category]
     numerical_columns = ['entity','period','categorie'] + [dft.columns[c] for c in range(len(dft.columns))
                             if ((dft.dtypes[c] == 'float64') or (dft.dtypes[c] == 'int64'))] #select only numerical columns
-    df_QRS = dft[numerical_columns]
+    df_QRS = dft[numerical_columns].copy()
     df_QRS['period'] = df_QRS['period'].apply(lambda x: datetime.datetime.strptime(x,'%Y-%m-%d')) #convert to datetime
     df_QRS.fillna(0, inplace=True)
 
