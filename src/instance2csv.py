@@ -37,7 +37,7 @@ instance_choices: str = "Choose instance file:\n"+"\n".join([str(idx)+": "+item
 
 def main(taxo, instance, output, verbose_labels):
 
-    if taxo not in range(0, len(taxonomies)-1):
+    if taxo not in range(0, len(taxonomies)):
         print("ERROR: incorrect taxonomy choice.")
         return 0
     if instance not in range(0, len(instances)):
