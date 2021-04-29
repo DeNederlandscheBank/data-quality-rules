@@ -12,3 +12,4 @@ To run the additional rules use::
 
 The command line interface will ask the rule set that you want to apply (compare two QRS-reports or compare two ARS-reports), the entity category (Schade, Herverzekeraar, Leven), the two directories where the two reports are located and the output directory. You can also run the script with command line arguments --rule_set, --entity_category, --report_dir_1, --report_dir_2 and output_dir.
 
+You cannot test these rules with the example instances provided by EIOPA because the instances of subsequent periods contain different LEI-codes.
