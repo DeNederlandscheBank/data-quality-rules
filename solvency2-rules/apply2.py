@@ -16,7 +16,7 @@ RESULTS_PATH = join('results')
 DATA_PATH = join('data')
 DATAPOINTS_PATH = join('data', 'datapoints')
 
-logging.basicConfig(filename = join(RESULTS_PATH, 'rules.log'),level = logging.INFO, 
+logging.basicConfig(filename = join(RESULTS_PATH, 'rule-set-2.log'),level = logging.INFO, 
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 reports: list = [f for f in listdir(INSTANCES_DATA_PATH) if isdir(join(INSTANCES_DATA_PATH, f))]

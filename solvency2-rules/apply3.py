@@ -18,7 +18,7 @@ RESULTS_PATH = join('results')
 DATA_PATH = join('data')
 DATAPOINTS_PATH = join('data', 'datapoints')
 
-logging.basicConfig(filename = join(RESULTS_PATH, 'rules.log'),level = logging.INFO, 
+logging.basicConfig(filename = join(RESULTS_PATH, 'rule-set-3.log'),level = logging.INFO, 
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 reports: list = [f for f in listdir(INSTANCES_DATA_PATH) if isdir(join(INSTANCES_DATA_PATH, f))]
@@ -113,7 +113,7 @@ def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
 
     dft = dft.reset_index()
     dft['categorie'] = category_choices[entity_category]
-    numerical_columns = ['entity','period','categorie'] + [dft.columns[c] for c in range(len(dft.columns))
+    numerical_columns = ['entity', 'period', 'categorie'] + [dft.columns[c] for c in range(len(dft.columns))
                             if ((dft.dtypes[c] == 'float64') or (dft.dtypes[c] == 'int64'))] #select only numerical columns
 
     df_ARS = dft[numerical_columns].copy()

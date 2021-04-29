@@ -15,7 +15,7 @@ INSTANCES_DATA_PATH = join('data', 'instances') #path of folder with converted x
 RULES_PATH = join('solvency2-rules')
 RESULTS_PATH = join('results') 
 
-logging.basicConfig(filename = join(RESULTS_PATH, 'rules.log'),level = logging.INFO, 
+logging.basicConfig(filename = join(RESULTS_PATH, 'rule-set-1.log'),level = logging.INFO, 
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 reports: list = [f for f in listdir(INSTANCES_DATA_PATH) if isdir(join(INSTANCES_DATA_PATH, f))]

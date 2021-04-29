@@ -26,6 +26,12 @@ All rule sets are evaluated with DNB's `data-patterns package <https://github.co
 .. include:: usage_reportscomparisonrules.rst
 
 
+Logging
+=======
+
+Logging is performed for each rule set and is set to **logging.INFO**. Output is written to  results\rule-set-1.log, results\rule-set-2.log and results\rule-set-3.log, depending on the rule set that is evaluated. Logging of the data-patterns package is stored in this file, so you can the the result of each rule and pattern. Log level is currently not an input but you can change the level in the apply.py files.
+
+
 The format of the patterns and rules files
 ==========================================
 
