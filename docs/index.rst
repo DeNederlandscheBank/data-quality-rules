@@ -1,5 +1,5 @@
-Welcome to data-patterns's documentation!
-=========================================
+Welcome to the documentation of Data Quality Rules
+==================================================
 
 .. toctree::
    :maxdepth: 2
