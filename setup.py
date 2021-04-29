@@ -1,10 +1,10 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='data-quality-rules',
+    name='dqr',
     packages=find_packages(include = ['src', 'src.*']),
     include_package_data=True,    
-    version='0.4.2',
+    version='0.5.0',
     description='Data Quality Rules for Solvency 2 and FTK',
     author='DeNederlandscheBank',
     license='MIT/X',
@@ -21,11 +21,13 @@ setup(
 		'requests',
 		'tqdm',
 		'tabulate',
-		'click',
+		'click==7.1.2',
 		'python-dotenv>=0.5.1',
 		'xlrd>=0.9.0',
 		'dnb-arelle',
 		'data-patterns',
-		'tox==3.20.0'
+		'tox==3.20.0',
+		'Sphinx==1.8.5',
+		'sphinx-rtd-theme==0.5.1'
     ]
 )

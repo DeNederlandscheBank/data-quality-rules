@@ -1,8 +1,3 @@
-from arelle import ModelManager, Cntlr, ModelXbrl, XbrlConst, RenderingEvaluator, \
-                   ViewFileRenderedGrid, ModelFormulaObject
-from arelle import PackageManager, FileSource
-from .generateRST import *
-from .generateCSV import *
+__version__ = '0.5.0'
+
 from .evaluator import *
-from .ftk_data import *
-from .solvency2_data import *
