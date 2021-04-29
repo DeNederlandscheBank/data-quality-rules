@@ -50,3 +50,12 @@ History
 ------------------
 
 * Bug fix for tutorial to evaluate two periods
+
+0.5.0 (2021-4-29)
+-----------------
+
+* Simplified repo by adding command line interfaces for all rule evaluations
+* Added documentation on readthedocs.org
+* Updated Solvency 2 taxonomy 2.5 and example instance files
+* Updated DNB ruleset: 2021_04-01_set_aanvullende_controleregels_solvency2
+* Improved logging
