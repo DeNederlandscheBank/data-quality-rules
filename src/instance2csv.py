@@ -64,8 +64,8 @@ def main(taxo, instance, output, verbose_labels):
     modelmanager.formulaOptions = ModelFormulaObject.FormulaOptions()
     modelmanager.loadCustomTransforms()
 
-    if isfile(join(XBRL_TAXONOMY_PATH, "taxonomyPackages.json")):
-        os.remove(join(XBRL_TAXONOMY_PATH, "taxonomyPackages.json"))
+    if isfile(join(XBRL_TAXONOMY_PATH, "arelle", "taxonomyPackages.json")):
+        os.remove(join(XBRL_TAXONOMY_PATH, "arelle", "taxonomyPackages.json"))
 
     taxos = [taxonomies[taxo]]
     PackageManager.init(controller)
