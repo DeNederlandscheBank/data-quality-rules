@@ -4,7 +4,6 @@ import math
 from os import listdir, walk, makedirs, environ
 from os.path import isfile, join, exists, basename, isdir
 import re
-from src import Evaluator
 import logging
 import data_patterns
 import click
@@ -65,6 +64,9 @@ def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
     report_dirs_ARS = [report_dir_1, report_dir_2]
 
     #Capitalize row-column references:
+    column_replace = set([column for sublist in [row for row in dfr_ARS['pandas ex'].str.findall(r'c\d\d\d\d')] for column in sublist])
+    for ref in column_replace:
+        dfr_ARS.replace(to_replace=ref, value=ref.capitalize(), inplace=True, regex=True)
     column_replace = set([column for sublist in [row for row in dfr_ARS['pandas ex'].str.findall(r'r\d\d\d\d')] for column in sublist])
     for ref in column_replace:
         dfr_ARS.replace(to_replace=ref, value=ref.capitalize(), inplace=True, regex=True)
@@ -128,6 +130,9 @@ def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
 
     results = miner.analyze()
 
+    if not exists(output_dir):
+        makedirs(output_dir)
+
     results.to_excel(join(output_dir, "results_S2_betweenperiods_ARS.xlsx"), engine='openpyxl')
 
 
@@ -141,6 +146,9 @@ def between_qrs(report_dir_1, report_dir_2, output_dir, entity_category):
     report_dirs_QRS = [report_dir_1, report_dir_2]
 
     #Capitalize row-column references:
+    column_replace = set([column for sublist in [row for row in dfr_QRS['pandas ex'].str.findall(r'c\d\d\d\d')] for column in sublist])
+    for ref in column_replace:
+        dfr_QRS.replace(to_replace=ref, value=ref.capitalize(), inplace=True, regex=True)
     column_replace = set([column for sublist in [row for row in dfr_QRS['pandas ex'].str.findall(r'r\d\d\d\d')] for column in sublist])
     for ref in column_replace:
         dfr_QRS.replace(to_replace=ref, value=ref.capitalize(), inplace=True, regex=True)
@@ -198,10 +206,13 @@ def between_qrs(report_dir_1, report_dir_2, output_dir, entity_category):
     miner = data_patterns.PatternMiner(df_patterns=dfr_QRS)
     miner.df_data = df_QRS
     miner.metapatterns = {'cluster': 'categorie'}
-    miner.convert_to_time(['entity', 'categorie'], 'period')
+    miner.convert_to_time(['entity', 'categorie'], 'period', set_year = False)
     miner.df_data = miner.df_data.reset_index()
 
     results = miner.analyze()
+
+    if not exists(output_dir):
+        makedirs(output_dir)
 
     results.to_excel(join(output_dir, "results_S2_betweenperiods_QRS.xlsx"), engine='openpyxl')
 
