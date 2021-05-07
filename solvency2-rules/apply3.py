@@ -114,7 +114,7 @@ def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
     # of insurer separately.
 
     dft = dft.reset_index()
-    dft['categorie'] = category_choices[entity_category]
+    dft['categorie'] = categories[entity_category]
     numerical_columns = ['entity', 'period', 'categorie'] + [dft.columns[c] for c in range(len(dft.columns))
                             if ((dft.dtypes[c] == 'float64') or (dft.dtypes[c] == 'int64'))] #select only numerical columns
 
@@ -196,7 +196,7 @@ def between_qrs(report_dir_1, report_dir_2, output_dir, entity_category):
     # of insurer separately.
 
     dft = dft.reset_index()
-    dft['categorie'] = category_choices[entity_category]
+    dft['categorie'] = categories[entity_category]
     numerical_columns = ['entity','period','categorie'] + [dft.columns[c] for c in range(len(dft.columns))
                             if ((dft.dtypes[c] == 'float64') or (dft.dtypes[c] == 'int64'))] #select only numerical columns
     df_QRS = dft[numerical_columns].copy()
