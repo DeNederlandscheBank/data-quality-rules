@@ -4,7 +4,7 @@ from arelle import PackageManager, FileSource
 import sys
 from src import generateCSV
 import pandas as pd
-from os import listdir, walk, makedirs, environ
+from os import listdir, walk, makedirs, environ, remove
 from os.path import isfile, join, exists, basename
 from datetime import datetime
 import click
@@ -65,7 +65,7 @@ def main(taxo, instance, output, verbose_labels):
     modelmanager.loadCustomTransforms()
 
     if isfile(join(XBRL_TAXONOMY_PATH, "arelle", "taxonomyPackages.json")):
-        os.remove(join(XBRL_TAXONOMY_PATH, "arelle", "taxonomyPackages.json"))
+        remove(join(XBRL_TAXONOMY_PATH, "arelle", "taxonomyPackages.json"))
 
     taxos = [taxonomies[taxo]]
     PackageManager.init(controller)
