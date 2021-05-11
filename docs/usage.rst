@@ -26,6 +26,12 @@ All rule sets are evaluated with DNB's `data-patterns package <https://github.co
 .. include:: usage_reportscomparisonrules.rst
 
 
+Rule thresholds
+===============
+
+Currently, we have set the threshold on zero decimals, which means that a rule is satisfied if the difference between the expected value and the reported value is lower than 1.5e0. This threshold is set at the level of the rule. This is a slightly different approach than the one applied in XBRL validation rules, where thresholds are set at the level of separate data points. This means that it is possible that an exception to a DQR rule is triggered, where an XBRL rule is not triggered because it applies higher thresholds.
+
+
 Logging
 =======
 
