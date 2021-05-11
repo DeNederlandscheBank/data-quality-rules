@@ -199,8 +199,6 @@ def additionalRules(entrypoint, report_dir, output_type, output_dir):
 
     # The dataframe df_results contains all output of the evaluation of the validation rules. 
 
-    print(df_results.columns)
-
     if output_type == 1:
         df_results = df_results[df_results['result_type']==False]
     elif output_type == 2:
