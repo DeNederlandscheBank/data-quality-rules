@@ -135,14 +135,12 @@ def between_ars(report_dir_1, report_dir_2, output_type, output_dir, entity_cate
         makedirs(output_dir)
 
     if output_type == 1:
-        if len(results[results['result_type']==False]) > 0:
-            results[results['result_type']==False].to_excel(join(output_dir, "rule-set-3-results_ARS.xlsx"), engine='openpyxl')
+        results = result[results['result_type']==False]
     elif output_type == 2:
-        if len(results[results['result_type']==True]) > 0:
-            results[results['result_type']==True].to_excel(join(output_dir, "rule-set-3-results_ARS.xlsx"), engine='openpyxl')
-    elif output_type == 3:
-        results.to_excel(join(output_dir, "rule-set-3-results_ARS.xlsx"), engine='openpyxl')
+        results = results[results['result_type']==True]
 
+    if len(results) > 0:
+        results.to_excel(join(output_dir, "rule-set-3-results_ARS.xlsx"), engine='openpyxl')
 
 def between_qrs(report_dir_1, report_dir_2, output_type, output_dir, entity_category):
 
