@@ -7,18 +7,17 @@ import unittest
 import os
 from datetime import datetime
 import filecmp
-import src
 from arelle import ModelManager, Cntlr, ModelXbrl, XbrlConst, RenderingEvaluator, \
                    ViewFileRenderedGrid, ModelFormulaObject
 from arelle import PackageManager, FileSource
+import src
 
 XBRL_TAXONOMIES_PATH = os.path.join('data', 'taxonomies')
 XBRL_INSTANCES_PATH = os.path.join('tests', 'data', 'test_instances')
 LANGUAGE = "en-GB"
 euRCcode = 'http://www.eurofiling.info/xbrl/role/rc-code'
 
-taxonomies = ['EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip',
-              'FTK Taxonomy 2.1.0_tcm46-386386.zip']
+taxonomies = ['EIOPA_SolvencyII_XBRL_Taxonomy_2.4.0_with_external_hotfix.zip']
 
 os.environ['XDG_CONFIG_HOME'] = XBRL_TAXONOMIES_PATH
 
