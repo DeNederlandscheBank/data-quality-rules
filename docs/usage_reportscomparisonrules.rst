@@ -10,6 +10,8 @@ To run the additional rules use::
 
   python solvency2-rules\apply3.py
 
-The command line interface will ask the rule set that you want to apply (compare two QRS-reports or compare two ARS-reports), the entity category (Schade, Herverzekeraar, Leven), the two directories where the two reports are located and the output directory. You can also run the script with command line arguments --rule_set, --entity_category, --report_dir_1, --report_dir_2 and output_dir.
+The command line interface will ask the rule set that you want to apply (compare two QRS-reports or compare two ARS-reports), the entity category (Schade, Herverzekeraar, Leven), the two directories where the two reports are located and the output directory. You can also run the script with command line arguments --rule_set, --entity_category, --report_dir_1, --report_dir_2, output_type and output_dir.
+
+With output_type you can choose to output confirmations only, exceptions only, or all results.
 
 You cannot test these rules with the example instances provided by EIOPA because the instances of subsequent periods contain different LEI-codes.

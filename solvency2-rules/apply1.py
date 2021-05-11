@@ -199,14 +199,16 @@ def additionalRules(entrypoint, report_dir, output_type, output_dir):
 
     # The dataframe df_results contains all output of the evaluation of the validation rules. 
 
+    print(df_results.columns)
+
     if output_type == 1:
-        if len(df_results[df_results['result_type']==False]) > 0:
-            df_results[df_results['result_type']==False].to_excel(join(output_dir, "results.xlsx"))
+        df_results = df_results[df_results['result_type']==False]
     elif output_type == 2:
-        if len(df_results[df_results['result_type']==True]) > 0:
-            df_results[df_results['result_type']==True].to_excel(join(output_dir, "results.xlsx"))
-    elif output_type == 3:
-        df_results.to_excel(join(output_dir, "results.xlsx"))
+        df_results = df_results[df_results['result_type']==True]
+
+    if len(df_results) > 0:
+        df_results.to_excel(join(output_dir, "rule-set-1-results.xlsx"), engine='openpyxl')
+
 
 if __name__ == "__main__":
     sys.exit(main())

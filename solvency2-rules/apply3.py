@@ -33,9 +33,10 @@ category_choices: str = "Select category: \n"+", ".join([str(idx)+": "+item
 @click.option('--entity_category', default=0, prompt=category_choices)
 @click.option('--report_dir_1', default=0, prompt="Select report 1:\n"+report_choices)
 @click.option('--report_dir_2', default=1, prompt="Select report 2:\n"+report_choices)
+@click.option('--output_type', default=1, prompt='Select output type:\n1: exceptions\n2: confirmation\n3: both')
 @click.option('--output_dir', default=RESULTS_PATH, prompt='output directory')
 
-def main(rule_set, entity_category, report_dir_1, report_dir_2, output_dir):
+def main(rule_set, entity_category, report_dir_1, report_dir_2, output_type, output_dir):
 
     if rule_set not in [1, 2]:
         print("ERROR: incorrect rule set choice.")
@@ -49,12 +50,12 @@ def main(rule_set, entity_category, report_dir_1, report_dir_2, output_dir):
     report_dir_2 = reports[report_dir_2]
 
     if rule_set == 1:
-        between_qrs(report_dir_1, report_dir_2, output_dir, entity_category)
+        between_qrs(report_dir_1, report_dir_2, output_type, output_dir, entity_category)
     elif rule_set == 2:
-        between_ars(report_dir_1, report_dir_2, output_dir, entity_category)
+        between_ars(report_dir_1, report_dir_2, output_type, output_dir, entity_category)
 
 
-def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
+def between_ars(report_dir_1, report_dir_2, output_type, output_dir, entity_category):
 
     # We start with importing the (t-1)-t rules that are applicable to two consecutive periods. 
     # We import a set of rules used to evaluate year data and a set of rules for quarter data.
@@ -133,10 +134,17 @@ def between_ars(report_dir_1, report_dir_2, output_dir, entity_category):
     if not exists(output_dir):
         makedirs(output_dir)
 
-    results.to_excel(join(output_dir, "results_S2_betweenperiods_ARS.xlsx"), engine='openpyxl')
+    if output_type == 1:
+        if len(results[results['result_type']==False]) > 0:
+            results[results['result_type']==False].to_excel(join(output_dir, "rule-set-3-results_ARS.xlsx"), engine='openpyxl')
+    elif output_type == 2:
+        if len(results[results['result_type']==True]) > 0:
+            results[results['result_type']==True].to_excel(join(output_dir, "rule-set-3-results_ARS.xlsx"), engine='openpyxl')
+    elif output_type == 3:
+        results.to_excel(join(output_dir, "rule-set-3-results_ARS.xlsx"), engine='openpyxl')
 
 
-def between_qrs(report_dir_1, report_dir_2, output_dir, entity_category):
+def between_qrs(report_dir_1, report_dir_2, output_type, output_dir, entity_category):
 
     # We start with importing the (t-1)-t rules that are applicable to two consecutive periods. 
     # We import a set of rules used to evaluate year data and a set of rules for quarter data.
@@ -214,7 +222,7 @@ def between_qrs(report_dir_1, report_dir_2, output_dir, entity_category):
     if not exists(output_dir):
         makedirs(output_dir)
 
-    results.to_excel(join(output_dir, "results_S2_betweenperiods_QRS.xlsx"), engine='openpyxl')
+    results.to_excel(join(output_dir, "rule-set-3-results_QRS.xlsx"), engine='openpyxl')
 
 
 if __name__ == "__main__":

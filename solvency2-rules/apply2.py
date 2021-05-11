@@ -25,12 +25,13 @@ report_choices: str = "\n".join([str(idx)+": "+item
 
 @click.command()
 @click.option('--report_dir', default=0, prompt=report_choices)
+@click.option('--output_type', default=1, prompt='Select output type:\n1: exceptions\n2: confirmation\n3: both')
 @click.option('--output_dir', default=RESULTS_PATH, prompt='output directory')
 
-def main(report_dir, output_dir):
-    financial(report_dir, output_dir)
+def main(report_dir, output_type, output_dir):
+    financial(report_dir, output_type, output_dir)
 
-def financial(report_dir, output_dir):
+def financial(report_dir, output_type, output_dir):
 
     output_dir = join(output_dir, reports[report_dir])
     report_dir = join(INSTANCES_DATA_PATH, reports[report_dir])
@@ -143,23 +144,53 @@ def financial(report_dir, output_dir):
 
     miner = data_patterns.PatternMiner(df_patterns=dfr_s06)
     results_06 = miner.analyze(df_s06)
-    results_06.to_excel(join(output_dir, "results_S2_06_02.xlsx"), engine='openpyxl')
+
+    if output_type == 1:
+        results_06 = results_06[results_06['result_type']==False]
+    elif output_type == 2:
+        results_06 = results_06[results_06['result_type']==True]
+    if len(results_06) > 0:
+        results_06.to_excel(join(output_dir, "rule-set-2-results_S2_06_02.xlsx"), engine='openpyxl')
 
     miner = data_patterns.PatternMiner(df_patterns=dfr_s06_2)
     results_06_2 = miner.analyze(df_s06_2)
-    results_06_2.to_excel(join(output_dir, "results_S2_06_02_01_02.xlsx"), engine='openpyxl')
+
+    if output_type == 1:
+        results_06_2 = results_06_2[results_06_2['result_type']==False]
+    elif output_type == 2:
+        results_06_2 = results_06_2[results_06_2['result_type']==True]
+    if len(results_06_2) > 0:
+        results_06_2.to_excel(join(output_dir, "rule-set-2-results_S2_06_02_01_02.xlsx"), engine='openpyxl')
 
     miner = data_patterns.PatternMiner(df_patterns=dfr_s06_1)
     results_06_1 = miner.analyze(df_s06_1)
-    results_06_1.to_excel(join(output_dir, "results_S2_06_02_01_01.xlsx"), engine='openpyxl')
+
+    if output_type == 1:
+        results_06_1 = results_06_1[results_06_1['result_type']==False]
+    elif output_type == 2:
+        results_06_1 = results_06_1[results_06_1['result_type']==True]
+    if len(results_06_1) > 0:
+        results_06_1.to_excel(join(output_dir, "rule-set-2-results_S2_06_02_01_01.xlsx"), engine='openpyxl')
 
     miner = data_patterns.PatternMiner(df_patterns=dfr_s08)
     results_08 = miner.analyze(df_s08)
-    results_08.to_excel(join(output_dir, "results_S2_08_01_01.xlsx"), engine='openpyxl')
+
+    if output_type == 1:
+        results_08 = results_08[results_08['result_type']==False]
+    elif output_type == 2:
+        results_08 = results_08[results_08['result_type']==True]
+    if len(results_08) > 0:
+        results_08.to_excel(join(output_dir, "rule-set-2-results_S2_08_01_01.xlsx"), engine='openpyxl')
 
     miner2 = data_patterns.PatternMiner(df_patterns=dfr_s08_2)
     results_08_2 = miner2.analyze(df_s08_2)
-    results_08_2.to_excel(join(output_dir, "results_S2_08_01_01_02.xlsx"), engine='openpyxl')
+
+    if output_type == 1:
+        results_08_2 = results_08_2[results_08_2['result_type']==False]
+    elif output_type == 2:
+        results_08_2 = results_08_2[results_08_2['result_type']==True]
+    if len(results_08_2) > 0:
+        results_08_2.to_excel(join(output_dir, "rule-set-2-results_S2_08_01_01_02.xlsx"), engine='openpyxl')
 
 
 if __name__ == "__main__":
