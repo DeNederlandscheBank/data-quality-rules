@@ -59,3 +59,9 @@ History
 * Updated Solvency 2 taxonomy 2.5 and example instance files
 * Updated DNB ruleset: 2021_04-01_set_aanvullende_controleregels_solvency2
 * Improved logging
+
+0.5.1 (2021-5-17)
+-----------------
+
+* Some minor bug fixes
+* Release version for DQR 2.0
