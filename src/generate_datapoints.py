@@ -59,8 +59,8 @@ def main(instance, output, verbose_labels):
 
     # Export as csv
     with open(join(output, instance[:3].upper() + ".csv"), 'w', newline = '') as list_file:
-        wr = csv.writer(list_file, quoting = csv.QUOTE_ALL)
-        [wr.writerow([i]) for i in master_instance]
+        wr = csv.writer(list_file, quoting = csv.QUOTE_NONE)
+        wr.writerows([[i] for i in master_instance])
 
 if __name__ == "__main__":
     sys.exit(main())
