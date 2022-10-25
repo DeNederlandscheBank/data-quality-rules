@@ -46,6 +46,8 @@ def main(instance, output, verbose_labels):
             df_file = pickle.load(handle)
         
         # List labels of columns
+        df_file.reset_index(inplace=True)
+        df_file.set_index(['entity', 'period'], inplace=True)
         labels_file = list(df_file.columns)
         num_file = len(labels_file)
         
