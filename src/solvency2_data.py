@@ -22,6 +22,12 @@ from sys import platform as _platform
 make_folder = True
 
 zipfilesets = {
+               'Solvency2 2.6.0':
+                    {'url_taxo': 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.6.0/S2/',
+                     'taxonomy': 'EIOPA_SolvencyII_XBRL_Taxonomy_2.6.0_hotfix_with_External_Files.zip',
+                     'url_inst': 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.6.0/S2/',
+                     'instances': 'EIOPA_SolvencyII_XBRL_Instance_documents_2.6.0.zip',
+                     'extension': join('EIOPA_SolvencyII_XBRL_Instance_documents_2.6.0', 'random')},
                'Solvency2 2.5.0': 
                     {'url_taxo':  'https://dev.eiopa.europa.eu/Taxonomy/Full/2.5.0/S2/',
                      'taxonomy' : 'EIOPA_SolvencyII_XBRL_Taxonomy_2.5.0_hotfix_with_External_Files.zip',
