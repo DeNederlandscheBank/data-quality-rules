@@ -128,7 +128,9 @@ def extract(url_inst, name_zipfile, path_zipfile):
         if ('ars' in file.lower()) or \
            ('qrs' in file.lower()) or \
            ('arg' in file.lower()) or \
-           ('qrg' in file.lower()):
+           ('qrg' in file.lower()) or \
+           ('qfs' in file.lower()) or \
+           ('qfg' in file.lower()):
             try:
                 z.extract(member=file, path=path_zipfile)
             except:

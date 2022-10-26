@@ -39,14 +39,40 @@ class Evaluator:
             s = s.replace(item[2], self.replace_and_or(item[2]))
         return s
 
+    def replace_substr(self, s):
+        """Replace SUBSTR(A,B,C) by A.str.slice(B,B+C,1)"""
+        for item in re.findall(r"(SUBSTR\s?\()(.*?)(,)([0-9]{1,2})(,)([0-9]{1,2})(\))", s):
+            s = s.replace("".join(item), item[1] + ".str.slice(" + str(int(item[3]) - int(1)) + "," + str(int(item[3]) - int(1) + int(item[5])) + ",1)")
+        return s
+
+    def replace_in_not_in(self, s):
+        """Replace IN and NOT IN by str.contains((...))"""
+        # NOT IN
+        for item in re.findall(r"(.*?)(\s?[^\w]NOT IN[^\w]\s?)(\(.*?\))", s):
+            item_2_adj = item[2] if "None" not in item[2] else "(" + item[2].replace("None, ", "").replace("None,", "").replace(", None", "").replace(",None", "") + ", True, 0, True)"
+            s = s.replace("".join(item),item[0] + ".str.contains" + item[2].replace('","', "|").replace('", "', "|") + "=False")
+        # IN
+        for item in re.findall(r"(.*?)(\s?[^\w]IN[^\w]\s?)(\(.*?\))", s):
+            item_2_adj = item[2] if "None" not in item[2] else "(" + item[2].replace("None, ", "").replace("None,", "").replace(", None", "").replace(",None", "") + ", True, 0, True)"
+            s = s.replace("".join(item),item[0] + ".str.contains" + item_2_adj.replace('","', "|").replace('", "', "|"))
+        return s
+
+    def adjust_sum(self, s):
+        """Adjust SUM by adding additional parenthesis""" 
+        for item in re.findall(r"(SUM\s?\()(\(?.*\).*?\)?)", s):
+            s = s.replace("".join(item),item[0] + "(" + item[1] + ")")
+        return s
+
     def preprocess_pattern(self, pattern):
-
-        pattern = pattern.replace("<>", "!=")
-        pattern = pattern.replace("< >", "!=")  # the space between < and > should be deleted in EVA2
-        pattern = pattern.replace(';', ",")  # this should be corrected in EVA2
-
-        # pattern = pattern.replace('"', "'")
+        # Pattern: AND, OR
         pattern = self.replace_and_or(pattern)
+        # Pattern: SUBSTR
+        pattern = self.replace_substr(pattern)
+        # Pattern: IN, NOT IN
+        pattern = self.replace_in_not_in(pattern)
+        # Pattern: SUM
+        pattern = self.adjust_sum(pattern)
+
         return pattern
 
     def make_pattern_expression(self, expression, name, parameters):
@@ -59,7 +85,6 @@ class Evaluator:
     def pre_process_rules(self, df_rules):
         """Transform rules so that we can evaluate them. Not all rules are fit to be evaluated"""
         logger = logging.getLogger(__name__)
-
         df_rules['datapoints'] = ''
         df_rules['datapoints'] = df_rules['datapoints'].astype('object')
         df_rules['templates'] = ''
@@ -83,17 +108,21 @@ class Evaluator:
         """Some rules have multiple rows or columns. This function makes all the expressions with every row/column"""
         expressions = []
         invalid_expressions = ""
-
         if expansion_dict:
-            for i in range(len(expansion_dict[datapoints[0]])):
+            if datapoints[0] in expansion_dict.keys():
+                zero = datapoints[0]
+            else:
+                zero = datapoints[1]
+            for i in range(len(expansion_dict[zero])):
                 expression = pre_expression
                 valid_expression = True
                 for datapoint in datapoints:
-                    if len(df_datapoints[(df_datapoints['tabelcode'] == expansion_dict[datapoint][i][:13]) &
-                                         (df_datapoints['rij'] == expansion_dict[datapoint][i][14:19].upper()) &
-                                         (df_datapoints['kolom'] == expansion_dict[datapoint][i][20:26].upper())]) == 0:
-                        valid_expression = False
-                    expression = expression.replace(datapoint, expansion_dict[datapoint][i])
+                    if datapoint in expansion_dict.keys():
+                        if len(df_datapoints[(df_datapoints['tabelcode'] == expansion_dict[datapoint][i][:13]) &
+                                             (df_datapoints['rij'] == expansion_dict[datapoint][i][14:19].upper()) &
+                                             (df_datapoints['kolom'] == expansion_dict[datapoint][i][20:26].upper())]) == 0:
+                            valid_expression = False
+                        expression = expression.replace(datapoint, expansion_dict[datapoint][i])
                 if valid_expression:
                     expressions.extend(self.make_pattern_expression(expression, name, parameters))
                 else:
@@ -109,9 +138,7 @@ class Evaluator:
     def process_rules(self, df_datapoints, parameters):
         """Evaluate all rules and stores the result in df_rules"""
         logger = logging.getLogger(__name__)
-
         rules_expressions = []
-
         for idx in range(len(self.df_rules.index)):
             row = self.df_rules.index[idx]
             rule_original = self.df_rules.loc[row, 'Formule_input']
@@ -122,7 +149,6 @@ class Evaluator:
             self.df_rules['Kolommen'] = self.df_rules['Kolommen'].astype(str)
             row_range = self.df_rules.loc[row, 'Rijen'].replace("(", "").replace(")", "").replace(",", ";").split(";")
             column_range = self.df_rules.loc[row, 'Kolommen'].replace("(", "").replace(")", "").replace(",", ";").split(";")
-
             # are the templates in the rule in the instance?
             templates_not_found = []
             for template in templates:
@@ -136,7 +162,8 @@ class Evaluator:
                 for datapoint in datapoints:
                     if datapoint not in self.entrypoint_datapoints:  # if datapoint is not there, see if we need to add rows or columns
                         new_list = []
-                        if datapoint[14] == "C" and (len(row_range) > 1 or row_range[0].upper() == "ALL"):
+                        #if datapoint[14] == "C" and (len(row_range) > 1 or row_range[0].upper() == "ALL"):
+                        if datapoint[14] == "C" and (row_range[0] != "" or row_range[0].upper() == "ALL"):
                             if len(row_range) == 1 and row_range[0].upper() == "ALL":
                                 for col in self.entrypoint_datapoints:
                                     reg = re.search(datapoint[0:14] + "R....," + datapoint[14:],col)  # do for all rows if necessary
@@ -148,10 +175,10 @@ class Evaluator:
                                     if len(r) - len(r.replace("-", "")) == 1:  # range
                                         low, high = r.split("-")
                                         rows.extend(list(df_datapoints[(df_datapoints['tabelcode'] == datapoint[0:13]) &
-                                                                       (df_datapoints['kolom'] == datapoint[14:]) &
-                                                                       (df_datapoints['rij'].str[-4:] >= low) &
-                                                                       (df_datapoints['rij'].str[-4:] <= high)
-                                                                       ].rij))
+                                                                        (df_datapoints['kolom'] == datapoint[14:]) &
+                                                                        (df_datapoints['rij'].str[-4:] >= low) &
+                                                                        (df_datapoints['rij'].str[-4:] <= high)
+                                                                        ].rij))
                                     else:
                                         if r.upper()[0] == 'R':
                                             rows.extend([r.upper()])
@@ -159,7 +186,8 @@ class Evaluator:
                                             rows.extend([('R' + r)])
                                 for r in rows:
                                     new_list.append(datapoint[0:14] + r + "," + datapoint[14:])
-                        if datapoint[14] == "R" and(len(column_range) > 1 or column_range[0].upper() == "ALL"):
+                        #if datapoint[14] == "R" and (len(column_range) > 1 or column_range[0].upper() == "ALL"):
+                        if datapoint[14] == "R" and (column_range[0] != "" or column_range[0].upper() == "ALL"):
                             if len(column_range) == 1 and column_range[0].upper() == "ALL":
                                 for col in self.entrypoint_datapoints:
                                     reg = re.search(datapoint + ",C....", col)  # do for all columns if necessary
@@ -171,10 +199,10 @@ class Evaluator:
                                     if len(c) - len(c.replace("-", "")) == 1:  # range
                                         low, high = c.split("-")
                                         cols.extend(list(df_datapoints[(df_datapoints['tabelcode'] == datapoint[0:13]) &
-                                                                       (df_datapoints['rij'] == datapoint[14:]) &
-                                                                       (df_datapoints['kolom'].str[-4:] >= low) &
-                                                                       (df_datapoints['kolom'].str[-4:] <= high)
-                                                                       ].rij))
+                                                                        (df_datapoints['rij'] == datapoint[14:]) &
+                                                                        (df_datapoints['kolom'].str[-4:] >= low) &
+                                                                        (df_datapoints['kolom'].str[-4:] <= high)
+                                                                        ].kolom))
                                     else:
                                         if c.upper()[0] == 'C':
                                             cols.extend([c.upper()])
