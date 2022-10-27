@@ -7,7 +7,7 @@ numpy==1.19.3
 lxml>=3.4.4
 cx_Freeze==6.1
 openpyxl==3.0.5
-isodate==0.5.4
+isodate
 aniso8601
 regex==2018.08.29
 requests
