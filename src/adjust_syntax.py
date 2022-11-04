@@ -30,10 +30,11 @@ def adjust_syntax(rules):
     # ; has to be converted to ,
     rules['Formule'] = rules['Formule'].str.replace(';',',')
 
-    # Use of rNNN is unnecessary, but make sure all rows are included
-    for pattern in ['RNNN,', 'rNNN,']:
-        rules.loc[rules['Formule'].str.contains(pattern), 'Rijen'] = '(All)'
-        rules['Formule'] = rules['Formule'].str.replace(pattern,'')
+    # Use of rNNN is unnecessary
+    rules['Formule'] = rules['Formule'].str.replace('rNNN,','')
+    # Use wildcard # instead of RNNN for summing instead of repeating over multiple rows, and make sure all rows are included
+    rules.loc[rules['Formule'].str.contains('RNNN,'), 'Rijen'] = '(All)'
+    rules['Formule'] = rules['Formule'].str.replace('RNNN,','#,')
     # Correct C\d\d\d\dC to C\d\d\d\d
     for item in [tuple(filter(None, tup)) for cols in rules['Kolommen'] for tup in re.findall(r"([Cc]\d\d\d\d)([Cc])", cols)]:
         rules['Kolommen'] = rules['Kolommen'].str.replace("".join(item),item[0])

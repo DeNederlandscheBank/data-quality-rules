@@ -104,6 +104,72 @@ class Evaluator:
 
         return df_rules
 
+    def unpack_rows_columns(self, row_range, column_range, datapoints, df_datapoints):
+        "Unpack rows and columns"
+        datapoints_not_found = []
+        expansion_dict = {}
+        # are the datapoints in the rule in the instance?
+        for datapoint in datapoints:
+            if datapoint not in self.entrypoint_datapoints:  # if datapoint is not there, see if we need to add rows or columns
+                new_list = []
+                bool_wildcard = ",#" in datapoint
+                datapoint_orig = datapoint
+                datapoint = datapoint.replace(",#", "")
+                if datapoint[14] == "C" and (row_range[0] != "" or row_range[0].upper() == "ALL"):
+                    if len(row_range) == 1 and row_range[0].upper() == "ALL":
+                        for col in self.entrypoint_datapoints:
+                            reg = re.search(datapoint[0:14] + "R....," + datapoint[14:],col)  # do for all rows if necessary
+                            if reg:
+                                new_list.append(reg.group(0))
+                    else:
+                        rows = []
+                        for r in row_range:
+                            if len(r) - len(r.replace("-", "")) == 1:  # range
+                                low, high = r.split("-")
+                                rows.extend(list(df_datapoints[(df_datapoints['tabelcode'] == datapoint[0:13]) &
+                                                                (df_datapoints['kolom'] == datapoint[14:]) &
+                                                                (df_datapoints['rij'].str[-4:] >= low) &
+                                                                (df_datapoints['rij'].str[-4:] <= high)
+                                                                ].rij))
+                            else:
+                                if r.upper()[0] == 'R':
+                                    rows.extend([r.upper()])
+                                else:
+                                    rows.extend([('R' + r)])
+                        for r in rows:
+                            new_list.append(datapoint[0:14] + r + "," + datapoint[14:])
+                if datapoint[14] == "R" and (column_range[0] != "" or column_range[0].upper() == "ALL"):
+                    if len(column_range) == 1 and column_range[0].upper() == "ALL":
+                        for col in self.entrypoint_datapoints:
+                            reg = re.search(datapoint + ",C....", col)  # do for all columns if necessary
+                            if reg:
+                                new_list.append(reg.group(0))
+                    else:
+                        cols = []
+                        for c in column_range:
+                            if len(c) - len(c.replace("-", "")) == 1:  # range
+                                low, high = c.split("-")
+                                cols.extend(list(df_datapoints[(df_datapoints['tabelcode'] == datapoint[0:13]) &
+                                                                (df_datapoints['rij'] == datapoint[14:]) &
+                                                                (df_datapoints['kolom'].str[-4:] >= low) &
+                                                                (df_datapoints['kolom'].str[-4:] <= high)
+                                                                ].kolom))
+                            else:
+                                if c.upper()[0] == 'C':
+                                    cols.extend([c.upper()])
+                                else:
+                                    cols.extend([('C' + c)])
+                        for c in cols:
+                            new_list.append(datapoint + "," + c)
+                if new_list != []:
+                    # Wildcard # notation indicates that we need to sum over all the datapoints
+                    new_list = ['"},{"'.join(new_list)] if bool_wildcard else new_list
+                    expansion_dict[datapoint_orig] = new_list
+                else:
+                    datapoints_not_found.append(datapoint_orig)
+
+        return expansion_dict, datapoints_not_found
+
     def process_rule(self, pre_expression, name, datapoints, expansion_dict, df_datapoints, parameters):
         """Some rules have multiple rows or columns. This function makes all the expressions with every row/column"""
         expressions = []
@@ -113,15 +179,18 @@ class Evaluator:
                 zero = datapoints[0]
             else:
                 zero = datapoints[1]
+            bool_wildcard = ",#" in pre_expression
             for i in range(len(expansion_dict[zero])):
                 expression = pre_expression
                 valid_expression = True
                 for datapoint in datapoints:
                     if datapoint in expansion_dict.keys():
-                        if len(df_datapoints[(df_datapoints['tabelcode'] == expansion_dict[datapoint][i][:13]) &
-                                             (df_datapoints['rij'] == expansion_dict[datapoint][i][14:19].upper()) &
-                                             (df_datapoints['kolom'] == expansion_dict[datapoint][i][20:26].upper())]) == 0:
-                            valid_expression = False
+                        datapoints_wildcard = [item for item in re.findall(r"(S\.\d\d\.\d\d\.\d\d\.\d\d,R\d\d\d\d,C\d\d\d\d)*", expansion_dict[datapoint][i]) if item != '']
+                        for datapoint_wildcard in datapoints_wildcard:
+                            if len(df_datapoints[(df_datapoints['tabelcode'] == datapoint_wildcard[:13]) &
+                                                (df_datapoints['rij'] == datapoint_wildcard[14:19].upper()) &
+                                                (df_datapoints['kolom'] == datapoint_wildcard[20:25].upper())]) == 0:
+                                valid_expression = False
                         expression = expression.replace(datapoint, expansion_dict[datapoint][i])
                 if valid_expression:
                     expressions.extend(self.make_pattern_expression(expression, name, parameters))
@@ -156,64 +225,7 @@ class Evaluator:
                     templates_not_found.append(template)
 
             if templates_not_found == []:
-                datapoints_not_found = []
-                expansion_dict = {}
-                # are the datapoints in the rule in the instance?
-                for datapoint in datapoints:
-                    if datapoint not in self.entrypoint_datapoints:  # if datapoint is not there, see if we need to add rows or columns
-                        new_list = []
-                        #if datapoint[14] == "C" and (len(row_range) > 1 or row_range[0].upper() == "ALL"):
-                        if datapoint[14] == "C" and (row_range[0] != "" or row_range[0].upper() == "ALL"):
-                            if len(row_range) == 1 and row_range[0].upper() == "ALL":
-                                for col in self.entrypoint_datapoints:
-                                    reg = re.search(datapoint[0:14] + "R....," + datapoint[14:],col)  # do for all rows if necessary
-                                    if reg:
-                                        new_list.append(reg.group(0))
-                            else:
-                                rows = []
-                                for r in row_range:
-                                    if len(r) - len(r.replace("-", "")) == 1:  # range
-                                        low, high = r.split("-")
-                                        rows.extend(list(df_datapoints[(df_datapoints['tabelcode'] == datapoint[0:13]) &
-                                                                        (df_datapoints['kolom'] == datapoint[14:]) &
-                                                                        (df_datapoints['rij'].str[-4:] >= low) &
-                                                                        (df_datapoints['rij'].str[-4:] <= high)
-                                                                        ].rij))
-                                    else:
-                                        if r.upper()[0] == 'R':
-                                            rows.extend([r.upper()])
-                                        else:
-                                            rows.extend([('R' + r)])
-                                for r in rows:
-                                    new_list.append(datapoint[0:14] + r + "," + datapoint[14:])
-                        #if datapoint[14] == "R" and (len(column_range) > 1 or column_range[0].upper() == "ALL"):
-                        if datapoint[14] == "R" and (column_range[0] != "" or column_range[0].upper() == "ALL"):
-                            if len(column_range) == 1 and column_range[0].upper() == "ALL":
-                                for col in self.entrypoint_datapoints:
-                                    reg = re.search(datapoint + ",C....", col)  # do for all columns if necessary
-                                    if reg:
-                                        new_list.append(reg.group(0))
-                            else:
-                                cols = []
-                                for c in column_range:
-                                    if len(c) - len(c.replace("-", "")) == 1:  # range
-                                        low, high = c.split("-")
-                                        cols.extend(list(df_datapoints[(df_datapoints['tabelcode'] == datapoint[0:13]) &
-                                                                        (df_datapoints['rij'] == datapoint[14:]) &
-                                                                        (df_datapoints['kolom'].str[-4:] >= low) &
-                                                                        (df_datapoints['kolom'].str[-4:] <= high)
-                                                                        ].kolom))
-                                    else:
-                                        if c.upper()[0] == 'C':
-                                            cols.extend([c.upper()])
-                                        else:
-                                            cols.extend([('C' + c)])
-                                for c in cols:
-                                    new_list.append(datapoint + "," + c)
-                        if new_list != []:
-                            expansion_dict[datapoint] = new_list
-                        else:
-                            datapoints_not_found.append(datapoint)
+                expansion_dict, datapoints_not_found = self.unpack_rows_columns(row_range, column_range, datapoints, df_datapoints)
                 if datapoints_not_found == []:
                     rule_expressions, invalid_expressions = self.process_rule(rule_original, rule_name, datapoints, expansion_dict, df_datapoints, parameters)
                     rules_expressions.extend(rule_expressions)
