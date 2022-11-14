@@ -35,7 +35,7 @@ def main(instance, output, verbose_labels):
 
     instance = instances[instance]
     instance_folder = join(INSTANCES_PATH, instance)
-    instance_files = [f for f in listdir(instance_folder) if isfile(join(instance_folder, f)) and f[-6:] == 'pickle' and f[0:2].lower() == 's.']
+    instance_files = [f for f in listdir(instance_folder) if isfile(join(instance_folder, f)) and f[-6:] == 'pickle' and ((f[0:2].lower() == 's.') or (f[0:4].lower() == 'ftk.'))]
 
     ### This does yet not include open axis tables
     # Loop over the files within the instance
@@ -52,11 +52,18 @@ def main(instance, output, verbose_labels):
         num_file = len(labels_file)
         
         # Determine the structure of the column labels
-        elements_labels = [(re.findall("([Ss].\d\d.\d\d.\d\d.\d\d),(.*?)$", lab) + [""])[0] for lab in labels_file]
-        tables_file = [el[0] for el in elements_labels]
-        datapoints_file = [el[1].replace(",", "") for el in elements_labels]
-        rows_file = [(re.findall("([Rr]\d\d\d\d)", el[1]) + [""])[0] for el in elements_labels]
-        cols_file = [(re.findall("([Cc]\d\d\d\d)", el[1]) + [""])[0] for el in elements_labels]
+        if file[0:2].lower() == 's.':
+            elements_labels = [(re.findall("([Ss].\d\d.\d\d.\d\d.\d\d),(.*?)$", lab) + [""])[0] for lab in labels_file]
+            tables_file = [el[0] for el in elements_labels]
+            datapoints_file = [el[1].replace(",", "") for el in elements_labels]
+            rows_file = [(re.findall("([Rr]\d\d\d\d)", el[1]) + [""])[0] for el in elements_labels]
+            cols_file = [(re.findall("([Cc]\d\d\d\d)", el[1]) + [""])[0] for el in elements_labels]
+        elif file[0:4].lower() == 'ftk.':
+            elements_labels = [(re.findall("([Ff][Tt][Kk]).([Tt]\d[A-Za-z]?),(.*?)$", lab) + [""])[0] for lab in labels_file]
+            tables_file = [el[1] for el in elements_labels]
+            datapoints_file = [el[2].replace(",", "") for el in elements_labels]
+            rows_file = [(re.findall("([Rr]\d\d\d)", el[2]) + [""])[0] for el in elements_labels]
+            cols_file = [(re.findall("([Cc]\d\d\d)", el[2]) + [""])[0] for el in elements_labels]
         master_instance += [tables_file[i] + ";" + datapoints_file[i] + ";" + rows_file[i] + ";" + cols_file[i] for i in range(num_file)]
 
     # Export as csv

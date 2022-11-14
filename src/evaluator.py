@@ -96,7 +96,7 @@ class Evaluator:
                 rule_original = rule_original.values[0]
             rule_original, datapoints = self.datapoints2pandas(rule_original)
             df_rules.at[row, 'datapoints'] = datapoints
-            df_rules.at[row, 'templates'] = list(set([datapoint[0:13].upper() for datapoint in datapoints]))
+            df_rules.at[row, 'templates'] = list(set([datapoint.split(",")[0] for datapoint in datapoints]))
             df_rules.loc[row, 'Formule_input'] = rule_original
 
         df_rules['error'] = ''  # error message
@@ -115,10 +115,12 @@ class Evaluator:
                 bool_wildcard = ",#" in datapoint
                 datapoint_orig = datapoint
                 datapoint = datapoint.replace(",#", "")
-                if datapoint[14] == "C" and (row_range[0] != "" or row_range[0].upper() == "ALL"):
+                datapoint_template = datapoint.split(",")[0]
+                datapoint_rc = ",".join(datapoint.split(",")[1:3])
+                if (datapoint_rc[0] == "C") and (row_range[0] != "" or row_range[0].upper() == "ALL"):
                     if len(row_range) == 1 and row_range[0].upper() == "ALL":
                         for col in self.entrypoint_datapoints:
-                            reg = re.search(datapoint[0:14] + "R....," + datapoint[14:],col)  # do for all rows if necessary
+                            reg = re.search(datapoint_template + ",R.{3,4}," + datapoint_rc,col)  # do for all rows if necessary
                             if reg:
                                 new_list.append(reg.group(0))
                     else:
@@ -126,10 +128,10 @@ class Evaluator:
                         for r in row_range:
                             if len(r) - len(r.replace("-", "")) == 1:  # range
                                 low, high = r.split("-")
-                                rows.extend(list(df_datapoints[(df_datapoints['tabelcode'] == datapoint[0:13]) &
-                                                                (df_datapoints['kolom'] == datapoint[14:]) &
-                                                                (df_datapoints['rij'].str[-4:] >= low) &
-                                                                (df_datapoints['rij'].str[-4:] <= high)
+                                rows.extend(list(df_datapoints[(df_datapoints['tabelcode'] == datapoint_template) &
+                                                                (df_datapoints['kolom'] == datapoint_rc) &
+                                                                (df_datapoints['rij'].str[-len(low):] >= low) &
+                                                                (df_datapoints['rij'].str[-len(high):] <= high)
                                                                 ].rij))
                             else:
                                 if r.upper()[0] == 'R':
@@ -137,11 +139,11 @@ class Evaluator:
                                 else:
                                     rows.extend([('R' + r)])
                         for r in rows:
-                            new_list.append(datapoint[0:14] + r + "," + datapoint[14:])
-                if datapoint[14] == "R" and (column_range[0] != "" or column_range[0].upper() == "ALL"):
+                            new_list.append(datapoint_template + "," + r + "," + datapoint_rc)
+                if (datapoint_rc[0] == "R") and (column_range[0] != "" or column_range[0].upper() == "ALL"):
                     if len(column_range) == 1 and column_range[0].upper() == "ALL":
                         for col in self.entrypoint_datapoints:
-                            reg = re.search(datapoint + ",C....", col)  # do for all columns if necessary
+                            reg = re.search(datapoint + ",C.{3,4}", col)  # do for all columns if necessary
                             if reg:
                                 new_list.append(reg.group(0))
                     else:
@@ -149,10 +151,10 @@ class Evaluator:
                         for c in column_range:
                             if len(c) - len(c.replace("-", "")) == 1:  # range
                                 low, high = c.split("-")
-                                cols.extend(list(df_datapoints[(df_datapoints['tabelcode'] == datapoint[0:13]) &
-                                                                (df_datapoints['rij'] == datapoint[14:]) &
-                                                                (df_datapoints['kolom'].str[-4:] >= low) &
-                                                                (df_datapoints['kolom'].str[-4:] <= high)
+                                cols.extend(list(df_datapoints[(df_datapoints['tabelcode'] == datapoint_template) &
+                                                                (df_datapoints['rij'] == datapoint_rc) &
+                                                                (df_datapoints['kolom'].str[-len(low):] >= low) &
+                                                                (df_datapoints['kolom'].str[-len(high):] <= high)
                                                                 ].kolom))
                             else:
                                 if c.upper()[0] == 'C':
@@ -185,11 +187,14 @@ class Evaluator:
                 valid_expression = True
                 for datapoint in datapoints:
                     if datapoint in expansion_dict.keys():
-                        datapoints_wildcard = [item for item in re.findall(r"(S\.\d\d\.\d\d\.\d\d\.\d\d,R\d\d\d\d,C\d\d\d\d)*", expansion_dict[datapoint][i]) if item != '']
+                        datapoints_wildcard = [item for item in re.findall(r"(S\.\d\d\.\d\d\.\d\d\.\d\d,R\d\d\d\d,C\d\d\d\d|T\d[A-Z]?,R\d\d\d,C\d\d\d)*", expansion_dict[datapoint][i]) if item != '']
                         for datapoint_wildcard in datapoints_wildcard:
-                            if len(df_datapoints[(df_datapoints['tabelcode'] == datapoint_wildcard[:13]) &
-                                                (df_datapoints['rij'] == datapoint_wildcard[14:19].upper()) &
-                                                (df_datapoints['kolom'] == datapoint_wildcard[20:25].upper())]) == 0:
+                            datapoint_template = datapoint_wildcard.split(",")[0]
+                            datapoint_row = datapoint_wildcard.split(",")[1]
+                            datapoint_col = datapoint_wildcard.split(",")[2]
+                            if len(df_datapoints[(df_datapoints['tabelcode'] == datapoint_template.upper()) &
+                                                (df_datapoints['rij'] == datapoint_row.upper()) &
+                                                (df_datapoints['kolom'] == datapoint_col.upper())]) == 0:
                                 valid_expression = False
                         expression = expression.replace(datapoint, expansion_dict[datapoint][i])
                 if valid_expression:

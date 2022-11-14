@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'data-quality-rules'
-copyright = u"2021, De Nederlandsche Bank"
+copyright = u"2022, De Nederlandsche Bank"
 author = u"De Nederlandsche Bank"
 
 # The version info for the project you're documenting, acts as replacement
