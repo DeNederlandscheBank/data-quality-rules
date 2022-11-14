@@ -38,6 +38,7 @@ To do an offline installation you need some files from the internet downloaded i
 
 * the zip files with the taxonomy and example instances from the EIOPA website (https://dev.eiopa.europa.eu/Taxonomy/Full/2.6.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.6.0_hotfix_with_External_Files.zip; and https://dev.eiopa.europa.eu/Taxonomy/Full/2.4.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.6.0.zip)
 
+* the zip files with the taxonomy and example instances from the DNB website (https://www.dnb.nl/media/fivpjdpj/vns_taxonomy_1-1-0.zip; and https://www.dnb.nl/media/o10oswji/vns_sample_instances_1-1-0.zip)
 
 
 Install data-quality-rules repository
@@ -77,17 +78,17 @@ Make sure you are in the root of the cloned project. Then install the project wi
 Copy taxonomy and instance files
 --------------------------------
 
-Copy the Solvency 2 XBRL taxonomy file and the Solvency 2 XBRL instance examples (both zip files) to the directory data/downloaded files.
+Copy the Solvency 2 and VNS XBRL taxonomy file and the Solvency 2 and VNS XBRL instance examples (both zip files) to the directory data/downloaded files.
 
 
 Taxonomy and example instance files
 ===================================
 
-For Solvency 2 execute (in the root of the project)::
+For Solvency 2 and VNS execute (in the root of the project)::
 
   python src/solvency2_data.py
 
-This downloads the Solvency 2 XBRL taxonomy and the corresponding example instance files and extracts them in the proper directories.
+This downloads the Solvency 2 and VNS XBRL taxonomy and the corresponding example instance files and extracts them in the proper directories.
 
 For FTK, execute (in the root of the project)::
 
