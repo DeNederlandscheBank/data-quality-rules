@@ -5,9 +5,6 @@ data-quality-rules
 .. image:: https://img.shields.io/github/release/DeNederlandscheBank/data-quality-rules.svg
            :target: https://github.com/DeNederlandscheBank/data-quality-rules/releases/
            :alt: Github release
-.. image:: https://img.shields.io/travis/DeNederlandscheBank/data-quality-rules.svg
-        :target: https://travis-ci.com/DeNederlandscheBank/data-quality-rules
-        :alt: Build Status
 .. image:: https://readthedocs.org/projects/data-quality-rules/badge/?version=master
         :target: https://data-quality-rules.readthedocs.io/en/latest/?badge=master
         :alt: Documentation Status
@@ -15,7 +12,7 @@ data-quality-rules
         :target: https://github.com/DeNederlandscheBank/data-quality-rules/blob/master/LICENSE
         :alt: License
 
-This is Data Quality Rules repository for the Solvency 2 and the Financial Assessment Framework (FTK) quantitative reporting templates (QRTs). In this repository De Nederlandsche Bank (DNB) publishes additional validation rules to improve the data quality of the QRTs. This repository can be used by entities who submit supervisory reports to DNB.
+This is Data Quality Rules repository for the Solvency 2, the Verzekeraars Nationale Staten (VNS) and the Financial Assessment Framework (FTK) quantitative reporting templates (QRTs). In this repository De Nederlandsche Bank (DNB) publishes additional validation rules to improve the data quality of the QRTs. This repository can be used by entities who submit supervisory reports to DNB.
 
 The use of the validation rules published in this repository is not mandatory. You may choose to submit supervisory reports without prior evaluation of these validation rules. If you choose to use the validation rules published in this repository then you cannot derive any rights from this.
 
@@ -31,7 +28,7 @@ Features
 
 Here is what the package contains:
 
-* (Statistical) validation rules for Solvency 2 and FTK
+* (Statistical) validation rules for Solvency 2, VNS and FTK
 
 * Source code to extract csv- and Pandas pickle-files from XBRL instance files
 

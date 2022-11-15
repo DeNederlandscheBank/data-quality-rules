@@ -2,7 +2,7 @@
 Usage
 =====
 
-The Data Quality Rules repository allows you to evaluate the data quality of Solvency 2 supervisory reports and FTK supervisory reports before you submit them to DNB. You can either apply the rules directly to the XBRL-instance that you want to submit to DNB, or you can apply the rules at an earlier stage in your reporting process.
+The Data Quality Rules repository allows you to evaluate the data quality of Solvency 2, VNS and FTK supervisory reports before you submit them to DNB. You can either apply the rules directly to the XBRL-instance that you want to submit to DNB, or you can apply the rules at an earlier stage in your reporting process.
 
 If you want to apply the rules on internal data sets, then you have to make sure that the format of the data satisfies the data format requirement set out in :ref:`Data format requirements`.
 
@@ -98,10 +98,23 @@ Solvency 2
 
 - the file names of the individual templates is the template name plus an extension (.csv or .pickle), for example S.01.02.07.01.pickle;
 
-- the file name of all closed axes templates combined is the instance file name plus an extension, for example qrs_240_instance.pickle (the example instance for qrs);
+- the file name of all closed axes templates combined is the instance file name plus an extension, for example qrs_260_instance.pickle (the example instance for qrs);
 
 - the column names and the index names for all templates have the following format: {reporting template name},R????,C???? or {reporting template name},C????, depending on the definition; for example S.02.01.02.01,R0030,C0010 or S.06.02.01.01,C0040;
- 
+
+
+VNS
+---
+
+- the template name follows the standard VNS code with prefix FTK, for example FTK.T2A or FTK.T4B;
+
+- the file names of the individual templates is the template name plus an extension (.csv or .pickle), for example FTK.T2A.pickle;
+
+- the file name of all closed axes templates combined is the instance file name plus an extension, for example Verzekeraars Nationale Staten Sample Fixed Interval Instance VNS-JR 1.pickle
+
+- the column names and the index names for all templates have the following format: {reporting template name},R???,C???; for example T2A,R030,C010 or T0,R010,C010;
+
+
 FTK
 ---
 

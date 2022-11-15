@@ -22,6 +22,12 @@ from sys import platform as _platform
 make_folder = True
 
 zipfilesets = {
+               'Nationale Staten 1.1.0':
+                    {'url_taxo': 'https://www.dnb.nl/media/fivpjdpj/',
+                     'taxonomy': 'vns_taxonomy_1-1-0.zip',
+                     'url_inst': 'https://www.dnb.nl/media/o10oswji/',
+                     'instances': 'vns_sample_instances_1-1-0.zip',
+                     'extension': ''},
                'Solvency2 2.6.0':
                     {'url_taxo': 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.6.0/S2/',
                      'taxonomy': 'EIOPA_SolvencyII_XBRL_Taxonomy_2.6.0_hotfix_with_External_Files.zip',
@@ -69,7 +75,10 @@ def main():
             logger.info("Moving example instance files to %s", path_zipfile_inst)
             move_files(join(path_zipfiles, zipfileset['extension']), path_zipfile_inst)
             logger.info("Cleaning up files in %s", path_zipfiles)
-            shutil.rmtree(winapi_path(join(path_zipfiles, zipfileset['instances'][:-4])))
+            try:
+                shutil.rmtree(winapi_path(join(path_zipfiles, zipfileset['instances'][:-4])))
+            except:
+                logger.warning(".. files in %s not deleted", path_zipfiles)
 
         if not os.path.isfile(join(path_zipfile_taxo, zipfileset['taxonomy'])):
             if os.path.isfile(join(path_zipfiles, zipfileset['taxonomy'])):
@@ -128,7 +137,9 @@ def extract(url_inst, name_zipfile, path_zipfile):
         if ('ars' in file.lower()) or \
            ('qrs' in file.lower()) or \
            ('arg' in file.lower()) or \
-           ('qrg' in file.lower()):
+           ('qrg' in file.lower()) or \
+           ('qfs' in file.lower()) or \
+           ('qfg' in file.lower()):
             try:
                 z.extract(member=file, path=path_zipfile)
             except:

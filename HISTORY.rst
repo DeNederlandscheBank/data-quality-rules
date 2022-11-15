@@ -65,3 +65,14 @@ History
 
 * Some minor bug fixes
 * Release version for DQR 2.0
+
+0.6.0 (2022-11-14)
+------------------
+
+* Added generator of closed axis datapoints
+* Extended pattern functionalities for SUM, SUBSTR, (NOT) IN
+* Included vector functionality with wildcard #
+* Updated documentation on readthedocs.org
+* Updated package requirements
+* Updated Solvency 2 taxonomy 2.6 and VNS taxonomy 1.1.0, with example instance files
+* Updated DNB ruleset: 2022_02_23_set_aanvullende_controleregels_solvency2

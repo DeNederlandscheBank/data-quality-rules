@@ -45,7 +45,7 @@ class GenerateCSVTables(object):
         self.lang = lang
         self.verbose_labels = verbose_labels
         self.processedXbrl = ProcessXbrl(modelXbrl = modelXbrl, lang = lang)
-        self.FTK = False
+        self.national = False
 
         # create a quick way to find the labels from the taxonomy
         self.labels = []
@@ -117,8 +117,8 @@ class GenerateCSVTables(object):
                     for item in list(self.modelTable.modelXbrl.relationshipSet((XbrlConst.tableBreakdown)).fromModelObject(self.modelTable)):
                         if len(item.toModelObject.definitionLabelsView) == 4:
                             xlinkLabel = item.toModelObject.xlinkLabel
-                            if self.FTK:
-                                self.index_names[xlinkLabel] = "FTK." + self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode)
+                            if self.national:
+                                self.index_names[xlinkLabel] = self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode)
                             else:
                                 self.index_names[xlinkLabel] = self.tableLabel + "," + item.toModelObject.genLabel(lang = self.lang, strip = True, role = euRCcode)
                             self.z_axis = True
@@ -135,8 +135,8 @@ class GenerateCSVTables(object):
                 if not os.path.exists(path_name):
                     os.makedirs(path_name)
                     self.modelXbrl.modelManager.addToLog(_(" ... directory {0} created").format(path_name))
-                if self.FTK:
-                    file_name = os.path.join(path_name, "FTK." + self.tableLabel)
+                if self.national:
+                    file_name = os.path.join(path_name, self.tableLabel)
                 else:
                     file_name = os.path.join(path_name, self.tableLabel)
                 self.modelXbrl.modelManager.addToLog(_(" ... saved output {0}").format(file_name + '.csv and .pickle'))
@@ -336,8 +336,8 @@ class GenerateCSVTables(object):
         # put value in dataframe with proper indices and columns
         if self.z_axis:
             if len(label_x)==3:
-                column_name = "FTK." + str(self.tableLabel) + ",C"+ str(label_x).upper()
-                self.FTK = True
+                column_name = str(self.tableLabel) + ",C"+ str(label_x).upper()
+                self.national = True
             else:
                 column_name = str(self.tableLabel) + ","+ str(label_x).upper()
 
@@ -352,8 +352,8 @@ class GenerateCSVTables(object):
 
         else:
             if len(label_x)==3:
-                column_name = "FTK." + str(self.tableLabel) + ",R" + str(label_y).upper() + ",C" + str(label_x).upper()
-                self.FTK = True
+                column_name = str(self.tableLabel) + ",R" + str(label_y).upper() + ",C" + str(label_x).upper()
+                self.national = True
             else:
                 column_name = str(self.tableLabel) + "," + str(label_y).upper() + ","+ str(label_x).upper()
             df.loc[tuple([reporting_entity, reporting_period]), column_name] = value
