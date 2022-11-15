@@ -18,7 +18,7 @@ setup(
 		'Jinja2<3.1.0',
 		'jupyter',
 		'lxml>=3.4.4',
-		'numpy==1.19.5',
+		'numpy==1.22.0',
 		'openpyxl==3.0.5',
 		'pandas==1.1.4',
 		'python-dotenv>=0.5.1',
