@@ -90,7 +90,7 @@ def main():
             if os.path.isfile(join(path_zipfiles, zipfileset['taxonomy'])):
                 logger.info('Zip file %s exists, using this one' % str(zipfileset['taxonomy']))
             else:
-                logger.info('Zip file %s does not exists, downloading from Internet' % str(zipfileset['taxonomy']))
+                logger.info('Zip file %s does not exist, downloading from Internet' % str(zipfileset['taxonomy']))
                 r = requests.get(join(zipfileset['url_taxo'], zipfileset['taxonomy']))
                 output = open(join(path_zipfiles, zipfileset['taxonomy']), "wb")
                 output.write(r.content)
@@ -133,7 +133,7 @@ def extract(url_inst, name_zipfile, path_zipfile):
         logger.info('Zip file %s exists, using this one' % str(name_zipfile))
         z = ZipfileLongPaths(join(path_zipfile, name_zipfile))
     else:
-        logger.info('Zip file %s does not exists, downloading from Internet' % str(name_zipfile))
+        logger.info('Zip file %s does not exist, downloading from Internet' % str(name_zipfile))
         r = requests.get(join(url_inst, name_zipfile))
         output = open(join(path_zipfile, name_zipfile), "wb")
         output.write(r.content)
