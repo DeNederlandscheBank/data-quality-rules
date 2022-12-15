@@ -12,7 +12,7 @@ You can run DNBs additional Rules for the following Solvency II reports
 
 - Quarterly Reporting Solo (QRS)
 
-The command line interface will ask the entrypoint (ARS or QRS), the directory where the reports (in pickle-files) are stored, the output type (confirmation, exceptions or both) and the output directory.  You can also run the script with command line arguments --entrypoint, --report_dir, --output_type and --output_dir.
+The command line interface will ask the entrypoint (ARS or QRS), the directory where the reports (in pickle-files) are stored, the output type (confirmation, exceptions or both) and the output directory. You can also run the script with command line arguments --entrypoint, --report_dir, --output_type and --output_dir.
 
 We distinguish 2 types of tables
 

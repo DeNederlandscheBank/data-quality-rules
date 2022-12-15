@@ -76,3 +76,9 @@ History
 * Updated package requirements
 * Updated Solvency 2 taxonomy 2.6 and VNS taxonomy 1.1.0, with example instance files
 * Updated DNB ruleset: 2022_02_23_set_aanvullende_controleregels_solvency2
+
+0.6.1 (2022-12-15)
+------------------
+
+* Updated Solvency 2 taxonomy 2.7 and example instance files
+* Included DNB ruleset: 2022_02_23_set_aanvullende_controleregels_solvency2

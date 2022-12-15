@@ -5,7 +5,7 @@ Authors
 Development Lead
 
 | Willem Jan Willemse <w.j.willemse@dnb.nl>
-| Expert Centre on Data Analysis & Operational Management
+| Expert Centre on Data, Algorithms & Business models
 | Division Insurance Supervision
 | De Nederlandsche Bank (DNB)
 

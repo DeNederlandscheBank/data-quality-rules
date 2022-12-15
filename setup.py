@@ -4,7 +4,7 @@ setup(
     name='dqr',
     packages=find_packages(include = ['src', 'src.*']),
     include_package_data=True,    
-    version='0.6.0',
+    version='0.6.1',
     description='Data Quality Rules for Solvency 2, VNS and FTK',
     author='DeNederlandscheBank',
     license='MIT/X',

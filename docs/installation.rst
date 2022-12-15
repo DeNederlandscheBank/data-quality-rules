@@ -36,7 +36,7 @@ To do an offline installation you need some files from the internet downloaded i
 
 * the zip file with the data-quality-rules repository from https://github.com/DeNederlandscheBank/data-quality-rules.git;
 
-* the zip files with the taxonomy and example instances from the EIOPA website (https://dev.eiopa.europa.eu/Taxonomy/Full/2.6.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.6.0_hotfix_with_External_Files.zip; and https://dev.eiopa.europa.eu/Taxonomy/Full/2.6.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.6.0.zip)
+* the zip files with the taxonomy and example instances from the EIOPA website (https://dev.eiopa.europa.eu/Taxonomy/Full/2.7.0/S2/EIOPA_SolvencyII_XBRL_Taxonomy_2.7.0_hotfix_with_External_Files.zip; and https://dev.eiopa.europa.eu/Taxonomy/Full/2.7.0/S2/EIOPA_SolvencyII_XBRL_Instance_documents_2.7.0.zip)
 
 * the zip files with the taxonomy and example instances from the DNB website (https://www.dnb.nl/media/fivpjdpj/vns_taxonomy_1-1-0.zip; and https://www.dnb.nl/media/o10oswji/vns_sample_instances_1-1-0.zip)
 

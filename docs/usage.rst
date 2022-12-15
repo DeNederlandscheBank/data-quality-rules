@@ -98,7 +98,7 @@ Solvency 2
 
 - the file names of the individual templates is the template name plus an extension (.csv or .pickle), for example S.01.02.07.01.pickle;
 
-- the file name of all closed axes templates combined is the instance file name plus an extension, for example qrs_260_instance.pickle (the example instance for qrs);
+- the file name of all closed axes templates combined is the instance file name plus an extension, for example qrs_270_instance.pickle (the example instance for qrs);
 
 - the column names and the index names for all templates have the following format: {reporting template name},R????,C???? or {reporting template name},C????, depending on the definition; for example S.02.01.02.01,R0030,C0010 or S.06.02.01.01,C0040;
 
