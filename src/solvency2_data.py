@@ -28,6 +28,12 @@ zipfilesets = {
                      'url_inst': 'https://www.dnb.nl/media/o10oswji/',
                      'instances': 'vns_sample_instances_1-1-0.zip',
                      'extension': ''},
+                'Solvency2 2.7.0':
+                    {'url_taxo': 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.7.0/S2/',
+                     'taxonomy': 'EIOPA_SolvencyII_XBRL_Taxonomy_2.7.0_hotfix_with_External_Files.zip',
+                     'url_inst': 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.7.0/S2/',
+                     'instances': 'EIOPA_SolvencyII_XBRL_Instance_documents_2.7.0.zip',
+                     'extension': join('EIOPA_SolvencyII_XBRL_Instance_documents_2.7.0', 'random')},
                'Solvency2 2.6.0':
                     {'url_taxo': 'https://dev.eiopa.europa.eu/Taxonomy/Full/2.6.0/S2/',
                      'taxonomy': 'EIOPA_SolvencyII_XBRL_Taxonomy_2.6.0_hotfix_with_External_Files.zip',
@@ -84,7 +90,7 @@ def main():
             if os.path.isfile(join(path_zipfiles, zipfileset['taxonomy'])):
                 logger.info('Zip file %s exists, using this one' % str(zipfileset['taxonomy']))
             else:
-                logger.info('Zip file %s does not exists, downloading from Internet' % str(zipfileset['taxonomy']))
+                logger.info('Zip file %s does not exist, downloading from Internet' % str(zipfileset['taxonomy']))
                 r = requests.get(join(zipfileset['url_taxo'], zipfileset['taxonomy']))
                 output = open(join(path_zipfiles, zipfileset['taxonomy']), "wb")
                 output.write(r.content)
@@ -127,7 +133,7 @@ def extract(url_inst, name_zipfile, path_zipfile):
         logger.info('Zip file %s exists, using this one' % str(name_zipfile))
         z = ZipfileLongPaths(join(path_zipfile, name_zipfile))
     else:
-        logger.info('Zip file %s does not exists, downloading from Internet' % str(name_zipfile))
+        logger.info('Zip file %s does not exist, downloading from Internet' % str(name_zipfile))
         r = requests.get(join(url_inst, name_zipfile))
         output = open(join(path_zipfile, name_zipfile), "wb")
         output.write(r.content)

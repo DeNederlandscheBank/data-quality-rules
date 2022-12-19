@@ -37,6 +37,11 @@ dist/
 /data/documentation/*
 !/data/documentation/.gitkeep
 
+# keep DNB rulesets
+!/data/downloaded files/2020-01-09 Set aanvullende controleregels Solvency II_tcm46-386880.xlsx
+!/data/downloaded files/2020-01-22 Set aanvullende controleregels Solvency II_tcm46-387021.xlsx
+!/data/downloaded files/2022_02_23_set_aanvullende_controleregels_solvency2.xlsx
+
 # exclude test results
 /tests/data/test_instances/actual/*
 !/tests/data/test_instances/actual/.gitkeep
