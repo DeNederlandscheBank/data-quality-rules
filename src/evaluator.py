@@ -60,7 +60,7 @@ class Evaluator:
     def adjust_sum(self, s):
         """Adjust SUM by adding additional parenthesis""" 
         for item in re.findall(r"(SUM\s?\()(\(?.*\).*?\)?)", s):
-            s = s.replace("".join(item),item[0] + "(" + item[1] + ")")
+            s = s.replace("".join(item),item[0].lower() + "(" + item[1] + ")")
         return s
 
     def preprocess_pattern(self, pattern):
